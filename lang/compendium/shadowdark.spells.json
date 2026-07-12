@@ -1,0 +1,644 @@
+{
+    "label": "Spells",
+    "mapping": {
+        "description": "system.description",
+        "name": "name"
+    },
+    "entries": {
+        "0Gp5pSzPcelJVp3T": {
+            "description": "<p>You move and shape water. You can cause a section of water up to 100 feet in width and depth to change shape, defy gravity, or flow in a different direction.</p>",
+            "name": "Control Water"
+        },
+        "0VCMisYBNpLkx28M": {
+            "description": "<p>You magically beguile one humanoid of LV 2 or less within near range, who regards you as a friend for the duration.</p><p>The spell ends if you or your allies do anything harmful to the target.</p><p>The target knows it was magically charmed after the spell ends.</p><p>Roll [[/r 1d8]] to determine amount of days effective</p><p>@UUID[Compendium.shadowdark.spell-effects.Z0YwWUGs3WYC6OGn]{Spell Effect: Charm Person}</p>",
+            "name": "Charm Person"
+        },
+        "1dQg691JnfczSzIe": {
+            "description": "<p>You throw the divining bones or peer into the blackness between the stars, seeking a portent.</p><p>You can ask the GM one yes or no question. The GM truthfully answers \"yes\" or \"no.\" </p><p>If you cast this spell more than once in 24 hours, treat a failed spellcasting check for it as a critical failure, instead.</p>",
+            "name": "Divination"
+        },
+        "1ZAZQsFvPBEZPkVP": {
+            "description": "<p>You transform a creature you touch into another natural creature you choose of equal or smaller size. Any gear the target carries melds into its new form.</p><p>The target gains the creature's physical statistics, but it retains its non-physical statistics.</p><p>If the target goes to 0 hit points, it reverts to its true form at half its prior hit points.</p><p>You can target any willing creature with this spell, or an unwilling creature whose level is less than or equal to half your level rounded down (minimum 1).</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.Hc3xUBBlZLxWNKYV]{Spell Effect: Polymorph}</p>",
+            "name": "Polymorph"
+        },
+        "3U4gQZLbhYtkEcej": {
+            "description": "<p>A dead body you touch answers your questions in a distant, wheezing voice. </p><p>You can ask the dead body up to three yes or no questions (one at a time). The GM truthfully answers \"yes\" or \"no\" to each. </p><p>If you cast this spell more than once in 24 hours, treat a failed spellcasting check for it as a critical failure, instead.</p>",
+            "name": "Speak with Dead"
+        },
+        "3yI7Ejl7UrYMMdTe": {
+            "description": "<p>You interpret the meaning of supernatural portents and omens. Ask the GM one question about a specific course of action. The GM says whether the action will lead to “weal” or “woe.”</p>",
+            "name": "Augury"
+        },
+        "524WqghzcYDMxaPo": {
+            "description": "<p>You transform yourself and any gear you carry into another natural creature you've seen of level 10 or less. You assume the creature's physical statistics, but you retain your non-physical statistics (such as INT, WIS, and CHA).</p><p>If you go to 0 HP while under the effects of this spell, you revert to your true form at 1 HP.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.F89CJeindj8k8oiC]{Spell Effect: Shapechanger}</p>",
+            "name": "Shapechanger"
+        },
+        "9MlXio0rabdfEgIr": {
+            "description": "<p>You magically beguile one humanoid of LV 2 or less within near range, who regards you as a friend for the duration.</p><p>The spell ends if you or your allies do anything harmful to the target.</p><p>The target knows it was magically charmed after the spell ends.</p><p>Roll [[/r 1d8]] to determine amount of days effective</p><p>@UUID[Compendium.shadowdark.spell-effects.Z0YwWUGs3WYC6OGn]{Spell Effect: Charm Person}</p>",
+            "name": "Charm Person"
+        },
+        "aAtNTK2HLJ77HB3z": {
+            "description": "<p>You interpret the meaning of supernatural portents and omens. Ask the GM one question about a specific course of action. The GM says whether the action will lead to “weal” or “woe.”</p>",
+            "name": "Augury"
+        },
+        "Acid Arrow": {
+            "description": "<p>You conjure a corrosive bolt that hits one foe, dealing [[/r 1d6]] damage a round. The bolt remains in the target for as long as you focus.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.NXZlCiZI9X3AJc4m]{Spell Effect: Acid Arrow}</p>",
+            "name": "Acid Arrow"
+        },
+        "Alarm": {
+            "description": "<p>You touch one object, such as a door threshold, setting a magical alarm on it.</p><p>If any creature you do not designate while casting the spell touches or crosses past the object, a magical bell sounds in your head.</p>",
+            "name": "Alarm"
+        },
+        "Anathema": {
+            "description": "<p>All allies revile and abandon the creature you touch for 1 day.</p><p>Each time you or your allies harm the target, its former allies may pass a [[check 15 wis]] check to end the effects of the spell.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.vApjjHkL9nghvbQT]{Spell Effect: Anathema}</p>",
+            "name": "Anathema"
+        },
+        "Animate Dead": {
+            "description": "<p>You touch one humanoid’s remains, and it rises as a zombie or skeleton under your control. </p><p>The remains must have at least three limbs and its head intact. The undead creature acts on your turn. After 1 day, the creature collapses into grave dust.</p>",
+            "name": "Animate Dead"
+        },
+        "Antimagic Shell": {
+            "description": "<p>An invisible, near-sized cube of null-magic appears centered on you. </p><p>Within the cube, no spells can be cast. Magic items and spells have no effect in the zone, and no magic can enter. </p><p>The cube moves with you. Spells such as dispel magic have no effect on it. </p><p>Another antimagic shell does not affect this one.</p>",
+            "name": "Antimagic Shell"
+        },
+        "Arcane Eye": {
+            "description": "<p>You conjure an invisible, grapesized eye within range. </p><p>You can see through the eye. It can see in the dark out to near range, fly near on your turn, and squeeze through openings as narrow as a keyhole.</p>",
+            "name": "Arcane Eye"
+        },
+        "b1ZHAbGQRFPqgLMv": {
+            "description": "<p>You transform a creature you touch into another natural creature you choose of equal or smaller size. Any gear the target carries melds into its new form.</p><p>The target gains the creature's physical statistics, but it retains its non-physical statistics.</p><p>If the target goes to 0 hit points, it reverts to its true form at half its prior hit points.</p><p>You can target any willing creature with this spell, or an unwilling creature whose level is less than or equal to half your level rounded down (minimum 1).</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.Hc3xUBBlZLxWNKYV]{Spell Effect: Polymorph}</p>",
+            "name": "Polymorph"
+        },
+        "Beguile": {
+            "description": "<p>You conjure a convincing visible and audible illusion within range. </p><p>Creatures who perceive the illusion react to it as though it were real, although it can't cause actual harm. </p><p>Touching the illusion instantly reveals its false nature. </p><p>You may force a creature who interacts with the illusion to make a [[check 15 wis]] check. If the creature fails, it is enchanted by the illusion for the spell's duration and seeks to protect it.</p>",
+            "name": "Beguile"
+        },
+        "Bless": {
+            "description": "<p>One creature you touch gains a luck token.</p>",
+            "name": "Bless"
+        },
+        "Blind/Deafen": {
+            "description": "<p>You utter a divine censure, blinding or deafening one creature you can see in range. The creature has disadvantage on tasks requiring the lost sense.</p><p>@UUID[Compendium.shadowdark.spell-effects.SOkcvkzrGMGQKhmk]{Spell Effect: Blind}</p><p>@UUID[Compendium.shadowdark.spell-effects.aAdqy5QwVJrT8JWE]{Spell Effect: Deaf}</p>",
+            "name": "Blind/Deafen"
+        },
+        "Bogboil": {
+            "description": "<p>You turn a near-sized cube of ground within range into a muddy, boiling bog of quicksand.</p><p>A creature stuck in the bog can’t move and must succeed on a Dexterity check vs. your spellcasting check to free itself.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.VOx6yLlQ23XwVvuG]{Spell Effect: Bogboil}</p>",
+            "name": "Bogboil"
+        },
+        "Broomstick": {
+            "description": "<p>You conjure a flying broomstick in your hand.</p><p>The broomstick's rider can fly a near distance each round and can hover in place.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.23KrUIOKwPNwVSCh]{Spell Effect: Broomstick}</p>",
+            "name": "Broomstick"
+        },
+        "Burning Hands": {
+            "description": "<p>You spread your fingers with thumbs touching, unleashing a circle of flame that fills a close area around where you stand.</p><p>Creatures within the area of effect take [[/r 1d6]] damage.</p><p>Unattended flammable objects ignite.</p>",
+            "name": "Burning Hands"
+        },
+        "Cacklerot": {
+            "description": "<p>One target you touch of LV 4 or less collapses helplessly with disturbing, pained laughter for the spell's duration.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.9E4RVp3xfAK1uxrl]{Spell Effect: Cacklerot}</p>",
+            "name": "Cacklerot"
+        },
+        "Cast Out": {
+            "description": "<p>You turn a creature aside, throwing it out of your presence.</p><p>Choose a creature you can see. For the spell's duration, that creature can't come within near range of you. It can still attack you from outside of near range.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.8vSJhm0X9PRdKTyX]{Spell Effect: Cast Out}</p>",
+            "name": "Cast Out"
+        },
+        "Cat's Eye": {
+            "description": "<p>Your irises grow to fill your eyes and your pupils turn into black, vertical slits. You can see invisible creatures and secret doors for the spell's duration.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.jKkFbA7VzDfOKvN5]{Spell Effect: Cat's Eye}</p>",
+            "name": "Cat's Eye"
+        },
+        "Cauldron": {
+            "description": "<p>You conjure a bubbling cauldron next to you. It can produce one of the following effects: </p><p>• Any broken mundane item placed inside the cauldron is repaired. </p><p>• A fat, croaking toad leaps out and follows your instructions for the next 3 rounds. </p><p>• You can place up to 3 item slots of items inside the cauldron. The cauldron expels these items the next time you cast this spell (expelling items counts as the cauldron's single effect).</p>",
+            "name": "Cauldron"
+        },
+        "CH5fnXxghhGQlr7h": {
+            "description": "<p>For the spell’s duration, chaotic beings have disadvantage on attack rolls and hostile spellcasting checks against the target. These beings also can’t possess, compel, or beguile it.</p><p>When cast on an already-possessed target, the possessing entity makes a CHA check vs. the last spellcasting check. On a failure, the entity is expelled.</p><p>@UUID[Compendium.shadowdark.spell-effects.H7v5Izebo8O45DXB]{Spell Effect: Protection From Evil}</p>",
+            "name": "Protection From Evil"
+        },
+        "Chant": {
+            "description": "<p>You begin an unearthly chant that lifts your vision beyond its ordinary limitations.</p><p>For the spell's duration, you can see all invisible and hidden things as though they were plainly visible. This spell does not allow you to see in a way that you could not normally, such as in darkness or through walls.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.ZLO5oq3gTJ762o3F]{Spell Effect: Chant}</p>",
+            "name": "Chant"
+        },
+        "Cleansing Weapon": {
+            "description": "<p>One weapon you touch is wreathed in purifying flames. It deals an additional [[/r 1d4]] damage ([[/r 1d6]] vs. undead) for the duration.</p><p>@UUID[Compendium.shadowdark.spell-effects.7hKYL9hdnsvCUM9c]{Spell Effect: Cleansing Weapon}</p>",
+            "name": "Cleansing Weapon"
+        },
+        "Cloak of Night": {
+            "description": "<p>Your wrap yourself in a swirling cloak of shadows. For the spell's duration, your armor class becomes 17 (20 on a critical spellcasting check).</p><p>You have advantage on Dexterity checks to sneak and hide for the spell's duration.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.3viSgI4JpKsXdaFd]{Spell Effect: Cloak of Night}</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.vP9UrCnOXOe2ViZU]{Spell Effect: Cloak of Night (Critical)}</p>",
+            "name": "Cloak of Night"
+        },
+        "Cloud Kill": {
+            "description": "<p>A putrid cloud of yellow poison fills a near-sized cube within range. It spreads around corners. </p><p>Creatures inside the cloud are blinded and take [[/r 2d6]] damage at the beginning of their turns. </p><p>A creature of LV 9 or less that ends its turn fully inside the cloud dies.</p>",
+            "name": "Cloud Kill"
+        },
+        "Command": {
+            "description": "<p>You issue a verbal command to one creature in range who can understand you. The command must be one word, such as “kneel.” The target obeys the command for as long as you focus.</p><p>If your command is ever directly harmful to the creature, it may make a Charisma check vs. your last spellcasting check. On a success, the spell ends.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.y7UlIRecQ47S8qCy]{Spell Effect: Command}</p>",
+            "name": "Command"
+        },
+        "Commune": {
+            "description": "<p>You seek your god's counsel. Ask the GM up to three yes or no questions. The GM truthfully answers \"yes\" or \"no\" to each. </p><p>If you cast this spell more than once in 24 hours, treat a failed spellcasting check for it as a critical failure, instead.</p>",
+            "name": "Commune"
+        },
+        "Confusion": {
+            "description": "<p>You mesmerize one creature you can see in range. The target can't take actions, and it moves in a random direction on its turn. If the target is LV 9+, it may make a WIS check vs. your last spellcasting check at the start of its turn to end the spell.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.T0Lrknq9zQry0wwR]{Spell Effect: Confusion}</p>",
+            "name": "Confusion"
+        },
+        "Coven": {
+            "description": "<p>You call upon the magic you share with your fellow witches. </p><p>You regain the use of one tier 3 spell or lower that you can no longer cast for the day. </p><p>After successfully casting this spell, you can't do so again until you complete a rest.</p>",
+            "name": "Coven"
+        },
+        "Create Undead": {
+            "description": "<p>You conjure a vengeful undead creature to do your bidding. </p><p>When you cast this spell, you choose to summon either a wight or wraith. It appears next to you and is under your control. </p><p>The undead creature acts on your turn. After 1 day, it melts away into smoke.</p>",
+            "name": "Create Undead"
+        },
+        "Cure Wounds": {
+            "description": "<p>Your touch restores ebbing life.</p><p>Roll a number of d6s equal to [[/roll (1 + (floor(@level.value/2)))d6]]{1 + half your level (rounded down)}.</p><p>One target you touch regains that many hit points.</p>",
+            "name": "Cure Wounds"
+        },
+        "Curse": {
+            "description": "<p>A creature you touch is afflicted by one of the following curses: </p><p>• Hideous boils and warts </p><p>• All food tastes of ash </p><p>• Voice becomes shrill </p><p>• Disturbing nightmares </p><p>• Always lose at gambling </p><p>• An ally turns into an enemy </p><p>• Fear of something ordinary</p>",
+            "name": "Curse"
+        },
+        "Detect Magic": {
+            "description": "<p>You can sense the presence of magic within near range for the spell's duration. If you focus for two rounds, you discern its general properties. Full barriers block this spell.</p><p>@UUID[Compendium.shadowdark.spell-effects.74WjFjHmUmLAiNGC]{Spell Effect: Detect Magic}</p>",
+            "name": "Detect Magic"
+        },
+        "Detect Thoughts": {
+            "description": "<p>You peer into the mind of one creature you can see within the spell’s range.</p><p>Each round, you learn the target’s immediate thoughts.</p><p>On its turn, the target makes a Wisdom check opposed by your last spellcasting check. If the target succeeds, it notices your presence in its mind and the spell ends.</p>",
+            "name": "Detect Thoughts"
+        },
+        "Disintegrate": {
+            "description": "<p>A green ray shoots from your finger and turns a creature or object into ash. </p><p>A target creature of LV 5 or less instantly dies. If it is LV 6+, it takes 3d8 damage, instead. </p><p>A non-magical object up to the size of a large tree is destroyed.</p>",
+            "name": "Disintegrate"
+        },
+        "Dispel Magic": {
+            "description": "<p>End one spell that affects one target you can see in range.</p>",
+            "name": "Dispel Magic"
+        },
+        "Divine Vengeance": {
+            "description": "<p>You become the divine avatar of your god's wrath, wreathed in holy flames or a black aura of smoldering corruption.</p><p>For the spell's duration, you can fly a near distance, your weapons are magical, and you have a +4 bonus to your weapon attacks and damage.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.o74l0TnCb0E2fAKp]{Spell Effect: Divine Vengeance}</p>",
+            "name": "Divine Vengeance"
+        },
+        "Dominion": {
+            "description": "<p>Mighty beings come to your aid. </p><p>The beings must have a combined total of 16 levels or less. Chaotic PCs summon demons/devils, and lawful or neutral PCs summon angels. </p><p>The beings act of free will to aid you on your turn. After 10 rounds, they return to their realms. </p><p>You cannot cast this spell again until you complete penance.</p>",
+            "name": "Dominion"
+        },
+        "Dreamwalk": {
+            "description": "<p>You and any willing creatures you choose within close range step into the dream of a sleeping creature you name that is on your same plane. </p><p>You and anyone traveling with you can step out of the creature, appearing next to it as if having teleported there.</p>",
+            "name": "Dreamwalk"
+        },
+        "ed4uEm53IRBonnxY": {
+            "description": "<p>You fold space and time, transporting yourself and all willing creatures within close range to a location on another plane of your choice. </p><p>Unless you have been to your intended location before, you appear in a random place on the destination plane.</p>",
+            "name": "Plane Shift"
+        },
+        "eKnWZ0LDw93oEqFt": {
+            "description": "<p>A creature you touch becomes invisible for the spell’s duration.</p><p>The spell ends if the target attacks or casts a spell.</p><p>@UUID[Compendium.shadowdark.spell-effects.SMXbMbXcj5hLvTjY]{Spell Effect: Invisibility}</p>",
+            "name": "Invisibility"
+        },
+        "Enfeeble": {
+            "description": "<p>A creature you touch has a random stat reduced to 3 (-4) for one week. Roll a [[/r d6]] to determine which stat:</p><p>1. Strength, 2. Dexterity, 3. Constitution, 4. Intelligence, 5. Wisdom, 6. Charisma.</p><p>If you fail the spellcasting check, you have a random stat reduced to 3 for a week, instead.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.Ya5tD4kFDne19zZO]{Spell Effect: Enfeeble (STR)}</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.1PzBYve4rd4MH6K2]{Spell Effect: Enfeeble (DEX)}</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.Eojo6v3WsiHEDcKm]{Spell Effect: Enfeeble (CON)}</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.0DDkeYKSrNj6JG1l]{Spell Effect: Enfeeble (INT)}</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.Jlv9MzbDrXu92djm]{Spell Effect: Enfeeble (WIS)}</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.OTHSzCFY9zLlwzFF]{Spell Effect: Enfeeble (CHA)}</p>",
+            "name": "Enfeeble"
+        },
+        "Evoke Rage": {
+            "description": "<p>You call out the berserk rage locked inside someone.</p><p>One willing humanoid you touch enters a berserk state. The target is immune to morale checks, has ADV on STR checks and melee attacks, and deals +1d4 damage for the spell's duration.</p><p>If the target does not attack another creature on its turn, the spell ends.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.79D3CwKRi78k9BM7]{Spell Effect: Evoke Rage}</p>",
+            "name": "Evoke Rage"
+        },
+        "Eyebite": {
+            "description": "<p>One creature you target takes 1d4 damage, and it can't see you until the end of its next turn.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.0RrksUfAZkp4LpGe]{Spell Effect: Eyebite}</p>",
+            "name": "Eyebite"
+        },
+        "Fabricate": {
+            "description": "<p>This spell can't target creatures. </p><p>You turn a tree-sized collection of raw materials into a finished work. For example, you convert a pile of bricks or rocks into a bridge. The finished work converts back to raw materials when the spell ends.</p>",
+            "name": "Fabricate"
+        },
+        "Fate": {
+            "description": "<p>You painfully twist the golden threads of a creature's fate. One creature you target in range takes [[/r 1d10]] damage and loses any luck tokens it has.</p>",
+            "name": "Fate"
+        },
+        "Feather Fall": {
+            "description": "<p>You may make an attempt to cast this spell when you fall.</p><p>Your rate of descent slows so that you land safely on your feet.</p>",
+            "name": "Feather Fall"
+        },
+        "Finger of Death": {
+            "description": "<p>One creature you touch of LV 9 or less dies. </p><p>Treat a failed spellcasting check for this spell as a critical failure, and roll the mishap with disadvantage.</p>",
+            "name": "Finger of Death"
+        },
+        "Fireball": {
+            "description": "<p>You hurl a small flame that erupts into a fiery blast. All creatures in a near-sized cube around where the flame lands take [[/r 4d6]] damage.</p>",
+            "name": "Fireball"
+        },
+        "Fixed Object": {
+            "description": "<p>An object you touch that weighs no more than 5 pounds becomes fixed in its current location. It can support up to 5,000 pounds of weight for the duration of the spell.</p>",
+            "name": "Fixed Object"
+        },
+        "Flame Strike": {
+            "description": "<p>You call down a holy pillar of fire, immolating one creature you can see within range. The target takes 2d6 damage.</p>",
+            "name": "Flame Strike"
+        },
+        "Floating Disk": {
+            "description": "<p>You create a floating, circular disk of force with a concave center. It can carry up to 20 gear slots. It hovers at waist level and automatically stays within near of you. It can’t cross over drop- offs or pits taller than a human.</p><p>@UUID[Compendium.shadowdark.spell-effects.VMkeCfccn7zp2up7]{Spell Effect: Floating Disk}</p>",
+            "name": "Floating Disk"
+        },
+        "Fly": {
+            "description": "<p>Your feet lift from the ground, and you take to the air like a hummingbird. You can fly near for the spell's duration and are able to hover in place.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.IzCONbtholryomxC]{Spell Effect: Fly}</p>",
+            "name": "Fly"
+        },
+        "Fog": {
+            "description": "<p>A thick cloud of fog blooms in a close area around you, making you hard to see. The cloud moves with you. Attacks against creatures in the cloud have disadvantage.</p>",
+            "name": "Fog"
+        },
+        "FrdLzy8cWPcVS2Mz": {
+            "description": "<p>You look into a crystal ball or reflecting pool, calling up images of a distant place. </p><p>For the spell's duration, you can see and hear a creature or location you choose that is on the same plane. </p><p>This spell is DC 18 to cast if you try to scry on a creature or location that is unfamiliar to you. </p><p>Each round, creatures you view may make a Wisdom check vs. your last spellcasting check. On a success, they become aware of your magical observation.</p>",
+            "name": "Scrying"
+        },
+        "Freya's Omen": {
+            "description": "<p>For the spell's duration, you do not lose the ability to cast a spell if you fail its spellcasting check.</p><p>If you critically fail a spellcasting check, you may reroll your check once. You must use the new result.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.HBIVwYRcojImlOOx]{Spell Effect: Freya's Omen}</p>",
+            "name": "Freya's Omen"
+        },
+        "Frog Rain": {
+            "description": "<p>A rain of indignant frogs pelts a near-sized cube around a point you can see within range. </p><p>All creatures within the frog rain take 1d6 damage. Any surviving frogs hop away and disappear.</p>",
+            "name": "Frog Rain"
+        },
+        "Gaseous Form": {
+            "description": "<p>You and your gear turn into a cloud of smoke for the spell's duration.</p><p>You can fly and pass through any gap that smoke could. You can sense the terrain and any movement around you out to a near distance.</p><p>You can't cast spells while in this form.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.u6apLIMU1w4EIW06]{Spell Effect: Gaseous Form}</p>",
+            "name": "Gaseous Form"
+        },
+        "Glassbones": {
+            "description": "<p>A creature you touch becomes fragile. It takes double damage for the spell's duration.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.qNd9stCSD6ZJyoOj]{Spell Effect: Glassbones}</p>",
+            "name": "Glassbones"
+        },
+        "gxSxaMo8eh8mLYYH": {
+            "description": "<p>You teleport yourself and up to one other willing creature within close to any point you can see.</p>",
+            "name": "Dimension Door"
+        },
+        "Hallucinate": {
+            "description": "<p>One creature you target in near whose level is less than or equal to your own is overcome by visions of what might yet come to pass.</p><p>For the spell's duration, the target cannot act on its turn unless it passes a Wisdom check equal to your last spellcasting check.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.PLPiCgwZaEetlx5O]{Spell Effect: Hallucinate}</p>",
+            "name": "Hallucinate"
+        },
+        "Heal": {
+            "description": "<p>One creature you touch is healed to full hit points. </p><p>You cannot cast this spell again until you complete a rest.</p>",
+            "name": "Heal"
+        },
+        "Hold Monster": {
+            "description": "<p>You paralyze one creature you can see within range. If the target is LV 9+, it may make a STR check vs. your last spellcasting check at the start of its turn to end the spell.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.PUFCnXLjvBQSM2YO]{Spell Effect: Hold Monster}</p>",
+            "name": "Hold Monster"
+        },
+        "Hold Person": {
+            "description": "<p>You magically paralyze one humanoid creature of LV 4 or less you can see within range.</p><p>@UUID[Compendium.shadowdark.spell-effects.SN9lU9LUViWo1Plm]{Spell Effect: Hold Person}</p>",
+            "name": "Hold Person"
+        },
+        "Hold Portal": {
+            "description": "<p>You magically hold a portal closed for the duration. A creature must make a successful STR check vs. your spellcasting check to open the portal.</p><p>The knock spell ends this spell.</p><p>@UUID[Compendium.shadowdark.spell-effects.q109XEqMceJBEX7m]{Spell Effect: Hold Portal}</p>",
+            "name": "Hold Portal"
+        },
+        "Holy Weapon": {
+            "description": "<p>One weapon you touch is imbued with a sacred blessing.</p><p>The weapon becomes magical and has +1 to attack and damage rolls for the duration.</p><p>@UUID[Compendium.shadowdark.spell-effects.r2JNgS2474vuq9oy]{Spell Effect: Holy Weapon}</p>",
+            "name": "Holy Weapon"
+        },
+        "Howl": {
+            "description": "<p>All enemies within near range of you must immediately make a morale check. This spell does not affect creatures that are immune to morale checks.</p>",
+            "name": "Howl"
+        },
+        "Hypnotize": {
+            "description": "<p>One creature of LV 3 or less that can see you is rendered stupefied.</p><p>Breaking the creature's line of sight to you allows it to make a [[check 15 cha]] check. On a success, the spell ends.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.6wfBZBYV85NQTcJz]{Spell Effect: Hypnotize}</p>",
+            "name": "Hypnotize"
+        },
+        "Illusion": {
+            "description": "<p>You create a convincing visible and audible illusion that fills up to a near-sized cube in range. </p><p>The illusion cannot cause harm, but creatures who believe the illusion is real react to it as though it were. </p><p>A creature who inspects the illusion from afar must pass a Wisdom check vs. your last spellcasting check to perceive the false nature of the illusion. </p><p>Touching the illusion also reveals its false nature.</p>",
+            "name": "Illusion"
+        },
+        "Judgment": {
+            "description": "<p>You instantly banish a creature you touch, sending it and all possessions it carries to face the judgment of your god. </p><p>You can banish an intelligent creature of LV 10 or less. </p><p>When the creature returns in 5 rounds, it has been healed to full hit points if its deeds pleased your god. It has been reduced to 1 hit point if its deeds angered your god. If your god can't judge its actions, it is unchanged.</p>",
+            "name": "Judgment"
+        },
+        "Knock": {
+            "description": "<p>A door, window, gate, chest, or portal you can see within range instantly opens, defeating all mundane locks and barriers.</p><p>This spell creates a loud knock audible to all within earshot.</p>",
+            "name": "Knock"
+        },
+        "Lay to Rest": {
+            "description": "<p>You instantly send an undead creature you touch to its final afterlife, destroying it utterly. </p><p>You can target an undead creature of LV 9 or less</p>",
+            "name": "Lay to Rest"
+        },
+        "Levitate": {
+            "description": "<p>You can float a near distance vertically per round on your turn.</p><p>You can also push against solid objects to move horizontally.</p><p>@UUID[Compendium.shadowdark.spell-effects.sLb9GOXx9F6XCb2o]{Spell Effect: Levitate}</p>",
+            "name": "Levitate"
+        },
+        "Lightning Bolt": {
+            "description": "<p>You shoot a blue-white ray of lightning from your hands, hitting all creatures in a straight line out to a far distance. </p><p>Creatures struck by the lightning take [[/r 3d6]] damage.</p>",
+            "name": "Lightning Bolt"
+        },
+        "Loki's Trickery": {
+            "description": "<p>You are filled with Loki's hypnotic guile. Creatures who hear you speak will alter their own beliefs and memories to match your suggestion. </p><p>Target one creature who can hear and understand you within range. You make one plausible statement, true or not. </p><p>The target must make a Wisdom check vs. your spellcasting check. If it fails, it now believes what you stated as though it were fact, regardless of what it knows.</p>",
+            "name": "Loki's Trickery"
+        },
+        "Mage Armor": {
+            "description": "<p>An invisible layer of magical force protects your vitals. Your armor class becomes 14 (18 on a critical spellcasting check) for the spell’s duration.</p><p>@UUID[Compendium.shadowdark.spell-effects.h9MTxzrrPmyhEmRL]{Spell Effect: Mage Armor}</p><p>@UUID[Compendium.shadowdark.spell-effects.Gyol5I0ZdApO8MPe]{Spell Effect: Mage Armor (Critical)}</p>",
+            "name": "Mage Armor"
+        },
+        "Magic Circle": {
+            "description": "<p>You conjure a circle of runes out to near-sized cube centered on yourself and name a type of creature (for example, demons). </p><p>For the spell’s duration, creatures of the chosen type cannot attack or cast a hostile spell on anyone inside the circle. The chosen creatures also can’t possess, compel, or beguile anyone inside the circle.</p>",
+            "name": "Magic Circle"
+        },
+        "Magic Missile": {
+            "description": "<p>You have advantage on your check to cast this spell.</p><p>A glowing bolt of force streaks from your open hand, dealing [[/r 1d4]] damage to one target.</p>",
+            "name": "Magic Missile"
+        },
+        "Mass Cure": {
+            "description": "<p>All allies within near range of you regain 2d6 hit points.</p>",
+            "name": "Mass Cure"
+        },
+        "Mirror Image": {
+            "description": "<p>You create a number of illusory duplicates of yourself equal to half your level rounded down (minimum 1). The duplicates surround you and mimic you.</p><p>Each time a creature attacks you, the attack misses and causes one of the duplicates to evaporate.</p><p>If all of the illusions have disappeared, the spell ends.</p><p>@UUID[Compendium.shadowdark.spell-effects.vI70AaskCqH9tKJ7]{Spell Effect: Mirror Image}</p>",
+            "name": "Mirror Image"
+        },
+        "Mistletoe": {
+            "description": "<p>Two creatures you can see within near of you become enchanted with each other for 1d8 days.</p><p>Each time one of the affected creatures takes damage, it may make a [[check 15 cha]] check. On a success, the spell ends.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.CFnP5fuBHsNZzrkY]{Spell Effect: Mistletoe}</p>",
+            "name": "Mistletoe"
+        },
+        "Misty Step": {
+            "description": "<p>In a puff of smoke, you teleport a near distance to an area you can see.</p>",
+            "name": "Misty Step"
+        },
+        "Moonbeam": {
+            "description": "<p>A wavering ray of silvery moonlight strikes one creature within far. It takes 3d6 damage.</p>",
+            "name": "Moonbeam"
+        },
+        "Mother of Night": {
+            "description": "<p>You beseech the Mother of Night to lend you power. </p><p>Make a single wish, stating it as exactly as possible. Your wish occurs, as interpreted by the GM. </p><p>If you fail this spellcasting check, the Mother of Night pulls you into The Nightfall for judgment. You can't cast this spell again until you appease her demands.</p>",
+            "name": "Mother of Night"
+        },
+        "mSj7rWHDvhIIBsAm": {
+            "description": "<p>A dead body you touch answers your questions in a distant, wheezing voice. </p><p>You can ask the dead body up to three yes or no questions (one at a time). The GM truthfully answers \"yes\" or \"no\" to each. </p><p>If you cast this spell more than once in 24 hours, treat a failed spellcasting check for it as a critical failure, instead.</p>",
+            "name": "Speak with Dead"
+        },
+        "N4v17mtxJlVBbgpn": {
+            "description": "<p>One object you touch glows with bright, heatless light, illuminating out to a near distance for 1 hour of real time.</p><p>@UUID[Compendium.shadowdark.gear.Item.PkQXG3AaHNMVwGTc]{Light Spell}</p><p>@UUID[Compendium.shadowdark.gear.Item.BBDG7QpHOFXG6sKe]{Light Spell (Double Range)}</p><p>@UUID[Compendium.shadowdark.gear.Item.rjNBToTJCYLLdVcT]{Light Spell (Double Time)}</p>",
+            "name": "Light"
+        },
+        "Nightmare": {
+            "description": "<p>You visit the dreams of one sleeping creature, sending it heart-stopping nightmares. </p><p>You can target a creature whose level is less than or equal to half your level rounded down (minimum 1). The target must be sleeping, and you must have seen it before in person. </p><p>If you successfully focus on this spell for 3 rounds in a row, the creature dies of fright.</p>",
+            "name": "Nightmare"
+        },
+        "Oak, Ash, Thorn": {
+            "description": "<p>For the spell’s duration, faeries, demons, and devils can't attack you. These beings also can’t possess, compel, or beguile you.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.88nOOPKvH7t6mhVu]{Spell Effect: Oak, Ash, Thorn}</p>",
+            "name": "Oak, Ash, Thorn"
+        },
+        "Odin's Wisdom": {
+            "description": "<p>For the spell's duration, add your level as an additional bonus to your Wisdom checks and spellcasting checks.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.1zAGVkhuWYmSaxgy]{Spell Effect: Odin's Wisdom}</p>",
+            "name": "Odin's Wisdom"
+        },
+        "ojJm3ByDjjHefy2u": {
+            "description": "<p>You magically change your physical form, gaining one feature that modifies your existing anatomy.</p><p>For example, you can grow functional gills on your neck or bear claws on your fingers. This spell can’t grow wings or limbs.</p><p>@UUID[Compendium.shadowdark.spell-effects.f2RsbovyTLEZvxuF]{Spell Effect: Alter Self}</p>",
+            "name": "Alter Self"
+        },
+        "Passwall": {
+            "description": "<p>A tunnel of your height opens in a barrier you touch and lasts for the duration.</p><p>The passage can be up to near distance in length and must be in a straight line.</p>",
+            "name": "Passwall"
+        },
+        "Pc1xrhY9eutcralv": {
+            "description": "<p>You look into a crystal ball or reflecting pool, calling up images of a distant place. </p><p>For the spell's duration, you can see and hear a creature or location you choose that is on the same plane. </p><p>This spell is DC 18 to cast if you try to scry on a creature or location that is unfamiliar to you. </p><p>Each round, creatures you view may make a Wisdom check vs. your last spellcasting check. On a success, they become aware of your magical observation.</p>",
+            "name": "Scrying"
+        },
+        "Pillar of Salt": {
+            "description": "<p>A creature you target turns into a statue made of hardened salt.</p><p>You can target a creature you can see of LV 5 or less.</p><p>If you successfully focus on this spell for 3 rounds in a row, the transformation becomes permanent.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.6yYj2FkmYppGAl9N]{Spell Effect: Pillar of Salt}</p>",
+            "name": "Pillar of Salt"
+        },
+        "Pin Doll": {
+            "description": "<p>You pin a piece of hair or flesh taken from one creature to a small, burlap doll the spell conjures.</p><p>On your turn while focusing on this spell, you can push a pin into the doll. Each time you do this, the creature who the hair or flesh belonged to takes 2d6 damage. After this spell ends, the piece of hair or flesh burns to ash.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.zjm48oHhbVG4XeoB]{Spell Effect: Pin Doll}</p>",
+            "name": "Pin Doll"
+        },
+        "Poison": {
+            "description": "<p>One worn or carried object you touch becomes toxic for the spell's duration. Any creature in contact with the object at the start of its turn takes 1d6 damage.</p>",
+            "name": "Poison"
+        },
+        "Potion": {
+            "description": "<p>As a part of casting this spell, you must bless a single drink of any liquid. </p><p>The liquid gains healing properties for 1 day. A creature who imbibes it may end the effects of one poison or may immediately stop dying (the creature remains at 0 HP).</p>",
+            "name": "Potion"
+        },
+        "Power Word Kill": {
+            "description": "<p>You utter the Word of Doom. One creature you target of LV 9 or less dies if it hears you. </p><p>Treat a failed spellcasting check for this spell as a critical failure, and roll the mishap with disadvantage.</p>",
+            "name": "Power Word Kill"
+        },
+        "Prismatic Orb": {
+            "description": "<p>You send a strobing orb of energy streaking toward a target within range. </p><p>Choose an energy type from fire, cold, or electricity. The orb deals 3d8 damage and delivers a concussive blast of the chosen energy type. </p><p>If the energy type is anathema to the target's existence (for example, cold energy against a fire elemental), the orb deals double damage to it, instead.</p>",
+            "name": "Prismatic Orb"
+        },
+        "Prophecy": {
+            "description": "<p>You commune directly with your god for guidance. </p><p>Ask the GM one question. The GM answers the question truthfully using the knowledge your god possesses. Deities are mighty, but not omniscient. </p><p>You cannot cast this spell again until you complete penance.</p>",
+            "name": "Prophecy"
+        },
+        "Protection from Energy": {
+            "description": "<p>One creature you touch becomes impervious to the wild fury of the elements.</p><p>Choose fire, cold, or electricity. For the spell's duration, the target is immune to harm from energy of the chosen type.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.KXfv6edqcRQdnc7m]{Spell Effect: Protection from Energy (Fire)}</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.8mFFTIDKLulz3Yp6]{Spell Effect: Protection from Energy (Cold)}</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.HxMd3lV8CPpvL3my]{Spell Effect: Protection from Energy (Electricity)}</p>",
+            "name": "Protection from Energy"
+        },
+        "Puppet": {
+            "description": "<p>One humanoid creature of LV 2 or less you touch becomes ensnared by your movements. On your turn, the creature mimics all your movements.</p><p>If mimicking you would cause the creature to directly harm itself or an ally, it can make a [[check 15 cha]] check. On a success, it resists mimicking you.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.Cu3dona3PiHxO1lK]{Spell Effect: Puppet}</p>",
+            "name": "Puppet"
+        },
+        "PZ0qPp6lG9SVMoAr": {
+            "description": "<p>A creature you touch becomes invisible for the spell’s duration.</p><p>The spell ends if the target attacks or casts a spell.</p><p>@UUID[Compendium.shadowdark.spell-effects.SMXbMbXcj5hLvTjY]{Spell Effect: Invisibility}</p>",
+            "name": "Invisibility"
+        },
+        "qz6bKMyDaGyifklx": {
+            "description": "<p>You transform yourself and any gear you carry into another natural creature you've seen of level 10 or less. You assume the creature's physical statistics, but you retain your non-physical statistics (such as INT, WIS, and CHA).</p><p>If you go to 0 HP while under the effects of this spell, you revert to your true form at 1 HP.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.F89CJeindj8k8oiC]{Spell Effect: Shapechanger}</p>",
+            "name": "Shapechanger"
+        },
+        "Ragnarok": {
+            "description": "<p>You look deep into the strands of fate, learning the final destiny of one soul after the battle of Ragnarok. Do they live, or die? </p><p>Choose one creature in range. You can only target the same creature with this spell one time. </p><p>That creature must pass a CON check equal to your spellcasting check or die instantly.</p>",
+            "name": "Ragnarok"
+        },
+        "Raven": {
+            "description": "<p>You whisper a message to Odin's own ravens, and they carry it across all worlds to its recipient. </p><p>Speak a short sentence, and the name of its recipient, dead or alive. That creature hears your utterance whispered in its mind.</p>",
+            "name": "Raven"
+        },
+        "Read the Runes": {
+            "description": "<p>You ask the gods a question and cast the runestones, interpreting the meaning of the results. </p><p>Ask the Game Master one yes or no question. The Game Master truthfully answers \"yes\" or \"no.\"</p>",
+            "name": "Read the Runes"
+        },
+        "Rebuke Unholy": {
+            "description": "<p>You rebuke creatures who oppose your alignment, forcing them to flee. You must present a holy symbol to cast this spell.</p><p>If you are lawful or neutral, this spell affects demons, devils, and outsiders. If you are chaotic, this spell affects angels and natural creatures of the wild.</p><p>Affected creatures within near of you must make a CHA check vs. your spellcasting check. If a creature fails by 10+ points and is equal to or less than your level, it is destroyed. Otherwise, on a fail, it flees from you for 5 rounds.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.aQfBagCGogkjgCS8]{Spell Effect: Rebuke Unholy}</p>",
+            "name": "Rebuke Unholy"
+        },
+        "Regenerate": {
+            "description": "<p>A creature you touch regains 1d4 hit points on your turn for the duration. This spell also regrows lost body parts.</p>",
+            "name": "Regenerate"
+        },
+        "Resilient Sphere": {
+            "description": "<p>You conjure a weightless, glassy sphere around you that extends out to close range. </p><p>For the spell's duration, nothing can pass through or crush the sphere. </p><p>You can roll the sphere a near distance on your turn.</p>",
+            "name": "Resilient Sphere"
+        },
+        "Restoration": {
+            "description": "<p>With the touch of your hands, you expunge curses and illnesses. One curse, illness, or affliction of your choice affecting the target creature ends</p>",
+            "name": "Restoration"
+        },
+        "Sacrifice": {
+            "description": "<p>As a part of casting this spell, you must ritually sacrifice a living creature of LV 2 or higher. </p><p>The target you touch gains a bonus to their next check or attack roll equal to the sacrificed creature's level.</p>",
+            "name": "Sacrifice"
+        },
+        "Sending": {
+            "description": "<p>You send a brief, mental message to any creature with whom you are familiar who is on the same plane.</p>",
+            "name": "Sending"
+        },
+        "Shadowdance": {
+            "description": "<p>You spin shadowstuff into a convincing visible and audible illusion at a point within near. </p><p>The illusion can be as big as a person and can move within a near range of where it appeared. </p><p>The illusion can't affect physical objects. Touching the illusion reveals its false nature.</p>",
+            "name": "Shadowdance"
+        },
+        "Shield of Faith": {
+            "description": "<p>A protective force wrought of your holy conviction surrounds you. You gain a +2 bonus to your armor class for the duration.</p><p>@UUID[Compendium.shadowdark.spell-effects.4dCcpPeyRKWt9XkC]{Spell Effect: Shield of Faith}</p>",
+            "name": "Shield of Faith"
+        },
+        "Silence": {
+            "description": "<p>You magically mute sound in a near cube within the spell’s range. Creatures inside the area are deafened, and any sounds they create cannot be heard.</p><p>@UUID[Compendium.shadowdark.spell-effects.aAdqy5QwVJrT8JWE]{Spell Effect: Deaf}</p>",
+            "name": "Silence"
+        },
+        "Sleep": {
+            "description": "<p>You weave a lulling spell that fills a near-sized cube extending from you. Living creatures in the area of effect fall into a deep sleep if they are LV 2 or less.</p><p>Injury or vigorous shaking wakes them.</p><p>@UUID[Compendium.shadowdark.spell-effects.FrFilluk4S5VaWut]{Spell Effect: Sleep}</p>",
+            "name": "Sleep"
+        },
+        "Smite": {
+            "description": "<p>You call down punishing flames on a creature you can see within range. It takes [[/r 1d6]] damage.</p>",
+            "name": "Smite"
+        },
+        "Soul Jar": {
+            "description": "<p>You transfer the soul of one creature you touch of LV 9 or less into a vessel, such as a jar. The creature's body becomes comatose, but it doesn't die. </p><p>If the vessel opens or breaks, the creature's soul returns to its body. </p><p>You can possess the empty body with your own spirit, taking control of it. Your body becomes comatose during this time. If the body dies while you possess it, your soul returns to your body.</p>",
+            "name": "Soul Jar"
+        },
+        "Soulbind": {
+            "description": "<p>You seal the soul of a living creature, preventing magic from leeching into it.</p><p>One creature you touch becomes nearly impervious to all magic. For the spell's duration, all other spells targeting the creature (harmful or helpful) are DC 18 to cast.</p><p>This spell ends as soon as the target is affected by another spell.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.z7X1jRQHFTnSXpds]{Spell Effect: Soulbind}</p>",
+            "name": "Soulbind"
+        },
+        "Spidersilk": {
+            "description": "<p>Sticky spidersilk covers your hands and feet.</p><p>For the spell's duration, you can walk on vertical surfaces as easily as if it were flat ground.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.4UAVHmqFCt47sh7D]{Spell Effect: Spidersilk}</p>",
+            "name": "Spidersilk"
+        },
+        "Stoneskin": {
+            "description": "<p>Your skin becomes like granite. For the spell's duration, your armor class becomes 17 (20 on a critical spellcasting check).</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.deNtIVyGoXaDPrmJ]{Spell Effect: Stoneskin}</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.5rK6guXTllcryhLv]{Spell Effect: Stoneskin (Critical)}</p>",
+            "name": "Stoneskin"
+        },
+        "Summon Extraplanar": {
+            "description": "<p>You reach into the outer planes, summoning forth a creature. </p><p>You summon an elemental or outsider of LV 7 or less. The creature is under your control and acts on your turn. </p><p>If you lose focus on this spell, you lose control of the creature and it becomes hostile toward you and your allies. </p><p>You must pass a spellcasting check on your turn to return the creature to the outer planes.</p>",
+            "name": "Summon Extraplanar"
+        },
+        "Swarm": {
+            "description": "<p>A dense swarm of biting bats, rats, or locusts appears in a nearsized cube around a point you can see within range. </p><p>All creatures that start their turn within the swarm take 2d6 damage and are blinded.</p>",
+            "name": "Swarm"
+        },
+        "Telekinesis": {
+            "description": "<p>You lift a creature or object with your mind. Choose a target that weights 450kg or less. You can move it a near distance in any direction and hold it in place.</p>",
+            "name": "Telekinesis"
+        },
+        "Teleport": {
+            "description": "<p>You and any willing creatures you choose within close range teleport to a location you specify on your same plane. </p><p>You can travel to a known teleportation sigil or to a location you've been before. Otherwise, you have a 50% chance of arriving off-target.</p>",
+            "name": "Teleport"
+        },
+        "Thor's Thunder": {
+            "description": "<p>Thor casts down a bolt of lightning to strike one target. The target takes [[/r 3d6]] damage.</p>",
+            "name": "Thor's Thunder"
+        },
+        "TKDuwFu1hP2lX549": {
+            "description": "<p>You move and shape water. You can cause a section of water up to 100 feet in width and depth to change shape, defy gravity, or flow in a different direction.</p>",
+            "name": "Control Water"
+        },
+        "Toadstool": {
+            "description": "<p>You conjure a plump, speckled toadstool in your hand. It disappears at the end of your next turn. </p><p>A creature that eats the toadstool regains 1d6 hit points.</p>",
+            "name": "Toadstool"
+        },
+        "Trance": {
+            "description": "<p>You enter a trance, catching small glimpses of a creature's fate. One humanoid creature you touch (you can't target yourself) gains a luck token. It can't have more than one luck token at once.</p>",
+            "name": "Trance"
+        },
+        "Turn Undead": {
+            "description": "<p>You rebuke undead creatures, forcing them to flee. You must present a holy symbol to cast this spell.</p><p>Undead creatures within near of you must make a CHA check opposed by your spellcasting check. If a creature fails by 10+ points and is equal to or less than your level, it is destroyed. Otherwise, on a fail, it flees from you for 5 rounds.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.T4LUCIffieQPMGsN]{Spell Effect: Turn Undead}</p>",
+            "name": "Turn Undead"
+        },
+        "u5L1U39xj8Jfdl8A": {
+            "description": "<p>A dead body you touch answers your questions in a distant, wheezing voice. </p><p>You can ask the dead body up to three yes or no questions (one at a time). The GM truthfully answers \"yes\" or \"no\" to each. </p><p>If you cast this spell more than once in 24 hours, treat a failed spellcasting check for it as a critical failure, instead.</p>",
+            "name": "Speak with Dead"
+        },
+        "UWGzL8qsentdrvar": {
+            "description": "<p>You teleport yourself and up to one other willing creature within close to any point you can see.</p>",
+            "name": "Dimension Door"
+        },
+        "Valkyrie": {
+            "description": "<p>You summon a valkyrie to your aid. She appears in a location within near and acts of her own free will to help you. She returns to Valhalla when the spell ends. </p><p>You can't cast this again until you complete penance.</p>",
+            "name": "Valkyrie"
+        },
+        "vJpDgIOWYiUYX5jv": {
+            "description": "<p>You throw the divining bones or peer into the blackness between the stars, seeking a portent.</p><p>You can ask the GM one yes or no question. The GM truthfully answers \"yes\" or \"no.\" </p><p>If you cast this spell more than once in 24 hours, treat a failed spellcasting check for it as a critical failure, instead.</p>",
+            "name": "Divination"
+        },
+        "Void Stare": {
+            "description": "<p>Your eyes turn black as you look into the dark between the stars.</p><p>One creature of LV 6 or less you can see falls under your control. You decide its actions during its turn.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.nctlTXcIkACzb0yd]{Spell Effect: Void Stare}</p>",
+            "name": "Void Stare"
+        },
+        "Wall of Force": {
+            "description": "<p>You lift your hands, conjuring a transparent wall of force. </p><p>The thin wall must be contiguous and can cover a near-sized area in width and length. You choose its shape. </p><p>Nothing on the same plane can physically pass through the wall.</p>",
+            "name": "Wall of Force"
+        },
+        "WCWsRH7oi6ARjE6F": {
+            "description": "<p>One object you touch glows with bright, heatless light, illuminating out to a near distance for 1 hour of real time.</p><p>@UUID[Compendium.shadowdark.gear.Item.PkQXG3AaHNMVwGTc]{Light Spell}</p><p>@UUID[Compendium.shadowdark.gear.Item.BBDG7QpHOFXG6sKe]{Light Spell (Double Range)}</p><p>@UUID[Compendium.shadowdark.gear.Item.rjNBToTJCYLLdVcT]{Light Spell (Double Time)}</p>",
+            "name": "Light"
+        },
+        "Web": {
+            "description": "<p>You create a near-sized cube of sticky, dense spider web within the spell’s range. A creature stuck in the web can’t move and must succeed on a Strength check opposed by your spellcasting check to free itself.</p><p>@UUID[Compendium.shadowdark.spell-effects.28PPFz1MYTsfPwzh]{Spell Effect: Web}</p>",
+            "name": "Web"
+        },
+        "Whisper": {
+            "description": "<p>You whisper into another creature's ear, planting a false memory in its mind.</p><p>You describe one brief, false memory that the target believes is true going forward. </p><p>If you fail this spellcasting check, the GM chooses a short, false memory to plant in your mind, instead.</p>",
+            "name": "Whisper"
+        },
+        "Willowman": {
+            "description": "<p>You call upon the Willowman to appear in one creature's mind, filling it with supernatural terror.</p><p>Choose one creature of LV 2 or less within range. That creature must immediately make a morale check.</p><p>Even creatures that are not normally subject to morale checks (such as undead) must do so.</p><p><strong>Willowman.</strong> </p><p>A pale, faceless man with elongated limbs and curved talons that rake the ground. Moves in quick stutters during each eyeblink.</p>",
+            "name": "Willowman"
+        },
+        "Wish": {
+            "description": "<p>This mighty spell alters reality. </p><p>Make a single wish, stating it as exactly as possible. Your wish occurs, as interpreted by the GM. </p><p>Treat a failed spellcasting check for this spell as a critical failure, and roll the mishap with disadvantage.</p>",
+            "name": "Wish"
+        },
+        "Witchlight": {
+            "description": "<p>You summon a floating marsh light that bobs in the air and casts light out to a close radius around it. </p><p>The light can change colors and take on vague shapes. It can float up to a near distance on your turn.</p>",
+            "name": "Witchlight"
+        },
+        "WlnajkFi0WquohS1": {
+            "description": "<p>You fold space and time, transporting yourself and all willing creatures within close range to a location on another plane of your choice. </p><p>Unless you have been to your intended location before, you appear in a random place on the destination plane.</p>",
+            "name": "Plane Shift"
+        },
+        "Wolfshape": {
+            "description": "<p>You and your gear transform into a wolf for the spell's duration. You assume the wolf's STR, DEX, CON, HP, AC, speed, attacks, and physical characteristics, but retain your INT, WIS, and CHA.</p><p>You can cast spells in this form. If you go to 0 HP, you revert to your true shape at 0 HP.</p><p>If you are level 5+, you can transform into a dire wolf or a winter wolf, instead.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.B9ChlhtUjECrLlre]{Spell Effect: Wolfshape (Wolf)}</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.3vCyl2kqfz31N1yP]{Spell Effect: Wolfshape (Dire Wolf)}</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.cC4hF54uctVhvvCo]{Spell Effect: Wolfshape (Winter Wolf)}</p>",
+            "name": "Wolfshape"
+        },
+        "World Serpent": {
+            "description": "<p>The torturous venom of the World Serpent drips from the weapons of a creature you touch.</p><p>The target deals x2 damage with each attack (x4 on a critical hit) for the spell's duration.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.sZ6msFePi3R6DUju]{Spell Effect: World Serpent}</p>",
+            "name": "World Serpent"
+        },
+        "World Tree": {
+            "description": "<p>The roots of the life-giving World Tree wrap around the soul of a creature you touch.</p><p>For the spell's duration, the target can't be brought below 1 HP.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.FDyJAnR0Fk9cZZEf]{Spell Effect: World Tree}</p>",
+            "name": "World Tree"
+        },
+        "Wrath": {
+            "description": "<p>Your weapons become magical +2 and deal an additional d8 damage for the spell's duration.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.pKu2XsypNq65vkbV]{Spell Effect: Wrath}</p>",
+            "name": "Wrath"
+        },
+        "XqmdS3rvMT9LlznC": {
+            "description": "<p>You magically change your physical form, gaining one feature that modifies your existing anatomy.</p><p>For example, you can grow functional gills on your neck or bear claws on your fingers. This spell can’t grow wings or limbs.</p><p>@UUID[Compendium.shadowdark.spell-effects.f2RsbovyTLEZvxuF]{Spell Effect: Alter Self}</p>",
+            "name": "Alter Self"
+        },
+        "ZNBBGiXdR7bEpE79": {
+            "description": "<p>For the spell’s duration, chaotic beings have disadvantage on attack rolls and hostile spellcasting checks against the target. These beings also can’t possess, compel, or beguile it.</p><p>When cast on an already-possessed target, the possessing entity makes a CHA check vs. the last spellcasting check. On a failure, the entity is expelled.</p><p>@UUID[Compendium.shadowdark.spell-effects.H7v5Izebo8O45DXB]{Spell Effect: Protection From Evil}</p>",
+            "name": "Protection From Evil"
+        },
+        "Zone of Truth": {
+            "description": "<p>You compel a creature you can see to speak truth. It can’t utter a deliberate lie while within range.</p><p>@UUID[Compendium.shadowdark.spell-effects.cL5aPfXcad9FtHoK]{Spell Effect: Zone of Truth}</p>",
+            "name": "Zone of Truth"
+        }
+    },
+    "folders": {
+        "Priest": "Priest",
+        "Seer": "Seer",
+        "Tier 1": "Tier 1",
+        "Tier 2": "Tier 2",
+        "Tier 3": "Tier 3",
+        "Tier 4": "Tier 4",
+        "Tier 5": "Tier 5",
+        "Witch": "Witch",
+        "Wizard": "Wizard"
+    }
+}

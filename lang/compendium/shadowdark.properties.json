@@ -1,0 +1,85 @@
+{
+    "label": "Properties",
+    "mapping": {
+        "description": "system.description",
+        "name": "name"
+    },
+    "entries": {
+        "bAzl6RH1PW95ZkFE": {
+            "description": "<p>When you are hit with a melee attack, you may choose to destroy this weapon or armor to negate all damage from the attack.</p>",
+            "name": "Sundering"
+        },
+        "Blowgun": {
+            "description": "<p>Firing this weapon from hiding doesn't reveal your position.</p>",
+            "name": "Blowgun"
+        },
+        "Bolas": {
+            "description": "<p>When you hit a legged creature the size of a horse or smaller, the target's speed is reduced to close until it frees itself ([[check 15 str]] or DEX check).</p>",
+            "name": "Bolas"
+        },
+        "Breakable": {
+            "description": "<p>This weapon breaks on a natural 1 attack roll.</p>",
+            "name": "Breakable"
+        },
+        "Disadvantage/Stealth": {
+            "description": "<p>You have disadvantage on stealth rolls when wearing this armor</p>",
+            "name": "Disadvantage/Stealth"
+        },
+        "Disadvantage/Swim": {
+            "description": "<p>You have disadvantage on rolls related to swimming when wearing this armor</p>",
+            "name": "Disadvantage/Swim"
+        },
+        "Finesse": {
+            "description": "<p>You can use your Strength or Dexterity when attacking with this weapon</p>",
+            "name": "Finesse"
+        },
+        "Lash": {
+            "description": "<p>When you make a ranged attack with this weapon, it does not leave your grasp.</p>",
+            "name": "Lash"
+        },
+        "Loading": {
+            "description": "<p>You must forgo moving to reload this weapon</p>",
+            "name": "Loading"
+        },
+        "No Swim": {
+            "description": "<p>You are unable to swim when wearing this armor</p>",
+            "name": "No Swim"
+        },
+        "Occupies One Hand": {
+            "description": "<p>You can only use one hand when using this item</p>",
+            "name": "Occupies One Hand"
+        },
+        "Op1yKvM7uq5pdopr": {
+            "description": "<p>When you are hit with a melee attack, you may choose to destroy this weapon or armor to negate all damage from the attack.</p>",
+            "name": "Sundering"
+        },
+        "Returning": {
+            "description": "<p>On a missed ranged attack, this weapon returns to the thrower.</p>",
+            "name": "Returning"
+        },
+        "Shield": {
+            "description": "<p>Provides additional protection</p>",
+            "name": "Shield"
+        },
+        "Shuriken": {
+            "description": "<p>Can be thrown into the ground. Living creatures who step on it take 1 damage and can only move at half speed for 10 rounds.</p>",
+            "name": "Shuriken"
+        },
+        "Thrown": {
+            "description": "<p>You may throw this weapon to make a ranged attack with it using STR or DEX</p>",
+            "name": "Thrown"
+        },
+        "Two-Handed": {
+            "description": "<p>You must use this weapon with two hands</p>",
+            "name": "Two-Handed"
+        },
+        "Versatile": {
+            "description": "<p>You can use this weapon with one or two hands. Use the higher damage die if you’re wielding it with two</p>",
+            "name": "Versatile"
+        }
+    },
+    "folders": {
+        "Armor": "Armor",
+        "Weapon": "Weapon"
+    }
+}

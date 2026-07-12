@@ -1,0 +1,833 @@
+{
+    "label": "Quickstart Adventures",
+    "mapping": {
+        "name": "name",
+        "description": "description",
+        "caption": "caption",
+        "folders": {
+            "path": "folders",
+            "converter": "nameCollection"
+        },
+        "journals": {
+            "path": "journal",
+            "converter": "document",
+            "documentType": "JournalEntry",
+            "cardinality": "many",
+            "mapping": {
+                "name": "name",
+                "pages": {
+                    "path": "pages",
+                    "converter": "document",
+                    "documentType": "JournalEntryPage",
+                    "cardinality": "many",
+                    "mapping": {
+                        "name": "name",
+                        "text": "text.content"
+                    }
+                }
+            }
+        },
+        "scenes": {
+            "path": "scenes",
+            "converter": "document",
+            "documentType": "Scene",
+            "cardinality": "many",
+            "mapping": {
+                "name": "name",
+                "navName": "navName"
+            }
+        },
+        "macros": {
+            "path": "macros",
+            "converter": "document",
+            "documentType": "Macro",
+            "cardinality": "many",
+            "mapping": {
+                "name": "name"
+            }
+        },
+        "playlists": {
+            "path": "playlists",
+            "converter": "document",
+            "documentType": "Playlist",
+            "cardinality": "many",
+            "mapping": {
+                "name": "name",
+                "description": "description",
+                "sounds": {
+                    "path": "sounds",
+                    "converter": "document",
+                    "documentType": "PlaylistSound",
+                    "cardinality": "many",
+                    "mapping": {
+                        "name": "name",
+                        "description": "description"
+                    }
+                }
+            }
+        },
+        "tables": {
+            "path": "tables",
+            "converter": "document",
+            "documentType": "RollTable",
+            "cardinality": "many",
+            "mapping": {
+                "name": "name",
+                "results": {
+                    "path": "results",
+                    "converter": "tableResults"
+                }
+            }
+        },
+        "items": {
+            "path": "items",
+            "converter": "document",
+            "documentType": "Item",
+            "cardinality": "many",
+            "mapping": {
+                "description": "system.description",
+                "effects": {
+                    "path": "effects",
+                    "converter": "document",
+                    "documentType": "ActiveEffect",
+                    "cardinality": "many",
+                    "mapping": {
+                        "name": "name",
+                        "description": "description"
+                    }
+                },
+                "name": "name"
+            }
+        },
+        "actors": {
+            "path": "actors",
+            "converter": "document",
+            "documentType": "Actor",
+            "cardinality": "many",
+            "mapping": {
+                "description": "system.notes",
+                "items": {
+                    "path": "items",
+                    "converter": "document",
+                    "documentType": "Item",
+                    "cardinality": "many",
+                    "mapping": {
+                        "description": "system.description",
+                        "name": "name"
+                    }
+                },
+                "name": "name",
+                "system.moveNote": "system.moveNote",
+                "tokenName": {
+                    "path": "prototypeToken.name",
+                    "converter": "name"
+                }
+            }
+        },
+        "cards": {
+            "path": "cards",
+            "converter": "document",
+            "documentType": "Cards",
+            "cardinality": "many",
+            "mapping": {
+                "name": "name",
+                "description": "description",
+                "cards": {
+                    "path": "cards",
+                    "converter": "document",
+                    "documentType": "Card",
+                    "cardinality": "many",
+                    "mapping": {
+                        "name": "name",
+                        "description": "description"
+                    }
+                }
+            }
+        }
+    },
+    "entries": {
+        "The Lost Citadel of the Scarlet Minotaur": {
+            "name": "The Lost Citadel of the Scarlet Minotaur",
+            "description": "<p>Long ago, a mighty enclave of warriors lived inside the Lost Citadel. They worshipped bulls in ever-bloodier, cultish rituals that culminated in their leader, Minoros, transforming into the <strong>Scarlet Minotaur</strong>. This immortal avatar of rage slaughtered the warriors in a single night of mayhem. However, some of their servants escaped through the unseen halls used by the lowly. These <strong>beastmen</strong> hid in the fallen citadel, trapped by superstitious fear of the outside.</p>",
+            "caption": "A 1st-3rd-level adventure for Shadowdark RPG",
+            "folders": {
+                "The Lost Citadel": "The Lost Citadel",
+                "NPCs": "NPCs",
+                "Named Ettercaps": "Named Ettercaps",
+                "Named Beastmen": "Named Beastmen",
+                "Room 1: Mural Chamber": "Room 1: Mural Chamber",
+                "Room 2: Blinding Cave": "Room 2: Blinding Cave",
+                "Room 3: Web-Choked Cave": "Room 3: Web-Choked Cave",
+                "Room 4: Ettercap Nest": "Room 4: Ettercap Nest",
+                "Room 7: Bull Statue": "Room 7: Bull Statue",
+                "Room 9: Sorcerous Pillars": "Room 9: Sorcerous Pillars",
+                "Room 10: Bull Statue": "Room 10: Bull Statue",
+                "Room 12: Armory": "Room 12: Armory",
+                "Room 15: Jar Storage": "Room 15: Jar Storage",
+                "Room 17: Broken Bull Statue": "Room 17: Broken Bull Statue",
+                "Room 18: Central Courtyard": "Room 18: Central Courtyard",
+                "Room 19: Bas-Relief Hall": "Room 19: Bas-Relief Hall",
+                "Treasure": "Treasure",
+                "Room 21: Throne Chamber": "Room 21: Throne Chamber",
+                "Room 26: Hall of Kings": "Room 26: Hall of Kings",
+                "Room 27: Sacrifice Cave": "Room 27: Sacrifice Cave"
+            },
+            "items": {
+                "Bloodlust": {
+                    "name": "Bloodlust",
+                    "effects": {
+                        "Critical Multiplier": {
+                            "name": "Critical Multiplier"
+                        },
+                        "Weapon Attack Roll Bonus": {
+                            "name": "Weapon Attack Roll Bonus"
+                        },
+                        "Weapon Attack Damage Bonus": {
+                            "name": "Weapon Attack Damage Bonus"
+                        }
+                    }
+                },
+                "Silver-Inlaid Bull Horn": {
+                    "name": "Silver-Inlaid Bull Horn"
+                },
+                "Pearl": {
+                    "name": "Pearl"
+                },
+                "Scroll of Hold Portal": {
+                    "description": "<p>@UUID[Compendium.shadowdark.spells.q600IZtPTAgkz6vB]{Hold Portal}</p>",
+                    "name": "Scroll of Hold Portal"
+                },
+                "Alabaster Statuette of a Bull": {
+                    "name": "Alabaster Statuette of a Bull"
+                },
+                "Jade Snake Bracelet": {
+                    "name": "Jade Snake Bracelet"
+                },
+                "Necklace of Thick Gold Links": {
+                    "name": "Necklace of Thick Gold Links"
+                },
+                "WKk0GVD1KHrI6fav": {
+                    "name": "Pearl"
+                },
+                "Silver Incense Bowl": {
+                    "name": "Silver Incense Bowl"
+                },
+                "Emerald": {
+                    "name": "Emerald"
+                },
+                "Emerald (Shattered)": {
+                    "name": "Emerald (Shattered)"
+                },
+                "Asterion": {
+                    "description": "<p><strong>Benefit</strong>. A creature cannot move the wielder against their will.</p>",
+                    "name": "Asterion",
+                    "effects": {
+                        "Weapon Attack Roll Bonus": {
+                            "name": "Weapon Attack Roll Bonus"
+                        },
+                        "Weapon Attack Damage Bonus": {
+                            "name": "Weapon Attack Damage Bonus"
+                        }
+                    }
+                },
+                "6NfZTinsbZBY5FVN": {
+                    "name": "Emerald"
+                },
+                "Xc1NkStj6yilbnSa": {
+                    "name": "Emerald (Shattered)"
+                },
+                "Scarab of Protection": {
+                    "description": "<p><em>A brooch made from a horned scarab beetle dipped in gold.</em></p><p><strong>Benefit</strong>. If you die, make a [[check 18 con]] check. If you succeed, you are unconscious instead of dead.</p>",
+                    "name": "Scarab of Protection"
+                },
+                "Ivory Egg": {
+                    "description": "<p>An ivory egg shot with grey veins inside.</p>",
+                    "name": "Ivory Egg"
+                },
+                "vykb09m5y4gCdVIS": {
+                    "name": "Emerald (Shattered)"
+                },
+                "Silver Locket": {
+                    "description": "<p>Silver locket with a painting of a smiling, red-haired woman</p>",
+                    "name": "Silver Locket"
+                },
+                "Scroll of Burning Hands": {
+                    "description": "<p>Contained in a bronze tube adorned with jade dragons.</p><p>@UUID[Compendium.shadowdark.spells.ItN82uLU3PhJFLNm]{Burning Hands}</p>",
+                    "name": "Scroll of Burning Hands"
+                },
+                "Silvered Longsword": {
+                    "description": "<p>Silvered longsword with half-moon pommel.</p>",
+                    "name": "Silvered Longsword"
+                },
+                "Scarred Mithral Shield": {
+                    "description": "<p>Scarred mithral shield carved with prowling tiger .</p>",
+                    "name": "Scarred Mithral Shield"
+                },
+                "Silver, Horned Helm": {
+                    "name": "Silver, Horned Helm"
+                },
+                "Vigilant": {
+                    "description": "<p><strong>Benefit</strong>. The wielder cannot be surprised.</p>",
+                    "name": "Vigilant",
+                    "effects": {
+                        "Weapon Attack Roll Bonus": {
+                            "name": "Weapon Attack Roll Bonus"
+                        },
+                        "Weapon Attack Damage Bonus": {
+                            "name": "Weapon Attack Damage Bonus"
+                        }
+                    }
+                },
+                "Diadem": {
+                    "name": "Diadem"
+                },
+                "Boots of the Cat": {
+                    "description": "<p><em>Grey, doeskin boots as thin and soft as slippers.</em></p><p><strong>Benefit</strong>. You can jump up to a near distance from a standstill. Your checks to move silently are always easy (DC 9).</p>",
+                    "name": "Boots of the Cat"
+                },
+                "Wand of Blind/Deafen": {
+                    "description": "<p>@UUID[Compendium.shadowdark.spells.ItoZZ0nli29N5d7G]{Blind/Deafen}</p><p>DC 12</p>",
+                    "name": "Wand of Blind/Deafen"
+                },
+                "Onyx Bull Statuette": {
+                    "name": "Onyx Bull Statuette"
+                },
+                "Tiny Bottle": {
+                    "name": "Tiny Bottle"
+                }
+            },
+            "actors": {
+                "Giuseppe Baldini": {
+                    "description": "<p><em>A commoner in worn clothes.</em></p><p><strong>AC</strong> 10, <strong>HP</strong> 4, <strong>ATK</strong> 1 club +0 (1d4), <strong>MV</strong> near, <strong>S</strong> +0, <strong>D</strong> +0, <strong>C</strong> +0, <strong>I</strong> +0, <strong>W</strong> +0, <strong>Ch</strong> +0, <strong>AL</strong> L, <strong>LV</strong> 1</p>",
+                    "name": "Giuseppe Baldini",
+                    "tokenName": "Giuseppe Baldini",
+                    "items": {
+                        "Club": {
+                            "name": "Club"
+                        }
+                    }
+                },
+                "The Scarlet Minotaur": {
+                    "description": "<p><em>Ferocious bull-men with hooves and curved horns. They live in mazelike tunnels.</em></p><p><strong>AC</strong> 14 (chainmail), <strong>HP</strong> 34, <strong>ATK</strong> 2 greataxe +6 (1d10) and 1 horns +6 (1d12), <strong>MV</strong> near, <strong>S</strong> +4, <strong>D</strong> +1, <strong>C</strong> +3, <strong>I</strong> +1, <strong>W</strong> +2, <strong>Ch</strong> +1, <strong>AL</strong> C, <strong>LV</strong> 7</p><p><strong>Charge.</strong> In place of attacks, move up to double near in a straight line and make 1 horn attack. If hit, x2 damage.</p>",
+                    "name": "The Scarlet Minotaur",
+                    "tokenName": "The Scarlet Minotaur",
+                    "items": {
+                        "Charge": {
+                            "description": "<p>In place of attacks, move up to double near in a straight line and make 1 horn attack. If hit, x2 damage.</p>",
+                            "name": "Charge"
+                        },
+                        "Bloodlust": {
+                            "description": "<p>Wielder deals x4 damage on a critical hit.</p>",
+                            "name": "Bloodlust"
+                        },
+                        "Horns": {
+                            "name": "Horns"
+                        }
+                    }
+                },
+                "Chee": {
+                    "description": "<p><em>Bipedal, eight-eyed spiderfolk with spindly legs and purple fur.</em></p><p><strong>AC</strong> 12, <strong>HP</strong> 14, <strong>ATK</strong> 2 bite +2 (1d6) or 1 poison web (near) +2, <strong>MV</strong> near (climb), <strong>S</strong> +0, <strong>D</strong> +2, <strong>C</strong> +1, <strong>I</strong> +0, <strong>W</strong> +0, <strong>Ch</strong> -1, <strong>AL</strong> C, <strong>LV</strong> 3</p><p><strong>Poison Web.</strong> One target stuck in place and 1d4 damage/round. [[check 12 dex]] to escape on turn.</p>",
+                    "name": "Chee",
+                    "system.moveNote": "Climb",
+                    "tokenName": "Chee",
+                    "items": {
+                        "Poison Web": {
+                            "description": "<p>One target stuck in place and 1d4 damage/round. [[check 12 dex]] to escape on turn.</p>",
+                            "name": "Poison Web"
+                        },
+                        "Bite": {
+                            "name": "Bite"
+                        },
+                        "xURhvz16GozH0j8f": {
+                            "name": "Poison Web"
+                        }
+                    }
+                },
+                "Eska": {
+                    "description": "<p><em>Bipedal, eight-eyed spiderfolk with spindly legs and purple fur.</em></p><p><strong>AC</strong> 12, <strong>HP</strong> 14, <strong>ATK</strong> 2 bite +2 (1d6) or 1 poison web (near) +2, <strong>MV</strong> near (climb), <strong>S</strong> +0, <strong>D</strong> +2, <strong>C</strong> +1, <strong>I</strong> +0, <strong>W</strong> +0, <strong>Ch</strong> -1, <strong>AL</strong> C, <strong>LV</strong> 3</p><p><strong>Poison Web.</strong> One target stuck in place and 1d4 damage/round. [[check 12 dex]] to escape on turn.</p>",
+                    "name": "Eska",
+                    "system.moveNote": "Climb",
+                    "tokenName": "Eska",
+                    "items": {
+                        "Poison Web": {
+                            "description": "<p>One target stuck in place and 1d4 damage/round. [[check 12 dex]] to escape on turn.</p>",
+                            "name": "Poison Web"
+                        },
+                        "Bite": {
+                            "name": "Bite"
+                        },
+                        "xURhvz16GozH0j8f": {
+                            "name": "Poison Web"
+                        }
+                    }
+                },
+                "Grisk": {
+                    "description": "<p><em>Bipedal, eight-eyed spiderfolk with spindly legs and purple fur.</em></p><p><strong>AC</strong> 12, <strong>HP</strong> 14, <strong>ATK</strong> 2 bite +2 (1d6) or 1 poison web (near) +2, <strong>MV</strong> near (climb), <strong>S</strong> +0, <strong>D</strong> +2, <strong>C</strong> +1, <strong>I</strong> +0, <strong>W</strong> +0, <strong>Ch</strong> -1, <strong>AL</strong> C, <strong>LV</strong> 3</p><p><strong>Poison Web.</strong> One target stuck in place and 1d4 damage/round. [[check 12 dex]] to escape on turn.</p>",
+                    "name": "Grisk",
+                    "system.moveNote": "Climb",
+                    "tokenName": "Grisk",
+                    "items": {
+                        "Poison Web": {
+                            "description": "<p>One target stuck in place and 1d4 damage/round. [[check 12 dex]] to escape on turn.</p>",
+                            "name": "Poison Web"
+                        },
+                        "Bite": {
+                            "name": "Bite"
+                        },
+                        "xURhvz16GozH0j8f": {
+                            "name": "Poison Web"
+                        }
+                    }
+                },
+                "Skir": {
+                    "description": "<p><em>Bipedal, eight-eyed spiderfolk with spindly legs and purple fur.</em></p><p><strong>AC</strong> 12, <strong>HP</strong> 14, <strong>ATK</strong> 2 bite +2 (1d6) or 1 poison web (near) +2, <strong>MV</strong> near (climb), <strong>S</strong> +0, <strong>D</strong> +2, <strong>C</strong> +1, <strong>I</strong> +0, <strong>W</strong> +0, <strong>Ch</strong> -1, <strong>AL</strong> C, <strong>LV</strong> 3</p><p><strong>Poison Web.</strong> One target stuck in place and 1d4 damage/round. [[check 12 dex]] to escape on turn.</p>",
+                    "name": "Skir",
+                    "system.moveNote": "Climb",
+                    "tokenName": "Skir",
+                    "items": {
+                        "Poison Web": {
+                            "description": "<p>One target stuck in place and 1d4 damage/round. [[check 12 dex]] to escape on turn.</p>",
+                            "name": "Poison Web"
+                        },
+                        "Bite": {
+                            "name": "Bite"
+                        },
+                        "xURhvz16GozH0j8f": {
+                            "name": "Poison Web"
+                        }
+                    }
+                },
+                "Uliss": {
+                    "description": "<p><em>Bipedal, eight-eyed spiderfolk with spindly legs and purple fur.</em></p><p><strong>AC</strong> 12, <strong>HP</strong> 14, <strong>ATK</strong> 2 bite +2 (1d6) or 1 poison web (near) +2, <strong>MV</strong> near (climb), <strong>S</strong> +0, <strong>D</strong> +2, <strong>C</strong> +1, <strong>I</strong> +0, <strong>W</strong> +0, <strong>Ch</strong> -1, <strong>AL</strong> C, <strong>LV</strong> 3</p><p><strong>Poison Web.</strong> One target stuck in place and 1d4 damage/round. [[check 12 dex]] to escape on turn.</p>",
+                    "name": "Uliss",
+                    "system.moveNote": "Climb",
+                    "tokenName": "Uliss",
+                    "items": {
+                        "Poison Web": {
+                            "description": "<p>One target stuck in place and 1d4 damage/round. [[check 12 dex]] to escape on turn.</p>",
+                            "name": "Poison Web"
+                        },
+                        "Bite": {
+                            "name": "Bite"
+                        },
+                        "xURhvz16GozH0j8f": {
+                            "name": "Poison Web"
+                        }
+                    }
+                },
+                "Yisha": {
+                    "description": "<p><em>Bipedal, eight-eyed spiderfolk with spindly legs and purple fur.</em></p><p><strong>AC</strong> 12, <strong>HP</strong> 14, <strong>ATK</strong> 2 bite +2 (1d6) or 1 poison web (near) +2, <strong>MV</strong> near (climb), <strong>S</strong> +0, <strong>D</strong> +2, <strong>C</strong> +1, <strong>I</strong> +0, <strong>W</strong> +0, <strong>Ch</strong> -1, <strong>AL</strong> C, <strong>LV</strong> 3</p><p><strong>Poison Web.</strong> One target stuck in place and 1d4 damage/round. [[check 12 dex]] to escape on turn.</p>",
+                    "name": "Yisha",
+                    "system.moveNote": "Climb",
+                    "tokenName": "Yisha",
+                    "items": {
+                        "Poison Web": {
+                            "description": "<p>One target stuck in place and 1d4 damage/round. [[check 12 dex]] to escape on turn.</p>",
+                            "name": "Poison Web"
+                        },
+                        "Bite": {
+                            "name": "Bite"
+                        },
+                        "xURhvz16GozH0j8f": {
+                            "name": "Poison Web"
+                        }
+                    }
+                },
+                "Haruut": {
+                    "description": "<p><em>A cave hominid with scraggly fur and a stone-tipped spear.</em></p><p><strong>AC</strong> 12 (leather), <strong>HP </strong>5, <strong>ATK</strong> 1 spear (close/near) +2 (1d6 + 1), <strong>MV</strong> near, <strong>S</strong> +2, <strong>D</strong> +1, <strong>C</strong> +1, <strong>I</strong> -2, <strong>W</strong> +1, <strong>Ch</strong> -1, <strong>AL </strong>C,<strong> LV </strong>1</p><p><strong>Brutal</strong>. +1 damage with melee weapons (included).</p>",
+                    "name": "Haruut",
+                    "tokenName": "Haruut",
+                    "items": {
+                        "Spear": {
+                            "description": "<p>Close/Near</p>",
+                            "name": "Spear"
+                        },
+                        "Brutal": {
+                            "description": "<p>+1 damage with melee weapons (included).</p>",
+                            "name": "Brutal"
+                        }
+                    }
+                },
+                "Grall": {
+                    "description": "<p><em>A cave hominid with scraggly fur and a stone-tipped spear.</em></p><p><strong>AC</strong> 12 (leather), <strong>HP </strong>5, <strong>ATK</strong> 1 spear (close/near) +2 (1d6 + 1), <strong>MV</strong> near, <strong>S</strong> +2, <strong>D</strong> +1, <strong>C</strong> +1, <strong>I</strong> -2, <strong>W</strong> +1, <strong>Ch</strong> -1, <strong>AL </strong>C,<strong> LV </strong>1</p><p><strong>Brutal</strong>. +1 damage with melee weapons (included).</p>",
+                    "name": "Grall",
+                    "tokenName": "Grall",
+                    "items": {
+                        "Spear": {
+                            "description": "<p>Close/Near</p>",
+                            "name": "Spear"
+                        },
+                        "Brutal": {
+                            "description": "<p>+1 damage with melee weapons (included).</p>",
+                            "name": "Brutal"
+                        }
+                    }
+                },
+                "Chops": {
+                    "description": "<p><em>A cave hominid with scraggly fur and a stone-tipped spear.</em></p><p><strong>AC</strong> 12 (leather), <strong>HP </strong>5, <strong>ATK</strong> 1 spear (close/near) +2 (1d6 + 1), <strong>MV</strong> near, <strong>S</strong> +2, <strong>D</strong> +1, <strong>C</strong> +1, <strong>I</strong> -2, <strong>W</strong> +1, <strong>Ch</strong> -1, <strong>AL </strong>C,<strong> LV </strong>1</p><p><strong>Brutal</strong>. +1 damage with melee weapons (included).</p>",
+                    "name": "Chops",
+                    "tokenName": "Chops",
+                    "items": {
+                        "Spear": {
+                            "description": "<p>Close/Near</p>",
+                            "name": "Spear"
+                        },
+                        "Brutal": {
+                            "description": "<p>+1 damage with melee weapons (included).</p>",
+                            "name": "Brutal"
+                        }
+                    }
+                },
+                "Brell": {
+                    "description": "<p><em>A cave hominid with scraggly fur and a stone-tipped spear.</em></p><p><strong>AC</strong> 12 (leather), <strong>HP </strong>5, <strong>ATK</strong> 1 spear (close/near) +2 (1d6 + 1), <strong>MV</strong> near, <strong>S</strong> +2, <strong>D</strong> +1, <strong>C</strong> +1, <strong>I</strong> -2, <strong>W</strong> +1, <strong>Ch</strong> -1, <strong>AL </strong>C,<strong> LV </strong>1</p><p><strong>Brutal</strong>. +1 damage with melee weapons (included).</p>",
+                    "name": "Brell",
+                    "tokenName": "Brell",
+                    "items": {
+                        "Spear": {
+                            "description": "<p>Close/Near</p>",
+                            "name": "Spear"
+                        },
+                        "Brutal": {
+                            "description": "<p>+1 damage with melee weapons (included).</p>",
+                            "name": "Brutal"
+                        }
+                    }
+                },
+                "Rogath": {
+                    "description": "<p><em>A cave hominid with scraggly fur and a stone-tipped spear.</em></p><p><strong>AC</strong> 12 (leather), <strong>HP </strong>5, <strong>ATK</strong> 1 spear (close/near) +2 (1d6 + 1), <strong>MV</strong> near, <strong>S</strong> +2, <strong>D</strong> +1, <strong>C</strong> +1, <strong>I</strong> -2, <strong>W</strong> +1, <strong>Ch</strong> -1, <strong>AL </strong>C,<strong> LV </strong>1</p><p><strong>Brutal</strong>. +1 damage with melee weapons (included).</p>",
+                    "name": "Rogath",
+                    "tokenName": "Rogath",
+                    "items": {
+                        "Spear": {
+                            "description": "<p>Close/Near</p>",
+                            "name": "Spear"
+                        },
+                        "Brutal": {
+                            "description": "<p>+1 damage with melee weapons (included).</p>",
+                            "name": "Brutal"
+                        }
+                    }
+                },
+                "Grenton": {
+                    "description": "<p><em>A cave hominid with scraggly fur and a stone-tipped spear.</em></p><p><strong>AC</strong> 12 (leather), <strong>HP </strong>5, <strong>ATK</strong> 1 spear (close/near) +2 (1d6 + 1), <strong>MV</strong> near, <strong>S</strong> +2, <strong>D</strong> +1, <strong>C</strong> +1, <strong>I</strong> -2, <strong>W</strong> +1, <strong>Ch</strong> -1, <strong>AL </strong>C,<strong> LV </strong>1</p><p><strong>Brutal</strong>. +1 damage with melee weapons (included).</p>",
+                    "name": "Grenton",
+                    "tokenName": "Grenton",
+                    "items": {
+                        "Spear": {
+                            "description": "<p>Close/Near</p>",
+                            "name": "Spear"
+                        },
+                        "Brutal": {
+                            "description": "<p>+1 damage with melee weapons (included).</p>",
+                            "name": "Brutal"
+                        }
+                    }
+                },
+                "Hargol": {
+                    "description": "<p><em>A cave hominid with scraggly fur and a stone-tipped spear.</em></p><p><strong>AC</strong> 12 (leather), <strong>HP </strong>5, <strong>ATK</strong> 1 spear (close/near) +2 (1d6 + 1), <strong>MV</strong> near, <strong>S</strong> +2, <strong>D</strong> +1, <strong>C</strong> +1, <strong>I</strong> -2, <strong>W</strong> +1, <strong>Ch</strong> -1, <strong>AL </strong>C,<strong> LV </strong>1</p><p><strong>Brutal</strong>. +1 damage with melee weapons (included).</p>",
+                    "name": "Hargol",
+                    "tokenName": "Hargol",
+                    "items": {
+                        "Spear": {
+                            "description": "<p>Close/Near</p>",
+                            "name": "Spear"
+                        },
+                        "Brutal": {
+                            "description": "<p>+1 damage with melee weapons (included).</p>",
+                            "name": "Brutal"
+                        }
+                    }
+                },
+                "Beetle": {
+                    "description": "<p><em>A cave hominid with scraggly fur and a stone-tipped spear.</em></p><p><strong>AC</strong> 12 (leather), <strong>HP </strong>5, <strong>ATK</strong> 1 spear (close/near) +2 (1d6 + 1), <strong>MV</strong> near, <strong>S</strong> +2, <strong>D</strong> +1, <strong>C</strong> +1, <strong>I</strong> -2, <strong>W</strong> +1, <strong>Ch</strong> -1, <strong>AL </strong>C,<strong> LV </strong>1</p><p><strong>Brutal</strong>. +1 damage with melee weapons (included).</p>",
+                    "name": "Beetle",
+                    "tokenName": "Beetle",
+                    "items": {
+                        "Spear": {
+                            "description": "<p>Close/Near</p>",
+                            "name": "Spear"
+                        },
+                        "Brutal": {
+                            "description": "<p>+1 damage with melee weapons (included).</p>",
+                            "name": "Brutal"
+                        }
+                    }
+                },
+                "Irvog": {
+                    "description": "<p><em>A cave hominid with scraggly fur and a stone-tipped spear.</em></p><p><strong>AC</strong> 12 (leather), <strong>HP </strong>5, <strong>ATK</strong> 1 spear (close/near) +2 (1d6 + 1), <strong>MV</strong> near, <strong>S</strong> +2, <strong>D</strong> +1, <strong>C</strong> +1, <strong>I</strong> -2, <strong>W</strong> +1, <strong>Ch</strong> -1, <strong>AL </strong>C,<strong> LV </strong>1</p><p><strong>Brutal</strong>. +1 damage with melee weapons (included).</p>",
+                    "name": "Irvog",
+                    "tokenName": "Irvog",
+                    "items": {
+                        "Spear": {
+                            "description": "<p>Close/Near</p>",
+                            "name": "Spear"
+                        },
+                        "Brutal": {
+                            "description": "<p>+1 damage with melee weapons (included).</p>",
+                            "name": "Brutal"
+                        }
+                    }
+                },
+                "Blort": {
+                    "description": "<p><em>A cave hominid with scraggly fur and a stone-tipped spear.</em></p><p><strong>AC</strong> 12 (leather), <strong>HP </strong>5, <strong>ATK</strong> 1 spear (close/near) +2 (1d6 + 1), <strong>MV</strong> near, <strong>S</strong> +2, <strong>D</strong> +1, <strong>C</strong> +1, <strong>I</strong> -2, <strong>W</strong> +1, <strong>Ch</strong> -1, <strong>AL </strong>C,<strong> LV </strong>1</p><p><strong>Brutal</strong>. +1 damage with melee weapons (included).</p>",
+                    "name": "Blort",
+                    "tokenName": "Blort",
+                    "items": {
+                        "Spear": {
+                            "description": "<p>Close/Near</p>",
+                            "name": "Spear"
+                        },
+                        "Brutal": {
+                            "description": "<p>+1 damage with melee weapons (included).</p>",
+                            "name": "Brutal"
+                        }
+                    }
+                },
+                "Scarab, Swarm": {
+                    "description": "<p><em>A chittering cloud of iridescent, oval-shaped beetles.</em></p><p><strong>AC</strong> 13, <strong>HP</strong> 14, <strong>ATK</strong> 2 bite +3 (1d6), <strong>MV</strong> near (fly), <strong>S</strong> -1, <strong>D</strong> +3, <strong>C</strong> +1, <strong>I</strong> -3, <strong>W</strong> +0, <strong>Ch</strong> -3, <strong>AL</strong> N, <strong>LV</strong> 3</p>",
+                    "name": "Scarab, Swarm",
+                    "system.moveNote": "Fly",
+                    "tokenName": "Scarab, Swarm",
+                    "items": {
+                        "Bite": {
+                            "name": "Bite"
+                        }
+                    }
+                },
+                "Skeleton": {
+                    "description": "<p><em>A bleach-boned skeleton with red pinpoints of light in its eyes.</em></p><p><strong>AC</strong> 13 (chainmail), <strong>HP</strong> 11, <strong>ATK</strong> 1 shortsword +1 (1d6) or 1 shortbow (far) +0 (1d4), <strong>MV</strong> near, <strong>S</strong> +1, <strong>D</strong> +0, <strong>C</strong> +2, <strong>I</strong> -2, <strong>W</strong> +0, <strong>Ch</strong> -1, <strong>AL</strong> C, <strong>LV</strong> 2</p><p><strong>Undead.</strong> Immune to morale checks.</p>",
+                    "name": "Skeleton",
+                    "tokenName": "Skeleton",
+                    "items": {
+                        "Undead": {
+                            "description": "<p>Immune to morale checks.</p>",
+                            "name": "Undead"
+                        },
+                        "Shortsword": {
+                            "name": "Shortsword"
+                        },
+                        "Shortbow": {
+                            "name": "Shortbow"
+                        }
+                    }
+                },
+                "Beastman": {
+                    "description": "<p><em>A cave hominid with scraggly fur and a stone-tipped spear.</em></p><p><strong>AC</strong> 12 (leather), <strong>HP </strong>5, <strong>ATK</strong> 1 spear (close/near) +2 (1d6 + 1), <strong>MV</strong> near, <strong>S</strong> +2, <strong>D</strong> +1, <strong>C</strong> +1, <strong>I</strong> -2, <strong>W</strong> +1, <strong>Ch</strong> -1, <strong>AL </strong>C,<strong> LV </strong>1</p><p><strong>Brutal</strong>. +1 damage with melee weapons (included).</p>",
+                    "name": "Beastman",
+                    "tokenName": "Beastman",
+                    "items": {
+                        "Spear": {
+                            "description": "<p>Close/Near</p>",
+                            "name": "Spear"
+                        },
+                        "Brutal": {
+                            "description": "<p>+1 damage with melee weapons (included).</p>",
+                            "name": "Brutal"
+                        }
+                    }
+                },
+                "Animated Armor": {
+                    "description": "<p><em>An old suit of armor magically animated by a vengeful spirit.</em></p><p><strong>AC</strong> 15, <strong>HP</strong> 11, <strong>ATK</strong> 1 longsword +3 (1d8), <strong>MV</strong> near, <strong>S</strong> +3, <strong>D</strong> -1, <strong>C</strong> +2, <strong>I</strong> -1, <strong>W</strong> +1, <strong>Ch</strong> +0, <strong>AL</strong> C, <strong>LV</strong> 2</p><p><strong>Statue</strong>. When standing still, looks exactly like a suit of armor.</p>",
+                    "name": "Animated Armor",
+                    "tokenName": "Animated Armor",
+                    "items": {
+                        "Longsword": {
+                            "name": "Longsword"
+                        },
+                        "Statue": {
+                            "description": "<p>When standing still, looks exactly like a suit of armor.</p>",
+                            "name": "Statue"
+                        }
+                    }
+                },
+                "Ochre Jelly": {
+                    "description": "<p><em>An orange puddle of quivering slime.</em></p><p><strong>AC</strong> 9, <strong>HP</strong> 20, <strong>ATK</strong> 2 tentacle +3 (1d6), <strong>MV</strong> near (climb), <strong>S</strong> +2, <strong>D</strong> -1, <strong>C</strong> +2, <strong>I</strong> -4, <strong>W</strong> -3, <strong>Ch</strong> -4, <strong>AL</strong> N, <strong>LV</strong> 4</p><p><strong>Split.</strong> If cut or chopped, split into two smaller oozes (divide remaining HP between both). Can split up to four times.</p>",
+                    "name": "Ochre Jelly",
+                    "system.moveNote": "Climb",
+                    "tokenName": "Ochre Jelly",
+                    "items": {
+                        "Split": {
+                            "description": "<p>If cut or chopped, split into two smaller oozes (divide remaining HP between both). Can split up to four times.</p>",
+                            "name": "Split"
+                        },
+                        "Tentacle": {
+                            "name": "Tentacle"
+                        }
+                    }
+                }
+            },
+            "journals": {
+                "The Lost Citadel": {
+                    "name": "The Lost Citadel",
+                    "pages": {
+                        "Area 1-27": {
+                            "name": "Area 1-27",
+                            "text": "<p><strong>Danger Level</strong>. Risky. Check for an encounter every <strong>2</strong> crawling rounds or after the PCs make loud noises (1d6, 1 = encounter).</p><p><strong>Light</strong>. Total darkness unless noted. All denizens are dark-adapted.</p><p><strong>Doors</strong>. Stone. 1:6 chance of being stuck shut. Unlocked unless noted.</p><p><strong>NPCs</strong>. See @UUID[.ji9paT4DbaYTmMPm]{pg. 64} for beastmen and ettercap NPC generators.</p><p><strong>The Scarlet Minotaur</strong>. Each time you roll on the Random Encounters table after the first, apply a <strong>cumulative -2</strong> to the result (treat results below 1 as 1). Reset this count each time an encounter with the Scarlet Minotaur occurs.</p><p>@UUID[Macro.uQOjVmE0co1U8yws]{The Lost Citadel: Random Encounter Check}</p><table style=\"width:100%\"><caption>Rumors</caption><tbody><tr><td style=\"text-align:center\"><p>d8</p></td><td><p>Details</p></td></tr><tr><td style=\"text-align:center\"><p>1</p></td><td><p>The <strong>@UUID[Actor.XPNU79kJyse04pL3]{Scarlet Minotaur}</strong> (Area 18) stalks into sight, bellowing challenges and pawing the stone</p></td></tr><tr><td style=\"text-align:center\"><p>2</p></td><td><p><strong>[[/r 1d4]] @UUID[Compendium.shadowdark.monsters.Actor.fcgq7uwsJEMMdRNx]{ettercaps}</strong> and <strong>[[/r 1d8]]</strong> <strong>@UUID[Compendium.shadowdark.monsters.Actor.k8tAgECWIzPIStGU]{beastmen}</strong> clash in a bloody melee</p></td></tr><tr><td style=\"text-align:center\"><p>3</p></td><td><p>A dry gust of wind extinguishes all torches and lamps</p></td></tr><tr><td style=\"text-align:center\"><p>4</p></td><td><p><strong>[[/r 1d6]]</strong> <strong>@UUID[Compendium.shadowdark.monsters.Actor.fcgq7uwsJEMMdRNx]{ettercaps}</strong> creep along, searching for gold and gems</p></td></tr><tr><td style=\"text-align:center\"><p>5</p></td><td><p>The <strong>@UUID[Compendium.shadowdark.monsters.Actor.cWzG0yEVgIk8ijk6]{skeletons}</strong> of <strong>[[/r 1d6]]</strong> dead adventurers or warrior-mages stagger into sight</p></td></tr><tr><td style=\"text-align:center\"><p>6</p></td><td><p><strong>[[/r 2d4]]</strong> <strong>@UUID[Compendium.shadowdark.monsters.Actor.k8tAgECWIzPIStGU]{beastmen}</strong> argue in hushed whispers over who gets to eat the centipedes they just trapped in a bag</p></td></tr><tr><td style=\"text-align:center\"><p>7</p></td><td><p><strong>[[/r 1d4]]</strong> <strong>@UUID[Compendium.shadowdark.monsters.Actor.0JAEN5FsKjaXXZaA]{darkmantles}</strong> swoop out, bobbing and spinning in a territorial warning dance</p></td></tr><tr><td style=\"text-align:center\"><p>8</p></td><td><p>A <strong>@UUID[Compendium.shadowdark.monsters.Actor.j7sQ6Km2jSx5twCC]{cave creeper}</strong> rushes along the ceiling toward light</p></td></tr></tbody></table>"
+                        },
+                        "Room 1: Mural Chamber": {
+                            "name": "Room 1: Mural Chamber",
+                            "text": "<p><strong>Walls</strong>: Floor-to-ceiling murals painted in vibrant jewel tones. <strong>Red Pillars</strong>: Tapered, banded in black marble at top and bottom.</p><ul><li><p><strong>Murals</strong>. People in white robes kneeling in a room of red pillars before a colossal, onyx bull with horns lowered.</p><ul><li><p><strong>Hidden Niche</strong>. Behind bull statue. @UUID[Item.r893z0hIf4LSdPs3]{Silver-Inlaid Bull Horn} (30 gp).</p></li></ul></li><li><p><strong>Ettercap NPC. Eska</strong> (weaselly, disloyal). Just hid a stolen pearl in Area 2. Hides on the northeast corner of ceiling. Screeches an alarm and flees toward Area 4 if attacked.</p><ul><li><p><strong>Escapes</strong>. Three ettercaps from Area 4 set an <strong>ambush</strong> in Area 2.</p></li></ul></li></ul>"
+                        },
+                        "Room 2: Blinding Cave": {
+                            "name": "Room 2: Blinding Cave",
+                            "text": "<p><strong>Walls</strong>: Flecked with countless, smooth shards of quartz. <strong>White Bundles</strong>: Man-sized, several stuffed into cave corners.</p><ul><li><p><strong>Ettercap Ambush.</strong> If Eska in Area 1 raised alarm, three hostile @UUID[Compendium.shadowdark.monsters.Actor.fcgq7uwsJEMMdRNx]{ettercaps} from Area 4 cling to 20' ceiling.</p></li><li><p><strong>Walls</strong>. Dazzlingly reflective. [[request 12 dex]] when entering with bright light or blinded for [[/r 1d4]] rounds (ettercaps are unaffected).</p><ul><li><p><strong>Prying</strong>. Carefully extracted piece of cave wall serves as a mirror.</p></li></ul></li><li><p><strong>White Bundles</strong>. Five <strong>@UUID[Compendium.shadowdark.monsters.k8tAgECWIzPIStGU]{beastmen}</strong> wrapped in ettercap silk. 1:6 chance one still lives. @UUID[Item.7unKOF9uy9ECqkEy]{Pearl} (40 gp) hidden inside one's mouth.</p></li></ul>"
+                        },
+                        "Room 3: Web-Choked Cave": {
+                            "name": "Room 3: Web-Choked Cave",
+                            "text": "<p><strong>Walls and Floor</strong>: Covered in thick, gauzy sheets of webbing.</p><ul><li><p><strong>Webs</strong>. Sticky. [[request 12 str]] to break free and move each turn. Highly flammable ([[/r 1d6]] damage to stuck creatures, burns [[/r 1d4]] rounds).</p><ul><li><p><strong>Rolled Parchment</strong>. Stuck in webs, 10' up.<em>@UUID[Item.Jo88wNZQdCtvuuuS]{Scroll of Hold Portal}</em> .</p></li></ul></li><li><p><strong>Secret Tunnel</strong>. Hidden by a wall of webs. Ettercaps reseal it each time they pass through.</p><ul><li><p><strong>Chittering</strong>. Listeners hear shrill, tittering whispers from Area 4.</p></li></ul></li></ul>"
+                        },
+                        "Room 4: Ettercap Nest": {
+                            "name": "Room 4: Ettercap Nest",
+                            "text": "<p><strong>Creatures</strong>: Group of purple-furred, potbellied humanoids with spindly legs. Snarling at each other about a missing pearl. <strong>Cave</strong>: Cramped, tufts of spiderweb everywhere. <strong>Floor</strong>: Neat piles of gold and lustrous objects. <strong>Ceiling</strong>: Low (10'), three narrow shafts (1').</p><ul><li><p><strong>@UUID[Compendium.shadowdark.monsters.fcgq7uwsJEMMdRNx]{Ettercaps.}</strong> Five. Three go to Area 2 if <strong>@UUID[Actor.QvVJAySJZMTMnEZp]{Eska}</strong> (Area 1) raises an alarm. Might parlay, but are fatally treasure-crazed. Squeeze through ceiling shafts with scoops of each other's loot if outclassed.</p><ul><li><p><strong>NPCs</strong>. <strong>@UUID[Actor.1WXEDbF6gSa4fQUQ]{Skir}</strong> (animated, loud), <strong>@UUID[Actor.rok3i6Gy0RjoBgrq]{Yisha}</strong> (tiny, sinister), <strong>@UUID[Actor.82lFpkXeVpKnPWCQ]{Grisk}</strong> (old, irritable), <strong>@UUID[Actor.eVuNGaceV93M5whd]{Uliss}</strong> (lumbering, dull), <strong>@UUID[Actor.rh1ZgUTuHcwhlt4F]{Chee}</strong> (silver fur, elegant).</p></li></ul></li><li><p><strong>Treasure</strong>. 12 evenly-valued piles (some belong to wanderers). <strong>Eska</strong> (Area 1) stole a pearl from <strong>Grisk's</strong> share and hid it in Area 2.</p><p><strong>Details</strong>.</p><ul><li><p>200 gp,</p></li><li><p>2 x @UUID[Item.WKk0GVD1KHrI6fav]{pearls} (40 gp each)</p></li><li><p>@UUID[Item.TggK5foyVW9RXoHw]{alabaster statuette of a bull} (20 gp),</p></li><li><p>2 x @UUID[Item.BjWjRaMBbsv50AjU]{silver incense bowl}s (15 gp each),</p></li><li><p>@UUID[Item.U3dML6TSDUKJXBUh]{jade snake bracelet} (20 gp),</p></li><li><p>@UUID[Item.iW6GTpg33QYMca8k]{necklace of thick gold links} (30 gp).</p></li></ul></li></ul>"
+                        },
+                        "Room 5: Robing Chamber": {
+                            "name": "Room 5: Robing Chamber",
+                            "text": "<p><strong>Skeleton</strong>: Pinned to wall. Hands clasp a spear jutting from ribcage.</p><p><strong>Walls</strong>: Chipped mosaic of cavorting dolphins. White robes on pegs.</p><ul><li><p><strong>Skeleton</strong>. Wears decaying, crimson-dyed leather armor. Bronze shortsword hangs from belt.</p><ul><li><p><strong>Spear</strong>. Driven deep into stone with inhuman force. Bronze tip.</p></li></ul></li><li><p><strong>Robes</strong>. Four. Musty, rotten. Bronze <strong>key</strong> to Area 21 in one's pocket.</p></li></ul>"
+                        },
+                        "Room 6: Bathhouse": {
+                            "name": "Room 6: Bathhouse",
+                            "text": "<p><strong>Statue</strong>: A life-sized, snake-haired woman with arms raised and mouth open in a scream. <strong>Stone Basins</strong>: Smooth, human-sized.</p><ul><li><p><strong>Statue</strong>. Turning the hinged arms down causes scalding water to spew from mouth ([[request 12 dex]] to leap aside or [[/r 1d4]] damage).</p></li><li><p><strong>Basins</strong>. Six. Coiling snake carvings. Stone plugs wedged in drains.</p><ul><li><p><strong>Removing Plugs.</strong> Cumulative 1:6 to unleash a <strong>@UUID[Compendium.shadowdark.monsters.U9moCUg8DnL6C0Sq]{scarab swarm}</strong>.</p></li></ul></li></ul>"
+                        },
+                        "Room 7: Bull Statue": {
+                            "name": "Room 7: Bull Statue",
+                            "text": "<p><strong>Bull Statue</strong>: Towering (10'), bronze. Horns lowered for a charge. <strong>Hall</strong>: 15' high. Pairs of deep holes punched into wall opposite statue.</p><ul><li><p><strong>Statue</strong>. Motion-activated. 3:6 chance/round it animates and charges to end of hall (ignores Scarlet Minotaur). [[request 15 dex]] or [[/r 2d6]] damage and knocked flat. Trots back to position and resets.</p><ul><li><p><strong>@UUID[Item.ToSK7skdC9OPzmwZ]{Emerald.}</strong> (120 gp), embedded in statue's forehead. Shattering (AC 20, 1 HP) deactivates statue but reduces gem's value to 20 gp (@UUID[Item.hiVLFYBR666Zm29e]{Emerald (Shattered)}).</p></li></ul></li></ul>"
+                        },
+                        "Room 8: Blood Bowls": {
+                            "name": "Room 8: Blood Bowls",
+                            "text": "<p><strong>Alcoves</strong>: Square, black plinths each hold a simple terracotta bowl.</p><ul><li><p><strong>Bowls</strong>. Six. Stamped with a seal that shows a warrior kneeling in a black rain, arms and mouth open to the sky.</p><ul><li><p><strong>Blood</strong>. Filling a bowl with fresh blood charges the blood with healing magic ([[/r 1d4]] HP, must drink). Once used, bowl crumbles.</p></li></ul></li></ul>"
+                        },
+                        "Room 9: Sorcerous Pillars": {
+                            "name": "Room 9: Sorcerous Pillars",
+                            "text": "<p><strong>Pillars</strong>: Four pairs, painted rich jewel tones. Capped in black marble.</p><p><strong>Body</strong>: Purple, spindly humanoid lies facedown halfway across room.</p><p><strong>Greatsword</strong>: Bronze, brightly polished. Blade is sunken into a black marble altar beyond the pillars.</p><ul><li><p><strong>Pillars</strong>. Moving past each pair activates their effect. Returning past the pair ends it. In order, from north to south:</p><ul><li><p><strong>Red</strong>. Anything flammable on you ignites. [[/r 1d4]] damage/round.</p></li><li><p><strong>Blue</strong>. Sea water fills your lungs. You drown in [[/r 1d6]] rounds.</p></li><li><p><strong>Green</strong>. Poisoned. [[request 12 con]] on your turn or lose turn.</p></li><li><p><strong>Purple</strong>. You go blind and move at half speed.</p></li></ul></li><li><p><strong>Body</strong>. Ettercap. Scorched fur. Mouth and chest matted with salt rime. Claw marks around eyes.</p></li><li><p><strong>Greatsword</strong>. [[request 12 str]] to remove from altar. <em>+1 greatsword</em> called <em>@UUID[Item.JpRmSUeNd7qwnXZa]{Asterion}</em>. A creature cannot move the wielder against their will.</p></li></ul>"
+                        },
+                        "Room 10: Bull Statue": {
+                            "name": "Room 10: Bull Statue",
+                            "text": "<ul><li><p><strong>Bull Statue</strong>. As Area 7. Skeleton stuck on horns covers emerald.</p><ul><li><p><strong>@UUID[Item.ToSK7skdC9OPzmwZ]{Emerald.}</strong> (120 gp), embedded in statue's forehead. Shattering (AC 20, 1 HP) deactivates statue but reduces gem's value to 20 gp (@UUID[Item.hiVLFYBR666Zm29e]{Emerald (Shattered)}).</p></li></ul></li></ul>"
+                        },
+                        "Room 11: Prison": {
+                            "name": "Room 11: Prison",
+                            "text": "<p><strong>Door</strong>: Hefty stone slab with keyhole. Cold and damp to the touch.</p><ul><li><p><strong>Door</strong>. Unlocked, barricaded from inside. [[request 18 str]] to force.</p><ul><li><p><strong>Listening</strong>. Faint metallic, clinking sound on other side.</p></li><li><p><strong>Keyhole</strong>. Darkness with a few points of bobbing, red light.</p></li></ul></li><li><p><strong>Inside</strong>. Four <strong>@UUID[Compendium.shadowdark.monsters.cWzG0yEVgIk8ijk6]{skeletons}</strong> in tattered, red leather armor shuffle around, knocking into manacles anchored to floor. Four bronze-shod <strong>spears</strong> braced through handle (broken if door opened).</p><ul><li><p><strong>Walls</strong>. Scratched in ancient Common: \"Days since the Beast appeared.\" About 40 tally lines below it, gradually fainter.</p></li></ul></li></ul>"
+                        },
+                        "Room 12: Armory": {
+                            "name": "Room 12: Armory",
+                            "text": "<p><strong>Floor</strong>: Tangled heaps of gaping skeletons. <strong>Walls</strong>: A bronze dagger sticks in the stone by its point. <strong>Alcoves</strong>: Splintered, wooden racks.</p><ul><li><p><strong>@UUID[Compendium.shadowdark.monsters.cWzG0yEVgIk8ijk6]{Skeletons}</strong>. Twelve. Several are cut completely in half. Tatters of red-dyed armor, shattered shields, and bronze shortswords.</p><ul><li><p><strong>If Touched</strong>. Cumulative 1:12 chance one rises as <strong>@UUID[Compendium.shadowdark.monsters.ZCbay6SPPzbbz2bJ]{wight}</strong> (once only). Otherwise, skeleton nearly rises, but collapses into dust.</p></li><li><p><strong>Treasure</strong>. The wight wears a gold <em>@UUID[Item.O98T6HjIZ9nrajO4]{Scarab of Protection}</em>.</p></li></ul></li><li><p><strong>Racks</strong>. Red shield with black bull painted on it, three spears.</p></li><li><p><strong>Walls</strong>. Scorch marks and scratches. Deep, sweeping gouges at chest and head height.</p></li><li><p><strong>@UUID[Compendium.shadowdark.monsters.k8tAgECWIzPIStGU]{Beastmen}</strong>. Three listen from Area 14. If PCs are noisy/destructive, adjust their attitudes one step toward <strong>hostile</strong>.</p></li><li></li></ul>"
+                        },
+                        "Room 13: Bull Statue": {
+                            "name": "Room 13: Bull Statue",
+                            "text": "<ul><li><p><strong>Bull Statue</strong>. As Area 7. 40 gp scattered at statue's feet.</p></li></ul>"
+                        },
+                        "Room 14: Hidden Hall": {
+                            "name": "Room 14: Hidden Hall",
+                            "text": "<p><strong>Hall</strong>: Silent and narrow. Stale, dead air. <strong>Smell</strong>: Urine and body odor, eye-watering. <strong>Floor</strong>: Scattered with rat bones and centipede husks.</p><ul><li><p><strong>@UUID[Compendium.shadowdark.monsters.k8tAgECWIzPIStGU]{Beastmen}</strong>. Three. Ragged, grey fur. Each stands by one of the doors, listening. They regroup in Area 14 if PCs enter. If PCs are noisy, adjust their attitude one step toward <strong>hostile</strong>.</p><ul><li><p><strong>NPCs</strong>. <strong>@UUID[Actor.mdRstp355OUOyY7r]{Haruut} </strong>(stocky, mistrustful), <strong>@UUID[Actor.VIiW9qercPbgheGh]{Grall}</strong> (young, timid), <strong>@UUID[Actor.PZ6Pt3fz7LRaEWqU]{Chops}</strong> (long jowls, blustery). They speak in harsh whispers and cringe at loud sounds.</p></li></ul></li><li><p><strong>Secret Doors</strong>. All visible from this side.</p></li></ul>"
+                        },
+                        "Room 15: Jar Storage": {
+                            "name": "Room 15: Jar Storage",
+                            "text": "<p><strong>Terracotta</strong> <strong>Jars</strong>: Clustered in corners. Fat and rounded, various heights. <strong>Air</strong>: Sulfuric scent. <strong>Sound</strong>: Occasional faint squeak and hiss. <strong>South Door</strong>: White, jagged lines gouged into the stone.</p><ul><li><p><strong>Jars</strong>. 20 jars sealed with cork and wax. Stamped with images of people carving wheat with scythes. Sticky, black mush inside.</p><ul><li><p><strong>Explosive</strong>. Shaking/striking jar causes it to shatter from sulfuric gas buildup. [[request 12 dex]] or 1d4 damage. Possible chain reaction.</p></li><li><p><strong>Treasure</strong>. Cumulative 1:20 chance of finding an <strong>@UUID[Item.R9rWEWg4biAMlj0U]{ivory egg}</strong> shot with grey veins inside one (40 gp). It's actually a cockatrice egg.</p></li></ul></li><li><p><strong>South Door</strong>. Carving in Common: \"R.I.P. Orwyn the Younger.\"</p></li></ul>"
+                        },
+                        "Room 16: Offering Bowls": {
+                            "name": "Room 16: Offering Bowls",
+                            "text": "<p><strong>Halls</strong>: A weighty, stone bowl in each. Chest-high. <strong>Murals</strong>: Rows of peasants pour jars of gold coins and wheat into massive, grey bowls. Imperious, red-armored warriors with bronze spears supervise.</p><ul><li><p><strong>Stone Bowls</strong>. Smooth and worn. Placing food or gold inside grants a Luck Token (once per character).</p></li><li><p><strong>Human NPC</strong>. <strong>Giuseppe Baldini</strong>, N herbalist (crotchety, middle- aged, poor). Wants treasure. Hides behind southeast bowl.</p></li></ul>"
+                        },
+                        "Room 17: Broken Bull Statue": {
+                            "name": "Room 17: Broken Bull Statue",
+                            "text": "<p><strong>Bull Statue</strong>: Towering (10'), bronze. Head and horns smashed deeply into cracked wall. <strong>Body</strong>: Pinned between wall and bull head.</p><ul><li><p><strong>Statue</strong>. No longer functions. @UUID[Item.vykb09m5y4gCdVIS]{Shattered emerald} (20 gp) embedded in forehead.</p></li><li><p><strong>Body</strong>. Young, human man in chainmail and helm. Carries @UUID[Compendium.shadowdark.gear.1T8oUkfkBtYTLNF3]{bastard sword} and shield (splintered). Dark green cloak.</p><ul><li><p><strong>Backpack</strong>. @UUID[Compendium.shadowdark.gear.z3xc7HGysC4ZCU8e]{Torch}, @UUID[Compendium.shadowdark.gear.EPndk3DPOEOSvbga]{10 pitons}, @UUID[Compendium.shadowdark.gear.6ZRwVHFlh5QiyZWC]{60' rope}, withered apple, and a @UUID[Item.VO8hdwr2ulhRwwW0]{silver locket} with a painting of a smiling, red-haired woman (5 gp).</p></li></ul></li></ul>"
+                        },
+                        "Room 18: Central Courtyard": {
+                            "name": "Room 18: Central Courtyard",
+                            "text": "<p><strong>Bull Statue</strong>: 20' tall, black onyx, rippling muscle. Horns lowered and dotted with white objects. <strong>Courtyard</strong>: Sandy flagstones, sun- scorched. Heaps of bleached bones. <strong>Red Pillars</strong>: Free-standing, some shattered and crumbling. Cast cool, dark shadows.</p><ul><li><p><strong>@UUID[Actor.XPNU79kJyse04pL3]{The Scarlet Minotaur}</strong>. 3:6 chance of being present. If not, cumulative 1:6 chance per round it returns. <strong>@UUID[Compendium.shadowdark.monsters.c3Nvj86e0Layz3NG]{Minotaur}</strong>: 9' tall, wine- red fur. Charges at shadows, headbutts pillars, snorts and bellows. Two-headed, bronze <em>+1 greataxe</em> called <em>@UUID[Item.gtfx2i7YimBMi2bo]{Bloodlust}</em>; wielder deals x4 damage on a critical hit.</p></li><li><p><strong>Bull Statue.</strong> 30 humanoid skulls in various states of rot punched onto horns like necklace beads. Some have traces of grey fur.</p><ul><li><p><strong>Ritual Sacrifice</strong>. Punching a freshly beheaded humanoid skull onto a horn grants +1 point of Strength. <strong>Each additional time</strong>: cumulative 1:4 chance of transforming into a beastman.</p></li></ul></li><li><p><strong>Bones</strong>. Trampled and crushed. No skulls. Piles of dented armor and broken weapons, both steel and bronze.</p></li><li><p><strong>Treasure</strong>. Each round spent sifting reveals one of the following:</p></li></ul><ol><li><p>@UUID[Item.yv6v0HqiSsnAGOHC]{Scarred mithral shield} carved with prowling tiger (40 gp)</p></li><li><p>Bag of <strong>60 gp</strong> stamped with long-dead emperor</p></li><li><p><em>@UUID[Item.qQfrScSGMEBGHCFZ]{Scroll of Burning Hands}</em> in bronze tube adorned with jade dragons (80 gp)</p></li><li><p>@UUID[Item.0HvhZP8EOXqyT3p2]{Silvered longsword} with half-moon pommel (30 gp).</p></li></ol>"
+                        },
+                        "Room 19: Bas-Relief Hall": {
+                            "name": "Room 19: Bas-Relief Hall",
+                            "text": "<p><strong>Creature</strong>: Gangly, gray-furred humanoid sprawled on the ground facedown. Lumpy burlap sack near hand. <strong>Walls</strong>: Bas-relief carvings dense with human figures and scenes.</p><ul><li><p><strong>@UUID[Compendium.shadowdark.monsters.k8tAgECWIzPIStGU]{Beastman} NPC. @UUID[Actor.XbO8sDu1ToDVVoh9]{Brell}</strong> (frail, panicky). Fell and cracked his head fleeing from a sound. Wakes up in [[/r 1d4]] rounds.</p><ul><li><p><strong>Traits</strong>. Scorned younger brother of beastmen leader, <strong>@UUID[Actor.bERcM50HvKw0ZY6o]{Rogath}</strong> (Area 23). Naively loyal. Hopes to earn his brother's affection.</p></li><li><p><strong>Burlap Sack.</strong> Two dead rats, necks snapped. A gift for Rogath.</p></li></ul></li><li><p><strong>Carvings</strong>. Scenes of acrobats leaping over charging bulls and warriors fighting in ritualistic combat.</p><ul><li><p><strong>Hidden Niche</strong>. Behind a bull-leaper. @UUID[Item.a69T3oP2oVH2yqMn]{Silver, horned helm} (15 gp).</p></li></ul></li></ul>"
+                        },
+                        "Room 20: Mosaic Room": {
+                            "name": "Room 20: Mosaic Room",
+                            "text": "<p><strong>Floor</strong>: Mosaic of rich orange, yellow, and red tiles in a swirl pattern.</p><ul><li><p><strong>Mosaic</strong>. Pattern camouflages a mottled <strong>@UUID[Compendium.shadowdark.monsters.QErMaMVIbddgk9MX]{ochre jelly}</strong>. 3:6 chance of stepping on it without careful inspection.</p></li></ul>"
+                        },
+                        "Room 21: Throne Chamber": {
+                            "name": "Room 21: Throne Chamber",
+                            "text": "<p>Door: Bronze, emblazoned with sun and projecting rays. Locked.</p><ul><li><p><strong>Door</strong>. Key is in Area 5. Each failed attempt to open without key causes door to glow hot. Cumulative 1:6 chance it shoots three random rays of fire ([[/r d20+4]]{+4 attack}, [[/r 2d6]] damage each).</p></li><li><p><strong>Inside</strong>. Bronze throne with skeleton  (not undead) impaled by a golden spear. Red <strong>pillars</strong> with script in ancient Common.</p><ul><li><p><strong>Skeleton</strong>. Sits on throne (50 gp, two gear slots). Wears a gold diadem with a pearl (60 gp). Hands clasped around <em>+1 spear</em> called <em>@UUID[Item.cY0UIbpokdT448Pw]{Vigilant}</em>. Its wielder cannot be surprised.</p></li><li><p><strong>Pillars</strong>. Lists of tributes paid to the Bull God, Oros, by the Warrior-Kings. <strong>Damanthus the Brave</strong> gave gold, <strong>Sarpen the Wise</strong> gave wheat, and <strong>Minoros the Cruel</strong> gave blood.</p></li></ul></li></ul>"
+                        },
+                        "Room 22: Labyrinth": {
+                            "name": "Room 22: Labyrinth",
+                            "text": "<p><strong>Halls</strong>: Narrow, 20' tall, shadowy at top. Tight corners. Hot wind rushes through. <strong>Floor</strong>: Skirls of sand blown in from outside.</p><ul><li><p><strong>Sand</strong>. Fading, cloven hoofprints. Two handspans wide each.</p><ul><li><p><strong>Dead-Ends</strong>. Clusters of gourd-sized, terracotta jars. Various earth tones and shapes. Most are smashed.</p></li><li><p><strong>Intact Jars</strong>. [[/r 1d6]] per dead-end. Each has [[/r 1d4]] gp, handful of ash, and pinkie-sized, human doll of colorful thread. <strong>Taking anything</strong>: 1:20 chance of ghost haunting on next full moon.</p></li></ul></li></ul>"
+                        },
+                        "Room 23: Beastmen Lair": {
+                            "name": "Room 23: Beastmen Lair",
+                            "text": "<p>Creatures: 15 hunched, grey-furred humanoids chewing on centipedes and speaking in harsh whispers. One lounges on a mat of rat pelts, picking his teeth. <strong>Room</strong>: Grimy, cramped, scattered with rodent bones. <strong>Smell</strong>: Unwashed bodies, urine.</p><ul><li><p><strong>@UUID[Compendium.shadowdark.monsters.k8tAgECWIzPIStGU]{Beastmen}</strong>. Hostile toward noise-makers. Superstitious about the (non-existent) dragons that wait outside the citadel to eat them.</p><ul><li><p><strong>NPCs</strong>. <strong>@UUID[Actor.bERcM50HvKw0ZY6o]{Rogath}</strong> (hulking, lazy, feared leader). <strong>Minions</strong>: <strong>@UUID[Actor.CDxRc2pIwG7SK73E]{Grenton}</strong> (wiry, mistrustful), <strong>@UUID[Actor.L91uEF4duAo8T5Eq]{Hargol}</strong> (eyes point in different directions, agrees to everything), <strong>@UUID[Actor.4Ou1RViS2GnqvRh9]{Beetle}</strong> (scuttles, elaborate plan-maker).</p></li><li><p><strong>Alliance</strong>. Rogath wants Scarlet Minotaur dead so he can be king of the citadel. Cheerfully sends his hated brother, <strong>@UUID[Actor.XbO8sDu1ToDVVoh9]{Brell}</strong> (Area 19), and his non-minions into danger to help this effort.</p></li></ul></li><li><p><strong>Secret Doors</strong>. All visible from this side. A beastman guards each.</p></li></ul>"
+                        },
+                        "Room 24: Lookout Room": {
+                            "name": "Room 24: Lookout Room",
+                            "text": "<p><strong>Creatures</strong>: Two shaggy, stooped humanoids listen sullenly at doors. <strong>Room</strong>: Filthy, low ceiling. <strong>Stench</strong>: Wet animal and dung.</p><ul><li><p><strong>NPCs</strong>. <strong>@UUID[Actor.hoL50RSbMvRNrrcY]{Irvog}</strong> (young, earnest), <strong>@UUID[Actor.Fg9DEqSk8eACtwOw]{Blort}</strong> (scarred face, disciplined). If PCs are noisy, adjust their attitude one step toward <strong>hostile</strong>.</p></li><li><p><strong>Secret Doors</strong>. All visible from this side.</p></li></ul>"
+                        },
+                        "Room 25: Training Chamber": {
+                            "name": "Room 25: Training Chamber",
+                            "text": "<p><strong>Armor Stands</strong>: Five suits of red-dyed leather reinforced with bronze studs. <strong>Weapon Rack</strong>: Bronze weapons covered in a rime of dust. <strong>Walls</strong>: Countless chips and nicks.</p><ul><li><p><strong>Armor</strong>. Touching armor or taking a weapon off rack causes three suits to spring to life (@UUID[Compendium.shadowdark.monsters.qSeHWgP59WltutCz]{animated armor}) and attack for [[/r 1d4]] rounds.</p></li><li><p><strong>Weapon Rack</strong>. Five @UUID[Compendium.shadowdark.gear.KQTWQwznjK80gVEU]{shortswords}, @UUID[Compendium.shadowdark.gear.ZPUhNMmwXXrtbCXi]{longswords}, @UUID[Compendium.shadowdark.gear.UWp4WkkiaBMSXYPE]{shields}, and @UUID[Compendium.shadowdark.gear.brIFMH0sOVmqX02N]{spears}.</p></li></ul>"
+                        },
+                        "Room 26: Hall of Kings": {
+                            "name": "Room 26: Hall of Kings",
+                            "text": "<p><strong>Alcoves</strong>: Bronze, lifelike statue of a man on a raised pedestal in each.</p><ul><li><p><strong>Statues</strong>. Athletic, proud, similar facial features. Draped in robes, wearing @UUID[Item.xTOy6PVB5iu1asFa]{diadems} with pearls (40 gp each). Each holds a weapon.</p></li><li><p><strong>Inscriptions</strong>. In ancient Common. <strong>Damanthus</strong>, Son of Aster ([[/r 1d12]]{greatsword}), <strong>Sarpen</strong>, Son of Damanthus ([[/r 1d6]]{spear}), <strong>Minoros</strong>, Son of Sarpen ([[/r 1d10]]{greataxe}).</p></li><li><p><strong>Diadems</strong>. Trapped. Touching the pearl causes the statue to swing its weapon ([[/r 1d20+5]]{+5 attack}).</p></li></ul>"
+                        },
+                        "Room 27: Sacrifice Cave": {
+                            "name": "Room 27: Sacrifice Cave",
+                            "text": "<p><strong>Cave</strong>: Chilly and damp, high ceiling (30'). Dripping stalactites. <strong>Pool</strong>: Crimson water, murky and still. <strong>Smell</strong>: Coppery, metallic tang.</p><ul><li><p><strong>Spirits</strong>. Dozens of smoky, humanlike shadows flicker at the edge of darkness. If the <strong>light</strong> ever goes out, they descend with ghostly shrieks, dealing [[/r 1d8]] damage/round to each character.</p></li><li><p><strong>Pool</strong>. 20' deep. Cursed water clouded with blood. [[request 12 con]] for each round of contact or temporarily lose 1 point of Wisdom (heals after rest). If 0 Wisdom, permanently become catatonic.</p><ul><li><p><strong>On Bottom</strong>. Graveyard of dozens of human and bull skeletons. Among them are 200 gp, a <em>@UUID[Item.i3gSIEVGxXhlUkdn]{Wand of Blind/Deafen}</em>, three @UUID[Item.cFi2Wtbwz3qkiJMx]{onyx bull statuettes} (15 gp each), <em>@UUID[Item.ip1i9MpeJeyf7ayu]{Boots of the Cat}</em>, and a tiny bottle that houses the soul of a mighty sorcerer named <strong>Malfune</strong>.</p></li></ul></li></ul>"
+                        },
+                        "Overview": {
+                            "name": "Overview",
+                            "text": "<h2>Room Key</h2><p>The keyworded <strong>descriptions</strong> at the start of each location are safe to share with the players. The <strong>bulleted details</strong> beneath are for the GM.</p><h2>Background</h2><p>Long ago, a mighty enclave of warriors lived inside the Lost Citadel. They worshipped bulls in ever-bloodier, cultish rituals that culminated in their leader, Minoros, transforming into the <strong>Scarlet Minotaur</strong>. This immortal avatar of rage slaughtered the warriors in a single night of mayhem. However, some of their servants escaped through the unseen halls used by the lowly. These <strong>beastmen</strong> hid in the fallen citadel, trapped by superstitious fear of the outside.</p><h2>Factions</h2><p><strong>Beastmen</strong>. These grey-furred, feral beings have evaded the Scarlet Minotaur for generations. They dwell in Area 23, believing dragons wait outside to devour anyone who leaves the citadel. Endless fear has made them vicious and craven. Their leader, Rogath, rules by the might of his claws.</p><p><strong>Ettercaps</strong>. Recently, a group of ettercaps crept into Area 4 from the caves below the citadel. They slink through the minotaur-haunted halls, tempted by forgotten gems and gold. They plan to depart \"as soon as we have enough loot,\" a moment which never seems to arrive. They are leaderless and unanimously greedy.</p><p><strong>The Scarlet Minotaur</strong>. Towering, blood-red, snorting and frothing. It plows through the labyrinthine halls of the Lost Citadel looking for creatures to slay. The minotaur returns to Area 18 between patrols.</p><p>@UUID[RollTable.iFdrtN3kJk5yth9S]{The Lost Citadel: Rumors}</p><table style=\"width:100%\"><caption>Rumors</caption><tbody><tr style=\"font-weight:normal\"><td style=\"font-weight:bold;text-align:center\"><p><strong>1</strong></p></td><td><p>Ancient kings who dwelt in the citadel possessed magical weapons that were feared far and wide.</p></td></tr><tr><td style=\"font-weight:bold;text-align:center\"><p><strong>2</strong></p></td><td><p>A savage minotaur drenched in blood stalks the citadel's halls.</p></td></tr><tr><td style=\"font-weight:bold;text-align:center\"><p><strong>3</strong></p></td><td><p>Piles of gems and gold lie about as if totally forgotten.</p></td></tr><tr><td style=\"font-weight:bold;text-align:center\"><p><strong>4</strong></p></td><td><p>Beware when touching the body of a dead citadel dweller.</p></td></tr><tr><td style=\"font-weight:bold;text-align:center\"><p><strong>5</strong></p></td><td><p>Opportunistic, grey-furred beastmen haunt the shadows.</p></td></tr><tr><td style=\"font-weight:bold;text-align:center\"><p><strong>6</strong></p></td><td><p>The citadel is rife with secret rooms and passageways.</p></td></tr></tbody></table><h2>The Lost Citadel Environs &amp; Entrances</h2><p><strong>The Citadel</strong>. Cicadas buzz in the arid scrubland around the citadel. Thick, sandy blocks and coral-red columns hold up its tiered rooftops (30'-40' high, flat). The enclosed interior is a cool, dark maze of vaulted chambers and halls that funnel into a central courtyard.</p><ul><li><p><strong>Southeast Doors.</strong> To Area 1. Carved with bucking bulls, mid-leap.</p></li><li><p><strong>Northeast Hall.</strong> Shattered door lies before stairwell to Area 10.</p></li><li><p><strong>Southwest Hall.</strong> Open tunnel, leads into the labyrinth, Area 22.</p></li><li><p><strong>Courtyard.</strong> Area 18, open-air. Rooftop climbers can reach it.</p></li></ul><h2>Order of Battle</h2><p><strong>Beastmen</strong>. Retreat toward Area 14 or Area 23, avoiding Area 18. Know location of all secret doors. Lead enemies into bull statue traps. Will not leave hiding to help others. Terrified of making noise.</p><p><strong>Ettercaps</strong>. Creep along the ceiling, avoiding bull statues. Unaware of secret doors. Retreat toward Area 4 and gang up to assist allies. Distracted by treasure. Reluctant to enter Area 18.</p><p><strong>The Scarlet Minotaur</strong>. Pursues its quarry and never retreats. Unaware of secret doors. Forgets about unseen foes in 1d6 rounds. Returns to Area 18 at least once an hour.</p>"
+                        },
+                        "NPCs": {
+                            "name": "NPCs",
+                            "text": "<p>@UUID[Macro.b4peWtS82m3su5q1]{Roll Random Beastmen NPC}</p><table style=\"width:100%\"><caption>Beastmen NPCs</caption><tbody><tr><td style=\"text-align:center\"><p>d10</p></td><td><p>Names</p></td><td><p>Appearances</p></td><td><p>Behaviors</p></td></tr><tr><td style=\"text-align:center\"><p>1</p></td><td><p>Rat / Gobbo</p></td><td><p>Patchy / Sickly</p></td><td><p>Glares / Lurks</p></td></tr><tr><td style=\"text-align:center\"><p>2</p></td><td><p>Barto / Hule</p></td><td><p>Scarred / Fat</p></td><td><p>Whispers / Burps</p></td></tr><tr><td style=\"text-align:center\"><p>3</p></td><td><p>Egor / Ralk</p></td><td><p>Broken jaw or nose</p></td><td><p>Scratches / Snorts</p></td></tr><tr><td style=\"text-align:center\"><p>4</p></td><td><p>Dent / Borvin</p></td><td><p>Stooped / Short</p></td><td><p>Picks nose / Growls</p></td></tr><tr><td style=\"text-align:center\"><p>5</p></td><td><p>Nila / Bugg</p></td><td><p>Elderly / Stout</p></td><td><p>Creeps / Rushes</p></td></tr><tr><td style=\"text-align:center\"><p>6</p></td><td><p>Tail / Ludo</p></td><td><p>Missing ear or tooth</p></td><td><p>Yawns / Drools</p></td></tr><tr><td style=\"text-align:center\"><p>7</p></td><td><p>Skred / Billo</p></td><td><p>Braided hair / Bald</p></td><td><p>Limps / Sulks</p></td></tr><tr><td style=\"text-align:center\"><p>8</p></td><td><p>Halda / Yarv</p></td><td><p>White fur / Skinny</p></td><td><p>Paces / Chews nails</p></td></tr><tr><td style=\"text-align:center\"><p>9</p></td><td><p>Crag / Dorel</p></td><td><p>Clean / Blank stare</p></td><td><p>Polite / Complains</p></td></tr><tr><td style=\"text-align:center\"><p>10</p></td><td><p>Lorga / Mouse</p></td><td><p>Wild eyes / Lanky</p></td><td><p>Curses / Silent</p></td></tr></tbody></table><p>@UUID[Macro.oYUJG4g7naduZNeb]{Roll Random Ettercap NPC}</p><table style=\"width:100%\"><caption>Ettercap NPCs</caption><tbody><tr><td style=\"text-align:center\"><p>d10</p></td><td><p>Names</p></td><td><p>Appearances</p></td><td><p>Behaviors</p></td></tr><tr><td style=\"text-align:center\"><p>1</p></td><td><p>Skalt / Trisk</p></td><td><p>Groomed / Rotund</p></td><td><p>Preening / Haughty</p></td></tr><tr><td style=\"text-align:center\"><p>2</p></td><td><p>Kreel / Bisky</p></td><td><p>Singed fur / Gangly</p></td><td><p>Twitches / Cowers</p></td></tr><tr><td style=\"text-align:center\"><p>3</p></td><td><p>Slivin / Slaask</p></td><td><p>Blue eyes / Spotted</p></td><td><p>Bossy / Skeptical</p></td></tr><tr><td style=\"text-align:center\"><p>4</p></td><td><p>Tiri / Vilis</p></td><td><p>Pained / Hunched</p></td><td><p>Delicate / Squeamish</p></td></tr><tr><td style=\"text-align:center\"><p>5</p></td><td><p>Chiska / Liss</p></td><td><p>Springy / Withered</p></td><td><p>Hasty / Alarmist</p></td></tr><tr><td style=\"text-align:center\"><p>6</p></td><td><p>Jarla / Miri</p></td><td><p>Sickly / Molting</p></td><td><p>Distracted / Mutters</p></td></tr><tr><td style=\"text-align:center\"><p>7</p></td><td><p>Char / Squill</p></td><td><p>Missing limb / Tall</p></td><td><p>Clicks claws / Hisses</p></td></tr><tr><td style=\"text-align:center\"><p>8</p></td><td><p>Fisk / Yeek</p></td><td><p>Scarred / Lumpish</p></td><td><p>Nosy / Gossips</p></td></tr><tr><td style=\"text-align:center\"><p>9</p></td><td><p>Chirr / Vim</p></td><td><p>Filthy / Hulking</p></td><td><p>Critical / Sarcastic</p></td></tr><tr><td style=\"text-align:center\"><p>10</p></td><td><p>Rask / Miska</p></td><td><p>Jewelry / Clothing</p></td><td><p>Rude / Surly</p></td></tr></tbody></table>"
+                        }
+                    }
+                }
+            },
+            "tables": {
+                "The Lost Citadel: Ettercap Behaviors": {
+                    "name": "The Lost Citadel: Ettercap Behaviors"
+                },
+                "The Lost Citadel: Random Encounters": {
+                    "name": "The Lost Citadel: Random Encounters"
+                },
+                "The Lost Citadel: Ettercap Appearances": {
+                    "name": "The Lost Citadel: Ettercap Appearances"
+                },
+                "The Lost Citadel: Beastmen Behaviors": {
+                    "name": "The Lost Citadel: Beastmen Behaviors"
+                },
+                "The Lost Citadel: Beastmen Names": {
+                    "name": "The Lost Citadel: Beastmen Names"
+                },
+                "The Lost Citadel: Rumors": {
+                    "name": "The Lost Citadel: Rumors"
+                },
+                "The Lost Citadel: Beastmen Appearances": {
+                    "name": "The Lost Citadel: Beastmen Appearances"
+                },
+                "The Lost Citadel: Random Encounter Check": {
+                    "name": "The Lost Citadel: Random Encounter Check"
+                },
+                "The Lost Citadel: Ettercap Names": {
+                    "name": "The Lost Citadel: Ettercap Names"
+                }
+            },
+            "scenes": {
+                "The Lost Citadel": {
+                    "name": "The Lost Citadel"
+                }
+            },
+            "macros": {
+                "Roll Random Beastmen NPC": {
+                    "name": "Roll Random Beastmen NPC"
+                },
+                "Roll Random Ettercap NPC": {
+                    "name": "Roll Random Ettercap NPC"
+                },
+                "The Lost Citadel: Random Encounter Check": {
+                    "name": "The Lost Citadel: Random Encounter Check"
+                }
+            }
+        }
+    }
+}

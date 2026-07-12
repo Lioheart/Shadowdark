@@ -1,0 +1,1326 @@
+{
+    "label": "Magic Items",
+    "mapping": {
+        "description": "system.description",
+        "effects": {
+            "path": "effects",
+            "converter": "document",
+            "documentType": "ActiveEffect",
+            "cardinality": "many",
+            "mapping": {
+                "name": "name",
+                "description": "description"
+            }
+        },
+        "name": "name",
+        "system.identification.name": "system.identification.name"
+    },
+    "entries": {
+        "07RIJ800mgt95fNl": {
+            "name": "Permanent Ability (Cha)"
+        },
+        "12wqYPS5nYdD0srs": {
+            "name": "Double Damage vs Giants"
+        },
+        "1WtVBmSCkzVeEdL7": {
+            "name": "Weapon Attack Damage Bonus"
+        },
+        "2iAdf3ZD4FdzPonT": {
+            "name": "Permanent Ability (Dex)"
+        },
+        "2O1rrQbpFSYKLiI8": {
+            "name": "Spellcasting Advantage on Spell"
+        },
+        "2QCEx24N0mtaaRR7": {
+            "name": "Weapon Attack Damage Bonus"
+        },
+        "3uu1cZFg4jJ9uOBU": {
+            "name": "Weapon Attack Roll Bonus"
+        },
+        "4JjKaawthhmI2NLb": {
+            "name": "Weapon Attack Roll Bonus"
+        },
+        "4QneUXW9pG2CMpKS": {
+            "name": "Attack Roll Bonus"
+        },
+        "5k96o8ZHd5spUP9K": {
+            "name": "Weapon Attack Damage Bonus"
+        },
+        "78SoFRRmEjEMdPIT": {
+            "name": "Attack Damage Bonus"
+        },
+        "8DPxbb4aUGGtrGlG": {
+            "name": "Weapon Attack Roll Bonus"
+        },
+        "94JaF8oYeiAAWASd": {
+            "name": "Permanent Ability (Int)"
+        },
+        "97RtiQtpwhaO7qNb": {
+            "name": "Weapon Attack Damage Bonus"
+        },
+        "9qMTrleWtCMKO3Xl": {
+            "name": "Attack Roll Bonus"
+        },
+        "9ScRP2bW6K4ljUpQ": {
+            "name": "Weapon Attack Damage Bonus"
+        },
+        "A3cEweAbyqxNxdzl": {
+            "name": "Attack Roll Bonus"
+        },
+        "Additional Gear Slots": {
+            "name": "Additional Gear Slots"
+        },
+        "Advantage on attacks vs Undead": {
+            "name": "Advantage on attacks vs Undead"
+        },
+        "Advantage vs Poison": {
+            "name": "Advantage vs Poison"
+        },
+        "Advantage vs Unnatural Creatures & Outsiders": {
+            "name": "Advantage vs Unnatural Creatures & Outsiders"
+        },
+        "Alabaster Destrier": {
+            "description": "<p><em>A smooth, pearly statuette of a running horse.</em></p><p></p><p><strong>Benefit.</strong> Once per day, the wielder can speak the command word to turn the statuette into a @UUID[Compendium.shadowdark.monsters.Actor.5Tp7B3qOMEAdMkJ8]{pegasus} that accepts neutral or lawful riders. The statuette remains in this form for 1 hour.</p>",
+            "name": "Alabaster Destrier"
+        },
+        "Amulet of Secrecy": {
+            "description": "<p><em>A heavy, flat pendant carved with a lidded eye.</em></p><p><strong>Benefit.</strong> You can't be detected by divination magic such as the scrying spell or a Crystal Ball while wearing this amulet.</p><p><strong>Curse.</strong> You constantly have the sensation of being watched.</p>",
+            "name": "Amulet of Secrecy"
+        },
+        "Amulet of Vitality": {
+            "description": "<p><em>A gold amulet with a red ruby teardrop at its center.</em></p><p><strong>Benefit.</strong> Your Constitution stat becomes 18 (+4) while wearing this amulet.</p>",
+            "name": "Amulet of Vitality",
+            "effects": {
+                "Permanent Ability (Con)": {
+                    "name": "Permanent Ability (Con)",
+                    "description": "Permanent Ability (Con)"
+                }
+            }
+        },
+        "apF91F2anJCrmkSm": {
+            "name": "Weapon Attack Roll Bonus"
+        },
+        "Armor of Saint Terragnis": {
+            "description": "<p><em>Golden plate mail carved from head to toe with warrior angels.</em></p><p><strong>Bonus.</strong> +3 plate mail. Only a lawful worshipper of Saint Terragnis can wear this armor.</p><p><strong>Benefit.</strong> Hostile spells that target you are DC 18 to cast. Once per month, you can summon an Avatar of Saint Terragnis (treat as an @UUID[Compendium.shadowdark.monsters.Actor.GzjB5DsORxRuX2MV]{archangel}) to fight by your side for 10 rounds.</p>",
+            "name": "Armor of Saint Terragnis"
+        },
+        "Armor of the Oni": {
+            "description": "<p><em>Black plate mail of lacquered, ironwood panels. The helm's visor is the face of a snarling oni.</em></p><p><strong>Bonus.</strong> +1 plate mail.</p><p><strong>Benefit.</strong> You can speak and understand Diabolic. Your melee weapon attacks deal +1 damage.</p><p><strong>Curse.</strong> You have disadvantage on attacks and spellcasting checks against demons.</p>",
+            "name": "Armor of the Oni",
+            "effects": {
+                "Speak & Understand Diabolic": {
+                    "name": "Speak & Understand Diabolic",
+                    "description": "Speak &amp; Understand Diabolic"
+                },
+                "Melee Damage Bonus": {
+                    "name": "Melee Damage Bonus",
+                    "description": "Melee Damage Bonus"
+                },
+                "Disadvantage on Attacks & Spellcasting vs Demons": {
+                    "name": "Disadvantage on Attacks & Spellcasting vs Demons",
+                    "description": "Disadvantage on Attacks &amp; Spellcasting vs Demons"
+                },
+                "Melee Attack Roll Bonus": {
+                    "name": "Melee Attack Roll Bonus",
+                    "description": "Melee Attack Roll Bonus"
+                }
+            }
+        },
+        "Asterion": {
+            "description": "<p><strong>Benefit</strong>. A creature cannot move the wielder against their will.</p>",
+            "name": "Asterion",
+            "effects": {
+                "Weapon Attack Roll Bonus": {
+                    "name": "Weapon Attack Roll Bonus",
+                    "description": "Weapon Attack Roll Bonus"
+                },
+                "Weapon Attack Damage Bonus": {
+                    "name": "Weapon Attack Damage Bonus",
+                    "description": "Weapon Attack Damage Bonus"
+                },
+                "Attack Damage Bonus": {
+                    "name": "Attack Damage Bonus",
+                    "description": "Attack Damage Bonus"
+                },
+                "Attack Roll Bonus": {
+                    "name": "Attack Roll Bonus",
+                    "description": "Attack Roll Bonus"
+                }
+            }
+        },
+        "Bag of Badgers": {
+            "description": "<p><em>A gray, fraying sack matted with white, bristly hair.</em></p><p><strong>Benefit.</strong> Once per day, you can reach inside the bag and pull out an angry @UUID[Compendium.shadowdark.monsters.Actor.VM65vWCNjlx5tKTP]{badger}. You can throw the badger up to a near distance. The badger attacks the nearest creature for 3 rounds before waddling away.</p>",
+            "name": "Bag of Badgers"
+        },
+        "Bag of Devouring": {
+            "description": "<p><em>A worn, leather pouch with tight drawstrings.</em></p><p><strong>Curse.</strong> This bag devours and destroys anything placed inside it in 1d6 rounds.</p>",
+            "name": "Bag of Devouring"
+        },
+        "Bag of Holding": {
+            "description": "<p><em>A worn, leather pouch with tight drawstrings.</em></p><p><strong>Benefit</strong>. This bag has an interdimensional space inside that can hold up to 10 gear slots.</p><p><strong>Curse</strong>. Placing this item inside another <em>Bag of Holding</em> or a <em>Portable Hole</em> destroys both items and all held inside them.</p>",
+            "name": "Bag of Holding",
+            "effects": {
+                "Additional Gear Slots": {
+                    "name": "Additional Gear Slots",
+                    "description": "Additional Gear Slots"
+                }
+            }
+        },
+        "Bead of Force": {
+            "description": "<p><em>A marble with a blue ring of light glowing softly inside it.</em></p><p><strong>Benefit.</strong> You can throw this bead at one target up to a near distance. If you hit, the target becomes caught in a @UUID[Compendium.shadowdark.spells.Item.B091clRxdPW3SQ4G]{resilient sphere} spell (pg. 69).</p>",
+            "name": "Bead of Force"
+        },
+        "Blade of Vengeance": {
+            "description": "<p><em>A gray blade with a diamond- cut ruby in the pommel. It whistles sharply with each slice.</em></p><p><strong>Bonus.</strong> +2 bastard sword. Cannot be wielded by undead.</p><p><strong>Benefit.</strong> You have advantage on attacks against undead creatures with this sword. You can use the sword to cast @UUID[Compendium.shadowdark.spells.Item.mByUvcHIVEPWscfH]{turn undead }once per day (+4 bonus).</p><p><strong>Personality.</strong> Lawful. Grim, suspicious. Forged as a failsafe against the Witch-Kings if they should fall to darkness, which they did. Demands they be slain.</p>",
+            "name": "Blade of Vengeance",
+            "effects": {
+                "Weapon Attack Roll Bonus": {
+                    "name": "Weapon Attack Roll Bonus",
+                    "description": "Weapon Attack Roll Bonus"
+                },
+                "Weapon Attack Damage Bonus": {
+                    "name": "Weapon Attack Damage Bonus",
+                    "description": "Weapon Attack Damage Bonus"
+                },
+                "Advantage on attacks vs Undead": {
+                    "name": "Advantage on attacks vs Undead",
+                    "description": "Advantage on attacks vs Undead"
+                },
+                "MosrS1dHHXThJ96N": {
+                    "name": "Weapon Attack Roll Bonus",
+                    "description": "Weapon Attack Roll Bonus"
+                }
+            }
+        },
+        "Bloodlust": {
+            "name": "Bloodlust",
+            "effects": {
+                "Critical Multiplier": {
+                    "name": "Critical Multiplier",
+                    "description": "Critical Multiplier"
+                },
+                "Weapon Attack Roll Bonus": {
+                    "name": "Weapon Attack Roll Bonus",
+                    "description": "Weapon Attack Roll Bonus"
+                },
+                "Weapon Attack Damage Bonus": {
+                    "name": "Weapon Attack Damage Bonus",
+                    "description": "Weapon Attack Damage Bonus"
+                },
+                "Attack Roll Bonus": {
+                    "name": "Attack Roll Bonus",
+                    "description": "Attack Roll Bonus"
+                },
+                "Attack Damage Bonus": {
+                    "name": "Attack Damage Bonus",
+                    "description": "Attack Damage Bonus"
+                }
+            }
+        },
+        "Bonus to Control Water": {
+            "name": "Bonus to Control Water"
+        },
+        "Boots of Dancing": {
+            "description": "<p><em>Fine, supple boots of sheepskin.</em></p><p><strong>Curse.</strong> As soon as you don these boots, you begin cavorting and dancing uncontrollably. You move randomly each turn and must pass a [[request 15 dex]] check to remove the boots.</p>",
+            "name": "Boots of Dancing"
+        },
+        "Boots of Hovering": {
+            "description": "<p><em>Brown, sturdy boots polished to a sheen. Small, silver wings adorn the heels.</em></p><p><strong>Benefit.</strong> You can walk on an insubstantial surface for 1 turn at a time. You fall through the surface if you end your turn on it.</p>",
+            "name": "Boots of Hovering"
+        },
+        "Boots of the Cat": {
+            "description": "<p><em>Grey, doeskin boots as thin and soft as slippers.</em></p><p><strong>Benefit</strong>. You can jump up to a near distance from a standstill. Your checks to move silently are always easy (DC 9).</p>",
+            "name": "Boots of the Cat"
+        },
+        "BR7oklaQANiLMTwW": {
+            "name": "Spellcasting Advantage on Spell"
+        },
+        "Bracers of Archery": {
+            "description": "<p><em>Leather bracers embossed with soaring hawks.</em></p><p><strong>Benefit.</strong> You deal +1 damage with ranged weapons.</p>",
+            "name": "Bracers of Archery",
+            "effects": {
+                "Ranged Damage Bonus": {
+                    "name": "Ranged Damage Bonus",
+                    "description": "Ranged Damage Bonus"
+                },
+                "yrS7j3rhCRynCLL6": {
+                    "name": "Ranged Damage Bonus",
+                    "description": "Ranged Damage Bonus"
+                }
+            }
+        },
+        "Bracers of Defense": {
+            "description": "<p><em>Steel bracers traced with dwarvish runes of protection.</em></p><p><strong>Benefit</strong>. You get a +1 bonus to your armor class.</p>",
+            "name": "Bracers of Defense",
+            "effects": {
+                "AC Bonus": {
+                    "name": "AC Bonus",
+                    "description": "AC Bonus"
+                }
+            }
+        },
+        "Brak's Book of Misspells": {
+            "description": "<p><em>A tome bound in ratskin that bears a jagged, glowing rune.</em></p><p><strong>Curse.</strong> This spellbook contains one scroll each of @UUID[Compendium.shadowdark.spells.Item.16XuBF2xjUnoepyp]{acid arrow} (pg. 54), @UUID[Compendium.shadowdark.spells.Item.j2gvzfnMGQwxqgGg]{fireball} (pg. 60), and @UUID[Compendium.shadowdark.spells.Item.n1I5OLR6M2e0jLbi]{sleep} (pg. 71). When a wizard tries to cast or learn a spell from these scrolls, the spell targets the caster on a success.</p>",
+            "name": "Brak's Book of Misspells"
+        },
+        "Brak's Cube of Perfection": {
+            "description": "<p><em>A tiny cube with paintings of goblins on each face, each one depicting transcendence in a physical or mental trait.</em></p><p><strong>Benefit</strong>. Roll the cube by rolling a [[/r d6]]. Your corresponding stat permanently increases to 18 (+4).</p><ol><li><p>@UUID[Compendium.world.magic-items.ZhykyK0shgnyC4Fh]{Strength}</p></li><li><p>@UUID[Compendium.world.magic-items.lUuyDaiDHJbDg82j]{Dexterity}</p></li><li><p>@UUID[Compendium.world.magic-items.7pECwim9a2CVzFLy]{Constitution}</p></li><li><p> @UUID[Compendium.world.magic-items.K7PJLC0GUhtQ7aX2]{Intelligence}</p></li><li><p>@UUID[Compendium.world.magic-items.wrtcUfAY6yXwSqLY]{Wisdom}</p></li><li>@UUID[Compendium.world.magic-items.0Ws5acsixawAITFi]{Charisma}</li></ol><p>After being rolled, <em>Brak's Cube of Perfection</em> teleports to a random location in the multiverse.</p>",
+            "name": "Brak's Cube of Perfection",
+            "effects": {
+                "Permanent Ability (Cha)": {
+                    "name": "Permanent Ability (Cha)",
+                    "description": "Permanent Ability (Cha)"
+                }
+            }
+        },
+        "Brak's Cube of Perfection (Cha)": {
+            "description": "<p><em>A tiny cube with paintings of goblins on each face, each one depicting transcendence in a physical or mental trait.</em></p><p><strong>Benefit</strong>. Roll the cube by rolling a [[/r d6]]. Your corresponding stat permanently increases to 18 (+4). 1. Strength. 2. Dexterity. 3. Constitution. 4. Intelligence. 5. Wisdom. 6. Charisma.</p><p>After being rolled, <em>Brak's Cube of Perfection</em> teleports to a random location in the multiverse.</p>",
+            "name": "Brak's Cube of Perfection (Cha)",
+            "effects": {
+                "permanentAbility": {
+                    "name": "permanentAbility",
+                    "description": "permanentAbility"
+                }
+            }
+        },
+        "Brak's Cube of Perfection (Con)": {
+            "description": "<p><em>A tiny cube with paintings of goblins on each face, each one depicting transcendence in a physical or mental trait.</em></p><p><strong>Benefit</strong>. Roll the cube by rolling a [[/r d6]]. Your corresponding stat permanently increases to 18 (+4). 1. Strength. 2. Dexterity. 3. Constitution. 4. Intelligence. 5. Wisdom. 6. Charisma.</p><p>After being rolled, <em>Brak's Cube of Perfection</em> teleports to a random location in the multiverse.</p>",
+            "name": "Brak's Cube of Perfection (Con)",
+            "effects": {
+                "Permanent Ability (Con)": {
+                    "name": "Permanent Ability (Con)",
+                    "description": "Permanent Ability (Con)"
+                }
+            }
+        },
+        "Brak's Cube of Perfection (Dex)": {
+            "description": "<p><em>A tiny cube with paintings of goblins on each face, each one depicting transcendence in a physical or mental trait.</em></p><p><strong>Benefit</strong>. Roll the cube by rolling a [[/r d6]]. Your corresponding stat permanently increases to 18 (+4). 1. Strength. 2. Dexterity. 3. Constitution. 4. Intelligence. 5. Wisdom. 6. Charisma.</p><p>After being rolled, <em>Brak's Cube of Perfection</em> teleports to a random location in the multiverse.</p>",
+            "name": "Brak's Cube of Perfection (Dex)",
+            "effects": {
+                "Permanent Ability (Dex)": {
+                    "name": "Permanent Ability (Dex)",
+                    "description": "Permanent Ability (Dex)"
+                }
+            }
+        },
+        "Brak's Cube of Perfection (Int)": {
+            "description": "<p><em>A tiny cube with paintings of goblins on each face, each one depicting transcendence in a physical or mental trait.</em></p><p><strong>Benefit</strong>. Roll the cube by rolling a [[/r d6]]. Your corresponding stat permanently increases to 18 (+4). 1. Strength. 2. Dexterity. 3. Constitution. 4. Intelligence. 5. Wisdom. 6. Charisma.</p><p>After being rolled, <em>Brak's Cube of Perfection</em> teleports to a random location in the multiverse.</p>",
+            "name": "Brak's Cube of Perfection (Int)",
+            "effects": {
+                "Permanent Ability (Int)": {
+                    "name": "Permanent Ability (Int)",
+                    "description": "Permanent Ability (Int)"
+                }
+            }
+        },
+        "Brak's Cube of Perfection (Str)": {
+            "description": "<p><em>A tiny cube with paintings of goblins on each face, each one depicting transcendence in a physical or mental trait.</em></p><p><strong>Benefit</strong>. Roll the cube by rolling a [[/r d6]]. Your corresponding stat permanently increases to 18 (+4). 1. Strength. 2. Dexterity. 3. Constitution. 4. Intelligence. 5. Wisdom. 6. Charisma.</p><p>After being rolled, <em>Brak's Cube of Perfection</em> teleports to a random location in the multiverse.</p>",
+            "name": "Brak's Cube of Perfection (Str)",
+            "effects": {
+                "Permanent Ability (Str)": {
+                    "name": "Permanent Ability (Str)",
+                    "description": "Permanent Ability (Str)"
+                }
+            }
+        },
+        "Brak's Cube of Perfection (Wis)": {
+            "description": "<p><em>A tiny cube with paintings of goblins on each face, each one depicting transcendence in a physical or mental trait.</em></p><p><strong>Benefit</strong>. Roll the cube by rolling a [[/r d6]]. Your corresponding stat permanently increases to 18 (+4). 1. Strength. 2. Dexterity. 3. Constitution. 4. Intelligence. 5. Wisdom. 6. Charisma.</p><p>After being rolled, <em>Brak's Cube of Perfection</em> teleports to a random location in the multiverse.</p>",
+            "name": "Brak's Cube of Perfection (Wis)",
+            "effects": {
+                "Permanent Ability (Wis)": {
+                    "name": "Permanent Ability (Wis)",
+                    "description": "Permanent Ability (Wis)"
+                }
+            }
+        },
+        "CaRqa4l3vE2ZALbE": {
+            "name": "Weapon Attack Damage Bonus"
+        },
+        "CFbdBIST0hT7qCyu": {
+            "name": "Weapon Attack Roll Bonus"
+        },
+        "Circlet of Wisdom": {
+            "description": "<p><em>A thin, silver circlet set with a shimmering, blue pearl.</em></p><p><strong>Benefit.</strong> Your Wisdom stat becomes 18 (+4) while wearing this circlet.</p>",
+            "name": "Circlet of Wisdom",
+            "effects": {
+                "Permanent Ability (Wis)": {
+                    "name": "Permanent Ability (Wis)",
+                    "description": "Permanent Ability (Wis)"
+                },
+                "JGN2W0klkumjFNoV": {
+                    "name": "Permanent Ability (Wis)",
+                    "description": "Permanent Ability (Wis)"
+                }
+            }
+        },
+        "Cloak of Elvenkind": {
+            "description": "<p><em>A hooded, billowing cloak that shifts colors to match its surroundings.</em></p><p><strong>Benefit</strong>. Your checks to hide are always easy (DC 9). Once per day, you can become invisible for 5 rounds. The invisibility ends if you attack or cast a spell.</p>",
+            "name": "Cloak of Elvenkind"
+        },
+        "Cloak of the bat": {
+            "description": "<p><em>A leathery, black cloak that has a ragged hem and a hood with pointed ears.</em></p><p><strong>Benefit.</strong> You can fly a near distance as your movement while in a shadowy area.</p><p><strong>Curse.</strong> Each time you use the cloak to fly, roll a d20. On a result of 1, you and your gear turn into a small bat for 3 rounds.</p>",
+            "name": "Cloak of the bat"
+        },
+        "Critical Failure Threshold": {
+            "name": "Critical Failure Threshold"
+        },
+        "Critical Multiplier": {
+            "name": "Critical Multiplier"
+        },
+        "Critical Success Threshold": {
+            "name": "Critical Success Threshold"
+        },
+        "Crystal Ball": {
+            "description": "<p><em>A flawless glass orb with roiling images swirling inside it.</em></p><p><strong>Benefit.</strong> Only wizards can use a Crystal Ball. You can use it to cast the @UUID[Compendium.shadowdark.spells.Item.FrdLzy8cWPcVS2Mz]{scrying} spell (pg. 70). If you fail the spellcasting check to cast scrying, the Crystal Ball ceases to function for a day.</p>",
+            "name": "Crystal Ball"
+        },
+        "cUIGFlc2YR57pzXl": {
+            "name": "Permanent Ability (Wis)"
+        },
+        "Dagger of the Goblin Hero": {
+            "description": "<p><em>A curved dagger with a half- moon notch at the blade's base.</em></p><p><strong>Bonus.</strong> +1 dagger.</p><p><strong>Benefit.</strong> You can speak Goblin. All goblinoid creatures react to you with a friendly attitude.</p>",
+            "name": "Dagger of the Goblin Hero",
+            "effects": {
+                "Speak Goblin": {
+                    "name": "Speak Goblin",
+                    "description": "Speak Goblin"
+                },
+                "Weapon Attack Roll Bonus": {
+                    "name": "Weapon Attack Roll Bonus",
+                    "description": "Weapon Attack Roll Bonus"
+                },
+                "Weapon Attack Damage Bonus": {
+                    "name": "Weapon Attack Damage Bonus",
+                    "description": "Weapon Attack Damage Bonus"
+                }
+            }
+        },
+        "dbXv9ddp6TR15AFk": {
+            "name": "Weapon Attack Damage Bonus"
+        },
+        "Disadvantage on Attacks & Spellcasting vs Demons": {
+            "name": "Disadvantage on Attacks & Spellcasting vs Demons"
+        },
+        "Disadvantage on Attacks & Spells vs Snakes": {
+            "name": "Disadvantage on Attacks & Spells vs Snakes"
+        },
+        "doAgFd0Q4WixkRrC": {
+            "name": "Weapon Attack Damage Bonus"
+        },
+        "Double Damage vs Demons, Devils &  Undead": {
+            "name": "Double Damage vs Demons, Devils &  Undead"
+        },
+        "Double Damage vs Lycanthropes": {
+            "name": "Double Damage vs Lycanthropes"
+        },
+        "dZkdrikRTlcELylW": {
+            "name": "Weapon Attack Damage Bonus"
+        },
+        "E7DKiIaxjDrxq64c": {
+            "name": "Attack Damage Bonus"
+        },
+        "Egg of the Cockatrice": {
+            "description": "<p><em>A blue, hard egg as big as a coconut and heavy as a stone.</em></p><p><strong>Benefit.</strong> Once per week, you can speak a command word that causes a @UUID[Compendium.shadowdark.monsters.Actor.xUxKG0CR6Elw1l7h]{cockatrice} to hatch and follow your commands for 5 rounds before flying away. The egg repairs itself over one week.</p>",
+            "name": "Egg of the Cockatrice"
+        },
+        "ENAyqljvyYqIr8rK": {
+            "name": "Weapon Attack Roll Bonus"
+        },
+        "eXpmyWBLi6CfFuTt": {
+            "name": "Weapon Attack Roll Bonus"
+        },
+        "fEHEHVFcLflsUsCv": {
+            "name": "Permanent Ability (Int)"
+        },
+        "FKzhrPnFt0njaDh8": {
+            "name": "Permanent Ability (Wis)"
+        },
+        "Flying Carpet": {
+            "description": "<p><em>A richly woven, red carpet with gold tassels.</em></p><p><strong>Benefit.</strong> The carpet fits two riders (one is the driver). It can fly double near on the driver's turn.</p><p><strong>Personality.</strong> Neutral. Playful, mischievous. Enjoys visiting new places and gets restless without a frequent change in location.</p>",
+            "name": "Flying Carpet"
+        },
+        "FqtIDxjhOFDvkQFn": {
+            "name": "Attack Damage Bonus"
+        },
+        "Gauntlets of Might": {
+            "description": "<p><em>Heavy, bronze gauntlets with engravings of Herculean giants.</em></p><p><strong>Benefit</strong>. Your Strength stat becomes 18 (+4) while wearing these gauntlets.</p>",
+            "name": "Gauntlets of Might",
+            "effects": {
+                "Permanent Ability (Str)": {
+                    "name": "Permanent Ability (Str)",
+                    "description": "Permanent Ability (Str)"
+                }
+            }
+        },
+        "Genie Lamp": {
+            "description": "<p><em>A tarnished, brass oil lamp.</em></p><p><strong>Benefit.</strong> Rubbing the lamp causes its resident @UUID[Compendium.shadowdark.monsters.Actor.ytftI0motwEnF29v]{djinni} (50% chance) or efreeti (50% chance) to emerge. A djinni grants its summoner one @UUID[Compendium.shadowdark.spells.Item.hMGQuETjBxuMwjsR]{wish} spell (pg. 73) before disappearing. An @UUID[Compendium.shadowdark.monsters.Actor.o1aBfxHFxYVHLTRn]{efreeti} does the same, but only after being defeated in combat.</p>",
+            "name": "Genie Lamp",
+            "system.identification.name": "Identified Name"
+        },
+        "GH1P7tijaj5st9hm": {
+            "name": "Double Damage vs Giants"
+        },
+        "Gloves of Agility": {
+            "description": "<p><em>Thin, leather gloves that seem to meld with the wearer's hands.</em></p><p><strong>Benefit.</strong> Your Dexterity stat becomes 18 (+4) while wearing these gloves.</p>",
+            "name": "Gloves of Agility",
+            "system.identification.name": "Identified Name",
+            "effects": {
+                "Permanent Ability (Dex)": {
+                    "name": "Permanent Ability (Dex)",
+                    "description": "Permanent Ability (Dex)"
+                }
+            }
+        },
+        "Goblin Bomb": {
+            "description": "<p><em>A preserved rat stuffed with an explosive charge and a fuse.</em></p><p><strong>Benefit.</strong> You can light the bomb's fuse and throw it a near distance. It explodes in [[/r 1d4]] rounds, dealing [[/r 2d8]] damage to everything in near range.</p>",
+            "name": "Goblin Bomb",
+            "system.identification.name": "Identified Name"
+        },
+        "Greataxe of the Horde": {
+            "description": "<p><em>A jagged greataxe carved from a weighty dragon bone.</em></p><p><strong>Bonus.</strong> +2 greataxe.</p><p><strong>Benefit.</strong> Once per day, you can turn a regular hit with this weapon into a critical hit.</p><p><strong>Curse.</strong> Each time you go below half your hit points, make a [[check 12 cha]] check. On a failure, you enter a battle rage for [[/r 1d4]] rounds and must attack the nearest creature.</p>",
+            "name": "Greataxe of the Horde",
+            "system.identification.name": "Identified Name",
+            "effects": {
+                "Weapon Attack Roll Bonus": {
+                    "name": "Weapon Attack Roll Bonus",
+                    "description": "Weapon Attack Roll Bonus"
+                },
+                "Weapon Attack Damage Bonus": {
+                    "name": "Weapon Attack Damage Bonus",
+                    "description": "Weapon Attack Damage Bonus"
+                }
+            }
+        },
+        "Hat of Intellect": {
+            "description": "<p><em>A floppy, pointed hat with a wide brim.</em></p><p><strong>Benefit.</strong> Your Intelligence stat becomes 18 (+4) while wearing this hat.</p>",
+            "name": "Hat of Intellect",
+            "system.identification.name": "Identified Name",
+            "effects": {
+                "Permanent Ability (Int)": {
+                    "name": "Permanent Ability (Int)",
+                    "description": "Permanent Ability (Int)"
+                }
+            }
+        },
+        "Hat of the Hound": {
+            "description": "<p><em>A rounded, jaunty bowler hat.</em></p><p><strong>Benefit.</strong> You can transform into a @UUID[Compendium.shadowdark.monsters.Actor.lJyH2RWm3t5MB5iG]{mastiff} each day for up to 10 rounds total. Your clothing and possessions transform with you.</p>",
+            "name": "Hat of the Hound",
+            "system.identification.name": "Identified Name"
+        },
+        "Helm of Mind Reading": {
+            "description": "<p><em>A helm carved with brain ridges, a spinal neck-guard, and octopus-like tentacles.</em></p><p><strong>Benefit.</strong> You can cast the @UUID[Compendium.shadowdark.spells.Item.XBt4wA37ypUiXkp6]{detect thoughts} spell (pg. 58) three times per day (+4 bonus).</p>",
+            "name": "Helm of Mind Reading",
+            "system.identification.name": "Identified Name",
+            "effects": {
+                "Spellcasting Check Bonus": {
+                    "name": "Spellcasting Check Bonus",
+                    "description": "+4 to detect thoughts spellcasting checks (3/day)"
+                }
+            }
+        },
+        "HhILvM8lD0Nby5gq": {
+            "name": "Attack Roll Bonus"
+        },
+        "HIFDdRlLUKbLS5zK": {
+            "name": "Weapon Attack Roll Bonus"
+        },
+        "HOkTvzEf4v5RBLfx": {
+            "name": "Weapon Attack Roll Bonus"
+        },
+        "Holy Prayer AC Bonus": {
+            "name": "Holy Prayer AC Bonus"
+        },
+        "Horned Helm of Ramlaat": {
+            "description": "<p><em>A bloodstained helm made of a ram's skull.</em></p><p><strong>Benefit.</strong> This helm grants you a +1 bonus to your armor class. You have advantage on any check you make to knock down creatures or objects.</p><p><strong>Curse.</strong> You feel compelled to headbutt delicate objects.</p>",
+            "name": "Horned Helm of Ramlaat",
+            "system.identification.name": "Identified Name"
+        },
+        "Hourglass of the Black Sands": {
+            "description": "<p><em>An ancient hourglass running with obsidian sand.</em></p><p><strong>Benefit.</strong> Once per day, you can turn the hourglass when you cast a spell. The spell's effects last 1d4 rounds longer.</p>",
+            "name": "Hourglass of the Black Sands",
+            "system.identification.name": "Identified Name"
+        },
+        "I9RcaNvoUpSqiWUz": {
+            "name": "Permanent Ability (Dex)"
+        },
+        "Immovable Rod": {
+            "description": "<p><em>A short, bejeweled iron rod with a button on one end.</em></p><p><strong>Benefit</strong>. When you click the button, the rod becomes fixed in space. Clicking the button again ends the effect.</p>",
+            "name": "Immovable Rod"
+        },
+        "JAfTcoh8jcncSGJM": {
+            "name": "Attack Damage Bonus"
+        },
+        "JeLSOetsunFunEnm": {
+            "name": "Weapon Attack Damage Bonus"
+        },
+        "Jewel of Barbalt": {
+            "description": "<p><em>A glistening, coconut-sized ruby held in golden claws.</em></p><p><strong>Benefit</strong>. You roll a critical success on an 18-20.</p><p><strong>Curse</strong>. You roll a critical failure on a 1-3.</p>",
+            "name": "Jewel of Barbalt",
+            "effects": {
+                "Critical Failure Threshold": {
+                    "name": "Critical Failure Threshold",
+                    "description": "Critical Failure Threshold"
+                },
+                "Critical Success Threshold": {
+                    "name": "Critical Success Threshold",
+                    "description": "Critical Success Threshold"
+                }
+            }
+        },
+        "JGN2W0klkumjFNoV": {
+            "name": "Permanent Ability (Wis)"
+        },
+        "Kf2eneYOrzvxxnWU": {
+            "name": "Spellcasting Advantage on Spell"
+        },
+        "kjwVuIlPksnF2hR1": {
+            "name": "Weapon Attack Roll Bonus"
+        },
+        "Kytherian Cog": {
+            "description": "<p>A coin-sized, toothed wheel buffed to a silvery shine.</p><p><strong>Benefit</strong>. You start every session with a luck token.</p>",
+            "name": "Kytherian Cog"
+        },
+        "l9MlejatmWj0EesQ": {
+            "name": "Weapon Attack Roll Bonus"
+        },
+        "Longbow of the Elven Kings": {
+            "description": "<p><em>A deeply curved longbow with deer antler reinforcements.</em></p><p><strong>Bonus.</strong> +1 longbow.</p><p><strong>Benefit.</strong> You have advantage on attacks with this bow against unnatural creatures and outsiders.</p><p><strong>Personality.</strong> Neutral. Proud, timeless. Believes protecting the natural order is the highest calling. Demands all unnatural creatures be found and slain.</p>",
+            "name": "Longbow of the Elven Kings",
+            "system.identification.name": "Identified Name",
+            "effects": {
+                "Weapon Attack Roll Bonus": {
+                    "name": "Weapon Attack Roll Bonus",
+                    "description": "Weapon Attack Roll Bonus"
+                },
+                "Weapon Attack Damage Bonus": {
+                    "name": "Weapon Attack Damage Bonus",
+                    "description": "Weapon Attack Damage Bonus"
+                },
+                "Advantage vs Unnatural Creatures & Outsiders": {
+                    "name": "Advantage vs Unnatural Creatures & Outsiders",
+                    "description": "Advantage on attacks vs unnatural creatures and outsiders"
+                }
+            }
+        },
+        "LryuYkHDYOAm4I0g": {
+            "name": "Weapon Attack Damage Bonus"
+        },
+        "Magic Ink": {
+            "description": "<p><em>A pot of glossy, black ink that disappears as it dries.</em></p><p><strong>Benefit.</strong> The ink's writing is invisible when cool and can only be seen when warmed up by a nearby source of strong heat. There's enough for [[/r 1d4]] uses.</p>",
+            "name": "Magic Ink",
+            "system.identification.name": "Identified Name"
+        },
+        "Melee Attack Roll Bonus": {
+            "name": "Melee Attack Roll Bonus"
+        },
+        "Melee Damage Bonus": {
+            "name": "Melee Damage Bonus"
+        },
+        "Memnon's Blazing Javelin": {
+            "description": "<p><em>This golden javelin occasionally blinks and wavers, briefly turning into a bolt of lightning.</em></p><p><strong>Bonus.</strong> +1 javelin. Can only be wielded by a chaotic being. If you also wield Memnon's Discordant Blade and Memnon's Entropic Armor, it becomes a +3 javelin.</p><p><strong>Benefit.</strong> The javelin always returns to your hand after being thrown. Once per day, when you throw this javelin, you can turn it into lightning as per the @UUID[Compendium.shadowdark.spells.Item.7uTblEDfklCO1et7]{lightning bolt} spell (no spellcasting check).</p>",
+            "name": "Memnon's Blazing Javelin",
+            "system.identification.name": "Identified Name",
+            "effects": {
+                "Weapon Attack Damage Bonus": {
+                    "name": "Weapon Attack Damage Bonus",
+                    "description": "Weapon Attack Damage Bonus"
+                },
+                "Weapon Attack Roll Bonus": {
+                    "name": "Weapon Attack Roll Bonus",
+                    "description": "Weapon Attack Roll Bonus"
+                }
+            }
+        },
+        "Memnon's Blazing Javelin (Completed Set)": {
+            "description": "<p><em>This golden javelin occasionally blinks and wavers, briefly turning into a bolt of lightning.</em></p><p><strong>Bonus.</strong> +1 javelin. Can only be wielded by a chaotic being. If you also wield Memnon's Discordant Blade and Memnon's Entropic Armor, it becomes a +3 javelin.</p><p><strong>Benefit.</strong> The javelin always returns to your hand after being thrown. Once per day, when you throw this javelin, you can turn it into lightning as per the @UUID[Compendium.shadowdark.spells.Item.7uTblEDfklCO1et7]{lightning bolt} spell (no spellcasting check).</p>",
+            "name": "Memnon's Blazing Javelin (Completed Set)",
+            "system.identification.name": "Identified Name",
+            "effects": {
+                "Weapon Attack Roll Bonus": {
+                    "name": "Weapon Attack Roll Bonus",
+                    "description": "Weapon Attack Roll Bonus"
+                },
+                "Weapon Attack Damage Bonus": {
+                    "name": "Weapon Attack Damage Bonus",
+                    "description": "Weapon Attack Damage Bonus"
+                }
+            }
+        },
+        "Memnon's Discordant Blade": {
+            "description": "<p><em>This barbed greatsword's red blade trails a shower of sparks when swung to strike.</em></p><p><strong>Bonus.</strong> +1 greatsword. Can only be wielded by a chaotic being. If you also wield Memnon's Entropic Armor and Memnon's Blazing Javelin, it becomes a +3 greatsword.</p><p><strong>Benefit.</strong> Once per day, you can utterly annihilate one creature of level 9 or less that you damage with this blade. The creature can pass a [[request 18 con]] check to take [[/r 3d8]] damage instead.</p><p><strong>Curse.</strong> You cannot relinquish ownership of this blade unless it is taken from you by a creature that defeats you in combat. For each day you do not slay a LV 2 or greater creature with this sword, you lose [[/r 1d6]] hit points. These are restored only when you kill a LV 2 or greater creature with the sword.</p>",
+            "name": "Memnon's Discordant Blade",
+            "system.identification.name": "Identified Name",
+            "effects": {
+                "Weapon Attack Damage Bonus": {
+                    "name": "Weapon Attack Damage Bonus",
+                    "description": "Weapon Attack Damage Bonus"
+                },
+                "Weapon Attack Roll Bonus": {
+                    "name": "Weapon Attack Roll Bonus",
+                    "description": "Weapon Attack Roll Bonus"
+                }
+            }
+        },
+        "Memnon's Discordant Blade (Completed Set)": {
+            "description": "<p><em>This barbed greatsword's red blade trails a shower of sparks when swung to strike.</em></p><p><strong>Bonus.</strong> +1 greatsword. Can only be wielded by a chaotic being. If you also wield Memnon's Entropic Armor and Memnon's Blazing Javelin, it becomes a +3 greatsword.</p><p><strong>Benefit.</strong> Once per day, you can utterly annihilate one creature of level 9 or less that you damage with this blade. The creature can pass a [[request 18 con]] check to take [[/r 3d8]] damage instead.</p><p><strong>Curse.</strong> You cannot relinquish ownership of this blade unless it is taken from you by a creature that defeats you in combat. For each day you do not slay a LV 2 or greater creature with this sword, you lose [[/r 1d6]] hit points. These are restored only when you kill a LV 2 or greater creature with the sword.</p>",
+            "name": "Memnon's Discordant Blade (Completed Set)",
+            "system.identification.name": "Identified Name",
+            "effects": {
+                "Weapon Attack Roll Bonus": {
+                    "name": "Weapon Attack Roll Bonus",
+                    "description": "Weapon Attack Roll Bonus"
+                },
+                "Weapon Attack Damage Bonus": {
+                    "name": "Weapon Attack Damage Bonus",
+                    "description": "Weapon Attack Damage Bonus"
+                }
+            }
+        },
+        "Memnon's Entropic Armor": {
+            "description": "<p><em>Deep blue plate mail traced with gold lightning motifs and red gems arrayed into the shape of flames.</em></p><p><strong>Bonus.</strong> +1 plate mail. Can only be worn by a chaotic being. If you also wield Memnon's Discordant Blade and Memnon's Blazing Javelin, it becomes +3 plate mail.</p><p><strong>Benefit.</strong> Once per day, you can speak the armor's command word. Until your next turn, all non-magical weapons that strike you are instantly unmade, shattering into dust. You take no damage from them.</p>",
+            "name": "Memnon's Entropic Armor",
+            "system.identification.name": "Identified Name"
+        },
+        "Memnon's Entropic Armor (Completed Set)": {
+            "description": "<p><em>Deep blue plate mail traced with gold lightning motifs and red gems arrayed into the shape of flames.</em></p><p><strong>Bonus.</strong> +1 plate mail. Can only be worn by a chaotic being. If you also wield Memnon's Discordant Blade and Memnon's Blazing Javelin, it becomes +3 plate mail.</p><p><strong>Benefit.</strong> Once per day, you can speak the armor's command word. Until your next turn, all non-magical weapons that strike you are instantly unmade, shattering into dust. You take no damage from them.</p>",
+            "name": "Memnon's Entropic Armor (Completed Set)",
+            "system.identification.name": "Identified Name"
+        },
+        "mEwSq29I1Sr8gG2t": {
+            "name": "Permanent Ability (Str)"
+        },
+        "Mirror of Mischief": {
+            "description": "<p><em>A full-length mirror polished to a gleaming shine. Grinning, silver demons grasp the mirror, their claws forming its frame.</em></p><p><strong>Curse.</strong> The first time a humanoid creature looks into this mirror, the mirror creates an evil and malicious duplicate of them. The duplicate can step from the mirror and is an exact copy of the subject (except for magical gear, which looks identical but is mundane in nature). The evil duplicate can live indefinitely outside the mirror. It attempts to sow chaos in the life of the creature it duplicated.</p>",
+            "name": "Mirror of Mischief",
+            "system.identification.name": "Identified Name"
+        },
+        "MN2vxYiGWgfQSbpi": {
+            "name": "Permanent Ability (Cha)"
+        },
+        "Moonwrought Chainmail": {
+            "description": "<p><em>A luminous jacket of chainmail as lightweight as a silk shirt.</em></p><p><strong>Bonus.</strong> +1 mithral chainmail.</p><p><strong>Benefit.</strong> Once per day, you can speak the armor's command word. You gain a +1 bonus to your next spellcasting check or ranged attack.</p>",
+            "name": "Moonwrought Chainmail",
+            "system.identification.name": "Identified Name",
+            "effects": {
+                "Spellcasting Advantage on Spell": {
+                    "name": "Spellcasting Advantage on Spell",
+                    "description": "+1 to your next spellcasting check or ranged attack (1/day)"
+                }
+            }
+        },
+        "MosrS1dHHXThJ96N": {
+            "name": "Weapon Attack Roll Bonus"
+        },
+        "MYoK22maOIV6Z0VE": {
+            "name": "Weapon Attack Damage Bonus"
+        },
+        "N3a7CEwOlseizR4z": {
+            "name": "Permanent Ability (Str)"
+        },
+        "n94S9biW3s0ZHhoR": {
+            "name": "Weapon Attack Damage Bonus"
+        },
+        "naxiMCPRWIxWceVj": {
+            "name": "AC Bonus"
+        },
+        "Necklace of Charm": {
+            "description": "<p><em>A gold, fishbone chain that shimmers with subtle beauty.</em></p><p><strong>Benefit.</strong> Your Charisma stat becomes 18 (+4) while wearing this necklace.</p>",
+            "name": "Necklace of Charm",
+            "system.identification.name": "Identified Name",
+            "effects": {
+                "Permanent Ability (Cha)": {
+                    "name": "Permanent Ability (Cha)",
+                    "description": "Permanent Ability (Cha)"
+                }
+            }
+        },
+        "Necrotic Mace of Withering": {
+            "description": "<p><em>A wrought iron mace tipped with a heavy, screaming skull. Black ichor runs from the skull's eyes when the mace is used to channel necrotic energy.</em></p><p><strong>Bonus.</strong> +1 mace. Can only be wielded by a chaotic priest.</p><p><strong>Benefit.</strong> While holding the mace, you can turn @UUID[Compendium.shadowdark.spells.Item.N9NvonT0RL6PyiiV]{cure wounds} spells you cast into harmful magic that instead inflicts the same amount of damage it would heal.</p><p><strong>Curse.</strong> If you use the mace to cast an inverted cure wounds spell, you are haunted by nightmares that night. You must pass a [[check 12 wis]] check during your next rest or gain no benefit from resting.</p>",
+            "name": "Necrotic Mace of Withering",
+            "system.identification.name": "Identified Name",
+            "effects": {
+                "Weapon Attack Roll Bonus": {
+                    "name": "Weapon Attack Roll Bonus",
+                    "description": "Weapon Attack Roll Bonus"
+                },
+                "Weapon Attack Damage Bonus": {
+                    "name": "Weapon Attack Damage Bonus",
+                    "description": "Weapon Attack Damage Bonus"
+                }
+            }
+        },
+        "Nightcloak Armor": {
+            "description": "<p><em>Matte black leathers enchanted to deepen and darken shadows.</em></p><p><strong>Bonus.</strong> +1 leather armor.</p><p><strong>Benefit.</strong> Once per day, you may choose to automatically pass a Dexterity check to hide.</p>",
+            "name": "Nightcloak Armor",
+            "system.identification.name": "Identified Name"
+        },
+        "nv1kzlTwOcLqpi7w": {
+            "name": "Weapon Attack Roll Bonus"
+        },
+        "nYIEUngawHOWjKLV": {
+            "name": "Weapon Attack Roll Bonus"
+        },
+        "Obsidian Witchknife": {
+            "description": "<p><em>A glinting, obsidian blade that trails black smoke in thin curls.</em></p><p><strong>Bonus.</strong> +2 dagger. Cannot be wielded by a lawful being.</p><p><strong>Benefit.</strong> When you cast a spell while holding this dagger, you may wound yourself with it. Add the amount of damage you take to your spellcasting check.</p>",
+            "name": "Obsidian Witchknife",
+            "system.identification.name": "Identified Name",
+            "effects": {
+                "Weapon Attack Roll Bonus": {
+                    "name": "Weapon Attack Roll Bonus",
+                    "description": "Weapon Attack Roll Bonus"
+                },
+                "Weapon Attack Damage Bonus": {
+                    "name": "Weapon Attack Damage Bonus",
+                    "description": "Weapon Attack Damage Bonus"
+                }
+            }
+        },
+        "OJ3nY3HrPcGtdv4L": {
+            "name": "Spellcasting Advantage on Spell"
+        },
+        "OlbaGSPCczzedFMQ": {
+            "name": "Weapon Attack Damage Bonus"
+        },
+        "Onyx Destrier": {
+            "description": "<p><em>A polished, ebony statuette of a running horse.</em></p><p><strong>Benefit.</strong> Once per day, the wielder can speak the command word to turn the statuette into a @UUID[Compendium.shadowdark.monsters.Actor.bxcbuzesUqGpEBxw]{nightmare} that accepts neutral or chaotic riders. The statuette remains in this form for 1 hour.</p>",
+            "name": "Onyx Destrier",
+            "system.identification.name": "Identified Name"
+        },
+        "Ophidian Armor": {
+            "description": "<p><em>Glistening, smooth leather of dappled emerald scales.</em></p><p><strong>Bonus</strong>. +1 leather armor.</p><p><strong>Benefit</strong>. You have advantage on checks to avoid the effects of poison.</p>",
+            "name": "Ophidian Armor",
+            "effects": {
+                "Advantage vs Poison": {
+                    "name": "Advantage vs Poison",
+                    "description": "Advantage vs Poison"
+                }
+            }
+        },
+        "OZskI153kjpkFy09": {
+            "name": "Weapon Attack Damage Bonus"
+        },
+        "Pearl of Power": {
+            "description": "<p><em>A fat, opalescent pearl glowing with an inner radiance.</em></p><p><strong>Benefit</strong>. Once per day, you may regain the ability to cast a spell you have lost. This cannot restore a spell lost due to a critical spellcasting failure.</p>",
+            "name": "Pearl of Power"
+        },
+        "permanentAbility": {
+            "name": "permanentAbility"
+        },
+        "Pipe of the Rolling Hills": {
+            "description": "<p><em>A long, curved pipe that smells of cloves and resin.</em></p><p><strong>Benefit.</strong> Up to three times per day, regain [[/r 1d4]] hit points when you smoke this pipe.</p>",
+            "name": "Pipe of the Rolling Hills",
+            "system.identification.name": "Identified Name"
+        },
+        "Pipes of the Sewers": {
+            "description": "<p><em>A set of tarnished, brass pan pipes with seven cylinders.</em></p><p><strong>Benefit.</strong> Once per day, you can play these pipes to summon [[/r 2d6]] @UUID[Compendium.shadowdark.monsters.Actor.OYtg4Ta4PIpvIZxq]{giant rats}. The rats obey you for [[/r 1d6]] rounds, and then they scatter and flee.</p><p><strong>Curse.</strong> If you stop playing while the rats are present, they turn on you and attack.</p>",
+            "name": "Pipes of the Sewers",
+            "system.identification.name": "Identified Name"
+        },
+        "pOdV4x1mBsF4ZJmg": {
+            "name": "Weapon Attack Roll Bonus"
+        },
+        "POfmKSqbE5nitw2s": {
+            "name": "Weapon Attack Damage Bonus"
+        },
+        "Portable Hole": {
+            "description": "<p><em>A black, velvet square of cloth that unfolds into a wide circle.</em></p><p><strong>Benefit.</strong> The Portable Hole folds open on a flat surface into a 6-foot wide, 6-foot deep hole. It has 20 gear slots of storage. The hole closes when you fold the cloth into a small square.</p><p><strong>Curse.</strong> Placing this item inside a Bag of Holding or another Portable Hole destroys both items and all held inside them.</p>",
+            "name": "Portable Hole",
+            "system.identification.name": "Identified Name"
+        },
+        "Potion of Extirpation": {
+            "description": "<p><em>An acrid, tarry substance in an iron flask with a lead stopper.</em></p><p><strong>Benefit</strong>. You can pour the potion on one object or creature filling up to a close area. The target is utterly removed from reality and cannot be returned by anything short of a <em>wish</em> spell.</p><p><strong>Personality</strong>. Chaotic. Protests loudly while being used and never agrees that the target is the right choice for extirpation.</p>",
+            "name": "Potion of Extirpation"
+        },
+        "Potion of Flying": {
+            "description": "<p><em>A sunny liquid with bubbles that flash and pop like tiny stars.</em></p><p><strong>Benefit.</strong> You can fly a near distance for 10 rounds when you drink this potion.</p>",
+            "name": "Potion of Flying",
+            "system.identification.name": "Identified Name"
+        },
+        "Potion of Forgetfulness": {
+            "description": "<p><em>A pink draught that swirls with a counter-clockwise current.</em></p><p><strong>Benefit.</strong> If you serve this potion to an intelligent being and that being drinks it, the imbiber permanently forgets one memory of your choosing.</p>",
+            "name": "Potion of Forgetfulness",
+            "system.identification.name": "Identified Name"
+        },
+        "Potion of Giant Strength": {
+            "description": "<p><em>A clay jar holding a stew of green, leafy sludge.</em></p><p><strong>Benefit.</strong> Your Strength becomes 18 (+4) and you deal x2 damage on melee attacks for 10 rounds.</p>",
+            "name": "Potion of Giant Strength",
+            "system.identification.name": "Identified Name"
+        },
+        "Potion of Healing": {
+            "description": "<p><em>A glass bottle with a fizzy, lemon-vanilla liquid inside.</em></p><p><strong>Benefit</strong>. The imbiber of this potion regains hit points based on its level.</p><p><strong>LV 1-3</strong>: [[/r 1d6]] hit points.</p><p><strong>LV 4-6</strong>: [[/r 2d8]] hit points.</p><p><strong>LV 7-9</strong>: [[/r 3d10]] hit points.</p><p><strong>LV 10+</strong>: [[/r 4d12]] hit points.</p>",
+            "name": "Potion of Healing"
+        },
+        "Potion of Invisibility": {
+            "description": "<p><em>This glass vial appears to be empty, but a liquid audibly splashes around inside it.</em></p><p><strong>Benefit</strong>. When you drink this potion, you become invisible for 10 rounds or until you attack or cast a spell.</p><p>@UUID[Compendium.shadowdark.spell-effects.SMXbMbXcj5hLvTjY]{Spell Effect: Invisibility}</p>",
+            "name": "Potion of Invisibility"
+        },
+        "Potion of Legendary Deeds": {
+            "description": "<p><em>A golden elixir that resonates with a faint, angelic chord.</em></p><p><strong>Benefit.</strong> When you drink this potion, you gain one level and your XP total resets to zero.</p>",
+            "name": "Potion of Legendary Deeds",
+            "system.identification.name": "Identified Name"
+        },
+        "Potion of Polymorph": {
+            "description": "<p><em>A pickled newt floats in this lavender flask of clear liquid.</em></p><p><strong>Benefit.</strong> When you drink this potion, it casts the @UUID[Compendium.shadowdark.spells.Item.1ZAZQsFvPBEZPkVP]{polymorph} spell (pg. 67) on you with a duration of 1 hour instead of 10 rounds.</p>",
+            "name": "Potion of Polymorph",
+            "system.identification.name": "Identified Name"
+        },
+        "Potion of Vitality": {
+            "description": "<p><em>A crimson elixir that gently thumps with a heartbeat.</em></p><p><strong>Benefit.</strong> When you drink this potion, roll your class's hit points die. You permanently gain that many HP.</p><p><strong>Curse.</strong> If you drink more than one Potion of Vitality in your lifetime, you must pass a [[check 18 con]] check each time or die instantly.</p>",
+            "name": "Potion of Vitality",
+            "system.identification.name": "Identified Name"
+        },
+        "pwG7d70XZD8JJL5p": {
+            "name": "Attack Damage Bonus"
+        },
+        "Qj2rqAj7XeIsjzzs": {
+            "name": "Attack Damage Bonus"
+        },
+        "qrgFpY2mTci173wM": {
+            "name": "Attack Roll Bonus"
+        },
+        "Qt03jfl943CxPGeL": {
+            "name": "Weapon Attack Roll Bonus"
+        },
+        "qx4j9GoWPYmbbu9g": {
+            "name": "Weapon Attack Roll Bonus"
+        },
+        "Ring of Feather Falling": {
+            "description": "<p><em>A pearly ring carved in the likeness of an owl feather.</em></p><p><strong>Benefit.</strong> Once per day, the ring can cast @UUID[Compendium.shadowdark.spells.Item.0ejsM2UIZDHs5u2f]{feather fall }(pg. 60) on you when you fall.</p><p><strong>Personality.</strong> Neutral. Fearful of heights. Mentally hoots in an owl-like voice to stay away from the edge of cliffs and pits.</p>",
+            "name": "Ring of Feather Falling",
+            "system.identification.name": "Identified Name"
+        },
+        "Ring of Fireballs": {
+            "description": "<p><em>A bronze loop with claws holding a red marble. A fiery miasma swirls inside the glass.</em></p><p><strong>Benefit.</strong> You can pluck the glass marble from the ring and throw it up to a far distance, causing a @UUID[Compendium.shadowdark.spells.Item.j2gvzfnMGQwxqgGg]{fireball} spell (pg. 60) to bloom at the site of impact. The glass marble regrows after you successfully complete a rest.</p>",
+            "name": "Ring of Fireballs",
+            "system.identification.name": "Identified Name"
+        },
+        "Ring of Invisibility": {
+            "description": "<p><em>A simple, gold band polished to a warm shine.</em></p><p><strong>Benefit.</strong> Once per day, the ring can cast the @UUID[Compendium.shadowdark.spells.Item.PZ0qPp6lG9SVMoAr]{invisibility} spell (pg. 63) on you.</p><p><strong>Curse.</strong> There is a cumulative 1% chance each time you rest that your sleep is ruined by apocalyptic nightmares, and you gain no benefit from resting. This resets to a 1% chance each time it triggers.</p>",
+            "name": "Ring of Invisibility",
+            "system.identification.name": "Identified Name"
+        },
+        "Ring of Ramlaat": {
+            "description": "<p><em>A bone-carved ring with a ram skull. Its horns twist forward and red lights glow in its eye sockets.</em></p><p><strong>Benefit.</strong> Once per day, you can enter a rage where you deal double damage for 5 rounds. During the rage, you can't cast spells and enemies have advantage on melee attacks against you.</p><p><strong>Personality.</strong> Chaotic. Aggressive, overconfident. Seeks to provoke you and your enemies into battle.</p>",
+            "name": "Ring of Ramlaat",
+            "system.identification.name": "Identified Name"
+        },
+        "Robe of the Archmage": {
+            "description": "<p><em>A red silk robe with a wide, gold-hemmed mantle. Golden eyes and moons dust its sleeves.</em></p><p><strong>Benefit.</strong> Only a wizard with the Archmage title can wear this robe. </p><p>Your unarmored AC becomes 15 plus your Dexterity modifier. </p><p>Choose three spells you know. Their spellcasting DC is always 11. </p><p>You have advantage on casting the disintegrate spell.</p>",
+            "name": "Robe of the Archmage",
+            "system.identification.name": "Identified Name",
+            "effects": {
+                "Spellcasting Advantage on Spell": {
+                    "name": "Spellcasting Advantage on Spell",
+                    "description": "Spellcasting Advantage on Spell"
+                }
+            }
+        },
+        "Robe of the Druid": {
+            "description": "<p><em>A green velvet robe with a deep hood and hems embroidered with silver leaves and vines.</em></p><p><strong>Benefit.</strong> Only a wizard with the Druid title can wear this robe.</p><p>Your unarmored AC becomes 15 plus your Dexterity modifier.</p><p>Twice per day, you can regain the ability to cast one lost spell.</p><p>You have advantage on casting the @UUID[Compendium.shadowdark.spells.Item.qz6bKMyDaGyifklx]{shapechange} spell. When you cast it, its duration is 1 hour instead of focus.</p>",
+            "name": "Robe of the Druid",
+            "system.identification.name": "Identified Name",
+            "effects": {
+                "Spellcasting Advantage on Spell": {
+                    "name": "Spellcasting Advantage on Spell",
+                    "description": "Spellcasting Advantage on Spell"
+                }
+            }
+        },
+        "Robe of the Sorcerer": {
+            "description": "<p><em>A black leather robe with a shadowed cowl and clawed clasps on thin, mithral chains.</em></p><p><strong>Benefit.</strong> Only a wizard with the Sorcerer title can wear this robe.</p><p>Your unarmored AC becomes 15 plus your Dexterity modifier.</p><p>When you cast a spell that deals damage, add your Intelligence modifier to the total. You have advantage on casting the @UUID[Compendium.shadowdark.spells.Item.ttcu6Hcf7zUzxJmk]{power word kill} spell.</p>",
+            "name": "Robe of the Sorcerer",
+            "system.identification.name": "Identified Name",
+            "effects": {
+                "Spellcasting Advantage on Spell": {
+                    "name": "Spellcasting Advantage on Spell",
+                    "description": "Spellcasting Advantage on Spell"
+                }
+            }
+        },
+        "Rzbo47LZEvpyHfqg": {
+            "name": "Attack Roll Bonus"
+        },
+        "s6ifDUJHIkwx5wvx": {
+            "name": "Permanent Ability (Con)"
+        },
+        "Scarab of Protection": {
+            "description": "<p><em>A brooch made from a horned scarab beetle dipped in gold.</em></p><p><strong>Benefit</strong>. If you die, make a [[check 18 con]] check. If you succeed, you are unconscious instead of dead.</p>",
+            "name": "Scarab of Protection"
+        },
+        "Scimitar of the Ash Moon": {
+            "description": "<p><em>This wide, curved blade has a snarling efreeti head on the bronze pommel.</em></p><p><strong>Bonus.</strong> +3 greatsword.</p><p><strong>Benefit.</strong> If you roll a critical hit with this weapon, the target is beheaded. It dies instantly if decapitation would kill it.</p>",
+            "name": "Scimitar of the Ash Moon",
+            "system.identification.name": "Identified Name",
+            "effects": {
+                "Weapon Attack Damage Bonus": {
+                    "name": "Weapon Attack Damage Bonus",
+                    "description": "Weapon Attack Damage Bonus"
+                },
+                "Weapon Attack Roll Bonus": {
+                    "name": "Weapon Attack Roll Bonus",
+                    "description": "Weapon Attack Roll Bonus"
+                }
+            }
+        },
+        "Scroll of Burning Hands": {
+            "description": "<p>@UUID[Compendium.shadowdark.spells.ItN82uLU3PhJFLNm]{Burning Hands}</p>",
+            "name": "Scroll of Burning Hands"
+        },
+        "Scroll of Hold Portal": {
+            "description": "<p>@UUID[Compendium.shadowdark.spells.q600IZtPTAgkz6vB]{Hold Portal}</p>",
+            "name": "Scroll of Hold Portal"
+        },
+        "Shield of the Crusader": {
+            "description": "<p><em>A weighty kite shield painted with a faded, crimson cross.</em></p><p><strong>Bonus.</strong> +1 shield. Can only be wielded by a lawful being.</p><p><strong>Benefit.</strong> Once per day, you can speak a prayer to wreathe the shield in holy flames, granting +2 to your AC for 3 rounds.</p>",
+            "name": "Shield of the Crusader",
+            "system.identification.name": "Identified Name",
+            "effects": {
+                "AC Bonus": {
+                    "name": "AC Bonus",
+                    "description": "AC Bonus"
+                },
+                "Holy Prayer AC Bonus": {
+                    "name": "Holy Prayer AC Bonus",
+                    "description": "+2 AC for 3 rounds after speaking a holy prayer (1/day)"
+                }
+            }
+        },
+        "Shield of the Lion": {
+            "description": "<p><em>This shield is carved as a roaring lion's face with a flowing mane.</em></p><p><strong>Bonus.</strong> +1 shield.</p><p><strong>Benefit.</strong> Once per day, you can command the lion to animate and bellow a ferocious roar. All hostile creatures within near range must immediately make a morale check.</p>",
+            "name": "Shield of the Lion",
+            "system.identification.name": "Identified Name",
+            "effects": {
+                "AC Bonus": {
+                    "name": "AC Bonus",
+                    "description": "AC Bonus"
+                }
+            }
+        },
+        "Shield of the Witch-King": {
+            "description": "<p><em>A jagged triangle of black steel with spiny, armored plates.</em></p><p><strong>Bonus.</strong> +2 shield. Can only be wielded by a chaotic being.</p><p><strong>Benefit.</strong> You take half damage from undead creatures.</p><p><strong>Curse.</strong> If you go to 0 HP, the spirit of Ix-Natheer tries to steal your body. He blocks healing magic from affecting you. If you die, Ix-Natheer possesses you.</p><p><strong>Personality.</strong> Chaotic. The spirit of the witch-king Ix-Natheer animates this shield. He pounces on opportunities to betray his wielder so he can try to take over their body and return to unlife.</p>",
+            "name": "Shield of the Witch-King",
+            "system.identification.name": "Identified Name",
+            "effects": {
+                "AC Bonus": {
+                    "name": "AC Bonus",
+                    "description": "AC Bonus"
+                }
+            }
+        },
+        "Shortsword of the Thief": {
+            "description": "<p><em>A stubby, grey blade riddled with notches and scars.</em></p><p><strong>Bonus</strong>. +1 shortsword. +2 if wielded by a halfling or thief.</p><p><strong>Benefit</strong>. Once per day, regain a luck token you just spent.</p>",
+            "name": "Shortsword of the Thief",
+            "effects": {
+                "Attack Roll Bonus": {
+                    "name": "Attack Roll Bonus",
+                    "description": "Attack Roll Bonus"
+                },
+                "Attack Damage Bonus": {
+                    "name": "Attack Damage Bonus",
+                    "description": "Attack Damage Bonus"
+                }
+            }
+        },
+        "Silver Mace of Wrath": {
+            "description": "<p><em>A tarnished, silver mace with seven flanges in the shape of crescent moons.</em></p><p><strong>Bonus.</strong> +1 mace.</p><p><strong>Benefit.</strong> This weapon deals double damage against creatures with lycanthropy.</p>",
+            "name": "Silver Mace of Wrath",
+            "system.identification.name": "Identified Name",
+            "effects": {
+                "Weapon Attack Roll Bonus": {
+                    "name": "Weapon Attack Roll Bonus",
+                    "description": "Weapon Attack Roll Bonus"
+                },
+                "Weapon Attack Damage Bonus": {
+                    "name": "Weapon Attack Damage Bonus",
+                    "description": "Weapon Attack Damage Bonus"
+                },
+                "Double Damage vs Lycanthropes": {
+                    "name": "Double Damage vs Lycanthropes",
+                    "description": "Double Damage vs Lycanthropes"
+                }
+            }
+        },
+        "Speak & Understand Diabolic": {
+            "name": "Speak & Understand Diabolic"
+        },
+        "Speak Goblin": {
+            "name": "Speak Goblin"
+        },
+        "Spellcasting Check Bonus": {
+            "name": "Spellcasting Check Bonus"
+        },
+        "Sphere of Annihilation": {
+            "description": "<p><em>A three-foot, spherical void of pure darkness that hovers above the ground.</em></p><p><strong>Benefit.</strong> This sphere utterly destroys all matter it touches.</p><p>Intelligent beings can move the flying sphere a near distance by passing a [[check 18 int]] check. If multiple creatures vie for control of the sphere, it is a contested Intelligence check instead. Wizards have advantage on this check. The winner moves the sphere a near distance.</p><p>If the sphere moves into a space occupied by a creature, the being controlling the sphere makes an attack roll against that creature with a +7 bonus. On a hit, the creature is obliterated.</p>",
+            "name": "Sphere of Annihilation",
+            "system.identification.name": "Identified Name"
+        },
+        "Spyglass of True Sight": {
+            "description": "<p><em>A brass, telescoping lens with magical runes carved on it.</em></p><p><strong>Benefit.</strong> When you look through the spyglass, you can see invisible creatures and objects.</p><p><strong>Curse.</strong> The wielder feels a compulsion to look at everything through the spyglass.</p>",
+            "name": "Spyglass of True Sight",
+            "system.identification.name": "Identified Name"
+        },
+        "SRuuhmxcNFfK8yUo": {
+            "name": "AC Bonus"
+        },
+        "Staff of Healing": {
+            "description": "<p><em>A knotted, oak stave with a heavy knurl on one end.</em></p><p><strong>Bonus</strong>. +1 staff.</p><p><strong>Benefit</strong>. Once per day, you can touch a creature with the staff to heal it for [[/r 1d6]] hit points.</p>",
+            "name": "Staff of Healing",
+            "effects": {
+                "Attack Roll Bonus": {
+                    "name": "Attack Roll Bonus",
+                    "description": "Attack Roll Bonus"
+                },
+                "Attack Damage Bonus": {
+                    "name": "Attack Damage Bonus",
+                    "description": "Attack Damage Bonus"
+                }
+            }
+        },
+        "Staff of Ord": {
+            "description": "<p><em>A tapered, mithral staff that resonates with arcane power. The tip features an upward- looking eye in a circle of runes.</em></p><p><strong>Bonus.</strong> +3 staff. Can only be wielded by a wizard.</p><p><strong>Benefit.</strong> Functions as a wand of @UUID[Compendium.shadowdark.spells.Item.UWGzL8qsentdrvar]{dimension door} (pg. 59), @UUID[Compendium.shadowdark.spells.Item.j2gvzfnMGQwxqgGg]{fireball} (pg. 60), @UUID[Compendium.shadowdark.spells.Item.AnJVapep2NJoicUP]{sending} (pg. 70), and @UUID[Compendium.shadowdark.spells.Item.AZo6rYWOo0SHvpxZ]{telekinesis} (pg. 72). Unlike a wand, the staff remains intact if you roll a 1 on your spellcasting checks. Hostile spells targeting you are DC 18 to cast.</p>",
+            "name": "Staff of Ord",
+            "system.identification.name": "Identified Name",
+            "effects": {
+                "Weapon Attack Roll Bonus": {
+                    "name": "Weapon Attack Roll Bonus",
+                    "description": "Weapon Attack Roll Bonus"
+                },
+                "Weapon Attack Damage Bonus": {
+                    "name": "Weapon Attack Damage Bonus",
+                    "description": "Weapon Attack Damage Bonus"
+                }
+            }
+        },
+        "Staff of The Cobra": {
+            "description": "<p><em>A curved scepter tipped with a ruby-eyed, flaring cobra head.</em></p><p><strong>Bonus.</strong> +1 staff.</p><p><strong>Benefit.</strong> All snakes regard you with a friendly attitude unless you do something to upset them. Once per day, you can throw the staff to the ground. It becomes a giant snake for 5 rounds that obeys your mental commands. If the giant snake goes to 0 HP, it reverts into a staff.</p><p><strong>Curse.</strong> You have disadvantage on attacks and casting hostile spells targeting snakes.</p>",
+            "name": "Staff of The Cobra",
+            "system.identification.name": "Identified Name",
+            "effects": {
+                "Weapon Attack Damage Bonus": {
+                    "name": "Weapon Attack Damage Bonus",
+                    "description": "Weapon Attack Damage Bonus"
+                },
+                "Weapon Attack Roll Bonus": {
+                    "name": "Weapon Attack Roll Bonus",
+                    "description": "Weapon Attack Roll Bonus"
+                },
+                "Disadvantage on Attacks & Spells vs Snakes": {
+                    "name": "Disadvantage on Attacks & Spells vs Snakes",
+                    "description": "Disadvantage on attacks and hostile spells targeting snakes"
+                }
+            }
+        },
+        "Sword of the Ancients": {
+            "description": "<p><em>A chipped and rusting blade with an oiled leather grip.</em></p><p><strong>Bonus</strong>. +2 longsword.</p><p><strong>Benefit</strong>. The sword is unbreakable and can carve through any material.</p><p>The owner can summon the sword to their hand if it's on the same plane.</p>",
+            "name": "Sword of the Ancients",
+            "effects": {
+                "Attack Roll Bonus": {
+                    "name": "Attack Roll Bonus",
+                    "description": "Attack Roll Bonus"
+                },
+                "Attack Damage Bonus": {
+                    "name": "Attack Damage Bonus",
+                    "description": "Attack Damage Bonus"
+                }
+            }
+        },
+        "The Kytherian Mechanism": {
+            "description": "<p><em>A towering, brass platform mounted with countless cogs and gears speckled in blue- green rust.</em></p><p><strong>Benefit.</strong> A handle turns The Kytherian Mechanism's mighty wheels, but it doesn't function until its seven missing @UUID[Compendium.shadowdark.magic-items.Item.0c0G5Dnzq9Il8zZY]{Kytherian Cogs} are replaced.</p><p>Once functional, activating the mechanism allows the operator to undo one event of their choosing from history. Then, the seven Kytherian Cogs magically scatter to far-flung locations.</p>",
+            "name": "The Kytherian Mechanism",
+            "system.identification.name": "Identified Name"
+        },
+        "The Malediction Infernal": {
+            "description": "<p><em>A black, leatherbound tome with a grinning demon face embossed on the cover.</em></p><p><strong>Benefit.</strong> A chaotic being who reads this tome gains a level and learns the @UUID[Compendium.shadowdark.languages.Item.b5yBrLaRIl7ZEWKu]{Diabolic} language.</p><p>A non-chaotic being who reads this book must pass a [[check 18 wis]] check or lose one level.</p><p>After being read, the tome teleports to a far-flung location.</p>",
+            "name": "The Malediction Infernal",
+            "system.identification.name": "Identified Name"
+        },
+        "Thrice-Blessed Sword": {
+            "description": "<p><em>A lustrous, golden-handled blade anointed with blessed tears, incense, and prayers.</em></p><p><strong>Bonus.</strong> +3 longsword. Only a lawful priest who has achieved the Templar title or higher can wield this sword.</p><p><strong>Benefit.</strong> You deal double damage against demons, devils, and undead.</p><p><strong>Personality.</strong> Lawful. Virtuous, naive. Refuses to be wielded against worshippers of lawful gods, especially self-proclaimed converts. Demands each foe be given the chance to convert before being slain.</p>",
+            "name": "Thrice-Blessed Sword",
+            "system.identification.name": "Identified Name",
+            "effects": {
+                "Weapon Attack Roll Bonus": {
+                    "name": "Weapon Attack Roll Bonus",
+                    "description": "Weapon Attack Roll Bonus"
+                },
+                "Weapon Attack Damage Bonus": {
+                    "name": "Weapon Attack Damage Bonus",
+                    "description": "Weapon Attack Damage Bonus"
+                },
+                "Double Damage vs Demons, Devils &  Undead": {
+                    "name": "Double Damage vs Demons, Devils &  Undead",
+                    "description": "Double Damage vs Demons, Devils &amp;  Undead"
+                }
+            }
+        },
+        "tOLeg6MI1ii7c98V": {
+            "name": "Weapon Attack Damage Bonus"
+        },
+        "Tome Mordanticus": {
+            "description": "<p><em>A hand-drawn bestiary of the multiverse's most notable creatures and people.</em></p><p><strong>Benefit.</strong> When you read the tome, you learn three @UUID[Compendium.shadowdark.magic-items.Item.gNah418e2ykhDWDE]{True Names} (pg. 319) of three beings you choose. Your True Name also appears in the book after reading it.</p><p><strong>Personality.</strong> Neutral. Pedantic, fussy. The book constantly tries to escape its owner and can telepathically reach out a near distance to any creature.</p>",
+            "name": "Tome Mordanticus",
+            "system.identification.name": "Identified Name"
+        },
+        "Tome of Gehemna": {
+            "description": "<p><em>A sturdy, russet volume held by metal clasps. A golden eye in a circle adorns the cover.</em></p><p><strong>Benefit.</strong> Each day, a random wizard spell scroll appears inside the tome, replacing the spell scroll from the prior day.</p><p><strong>Personality.</strong> Neutral. Instructive, technical. Drones on about the obscure points of spellcasting and has an opinion on every wizard's technique.</p>",
+            "name": "Tome of Gehemna",
+            "system.identification.name": "Identified Name"
+        },
+        "Tome of Hadebe": {
+            "description": "<p><em>A brass-plated book with pages of etched copper leaf.</em></p><p><strong>Benefit.</strong> The tome contains one each of the following scrolls: @UUID[Compendium.shadowdark.spells.Item.ItN82uLU3PhJFLNm]{burning hands} (pg. 56), @UUID[Compendium.shadowdark.spells.Item.j2gvzfnMGQwxqgGg]{fireball} (pg. 60), and @UUID[Compendium.shadowdark.spells.Item.71VbHnopcTmRXz47]{prismatic orb} (pg. 67).</p>",
+            "name": "Tome of Hadebe",
+            "system.identification.name": "Identified Name"
+        },
+        "Trident of the Seas": {
+            "description": "<p><em>A three-pronged, mithral harpoon studded with pearls.</em></p><p><strong>Bonus.</strong> +2 spear.</p><p><strong>Benefit.</strong> You can breathe underwater, as well as speak to and understand wild sea creatures. Once per day, you can cast @UUID[Compendium.shadowdark.spells.Item.TKDuwFu1hP2lX549]{control water} (pg. 57) with a +4 bonus.</p>",
+            "name": "Trident of the Seas",
+            "system.identification.name": "Identified Name",
+            "effects": {
+                "Weapon Attack Roll Bonus": {
+                    "name": "Weapon Attack Roll Bonus",
+                    "description": "Weapon Attack Roll Bonus"
+                },
+                "Weapon Attack Damage Bonus": {
+                    "name": "Weapon Attack Damage Bonus",
+                    "description": "Weapon Attack Damage Bonus"
+                },
+                "Bonus to Control Water": {
+                    "name": "Bonus to Control Water",
+                    "description": "+4 to control water spellcasting checks (1/day)"
+                }
+            }
+        },
+        "True Name": {
+            "description": "<p><em>The secret, unique name borne by a creature and documented in The Covenant. Few creatures know their own True Names.</em></p><p><strong>Benefit</strong>. You have advantage on attack rolls and spellcasting checks targeting a creature whose True Name you utter.</p>",
+            "name": "True Name"
+        },
+        "U8i8NfAsHGKpezHN": {
+            "name": "Weapon Attack Roll Bonus"
+        },
+        "uBVpxbCrrpyNJxZS": {
+            "name": "Weapon Attack Damage Bonus"
+        },
+        "UmHdci1cvynol7xU": {
+            "name": "AC Bonus"
+        },
+        "un7hIgJAJuzdyLvo": {
+            "name": "Weapon Attack Roll Bonus"
+        },
+        "UTm25I1vjFzNqZKZ": {
+            "name": "Weapon Attack Damage Bonus"
+        },
+        "Vigilant": {
+            "description": "<p><strong>Benefit</strong>. The wielder cannot be surprised.</p>",
+            "name": "Vigilant",
+            "effects": {
+                "Weapon Attack Roll Bonus": {
+                    "name": "Weapon Attack Roll Bonus",
+                    "description": "Weapon Attack Roll Bonus"
+                },
+                "Weapon Attack Damage Bonus": {
+                    "name": "Weapon Attack Damage Bonus",
+                    "description": "Weapon Attack Damage Bonus"
+                },
+                "Attack Roll Bonus": {
+                    "name": "Attack Roll Bonus",
+                    "description": "Attack Roll Bonus"
+                },
+                "Attack Damage Bonus": {
+                    "name": "Attack Damage Bonus",
+                    "description": "Attack Damage Bonus"
+                }
+            }
+        },
+        "Vn1UKd6iBKvZh0tc": {
+            "name": "Weapon Attack Damage Bonus"
+        },
+        "Wand of Blind/Deafen": {
+            "description": "<p>@UUID[Compendium.shadowdark.spells.ItoZZ0nli29N5d7G]{Blind/Deafen}</p><p>DC 12</p>",
+            "name": "Wand of Blind/Deafen"
+        },
+        "Wand of Unlife": {
+            "description": "<p><em>The knobby finger-bone of a swamp troll steeped in acrid embalming fluid.</em></p><p><strong>Benefit.</strong> This wand contains the spells @UUID[Compendium.shadowdark.spells.Item.M702ErO4KOtMJzsK]{animate dead} (pg. 54) and @UUID[Compendium.shadowdark.spells.Item.uNxbpd7fENzDUxfd]{create undead} (pg. 58).</p><p><strong>Curse.</strong> Each time you use the wand to cast a spell, you take [[/r 1d4]] points of Constitution damage. If you reach 0 Constitution from this effect, you die and turn into a zombie.</p>",
+            "name": "Wand of Unlife",
+            "system.identification.name": "Identified Name"
+        },
+        "Wand of Warding": {
+            "description": "<p><em>A thin, weighty rod of dark iron inscribed with spiraling runes.</em></p><p><strong>Benefit.</strong> This wand contains the spells @UUID[Compendium.shadowdark.spells.Item.6N33hyLWYZCRgkeX]{dispel magic} (pg. 59) and @UUID[Compendium.shadowdark.spells.Item.P9LFIH0PW4Zlx3RG]{protection from energy }(pg. 68).</p><p><strong>Curse.</strong> Each time you fail a spellcasting check with this wand, you also lose the ability to cast a random spell you know until you complete a rest.</p>",
+            "name": "Wand of Warding",
+            "system.identification.name": "Identified Name"
+        },
+        "War Horn of the Angels": {
+            "description": "<p><em>An opalescent ox horn capped with a golden mouthpiece.</em></p><p><strong>Benefit.</strong> Only a lawful being can wield the horn. Once per day, you can blow the horn to cast @UUID[Compendium.shadowdark.spells.Item.hhCpwnqFy8ntO0jU]{rebuke unholy} (pg. 69) with a +4 bonus.</p><p>A demon or devil who hears the horn has disadvantage on its Charisma check vs. your rebuke unholy spellcasting check.</p>",
+            "name": "War Horn of the Angels",
+            "system.identification.name": "Identified Name"
+        },
+        "Warhammer of the Dwarf Lords": {
+            "description": "<p><em>A boxy hammer with a stout handle and leather throwing strap. It hums with a baritone resonance when spun.</em></p><p><strong>Bonus.</strong> +1 warhammer. +2 if wielded by a dwarf.</p><p><strong>Benefit.</strong> This weapon has the thrown property (pg. 37) to a near distance. It always returns to your hand after being thrown.<br>Your attacks with this weapon deal double damage against giants.</p>",
+            "name": "Warhammer of the Dwarf Lords",
+            "system.identification.name": "Identified Name",
+            "effects": {
+                "Double Damage vs Giants": {
+                    "name": "Double Damage vs Giants",
+                    "description": "Double Damage vs Giants"
+                },
+                "Weapon Attack Roll Bonus": {
+                    "name": "Weapon Attack Roll Bonus",
+                    "description": "Weapon Attack Roll Bonus"
+                },
+                "Weapon Attack Damage Bonus": {
+                    "name": "Weapon Attack Damage Bonus",
+                    "description": "Weapon Attack Damage Bonus"
+                }
+            }
+        },
+        "Warhammer of the Dwarf Lords (Wielded by a Dwarf)": {
+            "description": "<p><em>A boxy hammer with a stout handle and leather throwing strap. It hums with a baritone resonance when spun.</em></p><p><strong>Bonus.</strong> +1 warhammer. +2 if wielded by a dwarf.</p><p><strong>Benefit.</strong> This weapon has the thrown property (pg. 37) to a near distance. It always returns to your hand after being thrown.<br>Your attacks with this weapon deal double damage against giants.</p>",
+            "name": "Warhammer of the Dwarf Lords (Wielded by a Dwarf)",
+            "system.identification.name": "Identified Name",
+            "effects": {
+                "Weapon Attack Roll Bonus": {
+                    "name": "Weapon Attack Roll Bonus",
+                    "description": "Weapon Attack Roll Bonus"
+                },
+                "Weapon Attack Damage Bonus": {
+                    "name": "Weapon Attack Damage Bonus",
+                    "description": "Weapon Attack Damage Bonus"
+                },
+                "Double Damage vs Giants": {
+                    "name": "Double Damage vs Giants",
+                    "description": "Double Damage vs Giants"
+                }
+            }
+        },
+        "Well of Many Worlds": {
+            "description": "<p><em>A dark circle of cloth that seems to create a tunnel through the surface it lies upon.</em></p><p><strong>Benefit.</strong> The Well of Many Worlds folds open on a flat surface into a 6-foot wide hole. Creatures can jump into the hole once per day each to be transported to a random plane of existence.</p>",
+            "name": "Well of Many Worlds",
+            "system.identification.name": "Identified Name"
+        },
+        "WhT5yrk9W2vCWs6X": {
+            "name": "Weapon Attack Roll Bonus"
+        },
+        "Wraith Chain": {
+            "description": "<p><em>A chainmail shirt of black, mithral links that trails a long cloak of writhing shadows.</em></p><p><strong>Bonus.</strong> +1 mithral chainmail.</p><p><strong>Benefit.</strong> Once per day, you may cause an attack that hits you to miss instead.</p>",
+            "name": "Wraith Chain",
+            "system.identification.name": "Identified Name"
+        },
+        "yMBdo0WUxtzRzji9": {
+            "name": "Weapon Attack Roll Bonus"
+        },
+        "yQZ0cvsfdvrSTM4o": {
+            "name": "Ranged Damage Bonus"
+        },
+        "yrS7j3rhCRynCLL6": {
+            "name": "Ranged Damage Bonus"
+        },
+        "Z4UACwRTky38K63x": {
+            "name": "Weapon Attack Roll Bonus"
+        },
+        "ZDqSlow0fxMp6JOf": {
+            "name": "Weapon Attack Damage Bonus"
+        },
+        "zrPgEyvt0Qpp6rca": {
+            "name": "Permanent Ability (Con)"
+        }
+    }
+}

@@ -1,0 +1,989 @@
+{
+    "label": "Spell Effects",
+    "mapping": {
+        "description": "system.description",
+        "effects": {
+            "path": "effects",
+            "converter": "document",
+            "documentType": "ActiveEffect",
+            "cardinality": "many",
+            "mapping": {
+                "name": "name",
+                "description": "description"
+            }
+        },
+        "name": "name"
+    },
+    "entries": {
+        "441BBv90QacBfojj": {
+            "name": "Cloak of Night"
+        },
+        "6sDtwzG4ddaew8SZ": {
+            "name": "Paralyzed"
+        },
+        "AC Bonus": {
+            "name": "AC Bonus"
+        },
+        "Acid Arrow": {
+            "name": "Acid Arrow"
+        },
+        "Alter Self": {
+            "name": "Alter Self"
+        },
+        "Anima": {
+            "name": "Anima"
+        },
+        "Asleep": {
+            "name": "Asleep"
+        },
+        "Barkskin": {
+            "name": "Barkskin"
+        },
+        "Barkskin (Critical)": {
+            "name": "Barkskin (Critical)"
+        },
+        "Berserk": {
+            "name": "Berserk"
+        },
+        "Blind": {
+            "name": "Blind"
+        },
+        "Breath": {
+            "name": "Breath"
+        },
+        "Broomstick": {
+            "name": "Broomstick"
+        },
+        "Cast Out": {
+            "name": "Cast Out"
+        },
+        "Cat's Eye": {
+            "name": "Cat's Eye"
+        },
+        "Chanting": {
+            "name": "Chanting"
+        },
+        "Charmed": {
+            "name": "Charmed"
+        },
+        "Cleansing Weapon": {
+            "name": "Cleansing Weapon"
+        },
+        "Commanded": {
+            "name": "Commanded"
+        },
+        "Confused": {
+            "name": "Confused"
+        },
+        "Controlled": {
+            "name": "Controlled"
+        },
+        "Deaf": {
+            "name": "Deaf"
+        },
+        "Detecting Magic": {
+            "name": "Detecting Magic"
+        },
+        "Dire Wolf": {
+            "name": "Dire Wolf"
+        },
+        "Divine Vengeance": {
+            "name": "Divine Vengeance"
+        },
+        "Enchanted": {
+            "name": "Enchanted"
+        },
+        "Envenomed": {
+            "name": "Envenomed"
+        },
+        "Eyebit": {
+            "name": "Eyebit"
+        },
+        "Feeble (CHA)": {
+            "name": "Feeble (CHA)"
+        },
+        "Feeble (CON)": {
+            "name": "Feeble (CON)"
+        },
+        "Feeble (DEX)": {
+            "name": "Feeble (DEX)"
+        },
+        "Feeble (INT)": {
+            "name": "Feeble (INT)"
+        },
+        "Feeble (STR)": {
+            "name": "Feeble (STR)"
+        },
+        "Feeble (WIS)": {
+            "name": "Feeble (WIS)"
+        },
+        "Floating": {
+            "name": "Floating"
+        },
+        "Floating disk": {
+            "name": "Floating disk"
+        },
+        "Flying": {
+            "name": "Flying"
+        },
+        "Fragile": {
+            "name": "Fragile"
+        },
+        "Freya's Omen": {
+            "name": "Freya's Omen"
+        },
+        "Gaseous": {
+            "name": "Gaseous"
+        },
+        "gyGa1ckOLwWnF86M": {
+            "name": "Mage Armor"
+        },
+        "Hallucinating": {
+            "name": "Hallucinating"
+        },
+        "Holding Portal": {
+            "name": "Holding Portal"
+        },
+        "Holy Weapon": {
+            "name": "Holy Weapon"
+        },
+        "Hypnotized": {
+            "name": "Hypnotized"
+        },
+        "Instill": {
+            "name": "Instill"
+        },
+        "Invisible": {
+            "name": "Invisible"
+        },
+        "JiT09XfIkqCuIOiD": {
+            "name": "Stoneskin"
+        },
+        "Laughing": {
+            "name": "Laughing"
+        },
+        "Locusts": {
+            "name": "Locusts"
+        },
+        "LTmspz6ojZ8MtHnL": {
+            "name": "Cloak of Night"
+        },
+        "Magnetize": {
+            "name": "Magnetize"
+        },
+        "Mirror Image": {
+            "name": "Mirror Image"
+        },
+        "Oak, Ash, Thorn": {
+            "name": "Oak, Ash, Thorn"
+        },
+        "Odin's Wisdom": {
+            "name": "Odin's Wisdom"
+        },
+        "Pin Doll": {
+            "name": "Pin Doll"
+        },
+        "Polymorphed": {
+            "name": "Polymorphed"
+        },
+        "Protection from Cold": {
+            "name": "Protection from Cold"
+        },
+        "Protection from Electricity": {
+            "name": "Protection from Electricity"
+        },
+        "Protection From Evil": {
+            "name": "Protection From Evil"
+        },
+        "Protection from Fire": {
+            "name": "Protection from Fire"
+        },
+        "pTKFUJ3czAqssXCu": {
+            "name": "Turned"
+        },
+        "Puppeted": {
+            "name": "Puppeted"
+        },
+        "QXmMqpV6wqoS6fd5": {
+            "name": "Paralyzed"
+        },
+        "Raging": {
+            "name": "Raging"
+        },
+        "Reviled": {
+            "name": "Reviled"
+        },
+        "Shapechanged": {
+            "name": "Shapechanged"
+        },
+        "Soulbound": {
+            "name": "Soulbound"
+        },
+        "Spell Effect: Acid Arrow": {
+            "description": "<p>Deals [[/r 1d6]] damage a round. The bolt remains in the target for as long as you focus.</p>",
+            "name": "Spell Effect: Acid Arrow",
+            "effects": {
+                "Acid Arrow": {
+                    "name": "Acid Arrow"
+                }
+            }
+        },
+        "Spell Effect: Alter Self": {
+            "name": "Spell Effect: Alter Self",
+            "effects": {
+                "Alter Self": {
+                    "name": "Alter Self"
+                }
+            }
+        },
+        "Spell Effect: Anathema": {
+            "description": "<p>Enchanted with another creature.</p><p>Each time one of the affected creatures takes damage, it may make a [[check 15 cha]] check. On a success, the spell ends.</p>",
+            "name": "Spell Effect: Anathema",
+            "effects": {
+                "Reviled": {
+                    "name": "Reviled"
+                }
+            }
+        },
+        "Spell Effect: Anima": {
+            "name": "Spell Effect: Anima",
+            "effects": {
+                "Anima": {
+                    "name": "Anima"
+                }
+            }
+        },
+        "Spell Effect: Barkskin": {
+            "description": "<p>Your skin hardens into tough tree bark. Your AC becomes 14 (18 on a critical spellcasting check) for the spell's duration.</p><p>You take double damage from fire while you are under the spell's effects.</p>",
+            "name": "Spell Effect: Barkskin",
+            "effects": {
+                "Barkskin": {
+                    "name": "Barkskin"
+                }
+            }
+        },
+        "Spell Effect: Barkskin (Critical)": {
+            "description": "<p>Your skin hardens into tough tree bark. Your AC becomes 14 (18 on a critical spellcasting check) for the spell's duration.</p><p>You take double damage from fire while you are under the spell's effects.</p>",
+            "name": "Spell Effect: Barkskin (Critical)",
+            "effects": {
+                "Barkskin (Critical)": {
+                    "name": "Barkskin (Critical)"
+                }
+            }
+        },
+        "Spell Effect: Befriend": {
+            "name": "Spell Effect: Befriend"
+        },
+        "Spell Effect: Berserk": {
+            "description": "<p>Immune to damage for 3 rounds</p>",
+            "name": "Spell Effect: Berserk",
+            "effects": {
+                "Berserk": {
+                    "name": "Berserk"
+                }
+            }
+        },
+        "Spell Effect: Blind": {
+            "description": "<p>The creature is blind and has disadvantage on tasks requiring sight.</p>",
+            "name": "Spell Effect: Blind",
+            "effects": {
+                "Blind": {
+                    "name": "Blind"
+                }
+            }
+        },
+        "Spell Effect: Bogboil": {
+            "description": "<p>A creature stuck in the web can’t move and must succeed on a Strength check opposed by the caster’s spellcasting check to free itself.</p>",
+            "name": "Spell Effect: Bogboil",
+            "effects": {
+                "Stuck": {
+                    "name": "Stuck"
+                }
+            }
+        },
+        "Spell Effect: Breath": {
+            "description": "<p>You can hold your breath for the spell's duration.</p>",
+            "name": "Spell Effect: Breath",
+            "effects": {
+                "Breath": {
+                    "name": "Breath"
+                }
+            }
+        },
+        "Spell Effect: Broomstick": {
+            "description": "<p>The broomstick's rider can fly a near distance each round and can hover in place.</p>",
+            "name": "Spell Effect: Broomstick",
+            "effects": {
+                "Broomstick": {
+                    "name": "Broomstick"
+                }
+            }
+        },
+        "Spell Effect: Cacklerot": {
+            "description": "<p>Collapsed helplessly with disturbing, pained laughter for the spell's duration.</p>",
+            "name": "Spell Effect: Cacklerot",
+            "effects": {
+                "Laughing": {
+                    "name": "Laughing"
+                }
+            }
+        },
+        "Spell Effect: Cast Out": {
+            "description": "<p>For the spell's duration, that creature can't come within near range of you. It can still attack you from outside of near range.</p>",
+            "name": "Spell Effect: Cast Out",
+            "effects": {
+                "Cast Out": {
+                    "name": "Cast Out"
+                }
+            }
+        },
+        "Spell Effect: Cat's Eye": {
+            "description": "<p>You can see invisible creatures and secret doors for the spell's duration.</p>",
+            "name": "Spell Effect: Cat's Eye",
+            "effects": {
+                "Cat's Eye": {
+                    "name": "Cat's Eye"
+                }
+            }
+        },
+        "Spell Effect: Chant": {
+            "description": "<p>For the spell's duration, you can see all invisible and hidden things as though they were plainly visible. This spell does not allow you to see in a way that you could not normally, such as in darkness or through walls.</p>",
+            "name": "Spell Effect: Chant",
+            "effects": {
+                "Chanting": {
+                    "name": "Chanting"
+                }
+            }
+        },
+        "Spell Effect: Charm Person": {
+            "description": "<p>The humanoid regards the caster as a friend for the duration.<br class=\"Apple-interchange-newline\">The effect ends if you or your allies do anything harmful to the target.</p>",
+            "name": "Spell Effect: Charm Person",
+            "effects": {
+                "Charmed": {
+                    "name": "Charmed"
+                }
+            }
+        },
+        "Spell Effect: Cleansing Weapon": {
+            "description": "<p>One weapon you touch is wreathed in purifying flames. It deals an additional [[/r 1d4]] damage ([[/r 1d6]] vs. undead) for the duration.</p>",
+            "name": "Spell Effect: Cleansing Weapon",
+            "effects": {
+                "Cleansing Weapon": {
+                    "name": "Cleansing Weapon"
+                }
+            }
+        },
+        "Spell Effect: Cloak of Night": {
+            "description": "<p>For the spell's duration, your armor class becomes 17 (20 on a critical spellcasting check).</p><p>You have advantage on Dexterity checks to sneak and hide for the spell's duration.</p>",
+            "name": "Spell Effect: Cloak of Night",
+            "effects": {
+                "Cloak of Night": {
+                    "name": "Cloak of Night"
+                }
+            }
+        },
+        "Spell Effect: Cloak of Night (Critical)": {
+            "description": "<p>For the spell's duration, your armor class becomes 17 (20 on a critical spellcasting check).</p><p>You have advantage on Dexterity checks to sneak and hide for the spell's duration.</p>",
+            "name": "Spell Effect: Cloak of Night (Critical)",
+            "effects": {
+                "Cloak of Night": {
+                    "name": "Cloak of Night"
+                }
+            }
+        },
+        "Spell Effect: Command": {
+            "description": "<p>The target obeys the command for as long as you focus.</p><p>If your command is ever directly harmful to the creature, it may make a Charisma check vs. your last spellcasting check. On a success, the spell ends.</p>",
+            "name": "Spell Effect: Command",
+            "effects": {
+                "Commanded": {
+                    "name": "Commanded"
+                }
+            }
+        },
+        "Spell Effect: Confusion": {
+            "description": "<p>The target can't take actions, and it moves in a random direction on its turn. If the target is LV 9+, it may make a WIS check vs. your last spellcasting check at the start of its turn to end the spell.</p>",
+            "name": "Spell Effect: Confusion",
+            "effects": {
+                "Confused": {
+                    "name": "Confused"
+                }
+            }
+        },
+        "Spell Effect: Deaf": {
+            "name": "Spell Effect: Deaf",
+            "effects": {
+                "Deaf": {
+                    "name": "Deaf"
+                }
+            }
+        },
+        "Spell Effect: Detect Magic": {
+            "description": "<p>You can sense the presence of magic within near range for the spell's duration. If you focus for two rounds, you discern its general properties. Full barriers block this spell.</p>",
+            "name": "Spell Effect: Detect Magic",
+            "effects": {
+                "Detecting Magic": {
+                    "name": "Detecting Magic"
+                }
+            }
+        },
+        "Spell Effect: Divine Vengeance": {
+            "description": "<p>For the spell's duration, you can fly a near distance, your weapons are magical, and you have a +4 bonus to your weapon attacks and damage.</p>",
+            "name": "Spell Effect: Divine Vengeance",
+            "effects": {
+                "Divine Vengeance": {
+                    "name": "Divine Vengeance"
+                }
+            }
+        },
+        "Spell Effect: Enfeeble (CHA)": {
+            "name": "Spell Effect: Enfeeble (CHA)",
+            "effects": {
+                "Feeble (CHA)": {
+                    "name": "Feeble (CHA)"
+                }
+            }
+        },
+        "Spell Effect: Enfeeble (CON)": {
+            "name": "Spell Effect: Enfeeble (CON)",
+            "effects": {
+                "Feeble (CON)": {
+                    "name": "Feeble (CON)"
+                }
+            }
+        },
+        "Spell Effect: Enfeeble (DEX)": {
+            "name": "Spell Effect: Enfeeble (DEX)",
+            "effects": {
+                "Feeble (DEX)": {
+                    "name": "Feeble (DEX)"
+                }
+            }
+        },
+        "Spell Effect: Enfeeble (INT)": {
+            "name": "Spell Effect: Enfeeble (INT)",
+            "effects": {
+                "Feeble (INT)": {
+                    "name": "Feeble (INT)"
+                }
+            }
+        },
+        "Spell Effect: Enfeeble (STR)": {
+            "name": "Spell Effect: Enfeeble (STR)",
+            "effects": {
+                "Feeble (STR)": {
+                    "name": "Feeble (STR)"
+                }
+            }
+        },
+        "Spell Effect: Enfeeble (WIS)": {
+            "name": "Spell Effect: Enfeeble (WIS)",
+            "effects": {
+                "Feeble (WIS)": {
+                    "name": "Feeble (WIS)"
+                }
+            }
+        },
+        "Spell Effect: Evoke Rage": {
+            "description": "<p>The target is immune to morale checks, has ADV on STR checks and melee attacks, and deals +1d4 damage for the spell's duration.</p><p>If the target does not attack another creature on its turn, the spell ends.</p>",
+            "name": "Spell Effect: Evoke Rage",
+            "effects": {
+                "Raging": {
+                    "name": "Raging"
+                }
+            }
+        },
+        "Spell Effect: Eyebite": {
+            "description": "<p>Target can't see you until the end of its next turn.</p>",
+            "name": "Spell Effect: Eyebite",
+            "effects": {
+                "Eyebit": {
+                    "name": "Eyebit"
+                }
+            }
+        },
+        "Spell Effect: Floating Disk": {
+            "name": "Spell Effect: Floating Disk",
+            "effects": {
+                "Floating disk": {
+                    "name": "Floating disk"
+                }
+            }
+        },
+        "Spell Effect: Fly": {
+            "description": "<p>You can fly near for the spell's duration and are able to hover in place.</p>",
+            "name": "Spell Effect: Fly",
+            "effects": {
+                "Flying": {
+                    "name": "Flying"
+                }
+            }
+        },
+        "Spell Effect: Freya's Omen": {
+            "description": "<p>For the spell's duration, you do not lose the ability to cast a spell if you fail its spellcasting check.</p><p>If you critically fail a spellcasting check, you may reroll your check once. You must use the new result.</p>",
+            "name": "Spell Effect: Freya's Omen",
+            "effects": {
+                "Freya's Omen": {
+                    "name": "Freya's Omen"
+                }
+            }
+        },
+        "Spell Effect: Gaseous Form": {
+            "description": "<p>You and your gear turn into a cloud of smoke for the spell's duration.</p><p>You can fly and pass through any gap that smoke could. You can sense the terrain and any movement around you out to a near distance.</p><p>You can't cast spells while in this form.</p>",
+            "name": "Spell Effect: Gaseous Form",
+            "effects": {
+                "Gaseous": {
+                    "name": "Gaseous"
+                }
+            }
+        },
+        "Spell Effect: Glassbones": {
+            "description": "<p>Takes double damage for the spell's duration.</p>",
+            "name": "Spell Effect: Glassbones",
+            "effects": {
+                "Fragile": {
+                    "name": "Fragile"
+                }
+            }
+        },
+        "Spell Effect: Hallucinate": {
+            "description": "<p>For the spell's duration, the target cannot act on its turn unless it passes a Wisdom check equal to your last spellcasting check.</p>",
+            "name": "Spell Effect: Hallucinate",
+            "effects": {
+                "Hallucinating": {
+                    "name": "Hallucinating"
+                }
+            }
+        },
+        "Spell Effect: Hold Monster": {
+            "description": "<p>If the target is LV 9+, it may make a STR check vs. your last spellcasting check at the start of its turn to end the spell.</p>",
+            "name": "Spell Effect: Hold Monster",
+            "effects": {
+                "Paralyzed": {
+                    "name": "Paralyzed"
+                }
+            }
+        },
+        "Spell Effect: Hold Person": {
+            "name": "Spell Effect: Hold Person",
+            "effects": {
+                "Paralyzed": {
+                    "name": "Paralyzed"
+                }
+            }
+        },
+        "Spell Effect: Hold Portal": {
+            "name": "Spell Effect: Hold Portal",
+            "effects": {
+                "Holding Portal": {
+                    "name": "Holding Portal"
+                }
+            }
+        },
+        "Spell Effect: Holy Weapon": {
+            "name": "Spell Effect: Holy Weapon",
+            "effects": {
+                "Holy Weapon": {
+                    "name": "Holy Weapon",
+                    "description": "<p>The weapon becomes magical and has +1 to attack and damage rolls for the duration.</p>"
+                },
+                "Weapon Attack Damage Bonus": {
+                    "name": "Weapon Attack Damage Bonus"
+                },
+                "Weapon Attack Roll Bonus": {
+                    "name": "Weapon Attack Roll Bonus"
+                }
+            }
+        },
+        "Spell Effect: Hypnotize": {
+            "description": "<p>The target can't take actions, and it moves in a random direction on its turn. If the target is LV 9+, it may make a WIS check vs. your last spellcasting check at the start of its turn to end the spell.</p>",
+            "name": "Spell Effect: Hypnotize",
+            "effects": {
+                "Hypnotized": {
+                    "name": "Hypnotized"
+                }
+            }
+        },
+        "Spell Effect: Instill": {
+            "description": "<p>One weapon you wield is imbued with life force. It becomes a +1 weapon for the spell's duration.</p><p>If the weapon is a staff, it deals d6 damage instead of d4.</p>",
+            "name": "Spell Effect: Instill",
+            "effects": {
+                "Instill": {
+                    "name": "Instill"
+                }
+            }
+        },
+        "Spell Effect: Invisibility": {
+            "name": "Spell Effect: Invisibility",
+            "effects": {
+                "Invisible": {
+                    "name": "Invisible"
+                }
+            }
+        },
+        "Spell Effect: Levitate": {
+            "name": "Spell Effect: Levitate",
+            "effects": {
+                "Floating": {
+                    "name": "Floating"
+                }
+            }
+        },
+        "Spell Effect: Locusts": {
+            "description": "<p>A disorienting cloud of angry, biting locusts fills an area around you out to near.</p><p>The cloud moves with you as you move. You are not affected by it.</p><p>Creatures in the area of affect take [[/r 1d10]] damage per round at the start of their turn. They must pass a CON check equal to your last spellcasting check or be unable to move on their turn.</p>",
+            "name": "Spell Effect: Locusts",
+            "effects": {
+                "Locusts": {
+                    "name": "Locusts"
+                }
+            }
+        },
+        "Spell Effect: Mage Armor": {
+            "name": "Spell Effect: Mage Armor",
+            "effects": {
+                "Mage Armor": {
+                    "name": "Mage Armor"
+                }
+            }
+        },
+        "Spell Effect: Mage Armor (Critical)": {
+            "name": "Spell Effect: Mage Armor (Critical)",
+            "effects": {
+                "Mage Armor": {
+                    "name": "Mage Armor"
+                }
+            }
+        },
+        "Spell Effect: Magnetize": {
+            "description": "<p>One object you touch up to the size of a horse becomes powerfully magnetized.</p><p>It attracts all smaller magnetic objects within near.</p><p>If it can move, it is pulled toward larger magnetic objects within near. A metal creature must pass a STR check equal to your spellcasting check to resist.</p>",
+            "name": "Spell Effect: Magnetize",
+            "effects": {
+                "Magnetize": {
+                    "name": "Magnetize"
+                }
+            }
+        },
+        "Spell Effect: Mirror Image": {
+            "name": "Spell Effect: Mirror Image",
+            "effects": {
+                "Mirror Image": {
+                    "name": "Mirror Image"
+                }
+            }
+        },
+        "Spell Effect: Mistletoe": {
+            "description": "<p>Enchanted with another creature.</p><p>Each time one of the affected creatures takes damage, it may make a [[check 15 cha]] check. On a success, the spell ends.</p>",
+            "name": "Spell Effect: Mistletoe",
+            "effects": {
+                "Enchanted": {
+                    "name": "Enchanted"
+                }
+            }
+        },
+        "Spell Effect: Oak, Ash, Thorn": {
+            "description": "<p>For the spell’s duration, faeries, demons, and devils can't attack you. These beings also can’t possess, compel, or beguile you.</p>",
+            "name": "Spell Effect: Oak, Ash, Thorn",
+            "effects": {
+                "Oak, Ash, Thorn": {
+                    "name": "Oak, Ash, Thorn"
+                }
+            }
+        },
+        "Spell Effect: Odin's Wisdom": {
+            "description": "<p>For the spell's duration, add your level as an additional bonus to your Wisdom checks and spellcasting checks.</p>",
+            "name": "Spell Effect: Odin's Wisdom",
+            "effects": {
+                "Odin's Wisdom": {
+                    "name": "Odin's Wisdom"
+                }
+            }
+        },
+        "Spell Effect: Pillar of Salt": {
+            "description": "<p>If you successfully focus on this spell for 3 rounds in a row, the transformation becomes permanent.</p>",
+            "name": "Spell Effect: Pillar of Salt",
+            "effects": {
+                "Turned to Salt": {
+                    "name": "Turned to Salt"
+                }
+            }
+        },
+        "Spell Effect: Pin Doll": {
+            "description": "<p>On your turn while focusing on this spell, you can push a pin into the doll. Each time you do this, the creature who the hair or flesh belonged to takes [[/r 2d6]] damage.</p>",
+            "name": "Spell Effect: Pin Doll",
+            "effects": {
+                "Pin Doll": {
+                    "name": "Pin Doll"
+                }
+            }
+        },
+        "Spell Effect: Polymorph": {
+            "description": "<p>Target is transformed into another natural creature you choose of equal or smaller size. Any gear the target carries melds into its new form.</p><p>The target gains the creature's physical statistics, but it retains its non-physical statistics.</p><p>If the target goes to 0 hit points, it reverts to its true form at half its prior hit points.</p>",
+            "name": "Spell Effect: Polymorph",
+            "effects": {
+                "Polymorphed": {
+                    "name": "Polymorphed"
+                }
+            }
+        },
+        "Spell Effect: Protection from Energy (Cold)": {
+            "description": "<p>For the spell's duration, the target is immune to harm from cold.</p>",
+            "name": "Spell Effect: Protection from Energy (Cold)",
+            "effects": {
+                "Protection from Cold": {
+                    "name": "Protection from Cold"
+                }
+            }
+        },
+        "Spell Effect: Protection from Energy (Electricity)": {
+            "description": "<p>For the spell's duration, the target is immune to harm from electricity.</p>",
+            "name": "Spell Effect: Protection from Energy (Electricity)",
+            "effects": {
+                "Protection from Electricity": {
+                    "name": "Protection from Electricity"
+                }
+            }
+        },
+        "Spell Effect: Protection from Energy (Fire)": {
+            "description": "<p>For the spell's duration, the target is immune to harm from fire.</p>",
+            "name": "Spell Effect: Protection from Energy (Fire)",
+            "effects": {
+                "Protection from Fire": {
+                    "name": "Protection from Fire"
+                }
+            }
+        },
+        "Spell Effect: Protection From Evil": {
+            "description": "<p>Chaotic beings have disadvantage on attack rolls and hostile spellcasting checks against the target. These beings also can’t possess, compel, or beguile it.</p>",
+            "name": "Spell Effect: Protection From Evil",
+            "effects": {
+                "Protection From Evil": {
+                    "name": "Protection From Evil"
+                }
+            }
+        },
+        "Spell Effect: Puppet": {
+            "description": "<p>On your turn, the creature mimics all your movements.</p><p>If mimicking you would cause the creature to directly harm itself or an ally, it can make a [[check 15 cha]] check. On a success, it resists mimicking you.</p>",
+            "name": "Spell Effect: Puppet",
+            "effects": {
+                "Puppeted": {
+                    "name": "Puppeted"
+                }
+            }
+        },
+        "Spell Effect: Rebuke Unholy": {
+            "description": "<p>Creature flees from you for 5 rounds.</p>",
+            "name": "Spell Effect: Rebuke Unholy",
+            "effects": {
+                "Turned": {
+                    "name": "Turned"
+                }
+            }
+        },
+        "Spell Effect: Shapechanger": {
+            "description": "<p>You transform yourself and any gear you carry into another natural creature you've seen of level 10 or less. You assume the creature's physical statistics, but you retain your non-physical statistics (such as INT, WIS, and CHA).</p><p>If you go to 0 HP while under the effects of this spell, you revert to your true form at 1 HP.</p>",
+            "name": "Spell Effect: Shapechanger",
+            "effects": {
+                "Shapechanged": {
+                    "name": "Shapechanged"
+                }
+            }
+        },
+        "Spell Effect: Shield of Faith": {
+            "name": "Spell Effect: Shield of Faith",
+            "effects": {
+                "AC Bonus": {
+                    "name": "AC Bonus"
+                }
+            }
+        },
+        "Spell Effect: Sleep": {
+            "description": "<p>Injury or vigorous shaking wakes the creature.</p>",
+            "name": "Spell Effect: Sleep",
+            "effects": {
+                "Asleep": {
+                    "name": "Asleep"
+                }
+            }
+        },
+        "Spell Effect: Soulbind": {
+            "description": "<p>For the spell's duration, all other spells targeting the creature (harmful or helpful) are DC 18 to cast.</p><p>This spell ends as soon as the target is affected by another spell.</p>",
+            "name": "Spell Effect: Soulbind",
+            "effects": {
+                "Soulbound": {
+                    "name": "Soulbound"
+                }
+            }
+        },
+        "Spell Effect: Spidersilk": {
+            "description": "<p>For the spell's duration, you can walk on vertical surfaces as easily as if it were flat ground.</p>",
+            "name": "Spell Effect: Spidersilk",
+            "effects": {
+                "Spidersilk": {
+                    "name": "Spidersilk"
+                }
+            }
+        },
+        "Spell Effect: Stoneskin": {
+            "name": "Spell Effect: Stoneskin",
+            "effects": {
+                "Stoneskin": {
+                    "name": "Stoneskin"
+                }
+            }
+        },
+        "Spell Effect: Stoneskin (Critical)": {
+            "name": "Spell Effect: Stoneskin (Critical)",
+            "effects": {
+                "Stoneskin": {
+                    "name": "Stoneskin"
+                }
+            }
+        },
+        "Spell Effect: Summon Storm": {
+            "description": "<p>You summon a violent storm that affects an area around you out to one mile for the duration.</p><p>The storm brings darkened skies, severe wind, and driving rain.</p><p>For the duration of the spell, you can cast control water (Shadowdark RPG pg. 57), even if you do not know the spell.</p><p>For the duration of the spell, you can cast lightning bolt (Shadowdark RPG pg. 64), even if you do not know the spell.</p><p>@UUID[Compendium.shadowdark.spells.Item.TKDuwFu1hP2lX549]{Control Water}</p><p>@UUID[Compendium.shadowdark.spells.Item.7uTblEDfklCO1et7]{Lightning Bolt}</p>",
+            "name": "Spell Effect: Summon Storm",
+            "effects": {
+                "Summon Storm": {
+                    "name": "Summon Storm"
+                }
+            }
+        },
+        "Spell Effect: Treeshape": {
+            "description": "<p>You and your gear turn into a treant with the below stats for the spell's duration.</p><p>You do not have the treant's Animate Tree talent.</p><p>You cannot cast spells while under the effect of this spell.</p><p>You retain your INT, WIS, and CHA stats.</p><p><strong>AC</strong> 14, <strong>HP</strong> 38, <strong>ATK</strong> 2 slam +8 (1d12) or 1 rock (far) +8 (2d6), <strong>MV</strong> near, <strong>S</strong> +4, <strong>D</strong> -1, <strong>C</strong> +2, <strong>I</strong> *, <strong>W</strong> *, <strong>Ch</strong> *, <strong>AL</strong> N, <strong>LV</strong> 8</p>",
+            "name": "Spell Effect: Treeshape",
+            "effects": {
+                "Treeshape": {
+                    "name": "Treeshape"
+                }
+            }
+        },
+        "Spell Effect: Turn Undead": {
+            "description": "<p>Creature flees from you for 5 rounds.</p>",
+            "name": "Spell Effect: Turn Undead",
+            "effects": {
+                "Turned": {
+                    "name": "Turned"
+                }
+            }
+        },
+        "Spell Effect: Void Stare": {
+            "description": "<p>Under your control. You decide its actions during its turn.</p>",
+            "name": "Spell Effect: Void Stare",
+            "effects": {
+                "Controlled": {
+                    "name": "Controlled"
+                }
+            }
+        },
+        "Spell Effect: Web": {
+            "description": "<p>A creature stuck in the web can’t move and must succeed on a Strength check opposed by the casters spellcasting check to free itself.</p>",
+            "name": "Spell Effect: Web",
+            "effects": {
+                "Stuck": {
+                    "name": "Stuck"
+                }
+            }
+        },
+        "Spell Effect: Wolfshape (Dire Wolf)": {
+            "description": "<p><strong>Dire Wolf</strong></p><p><strong>AC</strong> 12, <strong>HP</strong> 19, <strong>ATK</strong> 2 bite [[/r 1d20+4]] ([[/r 1d8]]), <strong>MV</strong> double near, <strong>S</strong> +3, <strong>D</strong> +2, <strong>C</strong> +1</p><p><strong>Pack Hunter.</strong> Deals +1 damage while an ally is close.</p><p>You assume the wolf's STR, DEX, CON, HP, AC, speed, attacks, and physical characteristics, but retain your INT, WIS, and CHA.</p><p>You can cast spells in this form. If you go to 0 HP, you revert to your true shape at 0 HP.</p>",
+            "name": "Spell Effect: Wolfshape (Dire Wolf)",
+            "effects": {
+                "Dire Wolf": {
+                    "name": "Dire Wolf"
+                }
+            }
+        },
+        "Spell Effect: Wolfshape (Winter Wolf)": {
+            "description": "<p><strong>Winter Wolf</strong></p><p><strong>AC</strong> 12, <strong>HP</strong> 23, <strong>ATK</strong> 2 bite [[/r 1d20+4]] ([[/r 1d6]]) or 1 frost breath, <strong>MV</strong> double near, <strong>S</strong> +3, <strong>D</strong> +2, <strong>C</strong> +1</p><p><strong>Impervious.</strong> Cold immune.</p><p><strong>Frost Breath.</strong> Fills a near-sized cube extending from winter wolf. [[check 15 dex]] or [[/r 3d8]] damage. Cannot use again for [[/r 1d4]] rounds.</p><p>You assume the wolf's STR, DEX, CON, HP, AC, speed, attacks, and physical characteristics, but retain your INT, WIS, and CHA.</p><p>You can cast spells in this form. If you go to 0 HP, you revert to your true shape at 0 HP.</p>",
+            "name": "Spell Effect: Wolfshape (Winter Wolf)",
+            "effects": {
+                "Winter Wolf": {
+                    "name": "Winter Wolf"
+                }
+            }
+        },
+        "Spell Effect: Wolfshape (Wolf)": {
+            "description": "<p><strong>Wolf</strong></p><p><strong>AC</strong> 12, <strong>HP</strong> 10, <strong>ATK</strong> 1 bite [[/r 1d20+2]] ([[/r 1d6]]), <strong>MV</strong> double near, <strong>S</strong> +2, <strong>D</strong> +2, <strong>C</strong> +1</p><p><strong>Pack Hunter.</strong> Deals +1 damage while an ally is close.</p><p>You assume the wolf's STR, DEX, CON, HP, AC, speed, attacks, and physical characteristics, but retain your INT, WIS, and CHA.</p><p>You can cast spells in this form. If you go to 0 HP, you revert to your true shape at 0 HP.</p>",
+            "name": "Spell Effect: Wolfshape (Wolf)",
+            "effects": {
+                "Wolf": {
+                    "name": "Wolf"
+                }
+            }
+        },
+        "Spell Effect: World Serpent": {
+            "description": "<p>The target deals x2 damage with each attack (x4 on a critical hit) for the spell's duration.</p>",
+            "name": "Spell Effect: World Serpent",
+            "effects": {
+                "Envenomed": {
+                    "name": "Envenomed"
+                }
+            }
+        },
+        "Spell Effect: World Tree": {
+            "description": "<p>For the spell's duration, the target can't be brought below 1 HP.</p>",
+            "name": "Spell Effect: World Tree",
+            "effects": {
+                "World Tree": {
+                    "name": "World Tree"
+                }
+            }
+        },
+        "Spell Effect: Wrath": {
+            "description": "<p>Your weapons become magical +2 and deal an additional d8 damage for the spell's duration.</p>",
+            "name": "Spell Effect: Wrath",
+            "effects": {
+                "Wrath": {
+                    "name": "Wrath"
+                }
+            }
+        },
+        "Spell Effect: Zone of Truth": {
+            "description": "<p>Can’t utter a deliberate lie when within range from source.</p>",
+            "name": "Spell Effect: Zone of Truth",
+            "effects": {
+                "Truthful": {
+                    "name": "Truthful"
+                }
+            }
+        },
+        "Spidersilk": {
+            "name": "Spidersilk"
+        },
+        "Summon Storm": {
+            "name": "Summon Storm"
+        },
+        "Treeshape": {
+            "name": "Treeshape"
+        },
+        "Truthful": {
+            "name": "Truthful"
+        },
+        "Turned to Salt": {
+            "name": "Turned to Salt"
+        },
+        "VHYrzR2yKp3dWr5N": {
+            "name": "Stuck"
+        },
+        "Weapon Attack Damage Bonus": {
+            "name": "Weapon Attack Damage Bonus"
+        },
+        "Weapon Attack Roll Bonus": {
+            "name": "Weapon Attack Roll Bonus"
+        },
+        "Winter Wolf": {
+            "name": "Winter Wolf"
+        },
+        "Wolf": {
+            "name": "Wolf"
+        },
+        "World Tree": {
+            "name": "World Tree"
+        },
+        "Wrath": {
+            "name": "Wrath"
+        },
+        "Z8y5ZzvVyfE2irPi": {
+            "name": "Turned"
+        }
+    }
+}

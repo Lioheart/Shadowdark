@@ -1,0 +1,234 @@
+{
+    "label": "Rollable Tables",
+    "mapping": {
+        "description": "description",
+        "name": "name",
+        "results": {
+            "path": "results",
+            "converter": "tableResults"
+        }
+    },
+    "entries": {
+        "Adventuring Site Name: Name 1": {
+            "name": "Adventuring Site Name: Name 1"
+        },
+        "Adventuring Site Name: Name 2": {
+            "name": "Adventuring Site Name: Name 2"
+        },
+        "Adventuring Site Name: Name 3": {
+            "name": "Adventuring Site Name: Name 3"
+        },
+        "Background": {
+            "description": "<p>Your background knowledge and skills might prove useful during your adventures.</p><p>Work with the GM to determine if your background provides you advantages in a given situation.</p>",
+            "name": "Background"
+        },
+        "Black Lotus Talents": {
+            "description": "<p>You may keep or reroll duplicates</p>",
+            "name": "Black Lotus Talents"
+        },
+        "Character Names: Dwarf": {
+            "name": "Character Names: Dwarf"
+        },
+        "Character Names: Elf": {
+            "name": "Character Names: Elf"
+        },
+        "Character Names: Goblin": {
+            "name": "Character Names: Goblin"
+        },
+        "Character Names: Half-Orc": {
+            "name": "Character Names: Half-Orc"
+        },
+        "Character Names: Halfling": {
+            "name": "Character Names: Halfling"
+        },
+        "Character Names: Human": {
+            "name": "Character Names: Human"
+        },
+        "Character Names: Kobold": {
+            "name": "Character Names: Kobold"
+        },
+        "Class Talents: Bard": {
+            "name": "Class Talents: Bard"
+        },
+        "Class Talents: Basilisk Warrior": {
+            "name": "Class Talents: Basilisk Warrior"
+        },
+        "Class Talents: Desert Rider": {
+            "description": "<p>2 duplicate = reroll</p>",
+            "name": "Class Talents: Desert Rider"
+        },
+        "Class Talents: Fighter": {
+            "name": "Class Talents: Fighter"
+        },
+        "Class Talents: Knight of St. Ydris": {
+            "name": "Class Talents: Knight of St. Ydris"
+        },
+        "Class Talents: Pit Fighter": {
+            "name": "Class Talents: Pit Fighter"
+        },
+        "Class Talents: Priest": {
+            "name": "Class Talents: Priest"
+        },
+        "Class Talents: Ranger": {
+            "name": "Class Talents: Ranger"
+        },
+        "Class Talents: Ras-Godai": {
+            "name": "Class Talents: Ras-Godai"
+        },
+        "Class Talents: Sea Wolf": {
+            "name": "Class Talents: Sea Wolf"
+        },
+        "Class Talents: Seer": {
+            "name": "Class Talents: Seer"
+        },
+        "Class Talents: Thief": {
+            "name": "Class Talents: Thief"
+        },
+        "Class Talents: Warlock": {
+            "name": "Class Talents: Warlock"
+        },
+        "Class Talents: Witch": {
+            "name": "Class Talents: Witch"
+        },
+        "Class Talents: Wizard": {
+            "name": "Class Talents: Wizard",
+            "results": {
+                "12-12": "Learn an additional wizard spell of any tier you know",
+                "dxhv5UKKsR1RCiG4": "Make on random magic item"
+            }
+        },
+        "Distribute to Stats": {
+            "name": "Distribute to Stats"
+        },
+        "Dungeon Names: Name 1": {
+            "name": "Dungeon Names: Name 1"
+        },
+        "Dungeon Names: Name 2": {
+            "name": "Dungeon Names: Name 2"
+        },
+        "Dungeon Names: Name 3": {
+            "name": "Dungeon Names: Name 3"
+        },
+        "Hazard: Damage": {
+            "name": "Hazard: Damage"
+        },
+        "Hazard: Movement": {
+            "name": "Hazard: Movement"
+        },
+        "Hazard: Weaken": {
+            "name": "Hazard: Weaken"
+        },
+        "Magic Item: Name 1": {
+            "name": "Magic Item: Name 1"
+        },
+        "Magic Item: Name 2": {
+            "name": "Magic Item: Name 2"
+        },
+        "Magic Item: Name 3": {
+            "name": "Magic Item: Name 3"
+        },
+        "Oracle": {
+            "name": "Oracle"
+        },
+        "Patron Boons: Almazzat": {
+            "name": "Patron Boons: Almazzat"
+        },
+        "Patron Boons: Kytheros": {
+            "name": "Patron Boons: Kytheros"
+        },
+        "Patron Boons: Mugdulblub": {
+            "name": "Patron Boons: Mugdulblub"
+        },
+        "Patron Boons: Shune the Vile": {
+            "name": "Patron Boons: Shune the Vile"
+        },
+        "Patron Boons: The Willowman": {
+            "name": "Patron Boons: The Willowman"
+        },
+        "Patron Boons: Titania": {
+            "name": "Patron Boons: Titania"
+        },
+        "Prompts: Noun": {
+            "name": "Prompts: Noun"
+        },
+        "Prompts: Verb": {
+            "name": "Prompts: Verb"
+        },
+        "Random Alignment": {
+            "name": "Random Alignment"
+        },
+        "Random Ancestry": {
+            "name": "Random Ancestry"
+        },
+        "Random Class": {
+            "name": "Random Class"
+        },
+        "Random Encounter: Activity": {
+            "name": "Random Encounter: Activity"
+        },
+        "Random Encounter: Distance": {
+            "name": "Random Encounter: Distance"
+        },
+        "Random Encounter: Reaction": {
+            "name": "Random Encounter: Reaction"
+        },
+        "Random Gear": {
+            "name": "Random Gear"
+        },
+        "Random Gear Rolls": {
+            "name": "Random Gear Rolls"
+        },
+        "Roll Random Character": {
+            "description": "<p>- Pick one Weapon (See Weapons compendium) - Pick Leather Armor if you can wear it (See Armor compendium)</p>",
+            "name": "Roll Random Character"
+        },
+        "Ruin Encounters": {
+            "name": "Ruin Encounters"
+        },
+        "Rumors": {
+            "name": "Rumors"
+        },
+        "Something Happens!": {
+            "name": "Something Happens!"
+        },
+        "Starting Gear (Level 0)": {
+            "name": "Starting Gear (Level 0)"
+        },
+        "Starting Gear (Level 0) Rolls": {
+            "name": "Starting Gear (Level 0) Rolls"
+        },
+        "Trap: Damage or Effect": {
+            "name": "Trap: Damage or Effect"
+        },
+        "Trap: Trap": {
+            "name": "Trap: Trap"
+        },
+        "Trap: Trigger": {
+            "name": "Trap: Trigger"
+        },
+        "Treasure 0-3": {
+            "name": "Treasure 0-3"
+        },
+        "Wizard Mishap Tier 1-2": {
+            "name": "Wizard Mishap Tier 1-2"
+        },
+        "Wizard Mishap Tier 3-4": {
+            "name": "Wizard Mishap Tier 3-4"
+        },
+        "Wizard Mishap Tier 5": {
+            "name": "Wizard Mishap Tier 5"
+        }
+    },
+    "folders": {
+        "Adventuring Sites": "Adventuring Sites",
+        "Character Background": "Character Background",
+        "Class Talents": "Class Talents",
+        "Hazards": "Hazards",
+        "Magic Item": "Magic Item",
+        "Names": "Names",
+        "Patron Boons": "Patron Boons",
+        "Random Encounters": "Random Encounters",
+        "SoloDark": "SoloDark",
+        "Traps": "Traps"
+    }
+}

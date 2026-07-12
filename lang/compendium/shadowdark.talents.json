@@ -1,0 +1,988 @@
+{
+    "label": "Talents",
+    "mapping": {
+        "description": "system.description",
+        "effects": {
+            "path": "effects",
+            "converter": "document",
+            "documentType": "ActiveEffect",
+            "cardinality": "many",
+            "mapping": {
+                "name": "name",
+                "description": "description"
+            }
+        },
+        "name": "name"
+    },
+    "entries": {
+        "+1 on Spellcasting Checks": {
+            "name": "+1 on Spellcasting Checks",
+            "effects": {
+                "Spellcasting Check Bonus": {
+                    "name": "Spellcasting Check Bonus"
+                }
+            }
+        },
+        "+1 to AC": {
+            "description": "<p>Gain +1 to your AC through supernatural foresight</p>",
+            "name": "+1 to AC"
+        },
+        "+1 to Charisma": {
+            "name": "+1 to Charisma",
+            "effects": {
+                "Ability Score Improvement (Cha)": {
+                    "name": "Ability Score Improvement (Cha)"
+                }
+            }
+        },
+        "+1 to Constitution": {
+            "name": "+1 to Constitution",
+            "effects": {
+                "Ability Score Improvement (Con)": {
+                    "name": "Ability Score Improvement (Con)"
+                }
+            }
+        },
+        "+1 to Damage": {
+            "name": "+1 to Damage",
+            "effects": {
+                "Melee Damage Bonus": {
+                    "name": "Melee Damage Bonus"
+                },
+                "Ranged Damage Bonus": {
+                    "name": "Ranged Damage Bonus"
+                }
+            }
+        },
+        "+1 to Dexterity": {
+            "name": "+1 to Dexterity",
+            "effects": {
+                "abilityImprovement": {
+                    "name": "abilityImprovement"
+                }
+            }
+        },
+        "+1 to Intelligence": {
+            "name": "+1 to Intelligence",
+            "effects": {
+                "Ability Score Improvement (Int)": {
+                    "name": "Ability Score Improvement (Int)"
+                }
+            }
+        },
+        "+1 to Magical Dabbler Rolls": {
+            "name": "+1 to Magical Dabbler Rolls",
+            "effects": {
+                "Magical Dabbler Bonus": {
+                    "name": "Magical Dabbler Bonus"
+                }
+            }
+        },
+        "+1 to Melee and Ranged Attacks": {
+            "name": "+1 to Melee and Ranged Attacks",
+            "effects": {
+                "Melee Attack Roll Bonus": {
+                    "name": "Melee Attack Roll Bonus"
+                },
+                "Ranged Attack Roll Bonus": {
+                    "name": "Ranged Attack Roll Bonus"
+                }
+            }
+        },
+        "+1 to Melee Attacks": {
+            "name": "+1 to Melee Attacks",
+            "effects": {
+                "Melee Attack Roll Bonus": {
+                    "name": "Melee Attack Roll Bonus"
+                }
+            }
+        },
+        "+1 to Melee Attacks and Damage": {
+            "name": "+1 to Melee Attacks and Damage",
+            "effects": {
+                "Melee Damage Bonus": {
+                    "name": "Melee Damage Bonus"
+                },
+                "Melee Attack Roll Bonus": {
+                    "name": "Melee Attack Roll Bonus"
+                }
+            }
+        },
+        "+1 to Melee Damage": {
+            "name": "+1 to Melee Damage",
+            "effects": {
+                "Melee Damage Bonus": {
+                    "name": "Melee Damage Bonus"
+                }
+            }
+        },
+        "+1 to Ranged Attacks": {
+            "name": "+1 to Ranged Attacks",
+            "effects": {
+                "Ranged Attack Roll Bonus": {
+                    "name": "Ranged Attack Roll Bonus"
+                }
+            }
+        },
+        "+1 to Ranged Attacks and Damage": {
+            "name": "+1 to Ranged Attacks and Damage",
+            "effects": {
+                "Ranged Damage Bonus": {
+                    "name": "Ranged Damage Bonus"
+                },
+                "Ranged Attack Roll Bonus": {
+                    "name": "Ranged Attack Roll Bonus"
+                }
+            }
+        },
+        "+1 to Strength": {
+            "name": "+1 to Strength",
+            "effects": {
+                "Ability Score Improvement (Str)": {
+                    "name": "Ability Score Improvement (Str)"
+                }
+            }
+        },
+        "+1 to Weapon Attacks and Damage": {
+            "name": "+1 to Weapon Attacks and Damage",
+            "effects": {
+                "Weapon Attack Roll Bonus": {
+                    "name": "Weapon Attack Roll Bonus"
+                },
+                "Weapon Attack Damage Bonus": {
+                    "name": "Weapon Attack Damage Bonus"
+                }
+            }
+        },
+        "+1 to Wisdom": {
+            "name": "+1 to Wisdom",
+            "effects": {
+                "Ability Score Improvement (Wis)": {
+                    "name": "Ability Score Improvement (Wis)"
+                }
+            }
+        },
+        "+1 use per day of Petrifying Gaze": {
+            "name": "+1 use per day of Petrifying Gaze"
+        },
+        "+1 XP for Secrets": {
+            "description": "<p>+1 XP whenever you learn a valuable or significant secret (reroll duplicates)</p>",
+            "name": "+1 XP for Secrets"
+        },
+        "+2 to Charisma": {
+            "name": "+2 to Charisma",
+            "effects": {
+                "Ability Score Improvement (Cha)": {
+                    "name": "Ability Score Improvement (Cha)"
+                }
+            }
+        },
+        "+2 to Constitution": {
+            "name": "+2 to Constitution",
+            "effects": {
+                "Ability Score Improvement (Con)": {
+                    "name": "Ability Score Improvement (Con)"
+                }
+            }
+        },
+        "+2 to Dexterity": {
+            "name": "+2 to Dexterity",
+            "effects": {
+                "Ability Score Improvement (Dex)": {
+                    "name": "Ability Score Improvement (Dex)"
+                }
+            }
+        },
+        "+2 to Intelligence": {
+            "name": "+2 to Intelligence",
+            "effects": {
+                "Ability Score Improvement (Int)": {
+                    "name": "Ability Score Improvement (Int)"
+                }
+            }
+        },
+        "+2 to Strength": {
+            "name": "+2 to Strength",
+            "effects": {
+                "Ability Score Improvement (Str)": {
+                    "name": "Ability Score Improvement (Str)"
+                }
+            }
+        },
+        "+2 to Wisdom": {
+            "name": "+2 to Wisdom",
+            "effects": {
+                "Ability Score Improvement (Wis)": {
+                    "name": "Ability Score Improvement (Wis)"
+                }
+            }
+        },
+        "0g9MUhj9Tr3AWRXl": {
+            "name": "Armor Mastery"
+        },
+        "5bpWuaT0KTNzuzCu": {
+            "description": "<p>Choose one type of weapon, such as longswords. You gain +1 to attack and damage with that weapon type. In addition, add half your level to these rolls (round down).</p>",
+            "name": "Weapon Mastery",
+            "effects": {
+                "Weapon Mastery": {
+                    "name": "Weapon Mastery"
+                }
+            }
+        },
+        "71GTV8nPjnyTdFjT": {
+            "name": "Initiative Advantage"
+        },
+        "7ADLFBANMORl70Nm": {
+            "name": "Ability Score Improvement (Int)"
+        },
+        "7JTDRLtHc6FOrIEc": {
+            "description": "<p>Add your Constitution modifier, if positive, to your gear slots.</p>",
+            "name": "Hauler",
+            "effects": {
+                "Hauler": {
+                    "name": "Hauler"
+                }
+            }
+        },
+        "7Rv0ynJ2wKOIJGnw": {
+            "name": "Allow Magic Items"
+        },
+        "8BIQChg1O4MQJ9xV": {
+            "name": "Spell Class"
+        },
+        "A9g8ZeATepsz2xvP": {
+            "name": "Mighty"
+        },
+        "Ability Score Improvement (Dex)": {
+            "name": "Ability Score Improvement (Dex)"
+        },
+        "abilityImprovement": {
+            "name": "abilityImprovement"
+        },
+        "Add Wisdom to Roll": {
+            "description": "<p>3/day, add your Wis bonus to any roll (reroll duplicates)</p>",
+            "name": "Add Wisdom to Roll"
+        },
+        "Additional Backstab Die": {
+            "name": "Additional Backstab Die"
+        },
+        "Additional Black Lotus Talent": {
+            "description": "<p>Roll an additional talent on the @UUID[Compendium.shadowdark.rollable-tables.RollTable.pQAyZAcfrs9JrG0Q]{Black Lotus Talents} table.</p>",
+            "name": "Additional Black Lotus Talent"
+        },
+        "Additional HP": {
+            "description": "<p>You gain an additional hit points die</p>",
+            "name": "Additional HP"
+        },
+        "Additional Omen Use": {
+            "description": "<p>Gain an additional use of your Omen talent each day.</p>",
+            "name": "Additional Omen Use"
+        },
+        "Additional Use of Charge": {
+            "description": "<p>Gain an additional use of your Charge talent each day.</p>",
+            "name": "Additional Use of Charge"
+        },
+        "Additional Use of Smoke Step": {
+            "description": "<p>Gain an additional use of your Smoke Step talent.</p>",
+            "name": "Additional Use of Smoke Step"
+        },
+        "Advantage on Melee Attacks": {
+            "description": "<p>1/day, gain advantage on melee attacks for 3 rounds. </p><p>duplicate = +1 use per day</p>",
+            "name": "Advantage on Melee Attacks"
+        },
+        "aGa3IciSFPQKDtkc": {
+            "name": "Thievery"
+        },
+        "Ambitious": {
+            "description": "<p>You gain one additional talent roll at 1st level.</p>",
+            "name": "Ambitious"
+        },
+        "Avoid Entrapment/Injury": {
+            "description": "<p>You have advantage on Dexterity checks to avoid entrapment or injury</p>",
+            "name": "Avoid Entrapment/Injury"
+        },
+        "Az2fXCwgo5C3x2X7": {
+            "description": "<p>Whenever you use a luck token, add [[/roll 1d6]] to the roll.</p>",
+            "name": "Destined",
+            "effects": {
+                "Destined": {
+                    "name": "Destined",
+                    "description": "<p>Whenever you use a luck token, add 1d6 to the roll.</p>"
+                },
+                "Destined (Dmg)": {
+                    "name": "Destined (Dmg)",
+                    "description": "<p>Whenever you use a luck token, add 1d6 to the roll. Damage.</p>"
+                },
+                "Destined Die": {
+                    "name": "Destined Die"
+                }
+            }
+        },
+        "Backstab +1 Damage Dice": {
+            "description": "<p>Your Backstab deals +1 dice of damage.</p>",
+            "name": "Backstab +1 Damage Dice",
+            "effects": {
+                "Additional Backstab Die": {
+                    "name": "Additional Backstab Die",
+                    "description": "<p>Your Backstab deals +1 dice of damage.</p>"
+                }
+            }
+        },
+        "Bardic Arts": {
+            "description": "<p>You're trained in oration, performing arts, lore, and diplomacy. You have advantage on related checks.</p>",
+            "name": "Bardic Arts"
+        },
+        "Basilisk Blood": {
+            "description": "<p>You have ADV on CON checks to avoid harmful maladies, poisons, or afflictions.</p>",
+            "name": "Basilisk Blood"
+        },
+        "Basilisk Egg": {
+            "description": "<p>You find a @UUID[Compendium.shadowdark.gear.Item.zU6dopKBk3pKS9F9]{Basilisk Egg}; a loyal baby hatches in [[/r 1d4]] days</p>",
+            "name": "Basilisk Egg"
+        },
+        "Beginner's Luck": {
+            "description": "<p>0-level characters can wield all gear until 1st level.</p>",
+            "name": "Beginner's Luck",
+            "effects": {
+                "Allow Magic Items": {
+                    "name": "Allow Magic Items"
+                }
+            }
+        },
+        "Black Lotus": {
+            "description": "<p>You earned the right to eat a petal of the fabled black lotus flower, and you survived its sorcerous effects.</p><p>Roll one talent on the @UUID[Compendium.shadowdark.rollable-tables.RollTable.pQAyZAcfrs9JrG0Q]{Black Lotus Talents} table. You may reroll duplicates or keep them.</p>",
+            "name": "Black Lotus"
+        },
+        "BsRPGhKXYwJBI9ex": {
+            "description": "<p>Choose one kind of armor. You get +1 AC from that armor</p>",
+            "name": "Armor Mastery",
+            "effects": {
+                "Armor Mastery": {
+                    "name": "Armor Mastery"
+                }
+            }
+        },
+        "c7CGt0FBJHv5BtpM": {
+            "name": "Melee Attack Roll Bonus"
+        },
+        "cefeWMKoAqHxuuU1": {
+            "name": "Melee Damage Bonus"
+        },
+        "cGGttIknipaR4UIo": {
+            "name": "+1 AC Dual Wield"
+        },
+        "Charge": {
+            "description": "<p>3/day, you can @UUID[Compendium.shadowdark.class-abilities.Item.Ecajh7eY7lBEHuMv] into combat by moving at least near before attacking. Each time you do this, your melee attacks deal double damage that round.</p>",
+            "name": "Charge"
+        },
+        "CUwCZOHDW1XRT1ce": {
+            "name": "Ability Score Improvement (Con)"
+        },
+        "D12 Weapon Damage Die": {
+            "name": "D12 Weapon Damage Die",
+            "effects": {
+                "Increased Weapon Damage Die": {
+                    "name": "Increased Weapon Damage Die"
+                }
+            }
+        },
+        "Deity": {
+            "description": "<p>Choose a god to serve who matches your alignment (see Deities, pg. 30). You have a holy symbol for your god (it takes up no gear slots).</p>",
+            "name": "Deity"
+        },
+        "dejbAcycqE6ujmcJ": {
+            "name": "Spell Class"
+        },
+        "Demonic Possession": {
+            "description": "<p>@UUID[Compendium.shadowdark.class-abilities.Item.dsFmHTTuERiQePky]{Demonic Possession}</p><p>3/day, gain a +1 bonus to your damage rolls that lasts 3 rounds. In addition, add half your level to the damage bonus (round down).</p>",
+            "name": "Demonic Possession"
+        },
+        "Demonic Possession Bonus": {
+            "description": "<p>Your Demonic Possession bonus increases by 1 point.</p>",
+            "name": "Demonic Possession Bonus"
+        },
+        "Destine Die Upgrade": {
+            "name": "Destine Die Upgrade"
+        },
+        "Destined (Dmg)": {
+            "name": "Destined (Dmg)"
+        },
+        "Destined Die": {
+            "name": "Destined Die"
+        },
+        "Duality": {
+            "description": "<p>Choose two different @UUID[Compendium.shadowdark.talents.Item.A8Siwy6S27LwEkx5]{Old Gods} effects each day</p><p>duplicate = reroll</p>",
+            "name": "Duality"
+        },
+        "E7SwrOhzSAyMZ1Ec": {
+            "name": "Weapon Mastery"
+        },
+        "etJKhGLqpcKvyloB": {
+            "name": "Spellcasting Check Bonus"
+        },
+        "Extra HP Max": {
+            "name": "Extra HP Max"
+        },
+        "Familiar": {
+            "description": "<p>You have a small animal such as a raven, rat, or frog who serves you loyally. It can speak Common. </p><p>Your familiar can be the source of spells you cast. Treat it as though it were you for determining spell ranges. </p><p>If your familiar dies, you can restore it to life by permanently sacrificing 1d4 hit points.</p>",
+            "name": "Familiar"
+        },
+        "Farsight (Ranged)": {
+            "description": "<p>You get a +1 bonus to attack rolls with ranged weapons <strong>or</strong> a +1 bonus to spellcasting checks.</p>",
+            "name": "Farsight (Ranged)",
+            "effects": {
+                "Ranged Attack Roll Bonus": {
+                    "name": "Ranged Attack Roll Bonus"
+                }
+            }
+        },
+        "Farsight (Spell)": {
+            "description": "<p>You get a +1 bonus to attack rolls with ranged weapons <strong>or</strong> a +1 bonus to spellcasting checks.</p>",
+            "name": "Farsight (Spell)",
+            "effects": {
+                "Spellcasting Check Bonus": {
+                    "name": "Spellcasting Check Bonus"
+                }
+            }
+        },
+        "FEdSh6J89u9qZv2w": {
+            "name": "Destined"
+        },
+        "Find a Random Priest or Wizard Wand": {
+            "description": "<p>You find a random priest or wizard wand (you choose)</p>",
+            "name": "Find a Random Priest or Wizard Wand"
+        },
+        "Flourish": {
+            "description": "<p>3/day, regain [[/r 1d6]] hit points when you hit an enemy with a melee attack.</p><p>@UUID[Compendium.shadowdark.class-abilities.Item.6snDwCm38HjvO1uv]{Flourish}</p>",
+            "name": "Flourish"
+        },
+        "Force GM Reroll": {
+            "description": "<p>1/day, force the GM to reroll a single roll</p><p>duplicate = +1 use per day</p>",
+            "name": "Force GM Reroll"
+        },
+        "Force Morale Check": {
+            "description": "<p>1/day, force a close being to check morale, even if immune</p><p>duplicate = +1 use per day</p>",
+            "name": "Force Morale Check"
+        },
+        "fsh7dPOotCEuj2ic": {
+            "name": "Backstab"
+        },
+        "Fzx8i0bzbmuK8IoZ": {
+            "name": "Allow Magic Items"
+        },
+        "Go Berserk": {
+            "description": "<p>1/day, go @UUID[Compendium.shadowdark.spell-effects.Item.sfeg7jRt0oW5qXO4]{berserk}: immune to damage for 3 rounds</p><p>duplicate = +1 use/day</p>",
+            "name": "Go Berserk"
+        },
+        "Grit (Dexterity)": {
+            "description": "<p>Choose Strength or Dexterity. You have advantage on checks of that type to overcome an opposing force, such as kicking open a stuck door (Strength) or slipping free of rusty chains (Dexterity).</p>",
+            "name": "Grit (Dexterity)",
+            "effects": {
+                "Advantage Against Opposing Force": {
+                    "name": "Advantage Against Opposing Force",
+                    "description": "<p>You have advantage on Dexterity checks to overcome an opposing force, such as slipping free of rusty chains, etc.</p>"
+                }
+            }
+        },
+        "Grit (Strength)": {
+            "description": "<p>Choose Strength or Dexterity. You have advantage on checks of that type to overcome an opposing force, such as kicking open a stuck door (Strength) or slipping free of rusty chains (Dexterity).</p>",
+            "name": "Grit (Strength)",
+            "effects": {
+                "Advantage Against Opposing Force": {
+                    "name": "Advantage Against Opposing Force",
+                    "description": "<p>You have advantage on Strength checks to overcome an opposing force, such as kicking open a stuck door, etc.</p>"
+                }
+            }
+        },
+        "GVAi0l6mfRillxwZ": {
+            "description": "<p>You get +1 to spellcasting checks.</p>",
+            "name": "Knack (Spellcasting)",
+            "effects": {
+                "Knack (Spellcasting)": {
+                    "name": "Knack (Spellcasting)"
+                }
+            }
+        },
+        "Herbalism": {
+            "description": "<p>Make an INT check to prepare an herbal remedy you choose. If you fail, you can't make that remedy again until you successfully rest. Unused remedies expire in 3 rounds.</p><p><strong>DC | Effect</strong></p><p>11 | @UUID[Compendium.shadowdark.class-abilities.Item.UzSmg3aLstFcNsUa]{Salve}. Heals 1 HP</p><p>12 | @UUID[Compendium.shadowdark.class-abilities.Item.EhaA5tBROfrws1Kx]{Stimulant}. You can't be surprised for 10 rounds</p><p>13 | @UUID[Compendium.shadowdark.class-abilities.Item.i8PZF77jaVDkCE6n]{Foebane}. You get ADV on attacks and damage against one creature type you choose for [[/r 1d6]] rounds</p><p>14 | @UUID[Compendium.shadowdark.class-abilities.Item.3fck7HFRfDywsjQk]{Restorative}. Ends one poison or disease</p><p>15 | @UUID[Compendium.shadowdark.class-abilities.Item.Ussun0GbRMiJZ8vP]{Curative}. Equivalent to a @UUID[Compendium.shadowdark.magic-items.jucTGEjsqJ1znHdf]{Potion of Healing}</p>",
+            "name": "Herbalism"
+        },
+        "Herbalism Check Advantage": {
+            "description": "<p>You gain ADV on Herbalism checks for an herb you choose</p>",
+            "name": "Herbalism Check Advantage"
+        },
+        "Hide from Creature": {
+            "description": "<p>1/day, choose a creature of LV 9 or less you can see; it must pass a [[check 15 wis]] check or it can't see or hear you for 1d4 rounds.</p><p>@UUID[Compendium.shadowdark.class-abilities.Item.KfaSyGxX13IBVmKO]{Hide from Creature}</p>",
+            "name": "Hide from Creature"
+        },
+        "hkfq4SGF4mkDjQmt": {
+            "name": "Ability Score Improvement (Cha)"
+        },
+        "HP Roll Advantage": {
+            "name": "HP Roll Advantage"
+        },
+        "Hypnotize": {
+            "description": "<p>1/day, hypnotize a LV 5 or less creature for 3 rounds</p><p>duplicate = +1 use per day</p>",
+            "name": "Hypnotize"
+        },
+        "Ignore All Damage": {
+            "description": "<p>1/day, ignore all damage and effects from one attack.</p><p>duplicate = additional use per day</p><p>@UUID[Compendium.shadowdark.class-abilities.Item.MbC7YucyY4D9dYre]{Ignore All Damage}</p>",
+            "name": "Ignore All Damage"
+        },
+        "Immunity to Acid": {
+            "name": "Immunity to Acid"
+        },
+        "Immunity to Cold": {
+            "name": "Immunity to Cold"
+        },
+        "Immunity to Poison": {
+            "name": "Immunity to Poison"
+        },
+        "Implacable": {
+            "description": "<p>You have advantage on Constitution checks to resist injury, poison, or endure extreme environments.</p>",
+            "name": "Implacable"
+        },
+        "Improved Presence DC": {
+            "description": "<p>Your Presence effects become DC 9 to enact</p><p>duplicate = reroll</p>",
+            "name": "Improved Presence DC"
+        },
+        "Increased Flourish Heal": {
+            "description": "<p>Increase the HP you gain from Flourish by [[/r 1d6]]</p>",
+            "name": "Increased Flourish Heal"
+        },
+        "Increased Weapon Damage Die": {
+            "name": "Increased Weapon Damage Die"
+        },
+        "isMVMARzqqQVLmZ4": {
+            "name": "Ability Score Improvement (Wis)"
+        },
+        "JOP97BP4aJ0kjcgL": {
+            "name": "Melee Damage Bonus"
+        },
+        "jzxgJvPfazpI6udq": {
+            "name": "Ability Score Improvement (Str)"
+        },
+        "k9wVrL0gDKPn2rNt": {
+            "name": "Initiative Advantage"
+        },
+        "Keen Senses": {
+            "description": "<p>You can't be surprised.</p>",
+            "name": "Keen Senses"
+        },
+        "KLDZKFY6SrqQKSva": {
+            "description": "<p>If you hit a creature who is unaware of your attack, you deal an extra weapon die of damage. Add additional weapon dice of damage equal to half your level (round down).</p>",
+            "name": "Backstab",
+            "effects": {
+                "Backstab": {
+                    "name": "Backstab",
+                    "description": "<p>If you hit a creature who is unaware of your attack, you deal an extra weapon die of damage. Add additional weapon dice of damage equal to half your level (round down).</p>"
+                }
+            }
+        },
+        "kLhJi9CIdP5waTkT": {
+            "name": "Advantage Against Opposing Force"
+        },
+        "Knack (Luck)": {
+            "description": "<p>You begin each session with a luck token.</p>",
+            "name": "Knack (Luck)"
+        },
+        "Last stand": {
+            "description": "<p>You get up from dying with 1 hit point on a natural d20 roll of 18-20.</p>",
+            "name": "Last stand"
+        },
+        "Learn a Wizard Spell": {
+            "description": "<p>Learn a wizard spell, tier = half your level. Cast it with INT</p>",
+            "name": "Learn a Wizard Spell"
+        },
+        "Learn Extra Spell": {
+            "description": "<p>Learn one additional spell of any tier you know.</p>",
+            "name": "Learn Extra Spell"
+        },
+        "Learn Melee Weapon": {
+            "description": "<p>Learn to wield 1 melee weapon</p>",
+            "name": "Learn Melee Weapon"
+        },
+        "Learn Seer Spell": {
+            "description": "<p>Learn one additional seer spell of any tier you know.</p>",
+            "name": "Learn Seer Spell"
+        },
+        "Learn to Wield a Longbow": {
+            "name": "Learn to Wield a Longbow"
+        },
+        "Learn Witch Spell": {
+            "description": "<p>Learn an additional witch spell of any tier you can cast</p>",
+            "name": "Learn Witch Spell"
+        },
+        "Learn Wizard Spell": {
+            "description": "<p>Learn one additional wizard spell of any tier you know.</p>",
+            "name": "Learn Wizard Spell"
+        },
+        "Learning Spells": {
+            "description": "<p><strong>Learning Spells.</strong> You can permanently learn a wizard spell from a spell scroll by studying it for a day and succeeding on a [[check 15 int]] check.</p><p>Whether you succeed or fail, you expend the spell scroll.</p><p>Spells you learn in this way don't count toward your known spells.</p>",
+            "name": "Learning Spells"
+        },
+        "lodEOfzuI5jDWc4h": {
+            "name": "Ranged Damage Bonus"
+        },
+        "LR6h4lXVXwx7AFQ6": {
+            "description": "<p>You have a +1 bonus to attack and damage rolls with melee weapons.</p>",
+            "name": "Mighty",
+            "effects": {
+                "Mighty": {
+                    "name": "Mighty",
+                    "description": "<p>You have a +1 bonus to attack and damage rolls with melee weapons.</p>"
+                }
+            }
+        },
+        "lSaJHBE00pEuwfOx": {
+            "name": "Ability Score Improvement (Int)"
+        },
+        "Magic Missile Advantage": {
+            "description": "<p>Wizards always have advantage on casting Magic Missile.</p>",
+            "name": "Magic Missile Advantage",
+            "effects": {
+                "Spellcasting Advantage on Spell": {
+                    "name": "Spellcasting Advantage on Spell"
+                }
+            }
+        },
+        "Magic Resistance": {
+            "description": "<p>Hostile spells that target you are always hard to cast</p><p>duplicate = reroll</p>",
+            "name": "Magic Resistance"
+        },
+        "Magical Dabbler": {
+            "description": "<p>You can activate spell scrolls and wands using Charisma as your spellcasting stat. If you critically fail, roll a wizard mishap.</p>",
+            "name": "Magical Dabbler",
+            "effects": {
+                "Allow Magic Items": {
+                    "name": "Allow Magic Items"
+                }
+            }
+        },
+        "Magical Dabbler Bonus": {
+            "name": "Magical Dabbler Bonus"
+        },
+        "Make a Random Magic Item": {
+            "description": "<p>Make one random magic item. See <em>Magic Items</em> compendium.</p>",
+            "name": "Make a Random Magic Item"
+        },
+        "Max 2 HP Rolls": {
+            "description": "<p>Maximize 2 hit point rolls (prior or future)</p>",
+            "name": "Max 2 HP Rolls"
+        },
+        "Morale Checks at DC 18": {
+            "description": "<p>When enemies who can see you make a morale check, the DC is 18 instead of 15</p>",
+            "name": "Morale Checks at DC 18"
+        },
+        "Mount": {
+            "description": "<p>You have a common camel or horse with a reliable or lovely demeanor (see pg. 29). It comes when you call and never spooks. You can only have one such mount at a time. </p><p>While riding your mount, you both get a bonus to AC equal to half your level (round down). Your mount has additional levels equal to half your level (round down). You can freely leap on or off your mount once per round. </p><p>If you lose your mount, you can use your downtime to acquire and train another. Pass a [[check 15 cha]] check for the new creature to become your mount. Lower the DC one step each attempt.</p>",
+            "name": "Mount"
+        },
+        "njtjaSNJ4WQCV7n5": {
+            "name": "Ranged Attack Roll Bonus"
+        },
+        "ODBe0yE8vkVOD2qZ": {
+            "name": "Ranged Attack Roll Bonus"
+        },
+        "oEZ9BldTmIl6AS31": {
+            "name": "Spellcasting Advantage on Spell"
+        },
+        "Old Gods": {
+            "description": "<p>Each day, your purpose aligns with one of the Old Gods. Choose one of the below options after you complete a rest; you gain its benefits until you complete your next rest.</p><ul><li><p><strong>Odin. </strong>You regain 1d4 HP every time you kill an enemy.</p></li><li><p><strong>Freya.</strong> You gain a luck token if you don't have one. Each time you use a luck token, add 1d6 to your roll.</p></li><li><p><strong>Loki. </strong>You have advantage on checks to lie, sneak, and hide.</p></li></ul>",
+            "name": "Old Gods"
+        },
+        "Omen": {
+            "description": "<p>@UUID[Compendium.shadowdark.class-abilities.Item.pRO1kFMnFkkcYOgC]</p><p>3/day, you can make a [[check 9 wis]] check. On a success, gain a luck token (you can't have more than one luck token at a time).</p>",
+            "name": "Omen"
+        },
+        "OQQ5fxWh3zBw8W5O": {
+            "name": "Ranged Attack Roll Bonus"
+        },
+        "OU9XGvWpbh2ADVNy": {
+            "name": "Knack (Spellcasting)"
+        },
+        "p0eEwLNQh9oSEtEj": {
+            "name": "Ranged Attack Roll Bonus"
+        },
+        "Paralyze a Target": {
+            "description": "<p>1/day, paralyze a target of LV 9 or less you damage with a weapon for 1d4 rounds.</p><p>@UUID[Compendium.shadowdark.class-abilities.Item.vndvnruyp9aZ3f5l]{Paralyze a Target}</p>",
+            "name": "Paralyze a Target"
+        },
+        "Patron": {
+            "description": "<p>Choose a patron to serve (see pg. 17). Your patron is the source of your supernatural gifts. If your patron is displeased with you, it can withhold its gifts. You lose any talents granted by your Patron Boons during this time.</p>",
+            "name": "Patron"
+        },
+        "Patron Boon": {
+            "description": "<p>At 1st level, you gain a random Patron Boon talent (see pg. 18) based on your chosen patron. </p><p>Whenever you gain a new talent roll, you may choose to roll on your Patron Boon table rather than the Warlock Talents table.</p>",
+            "name": "Patron Boon"
+        },
+        "pBT8eBhcaKSnzbcq": {
+            "name": "Ability Score Improvement (Cha)"
+        },
+        "Pd70qHF14hMBGKoj": {
+            "name": "Spell Class"
+        },
+        "peAz8xVvIeZ6SLHd": {
+            "name": "Ability Score Improvement (Str)"
+        },
+        "Petrifying Gaze": {
+            "description": "<p>@UUID[Compendium.shadowdark.class-abilities.Item.Jkl9j4RZ2WYy0Gmd]{Petrifying Gaze}</p><p>One creature of your level or less that meets your gaze must pass a DC 15 CON check or be petrified for 1d4 rounds. It still takes damage as normal while petrified.</p><p>You can use this talent a number of times per day equal to your CON modifier (minimum 1).</p>",
+            "name": "Petrifying Gaze"
+        },
+        "Poisons Training": {
+            "description": "<p>You are trained in the use of poisons (see pg. 27)</p><p>duplicate = reroll</p>",
+            "name": "Poisons Training"
+        },
+        "Presence": {
+            "description": "<p>Make a [[check 12 cha]] check to enact one of the following effects. If you fail (excluding focus), you can't use that effect again until you rest.</p><ul><li><p>@UUID[Compendium.shadowdark.class-abilities.Item.jg2sUC3nIAI8sT18]{Inspire} DC 12. One target in near gains a luck token.</p></li><li><p>@UUID[Compendium.shadowdark.class-abilities.Item.oCNpE6bnZjPIdOO1]{Fascinate} (Focus). You transfix all chosen targets of level 4 or less within near</p></li></ul>",
+            "name": "Presence"
+        },
+        "Prolific": {
+            "description": "<p>Add 1d6 to your learning rolls. Groups carousing with 1 or more bards add 1d6 to their rolls.</p>",
+            "name": "Prolific"
+        },
+        "QBX0EGnKmDfPJ8gQ": {
+            "name": "Spellcasting Check Bonus"
+        },
+        "quYUUqTTAX3QlAGa": {
+            "description": "<p>You gain +1 to your AC when wielding a melee weapon in each hand.</p><p><em><strong>Note:</strong> Remember to toggle the <strong>+1 AC Dual Wield</strong> Active Effect on/off in the Effects tab of your character sheet when needed.</em></p>",
+            "name": "+1 AC Dual Wield",
+            "effects": {
+                "+1 AC Dual Wield": {
+                    "name": "+1 AC Dual Wield"
+                }
+            }
+        },
+        "R6opds1dM2LQdca1": {
+            "name": "Ability Score Improvement (Con)"
+        },
+        "Read Mind of Creature": {
+            "description": "<p>1/day, read the mind of a creature you touch for 3 rounds</p><p>duplicate = +1 use per day</p>",
+            "name": "Read Mind of Creature"
+        },
+        "Relentless": {
+            "description": "<p>3/day, when you are reduced to 0 HP, make a [[check 18 con]] check (the Implacable talent applies to this roll). On a success, you instead go to 1 HP.</p><p>@UUID[Compendium.shadowdark.class-abilities.Item.z5uKTDf4wtkipQ4s]{Relentless}</p>",
+            "name": "Relentless"
+        },
+        "rG2EB3u5Q4eUDash": {
+            "name": "Ability Score Improvement (Wis)"
+        },
+        "Ride any Creature": {
+            "description": "<p>You can use any rider-bearing creature as your mount.</p>",
+            "name": "Ride any Creature"
+        },
+        "rqplFhIShnvmV0U4": {
+            "name": "Hauler"
+        },
+        "Seafarer": {
+            "description": "<p>You have advantage on checks related to navigating and crewing boats.</p>",
+            "name": "Seafarer"
+        },
+        "Shield Wall": {
+            "description": "<p>If you wield a shield, you can use your action to take a defensive stance. Your AC becomes 20 during this time.</p>",
+            "name": "Shield Wall"
+        },
+        "Sleep a Creature": {
+            "description": "<p>1/day, choose a living creature of LV 5 or less you can see within near; it must pass a [[check 15 con]] check or fall asleep.</p><p>@UUID[Compendium.shadowdark.class-abilities.Item.i0IHFrEbhd0MOvkQ]{Sleep a Creature}</p>",
+            "name": "Sleep a Creature"
+        },
+        "Slime Form": {
+            "description": "<p>1/dary, turn into a crawling puddle of slime for 3 rounds</p><p>duplicate = +1 use per day</p>",
+            "name": "Slime Form"
+        },
+        "Smoke Step": {
+            "description": "<p>3/day, teleport to a location you can see within near. This does not use your action.</p><p>@UUID[Compendium.shadowdark.class-abilities.Item.yDByoMchtApfpKcS]{Smoke Step}</p>",
+            "name": "Smoke Step"
+        },
+        "Spellcasting (Knight of St. Ydris)": {
+            "description": "<p>You can cast witch spells you know. </p><p>Each time you gain a level, you choose new witch spells to learn according to the Witch Spells Known table. </p><p>You use your Charisma stat to cast witch spells. The DC is 10 + the spell's tier. </p><p>If you fail a spellcasting check, you can't cast that spell again until you complete a rest. </p><p>If you roll a natural 1 on a spellcasting check, you must also roll on the corresponding Diabolical Mishap table (see pg. 22) for the spell's tier</p>",
+            "name": "Spellcasting (Knight of St. Ydris)",
+            "effects": {
+                "Spell Class": {
+                    "name": "Spell Class"
+                }
+            }
+        },
+        "Spellcasting (Priest)": {
+            "description": "<p><strong>Spellcasting.</strong> You can cast priest spells you know.</p><p>You know two tier 1 spells of your choice from the priest spell list on pg. 57.</p><p>Each time you gain a level, you choose new priest spells to learn according to the Priest Spells Known table.</p><p>For casting priest spells, see Spellcasting on pg. 52.</p>",
+            "name": "Spellcasting (Priest)",
+            "effects": {
+                "Spell Class": {
+                    "name": "Spell Class"
+                }
+            }
+        },
+        "Spellcasting (Seer)": {
+            "description": "<p>You can cast seer spells you know. You know one tier 1 spell of your choice from the seer spell list (see pg. 30).</p><p>Each time you gain a level, you choose a new seer spell to learn according to the Seer Spells Known table.</p><p>You use your Wisdom stat to cast seer spells. The DC is 10 + the spell's tier.</p><p>If you fail a spellcasting check, you can't cast that spell again until you complete a rest. If you roll a natural 1 on a spellcasting check, you can't cast that spell again until you complete Seer Penance.</p><p><strong>Seer Penance</strong></p><p>Spell Tier 1: Temporarily give up 1d4 HP (you stay at 1 HP minimum); it returns in a week.</p><p>Spell Tier 2: Temporarily lower your WIS stat by 2 points; it returns in two weeks.</p><p>Spell Tier 3: Sacrifice 1 point of Charisma; it never returns.</p><p>Spell Tier 4: Ritualistically sink a burning longboat into the sea.</p><p>Spell Tier 5: Ritualistically sacrifice 9 humanoid lives.</p>",
+            "name": "Spellcasting (Seer)",
+            "effects": {
+                "Spell Class": {
+                    "name": "Spell Class"
+                }
+            }
+        },
+        "Spellcasting (Witch)": {
+            "description": "<p>You can cast witch spells you know. </p><p>You know three tier 1 spells of your choice from the witch spell list (see pg. 24). </p><p>Each time you gain a level, you choose new witch spells to learn according to the Witch Spells Known table. </p><p>You use your Charisma stat to cast witch spells. The DC is 10 + the spell's tier. </p><p>If you fail a spellcasting check, you can't cast that spell again until you complete a rest. </p><p>If you roll a natural 1 on a spellcasting check, you must also roll on the corresponding Diabolical Mishap table for the spell's tier (see pg. 22).</p>",
+            "name": "Spellcasting (Witch)",
+            "effects": {
+                "Spell Class": {
+                    "name": "Spell Class"
+                }
+            }
+        },
+        "Spellcasting (Wizard)": {
+            "description": "<p><strong>Spellcasting.</strong> You can cast wizard spells you know.</p><p>You know three tier 1 spells of your choice from the wizard spell list (see pg. 57).</p><p>Each time you gain a level, you choose new wizard spells to learn according to the Wizard Spells Known table.</p><p>For casting wizard spells, see Spellcasting on pg. 52.</p>",
+            "name": "Spellcasting (Wizard)",
+            "effects": {
+                "Spell Class": {
+                    "name": "Spell Class"
+                }
+            }
+        },
+        "Spellcasting Advantage": {
+            "description": "<p>Gain advantage on casting one spell you know.</p>",
+            "name": "Spellcasting Advantage",
+            "effects": {
+                "Spellcasting Advantage on Spell": {
+                    "name": "Spellcasting Advantage on Spell"
+                }
+            }
+        },
+        "Stealthy": {
+            "description": "<p>Once per day, you can become invisible for 3 rounds.</p><p>@UUID[Compendium.shadowdark.conditions.Item.piycdXLudXTFLG0k]{Condition: Invisible (Stealthy)}</p>",
+            "name": "Stealthy"
+        },
+        "Stone Skin": {
+            "description": "<p>Add 2 + half your level (round down) to your AC if you are unarmored.</p><p>You have advantage on checks to hide in natural environments.</p>",
+            "name": "Stone Skin",
+            "effects": {
+                "Stone Skin Talent": {
+                    "name": "Stone Skin Talent"
+                },
+                "Stone Skin Advantage on Hide": {
+                    "name": "Stone Skin Advantage on Hide",
+                    "description": "<p>You have advantage on checks to hide in natural environments.</p>"
+                }
+            }
+        },
+        "Stone Skin Advantage on Hide": {
+            "name": "Stone Skin Advantage on Hide"
+        },
+        "Stone Skin Talent": {
+            "name": "Stone Skin Talent"
+        },
+        "Stout": {
+            "description": "<p>Start with +2 HP. Roll your hit point gains with advantage.</p>",
+            "name": "Stout",
+            "effects": {
+                "Extra HP Max": {
+                    "name": "Extra HP Max"
+                },
+                "HP Roll Advantage": {
+                    "name": "HP Roll Advantage"
+                }
+            }
+        },
+        "Teleport": {
+            "description": "<p>1/day, teleport to a far location you see as your move.</p><p>duplicate = +1 use per day</p>",
+            "name": "Teleport"
+        },
+        "Teleport to Familiar": {
+            "description": "<p>1/day, teleport to your familiar's location as a move</p><p>duplicate = +1 use per day</p><p><strong>Class Ability:</strong> @UUID[Compendium.shadowdark.class-abilities.Item.cXyvO6H22jfOxcz4]{Teleport to Familiar}</p>",
+            "name": "Teleport to Familiar",
+            "effects": {
+                "Initiative Advantage": {
+                    "name": "Initiative Advantage"
+                }
+            }
+        },
+        "TiaXUSTLoJpjfyxD": {
+            "description": "<p>You are adept at thieving skills and have the necessary tools of the trade secreted on your person (they take up no gear slots).</p><p>You are trained in the following tasks and have advantage on any associated checks:</p><ul><li><p>Climbing</p></li><li><p>Sneaking and hiding</p></li><li><p>Applying disguises</p></li><li><p>Finding and disabling traps</p></li><li><p>Delicate tasks such as picking pockets and opening locks</p></li></ul>",
+            "name": "Thievery",
+            "effects": {
+                "Thievery": {
+                    "name": "Thievery",
+                    "description": "<p>You are trained in the following tasks and have advantage on any associated checks: Climbing, Sneaking and hiding, Applying disguises, Finding and disabling traps and delicate tasks such as picking pockets and opening locks.</p>"
+                }
+            }
+        },
+        "Trained Assassin": {
+            "description": "<p>You have advantage on checks to sneak and hide. Your attacks deal double damage against targets that are unaware of your presence.</p>",
+            "name": "Trained Assassin"
+        },
+        "Triple Damage Assassin": {
+            "description": "<p>Your deal triple damage with your Trained Assassin talent.</p>",
+            "name": "Triple Damage Assassin"
+        },
+        "Turn Undead": {
+            "description": "<p>You know the turn undead spell. It doesn’t count toward your number of known spells.</p>",
+            "name": "Turn Undead"
+        },
+        "uiRL8aHCDWjd3e8w": {
+            "name": "Advantage Against Opposing Force"
+        },
+        "Upgrade Destined Die": {
+            "description": "<p>Increase the die category of your Destined talent by one.</p>",
+            "name": "Upgrade Destined Die",
+            "effects": {
+                "Destine Die Upgrade": {
+                    "name": "Destine Die Upgrade"
+                }
+            }
+        },
+        "UVsf7VJCOrBm42Yz": {
+            "description": "<p>Gain advantage on initiative rolls (reroll if duplicate)</p>",
+            "name": "Initiative Advantage",
+            "effects": {
+                "Initiative Advantage": {
+                    "name": "Initiative Advantage"
+                }
+            }
+        },
+        "V7hLOyXMBijj06wB": {
+            "name": "Ranged Damage Bonus"
+        },
+        "Walk on Sheer Surfaces": {
+            "description": "<p>1/day, you can walk on sheer surfaces like walls for 1d4 rds.</p><p>@UUID[Compendium.shadowdark.class-abilities.Item.1hc2HGy3pZ89jvGM]{Walk on Sheer Surfaces}</p>",
+            "name": "Walk on Sheer Surfaces"
+        },
+        "Walk on Water": {
+            "description": "<p>1/day, you can walk on water as if it were solid for 1d4 rds.</p><p>@UUID[Compendium.shadowdark.class-abilities.Item.xwE0DGzMTxMQWqRj]{Walk on Water}</p>",
+            "name": "Walk on Water"
+        },
+        "Wayfinder": {
+            "description": "<p>You have advantage on checks associated with:</p><ul><li><p>Navigation</p></li><li><p>Tracking</p></li><li><p>Bushcraft</p></li><li><p>Stealth</p></li><li><p>Wild animals</p></li></ul>",
+            "name": "Wayfinder"
+        },
+        "Weapon Attack Damage Bonus": {
+            "name": "Weapon Attack Damage Bonus"
+        },
+        "Weapon Attack Roll Bonus": {
+            "name": "Weapon Attack Roll Bonus"
+        },
+        "wryUreqZgIx22crJ": {
+            "name": "Melee Damage Bonus"
+        },
+        "y00ihJhSPjoGVmKZ": {
+            "name": "Melee Attack Roll Bonus"
+        },
+        "z7bM0dO1y64K6091": {
+            "name": "Spell Class"
+        },
+        "zi1nJjmtxnx0lJaZ": {
+            "name": "Spell Class"
+        },
+        "ZjpQVS9L1baZZ2PF": {
+            "name": "Spellcasting Advantage on Spell"
+        },
+        "ZTDD2HwlrjLbEIQp": {
+            "name": "Melee Attack Roll Bonus"
+        }
+    },
+    "folders": {
+        "Ancestry": "Ancestry",
+        "Class": "Class",
+        "Level": "Level",
+        "Patron Boon": "Patron Boon"
+    }
+}

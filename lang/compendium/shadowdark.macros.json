@@ -1,0 +1,59 @@
+{
+    "label": "Macros",
+    "mapping": {
+        "name": "name"
+    },
+    "entries": {
+        "Draw Hazard": {
+            "name": "Draw Hazard"
+        },
+        "Draw Ruin Encounter": {
+            "name": "Draw Ruin Encounter"
+        },
+        "Draw Rumor": {
+            "name": "Draw Rumor"
+        },
+        "Draw Something Happens!": {
+            "name": "Draw Something Happens!"
+        },
+        "Draw Trap": {
+            "name": "Draw Trap"
+        },
+        "Generate Random Magic Item Name": {
+            "name": "Generate Random Magic Item Name"
+        },
+        "Initialize Luck (GM Only)": {
+            "name": "Initialize Luck (GM Only)"
+        },
+        "Light Tracker UI Toggle (GM Only)": {
+            "name": "Light Tracker UI Toggle (GM Only)"
+        },
+        "Open Character Generator": {
+            "name": "Open Character Generator"
+        },
+        "Open Item Importer": {
+            "name": "Open Item Importer"
+        },
+        "Open Monster Importer": {
+            "name": "Open Monster Importer"
+        },
+        "Open Spell Importer": {
+            "name": "Open Spell Importer"
+        },
+        "Random Adventuring Site Name": {
+            "name": "Random Adventuring Site Name"
+        },
+        "Random Encounter Info": {
+            "name": "Random Encounter Info"
+        },
+        "Request a Check": {
+            "name": "Request a Check"
+        },
+        "SoloDark: Generate Dungeon Name": {
+            "name": "SoloDark: Generate Dungeon Name"
+        },
+        "SoloDark: Open Oracle": {
+            "name": "SoloDark: Open Oracle"
+        }
+    }
+}

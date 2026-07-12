@@ -1,0 +1,37 @@
+{
+    "label": "Ancestries",
+    "mapping": {
+        "description": "system.description",
+        "name": "name"
+    },
+    "entries": {
+        "Dwarf": {
+            "description": "<p>Brave, stalwart folk as sturdy as the stone kingdoms they carve inside mountains.</p>",
+            "name": "Dwarf"
+        },
+        "Elf": {
+            "description": "<p>Ethereal, graceful people who revere knowledge and beauty. Elves see far and live long.</p>",
+            "name": "Elf"
+        },
+        "Goblin": {
+            "description": "<p>Green, clever beings who thrive in dark, cramped places. As fierce as they are tiny.</p>",
+            "name": "Goblin"
+        },
+        "Half-Orc": {
+            "description": "<p>Towering, tusked warriors who are as daring as humans and as relentless as orcs.</p>",
+            "name": "Half-Orc"
+        },
+        "Halfling": {
+            "description": "<p>Small, cheerful country folk with mischievous streaks. They enjoy life’s simple pleasures.</p>",
+            "name": "Halfling"
+        },
+        "Human": {
+            "description": "<p>Bold, adaptable, and diverse people who learn quickly and accomplish mighty deeds.</p>",
+            "name": "Human"
+        },
+        "Kobold": {
+            "description": "<p>Tiny, humanoid dog-lizards with a penchant for tinkering, trap building, and a hint of magic.</p>",
+            "name": "Kobold"
+        }
+    }
+}

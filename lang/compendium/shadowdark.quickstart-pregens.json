@@ -1,0 +1,800 @@
+{
+    "label": "Quickstart Pregens",
+    "mapping": {
+        "items": {
+            "path": "items",
+            "converter": "document",
+            "documentType": "Item",
+            "cardinality": "many",
+            "mapping": {
+                "description": "system.description",
+                "effects": {
+                    "path": "effects",
+                    "converter": "document",
+                    "documentType": "ActiveEffect",
+                    "cardinality": "many",
+                    "mapping": {
+                        "name": "name",
+                        "description": "description"
+                    }
+                },
+                "name": "name"
+            }
+        },
+        "name": "name",
+        "tokenName": {
+            "path": "prototypeToken.name",
+            "converter": "name"
+        }
+    },
+    "entries": {
+        "Creeg Greythorn": {
+            "name": "Creeg Greythorn",
+            "tokenName": "Creeg Greythorn",
+            "items": {
+                "Backpack": {
+                    "description": "<p>Holds all the gear you can carry. Don't lose it.</p>",
+                    "name": "Backpack"
+                },
+                "Oil, Flask": {
+                    "description": "<p>Fuels a lantern for one hour of real time. One flask covers a close area and burns for 4 rounds, dealing 1d4 damage each round.</p>",
+                    "name": "Oil, Flask"
+                },
+                "Flint and Steel": {
+                    "description": "<p>A small fire starter. With it, routine attempts to light a fire always succeed.</p>",
+                    "name": "Flint and Steel"
+                },
+                "Torch": {
+                    "description": "<p>Sheds light to a near distance (see Light Sources, pg. 46). Burns for one hour of real time.</p>",
+                    "name": "Torch"
+                },
+                "Rations": {
+                    "description": "<p>One day of food and water supply for one person.</p>",
+                    "name": "Rations"
+                },
+                "Caltrops": {
+                    "description": "<p>Tiny, triangle-shaped iron spikes. Living creatures who step on caltrops take 1 damage and can only move at half speed for 10 rounds.</p>",
+                    "name": "Caltrops"
+                },
+                "Rope, 60'": {
+                    "description": "<p>Hemp, 60’ long.</p>",
+                    "name": "Rope, 60'"
+                },
+                "Grappling Hook": {
+                    "description": "<p>A rope anchor with three, curved tines.</p>",
+                    "name": "Grappling Hook"
+                },
+                "Mirror": {
+                    "description": "<p>A small, polished mirror.</p>",
+                    "name": "Mirror"
+                },
+                "Staff": {
+                    "name": "Staff"
+                },
+                "Dagger": {
+                    "name": "Dagger"
+                },
+                "Mage Armor": {
+                    "description": "<p>An invisible layer of magical force protects your vitals. Your armor class becomes 14 (18 on a critical spellcasting check) for the spell’s duration.</p><p>@UUID[Compendium.shadowdark.spell-effects.h9MTxzrrPmyhEmRL]{Spell Effect: Mage Armor}</p><p>@UUID[Compendium.shadowdark.spell-effects.Gyol5I0ZdApO8MPe]{Spell Effect: Mage Armor (Critical)}</p>",
+                    "name": "Mage Armor"
+                },
+                "Detect Magic": {
+                    "description": "<p>You can sense the presence of magic within near range for the spell's duration. If you focus for two rounds, you discern its general properties. Full barriers block this spell.</p><p>@UUID[Compendium.shadowdark.spell-effects.74WjFjHmUmLAiNGC]{Spell Effect: Detect Magic}</p>",
+                    "name": "Detect Magic"
+                },
+                "Magic Missile": {
+                    "description": "<p>You have advantage on your check to cast this spell.</p><p>A glowing bolt of force streaks from your open hand, dealing [[/r 1d4]] damage to one target.</p>",
+                    "name": "Magic Missile"
+                },
+                "Sleep": {
+                    "description": "<p>This spell fills a near-sized cube extending from you. Choose a number of living creatures in the area up to your level. Those creatures fall into a deep sleep if they are LV 2 or less. Injury or vigorous shaking wakes them.</p><p>@UUID[Compendium.shadowdark.spell-effects.FrFilluk4S5VaWut]{Spell Effect: Sleep}</p>",
+                    "name": "Sleep"
+                },
+                "Learn Spell (Mage Armor)": {
+                    "description": "<p>Learn one additional wizard spell of any tier you know.</p>",
+                    "name": "Learn Spell (Mage Armor)"
+                },
+                "Ambitious": {
+                    "description": "<p>You gain one additional talent roll at 1st level.</p>",
+                    "name": "Ambitious"
+                },
+                "+2 to Intelligence": {
+                    "name": "+2 to Intelligence",
+                    "effects": {
+                        "Ability Score Improvement (Int)": {
+                            "name": "Ability Score Improvement (Int)"
+                        }
+                    }
+                },
+                "Magic Missile Advantage": {
+                    "description": "<p>Wizards always have advantage on casting Magic Missile.</p>",
+                    "name": "Magic Missile Advantage",
+                    "effects": {
+                        "Spellcasting Advantage on Spell": {
+                            "name": "Spellcasting Advantage on Spell"
+                        }
+                    }
+                },
+                "Spellcasting (Wizard)": {
+                    "description": "<p><strong>Spellcasting.</strong> You can cast wizard spells you know.</p><p>You know three tier 1 spells of your choice from the wizard spell list (see pg. 57).</p><p>Each time you gain a level, you choose new wizard spells to learn according to the Wizard Spells Known table.</p><p>For casting wizard spells, see Spellcasting on pg. 52.</p>",
+                    "name": "Spellcasting (Wizard)",
+                    "effects": {
+                        "Spell Class": {
+                            "name": "Spell Class"
+                        }
+                    }
+                }
+            }
+        },
+        "Elbin Grizzlegut": {
+            "name": "Elbin Grizzlegut",
+            "tokenName": "Elbin Grizzlegut",
+            "items": {
+                "Chainmail": {
+                    "name": "Chainmail"
+                },
+                "Shield": {
+                    "name": "Shield"
+                },
+                "Crossbow Bolts": {
+                    "description": "<p>Ammunition for crossbows.</p>",
+                    "name": "Crossbow Bolts"
+                },
+                "Flint and Steel": {
+                    "description": "<p>A small fire starter. With it, routine attempts to light a fire always succeed.</p>",
+                    "name": "Flint and Steel"
+                },
+                "Iron Spikes": {
+                    "description": "<p>Strong spikes. Each has a hole for threading</p><p>rope. Can be hammered in with weapons or other iron spikes.</p>",
+                    "name": "Iron Spikes"
+                },
+                "Grappling Hook": {
+                    "description": "<p>A rope anchor with three, curved tines.</p>",
+                    "name": "Grappling Hook"
+                },
+                "Rope, 60'": {
+                    "description": "<p>Hemp, 60’ long.</p>",
+                    "name": "Rope, 60'"
+                },
+                "Backpack": {
+                    "description": "<p>Holds all the gear you can carry. Don't lose it.</p>",
+                    "name": "Backpack"
+                },
+                "Holy Symbol": {
+                    "name": "Holy Symbol"
+                },
+                "Rations": {
+                    "description": "<p>One day of food and water supply for one person.</p>",
+                    "name": "Rations"
+                },
+                "Mace": {
+                    "name": "Mace"
+                },
+                "Crossbow": {
+                    "name": "Crossbow"
+                },
+                "Shield of Faith": {
+                    "description": "<p>A protective force wrought of your holy conviction surrounds you. You gain a +2 bonus to your armor class for the duration.</p><p>@UUID[Compendium.shadowdark.spell-effects.4dCcpPeyRKWt9XkC]{Spell Effect: Shield of Faith}</p>",
+                    "name": "Shield of Faith"
+                },
+                "Turn Undead": {
+                    "description": "<p>You rebuke undead creatures, forcing them to flee. You must present a holy symbol to cast this spell.</p><p>Undead creatures within near of you must make a CHA check opposed by your spellcasting check. If a creature fails by 10+ points and is equal to or less than your level, it is destroyed. Otherwise, on a fail, it flees from you for 5 rounds.</p>",
+                    "name": "Turn Undead"
+                },
+                "Cure Wounds": {
+                    "description": "<p>Your touch restores ebbing life.</p><p>Roll a number of d6s equal to [[/roll (1 + (floor(@level.value/2)))d6]]{1 + half your level (rounded down)}.</p><p>One target you touch regains that many hit points.</p>",
+                    "name": "Cure Wounds"
+                },
+                "vidlqyrxrKYxHAdm": {
+                    "description": "<p>You know the turn undead spell. It doesn’t count toward your number of known spells.</p>",
+                    "name": "Turn Undead"
+                },
+                "Deity": {
+                    "description": "<p>Choose a god to serve who matches your alignment (see Deities, pg. 30). You have a holy symbol for your god (it takes up no gear slots).</p>",
+                    "name": "Deity"
+                },
+                "Spellcasting (Priest)": {
+                    "description": "<p><strong>Spellcasting.</strong> You can cast priest spells you know.</p><p>You know two tier 1 spells of your choice from the priest spell list on pg. 57.</p><p>Each time you gain a level, you choose new priest spells to learn according to the Priest Spells Known table.</p><p>For casting priest spells, see Spellcasting on pg. 52.</p>",
+                    "name": "Spellcasting (Priest)",
+                    "effects": {
+                        "Spell Class": {
+                            "name": "Spell Class"
+                        }
+                    }
+                },
+                "+1 on Spellcasting Checks": {
+                    "name": "+1 on Spellcasting Checks",
+                    "effects": {
+                        "Spellcasting Check Bonus": {
+                            "name": "Spellcasting Check Bonus"
+                        }
+                    }
+                },
+                "Stout": {
+                    "description": "<p>Start with +2 HP. Roll your hit point gains with advantage.</p>",
+                    "name": "Stout",
+                    "effects": {
+                        "Extra HP Max": {
+                            "name": "Extra HP Max"
+                        },
+                        "HP Roll Advantage": {
+                            "name": "HP Roll Advantage"
+                        }
+                    }
+                }
+            }
+        },
+        "Iraga Draguul": {
+            "name": "Iraga Draguul",
+            "tokenName": "Iraga Draguul",
+            "items": {
+                "Chainmail": {
+                    "name": "Chainmail"
+                },
+                "Shield": {
+                    "name": "Shield"
+                },
+                "Backpack": {
+                    "description": "<p>Holds all the gear you can carry. Don't lose it.</p>",
+                    "name": "Backpack"
+                },
+                "Holy Symbol": {
+                    "name": "Holy Symbol"
+                },
+                "Crossbow Bolts": {
+                    "description": "<p>Ammunition for crossbows.</p>",
+                    "name": "Crossbow Bolts"
+                },
+                "Rations": {
+                    "description": "<p>One day of food and water supply for one person.</p>",
+                    "name": "Rations"
+                },
+                "Iron Spikes": {
+                    "description": "<p>Strong spikes. Each has a hole for threading</p><p>rope. Can be hammered in with weapons or other iron spikes.</p>",
+                    "name": "Iron Spikes"
+                },
+                "Grappling Hook": {
+                    "description": "<p>A rope anchor with three, curved tines.</p>",
+                    "name": "Grappling Hook"
+                },
+                "Rope, 60'": {
+                    "description": "<p>Hemp, 60’ long.</p>",
+                    "name": "Rope, 60'"
+                },
+                "Flint and Steel": {
+                    "description": "<p>A small fire starter. With it, routine attempts to light a fire always succeed.</p>",
+                    "name": "Flint and Steel"
+                },
+                "Torch": {
+                    "description": "<p>Sheds light to a near distance (see Light Sources, pg. 46). Burns for one hour of real time.</p>",
+                    "name": "Torch"
+                },
+                "Longsword": {
+                    "name": "Longsword"
+                },
+                "Crossbow": {
+                    "name": "Crossbow"
+                },
+                "Cure Wounds": {
+                    "description": "<p>Your touch restores ebbing life.</p><p>Roll a number of d6s equal to [[/roll (1 + (floor(@level.value/2)))d6]]{1 + half your level (rounded down)}.</p><p>One target you touch regains that many hit points.</p>",
+                    "name": "Cure Wounds"
+                },
+                "Holy Weapon": {
+                    "description": "<p>One weapon you touch is imbued with a sacred blessing.</p><p>The weapon becomes magical and has +1 to attack and damage rolls for the duration.</p><p>@UUID[Compendium.shadowdark.spell-effects.r2JNgS2474vuq9oy]{Spell Effect: Holy Weapon}</p>",
+                    "name": "Holy Weapon"
+                },
+                "Turn Undead": {
+                    "description": "<p>You rebuke undead creatures, forcing them to flee. You must present a holy symbol to cast this spell.</p><p>Undead creatures within near of you must make a CHA check opposed by your spellcasting check. If a creature fails by 10+ points and is equal to or less than your level, it is destroyed. Otherwise, on a fail, it flees from you for 5 rounds.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.T4LUCIffieQPMGsN]{Spell Effect: Turn Undead}</p>",
+                    "name": "Turn Undead"
+                },
+                "HrBISy7YSm5fCE8g": {
+                    "description": "<p>You know the turn undead spell. It doesn’t count toward your number of known spells.</p>",
+                    "name": "Turn Undead"
+                },
+                "Deity": {
+                    "description": "<p>Choose a god to serve who matches your alignment (see Deities, pg. 30). You have a holy symbol for your god (it takes up no gear slots).</p>",
+                    "name": "Deity"
+                },
+                "Mighty": {
+                    "description": "<p>You have a +1 bonus to attack and damage rolls with melee weapons.</p>",
+                    "name": "Mighty",
+                    "effects": {
+                        "Mighty": {
+                            "name": "Mighty",
+                            "description": "<p>You have a +1 bonus to attack and damage rolls with melee weapons.</p>"
+                        }
+                    }
+                },
+                "+1 on Spellcasting Checks": {
+                    "name": "+1 on Spellcasting Checks",
+                    "effects": {
+                        "Spellcasting Check Bonus": {
+                            "name": "Spellcasting Check Bonus"
+                        }
+                    }
+                },
+                "Spellcasting (Priest)": {
+                    "description": "<p><strong>Spellcasting.</strong> You can cast priest spells you know.</p><p>You know two tier 1 spells of your choice from the priest spell list on pg. 57.</p><p>Each time you gain a level, you choose new priest spells to learn according to the Priest Spells Known table.</p><p>For casting priest spells, see Spellcasting on pg. 52.</p>",
+                    "name": "Spellcasting (Priest)",
+                    "effects": {
+                        "Spell Class": {
+                            "name": "Spell Class"
+                        }
+                    }
+                }
+            }
+        },
+        "Jorbin Ironhelm": {
+            "name": "Jorbin Ironhelm",
+            "tokenName": "Jorbin Ironhelm",
+            "items": {
+                "Chainmail": {
+                    "name": "Chainmail"
+                },
+                "Shield": {
+                    "name": "Shield"
+                },
+                "Backpack": {
+                    "description": "<p>Holds all the gear you can carry. Don't lose it.</p>",
+                    "name": "Backpack"
+                },
+                "Iron Spikes": {
+                    "description": "<p>Strong spikes. Each has a hole for threading</p><p>rope. Can be hammered in with weapons or other iron spikes.</p>",
+                    "name": "Iron Spikes"
+                },
+                "Grappling Hook": {
+                    "description": "<p>A rope anchor with three, curved tines.</p>",
+                    "name": "Grappling Hook"
+                },
+                "Rope, 60'": {
+                    "description": "<p>Hemp, 60’ long.</p>",
+                    "name": "Rope, 60'"
+                },
+                "Flint and Steel": {
+                    "description": "<p>A small fire starter. With it, routine attempts to light a fire always succeed.</p>",
+                    "name": "Flint and Steel"
+                },
+                "Torch": {
+                    "description": "<p>Sheds light to a near distance (see Light Sources, pg. 46). Burns for one hour of real time.</p>",
+                    "name": "Torch"
+                },
+                "nIlTwpCCTFzsBYGR": {
+                    "description": "<p>Sheds light to a near distance (see Light Sources, pg. 46). Burns for one hour of real time.</p>",
+                    "name": "Torch"
+                },
+                "Pole": {
+                    "description": "<p>Wooden, 10' long.</p>",
+                    "name": "Pole"
+                },
+                "Rations": {
+                    "description": "<p>One day of food and water supply for one person.</p>",
+                    "name": "Rations"
+                },
+                "Greataxe": {
+                    "name": "Greataxe"
+                },
+                "Spear": {
+                    "name": "Spear"
+                },
+                "Weapon Mastery (Greataxe)": {
+                    "description": "<p>Choose one type of weapon, such as longswords. You gain +1 to attack and damage with that weapon type. In addition, add half your level to these rolls (round down).</p>",
+                    "name": "Weapon Mastery (Greataxe)",
+                    "effects": {
+                        "Weapon Mastery": {
+                            "name": "Weapon Mastery"
+                        }
+                    }
+                },
+                "JHVaQhNjxYJMNH78": {
+                    "name": "Spear"
+                },
+                "Stout": {
+                    "description": "<p>Start with +2 HP. Roll your hit point gains with advantage.</p>",
+                    "name": "Stout",
+                    "effects": {
+                        "Extra HP Max": {
+                            "name": "Extra HP Max"
+                        },
+                        "HP Roll Advantage": {
+                            "name": "HP Roll Advantage"
+                        }
+                    }
+                },
+                "Hauler": {
+                    "description": "<p>Add your Constitution modifier, if positive, to your gear slots.</p>",
+                    "name": "Hauler",
+                    "effects": {
+                        "Hauler": {
+                            "name": "Hauler"
+                        }
+                    }
+                },
+                "+2 to Strength": {
+                    "name": "+2 to Strength",
+                    "effects": {
+                        "Ability Score Improvement (Str)": {
+                            "name": "Ability Score Improvement (Str)"
+                        }
+                    }
+                },
+                "Grit (Strength)": {
+                    "description": "<p>Choose Strength or Dexterity. You have advantage on checks of that type to overcome an opposing force, such as kicking open a stuck door (Strength) or slipping free of rusty chains (Dexterity).</p>",
+                    "name": "Grit (Strength)",
+                    "effects": {
+                        "Advantage Against Opposing Force": {
+                            "name": "Advantage Against Opposing Force",
+                            "description": "<p>You have advantage on Strength checks to overcome an opposing force, such as kicking open a stuck door, etc.</p>"
+                        }
+                    }
+                }
+            }
+        },
+        "Martin Rast": {
+            "name": "Martin Rast",
+            "tokenName": "Martin Rast",
+            "items": {
+                "Leather Armor": {
+                    "name": "Leather Armor"
+                },
+                "Backpack": {
+                    "description": "<p>Holds all the gear you can carry. Don't lose it.</p>",
+                    "name": "Backpack"
+                },
+                "Thieves' Tools": {
+                    "description": "<p>ADV on checks to climb, sneak, hide, apply disguises, find and disable traps, and perform delicate tasks.</p>",
+                    "name": "Thieves' Tools"
+                },
+                "Flint and Steel": {
+                    "description": "<p>A small fire starter. With it, routine attempts to light a fire always succeed.</p>",
+                    "name": "Flint and Steel"
+                },
+                "Torch": {
+                    "description": "<p>Sheds light to a near distance (see Light Sources, pg. 46). Burns for one hour of real time.</p>",
+                    "name": "Torch"
+                },
+                "Rations": {
+                    "description": "<p>One day of food and water supply for one person.</p>",
+                    "name": "Rations"
+                },
+                "Iron Spikes": {
+                    "description": "<p>Strong spikes. Each has a hole for threading</p><p>rope. Can be hammered in with weapons or other iron spikes.</p>",
+                    "name": "Iron Spikes"
+                },
+                "Rope, 60'": {
+                    "description": "<p>Hemp, 60’ long.</p>",
+                    "name": "Rope, 60'"
+                },
+                "Grappling Hook": {
+                    "description": "<p>A rope anchor with three, curved tines.</p>",
+                    "name": "Grappling Hook"
+                },
+                "Dagger": {
+                    "name": "Dagger"
+                },
+                "15j8vdCGXCjRSxFw": {
+                    "name": "Dagger"
+                },
+                "Ambitious": {
+                    "description": "<p>You gain one additional talent roll at 1st level.</p>",
+                    "name": "Ambitious"
+                },
+                "+2 to Dexterity": {
+                    "name": "+2 to Dexterity",
+                    "effects": {
+                        "Ability Score Improvement (Dex)": {
+                            "name": "Ability Score Improvement (Dex)"
+                        }
+                    }
+                },
+                "Thievery": {
+                    "description": "<p>You are adept at thieving skills and have the necessary tools of the trade secreted on your person (they take up no gear slots).</p><p>You are trained in the following tasks and have advantage on any associated checks:</p><ul><li><p>Climbing</p></li><li><p>Sneaking and hiding</p></li><li><p>Applying disguises</p></li><li><p>Finding and disabling traps</p></li><li><p>Delicate tasks such as picking pockets and opening locks</p></li></ul>",
+                    "name": "Thievery",
+                    "effects": {
+                        "Thievery": {
+                            "name": "Thievery",
+                            "description": "<p>You are trained in the following tasks and have advantage on any associated checks: Climbing, Sneaking and hiding, Applying disguises, Finding and disabling traps and delicate tasks such as picking pockets and opening locks.</p>"
+                        }
+                    }
+                },
+                "Backstab": {
+                    "description": "<p>If you hit a creature who is unaware of your attack, you deal an extra weapon die of damage. Add additional weapon dice of damage equal to half your level (round down).</p>",
+                    "name": "Backstab",
+                    "effects": {
+                        "Backstab": {
+                            "name": "Backstab",
+                            "description": "<p>If you hit a creature who is unaware of your attack, you deal an extra weapon die of damage. Add additional weapon dice of damage equal to half your level (round down).</p>"
+                        }
+                    }
+                },
+                "Backstab +1 Damage Dice": {
+                    "description": "<p>Your Backstab deals +1 dice of damage.</p>",
+                    "name": "Backstab +1 Damage Dice",
+                    "effects": {
+                        "Additional Backstab Die": {
+                            "name": "Additional Backstab Die",
+                            "description": "<p>Your Backstab deals +1 dice of damage.</p>"
+                        }
+                    }
+                }
+            }
+        },
+        "Ralina Biggins": {
+            "name": "Ralina Biggins",
+            "tokenName": "Ralina Biggins",
+            "items": {
+                "Leather Armor": {
+                    "name": "Leather Armor"
+                },
+                "Crossbow Bolts": {
+                    "description": "<p>Ammunition for crossbows.</p>",
+                    "name": "Crossbow Bolts"
+                },
+                "Flint and Steel": {
+                    "description": "<p>A small fire starter. With it, routine attempts to light a fire always succeed.</p>",
+                    "name": "Flint and Steel"
+                },
+                "Backpack": {
+                    "description": "<p>Holds all the gear you can carry. Don't lose it.</p>",
+                    "name": "Backpack"
+                },
+                "Thieves' Tools": {
+                    "description": "<p>ADV on checks to climb, sneak, hide, apply disguises, find and disable traps, and perform delicate tasks.</p>",
+                    "name": "Thieves' Tools"
+                },
+                "Torch": {
+                    "description": "<p>Sheds light to a near distance (see Light Sources, pg. 46). Burns for one hour of real time.</p>",
+                    "name": "Torch"
+                },
+                "Rations": {
+                    "description": "<p>One day of food and water supply for one person.</p>",
+                    "name": "Rations"
+                },
+                "Iron Spikes": {
+                    "description": "<p>Strong spikes. Each has a hole for threading</p><p>rope. Can be hammered in with weapons or other iron spikes.</p>",
+                    "name": "Iron Spikes"
+                },
+                "Grappling Hook": {
+                    "description": "<p>A rope anchor with three, curved tines.</p>",
+                    "name": "Grappling Hook"
+                },
+                "Rope, 60'": {
+                    "description": "<p>Hemp, 60’ long.</p>",
+                    "name": "Rope, 60'"
+                },
+                "Dagger": {
+                    "name": "Dagger"
+                },
+                "Crossbow": {
+                    "name": "Crossbow"
+                },
+                "Stealthy": {
+                    "description": "<p>Once per day, you can become invisible for 3 rounds.</p><p>@UUID[Compendium.shadowdark.conditions.Item.piycdXLudXTFLG0k]{Condition: Invisible (Stealthy)}</p>",
+                    "name": "Stealthy"
+                },
+                "Initiative Advantage": {
+                    "description": "<p>Gain advantage on initiative rolls (reroll if duplicate)</p>",
+                    "name": "Initiative Advantage",
+                    "effects": {
+                        "Initiative Advantage": {
+                            "name": "Initiative Advantage"
+                        }
+                    }
+                },
+                "Thievery": {
+                    "description": "<p>You are adept at thieving skills and have the necessary tools of the trade secreted on your person (they take up no gear slots).</p><p>You are trained in the following tasks and have advantage on any associated checks:</p><ul><li><p>Climbing</p></li><li><p>Sneaking and hiding</p></li><li><p>Applying disguises</p></li><li><p>Finding and disabling traps</p></li><li><p>Delicate tasks such as picking pockets and opening locks</p></li></ul>",
+                    "name": "Thievery",
+                    "effects": {
+                        "Thievery": {
+                            "name": "Thievery",
+                            "description": "<p>You are trained in the following tasks and have advantage on any associated checks: Climbing, Sneaking and hiding, Applying disguises, Finding and disabling traps and delicate tasks such as picking pockets and opening locks.</p>"
+                        }
+                    }
+                },
+                "Backstab": {
+                    "description": "<p>If you hit a creature who is unaware of your attack, you deal an extra weapon die of damage. Add additional weapon dice of damage equal to half your level (round down).</p>",
+                    "name": "Backstab",
+                    "effects": {
+                        "Backstab": {
+                            "name": "Backstab",
+                            "description": "<p>If you hit a creature who is unaware of your attack, you deal an extra weapon die of damage. Add additional weapon dice of damage equal to half your level (round down).</p>"
+                        }
+                    }
+                }
+            }
+        },
+        "Yriel Lirandar": {
+            "name": "Yriel Lirandar",
+            "tokenName": "Yriel Lirandar",
+            "items": {
+                "Chainmail": {
+                    "name": "Chainmail"
+                },
+                "Shield": {
+                    "name": "Shield"
+                },
+                "Backpack": {
+                    "description": "<p>Holds all the gear you can carry. Don't lose it.</p>",
+                    "name": "Backpack"
+                },
+                "Arrows": {
+                    "description": "<p>Ammunition for shortbows or longbows.</p>",
+                    "name": "Arrows"
+                },
+                "Iron Spikes": {
+                    "description": "<p>Strong spikes. Each has a hole for threading</p><p>rope. Can be hammered in with weapons or other iron spikes.</p>",
+                    "name": "Iron Spikes"
+                },
+                "Grappling Hook": {
+                    "description": "<p>A rope anchor with three, curved tines.</p>",
+                    "name": "Grappling Hook"
+                },
+                "Rope, 60'": {
+                    "description": "<p>Hemp, 60’ long.</p>",
+                    "name": "Rope, 60'"
+                },
+                "Rations": {
+                    "description": "<p>One day of food and water supply for one person.</p>",
+                    "name": "Rations"
+                },
+                "Flint and Steel": {
+                    "description": "<p>A small fire starter. With it, routine attempts to light a fire always succeed.</p>",
+                    "name": "Flint and Steel"
+                },
+                "Torch": {
+                    "description": "<p>Sheds light to a near distance (see Light Sources, pg. 46). Burns for one hour of real time.</p>",
+                    "name": "Torch"
+                },
+                "w43og0dpp1JlvYzm": {
+                    "description": "<p>Sheds light to a near distance (see Light Sources, pg. 46). Burns for one hour of real time.</p>",
+                    "name": "Torch"
+                },
+                "Pole": {
+                    "description": "<p>Wooden, 10' long.</p>",
+                    "name": "Pole"
+                },
+                "Bastard Sword": {
+                    "name": "Bastard Sword"
+                },
+                "Longbow": {
+                    "name": "Longbow"
+                },
+                "Weapon Mastery (Bastard Sword)": {
+                    "description": "<p>Choose one type of weapon, such as longswords. You gain +1 to attack and damage with that weapon type. In addition, add half your level to these rolls (round down).</p>",
+                    "name": "Weapon Mastery (Bastard Sword)",
+                    "effects": {
+                        "Weapon Mastery": {
+                            "name": "Weapon Mastery"
+                        }
+                    }
+                },
+                "Farsight (Ranged)": {
+                    "description": "<p>You get a +1 bonus to attack rolls with ranged weapons <strong>or</strong> a +1 bonus to spellcasting checks.</p>",
+                    "name": "Farsight (Ranged)",
+                    "effects": {
+                        "Ranged Attack Roll Bonus": {
+                            "name": "Ranged Attack Roll Bonus"
+                        }
+                    }
+                },
+                "Grit (Strength)": {
+                    "description": "<p>Choose Strength or Dexterity. You have advantage on checks of that type to overcome an opposing force, such as kicking open a stuck door (Strength) or slipping free of rusty chains (Dexterity).</p>",
+                    "name": "Grit (Strength)",
+                    "effects": {
+                        "Advantage Against Opposing Force": {
+                            "name": "Advantage Against Opposing Force",
+                            "description": "<p>You have advantage on Strength checks to overcome an opposing force, such as kicking open a stuck door, etc.</p>"
+                        }
+                    }
+                },
+                "Hauler": {
+                    "description": "<p>Add your Constitution modifier, if positive, to your gear slots.</p>",
+                    "name": "Hauler",
+                    "effects": {
+                        "Hauler": {
+                            "name": "Hauler"
+                        }
+                    }
+                },
+                "+2 to Strength": {
+                    "name": "+2 to Strength",
+                    "effects": {
+                        "Ability Score Improvement (Str)": {
+                            "name": "Ability Score Improvement (Str)"
+                        }
+                    }
+                }
+            }
+        },
+        "Zaldini the Red": {
+            "name": "Zaldini the Red",
+            "tokenName": "Zaldini the Red",
+            "items": {
+                "Glass Bottle": {
+                    "description": "<p>Glass containers that hold one draught of liquid.</p>",
+                    "name": "Glass Bottle"
+                },
+                "Pole": {
+                    "description": "<p>Wooden, 10' long.</p>",
+                    "name": "Pole"
+                },
+                "Flint and Steel": {
+                    "description": "<p>A small fire starter. With it, routine attempts to light a fire always succeed.</p>",
+                    "name": "Flint and Steel"
+                },
+                "Torch": {
+                    "description": "<p>Sheds light to a near distance (see Light Sources, pg. 46). Burns for one hour of real time.</p>",
+                    "name": "Torch"
+                },
+                "Rations": {
+                    "description": "<p>One day of food and water supply for one person.</p>",
+                    "name": "Rations"
+                },
+                "Oil, Flask": {
+                    "description": "<p>Fuels a lantern for one hour of real time. One flask covers a close area and burns for 4 rounds, dealing 1d4 damage each round.</p>",
+                    "name": "Oil, Flask"
+                },
+                "2Gzbipgoj6Z7tV0d": {
+                    "description": "<p>Fuels a lantern for one hour of real time. One flask covers a close area and burns for 4 rounds, dealing 1d4 damage each round.</p>",
+                    "name": "Oil, Flask"
+                },
+                "Grappling Hook": {
+                    "description": "<p>A rope anchor with three, curved tines.</p>",
+                    "name": "Grappling Hook"
+                },
+                "Rope, 60'": {
+                    "description": "<p>Hemp, 60’ long.</p>",
+                    "name": "Rope, 60'"
+                },
+                "Backpack": {
+                    "description": "<p>Holds all the gear you can carry. Don't lose it.</p>",
+                    "name": "Backpack"
+                },
+                "Dagger": {
+                    "name": "Dagger"
+                },
+                "Burning Hands": {
+                    "description": "<p>You spread your fingers with thumbs touching, unleashing a circle of flame that fills a close area around where you stand.</p><p>Creatures within the area of effect take [[/r 1d6]] damage.</p><p>Unattended flammable objects ignite.</p>",
+                    "name": "Burning Hands"
+                },
+                "Charm Person": {
+                    "description": "<p>You magically beguile one humanoid of LV 2 or less within near range, who regards you as a friend for the duration.</p><p>The spell ends if you or your allies do anything harmful to the target.</p><p>The target knows it was magically charmed after the spell ends.</p><p>Roll [[/r 1d8]] to determine amount of days effective</p><p>@UUID[Compendium.shadowdark.spell-effects.Z0YwWUGs3WYC6OGn]{Spell Effect: Charm Person}</p>",
+                    "name": "Charm Person"
+                },
+                "Magic Missile": {
+                    "description": "<p>You have advantage on your check to cast this spell.</p><p>A glowing bolt of force streaks from your open hand, dealing [[/r 1d4]] damage to one target.</p>",
+                    "name": "Magic Missile"
+                },
+                "Keen Senses": {
+                    "description": "<p>You can't be surprised.</p>",
+                    "name": "Keen Senses"
+                },
+                "Spellcasting (Wizard)": {
+                    "description": "<p><strong>Spellcasting.</strong> You can cast wizard spells you know.</p><p>You know three tier 1 spells of your choice from the wizard spell list (see pg. 57).</p><p>Each time you gain a level, you choose new wizard spells to learn according to the Wizard Spells Known table.</p><p>For casting wizard spells, see Spellcasting on pg. 52.</p>",
+                    "name": "Spellcasting (Wizard)",
+                    "effects": {
+                        "Spell Class": {
+                            "name": "Spell Class"
+                        }
+                    }
+                },
+                "+1 on Spellcasting Checks": {
+                    "name": "+1 on Spellcasting Checks",
+                    "effects": {
+                        "Spellcasting Check Bonus": {
+                            "name": "Spellcasting Check Bonus"
+                        }
+                    }
+                },
+                "Magic Missile Advantage": {
+                    "description": "<p>Wizards always have advantage on casting Magic Missile.</p>",
+                    "name": "Magic Missile Advantage",
+                    "effects": {
+                        "Spellcasting Advantage on Spell": {
+                            "name": "Spellcasting Advantage on Spell"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

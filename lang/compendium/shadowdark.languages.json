@@ -1,0 +1,69 @@
+{
+    "label": "Languages",
+    "mapping": {
+        "description": "system.description",
+        "name": "name"
+    },
+    "entries": {
+        "Celestial": {
+            "description": "<p>Angels</p>",
+            "name": "Celestial"
+        },
+        "Common": {
+            "description": "<p>Most humanoids</p>",
+            "name": "Common"
+        },
+        "Diabolic": {
+            "description": "<p>Demons, devils</p>",
+            "name": "Diabolic"
+        },
+        "Draconic": {
+            "description": "<p>Dragons</p>",
+            "name": "Draconic"
+        },
+        "Dwarvish": {
+            "description": "<p>Dwarves</p>",
+            "name": "Dwarvish"
+        },
+        "Elvish": {
+            "description": "<p>Elves</p>",
+            "name": "Elvish"
+        },
+        "Giant": {
+            "description": "<p>Giants, ogres, trolls</p>",
+            "name": "Giant"
+        },
+        "Goblin": {
+            "description": "<p>Bugbears, goblins, hobgoblins</p>",
+            "name": "Goblin"
+        },
+        "Merran": {
+            "description": "<p>Merfolk, sahuagin, sirens</p>",
+            "name": "Merran"
+        },
+        "Orcish": {
+            "description": "<p>Orcs</p>",
+            "name": "Orcish"
+        },
+        "Primordial": {
+            "description": "<p>Elder things, elementals</p>",
+            "name": "Primordial"
+        },
+        "Reptilian": {
+            "description": "<p>Lizardfolk, viperians</p>",
+            "name": "Reptilian"
+        },
+        "Sylvan": {
+            "description": "<p>Centaurs, dryads, faeries</p>",
+            "name": "Sylvan"
+        },
+        "Thanian": {
+            "description": "<p>Minotaurs, beastmen, manticores</p>",
+            "name": "Thanian"
+        }
+    },
+    "folders": {
+        "Common": "Common",
+        "Rare": "Rare"
+    }
+}

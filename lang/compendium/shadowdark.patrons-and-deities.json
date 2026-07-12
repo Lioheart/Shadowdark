@@ -1,0 +1,85 @@
+{
+    "label": "Patrons and Deities",
+    "mapping": {
+        "description": "system.description",
+        "name": "name"
+    },
+    "entries": {
+        "All Nord Gods": {
+            "description": "<p>The faithful worship all of the Old Gods in turn, but many find they align with one in particular. Paying respect to all the gods is not a betrayal; it is honorable.</p>",
+            "name": "All Nord Gods"
+        },
+        "Almazzat": {
+            "description": "<p>A wolf-headed arch-demon with six eyes and six horns. Almazzat seeks to wrest the Sands of the Ages from his father, Kytheros.</p>",
+            "name": "Almazzat"
+        },
+        "bRTH2GeVuEbWw2Dw": {
+            "description": "<p>Shune whispers arcane secrets to sorcerers and witches who call to her in the dark hours. She schemes to displace Ord so she can control the vast flow of magic herself.</p>",
+            "name": "Shune the Vile"
+        },
+        "cQGIVxXN6caEcOWt": {
+            "description": "<p>A goddess, the Mother Witch who speaks to her children in the flicker of candles and the rattle of dry bones. Shune seeks hidden secrets and lost lore.</p>",
+            "name": "Shune the Vile"
+        },
+        "Freya": {
+            "description": "<p>The goddess of love and hatred. The Queen of Shield Maidens whose valkyries carry worthy souls to the Great Feast. The First Seer who places her omens in bones, blood, and entrails. Freya inspires the poets and then torments them with lack.</p>",
+            "name": "Freya"
+        },
+        "Gede": {
+            "description": "<p>The god of feasts, mirth, and the wilds. Gede is usually peaceful, but primal storms rage when her anger rises. Many elves and halflings worship her.</p>",
+            "name": "Gede"
+        },
+        "Kytheros": {
+            "description": "<p>The Lord of Time who sees all possible futures. Kytheros seeks the fulfillment of all destinies as they were meant to be.</p>",
+            "name": "Kytheros"
+        },
+        "Loki": {
+            "description": "<p>The Deceiver who wins with wit and wile. The wolf who disguises himself as a sheep. Loki is glib and infuriating; his words cut like steel, and his laughter howls like a gale. His followers do not seek Valhalla, for they know it will fall when Ragnarok comes.</p>",
+            "name": "Loki"
+        },
+        "Madeera the Covenant": {
+            "description": "<p>Madeera was the first manifestation of Law. She carries every law of reality, a dictate called the Covenant, written on her skin in precise symbols.</p>",
+            "name": "Madeera the Covenant"
+        },
+        "Memnon": {
+            "description": "<p>Memnon was the first manifestation of Chaos. He is Madeera’s twin, a red-maned, leonine being whose ultimate ambition is to rend the cosmic laws of the Covenant from his sister’s skin.</p>",
+            "name": "Memnon"
+        },
+        "Mugdulblub": {
+            "description": "<p>The Elder Ooze that leaks between the cracks in memory and the darkness between the stars. Mugdulblub seeks the dissolution of all physical form.</p>",
+            "name": "Mugdulblub"
+        },
+        "Odin": {
+            "description": "<p>The Allfather. Odin the One-Eyed values strength and cleverness. His twin ravens wing through the night, spying on dreams and memories. Worthy warriors are brought to the Great Hall of Valhalla when they die to feast and fight beside him eternally.</p>",
+            "name": "Odin"
+        },
+        "Ord": {
+            "description": "<p>Ord the Unbending, the Wise, the Secret-Keeper. He is the god of magic, knowledge, secrets, and equilibrium.</p>",
+            "name": "Ord"
+        },
+        "Ramlaat": {
+            "description": "<p>Ramlaat is the Pillager, the Barbaric, the Horde. Many orcs worship him and live by the Blood Rite, a prophecy that says only the strongest will survive a coming doom.</p>",
+            "name": "Ramlaat"
+        },
+        "Saint Terragnis": {
+            "description": "<p>A legendary knight who is the patron of most lawful humans. She ascended to godhood long ago and is the embodiment of righteousness and justice.</p>",
+            "name": "Saint Terragnis"
+        },
+        "The Lost": {
+            "description": "<p>Two of The Nine are lost to the ages, their names expunged from history and memory. Yet their whispered legend lingers on in ancient, forbidden texts and secret, deep places...</p>",
+            "name": "The Lost"
+        },
+        "The Willowman": {
+            "description": "<p>A ghostly, elongated being who stalks misty forests and watches from the edge of nightmares. The Willowman seeks fear.</p>",
+            "name": "The Willowman"
+        },
+        "Titania": {
+            "description": "<p>The fickle Queen of the Fey who views all of existence as a whimsical dream with hidden meaning and poignant drama. Titania seeks mischief, beauty, and artistry.</p>",
+            "name": "Titania"
+        }
+    },
+    "folders": {
+        "Deities": "Deities",
+        "Patrons": "Patrons"
+    }
+}

@@ -1,0 +1,257 @@
+{
+    "label": "Gear",
+    "mapping": {
+        "description": "system.description",
+        "name": "name"
+    },
+    "entries": {
+        "Backpack": {
+            "description": "<p>Holds all the gear you can carry. Don't lose it.</p>",
+            "name": "Backpack"
+        },
+        "Basilisk Egg": {
+            "description": "<p>A loyal baby hatches in [[/r 1d4]] days.</p>",
+            "name": "Basilisk Egg"
+        },
+        "Bastard Sword": {
+            "name": "Bastard Sword"
+        },
+        "Blowgun": {
+            "name": "Blowgun"
+        },
+        "Bolas": {
+            "name": "Bolas"
+        },
+        "Boomerang": {
+            "name": "Boomerang"
+        },
+        "Bottle": {
+            "description": "<p>Glass containers that hold one draught of liquid.</p>",
+            "name": "Bottle"
+        },
+        "Caltrops": {
+            "description": "<p>Tiny, triangle-shaped iron spikes. Living creatures who step on caltrops take 1 damage and can only move at half speed for 10 rounds.</p>",
+            "name": "Caltrops"
+        },
+        "Chainmail": {
+            "name": "Chainmail"
+        },
+        "Club": {
+            "name": "Club"
+        },
+        "Club (Obsidian)": {
+            "name": "Club (Obsidian)"
+        },
+        "Crawling Kit": {
+            "description": "<p>A crawling kit costs 7 gp. It uses 7 gear slots and contains the following items.</p><ul><li><p>@UUID[Compendium.shadowdark.gear.oSnfz4qcWlUL6cDZ]{Backpack}</p></li><li><p>@UUID[Compendium.shadowdark.gear.ERprfuTIFRFEix9G]{Flint and Steel}</p></li><li><p>2x @UUID[Compendium.shadowdark.gear.z3xc7HGysC4ZCU8e]{Torch}</p></li><li><p>@UUID[Compendium.shadowdark.gear.EPndk3DPOEOSvbga]{Iron Spikes}</p></li><li><p>@UUID[Compendium.shadowdark.gear.GX6OmWQiE7MzTmjX]{Rations}</p></li><li><p>@UUID[Compendium.shadowdark.gear.fqsLWV46NWH0L53l]{Grappling Hook}</p></li><li><p>@UUID[Compendium.shadowdark.gear.6ZRwVHFlh5QiyZWC]{Rope, 60'}</p></li></ul>",
+            "name": "Crawling Kit"
+        },
+        "Crossbow": {
+            "name": "Crossbow"
+        },
+        "Crossbow Bolts": {
+            "description": "<p>Ammunition for crossbows.</p>",
+            "name": "Crossbow Bolts"
+        },
+        "Crowbar": {
+            "description": "<p>Grants advantage on checks to pry open stuck objects.</p>",
+            "name": "Crowbar"
+        },
+        "Curative": {
+            "description": "<p><strong>Benefit</strong>. The imbiber of this herb regains hit points based on its level.</p><p><strong>LV 1-3</strong>: [[/r 1d6]] hit points.</p><p><strong>LV 4-6</strong>: [[/r 2d8]] hit points.</p><p><strong>LV 7-9</strong>: [[/r 3d10]] hit points.</p><p><strong>LV 10+</strong>: [[/r 4d12]] hit points.</p>",
+            "name": "Curative"
+        },
+        "Dagger": {
+            "name": "Dagger"
+        },
+        "Dagger (Obsidian)": {
+            "name": "Dagger (Obsidian)"
+        },
+        "EPndk3DPOEOSvbga": {
+            "description": "<p>Strong spikes. Each has a hole for threading</p><p>rope. Can be hammered in with weapons or other iron spikes.</p>",
+            "name": "Iron Spikes"
+        },
+        "Flask": {
+            "description": "<p>Glass containers that hold one draught of liquid.</p>",
+            "name": "Flask"
+        },
+        "Flint and Steel": {
+            "description": "<p>A small fire starter. With it, routine attempts to light a fire always succeed.</p>",
+            "name": "Flint and Steel"
+        },
+        "Foebane": {
+            "description": "<p>ADV on attacks and damage against one creature type you choose for [[/r 1d6]] rounds</p>",
+            "name": "Foebane"
+        },
+        "Grappling Hook": {
+            "description": "<p>A rope anchor with three, curved tines.</p>",
+            "name": "Grappling Hook"
+        },
+        "Greataxe": {
+            "name": "Greataxe"
+        },
+        "Greatsword": {
+            "name": "Greatsword"
+        },
+        "Handaxe": {
+            "description": "<p><strong>Finesse (F).</strong> You can use your Strength or Dexterity when attacking with this weapon.</p><p><strong>Thrown (Th).</strong> You can throw this weapon to make a ranged attack with it using Strength.</p>",
+            "name": "Handaxe"
+        },
+        "Holy Symbol": {
+            "name": "Holy Symbol"
+        },
+        "Javelin": {
+            "name": "Javelin"
+        },
+        "krielHVQxel7Jjtm": {
+            "description": "<p>Strong spikes. Each has a hole for threading</p><p>rope. Can be hammered in with weapons or other iron spikes.</p>",
+            "name": "Iron Spikes"
+        },
+        "Lantern": {
+            "description": "<p>Casts light up to a double near distance (see Light, pg. 46). Requires oil. Has a shutter to hide the light.</p>",
+            "name": "Lantern"
+        },
+        "Leather Armor": {
+            "name": "Leather Armor"
+        },
+        "Light Spell": {
+            "description": "<p>Dummy item that acts like a light source cast by the @UUID[Compendium.shadowdark.spells.N4v17mtxJlVBbgpn]{Light} spell.</p>",
+            "name": "Light Spell"
+        },
+        "Light Spell (Double Range)": {
+            "description": "<p>Dummy item that acts like a light source cast by the double range @UUID[Compendium.shadowdark.spells.N4v17mtxJlVBbgpn]{Light} spell.</p>",
+            "name": "Light Spell (Double Range)"
+        },
+        "Light Spell (Double Time)": {
+            "description": "<p>Dummy item that acts like a light source cast by the @UUID[Compendium.shadowdark.spells.N4v17mtxJlVBbgpn]{Light} spell.</p>",
+            "name": "Light Spell (Double Time)"
+        },
+        "Longbow": {
+            "name": "Longbow"
+        },
+        "Longsword": {
+            "name": "Longsword"
+        },
+        "Mace": {
+            "name": "Mace"
+        },
+        "Mirror": {
+            "description": "<p>A small, polished mirror.</p>",
+            "name": "Mirror"
+        },
+        "Mithral Chainmail": {
+            "name": "Mithral Chainmail"
+        },
+        "Mithral Plate Mail": {
+            "name": "Mithral Plate Mail"
+        },
+        "Morningstar": {
+            "name": "Morningstar"
+        },
+        "Oil, flask": {
+            "description": "<p>Fuels a lantern for one hour of real time. One flask covers a close area and burns for 4 rounds, dealing 1d4 damage each round.</p>",
+            "name": "Oil, flask"
+        },
+        "Pike": {
+            "description": "<p><strong>Range.</strong> 2x Close</p><p>Requires 2 slots.</p>",
+            "name": "Pike"
+        },
+        "Plate Mail": {
+            "name": "Plate Mail"
+        },
+        "Pole": {
+            "description": "<p>Wooden, 10' long.</p>",
+            "name": "Pole"
+        },
+        "Rations": {
+            "description": "<p>One day of food and water supply for one person.</p>",
+            "name": "Rations"
+        },
+        "Razor Chain": {
+            "name": "Razor Chain"
+        },
+        "Restorative": {
+            "description": "<p>Ends one poison or disease</p>",
+            "name": "Restorative"
+        },
+        "Rope, 60'": {
+            "description": "<p>Hemp, 60’ long.</p>",
+            "name": "Rope, 60'"
+        },
+        "Round Shield": {
+            "name": "Round Shield"
+        },
+        "Salve": {
+            "description": "<p>Heals 1 HP</p>",
+            "name": "Salve"
+        },
+        "Scimitar": {
+            "name": "Scimitar"
+        },
+        "Shield": {
+            "name": "Shield"
+        },
+        "Shortbow": {
+            "name": "Shortbow"
+        },
+        "Shortsword": {
+            "name": "Shortsword"
+        },
+        "Shuriken": {
+            "name": "Shuriken"
+        },
+        "Sling": {
+            "name": "Sling"
+        },
+        "Spear": {
+            "name": "Spear"
+        },
+        "Spear (Obsidian)": {
+            "name": "Spear (Obsidian)"
+        },
+        "Spear-thrower": {
+            "description": "<p>When used to throw a spear, increase the spear's range to far.</p>",
+            "name": "Spear-thrower"
+        },
+        "Staff": {
+            "name": "Staff"
+        },
+        "Stave": {
+            "name": "Stave"
+        },
+        "Stimulant": {
+            "description": "<p>You can't be surprised for 10 rounds</p><p>@UUID[Compendium.shadowdark.conditions.MUNwczWej0Bo8x4S]{Effect: Stimulant}</p>",
+            "name": "Stimulant"
+        },
+        "tDNafhuDDdiVNUMy": {
+            "description": "<p>Ammunition for shortbows or longbows.</p>",
+            "name": "Arrows"
+        },
+        "Thieves' Tools": {
+            "description": "<p>ADV on checks to climb, sneak, hide, apply disguises, find and disable traps, and perform delicate tasks.</p>",
+            "name": "Thieves' Tools"
+        },
+        "Torch": {
+            "description": "<p>Sheds light to a near distance (see Light Sources, pg. 46). Burns for one hour of real time.</p>",
+            "name": "Torch"
+        },
+        "Warhammer": {
+            "name": "Warhammer"
+        },
+        "Whip": {
+            "description": "<p><strong>Type:</strong> Melee or Ranged.</p><p><strong>Range:</strong> Close or Near</p><p><strong>Finesse (F).</strong> You may use your STR or DEX when attacking with this weapon.</p><p><strong>Lash (La).</strong> When you make a ranged attack with this weapon, it does not leave your grasp.</p>",
+            "name": "Whip"
+        },
+        "XXwA9ZWajYEDmcea": {
+            "description": "<p>Ammunition for shortbows or longbows.</p>",
+            "name": "Arrows"
+        }
+    },
+    "folders": {
+        "Armor": "Armor",
+        "Basic Gear": "Basic Gear",
+        "Herbal Remedies": "Herbal Remedies",
+        "Starting Gear": "Starting Gear",
+        "Weapons": "Weapons"
+    }
+}

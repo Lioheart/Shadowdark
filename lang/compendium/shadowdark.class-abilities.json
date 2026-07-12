@@ -1,0 +1,109 @@
+{
+    "label": "Class Abilities",
+    "mapping": {
+        "description": "system.description",
+        "name": "name"
+    },
+    "entries": {
+        "Berserk": {
+            "description": "<p>1/day, go berserk: immune to damage for 3 rounds.</p>",
+            "name": "Berserk"
+        },
+        "Charge": {
+            "description": "<p>3/day, you can charge into combat by moving at least near before attacking. Each time you do this, your melee attacks deal double damage that round.</p>",
+            "name": "Charge"
+        },
+        "Curative": {
+            "description": "<p><strong>Curative.</strong> Equivalent to a @UUID[Compendium.shadowdark.magic-items.Item.jucTGEjsqJ1znHdf]{Potion of Healing}</p>",
+            "name": "Curative"
+        },
+        "Demonic Possession": {
+            "description": "<p>3/day, gain a +1 bonus to your damage rolls that lasts 3 rounds.</p><p>In addition, add half your level to the damage bonus (round down).</p>",
+            "name": "Demonic Possession"
+        },
+        "Fascinate": {
+            "description": "<p>(Focus). You transfix all chosen targets of level 4 or less within near.</p>",
+            "name": "Fascinate"
+        },
+        "Flourish": {
+            "description": "<p>3/day, regain [[/roll 1d6]] hit points when you hit an enemy with a melee attack.</p>",
+            "name": "Flourish"
+        },
+        "Foebane": {
+            "description": "<p>@UUID[Compendium.shadowdark.gear.Item.FeoRamUTz5jakMJ8]{Foebane} ADV on attacks and damage against one creature type you choose for [[/r 1d6]] rounds</p>",
+            "name": "Foebane"
+        },
+        "Hide from Creature": {
+            "description": "<p>1/day, choose a creature of LV 9 or less you can see; it must pass a [[check 15 wis]] check or it can't see or hear you for 1d4 rounds.</p>",
+            "name": "Hide from Creature"
+        },
+        "Ignore All Damage": {
+            "description": "<p>1/day, ignore all damage and effects from one attack.</p>",
+            "name": "Ignore All Damage"
+        },
+        "Inspire": {
+            "description": "<p>One target in near gains a luck token.</p>",
+            "name": "Inspire"
+        },
+        "Omen": {
+            "description": "<p>3/day, you can make a [[check 9 wis]] check. On a success, gain a luck token (you can't have more than one luck token at a time).</p>",
+            "name": "Omen"
+        },
+        "Paralyze a Target": {
+            "description": "<p>1/day, paralyze a target of LV 9 or less you damage with a weapon for 1d4 rounds.</p>",
+            "name": "Paralyze a Target"
+        },
+        "Petrifying Gaze": {
+            "description": "<p>One creature of your level or less that meets your gaze must pass a DC 15 CON check or be petrified for 1d4 rounds. It still takes damage as normal while petrified.</p><p>You can use this talent a number of times per day equal to your CON modifier (minimum 1).</p>",
+            "name": "Petrifying Gaze"
+        },
+        "Relentless": {
+            "description": "<p>3/day, when you are reduced to 0 HP, make a [[check 18 con]] check (the Implacable talent applies to this roll). On a success, you instead go to 1 HP.</p>",
+            "name": "Relentless"
+        },
+        "Restorative": {
+            "description": "<p>@UUID[Compendium.shadowdark.gear.Item.QV93CYmgcgJ3UCPf]{Restorative} Ends one poison or disease</p>",
+            "name": "Restorative"
+        },
+        "Salve": {
+            "description": "<p>@UUID[Compendium.shadowdark.gear.Item.m857P6MI00wAONTp]{Salve} Heals 1 HP</p>",
+            "name": "Salve"
+        },
+        "Sleep a Creature": {
+            "description": "<p>1/day, choose a living creature of LV 5 or less you can see within near; it must pass a [[check 15 con]] check or fall asleep.</p>",
+            "name": "Sleep a Creature"
+        },
+        "Smoke Step": {
+            "description": "<p>3/day, teleport to a location you can see within near. This does not use your action.</p>",
+            "name": "Smoke Step"
+        },
+        "Stimulant": {
+            "description": "<p>@UUID[Compendium.shadowdark.gear.Item.dBQr9YPyhvwyPm0g]{Stimulant} You can't be surprised for 10 rounds</p>",
+            "name": "Stimulant"
+        },
+        "Teleport to Familiar": {
+            "description": "<p>1/day, teleport to your familiar's location as a move</p><p>duplicate = +1 use per day</p>",
+            "name": "Teleport to Familiar"
+        },
+        "Walk on Sheer Surfaces": {
+            "description": "<p>1/day, you can walk on sheer surfaces like walls for 1d4 rds.</p>",
+            "name": "Walk on Sheer Surfaces"
+        },
+        "Walk on Water": {
+            "description": "<p>1/day, you can walk on water as if it were solid for 1d4 rds.</p>",
+            "name": "Walk on Water"
+        }
+    },
+    "folders": {
+        "Bard": "Bard",
+        "Basilisk Warrior": "Basilisk Warrior",
+        "Desert Rider": "Desert Rider",
+        "Knight of St. Ydris": "Knight of St. Ydris",
+        "Pit Fighter": "Pit Fighter",
+        "Ranger": "Ranger",
+        "Ras-Godai": "Ras-Godai",
+        "Sea Wolf": "Sea Wolf",
+        "Seer": "Seer",
+        "Witch": "Witch"
+    }
+}

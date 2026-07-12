@@ -1,0 +1,254 @@
+{
+    "label": "Backgrounds",
+    "mapping": {
+        "description": "system.description",
+        "name": "name"
+    },
+    "entries": {
+        "Acolyte": {
+            "description": "<p>You're well trained in religious rites and doctrines</p>",
+            "name": "Acolyte"
+        },
+        "Amnesiac": {
+            "description": "<p>Your past is a haze, but some memories return</p>",
+            "name": "Amnesiac"
+        },
+        "Ascetic": {
+            "description": "<p>People fear you, but seek out your guidance</p>",
+            "name": "Ascetic"
+        },
+        "Banished": {
+            "description": "<p>Your people cast you out for supposed crimes</p>",
+            "name": "Banished"
+        },
+        "Barbarian": {
+            "description": "<p>You left the horde, but it never quite left you</p>",
+            "name": "Barbarian"
+        },
+        "Blacksmith": {
+            "description": "<p>Weapons, armor, horseshoes; you do it all</p>",
+            "name": "Blacksmith"
+        },
+        "Bowyer": {
+            "description": "<p>You can make and fix any bow or arrow</p>",
+            "name": "Bowyer"
+        },
+        "Chirurgeon": {
+            "description": "<p>You know anatomy, surgery, and first aid</p>",
+            "name": "Chirurgeon"
+        },
+        "Chosen": {
+            "description": "<p>An eldritch being selected you for a purpose</p>",
+            "name": "Chosen"
+        },
+        "Crafter": {
+            "description": "<p>You can make and fix any utilitarian item</p>",
+            "name": "Crafter"
+        },
+        "Criminal": {
+            "description": "<p>You were exiled from your village for a crime</p>",
+            "name": "Criminal"
+        },
+        "Crop Farmer": {
+            "description": "<p>You toil in the earth and know all plants</p>",
+            "name": "Crop Farmer"
+        },
+        "Cult Initiate": {
+            "description": "<p>You know blasphemous secrets and rituals</p>",
+            "name": "Cult Initiate"
+        },
+        "Demonborn": {
+            "description": "<p>An ancestor of yours is a powerful demon</p>",
+            "name": "Demonborn"
+        },
+        "Displaced": {
+            "description": "<p>You fled after a rival jarl attacked your village</p>",
+            "name": "Displaced"
+        },
+        "Drawn": {
+            "description": "<p>You hear a whispered call and follow it</p>",
+            "name": "Drawn"
+        },
+        "Drifter": {
+            "description": "<p>You have not yet found a jarl worthy of your loyalty</p>",
+            "name": "Drifter"
+        },
+        "Enforcer": {
+            "description": "<p>You enforce the jarl's law in your village</p>",
+            "name": "Enforcer"
+        },
+        "Fallen": {
+            "description": "<p>You fell from grace. Will you atone, or embrace it?</p>",
+            "name": "Fallen"
+        },
+        "Far Traveler": {
+            "description": "<p>You know many distant people and customs</p>",
+            "name": "Far Traveler"
+        },
+        "Feytouched": {
+            "description": "<p>A fairy befriended you in your childhood</p>",
+            "name": "Feytouched"
+        },
+        "Fisher": {
+            "description": "<p>You know all the sea creatures and legends</p>",
+            "name": "Fisher"
+        },
+        "Forager": {
+            "description": "<p>You know how to find the edible and the deadly</p>",
+            "name": "Forager"
+        },
+        "Freed": {
+            "description": "<p>You were a thrall, but escaped or won your freedom</p>",
+            "name": "Freed"
+        },
+        "Fugitive": {
+            "description": "<p>An anonymous savior helped you disappear</p>",
+            "name": "Fugitive"
+        },
+        "God's Blood": {
+            "description": "<p>You are descended from a god; it marks you</p>",
+            "name": "God's Blood"
+        },
+        "Haunted": {
+            "description": "<p>A restless spirit wants something from you</p>",
+            "name": "Haunted"
+        },
+        "Healer": {
+            "description": "<p>You understand how life and death intertwine</p>",
+            "name": "Healer"
+        },
+        "Herbalist": {
+            "description": "<p>You know plants, medicines, and poisons</p>",
+            "name": "Herbalist"
+        },
+        "Hermit": {
+            "description": "<p>The wilds (and its creatures) are your family</p>",
+            "name": "Hermit"
+        },
+        "Heroborn": {
+            "description": "<p>You are the descendant of a famous warrior</p>",
+            "name": "Heroborn"
+        },
+        "Hunter": {
+            "description": "<p>You know how to move quietly in the wilds</p>",
+            "name": "Hunter"
+        },
+        "Jeweler": {
+            "description": "<p>You can easily appraise value and authenticity</p>",
+            "name": "Jeweler"
+        },
+        "Livestock Farmer": {
+            "description": "<p>You have intuition about all animals</p>",
+            "name": "Livestock Farmer"
+        },
+        "Marked": {
+            "description": "<p>You carry an eldritch mark. Is it a curse, or a gift?</p>",
+            "name": "Marked"
+        },
+        "Marooned": {
+            "description": "<p>They left you behind, but you refused to die</p>",
+            "name": "Marooned"
+        },
+        "Mercenary": {
+            "description": "<p>You fought friend and foe alike for your coin</p>",
+            "name": "Mercenary"
+        },
+        "Minstrel": {
+            "description": "<p>You've traveled far with your charm and talent</p>",
+            "name": "Minstrel"
+        },
+        "Noble": {
+            "description": "<p>A famous name has opened many doors for you</p>",
+            "name": "Noble"
+        },
+        "Nobleborn": {
+            "description": "<p>You are the child of a jarl.</p>",
+            "name": "Nobleborn"
+        },
+        "Orphaned": {
+            "description": "<p>An unusual guardian rescued and raised you</p>",
+            "name": "Orphaned"
+        },
+        "Outcast": {
+            "description": "<p>You were thrown out for real or supposed crimes</p>",
+            "name": "Outcast"
+        },
+        "Ranger": {
+            "description": "<p>The woods and wilds are your true home</p>",
+            "name": "Ranger"
+        },
+        "Redeemer": {
+            "description": "<p>You must redeem the name of your kin</p>",
+            "name": "Redeemer"
+        },
+        "Sacrifice": {
+            "description": "<p>You were to be ritually sacrificed, but escaped</p>",
+            "name": "Sacrifice"
+        },
+        "Sailor": {
+            "description": "<p>Pirate, privateer, or merchant — the seas are yours</p>",
+            "name": "Sailor"
+        },
+        "Scholar": {
+            "description": "<p>You know much about ancient history and lore</p>",
+            "name": "Scholar"
+        },
+        "Scout": {
+            "description": "<p>You survived on stealth, observation, and speed</p>",
+            "name": "Scout"
+        },
+        "Seer's Apprentice": {
+            "description": "<p>You know some of the mystic arts</p>",
+            "name": "Seer's Apprentice"
+        },
+        "Shipwright": {
+            "description": "<p>You know how to build and repair longboats</p>",
+            "name": "Shipwright"
+        },
+        "Skald": {
+            "description": "<p>You are a poet and know all the ancient ballads</p>",
+            "name": "Skald"
+        },
+        "Soldier": {
+            "description": "<p>You served as a fighter in an organized army</p>",
+            "name": "Soldier"
+        },
+        "Thieves' Guild": {
+            "description": "<p>You have connections, contacts, and debts</p>",
+            "name": "Thieves' Guild"
+        },
+        "Trader": {
+            "description": "<p>You have mercantile connections in every village</p>",
+            "name": "Trader"
+        },
+        "Urchin": {
+            "description": "<p>You grew up in the merciless streets of a large city</p>",
+            "name": "Urchin"
+        },
+        "Wanted": {
+            "description": "<p>There's a price on your head, but you have allies</p>",
+            "name": "Wanted"
+        },
+        "Witchborn": {
+            "description": "<p>They burned your mother, but spared you</p>",
+            "name": "Witchborn"
+        },
+        "Wizard's Apprentice": {
+            "description": "<p>You have a knack and eye for magic</p>",
+            "name": "Wizard's Apprentice"
+        },
+        "Wolfchild": {
+            "description": "<p>Long ago, you walked into town wearing pelts</p>",
+            "name": "Wolfchild"
+        },
+        "Woodborn": {
+            "description": "<p>They found you in the hollow of an oak tree</p>",
+            "name": "Woodborn"
+        }
+    },
+    "folders": {
+        "Core": "Core",
+        "Diabolical": "Diabolical",
+        "Nord": "Nord"
+    }
+}

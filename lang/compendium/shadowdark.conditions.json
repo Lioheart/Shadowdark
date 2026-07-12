@@ -1,0 +1,464 @@
+{
+    "label": "Conditions",
+    "mapping": {
+        "description": "system.description",
+        "effects": {
+            "path": "effects",
+            "converter": "document",
+            "documentType": "ActiveEffect",
+            "cardinality": "many",
+            "mapping": {
+                "name": "name",
+                "description": "description"
+            }
+        },
+        "name": "name"
+    },
+    "entries": {
+        "0McK66FvDi42pjiu": {
+            "description": "<p>The character can't move until freed.</p>",
+            "name": "Condition: Stuck",
+            "effects": {
+                "Condition: Stuck": {
+                    "name": "Condition: Stuck"
+                }
+            }
+        },
+        "2UFWFSeffj7vrSSR": {
+            "description": "<p>The character is unconscious.</p>",
+            "name": "Condition: Unconscious",
+            "effects": {
+                "Condition: Unconscious": {
+                    "name": "Condition: Unconscious"
+                }
+            }
+        },
+        "3XkiakzqwT78EG4j": {
+            "name": "Condition: Mesmerized"
+        },
+        "4OcLCPW1pxzTua7d": {
+            "description": "<p>The character is beguiled.</p>",
+            "name": "Condition: Beguiled",
+            "effects": {
+                "Condition: Beguiled": {
+                    "name": "Condition: Beguiled"
+                }
+            }
+        },
+        "5Q6foTiBhvvLG7y3": {
+            "name": "Condition: Paralyzed"
+        },
+        "5S5y0GWE2akNYJiq": {
+            "name": "Condition: Drained (6)",
+            "effects": {
+                "Condition: Drained (6)": {
+                    "name": "Condition: Drained (6)"
+                }
+            }
+        },
+        "6Hd5Dzf2TnXL9Gxs": {
+            "description": "<p>The character is afraid.</p>",
+            "name": "Condition: Afraid",
+            "effects": {
+                "Condition: Afraid": {
+                    "name": "Condition: Afraid"
+                }
+            }
+        },
+        "74xpXmPIMUYnyt1M": {
+            "name": "Condition: Life Drain (3)",
+            "effects": {
+                "Condition: Life Drain (3)": {
+                    "name": "Condition: Life Drain (3)"
+                }
+            }
+        },
+        "7DNtQwX31lpChHZH": {
+            "description": "<p>The character is compelled.</p>",
+            "name": "Condition: Compelled",
+            "effects": {
+                "Condition: Compelled": {
+                    "name": "Condition: Compelled"
+                }
+            }
+        },
+        "7mCWjMOGoEUpJlGc": {
+            "name": "Condition: Gibbering"
+        },
+        "7yyr32LQtbwxDTAF": {
+            "description": "<p>The character is laughing.</p>",
+            "name": "Condition: Laughing",
+            "effects": {
+                "Condition: Laughing": {
+                    "name": "Condition: Laughing"
+                }
+            }
+        },
+        "8N8VrjrYr7pGris5": {
+            "name": "Condition: Laughing"
+        },
+        "9LKEdqM5gksbj8xV": {
+            "name": "Condition: Asleep"
+        },
+        "BcWf0hoWC2DZyaFH": {
+            "name": "Condition: Drained (5)",
+            "effects": {
+                "Condition: Drained (5)": {
+                    "name": "Condition: Drained (5)"
+                }
+            }
+        },
+        "Blind": {
+            "name": "Blind"
+        },
+        "Charmed": {
+            "name": "Charmed"
+        },
+        "Ck88Wezyv7vfvNGV": {
+            "name": "Condition: Petrified"
+        },
+        "Condition: Banished": {
+            "name": "Condition: Banished"
+        },
+        "Condition: Blind": {
+            "description": "<p>The blinded character has disadvantage on tasks requiring sight.</p>",
+            "name": "Condition: Blind",
+            "effects": {
+                "Blind": {
+                    "name": "Blind"
+                }
+            }
+        },
+        "Condition: Charmed": {
+            "description": "<p>The character is charmed and regards the source as a friend.</p>",
+            "name": "Condition: Charmed",
+            "effects": {
+                "Charmed": {
+                    "name": "Charmed"
+                }
+            }
+        },
+        "Condition: Enfeebled (Cha)": {
+            "description": "<p>The character is enfeebled.</p>",
+            "name": "Condition: Enfeebled (Cha)",
+            "effects": {
+                "Permanent Ability (Cha)": {
+                    "name": "Permanent Ability (Cha)"
+                }
+            }
+        },
+        "Condition: Enfeebled (Con)": {
+            "description": "<p>The character is enfeebled.</p>",
+            "name": "Condition: Enfeebled (Con)",
+            "effects": {
+                "Permanent Ability (Con)": {
+                    "name": "Permanent Ability (Con)"
+                }
+            }
+        },
+        "Condition: Enfeebled (Dex)": {
+            "description": "<p>The character is enfeebled.</p>",
+            "name": "Condition: Enfeebled (Dex)",
+            "effects": {
+                "Permanent Ability (Dex)": {
+                    "name": "Permanent Ability (Dex)"
+                }
+            }
+        },
+        "Condition: Enfeebled (Int)": {
+            "description": "<p>The character is enfeebled.</p>",
+            "name": "Condition: Enfeebled (Int)",
+            "effects": {
+                "Permanent Ability (Int)": {
+                    "name": "Permanent Ability (Int)"
+                }
+            }
+        },
+        "Condition: Enfeebled (Str)": {
+            "description": "<p>The character is enfeebled.</p>",
+            "name": "Condition: Enfeebled (Str)",
+            "effects": {
+                "Permanent Ability (Str)": {
+                    "name": "Permanent Ability (Str)"
+                }
+            }
+        },
+        "Condition: Enfeebled (Wis)": {
+            "description": "<p>The character is enfeebled.</p>",
+            "name": "Condition: Enfeebled (Wis)",
+            "effects": {
+                "Permanent Ability (Wis)": {
+                    "name": "Permanent Ability (Wis)"
+                }
+            }
+        },
+        "Condition: Invisible (Stealthy)": {
+            "description": "<p>The character is invisible.</p>",
+            "name": "Condition: Invisible (Stealthy)",
+            "effects": {
+                "Condition: Invisible": {
+                    "name": "Condition: Invisible"
+                }
+            }
+        },
+        "CyZNMVHNjIMTM0g7": {
+            "name": "Condition: Afraid"
+        },
+        "DihIx1S94zeXV3oM": {
+            "name": "Condition: Petrified",
+            "effects": {
+                "Condition: Petrified": {
+                    "name": "Condition: Petrified"
+                }
+            }
+        },
+        "eAWhmC9ZXzjhIa1H": {
+            "name": "Condition: Life Drain (1)",
+            "effects": {
+                "Condition: Life Drain (1)": {
+                    "name": "Condition: Life Drain (1)"
+                }
+            }
+        },
+        "Effect: Stimulant": {
+            "description": "<p>@UUID[Compendium.shadowdark.class-abilities.Item.EhaA5tBROfrws1Kx]{Stimulant}</p>",
+            "name": "Effect: Stimulant",
+            "effects": {
+                "Perceiving Advantage": {
+                    "name": "Perceiving Advantage"
+                }
+            }
+        },
+        "fHiOjFwljNOeJ2aX": {
+            "name": "Condition: Drained (1)",
+            "effects": {
+                "Condition: Drained (1)": {
+                    "name": "Condition: Drained (1)"
+                }
+            }
+        },
+        "fMXSo5UqQD0fedRc": {
+            "name": "Condition: Disease (2)",
+            "effects": {
+                "Condition: Disease (2)": {
+                    "name": "Condition: Disease (2)"
+                }
+            }
+        },
+        "FoXNI5CfBkJOvJ9c": {
+            "name": "Condition: Asleep",
+            "effects": {
+                "Condition: Asleep": {
+                    "name": "Condition: Asleep"
+                }
+            }
+        },
+        "gbK3h5sv3mNm3v3R": {
+            "name": "Condition: Stupified"
+        },
+        "GQDiR0cXfb86m83P": {
+            "name": "Condition: Drained (4)",
+            "effects": {
+                "Condition: Drained (4)": {
+                    "name": "Condition: Drained (4)"
+                }
+            }
+        },
+        "h8IoE9DUt8lyCAgQ": {
+            "name": "Condition: Cursed"
+        },
+        "HBDRaw3YhM22PJK2": {
+            "name": "Condition: Life Drain (2)",
+            "effects": {
+                "Condition: Life Drain (2)": {
+                    "name": "Condition: Life Drain (2)"
+                }
+            }
+        },
+        "iatMWq8uzO8KPaxd": {
+            "name": "Condition: Drained (2)"
+        },
+        "iTrME6gdEDXnxloZ": {
+            "name": "Condition: Unconscious"
+        },
+        "iU2qaminUz77BQ0L": {
+            "description": "<p>The character is gibbering.</p>",
+            "name": "Condition: Gibbering",
+            "effects": {
+                "Condition: Gibbering": {
+                    "name": "Condition: Gibbering"
+                }
+            }
+        },
+        "jT3yIGZpBlEYa2va": {
+            "name": "Condition: Drained (3)",
+            "effects": {
+                "Condition: Drained (3)": {
+                    "name": "Condition: Drained (3)"
+                }
+            }
+        },
+        "jtCuGSncFiHgfNgZ": {
+            "name": "Condition: Compelled"
+        },
+        "LDzTLiVPs1Qvyrzk": {
+            "description": "<p>The character is invisible.</p>",
+            "name": "Condition: Invisible"
+        },
+        "LmXXpHviIuB684gX": {
+            "name": "Condition: Invisible"
+        },
+        "mqOVlejHMZAvqnn4": {
+            "name": "Condition: Drained (2)",
+            "effects": {
+                "Condition: Drained (2)": {
+                    "name": "Condition: Drained (2)"
+                }
+            }
+        },
+        "OL2kOP05K96L9JV9": {
+            "description": "<p>The character is possessed.</p>",
+            "name": "Condition: Possessed",
+            "effects": {
+                "Condition: Possessed": {
+                    "name": "Condition: Possessed"
+                }
+            }
+        },
+        "PAkmxzlF6cIsPNkt": {
+            "name": "Condition: Disease (3)"
+        },
+        "pcBuNszkAjGRJ0XX": {
+            "description": "<p>The character is fragile and takes double damage.</p>",
+            "name": "Condition: Fragile",
+            "effects": {
+                "Condition: Fragile": {
+                    "name": "Condition: Fragile"
+                }
+            }
+        },
+        "Perceiving Advantage": {
+            "name": "Perceiving Advantage"
+        },
+        "Permanent Ability (Cha)": {
+            "name": "Permanent Ability (Cha)"
+        },
+        "Permanent Ability (Con)": {
+            "name": "Permanent Ability (Con)"
+        },
+        "Permanent Ability (Dex)": {
+            "name": "Permanent Ability (Dex)"
+        },
+        "Permanent Ability (Int)": {
+            "name": "Permanent Ability (Int)"
+        },
+        "Permanent Ability (Str)": {
+            "name": "Permanent Ability (Str)"
+        },
+        "Permanent Ability (Wis)": {
+            "name": "Permanent Ability (Wis)"
+        },
+        "pkvfOgSt7c86e1dw": {
+            "name": "Condition: Life Drain (4)",
+            "effects": {
+                "Condition: Life Drain (4)": {
+                    "name": "Condition: Life Drain (4)"
+                }
+            }
+        },
+        "Pw5zyo8apyAphCG2": {
+            "name": "Condition: Stuck"
+        },
+        "PY16IzWMkbYbGAWJ": {
+            "name": "Condition: Disease (4)",
+            "effects": {
+                "Condition: Disease (4)": {
+                    "name": "Condition: Disease (4)"
+                }
+            }
+        },
+        "qSuLDWBjPNH2wizr": {
+            "name": "Condition: Beguiled"
+        },
+        "rbOmeG3R2mmiiIMT": {
+            "name": "Condition: Bug Brain",
+            "effects": {
+                "Condition: Bug Brain": {
+                    "name": "Condition: Bug Brain"
+                }
+            }
+        },
+        "rEjr6iPhgVuFTCWl": {
+            "name": "Condition: Possessed"
+        },
+        "ROTpAUAHx5s4AZZh": {
+            "description": "<p>The character is paralyzed.</p>",
+            "name": "Condition: Paralyzed",
+            "effects": {
+                "Condition: Paralyzed": {
+                    "name": "Condition: Paralyzed"
+                }
+            }
+        },
+        "rW7oltlWDmteEpV7": {
+            "description": "<p>The character is polymorphed.</p>",
+            "name": "Condition: Polymorphed",
+            "effects": {
+                "Condition: Polymorphed": {
+                    "name": "Condition: Polymorphed"
+                }
+            }
+        },
+        "SQzniFDNODQRLoNi": {
+            "description": "<p>The character is stupified.</p>",
+            "name": "Condition: Stupified",
+            "effects": {
+                "Condition: Stupified": {
+                    "name": "Condition: Stupified"
+                }
+            }
+        },
+        "T7PD6qqfanwAMEzo": {
+            "description": "<p>The character is cursed.</p>",
+            "name": "Condition: Cursed",
+            "effects": {
+                "Condition: Cursed": {
+                    "name": "Condition: Cursed"
+                }
+            }
+        },
+        "vmcHEQWOyX933G1R": {
+            "name": "Condition: Mesmerized",
+            "effects": {
+                "Condition: Mesmerized": {
+                    "name": "Condition: Mesmerized"
+                }
+            }
+        },
+        "wDCrj4X7ccqB2jA8": {
+            "name": "Condition: Disease (3)",
+            "effects": {
+                "Condition: Disease (3)": {
+                    "name": "Condition: Disease (3)"
+                }
+            }
+        },
+        "WRFmdFxvPhVKXQB2": {
+            "name": "Condition: Disease (1)",
+            "effects": {
+                "Condition: Disease (1)": {
+                    "name": "Condition: Disease (1)"
+                }
+            }
+        },
+        "XGGzrINaGvRwwXPC": {
+            "name": "Condition: Fragile"
+        },
+        "xyhx2skwDPYWZ20G": {
+            "name": "Condition: Polymorphed"
+        },
+        "YPYxo5WhLBPCnkRd": {
+            "name": "Condition: Bug Brain"
+        }
+    }
+}
