@@ -1,0 +1,69 @@
+{
+    "label": "Języki",
+    "mapping": {
+        "description": "system.description",
+        "name": "name"
+    },
+    "entries": {
+        "Celestial": {
+            "description": "<p>Anioły</p>",
+            "name": "Niebiański"
+        },
+        "Common": {
+            "description": "<p>Większość humanoidów</p>",
+            "name": "Wspólny"
+        },
+        "Diabolic": {
+            "description": "<p>Demony, diabły</p>",
+            "name": "Diaboliczny"
+        },
+        "Draconic": {
+            "description": "<p>Smoki</p>",
+            "name": "Smoczy"
+        },
+        "Dwarvish": {
+            "description": "<p>Krasnoludowie</p>",
+            "name": "Krasnoludzki"
+        },
+        "Elvish": {
+            "description": "<p>Elfowie</p>",
+            "name": "Elfi"
+        },
+        "Giant": {
+            "description": "<p>Olbrzymy, ogry, trolle</p>",
+            "name": "Giganci"
+        },
+        "Goblin": {
+            "description": "<p>Strachuny, gobliny, hobgobliny</p>",
+            "name": "Goblini"
+        },
+        "Merran": {
+            "description": "<p>Syreny, sahuagini, ryboludzie</p>",
+            "name": "Syreni"
+        },
+        "Orcish": {
+            "description": "<p>Orkowie</p>",
+            "name": "Orczy"
+        },
+        "Primordial": {
+            "description": "<p>Starożytne istoty, żywiołaki</p>",
+            "name": "Pierwotny"
+        },
+        "Reptilian": {
+            "description": "<p>Jaszczuroludzie, wężoludzie</p>",
+            "name": "Gadzi"
+        },
+        "Sylvan": {
+            "description": "<p>Centaury, driady, wróżki</p>",
+            "name": "Sylwani"
+        },
+        "Thanian": {
+            "description": "<p>Minotaury, ludzie-bestie, mantikory</p>",
+            "name": "Thanian"
+        }
+    },
+    "folders": {
+        "Common": "Wspólny",
+        "Rare": "Rzadki"
+    }
+}
