@@ -1,0 +1,37 @@
+{
+    "label": "Pochodzenia",
+    "mapping": {
+        "description": "system.description",
+        "name": "name"
+    },
+    "entries": {
+        "Dwarf": {
+            "description": "<p>Odważni, niezłomni ludzie, tak solidni jak kamienne królestwa, które wyrzeźbiają w górach.</p>",
+            "name": "Krasnolud"
+        },
+        "Elf": {
+            "description": "<p>Eteryczne, pełne wdzięku istoty, które czczą wiedzę i piękno. Elfy mają dalekowzroczność i długie życie.</p>",
+            "name": "Elf"
+        },
+        "Goblin": {
+            "description": "<p>Zielone, sprytne istoty, które świetnie radzą sobie w ciemnych, ciasnych miejscach. Są równie zaciekłe, co malutkie.</p>",
+            "name": "Goblin"
+        },
+        "Half-Orc": {
+            "description": "<p>Wysocy, uzbrojeni w kły wojownicy, równie śmiali jak ludzie i równie nieustępliwi jak orkowie.</p>",
+            "name": "Półork"
+        },
+        "Halfling": {
+            "description": "<p>Małe, wesołe wieśniaki z nutką psotności. Cieszą się prostymi przyjemnościami życia.</p>",
+            "name": "Niziołek"
+        },
+        "Human": {
+            "description": "<p>Odważni, elastyczni i różnorodni ludzie, którzy szybko się uczą i dokonują wielkich czynów.</p>",
+            "name": "Człowiek"
+        },
+        "Kobold": {
+            "description": "<p>Malutkie, humanoidalne psy-jaszczurki, które lubią majsterkować, budować pułapki i posługują się odrobiną magii.</p>",
+            "name": "Kobold"
+        }
+    }
+}
