@@ -1,0 +1,85 @@
+{
+    "label": "Właściwości",
+    "mapping": {
+        "description": "system.description",
+        "name": "name"
+    },
+    "entries": {
+        "bAzl6RH1PW95ZkFE": {
+            "description": "<p>Gdy zostaniesz trafiony atakiem wręcz, możesz zdecydować się na zniszczenie tej broni lub zbroi, aby zniwelować całe obrażenia wynikające z tego ataku.</p>",
+            "name": "Rozrywanie"
+        },
+        "Blowgun": {
+            "description": "<p>Strzelanie z tej broni z ukrycia nie zdradza twojej pozycji.</p>",
+            "name": "Dmuchawka"
+        },
+        "Bolas": {
+            "description": "<p>Gdy trafisz stworzenie poruszające się na nogach, wielkości konia lub mniejsze, szybkość celu zostaje zmniejszona do Bliskiej, dopóki nie uwolni się ([[check 15 str]] lub test ZRC).</p>",
+            "name": "Bolas"
+        },
+        "Breakable": {
+            "description": "<p>Ta broń pęka przy wyniku 1 w rzucie na atak.</p>",
+            "name": "Kruchy"
+        },
+        "Disadvantage/Stealth": {
+            "description": "<p>Nosząc tę zbroję, otrzymujesz utrudnienie przy rzutach na ukrycie</p>",
+            "name": "Utrudnienie / Ukrycie"
+        },
+        "Disadvantage/Swim": {
+            "description": "<p>Nosząc tę zbroję, masz utrudnienie przy rzutach związanych z pływaniem</p>",
+            "name": "Utrudnienie / Pływanie"
+        },
+        "Finesse": {
+            "description": "<p>Atakując tą bronią, możesz wykorzystać swoją Siłę lub Zręczność</p>",
+            "name": "Finezyjny"
+        },
+        "Lash": {
+            "description": "<p>Kiedy wykonujesz atak z dystansu tą bronią, nie wypuszczasz jej z ręki.</p>",
+            "name": "Bicz"
+        },
+        "Loading": {
+            "description": "<p>Aby przeładować tę broń, musisz zrezygnować z ruchu</p>",
+            "name": "Ładowanie"
+        },
+        "No Swim": {
+            "description": "<p>W tej zbroi nie można pływać</p>",
+            "name": "Bez pływania"
+        },
+        "Occupies One Hand": {
+            "description": "<p>Podczas korzystania z tego przedmiotu można używać tylko jednej ręki</p>",
+            "name": "Zajmuje jedną rękę"
+        },
+        "Op1yKvM7uq5pdopr": {
+            "description": "<p>Gdy zostaniesz trafiony atakiem wręcz, możesz zdecydować się na zniszczenie tej broni lub zbroi, aby zniwelować całe obrażenia wynikające z tego ataku.</p>",
+            "name": "Rozrywanie"
+        },
+        "Returning": {
+            "description": "<p>W przypadku niecelnego ataku z dystansu broń ta wraca do rzucającego.</p>",
+            "name": "Powracająca"
+        },
+        "Shield": {
+            "description": "<p>Zapewnia dodatkową ochronę</p>",
+            "name": "Tarcza"
+        },
+        "Shuriken": {
+            "description": "<p>Można go rzucić na ziemię. Stworzenia, które na niego nadepną, otrzymują 1 punkt obrażeń i przez 10 rund mogą poruszać się tylko z połową szybkości.</p>",
+            "name": "Shuriken"
+        },
+        "Thrown": {
+            "description": "<p>Możesz rzucić tą bronią, aby wykonać nią atak z dystansu, wykorzystując atrybut SIŁ lub ZRC</p>",
+            "name": "Rzucana"
+        },
+        "Two-Handed": {
+            "description": "<p>Musisz używać tej broni obiema rękami</p>",
+            "name": "Dwuręczna"
+        },
+        "Versatile": {
+            "description": "<p>Z tej broni można walczyć jedną lub dwiema rękami. Jeśli walczysz nią obiema rękami, użyj kostki zadającej większe obrażenia</p>",
+            "name": "Wszechstronny"
+        }
+    },
+    "folders": {
+        "Armor": "Pancerz",
+        "Weapon": "Broń"
+    }
+}
