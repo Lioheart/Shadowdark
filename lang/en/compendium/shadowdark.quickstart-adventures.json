@@ -43,7 +43,8 @@
             "documentType": "Macro",
             "cardinality": "many",
             "mapping": {
-                "name": "name"
+                "name": "name",
+                "command": "command"
             }
         },
         "playlists": {
@@ -819,13 +820,16 @@
             },
             "macros": {
                 "Roll Random Beastmen NPC": {
-                    "name": "Roll Random Beastmen NPC"
+                    "name": "Roll Random Beastmen NPC",
+                    "command": "// Macro to create a random NPC, being sent in a whisper to GMs on the server.\n\nconst namesTableID = game.tables.find(o => o.name === \"The Lost Citadel: Beastmen Names\")._id;\nconst namesTable = await game.tables.get(namesTableID);\nconst namesResult = await namesTable.draw({displayChat: false});\nconst names = await namesResult.results.pop().getHTML();\n\nconst appearanceTableID = game.tables.find(o => o.name === \"The Lost Citadel: Beastmen Appearances\")._id;\nconst appearanceTable = await game.tables.get(appearanceTableID);\nconst appearanceResult = await appearanceTable.draw({displayChat: false});\nconst appearance = await appearanceResult.results.pop().getHTML();\n\nconst behaviorTableID = game.tables.find(o => o.name === \"The Lost Citadel: Beastmen Behaviors\")._id;\nconst behaviorTable = await game.tables.get(behaviorTableID);\nconst behaviorResult = await behaviorTable.draw({displayChat: false});\nconst behavior = await behaviorResult.results.pop().getHTML();\n\nconst message = `<p>A <b>${appearance}</b> @UUID[Compendium.shadowdark.monsters.Actor.k8tAgECWIzPIStGU]{Beastman} named <b>${names}</b> \nis <b>${behavior}</b>.</p>`;\n\nconst chatData = {\n  user: game.user._id,\n  speaker: ChatMessage.getSpeaker(),\n  content: message,\n  whisper: game.users.filter(u => u.isGM).map(u => u._id),\n};\n\nChatMessage.create(chatData, {});"
                 },
                 "Roll Random Ettercap NPC": {
-                    "name": "Roll Random Ettercap NPC"
+                    "name": "Roll Random Ettercap NPC",
+                    "command": "// Macro to create a random NPC, being sent in a whisper to GMs on the server.\n\nconst namesTableID = game.tables.find(o => o.name === \"The Lost Citadel: Ettercap Names\")._id;\nconst namesTable = await game.tables.get(namesTableID);\nconst namesResult = await namesTable.draw({displayChat: false});\nconst names = await namesResult.results.pop().getHTML();\n\nconst appearanceTableID = game.tables.find(o => o.name === \"The Lost Citadel: Ettercap Appearances\")._id;\nconst appearanceTable = await game.tables.get(appearanceTableID);\nconsole.log(appearanceTableID);\nconst appearanceResult = await appearanceTable.draw({displayChat: false});\nconst appearance = await appearanceResult.results.pop().getHTML();\n\nconst behaviorTableID = game.tables.find(o => o.name === \"The Lost Citadel: Ettercap Behaviors\")._id;\nconst behaviorTable = await game.tables.get(behaviorTableID);\nconst behaviorResult = await behaviorTable.draw({displayChat: false});\nconst behavior = await behaviorResult.results.pop().getHTML();\n\nconst message = `<p>A <b>${appearance}</b> @UUID[Compendium.shadowdark.monsters.Actor.fcgq7uwsJEMMdRNx]{Ettercap} named <b>${names}</b> \nis <b>${behavior}</b>.</p>`;\n\nconst chatData = {\n  user: game.user._id,\n  speaker: ChatMessage.getSpeaker(),\n  content: message,\n  whisper: game.users.filter(u => u.isGM).map(u => u._id),\n};\n\nChatMessage.create(chatData, {});"
                 },
                 "The Lost Citadel: Random Encounter Check": {
-                    "name": "The Lost Citadel: Random Encounter Check"
+                    "name": "The Lost Citadel: Random Encounter Check",
+                    "command": "// Macro to draw for encounter in The Lost Citadel and only show it to the GM.;\n\nconst tableID = game.tables.find(o => o.name === \"The Lost Citadel: Random Encounter Check\")._id;\nconst table = await game.tables.get(tableID);\nawait table.draw({ rollMode: CONST.DICE_ROLL_MODES.PRIVATE});"
                 }
             }
         }

@@ -1,0 +1,58 @@
+{
+  "id": "lang-pl-shadowdark",
+  "title": "Polska wersja Shadowdark RPG",
+  "description": "Nieoficjalne polskie tłumaczenie do Shadowdark RPG",
+  "version": "vDev",
+  "socket": true,
+  "compatibility": {
+    "minimum": "13",
+    "verified": "14",
+    "maximum": "14"
+  },
+  "esmodules": [
+    "babele-register.js"
+  ],
+  "styles": [
+    "styles/shadowdark-pl.css"
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "shadowdark",
+        "type": "system",
+        "compatibility": {
+          "verified": "4.0.6"
+        }
+      }
+    ],
+    "requires": [
+      {
+        "id": "babele",
+        "type": "module",
+        "compatibility": {}
+      }
+    ]
+  },
+  "languages": [
+    {
+      "lang": "pl",
+      "name": "Polish",
+      "path": "lang/pl/pl.json",
+      "flags": {}
+    }
+  ],
+  "authors": [
+    {
+      "name": "Lioheart",
+      "discord": "lioheart77",
+      "email": "caco7.lioheart@gmail.com",
+      "flags": {}
+    }
+  ],
+  "flags": {
+    "canUpload": true
+  },
+  "url": "Filled in by the release workflow",
+  "manifest": "Filled in by the release workflow",
+  "download": "Filled in by the release workflow"
+}
