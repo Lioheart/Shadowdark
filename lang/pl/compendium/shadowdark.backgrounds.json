@@ -1,0 +1,254 @@
+{
+    "label": "Przeszłości",
+    "mapping": {
+        "description": "system.description",
+        "name": "name"
+    },
+    "entries": {
+        "Acolyte": {
+            "description": "<p>Jesteś dobrze zaznajomiony z obrzędami i doktrynami religijnymi</p>",
+            "name": "Akolita"
+        },
+        "Amnesiac": {
+            "description": "<p>Twoja przeszłość jest zamglona, ale niektóre wspomnienia powracają</p>",
+            "name": "Cierpiący na amnezję"
+        },
+        "Ascetic": {
+            "description": "<p>Ludzie się ciebie boją, ale szukają u ciebie wskazówek</p>",
+            "name": "Asceta"
+        },
+        "Banished": {
+            "description": "<p>Twoi ludzie wygnali cię za rzekome przestępstwa</p>",
+            "name": "Wygnany"
+        },
+        "Barbarian": {
+            "description": "<p>Opuściłeś hordę, ale ona nigdy do końca cię nie opuściła</p>",
+            "name": "Barbarzyńca"
+        },
+        "Blacksmith": {
+            "description": "<p>Broń, zbroje, podkowy – zajmujesz się wszystkim</p>",
+            "name": "Kowal"
+        },
+        "Bowyer": {
+            "description": "<p>Możesz wykonać i naprawić dowolny łuk lub strzałę</p>",
+            "name": "Zbrojmistrz wyrabiający łuki "
+        },
+        "Chirurgeon": {
+            "description": "<p>Znasz się na anatomii, chirurgii i pierwszej pomocy</p>",
+            "name": "Chirurg"
+        },
+        "Chosen": {
+            "description": "<p>Nieziemskie istoty wybrały cię w jakimś celu</p>",
+            "name": "Wybraniec"
+        },
+        "Crafter": {
+            "description": "<p>Możesz stworzyć i naprawić dowolny przedmiot użytkowy</p>",
+            "name": "Rzemieślnik"
+        },
+        "Criminal": {
+            "description": "<p>Zostałeś wygnany ze swojej wsi za popełnienie przestępstwa</p>",
+            "name": "Przestępca"
+        },
+        "Crop Farmer": {
+            "description": "<p>Ciężko pracujesz na roli i znasz wszystkie rośliny</p>",
+            "name": "Rolnik"
+        },
+        "Cult Initiate": {
+            "description": "<p>Znasz bluźniercze tajemnice i rytuały</p>",
+            "name": "Wtajemniczony w kult"
+        },
+        "Demonborn": {
+            "description": "<p>Jeden z twoich przodków jest potężnym demonem</p>",
+            "name": "Potomek demona"
+        },
+        "Displaced": {
+            "description": "<p>Uciekłeś po tym, jak jarl z wrogiego klanu zaatakował twoją wioskę</p>",
+            "name": "Wypędzony"
+        },
+        "Drawn": {
+            "description": "<p>Słyszysz cichy głos i podążasz za nim</p>",
+            "name": "Przyciągany przez szept"
+        },
+        "Drifter": {
+            "description": "<p>Nie znalazłeś jeszcze jarla godnego swojej lojalności</p>",
+            "name": "Włóczęga"
+        },
+        "Enforcer": {
+            "description": "<p>W swojej wiosce egzekwujesz prawo jarla</p>",
+            "name": "Egzekutor"
+        },
+        "Fallen": {
+            "description": "<p>Straciłeś łaskę. Czy będziesz za to odpokutowywać, czy też pogodzisz się z tym?</p>",
+            "name": "Upadły"
+        },
+        "Far Traveler": {
+            "description": "<p>Znasz wiele odległych ludów i zwyczajów</p>",
+            "name": "Daleki podróżnik"
+        },
+        "Feytouched": {
+            "description": "<p>W dzieciństwie zaprzyjaźniła się z tobą wróżka</p>",
+            "name": "Dotknięty przez fey"
+        },
+        "Fisher": {
+            "description": "<p>Znasz wszystkie morskie stworzenia i legendy</p>",
+            "name": "Rybak"
+        },
+        "Forager": {
+            "description": "<p>Wiesz, jak odróżnić rośliny jadalne od trujących</p>",
+            "name": "Zbieracz"
+        },
+        "Freed": {
+            "description": "<p>Byłeś niewolnikiem, ale uciekłeś lub wywalczyłeś sobie wolność</p>",
+            "name": "Uwolniony"
+        },
+        "Fugitive": {
+            "description": "<p>Anonimowy wybawca pomógł ci zniknąć</p>",
+            "name": "Zbieg"
+        },
+        "God's Blood": {
+            "description": "<p>Jesteś potomkiem boga; to cię wyróżnia</p>",
+            "name": "Boska krew"
+        },
+        "Haunted": {
+            "description": "<p>Niespokojna dusza czegoś od ciebie oczekuje</p>",
+            "name": "Nawiedzony"
+        },
+        "Healer": {
+            "description": "<p>Rozumiesz, jak życie i śmierć przeplatają się ze sobą</p>",
+            "name": "Uzdrowiciel"
+        },
+        "Herbalist": {
+            "description": "<p>Znasz rośliny, lekarstwa i trucizny</p>",
+            "name": "Zielarz"
+        },
+        "Hermit": {
+            "description": "<p>Dzika przyroda (i jej stworzenia) to twoja rodzina</p>",
+            "name": "Pustelnik"
+        },
+        "Heroborn": {
+            "description": "<p>Jesteś potomkiem słynnego wojownika</p>",
+            "name": "Potomek bohatera"
+        },
+        "Hunter": {
+            "description": "<p>Wiesz, jak poruszać się po cichu w dziczy</p>",
+            "name": "Myśliwy"
+        },
+        "Jeweler": {
+            "description": "<p>Możesz łatwo ocenić wartość i autentyczność</p>",
+            "name": "Jubiler"
+        },
+        "Livestock Farmer": {
+            "description": "<p>Masz intuicję w odniesieniu do wszystkich zwierząt</p>",
+            "name": "Hodowca zwierząt gospodarskich"
+        },
+        "Marked": {
+            "description": "<p>Nosisz tajemniczy znak. Czy to klątwa, czy dar?</p>",
+            "name": "Naznaczony"
+        },
+        "Marooned": {
+            "description": "<p>Zostawili cię, ale nie poddałeś się</p>",
+            "name": "Porzucony"
+        },
+        "Mercenary": {
+            "description": "<p>Walczyłeś zarówno z przyjaciółmi, jak i wrogami, by zdobyć pieniądze</p>",
+            "name": "Najemnik"
+        },
+        "Minstrel": {
+            "description": "<p>Dzięki swojemu urokowi i talentowi zaszedłeś daleko</p>",
+            "name": "Minstrel"
+        },
+        "Noble": {
+            "description": "<p>Słynne nazwisko otworzyło ci wiele drzwi</p>",
+            "name": "Szlachta"
+        },
+        "Nobleborn": {
+            "description": "<p>Jesteś dzieckiem jarla.</p>",
+            "name": "Szlacheckiego pochodzenia"
+        },
+        "Orphaned": {
+            "description": "<p>Niezwykły opiekun uratował cię i wychował</p>",
+            "name": "Osierocony"
+        },
+        "Outcast": {
+            "description": "<p>Zostałeś wyrzucony za prawdziwe lub domniemane przestępstwa</p>",
+            "name": "Wyrzutek"
+        },
+        "Ranger": {
+            "description": "<p>Lasy i dzikie tereny to twój prawdziwy dom</p>",
+            "name": "Łowca"
+        },
+        "Redeemer": {
+            "description": "<p>Musisz oczyścić imię swojego rodu</p>",
+            "name": "Odkupiciel"
+        },
+        "Sacrifice": {
+            "description": "<p>Miałeś zostać złożony w ofierze rytualnej, ale udało ci się uciec</p>",
+            "name": "Złożony w ofierze"
+        },
+        "Sailor": {
+            "description": "<p>Pirat, korsarz czy kupiec — morza należą do ciebie</p>",
+            "name": "Marynarz"
+        },
+        "Scholar": {
+            "description": "<p>Masz dużą wiedzę na temat historii starożytnej i tradycji ludowych</p>",
+            "name": "Uczony"
+        },
+        "Scout": {
+            "description": "<p>Przetrwałeś dzięki skradaniu się, spostrzegawczości i szybkości</p>",
+            "name": "Zwiadowca"
+        },
+        "Seer's Apprentice": {
+            "description": "<p>Znasz niektóre z sztuk mistycznych</p>",
+            "name": "Uczeń jasnowidza"
+        },
+        "Shipwright": {
+            "description": "<p>Wiesz, jak budować i naprawiać łodzie długie</p>",
+            "name": "Stoczniowiec"
+        },
+        "Skald": {
+            "description": "<p>Jesteś poetą i znasz wszystkie dawne ballady</p>",
+            "name": "Skald"
+        },
+        "Soldier": {
+            "description": "<p>Służyłeś jako żołnierz w regularnej armii</p>",
+            "name": "Żołnierz"
+        },
+        "Thieves' Guild": {
+            "description": "<p>Masz znajomości, kontakty i długi</p>",
+            "name": "Gildia Złodziei"
+        },
+        "Trader": {
+            "description": "<p>W każdej wsi masz kontakty handlowe</p>",
+            "name": "Handlarz"
+        },
+        "Urchin": {
+            "description": "<p>Dorastałeś na bezlitosnych ulicach wielkiego miasta</p>",
+            "name": "Łobuz"
+        },
+        "Wanted": {
+            "description": "<p>Za twoją głowę wyznaczono nagrodę, ale masz sojuszników</p>",
+            "name": "Poszukiwany"
+        },
+        "Witchborn": {
+            "description": "<p>Spalili twoją matkę, ale ciebie oszczędzili</p>",
+            "name": "Dziecko wiedźmy"
+        },
+        "Wizard's Apprentice": {
+            "description": "<p>Masz talent i wyczucie do magii</p>",
+            "name": "Uczeń czarodzieja"
+        },
+        "Wolfchild": {
+            "description": "<p>Dawno temu wkroczyłeś do miasta ubrany w futra</p>",
+            "name": "Wilcze dziecko"
+        },
+        "Woodborn": {
+            "description": "<p>Znaleźli cię w zagłębieniu dębu</p>",
+            "name": "Zrodzony z drzew"
+        }
+    },
+    "folders": {
+        "Core": "Podstawowy",
+        "Diabolical": "Diabolical",
+        "Nord": "Nord"
+    }
+}
