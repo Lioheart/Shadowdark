@@ -1,0 +1,85 @@
+{
+    "label": "Patroni i bóstwa",
+    "mapping": {
+        "description": "system.description",
+        "name": "name"
+    },
+    "entries": {
+        "All Nord Gods": {
+            "description": "<p>Wierni oddają cześć kolejno wszystkim Starym Bogom, ale wielu z nich czuje szczególną więź z jednym z nich. Okazywanie szacunku wszystkim bogom nie jest zdradą; jest to zaszczytne.</p>",
+            "name": "Wszyscy bogowie północy"
+        },
+        "Almazzat": {
+            "description": "<p>Arcydemon o głowie wilka, z sześcioma oczami i sześcioma rogami. Almazzat pragnie odebrać Piaski Wieków swojemu ojcu, Kytherosowi.</p>",
+            "name": "Almazzat"
+        },
+        "bRTH2GeVuEbWw2Dw": {
+            "description": "<p>Shune szepcze tajemnicze sekrety do uszu czarowników i czarownic, którzy wzywają ją w ciemnych godzinach. Knuje spisek, by wyprzeć Orda, aby sama mogła kontrolować ogromny strumień magii.</p>",
+            "name": "Shune, Nikczemny"
+        },
+        "cQGIVxXN6caEcOWt": {
+            "description": "<p>Bogini, Matka Czarownic, która przemawia do swoich dzieci w migotaniu świec i trzasku suchych kości. Shune poszukuje ukrytych tajemnic i zaginionej wiedzy.</p>",
+            "name": "Shune, Nikczemny"
+        },
+        "Freya": {
+            "description": "<p>Bogini miłości i nienawiści. Królowa Wojowniczek, których walkirie przenoszą godne dusze na Wielką Ucztę. Pierwsza Wróżka, która odczytuje znaki w kościach, krwi i wnętrznościach. Freya inspiruje poetów, by potem dręczyć ich brakiem.</p>",
+            "name": "Freya"
+        },
+        "Gede": {
+            "description": "<p>Bogini uczt, radości i dzikiej przyrody. Gede zazwyczaj jest spokojna, ale gdy ogarnia ją gniew, szaleją prymitywne burze. Wielu elfów i niziołków oddaje jej cześć.</p>",
+            "name": "Gede"
+        },
+        "Kytheros": {
+            "description": "<p>Władca Czasu, który widzi wszystkie możliwe przyszłości. Kytheros dąży do spełnienia wszystkich przeznaczeń zgodnie z ich pierwotnym zamysłem.</p>",
+            "name": "Kytheros"
+        },
+        "Loki": {
+            "description": "<p>Oszust, który wygrywa dzięki sprytowi i podstępom. Wilk przebrany za owcę. Loki jest elokwentny i irytujący; jego słowa tną jak stal, a jego śmiech wyje jak wichura. Jego zwolennicy nie dążą do Walhalli, gdyż wiedzą, że upadnie ona wraz z nadejściem Ragnaroku.</p>",
+            "name": "Loki"
+        },
+        "Madeera the Covenant": {
+            "description": "<p>Madeera była pierwszym przejawem Prawa. Nosi w sobie wszystkie prawa rzeczywistości – nakaz zwany Przymierzem, zapisany na jej skórze za pomocą precyzyjnych symboli.</p>",
+            "name": "Madeera – Sabat"
+        },
+        "Memnon": {
+            "description": "<p>Memnon był pierwszym wcieleniem Chaosu. Jest bliźniakiem Madeery – istotą o lwiej postaci i czerwonej grzywie, której największym pragnieniem jest wyrwanie kosmicznych praw Sabatu ze skóry swojej siostry.</p>",
+            "name": "Memnon"
+        },
+        "Mugdulblub": {
+            "description": "<p>Starożytna Maź, która wycieka spomiędzy szczelin pamięci i ciemności między gwiazdami. Mugdulblub dąży do unicestwienia wszelkich postaci materialnych.</p>",
+            "name": "Mugdulblub"
+        },
+        "Odin": {
+            "description": "<p>Wszechojciec. Jednooki Odyn ceni sobie siłę i spryt. Jego bliźniacze kruki szybują w nocy, podglądając sny i wspomnienia. Godni wojownicy po śmierci trafiają do Wielkiej Sali Walhalli, by wiecznie ucztować i walczyć u jego boku.</p>",
+            "name": "Odyn"
+        },
+        "Ord": {
+            "description": "<p>Ord Nieugięty, Mądry, Strażnik Tajemnic. Jest bogiem magii, wiedzy, tajemnic i równowagi.</p>",
+            "name": "Ord"
+        },
+        "Ramlaat": {
+            "description": "<p>Ramlaat to Łupieżca, Barbarzyńca, Horda. Wielu orków czci go i kieruje się zasadami Krwawego Rytu – proroctwem, które głosi, że tylko najsilniejsi przetrwają nadchodzącą zagładę.</p>",
+            "name": "Ramlaat"
+        },
+        "Saint Terragnis": {
+            "description": "<p>Legendarna rycerka, patronka większości ludzi przestrzegających prawa. Dawno temu osiągnęła boskość i jest ucieleśnieniem prawości i sprawiedliwości.</p>",
+            "name": "Święta Terragnis"
+        },
+        "The Lost": {
+            "description": "<p>Dwóch z Dziewięciu zaginęło w mrokach dziejów, a ich imiona zostały wymazane z historii i pamięci. Jednak szeptana o nich legenda wciąż żyje w starożytnych, zakazanych tekstach oraz w tajemniczych, głębokich zakamarkach...</p>",
+            "name": "Zapomniany"
+        },
+        "The Willowman": {
+            "description": "<p>Upiorna, wydłużona istota, która grasuje w mglistych lasach i obserwuje wszystko z krawędzi koszmarów. Strzyga poszukuje strachu.</p>",
+            "name": "Strzyga"
+        },
+        "Titania": {
+            "description": "<p>Kapryśna Królowa Wróżek, która postrzega całe istnienie jako fantazyjny sen pełen ukrytych znaczeń i przejmującego dramatu. Titania poszukuje psot, piękna i sztuki.</p>",
+            "name": "Titania"
+        }
+    },
+    "folders": {
+        "Deities": "Bóstwa",
+        "Patrons": "Patroni"
+    }
+}
