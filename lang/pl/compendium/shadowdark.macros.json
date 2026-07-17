@@ -7,7 +7,44 @@
     "entries": {
         "Draw Hazard": {
             "name": "Losowanie zagrożenia",
-            "command": "// Macro to draw and construct a hazard, being sent in a whisper to GMs on the\n// server.\n\nconst pack = game.packs.get(\"shadowdark.rollable-tables\");\n\nconst movementTableID = pack.index.find(o => o.name === \"Hazard: Movement\")._id;\nconst movementTable = await pack.getDocument(movementTableID);\nconst movementDraw = await movementTable.draw({displayChat: false});\nconst movementResult = movementDraw.results.pop();\nconst movement = movementResult.description || movementResult.name;\n\nconst damageTableID = pack.index.find(o => o.name === \"Hazard: Damage\")._id;\nconst damageTable = await pack.getDocument(damageTableID);\nconst damageDraw = await damageTable.draw({displayChat: false});\nconst damageResult = damageDraw.results.pop();\nconst damage = damageResult.description || damageResult.name;\n\nconst weakenTableID = pack.index.find(o => o.name === \"Hazard: Weaken\")._id;\nconst weakenTable = await pack.getDocument(weakenTableID);\nconst weakenDraw = await weakenTable.draw({displayChat: false});\nconst weakenResult = weakenDraw.results.pop();\nconst weaken = weakenResult.description || weakenResult.name;\n\nconst message = `\n<p>\n\tMiejsce z efektem <b>${movement}</b>, które osłabia postacie za pomocą\n\t<b>${weaken}</b> i zadaje obrażenia <b>${damage}</b>\n</p>\n`;\n\nconst chatData = {\n\tuser: game.user._id,\n\tspeaker: ChatMessage.getSpeaker(),\n\tcontent: message,\n\twhisper: game.users.filter(u => u.isGM).map(u => u._id),\n};\n\nChatMessage.create(chatData, {});"
+            "command": "// Macro to draw and construct a hazard, being sent in a whisper to GMs on the
+// server.
+
+const pack = game.packs.get("shadowdark.rollable-tables");
+
+const movementTableID = pack.index.find(o => o.name === "Zagrożenia: Ruch")._id;
+const movementTable = await pack.getDocument(movementTableID);
+const movementDraw = await movementTable.draw({displayChat: false});
+const movementResult = movementDraw.results.pop();
+const movement = movementResult.description || movementResult.name;
+
+const damageTableID = pack.index.find(o => o.name === "Zagrożenia: Obrażenia")._id;
+const damageTable = await pack.getDocument(damageTableID);
+const damageDraw = await damageTable.draw({displayChat: false});
+const damageResult = damageDraw.results.pop();
+const damage = damageResult.description || damageResult.name;
+
+const weakenTableID = pack.index.find(o => o.name === "Zagrożenia: Osłabienia")._id;
+const weakenTable = await pack.getDocument(weakenTableID);
+const weakenDraw = await weakenTable.draw({displayChat: false});
+const weakenResult = weakenDraw.results.pop();
+const weaken = weakenResult.description || weakenResult.name;
+
+const message = `
+<p>
+Miejsce z efektem <b>${movement}</b>, które osłabia postacie za pomocą
+<b>${weaken}</b> i zadaje obrażenia <b>${damage}</b>
+</p>
+`;
+
+const chatData = {
+user: game.user._id,
+speaker: ChatMessage.getSpeaker(),
+content: message,
+whisper: game.users.filter(u => u.isGM).map(u => u._id),
+};
+
+ChatMessage.create(chatData, {});"
         },
         "Draw Ruin Encounter": {
             "name": "Losowanie spotkania w ruinach",
