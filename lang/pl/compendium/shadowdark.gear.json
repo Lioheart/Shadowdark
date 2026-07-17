@@ -1,0 +1,257 @@
+{
+    "label": "Sprzęt",
+    "mapping": {
+        "description": "system.description",
+        "name": "name"
+    },
+    "entries": {
+        "Backpack": {
+            "description": "<p>Pomieści cały sprzęt, jaki jesteś w stanie unieść. Nie zgub go.</p>",
+            "name": "Plecak"
+        },
+        "Basilisk Egg": {
+            "description": "<p>Lojalne pisklę wykluwa się za [[/r 1d4]] dni.</p>",
+            "name": "Jajo bazyliszka"
+        },
+        "Bastard Sword": {
+            "name": "Miecz półtoraręczny"
+        },
+        "Blowgun": {
+            "name": "Dmuchawka"
+        },
+        "Bolas": {
+            "name": "Bolas"
+        },
+        "Boomerang": {
+            "name": "Bumerang"
+        },
+        "Bottle": {
+            "description": "<p>Szklane naczynia, w których mieści się jeden łyk płynu.</p>",
+            "name": "Butelka"
+        },
+        "Caltrops": {
+            "description": "<p>Malutkie, trójkątne żelazne kolce. Istoty, które nadepną na kolczastki, otrzymują 1 punkt obrażeń i przez 10 rund mogą poruszać się tylko z połową prędkości.</p>",
+            "name": "Kolczatki"
+        },
+        "Chainmail": {
+            "name": "Kolczuga"
+        },
+        "Club": {
+            "name": "Maczuga"
+        },
+        "Club (Obsidian)": {
+            "name": "Maczuga (Obsydianowa)"
+        },
+        "Crawling Kit": {
+            "description": "<p>Zestaw eksploratora kosztuje 7 sz. Zajmuje 7 miejsc na sprzęt i zawiera następujące przedmioty.</p><ul><li><p>@UUID[Compendium.shadowdark.gear.oSnfz4qcWlUL6cDZ]{Plecak}</p></li><li><p>@UUID[Compendium.shadowdark.gear.ERprfuTIFRFEix9G]{Krzesiwo}</p></li><li><p>2x @UUID[Compendium.shadowdark.gear.z3xc7HGysC4ZCU8e]{Pochodnia}</p></li><li><p>@UUID[Compendium.shadowdark.gear.EPndk3DPOEOSvbga]{Żelazne kolce}</p></li><li><p>@UUID[Compendium.shadowdark.gear.GX6OmWQiE7MzTmjX]{Racje żywnościowe}</p></li><li><p>@UUID[Compendium.shadowdark.gear.fqsLWV46NWH0L53l]{Kotwiczka}</p></li><li><p>@UUID[Compendium.shadowdark.gear.6ZRwVHFlh5QiyZWC]{Lina, 60'}</p></li></ul>",
+            "name": "Zestaw eksploratora"
+        },
+        "Crossbow": {
+            "name": "Kusza"
+        },
+        "Crossbow Bolts": {
+            "description": "<p>Amunicja do kusz.</p>",
+            "name": "Bełty do kuszy"
+        },
+        "Crowbar": {
+            "description": "<p>Zapewnia ułatwienie przy rzutach na wyważenie zablokowanych przedmiotów.</p>",
+            "name": "Łom"
+        },
+        "Curative": {
+            "description": "<p><strong>Korzyść</strong>. Osoba wypijająca ten napój odzyskuje punkty wytrzymałości w zależności od swojego poziomu.</p><p><strong>Poziomy 1-3</strong>: [[/r 1d6]] punktów wytrzymałości.</p><p><strong>Poziomy 4-6</strong>: [[/r 2d8]] punktów wytrzymałości. </p><p><strong>Poziomy 7-9</strong>: [[/r 3d10]] punktów wytrzymałości.</p><p><strong>Poziom 10+</strong>: [[/r 4d12]] punktów wytrzymałości.</p>",
+            "name": "Lekarstwo"
+        },
+        "Dagger": {
+            "name": "Sztylet"
+        },
+        "Dagger (Obsidian)": {
+            "name": "Sztylet (Obsydianowy)"
+        },
+        "EPndk3DPOEOSvbga": {
+            "description": "<p>Mocne kolce. Każdy z nich ma otwór do przewleczenia</p><p>liny. Można je wbijać młotkiem, używając broni lub innych żelaznych kolców.</p>",
+            "name": "Żelazne kolce"
+        },
+        "Flask": {
+            "description": "<p>Szklane naczynia, w których mieści się jeden łyk płynu.</p>",
+            "name": "Kolba"
+        },
+        "Flint and Steel": {
+            "description": "<p>Mała rozpałka. Dzięki niemu rutynowe próby rozpalania ognia zawsze kończą się sukcesem.</p>",
+            "name": "Krzesiwo"
+        },
+        "Foebane": {
+            "description": "<p>Ułatwienie w atakach i zadawaniu obrażeń przeciwko wybranemu przez ciebie typowi stworzeń przez [[/r 1d6]] rund</p>",
+            "name": "Zmora wroga"
+        },
+        "Grappling Hook": {
+            "description": "<p>Kotwica linowa z trzema zakrzywionymi zębami.</p>",
+            "name": "Kotwiczka"
+        },
+        "Greataxe": {
+            "name": "Wielki topór"
+        },
+        "Greatsword": {
+            "name": "Wielki miecz"
+        },
+        "Handaxe": {
+            "description": "<p><strong>Finezyjny (F).</strong> Atakując tą bronią, możesz wykorzystać swoją Siłę lub Zręczność.</p><p><strong>Rzucana (Rzut).</strong> Możesz rzucić tą bronią, aby wykonać atak z dystansu, wykorzystując Siłę.</p>",
+            "name": "Toporek"
+        },
+        "Holy Symbol": {
+            "name": "Święty symbol"
+        },
+        "Javelin": {
+            "name": "Oszczep"
+        },
+        "krielHVQxel7Jjtm": {
+            "description": "<p>Mocne kolce. Każdy z nich ma otwór do przewleczenia</p><p>liny. Można je wbijać młotkiem, używając broni lub innych żelaznych kolców.</p>",
+            "name": "Żelazne kolce"
+        },
+        "Lantern": {
+            "description": "<p>Rzuca światło na odległość odpowiadającą podwójnej odległości bliskiej (patrz „Światło”, str. 46). Wymaga oleju. Posiada przesłonę umożliwiającą zasłonięcie światła.</p>",
+            "name": "Latarnia"
+        },
+        "Leather Armor": {
+            "name": "Skórznia"
+        },
+        "Light Spell": {
+            "description": "<p>Element zastępczy, który zachowuje się jak źródło światła wywołane zaklęciem @UUID[Compendium.shadowdark.spells.N4v17mtxJlVBbgpn]{Światło}.</p>",
+            "name": "Zaklęcie Światło"
+        },
+        "Light Spell (Double Range)": {
+            "description": "<p>Element zastępczy, który zachowuje się jak źródło światła wywołane zaklęciem @UUID[Compendium.shadowdark.spells.N4v17mtxJlVBbgpn]{Światło} o podwójnym zasięgu.</p>",
+            "name": "Zaklęcie Światło (podwójny zasięg)"
+        },
+        "Light Spell (Double Time)": {
+            "description": "<p>Element zastępczy, który zachowuje się jak źródło światła wywołane zaklęciem @UUID[Compendium.shadowdark.spells.N4v17mtxJlVBbgpn]{Światło}.</p>",
+            "name": "Zaklęcie Światło (podwójny czas)"
+        },
+        "Longbow": {
+            "name": "Długi łuk"
+        },
+        "Longsword": {
+            "name": "Długi miecz"
+        },
+        "Mace": {
+            "name": "Buława"
+        },
+        "Mirror": {
+            "description": "<p>Małe, wypolerowane lusterko.</p>",
+            "name": "Lustro"
+        },
+        "Mithral Chainmail": {
+            "name": "Mithralowa kolczuga"
+        },
+        "Mithral Plate Mail": {
+            "name": "Mithralowa zbroja płytowa"
+        },
+        "Morningstar": {
+            "name": "Morgensztern"
+        },
+        "Oil, flask": {
+            "description": "<p>Zasila latarnię przez jedną godzinę czasu rzeczywistego. Jedna kolba wystarcza na oświetlenie niewielkiego obszaru i pali się przez 4 rundy, zadając 1k4 punktów obrażeń w każdej rundzie.</p>",
+            "name": "Olej, kolba"
+        },
+        "Pike": {
+            "description": "<p><strong>Zasięg.</strong> 2x Bliski</p><p>Wymaga 2 miejsc. </p>",
+            "name": "Pika"
+        },
+        "Plate Mail": {
+            "name": "Zbroja płytowa"
+        },
+        "Pole": {
+            "description": "<p>Drewniana, o długości 10'.</p>",
+            "name": "Tyczka"
+        },
+        "Rations": {
+            "description": "<p>Zapas żywności i wody na jeden dzień dla jednej osoby.</p>",
+            "name": "Racje żywnościowe"
+        },
+        "Razor Chain": {
+            "name": "Ostrze na łańcuchu"
+        },
+        "Restorative": {
+            "description": "<p>Usuwa jeden efekt zatrucia lub choroby</p>",
+            "name": "Środek wzmacniający"
+        },
+        "Rope, 60'": {
+            "description": "<p>Konopna, długość 60’.</p>",
+            "name": "Lina, 60'"
+        },
+        "Round Shield": {
+            "name": "Okrągła tarcza"
+        },
+        "Salve": {
+            "description": "<p>Przywraca 1 PW</p>",
+            "name": "Maść"
+        },
+        "Scimitar": {
+            "name": "Bułat"
+        },
+        "Shield": {
+            "name": "Tarcza"
+        },
+        "Shortbow": {
+            "name": "Krótki łuk"
+        },
+        "Shortsword": {
+            "name": "Krótki miecz"
+        },
+        "Shuriken": {
+            "name": "Shuriken"
+        },
+        "Sling": {
+            "name": "Proca"
+        },
+        "Spear": {
+            "name": "Włócznia"
+        },
+        "Spear (Obsidian)": {
+            "name": "Włócznia (Obsydianowa)"
+        },
+        "Spear-thrower": {
+            "description": "<p>W przypadku rzutu włócznią zwiększa zasięg włóczni do Daleki.</p>",
+            "name": "Rzutnik oszczepów"
+        },
+        "Staff": {
+            "name": "Kostur"
+        },
+        "Stave": {
+            "name": "Berło"
+        },
+        "Stimulant": {
+            "description": "<p>Przez 10 rund nie możesz być zaskoczony</p><p>@UUID[Compendium.shadowdark.stany.MUNwczWej0Bo8x4S]{Efekt: Środek pobudzający}</p>",
+            "name": "Środek pobudzający"
+        },
+        "tDNafhuDDdiVNUMy": {
+            "description": "<p>Amunicja do łuków krótkich lub długich.</p>",
+            "name": "Strzały"
+        },
+        "Thieves' Tools": {
+            "description": "<p>Ułatwienia przy testach na wspinaczkę, skradanie się, ukrywanie się, przebieranie, wykrywanie i rozbrajanie pułapek oraz wykonywanie delikatnych zadań.</p>",
+            "name": "Narzędzia złodziejskie"
+        },
+        "Torch": {
+            "description": "<p>Oświetla najbliższe otoczenie (patrz „Źródła światła”, str. 46). Działa przez jedną godzinę czasu rzeczywistego.</p>",
+            "name": "Pochodnia"
+        },
+        "Warhammer": {
+            "name": "Młot bojowy"
+        },
+        "Whip": {
+            "description": "<p><strong>Typ:</strong> Walka wręcz lub na odległość.</p><p><strong>Zasięg:</strong> Bliski lub średni</p><p><strong>Zręczność (F).</strong> Podczas ataku tą bronią możesz wykorzystać swoją siłę (SIŁ) lub zręczność (ZRC).</p><p><strong>Bicz.</strong> Kiedy wykonujesz atak na odległość tą bronią, nie wypuszczasz jej z ręki.</p>",
+            "name": "Bat"
+        },
+        "XXwA9ZWajYEDmcea": {
+            "description": "<p>Amunicja do łuków krótkich lub długich.</p>",
+            "name": "Strzały"
+        }
+    },
+    "folders": {
+        "Armor": "Pancerz",
+        "Basic Gear": "Podstawowy sprzęt",
+        "Herbal Remedies": "Produkty ziołowe",
+        "Starting Gear": "Sprzęt początkowy",
+        "Weapons": "Bronie"
+    }
+}
