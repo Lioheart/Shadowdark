@@ -1,0 +1,234 @@
+{
+    "label": "Tabele losowe",
+    "mapping": {
+        "description": "description",
+        "name": "name",
+        "results": {
+            "path": "results",
+            "converter": "tableResults"
+        }
+    },
+    "entries": {
+        "Adventuring Site Name: Name 1": {
+            "name": "Nazwa miejsca przygody: Nazwa 1"
+        },
+        "Adventuring Site Name: Name 2": {
+            "name": "Nazwa miejsca przygody: Nazwa 2"
+        },
+        "Adventuring Site Name: Name 3": {
+            "name": "Nazwa miejsca przygody: Nazwa 3"
+        },
+        "Background": {
+            "description": "<p>Twoja wiedza i umiejętności wynikające z przeszłości mogą okazać się przydatne podczas twoich przygód.</p><p>Uzgodnij z MG, czy twoja przeszłość daje ci ułatwienie w danej sytuacji.</p>",
+            "name": "Przeszłość"
+        },
+        "Black Lotus Talents": {
+            "description": "<p>Możesz zatrzymać duplikaty lub je ponownie wygenerować</p>",
+            "name": "Talenty Czarnego Lotosu"
+        },
+        "Character Names: Dwarf": {
+            "name": "Imiona postaci: Krasnolud"
+        },
+        "Character Names: Elf": {
+            "name": "Imiona postaci: Elf"
+        },
+        "Character Names: Goblin": {
+            "name": "Imiona postaci: Goblin"
+        },
+        "Character Names: Half-Orc": {
+            "name": "Imiona postaci: Półork"
+        },
+        "Character Names: Halfling": {
+            "name": "Imiona postaci: Niziołek"
+        },
+        "Character Names: Human": {
+            "name": "Imiona postaci: Człowiek"
+        },
+        "Character Names: Kobold": {
+            "name": "Imiona postaci: Kobold"
+        },
+        "Class Talents: Bard": {
+            "name": "Talenty klas: Bard"
+        },
+        "Class Talents: Basilisk Warrior": {
+            "name": "Talenty klas: Wojownik bazyliszek"
+        },
+        "Class Talents: Desert Rider": {
+            "description": "<p>2 duplikaty = ponowny rzut</p>",
+            "name": "Talenty klas: Jeździec pustyni"
+        },
+        "Class Talents: Fighter": {
+            "name": "Talenty klas: Wojownik"
+        },
+        "Class Talents: Knight of St. Ydris": {
+            "name": "Talenty klas: Rycerz św. Ydrisa"
+        },
+        "Class Talents: Pit Fighter": {
+            "name": "Talenty klas: Zawodnik w klatce"
+        },
+        "Class Talents: Priest": {
+            "name": "Talenty klas: Kapłan"
+        },
+        "Class Talents: Ranger": {
+            "name": "Talenty klas: Łowca"
+        },
+        "Class Talents: Ras-Godai": {
+            "name": "Talenty klas: Ras-Godai"
+        },
+        "Class Talents: Sea Wolf": {
+            "name": "Talenty klas: Wilk morski"
+        },
+        "Class Talents: Seer": {
+            "name": "Talenty klas: Widzący"
+        },
+        "Class Talents: Thief": {
+            "name": "Talenty klas: Złodziej"
+        },
+        "Class Talents: Warlock": {
+            "name": "Talenty klas: Czarnoksiężnik"
+        },
+        "Class Talents: Witch": {
+            "name": "Talenty klas: Wiedźma"
+        },
+        "Class Talents: Wizard": {
+            "name": "Talenty klas: Czarodziej",
+            "results": {
+                "12-12": "Naucz się dodatkowego zaklęcia czarodzieja dowolnego poziomu, które znasz",
+                "dxhv5UKKsR1RCiG4": "Stwórz losowy magiczny przedmiot"
+            }
+        },
+        "Distribute to Stats": {
+            "name": "Rozdziel statystyki"
+        },
+        "Dungeon Names: Name 1": {
+            "name": "Nazwy lochów: Nazwa 1"
+        },
+        "Dungeon Names: Name 2": {
+            "name": "Nazwy lochów: Nazwa 2"
+        },
+        "Dungeon Names: Name 3": {
+            "name": "Nazwy lochów: Nazwa 3"
+        },
+        "Hazard: Damage": {
+            "name": "Zagrożenia: Obrażenia"
+        },
+        "Hazard: Movement": {
+            "name": "Zagrożenia: Ruch"
+        },
+        "Hazard: Weaken": {
+            "name": "Zagrożenia: Osłabienia"
+        },
+        "Magic Item: Name 1": {
+            "name": "Przedmiot magiczny: Nazwa 1"
+        },
+        "Magic Item: Name 2": {
+            "name": "Przedmiot magiczny: Nazwa 2"
+        },
+        "Magic Item: Name 3": {
+            "name": "Przedmiot magiczny: Nazwa 3"
+        },
+        "Oracle": {
+            "name": "Wyrocznia"
+        },
+        "Patron Boons: Almazzat": {
+            "name": "Korzyść patrona: Almazzat"
+        },
+        "Patron Boons: Kytheros": {
+            "name": "Korzyść patrona: Kytheros"
+        },
+        "Patron Boons: Mugdulblub": {
+            "name": "Korzyść patrona: Mugdulblub"
+        },
+        "Patron Boons: Shune the Vile": {
+            "name": "Korzyść patrona: Shune, Nikczemny"
+        },
+        "Patron Boons: The Willowman": {
+            "name": "Korzyść patrona: Strzyga"
+        },
+        "Patron Boons: Titania": {
+            "name": "Korzyść patrona: Titania"
+        },
+        "Prompts: Noun": {
+            "name": "Podpowiedzi: Rzeczownik"
+        },
+        "Prompts: Verb": {
+            "name": "Podpowiedzi: Czasownik"
+        },
+        "Random Alignment": {
+            "name": "Losowy charakter"
+        },
+        "Random Ancestry": {
+            "name": "Losowe pochodzenie"
+        },
+        "Random Class": {
+            "name": "Losowa klasa"
+        },
+        "Random Encounter: Activity": {
+            "name": "Losowe spotkanie: Aktywność"
+        },
+        "Random Encounter: Distance": {
+            "name": "Losowe spotkanie: Dystans"
+        },
+        "Random Encounter: Reaction": {
+            "name": "Losowe spotkanie: Reakcja"
+        },
+        "Random Gear": {
+            "name": "Losowy sprzęt"
+        },
+        "Random Gear Rolls": {
+            "name": "Rzuty na losowy sprzęt"
+        },
+        "Roll Random Character": {
+            "description": "<p> – Wybierz jedną broń (zobacz kompendium broni) – Wybierz skórznię, jeśli możesz ją nosić (zobacz kompendium zbroi)</p>",
+            "name": "Rzut na losowy charakter"
+        },
+        "Ruin Encounters": {
+            "name": "Spotkania w ruinach"
+        },
+        "Rumors": {
+            "name": "Plotki"
+        },
+        "Something Happens!": {
+            "name": "Coś niezwykłego!"
+        },
+        "Starting Gear (Level 0)": {
+            "name": "Sprzęt początkowy (Poziom 0)"
+        },
+        "Starting Gear (Level 0) Rolls": {
+            "name": "Rzuty na sprzęt początkowy (Poziom 0)"
+        },
+        "Trap: Damage or Effect": {
+            "name": "Pułapka: Obrażenia lub efekt"
+        },
+        "Trap: Trap": {
+            "name": "Pułapka: Pułapka"
+        },
+        "Trap: Trigger": {
+            "name": "Pułapka: Wyzwalacz"
+        },
+        "Treasure 0-3": {
+            "name": "Skarb 0-3"
+        },
+        "Wizard Mishap Tier 1-2": {
+            "name": "Wpadka czarodzieja Stopień 1-2"
+        },
+        "Wizard Mishap Tier 3-4": {
+            "name": "Wpadka czarodzieja Stopień 3-4"
+        },
+        "Wizard Mishap Tier 5": {
+            "name": "Wpadka czarodzieja Stopień 5"
+        }
+    },
+    "folders": {
+        "Adventuring Sites": "Miejsca przygody",
+        "Character Background": "Przeszłość postaci",
+        "Class Talents": "Talenty klas",
+        "Hazards": "Zagrożenia",
+        "Magic Item": "Przedmiot magiczny",
+        "Names": "Nazwy",
+        "Patron Boons": "Korzyści patrona",
+        "Random Encounters": "Losowe spotkania",
+        "SoloDark": "SoloDark",
+        "Traps": "Pułapki"
+    }
+}
