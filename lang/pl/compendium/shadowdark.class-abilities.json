@@ -1,0 +1,109 @@
+{
+    "label": "Zdolności klasy",
+    "mapping": {
+        "description": "system.description",
+        "name": "name"
+    },
+    "entries": {
+        "Berserk": {
+            "description": "<p>1 raz dziennie, wpadnij w szał: niewrażliwość na obrażenia przez 3 rundy.</p>",
+            "name": "Szał"
+        },
+        "Charge": {
+            "description": "<p>3 razy dziennie możesz rzucić się do walki, zbliżając się przynajmniej na odległość „blisko” przed atakiem. Za każdym razem, gdy to zrobisz, twoje ataki wręcz zadają w tej rundzie podwójne obrażenia.</p>",
+            "name": "Szarża"
+        },
+        "Curative": {
+            "description": "<p><strong>Lekarstwo.</strong> Odpowiednik @UUID[Compendium.shadowdark.magic-items.Item.jucTGEjsqJ1znHdf]{Eliksiru uzdrawiającego}</p>",
+            "name": "Lekarstwo"
+        },
+        "Demonic Possession": {
+            "description": "<p>3 razy dziennie zyskujesz premię +1 do rzutów na obrażenia, która trwa 3 rundy.</p><p>Ponadto do tej premii do obrażeń dodaj połowę swojego poziomu (zaokrąglając w dół).</p>",
+            "name": "Opętanie przez demona"
+        },
+        "Fascinate": {
+            "description": "<p>(Skupienie). Paraliżujesz wszystkie wybrane cele o poziomie 4 lub niższym znajdujące się w zasięgu bliskim.</p>",
+            "name": "Zafascynowanie"
+        },
+        "Flourish": {
+            "description": "<p>3 razy dziennie odzyskujesz [[/roll 1d6]] Punktów Wytrzymałości, gdy trafisz wroga atakiem wręcz.</p>",
+            "name": "Rozmach"
+        },
+        "Foebane": {
+            "description": "<p>@UUID[Compendium.shadowdark.gear.Item.FeoRamUTz5jakMJ8] Ułatwienie do ataków i obrażeń zadawanych wybranemu przez ciebie typowi stworzeń przez [[/r 1d6]] rund</p>",
+            "name": "Zmora wroga"
+        },
+        "Hide from Creature": {
+            "description": "<p>1 raz dziennie wybierz widoczne dla ciebie stworzenie o poziomie 9 lub niższym; musi ono zdać test [[check 15 wis]], w przeciwnym razie nie będzie mogło cię widzieć ani słyszeć przez 1k4 rund.</p>",
+            "name": "Ukrycie przed stworzeniem"
+        },
+        "Ignore All Damage": {
+            "description": "<p>1 raz dziennie – zignoruj wszystkie obrażenia i efekty wynikające z jednego ataku.</p>",
+            "name": "Ignorowanie wszystkich obrażeń"
+        },
+        "Inspire": {
+            "description": "<p>Jeden z celów w pobliżu otrzymuje token szczęścia.</p>",
+            "name": "Inspiracja"
+        },
+        "Omen": {
+            "description": "<p>3 razy dziennie możesz wykonać test [[check 9 wis]]. W przypadku sukcesu otrzymujesz token szczęścia (nie możesz posiadać więcej niż jednego tokenu szczęścia jednocześnie).</p>",
+            "name": "Omen"
+        },
+        "Paralyze a Target": {
+            "description": "<p>1 raz dziennie – paraliżujesz cel o poziomie 9 lub niższym, któremu zadałeś obrażenia bronią, na 1k4 rund.</p>",
+            "name": "Paraliżowanie celu"
+        },
+        "Petrifying Gaze": {
+            "description": "<p>Jedno stworzenie o poziomie równym lub niższym od twojego, które wejdzie w kontakt wzrokowy z tobą, musi zdać test Kondycji o ST 15 lub zostanie skamienione na 1k4 rund. Podczas petrifikacji nadal otrzymuje obrażenia jak zwykle.</p><p>Możesz użyć tego talentu tyle razy dziennie, ile wynosi twój modyfikator Kondycji (minimum 1).</p>",
+            "name": "Petryfikujące spojrzenie"
+        },
+        "Relentless": {
+            "description": "<p>3 razy dziennie, gdy twoje PW spadną do 0, wykonaj test [[check 18 con]] (do tego rzutu ma zastosowanie talent Nieugięty). W przypadku sukcesu twoje PW spadną zamiast tego do 1.</p>",
+            "name": "Nieustępliwy"
+        },
+        "Restorative": {
+            "description": "<p>@UUID[Compendium.shadowdark.gear.Item.QV93CYmgcgJ3UCPf] Usuwa jeden efekt zatrucia lub choroby</p>",
+            "name": "Wzmacnianie"
+        },
+        "Salve": {
+            "description": "<p>@UUID[Compendium.shadowdark.gear.Item.m857P6MI00wAONTp]{Maść} Leczy 1 PW</p>",
+            "name": "Maść"
+        },
+        "Sleep a Creature": {
+            "description": "<p>1 raz dziennie wybierz żywe stworzenie o poziomie 5 lub niższym, które widzisz w zasięgu „blisko”; musi ono zdać test [[check 15 con]] albo zapadnie w sen.</p>",
+            "name": "Usypianie stworzenia"
+        },
+        "Smoke Step": {
+            "description": "<p>3 razy dziennie – teleportuj się do miejsca, które widzisz w zasięgu blisko. Nie zużywa to twojej akcji.</p>",
+            "name": "Dymny krok"
+        },
+        "Stimulant": {
+            "description": "<p>@UUID[Compendium.shadowdark.gear.Item.dBQr9YPyhvwyPm0g]{Środek pobudzający} Przez 10 rund nie da się cię zaskoczyć</p>",
+            "name": "Środek pobudzający"
+        },
+        "Teleport to Familiar": {
+            "description": "<p>1 raz dziennie, teleportacja do miejsca, w którym znajduje się twój chowaniec, jako ruch</p><p>duplikacja = +1 użycie dziennie</p>",
+            "name": "Teleportacja do chowańca"
+        },
+        "Walk on Sheer Surfaces": {
+            "description": "<p>1 raz dziennie możesz poruszać się po pionowych powierzchniach, takich jak ściany, przez 1k4 rund.</p>",
+            "name": "Chodzenie po stromych powierzchniach"
+        },
+        "Walk on Water": {
+            "description": "<p>1 raz dziennie możesz chodzić po wodzie tak, jakby była twarda, przez 1k4 rund.</p>",
+            "name": "Chodzenie po wodzie"
+        }
+    },
+    "folders": {
+        "Bard": "Bard",
+        "Basilisk Warrior": "Wojownik Bazyliszek",
+        "Desert Rider": "Jeździec pustyni",
+        "Knight of St. Ydris": "Rycerz św. Ydrisa",
+        "Pit Fighter": "Zawodnik w klatce",
+        "Ranger": "Łowca",
+        "Ras-Godai": "Ras-Godai",
+        "Sea Wolf": "Morski Wilk",
+        "Seer": "Widzący",
+        "Witch": "Wiedźma"
+    }
+}
