@@ -1,0 +1,464 @@
+{
+    "label": "Stany",
+    "mapping": {
+        "description": "system.description",
+        "effects": {
+            "path": "effects",
+            "converter": "document",
+            "documentType": "ActiveEffect",
+            "cardinality": "many",
+            "mapping": {
+                "name": "name",
+                "description": "description"
+            }
+        },
+        "name": "name"
+    },
+    "entries": {
+        "0McK66FvDi42pjiu": {
+            "description": "<p>Postać nie może się poruszać, dopóki nie zostanie uwolniona.</p>",
+            "name": "Stan: Zablokowany",
+            "effects": {
+                "Condition: Stuck": {
+                    "name": "Stan: Zablokowany"
+                }
+            }
+        },
+        "2UFWFSeffj7vrSSR": {
+            "description": "<p>Postać jest nieprzytomna.</p>",
+            "name": "Stan: Nieprzytomny",
+            "effects": {
+                "Condition: Unconscious": {
+                    "name": "Stan: Nieprzytomny"
+                }
+            }
+        },
+        "3XkiakzqwT78EG4j": {
+            "name": "Stan: Zahipnotyzowany"
+        },
+        "4OcLCPW1pxzTua7d": {
+            "description": "<p>Postać jest oczarowana.</p>",
+            "name": "Stan: Zauroczony",
+            "effects": {
+                "Condition: Beguiled": {
+                    "name": "Stan: Zauroczony"
+                }
+            }
+        },
+        "5Q6foTiBhvvLG7y3": {
+            "name": "Stan: Sparaliżowany"
+        },
+        "5S5y0GWE2akNYJiq": {
+            "name": "Stan: Wysączony (6)",
+            "effects": {
+                "Condition: Drained (6)": {
+                    "name": "Stan: Wysączony (6)"
+                }
+            }
+        },
+        "6Hd5Dzf2TnXL9Gxs": {
+            "description": "<p>Postać się boi.</p>",
+            "name": "Stan: Przerażony",
+            "effects": {
+                "Condition: Afraid": {
+                    "name": "Stan: Przerażony"
+                }
+            }
+        },
+        "74xpXmPIMUYnyt1M": {
+            "name": "Stan: Wysysanie życia (3)",
+            "effects": {
+                "Condition: Life Drain (3)": {
+                    "name": "Stan: Wysysanie życia (3)"
+                }
+            }
+        },
+        "7DNtQwX31lpChHZH": {
+            "description": "<p>Postać jest przymuszona.</p>",
+            "name": "Stan: Przymuszony",
+            "effects": {
+                "Condition: Compelled": {
+                    "name": "Stan: Przymuszony"
+                }
+            }
+        },
+        "7mCWjMOGoEUpJlGc": {
+            "name": "Stan: Bełkotanie"
+        },
+        "7yyr32LQtbwxDTAF": {
+            "description": "<p>Postać się śmieje.</p>",
+            "name": "Stan: Śmiech",
+            "effects": {
+                "Condition: Laughing": {
+                    "name": "Stan: Śmiech"
+                }
+            }
+        },
+        "8N8VrjrYr7pGris5": {
+            "name": "Stan: Śmiech"
+        },
+        "9LKEdqM5gksbj8xV": {
+            "name": "Stan: Śpiący"
+        },
+        "BcWf0hoWC2DZyaFH": {
+            "name": "Stan: Wysączony (5)",
+            "effects": {
+                "Condition: Drained (5)": {
+                    "name": "Stan: Wysączony (5)"
+                }
+            }
+        },
+        "Blind": {
+            "name": "Ślepota"
+        },
+        "Charmed": {
+            "name": "Oczarowanie"
+        },
+        "Ck88Wezyv7vfvNGV": {
+            "name": "Stan: Spetryfikowany"
+        },
+        "Condition: Banished": {
+            "name": "Stan: Wygnany"
+        },
+        "Condition: Blind": {
+            "description": "<p>Postać z zasłoniętymi oczami ma utrudnienie przy wykonywaniu zadań wymagających wzroku.</p>",
+            "name": "Stan: Oślepiony",
+            "effects": {
+                "Blind": {
+                    "name": "Ślepota"
+                }
+            }
+        },
+        "Condition: Charmed": {
+            "description": "<p>Postać jest oczarowana i traktuje źródło jak przyjaciela.</p>",
+            "name": "Stan: Oczarowany",
+            "effects": {
+                "Charmed": {
+                    "name": "Oczarowanie"
+                }
+            }
+        },
+        "Condition: Enfeebled (Cha)": {
+            "description": "<p>Postać jest osłabiona.</p>",
+            "name": "Stan: Osłabiony (Cha)",
+            "effects": {
+                "Permanent Ability (Cha)": {
+                    "name": "Stała cecha (Cha)"
+                }
+            }
+        },
+        "Condition: Enfeebled (Con)": {
+            "description": "<p>Postać jest osłabiona.</p>",
+            "name": "Stan: Osłabiony (Kon)",
+            "effects": {
+                "Permanent Ability (Con)": {
+                    "name": "Stała cecha (Kon)"
+                }
+            }
+        },
+        "Condition: Enfeebled (Dex)": {
+            "description": "<p>Postać jest osłabiona.</p>",
+            "name": "Stan: Osłabiony (Zrc)",
+            "effects": {
+                "Permanent Ability (Dex)": {
+                    "name": "Stała cecha (Zrc)"
+                }
+            }
+        },
+        "Condition: Enfeebled (Int)": {
+            "description": "<p>Postać jest osłabiona.</p>",
+            "name": "Stan: Osłabiony (Int)",
+            "effects": {
+                "Permanent Ability (Int)": {
+                    "name": "Stała cecha (Int)"
+                }
+            }
+        },
+        "Condition: Enfeebled (Str)": {
+            "description": "<p>Postać jest osłabiona.</p>",
+            "name": "Stan: Osłabiony (Sił)",
+            "effects": {
+                "Permanent Ability (Str)": {
+                    "name": "Stała cecha (Sił)"
+                }
+            }
+        },
+        "Condition: Enfeebled (Wis)": {
+            "description": "<p>Postać jest osłabiona.</p>",
+            "name": "Stan: Osłabiony (Mdr)",
+            "effects": {
+                "Permanent Ability (Wis)": {
+                    "name": "Stała cecha (Mdr)"
+                }
+            }
+        },
+        "Condition: Invisible (Stealthy)": {
+            "description": "<p>Postać jest niewidoczna.</p>",
+            "name": "Stan: Niewidoczny (Ukryty)",
+            "effects": {
+                "Condition: Invisible": {
+                    "name": "Stan: Niewidoczny"
+                }
+            }
+        },
+        "CyZNMVHNjIMTM0g7": {
+            "name": "Stan: Przerażony"
+        },
+        "DihIx1S94zeXV3oM": {
+            "name": "Stan: Spetryfikowany",
+            "effects": {
+                "Condition: Petrified": {
+                    "name": "Stan: Spetryfikowany"
+                }
+            }
+        },
+        "eAWhmC9ZXzjhIa1H": {
+            "name": "Stan: Wysysanie życia (1)",
+            "effects": {
+                "Condition: Life Drain (1)": {
+                    "name": "Stan: Wysysanie życia (1)"
+                }
+            }
+        },
+        "Effect: Stimulant": {
+            "description": "<p>@UUID[Compendium.shadowdark.class-abilities.Item.EhaA5tBROfrws1Kx]{Środek pobudzający}</p>",
+            "name": "Efekt: Środek pobudzający",
+            "effects": {
+                "Perceiving Advantage": {
+                    "name": "Dostrzeganie przewagi"
+                }
+            }
+        },
+        "fHiOjFwljNOeJ2aX": {
+            "name": "Stan: Wysączony (1)",
+            "effects": {
+                "Condition: Drained (1)": {
+                    "name": "Stan: Wysączony (1)"
+                }
+            }
+        },
+        "fMXSo5UqQD0fedRc": {
+            "name": "Stan: Choroba (2)",
+            "effects": {
+                "Condition: Disease (2)": {
+                    "name": "Stan: Choroba (2)"
+                }
+            }
+        },
+        "FoXNI5CfBkJOvJ9c": {
+            "name": "Stan: Śpiący",
+            "effects": {
+                "Condition: Asleep": {
+                    "name": "Stan: Śpiący"
+                }
+            }
+        },
+        "gbK3h5sv3mNm3v3R": {
+            "name": "Stan: Ogłupiony"
+        },
+        "GQDiR0cXfb86m83P": {
+            "name": "Stan: Wysączony (4)",
+            "effects": {
+                "Condition: Drained (4)": {
+                    "name": "Stan: Wysączony (4)"
+                }
+            }
+        },
+        "h8IoE9DUt8lyCAgQ": {
+            "name": "Stan: Przeklęty"
+        },
+        "HBDRaw3YhM22PJK2": {
+            "name": "Stan: Wysysanie życia (2)",
+            "effects": {
+                "Condition: Life Drain (2)": {
+                    "name": "Stan: Wysysanie życia (2)"
+                }
+            }
+        },
+        "iatMWq8uzO8KPaxd": {
+            "name": "Stan: Wysączony (2)"
+        },
+        "iTrME6gdEDXnxloZ": {
+            "name": "Stan: Nieprzytomny"
+        },
+        "iU2qaminUz77BQ0L": {
+            "description": "<p>Postać bełkocze.</p>",
+            "name": "Stan: Bełkotanie",
+            "effects": {
+                "Condition: Gibbering": {
+                    "name": "Stan: Bełkotanie"
+                }
+            }
+        },
+        "jT3yIGZpBlEYa2va": {
+            "name": "Stan: Wysączony (3)",
+            "effects": {
+                "Condition: Drained (3)": {
+                    "name": "Stan: Wysączony (3)"
+                }
+            }
+        },
+        "jtCuGSncFiHgfNgZ": {
+            "name": "Stan: Przymuszony"
+        },
+        "LDzTLiVPs1Qvyrzk": {
+            "description": "<p>Postać jest niewidoczna.</p>",
+            "name": "Stan: Niewidoczny"
+        },
+        "LmXXpHviIuB684gX": {
+            "name": "Stan: Niewidoczny"
+        },
+        "mqOVlejHMZAvqnn4": {
+            "name": "Stan: Wysączony (2)",
+            "effects": {
+                "Condition: Drained (2)": {
+                    "name": "Stan: Wysączony (2)"
+                }
+            }
+        },
+        "OL2kOP05K96L9JV9": {
+            "description": "<p>Postać jest opętana.</p>",
+            "name": "Stan: Opętany",
+            "effects": {
+                "Condition: Possessed": {
+                    "name": "Stan: Opętany"
+                }
+            }
+        },
+        "PAkmxzlF6cIsPNkt": {
+            "name": "Stan: Choroba (3)"
+        },
+        "pcBuNszkAjGRJ0XX": {
+            "description": "<p>Postać jest wrażliwa i otrzymuje podwójne obrażenia.</p>",
+            "name": "Stan: Wrażliwy",
+            "effects": {
+                "Condition: Fragile": {
+                    "name": "Stan: Wrażliwy"
+                }
+            }
+        },
+        "Perceiving Advantage": {
+            "name": "Dostrzeganie przewagi"
+        },
+        "Permanent Ability (Cha)": {
+            "name": "Stała cecha (Cha)"
+        },
+        "Permanent Ability (Con)": {
+            "name": "Stała cecha (Kon)"
+        },
+        "Permanent Ability (Dex)": {
+            "name": "Stała cecha (Zrc)"
+        },
+        "Permanent Ability (Int)": {
+            "name": "Stała cecha (Int)"
+        },
+        "Permanent Ability (Str)": {
+            "name": "Stała cecha (Sił)"
+        },
+        "Permanent Ability (Wis)": {
+            "name": "Stała cecha (Mdr)"
+        },
+        "pkvfOgSt7c86e1dw": {
+            "name": "Stan: Wysysanie życia (4)",
+            "effects": {
+                "Condition: Life Drain (4)": {
+                    "name": "Stan: Wysysanie życia (4)"
+                }
+            }
+        },
+        "Pw5zyo8apyAphCG2": {
+            "name": "Stan: Zablokowany"
+        },
+        "PY16IzWMkbYbGAWJ": {
+            "name": "Stan: Choroba (4)",
+            "effects": {
+                "Condition: Disease (4)": {
+                    "name": "Stan: Choroba (4)"
+                }
+            }
+        },
+        "qSuLDWBjPNH2wizr": {
+            "name": "Stan: Zauroczony"
+        },
+        "rbOmeG3R2mmiiIMT": {
+            "name": "Stan: Uszkodzony mózg",
+            "effects": {
+                "Condition: Bug Brain": {
+                    "name": "Stan: Uszkodzony mózg"
+                }
+            }
+        },
+        "rEjr6iPhgVuFTCWl": {
+            "name": "Stan: Opętany"
+        },
+        "ROTpAUAHx5s4AZZh": {
+            "description": "<p>Postać jest sparaliżowana.</p>",
+            "name": "Stan: Sparaliżowany",
+            "effects": {
+                "Condition: Paralyzed": {
+                    "name": "Stan: Sparaliżowany"
+                }
+            }
+        },
+        "rW7oltlWDmteEpV7": {
+            "description": "<p>Postać została poddana polimorfii.</p>",
+            "name": "Stan: Przekształcony",
+            "effects": {
+                "Condition: Polymorphed": {
+                    "name": "Stan: Przekształcony"
+                }
+            }
+        },
+        "SQzniFDNODQRLoNi": {
+            "description": "<p>Postać jest ogłupiona.</p>",
+            "name": "Stan: Ogłupiony",
+            "effects": {
+                "Condition: Stupified": {
+                    "name": "Stan: Ogłupiony"
+                }
+            }
+        },
+        "T7PD6qqfanwAMEzo": {
+            "description": "<p>Postać jest przeklęta.</p>",
+            "name": "Stan: Przeklęty",
+            "effects": {
+                "Condition: Cursed": {
+                    "name": "Stan: Przeklęty"
+                }
+            }
+        },
+        "vmcHEQWOyX933G1R": {
+            "name": "Stan: Zahipnotyzowany",
+            "effects": {
+                "Condition: Mesmerized": {
+                    "name": "Stan: Zahipnotyzowany"
+                }
+            }
+        },
+        "wDCrj4X7ccqB2jA8": {
+            "name": "Stan: Choroba (3)",
+            "effects": {
+                "Condition: Disease (3)": {
+                    "name": "Stan: Choroba (3)"
+                }
+            }
+        },
+        "WRFmdFxvPhVKXQB2": {
+            "name": "Stan: Choroba (1)",
+            "effects": {
+                "Condition: Disease (1)": {
+                    "name": "Stan: Choroba (1)"
+                }
+            }
+        },
+        "XGGzrINaGvRwwXPC": {
+            "name": "Stan: Wrażliwy"
+        },
+        "xyhx2skwDPYWZ20G": {
+            "name": "Stan: Przekształcony"
+        },
+        "YPYxo5WhLBPCnkRd": {
+            "name": "Stan: Uszkodzony mózg"
+        }
+    }
+}
