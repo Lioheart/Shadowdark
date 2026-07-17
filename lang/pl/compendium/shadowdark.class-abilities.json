@@ -63,7 +63,7 @@
         },
         "Restorative": {
             "description": "<p>@UUID[Compendium.shadowdark.gear.Item.QV93CYmgcgJ3UCPf] Usuwa jeden efekt zatrucia lub choroby</p>",
-            "name": "Wzmacnianie"
+            "name": "Środek wzmacniający"
         },
         "Salve": {
             "description": "<p>@UUID[Compendium.shadowdark.gear.Item.m857P6MI00wAONTp]{Maść} Leczy 1 PW</p>",
