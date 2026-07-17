@@ -3,117 +3,173 @@
     "mapping": {
         "description": "system.description",
         "name": "name",
-        "system.titles.0.chaotic": "system.titles.0.chaotic",
-        "system.titles.0.lawful": "system.titles.0.lawful",
-        "system.titles.0.neutral": "system.titles.0.neutral",
-        "system.titles.1.chaotic": "system.titles.1.chaotic",
-        "system.titles.1.lawful": "system.titles.1.lawful",
-        "system.titles.1.neutral": "system.titles.1.neutral",
-        "system.titles.2.chaotic": "system.titles.2.chaotic",
-        "system.titles.2.lawful": "system.titles.2.lawful",
-        "system.titles.2.neutral": "system.titles.2.neutral",
-        "system.titles.3.chaotic": "system.titles.3.chaotic",
-        "system.titles.3.lawful": "system.titles.3.lawful",
-        "system.titles.3.neutral": "system.titles.3.neutral",
-        "system.titles.4.chaotic": "system.titles.4.chaotic",
-        "system.titles.4.lawful": "system.titles.4.lawful",
-        "system.titles.4.neutral": "system.titles.4.neutral"
+        "titles": {
+            "path": "system.titles",
+            "converter": "structured",
+            "cardinality": "many",
+            "key": "from",
+            "mapping": {
+                "chaotic": "chaotic",
+                "lawful": "lawful",
+                "neutral": "neutral"
+            }
+        }
     },
     "entries": {
         "Bard (Legacy)": {
             "description": "<p>Bards are welcome wanderers and wise advisors; it is their task to protect and share knowledge handed down through the ages.</p>",
             "name": "Bard (Legacy)",
-            "system.titles.0.chaotic": "Guttersnipe",
-            "system.titles.0.lawful": "Storyteller",
-            "system.titles.0.neutral": "Seeker",
-            "system.titles.1.chaotic": "Charlatan",
-            "system.titles.1.lawful": "Balladeer",
-            "system.titles.1.neutral": "Witness",
-            "system.titles.2.chaotic": "Satirist",
-            "system.titles.2.lawful": "Philosopher",
-            "system.titles.2.neutral": "Speaker",
-            "system.titles.3.chaotic": "Silvertongue",
-            "system.titles.3.lawful": "Poet",
-            "system.titles.3.neutral": "Voice",
-            "system.titles.4.chaotic": "Doomspeaker",
-            "system.titles.4.lawful": "Master Poet",
-            "system.titles.4.neutral": "Trushbearer"
+            "titles": {
+                "1": {
+                    "chaotic": "Guttersnipe",
+                    "lawful": "Storyteller",
+                    "neutral": "Seeker"
+                },
+                "3": {
+                    "chaotic": "Charlatan",
+                    "lawful": "Balladeer",
+                    "neutral": "Witness"
+                },
+                "5": {
+                    "chaotic": "Satirist",
+                    "lawful": "Philosopher",
+                    "neutral": "Speaker"
+                },
+                "7": {
+                    "chaotic": "Silvertongue",
+                    "lawful": "Poet",
+                    "neutral": "Voice"
+                },
+                "9": {
+                    "chaotic": "Doomspeaker",
+                    "lawful": "Master Poet",
+                    "neutral": "Trushbearer"
+                }
+            }
         },
         "Basilisk Warrior": {
             "description": "<p>Blazing-eyed warriors who coat their skin in mud and stone. Their ancient combat style mimics the basilik's regal poise and ferocious strikes.</p>",
             "name": "Basilisk Warrior",
-            "system.titles.0.chaotic": "Stone Warrior",
-            "system.titles.0.lawful": "Stone Warrior",
-            "system.titles.0.neutral": "Stone Warrior",
-            "system.titles.1.chaotic": "Sharp Stone",
-            "system.titles.1.lawful": "Strong Stone",
-            "system.titles.1.neutral": "Silent Stone",
-            "system.titles.2.chaotic": "Slayer",
-            "system.titles.2.lawful": "Protector",
-            "system.titles.2.neutral": "Watcher",
-            "system.titles.3.chaotic": "Moon Serpent",
-            "system.titles.3.lawful": "Sun Serpent",
-            "system.titles.3.neutral": "Sky Serpent",
-            "system.titles.4.chaotic": "Obsidian Basilisk",
-            "system.titles.4.lawful": "Amber Basilisk",
-            "system.titles.4.neutral": "Sapphire Basilisk"
+            "titles": {
+                "1": {
+                    "chaotic": "Stone Warrior",
+                    "lawful": "Stone Warrior",
+                    "neutral": "Stone Warrior"
+                },
+                "3": {
+                    "chaotic": "Sharp Stone",
+                    "lawful": "Strong Stone",
+                    "neutral": "Silent Stone"
+                },
+                "5": {
+                    "chaotic": "Slayer",
+                    "lawful": "Protector",
+                    "neutral": "Watcher"
+                },
+                "7": {
+                    "chaotic": "Moon Serpent",
+                    "lawful": "Sun Serpent",
+                    "neutral": "Sky Serpent"
+                },
+                "9": {
+                    "chaotic": "Obsidian Basilisk",
+                    "lawful": "Amber Basilisk",
+                    "neutral": "Sapphire Basilisk"
+                }
+            }
         },
         "Desert Rider": {
             "description": "<p>Howling barbarians thundering across the sand on wild horses, elven spies wielding curved blades atop silvery camels, or bandits wrapped in colorful silks racing on sleek, desert stallions.</p>",
             "name": "Desert Rider",
-            "system.titles.0.chaotic": "Bandit",
-            "system.titles.0.lawful": "Outrider",
-            "system.titles.0.neutral": "Rat",
-            "system.titles.1.chaotic": "Robber",
-            "system.titles.1.lawful": "Sandrunner",
-            "system.titles.1.neutral": "Fox",
-            "system.titles.2.chaotic": "Raider",
-            "system.titles.2.lawful": "Trailblazer",
-            "system.titles.2.neutral": "Wolf",
-            "system.titles.3.chaotic": "Scourge",
-            "system.titles.3.lawful": "Swift Wind",
-            "system.titles.3.neutral": "Tiger",
-            "system.titles.4.chaotic": "Bandit King/Queen",
-            "system.titles.4.lawful": "Stormrunner",
-            "system.titles.4.neutral": "Dragon"
+            "titles": {
+                "1": {
+                    "chaotic": "Bandit",
+                    "lawful": "Outrider",
+                    "neutral": "Rat"
+                },
+                "3": {
+                    "chaotic": "Robber",
+                    "lawful": "Sandrunner",
+                    "neutral": "Fox"
+                },
+                "5": {
+                    "chaotic": "Raider",
+                    "lawful": "Trailblazer",
+                    "neutral": "Wolf"
+                },
+                "7": {
+                    "chaotic": "Scourge",
+                    "lawful": "Swift Wind",
+                    "neutral": "Tiger"
+                },
+                "9": {
+                    "chaotic": "Bandit King/Queen",
+                    "lawful": "Stormrunner",
+                    "neutral": "Dragon"
+                }
+            }
         },
         "Fighter": {
             "description": "<p>Blood-soaked gladiators in dented armor, acrobatic duelists with darting swords, or far-eyed elven archers who carve their legends with steel and grit.</p>",
             "name": "Fighter",
-            "system.titles.0.chaotic": "Knave",
-            "system.titles.0.lawful": "Squire",
-            "system.titles.0.neutral": "Warrior",
-            "system.titles.1.chaotic": "Bandit",
-            "system.titles.1.lawful": "Cavalier",
-            "system.titles.1.neutral": "Barbarian",
-            "system.titles.2.chaotic": "Slayer",
-            "system.titles.2.lawful": "Knight",
-            "system.titles.2.neutral": "Battlerager",
-            "system.titles.3.chaotic": "Reaver",
-            "system.titles.3.lawful": "Thane",
-            "system.titles.3.neutral": "Warchief",
-            "system.titles.4.chaotic": "Warlord",
-            "system.titles.4.lawful": "Lord/Lady",
-            "system.titles.4.neutral": "Chieftain"
+            "titles": {
+                "1": {
+                    "chaotic": "Knave",
+                    "lawful": "Squire",
+                    "neutral": "Warrior"
+                },
+                "3": {
+                    "chaotic": "Bandit",
+                    "lawful": "Cavalier",
+                    "neutral": "Barbarian"
+                },
+                "5": {
+                    "chaotic": "Slayer",
+                    "lawful": "Knight",
+                    "neutral": "Battlerager"
+                },
+                "7": {
+                    "chaotic": "Reaver",
+                    "lawful": "Thane",
+                    "neutral": "Warchief"
+                },
+                "9": {
+                    "chaotic": "Warlord",
+                    "lawful": "Lord/Lady",
+                    "neutral": "Chieftain"
+                }
+            }
         },
         "Knight of St. Ydris": {
             "description": "<p>Cursed knights who walk the path of St. Ydris the Unholy, the Possessed. They embrace the darkness in order to fight it, cleansing evil with a flurry of steel and forbidden sorcery.</p>",
             "name": "Knight of St. Ydris",
-            "system.titles.0.chaotic": "Traitor",
-            "system.titles.0.lawful": "Arbiter",
-            "system.titles.0.neutral": "Brother/Sister",
-            "system.titles.1.chaotic": "Fallen",
-            "system.titles.1.lawful": "Enforcer",
-            "system.titles.1.neutral": "Exorcist",
-            "system.titles.2.chaotic": "Oathbreaker",
-            "system.titles.2.lawful": "Knight Marshall",
-            "system.titles.2.neutral": "Reverend Knight",
-            "system.titles.3.chaotic": "Blackguard",
-            "system.titles.3.lawful": "Judge",
-            "system.titles.3.neutral": "Inquisitor",
-            "system.titles.4.chaotic": "Demonlord",
-            "system.titles.4.lawful": "Justiciar",
-            "system.titles.4.neutral": "Grand Inquisitor"
+            "titles": {
+                "1": {
+                    "chaotic": "Traitor",
+                    "lawful": "Arbiter",
+                    "neutral": "Brother/Sister"
+                },
+                "3": {
+                    "chaotic": "Fallen",
+                    "lawful": "Enforcer",
+                    "neutral": "Exorcist"
+                },
+                "5": {
+                    "chaotic": "Oathbreaker",
+                    "lawful": "Knight Marshall",
+                    "neutral": "Reverend Knight"
+                },
+                "7": {
+                    "chaotic": "Blackguard",
+                    "lawful": "Judge",
+                    "neutral": "Inquisitor"
+                },
+                "9": {
+                    "chaotic": "Demonlord",
+                    "lawful": "Justiciar",
+                    "neutral": "Grand Inquisitor"
+                }
+            }
         },
         "Level 0": {
             "description": "<p>Some games begin with 0-level characters — weak peasants who have not yet attained the skill required to be adventurers. 0-level characters are fragile and start with hit points equal to their Constitution modifier (minimum 1)</p>",
@@ -122,192 +178,312 @@
         "Pit Fighter": {
             "description": "<p>Blood-soaked warriors circling each other in a roaring arena, scarred desert bandits dueling for the right to lead their gang, or brash tavern brawlers who never turn down a challenge.</p>",
             "name": "Pit Fighter",
-            "system.titles.0.chaotic": "Ruffian",
-            "system.titles.0.lawful": "Rookie",
-            "system.titles.0.neutral": "Underdog",
-            "system.titles.1.chaotic": "Brawler",
-            "system.titles.1.lawful": "Gladiator",
-            "system.titles.1.neutral": "Dark Horse",
-            "system.titles.2.chaotic": "Heel",
-            "system.titles.2.lawful": "Hero",
-            "system.titles.2.neutral": "Wild Card",
-            "system.titles.3.chaotic": "Villain",
-            "system.titles.3.lawful": "Champion",
-            "system.titles.3.neutral": "Victor",
-            "system.titles.4.chaotic": "Legend",
-            "system.titles.4.lawful": "Legend",
-            "system.titles.4.neutral": "Legend"
+            "titles": {
+                "1": {
+                    "chaotic": "Ruffian",
+                    "lawful": "Rookie",
+                    "neutral": "Underdog"
+                },
+                "3": {
+                    "chaotic": "Brawler",
+                    "lawful": "Gladiator",
+                    "neutral": "Dark Horse"
+                },
+                "5": {
+                    "chaotic": "Heel",
+                    "lawful": "Hero",
+                    "neutral": "Wild Card"
+                },
+                "7": {
+                    "chaotic": "Villain",
+                    "lawful": "Champion",
+                    "neutral": "Victor"
+                },
+                "9": {
+                    "chaotic": "Legend",
+                    "lawful": "Legend",
+                    "neutral": "Legend"
+                }
+            }
         },
         "Priest": {
             "description": "<p>Crusading templars, prophetic shamans, or mad-eyed zealots who wield the power of their gods to cleanse the unholy.</p>",
             "name": "Priest",
-            "system.titles.0.chaotic": "Initiate",
-            "system.titles.0.lawful": "Acolyte",
-            "system.titles.0.neutral": "Seeker",
-            "system.titles.1.chaotic": "Zealot",
-            "system.titles.1.lawful": "Crusader",
-            "system.titles.1.neutral": "Invoker",
-            "system.titles.2.chaotic": "Cultist",
-            "system.titles.2.lawful": "Templar",
-            "system.titles.2.neutral": "Haruspex",
-            "system.titles.3.chaotic": "Scourge",
-            "system.titles.3.lawful": "Champion",
-            "system.titles.3.neutral": "Mystic",
-            "system.titles.4.chaotic": "Chaos Knight",
-            "system.titles.4.lawful": "Paladin",
-            "system.titles.4.neutral": "Oracle"
+            "titles": {
+                "1": {
+                    "chaotic": "Initiate",
+                    "lawful": "Acolyte",
+                    "neutral": "Seeker"
+                },
+                "3": {
+                    "chaotic": "Zealot",
+                    "lawful": "Crusader",
+                    "neutral": "Invoker"
+                },
+                "5": {
+                    "chaotic": "Cultist",
+                    "lawful": "Templar",
+                    "neutral": "Haruspex"
+                },
+                "7": {
+                    "chaotic": "Scourge",
+                    "lawful": "Champion",
+                    "neutral": "Mystic"
+                },
+                "9": {
+                    "chaotic": "Chaos Knight",
+                    "lawful": "Paladin",
+                    "neutral": "Oracle"
+                }
+            }
         },
         "Ranger": {
             "description": "<p>Skilled trackers, stealthy wanderers, and peerless warriors who call the wilds their home.</p>",
             "name": "Ranger",
-            "system.titles.0.chaotic": "Hood",
-            "system.titles.0.lawful": "Wanderer",
-            "system.titles.0.neutral": "Stranger",
-            "system.titles.1.chaotic": "Outlaw",
-            "system.titles.1.lawful": "Strider",
-            "system.titles.1.neutral": "Wayfarer",
-            "system.titles.2.chaotic": "Fugitive",
-            "system.titles.2.lawful": "Warden",
-            "system.titles.2.neutral": "Outlander",
-            "system.titles.3.chaotic": "Exile",
-            "system.titles.3.lawful": "Guardian",
-            "system.titles.3.neutral": "Recluse",
-            "system.titles.4.chaotic": "Pariah",
-            "system.titles.4.lawful": "Sentinel",
-            "system.titles.4.neutral": "Hermit"
+            "titles": {
+                "1": {
+                    "chaotic": "Hood",
+                    "lawful": "Wanderer",
+                    "neutral": "Stranger"
+                },
+                "3": {
+                    "chaotic": "Outlaw",
+                    "lawful": "Strider",
+                    "neutral": "Wayfarer"
+                },
+                "5": {
+                    "chaotic": "Fugitive",
+                    "lawful": "Warden",
+                    "neutral": "Outlander"
+                },
+                "7": {
+                    "chaotic": "Exile",
+                    "lawful": "Guardian",
+                    "neutral": "Recluse"
+                },
+                "9": {
+                    "chaotic": "Pariah",
+                    "lawful": "Sentinel",
+                    "neutral": "Hermit"
+                }
+            }
         },
         "Ras-Godai": {
             "description": "<p>Black-clad assassins who train from childhood inside a hidden desert monastery. They gain their sorcerous powers from a legendary black lotus flower that was given to them by a demon.</p>",
             "name": "Ras-Godai",
-            "system.titles.0.chaotic": "Acolyte",
-            "system.titles.0.lawful": "Acolyte",
-            "system.titles.0.neutral": "Acolyte",
-            "system.titles.1.chaotic": "Shadow Path",
-            "system.titles.1.lawful": "Mirror Path",
-            "system.titles.1.neutral": "Fire Path",
-            "system.titles.2.chaotic": "Monk",
-            "system.titles.2.lawful": "Monk",
-            "system.titles.2.neutral": "Monk",
-            "system.titles.3.chaotic": "Assasin",
-            "system.titles.3.lawful": "Master",
-            "system.titles.3.neutral": "Demon Blade",
-            "system.titles.4.chaotic": "Black Lotus",
-            "system.titles.4.lawful": "White Lotus",
-            "system.titles.4.neutral": "Red Lotus"
+            "titles": {
+                "1": {
+                    "chaotic": "Acolyte",
+                    "lawful": "Acolyte",
+                    "neutral": "Acolyte"
+                },
+                "3": {
+                    "chaotic": "Shadow Path",
+                    "lawful": "Mirror Path",
+                    "neutral": "Fire Path"
+                },
+                "5": {
+                    "chaotic": "Monk",
+                    "lawful": "Monk",
+                    "neutral": "Monk"
+                },
+                "7": {
+                    "chaotic": "Assasin",
+                    "lawful": "Master",
+                    "neutral": "Demon Blade"
+                },
+                "9": {
+                    "chaotic": "Black Lotus",
+                    "lawful": "White Lotus",
+                    "neutral": "Red Lotus"
+                }
+            }
         },
         "Sea Wolf": {
             "description": "<p>Seafaring raiders who prowl the isles for plunder in dragonheaded longboats. When the warhorn sounds, they become fierce berserkers and shield maidens who hope to please their gods with a brave death.</p>",
             "name": "Sea Wolf",
-            "system.titles.0.chaotic": "Rabble",
-            "system.titles.0.lawful": "Freefolk",
-            "system.titles.0.neutral": "Wanderer",
-            "system.titles.1.chaotic": "Raider",
-            "system.titles.1.lawful": "Shieldman/maiden",
-            "system.titles.1.neutral": "Explorer",
-            "system.titles.2.chaotic": "Reaver",
-            "system.titles.2.lawful": "Thane",
-            "system.titles.2.neutral": "Adventurer",
-            "system.titles.3.chaotic": "Conqueror",
-            "system.titles.3.lawful": "Jarl",
-            "system.titles.3.neutral": "Renowned",
-            "system.titles.4.chaotic": "Usurper",
-            "system.titles.4.lawful": "King/Queen",
-            "system.titles.4.neutral": "Legendary"
+            "titles": {
+                "1": {
+                    "chaotic": "Rabble",
+                    "lawful": "Freefolk",
+                    "neutral": "Wanderer"
+                },
+                "3": {
+                    "chaotic": "Raider",
+                    "lawful": "Shieldman/maiden",
+                    "neutral": "Explorer"
+                },
+                "5": {
+                    "chaotic": "Reaver",
+                    "lawful": "Thane",
+                    "neutral": "Adventurer"
+                },
+                "7": {
+                    "chaotic": "Conqueror",
+                    "lawful": "Jarl",
+                    "neutral": "Renowned"
+                },
+                "9": {
+                    "chaotic": "Usurper",
+                    "lawful": "King/Queen",
+                    "neutral": "Legendary"
+                }
+            }
         },
         "Seer": {
             "description": "<p>Baleful diviners who reek of smoke and blood. They untangle the whispers of the gods by reading the runes, the bones, and the stars. Their knowledge of fate allows them to bend it.</p>",
             "name": "Seer",
-            "system.titles.0.chaotic": "Hedge Witch",
-            "system.titles.0.lawful": "Guide",
-            "system.titles.0.neutral": "Fortune Teller",
-            "system.titles.1.chaotic": "Whisperer",
-            "system.titles.1.lawful": "Chanter",
-            "system.titles.1.neutral": "Singer",
-            "system.titles.2.chaotic": "Bone Reader",
-            "system.titles.2.lawful": "Rune Reader",
-            "system.titles.2.neutral": "Star Reader",
-            "system.titles.3.chaotic": "Dreaded One",
-            "system.titles.3.lawful": "Wise One",
-            "system.titles.3.neutral": "Blessed One",
-            "system.titles.4.chaotic": "Seer of Loki",
-            "system.titles.4.lawful": "Seer of Odin",
-            "system.titles.4.neutral": "Seer of Freya"
+            "titles": {
+                "1": {
+                    "chaotic": "Hedge Witch",
+                    "lawful": "Guide",
+                    "neutral": "Fortune Teller"
+                },
+                "3": {
+                    "chaotic": "Whisperer",
+                    "lawful": "Chanter",
+                    "neutral": "Singer"
+                },
+                "5": {
+                    "chaotic": "Bone Reader",
+                    "lawful": "Rune Reader",
+                    "neutral": "Star Reader"
+                },
+                "7": {
+                    "chaotic": "Dreaded One",
+                    "lawful": "Wise One",
+                    "neutral": "Blessed One"
+                },
+                "9": {
+                    "chaotic": "Seer of Loki",
+                    "lawful": "Seer of Odin",
+                    "neutral": "Seer of Freya"
+                }
+            }
         },
         "Thief": {
             "description": "<p>Rooftop assassins, grinning con artists, or cloaked cat burglars who can pluck a gem from the claws of a sleeping demon and sell it for twice its worth.</p>",
             "name": "Thief",
-            "system.titles.0.chaotic": "Thug",
-            "system.titles.0.lawful": "Footpad",
-            "system.titles.0.neutral": "Robber",
-            "system.titles.1.chaotic": "Cutthroat",
-            "system.titles.1.lawful": "Burglar",
-            "system.titles.1.neutral": "Outlaw",
-            "system.titles.2.chaotic": "Shadow",
-            "system.titles.2.lawful": "Rook",
-            "system.titles.2.neutral": "Rogue",
-            "system.titles.3.chaotic": "Assassin",
-            "system.titles.3.lawful": "Underboss",
-            "system.titles.3.neutral": "Renegade",
-            "system.titles.4.chaotic": "Wraith",
-            "system.titles.4.lawful": "Boss",
-            "system.titles.4.neutral": "Bandit King/Queen"
+            "titles": {
+                "1": {
+                    "chaotic": "Thug",
+                    "lawful": "Footpad",
+                    "neutral": "Robber"
+                },
+                "3": {
+                    "chaotic": "Cutthroat",
+                    "lawful": "Burglar",
+                    "neutral": "Outlaw"
+                },
+                "5": {
+                    "chaotic": "Shadow",
+                    "lawful": "Rook",
+                    "neutral": "Rogue"
+                },
+                "7": {
+                    "chaotic": "Assassin",
+                    "lawful": "Underboss",
+                    "neutral": "Renegade"
+                },
+                "9": {
+                    "chaotic": "Wraith",
+                    "lawful": "Boss",
+                    "neutral": "Bandit King/Queen"
+                }
+            }
         },
         "Warlock": {
             "description": "<p>Howling warriors with sharpened teeth, wild-eyed doomspeakers preaching of The Dissolution, and cloaked lore-hunters bearing the hidden Mark of Shune.</p>",
             "name": "Warlock",
-            "system.titles.0.chaotic": "Marked",
-            "system.titles.0.lawful": "Favored",
-            "system.titles.0.neutral": "Chosen",
-            "system.titles.1.chaotic": "Zealot",
-            "system.titles.1.lawful": "Herald",
-            "system.titles.1.neutral": "Channeler",
-            "system.titles.2.chaotic": "Occultist",
-            "system.titles.2.lawful": "Eminent",
-            "system.titles.2.neutral": "Prophesied",
-            "system.titles.3.chaotic": "Champion",
-            "system.titles.3.lawful": "Exalted",
-            "system.titles.3.neutral": "Transcendent",
-            "system.titles.4.chaotic": "Harbinger",
-            "system.titles.4.lawful": "Incarnation",
-            "system.titles.4.neutral": "Avatar"
+            "titles": {
+                "1": {
+                    "chaotic": "Marked",
+                    "lawful": "Favored",
+                    "neutral": "Chosen"
+                },
+                "3": {
+                    "chaotic": "Zealot",
+                    "lawful": "Herald",
+                    "neutral": "Channeler"
+                },
+                "5": {
+                    "chaotic": "Occultist",
+                    "lawful": "Eminent",
+                    "neutral": "Prophesied"
+                },
+                "7": {
+                    "chaotic": "Champion",
+                    "lawful": "Exalted",
+                    "neutral": "Transcendent"
+                },
+                "9": {
+                    "chaotic": "Harbinger",
+                    "lawful": "Incarnation",
+                    "neutral": "Avatar"
+                }
+            }
         },
         "Witch": {
             "description": "<p>Cackling crones stooped over cauldrons, chanting shamans smeared in blood and clay, and outcast maidens with milky eyes that see portents and secrets.</p>",
             "name": "Witch",
-            "system.titles.0.chaotic": "Whisperer",
-            "system.titles.0.lawful": "Fortune Teller",
-            "system.titles.0.neutral": "Shaman",
-            "system.titles.1.chaotic": "Hexer",
-            "system.titles.1.lawful": "Far Seer",
-            "system.titles.1.neutral": "Conjurer",
-            "system.titles.2.chaotic": "Hag/Elder",
-            "system.titles.2.lawful": "Prophet",
-            "system.titles.2.neutral": "Soothsayer",
-            "system.titles.3.chaotic": "Crone/Uncle",
-            "system.titles.3.lawful": "Wise One",
-            "system.titles.3.neutral": "Conduit",
-            "system.titles.4.chaotic": "Baba",
-            "system.titles.4.lawful": "Baba",
-            "system.titles.4.neutral": "Baba"
+            "titles": {
+                "1": {
+                    "chaotic": "Whisperer",
+                    "lawful": "Fortune Teller",
+                    "neutral": "Shaman"
+                },
+                "3": {
+                    "chaotic": "Hexer",
+                    "lawful": "Far Seer",
+                    "neutral": "Conjurer"
+                },
+                "5": {
+                    "chaotic": "Hag/Elder",
+                    "lawful": "Prophet",
+                    "neutral": "Soothsayer"
+                },
+                "7": {
+                    "chaotic": "Crone/Uncle",
+                    "lawful": "Wise One",
+                    "neutral": "Conduit"
+                },
+                "9": {
+                    "chaotic": "Baba",
+                    "lawful": "Baba",
+                    "neutral": "Baba"
+                }
+            }
         },
         "Wizard": {
             "description": "<p>Rune-tattooed adepts, bespectacled magi, and flameconjuring witches who dare to manipulate the fell forces of magic.</p>",
             "name": "Wizard",
-            "system.titles.0.chaotic": "Adept",
-            "system.titles.0.lawful": "Apprentice",
-            "system.titles.0.neutral": "Shaman",
-            "system.titles.1.chaotic": "Channeler",
-            "system.titles.1.lawful": "Conjurer",
-            "system.titles.1.neutral": "Seer",
-            "system.titles.2.chaotic": "Witch/Warlock",
-            "system.titles.2.lawful": "Arcanist",
-            "system.titles.2.neutral": "Warden",
-            "system.titles.3.chaotic": "Diabolist",
-            "system.titles.3.lawful": "Mage",
-            "system.titles.3.neutral": "Sage",
-            "system.titles.4.chaotic": "Sorcerer",
-            "system.titles.4.lawful": "Archmage",
-            "system.titles.4.neutral": "Druid"
+            "titles": {
+                "1": {
+                    "chaotic": "Adept",
+                    "lawful": "Apprentice",
+                    "neutral": "Shaman"
+                },
+                "3": {
+                    "chaotic": "Channeler",
+                    "lawful": "Conjurer",
+                    "neutral": "Seer"
+                },
+                "5": {
+                    "chaotic": "Witch/Warlock",
+                    "lawful": "Arcanist",
+                    "neutral": "Warden"
+                },
+                "7": {
+                    "chaotic": "Diabolist",
+                    "lawful": "Mage",
+                    "neutral": "Sage"
+                },
+                "9": {
+                    "chaotic": "Sorcerer",
+                    "lawful": "Archmage",
+                    "neutral": "Druid"
+                }
+            }
         }
     }
 }

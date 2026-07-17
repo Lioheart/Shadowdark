@@ -5,218 +5,5012 @@
         "name": "name",
         "results": {
             "path": "results",
-            "converter": "tableResults"
+            "converter": "document",
+            "documentType": "TableResult",
+            "cardinality": "many",
+            "mapping": {
+                "_identity": {
+                    "export": [
+                        "range",
+                        "_id"
+                    ],
+                    "match": [
+                        "_id",
+                        "range"
+                    ]
+                },
+                "name": {
+                    "path": "name",
+                    "converter": "referencedDocumentField",
+                    "uuidPath": "documentUuid",
+                    "referencedField": "name"
+                },
+                "description": "description"
+            }
         }
     },
     "entries": {
         "Adventuring Site Name: Name 1": {
-            "name": "Adventuring Site Name: Name 1"
+            "name": "Adventuring Site Name: Name 1",
+            "results": {
+                "1-1": {
+                    "description": "Mines of the"
+                },
+                "2-2": {
+                    "description": "Abbey of the"
+                },
+                "3-3": {
+                    "description": "Tower of the"
+                },
+                "4-4": {
+                    "description": "Caves of the"
+                },
+                "5-5": {
+                    "description": "Barrow of the"
+                },
+                "6-6": {
+                    "description": "Warrens of the"
+                },
+                "7-7": {
+                    "description": "Crypt of the"
+                },
+                "8-8": {
+                    "description": "Monastery of the"
+                },
+                "9-9": {
+                    "description": "Ruin of the"
+                },
+                "10-10": {
+                    "description": "Tunnels of the"
+                },
+                "11-11": {
+                    "description": "Citadel of the"
+                },
+                "12-12": {
+                    "description": "Tomb of the"
+                },
+                "13-13": {
+                    "description": "Castle of the"
+                },
+                "14-14": {
+                    "description": "Temple of the"
+                },
+                "15-15": {
+                    "description": "Fortress of the"
+                },
+                "16-16": {
+                    "description": "Isle of the"
+                },
+                "17-17": {
+                    "description": "Keep of the"
+                },
+                "18-18": {
+                    "description": "Dungeon of the"
+                },
+                "19-19": {
+                    "description": "Necropolis of the"
+                },
+                "20-20": {
+                    "description": "Shrine of the"
+                }
+            }
         },
         "Adventuring Site Name: Name 2": {
-            "name": "Adventuring Site Name: Name 2"
+            "name": "Adventuring Site Name: Name 2",
+            "results": {
+                "1-1": {
+                    "description": "Cursed"
+                },
+                "2-2": {
+                    "description": "Whispering"
+                },
+                "3-3": {
+                    "description": "Bleeding"
+                },
+                "4-4": {
+                    "description": "Shrouded"
+                },
+                "5-5": {
+                    "description": "Lost"
+                },
+                "6-6": {
+                    "description": "Dead"
+                },
+                "7-7": {
+                    "description": "Deepwood"
+                },
+                "8-8": {
+                    "description": "Fallen"
+                },
+                "9-9": {
+                    "description": "Revenant"
+                },
+                "10-10": {
+                    "description": "Frozen"
+                },
+                "11-11": {
+                    "description": "Shimmering"
+                },
+                "12-12": {
+                    "description": "Chaos"
+                },
+                "13-13": {
+                    "description": "Abandoned"
+                },
+                "14-14": {
+                    "description": "Blighted"
+                },
+                "15-15": {
+                    "description": "Forgotten"
+                },
+                "16-16": {
+                    "description": "Slumbering"
+                },
+                "17-17": {
+                    "description": "Savage"
+                },
+                "18-18": {
+                    "description": "Unholy"
+                },
+                "19-19": {
+                    "description": "Enchanted"
+                },
+                "20-20": {
+                    "description": "Immortal"
+                }
+            }
         },
         "Adventuring Site Name: Name 3": {
-            "name": "Adventuring Site Name: Name 3"
+            "name": "Adventuring Site Name: Name 3",
+            "results": {
+                "1-1": {
+                    "description": "Flame"
+                },
+                "2-2": {
+                    "description": "Ghost"
+                },
+                "3-3": {
+                    "description": "Darkness"
+                },
+                "4-4": {
+                    "description": "Peak"
+                },
+                "5-5": {
+                    "description": "Borderlands"
+                },
+                "6-6": {
+                    "description": "King"
+                },
+                "7-7": {
+                    "description": "Twilight"
+                },
+                "8-8": {
+                    "description": "Depths"
+                },
+                "9-9": {
+                    "description": "Jewel"
+                },
+                "10-10": {
+                    "description": "God"
+                },
+                "11-11": {
+                    "description": "Lands"
+                },
+                "12-12": {
+                    "description": "Storm"
+                },
+                "13-13": {
+                    "description": "Swamp"
+                },
+                "14-14": {
+                    "description": "Ravine"
+                },
+                "15-15": {
+                    "description": "Valley"
+                },
+                "16-16": {
+                    "description": "Horde"
+                },
+                "17-17": {
+                    "description": "Skull"
+                },
+                "18-18": {
+                    "description": "Queen"
+                },
+                "19-19": {
+                    "description": "Wastes"
+                },
+                "20-20": {
+                    "description": "Hero"
+                }
+            }
         },
         "Background": {
             "description": "<p>Your background knowledge and skills might prove useful during your adventures.</p><p>Work with the GM to determine if your background provides you advantages in a given situation.</p>",
-            "name": "Background"
+            "name": "Background",
+            "results": {
+                "1-1": {
+                    "name": "Urchin"
+                },
+                "2-2": {
+                    "name": "Wanted"
+                },
+                "3-3": {
+                    "name": "Cult Initiate"
+                },
+                "4-4": {
+                    "name": "Thieves' Guild"
+                },
+                "5-5": {
+                    "name": "Banished"
+                },
+                "6-6": {
+                    "name": "Orphaned"
+                },
+                "7-7": {
+                    "name": "Wizard's Apprentice"
+                },
+                "8-8": {
+                    "name": "Jeweler"
+                },
+                "9-9": {
+                    "name": "Herbalist"
+                },
+                "10-10": {
+                    "name": "Barbarian"
+                },
+                "11-11": {
+                    "name": "Mercenary"
+                },
+                "12-12": {
+                    "name": "Sailor"
+                },
+                "13-13": {
+                    "name": "Acolyte"
+                },
+                "14-14": {
+                    "name": "Soldier"
+                },
+                "15-15": {
+                    "name": "Ranger"
+                },
+                "16-16": {
+                    "name": "Scout"
+                },
+                "17-17": {
+                    "name": "Minstrel"
+                },
+                "18-18": {
+                    "name": "Scholar"
+                },
+                "19-19": {
+                    "name": "Noble"
+                },
+                "20-20": {
+                    "name": "Chirurgeon"
+                }
+            }
         },
         "Black Lotus Talents": {
             "description": "<p>You may keep or reroll duplicates</p>",
-            "name": "Black Lotus Talents"
+            "name": "Black Lotus Talents",
+            "results": {
+                "1-1": {
+                    "description": "Gain two Black Lotus talents"
+                },
+                "2-2": {
+                    "name": "Paralyze a Target"
+                },
+                "3-3": {
+                    "name": "Avoid Entrapment/Injury"
+                },
+                "4-4": {
+                    "name": "+1 AC Dual Wield"
+                },
+                "5-5": {
+                    "name": "Additional HP"
+                },
+                "6-6": {
+                    "name": "Triple Damage Assassin"
+                },
+                "7-7": {
+                    "name": "Morale Checks at DC 18"
+                },
+                "8-8": {
+                    "name": "Walk on Water"
+                },
+                "9-9": {
+                    "name": "Sleep a Creature"
+                },
+                "10-10": {
+                    "name": "Walk on Sheer Surfaces"
+                },
+                "11-11": {
+                    "name": "+1 to Melee Damage"
+                },
+                "12-12": {
+                    "name": "Hide from Creature"
+                },
+                "ObIfXvSHGcmkhgzX": {
+                    "name": "Black Lotus Talents"
+                },
+                "PedzlngrlmGSd2AU": {
+                    "name": "Black Lotus Talents"
+                }
+            }
         },
         "Character Names: Dwarf": {
-            "name": "Character Names: Dwarf"
+            "name": "Character Names: Dwarf",
+            "results": {
+                "1-1": {
+                    "name": "Hilde",
+                    "description": "Hilde"
+                },
+                "2-2": {
+                    "name": "Torbin",
+                    "description": "Torbin"
+                },
+                "3-3": {
+                    "name": "Marga",
+                    "description": "Marga"
+                },
+                "4-4": {
+                    "name": "Bruno",
+                    "description": "Bruno"
+                },
+                "5-5": {
+                    "name": "Karina",
+                    "description": "Karina"
+                },
+                "6-6": {
+                    "name": "Naugrim",
+                    "description": "Naugrim"
+                },
+                "7-7": {
+                    "name": "Brenna",
+                    "description": "Brenna"
+                },
+                "8-8": {
+                    "name": "Darvin",
+                    "description": "Darvin"
+                },
+                "9-9": {
+                    "name": "Elga",
+                    "description": "Elga"
+                },
+                "10-10": {
+                    "name": "Alric",
+                    "description": "Alric"
+                },
+                "11-11": {
+                    "name": "Isolde",
+                    "description": "Isolde"
+                },
+                "12-12": {
+                    "name": "Gendry",
+                    "description": "Gendry"
+                },
+                "13-13": {
+                    "name": "Bruga",
+                    "description": "Bruga"
+                },
+                "14-14": {
+                    "name": "Junnor",
+                    "description": "Junnor"
+                },
+                "15-15": {
+                    "name": "Vidrid",
+                    "description": "Vidrid"
+                },
+                "16-16": {
+                    "name": "Torson",
+                    "description": "Torson"
+                },
+                "17-17": {
+                    "name": "Brielle",
+                    "description": "Brielle"
+                },
+                "18-18": {
+                    "name": "Ulfgar",
+                    "description": "Ulfgar"
+                },
+                "19-19": {
+                    "name": "Sarna",
+                    "description": "Sarna"
+                },
+                "20-20": {
+                    "name": "Grimm",
+                    "description": "Grimm"
+                }
+            }
         },
         "Character Names: Elf": {
-            "name": "Character Names: Elf"
+            "name": "Character Names: Elf",
+            "results": {
+                "1-1": {
+                    "name": "Eliara",
+                    "description": "Eliara"
+                },
+                "2-2": {
+                    "name": "Ryarn",
+                    "description": "Ryarn"
+                },
+                "3-3": {
+                    "name": "Sariel",
+                    "description": "Sariel"
+                },
+                "4-4": {
+                    "name": "Tirolas",
+                    "description": "Tirolas"
+                },
+                "5-5": {
+                    "name": "Galira",
+                    "description": "Galira"
+                },
+                "6-6": {
+                    "name": "Varos",
+                    "description": "Varos"
+                },
+                "7-7": {
+                    "name": "Daeniel",
+                    "description": "Daeniel"
+                },
+                "8-8": {
+                    "name": "Axidor",
+                    "description": "Axidor"
+                },
+                "9-9": {
+                    "name": "Hiralia",
+                    "description": "Hiralia"
+                },
+                "10-10": {
+                    "name": "Cyrwin",
+                    "description": "Cyrwin"
+                },
+                "11-11": {
+                    "name": "Lothiel",
+                    "description": "Lothiel"
+                },
+                "12-12": {
+                    "name": "Zaphiel",
+                    "description": "Zaphiel"
+                },
+                "13-13": {
+                    "name": "Nayra",
+                    "description": "Nayra"
+                },
+                "14-14": {
+                    "name": "Ithior",
+                    "description": "Ithior"
+                },
+                "15-15": {
+                    "name": "Amriel",
+                    "description": "Amriel"
+                },
+                "16-16": {
+                    "name": "Elyon",
+                    "description": "Elyon"
+                },
+                "17-17": {
+                    "name": "Jirwyn",
+                    "description": "Jirwyn"
+                },
+                "18-18": {
+                    "name": "Natinel",
+                    "description": "Natinel"
+                },
+                "19-19": {
+                    "name": "Fiora",
+                    "description": "Fiora"
+                },
+                "20-20": {
+                    "name": "Ruhiel",
+                    "description": "Ruhiel"
+                }
+            }
         },
         "Character Names: Goblin": {
-            "name": "Character Names: Goblin"
+            "name": "Character Names: Goblin",
+            "results": {
+                "1-1": {
+                    "name": "Iggs",
+                    "description": "Iggs"
+                },
+                "2-2": {
+                    "name": "Tark",
+                    "description": "Tark"
+                },
+                "3-3": {
+                    "name": "Nix",
+                    "description": "Nix"
+                },
+                "4-4": {
+                    "name": "Lenk",
+                    "description": "Lenk"
+                },
+                "5-5": {
+                    "name": "Roke",
+                    "description": "Roke"
+                },
+                "6-6": {
+                    "name": "Fitz",
+                    "description": "Fitz"
+                },
+                "7-7": {
+                    "name": "Tila",
+                    "description": "Tila"
+                },
+                "8-8": {
+                    "name": "Riggs",
+                    "description": "Riggs"
+                },
+                "9-9": {
+                    "name": "Prim",
+                    "description": "Prim"
+                },
+                "10-10": {
+                    "name": "Zeb",
+                    "description": "Zeb"
+                },
+                "11-11": {
+                    "name": "Finn",
+                    "description": "Finn"
+                },
+                "12-12": {
+                    "name": "Borg",
+                    "description": "Borg"
+                },
+                "13-13": {
+                    "name": "Yark",
+                    "description": "Yark"
+                },
+                "14-14": {
+                    "name": "Deeg",
+                    "description": "Deeg"
+                },
+                "15-15": {
+                    "name": "Nibs",
+                    "description": "Nibs"
+                },
+                "16-16": {
+                    "name": "Brak",
+                    "description": "Brak"
+                },
+                "17-17": {
+                    "name": "Fink",
+                    "description": "Fink"
+                },
+                "18-18": {
+                    "name": "Rizzo",
+                    "description": "Rizzo"
+                },
+                "19-19": {
+                    "name": "Squib",
+                    "description": "Squib"
+                },
+                "20-20": {
+                    "name": "Grix",
+                    "description": "Grix"
+                }
+            }
         },
         "Character Names: Half-Orc": {
-            "name": "Character Names: Half-Orc"
+            "name": "Character Names: Half-Orc",
+            "results": {
+                "1-1": {
+                    "name": "Vara",
+                    "description": "Vara"
+                },
+                "2-2": {
+                    "name": "Gralk",
+                    "description": "Gralk"
+                },
+                "3-3": {
+                    "name": "Ranna",
+                    "description": "Ranna"
+                },
+                "4-4": {
+                    "name": "Korv",
+                    "description": "Korv"
+                },
+                "5-5": {
+                    "name": "Zasha",
+                    "description": "Zasha"
+                },
+                "6-6": {
+                    "name": "Hrogar",
+                    "description": "Hrogar"
+                },
+                "7-7": {
+                    "name": "Klara",
+                    "description": "Klara"
+                },
+                "8-8": {
+                    "name": "Tragan",
+                    "description": "Tragan"
+                },
+                "9-9": {
+                    "name": "Brolga",
+                    "description": "Brolga"
+                },
+                "10-10": {
+                    "name": "Drago",
+                    "description": "Drago"
+                },
+                "11-11": {
+                    "name": "Yelena",
+                    "description": "Yelena"
+                },
+                "12-12": {
+                    "name": "Krull",
+                    "description": "Krull"
+                },
+                "13-13": {
+                    "name": "Ulara",
+                    "description": "Ulara"
+                },
+                "14-14": {
+                    "name": "Tulk",
+                    "description": "Tulk"
+                },
+                "15-15": {
+                    "name": "Shiraal",
+                    "description": "Shiraal"
+                },
+                "16-16": {
+                    "name": "Wulf",
+                    "description": "Wulf"
+                },
+                "17-17": {
+                    "name": "Ivara",
+                    "description": "Ivara"
+                },
+                "18-18": {
+                    "name": "Hirok",
+                    "description": "Hirok"
+                },
+                "19-19": {
+                    "name": "Aja",
+                    "description": "Aja"
+                },
+                "20-20": {
+                    "name": "Zoraan",
+                    "description": "Zoraan"
+                }
+            }
         },
         "Character Names: Halfling": {
-            "name": "Character Names: Halfling"
+            "name": "Character Names: Halfling",
+            "results": {
+                "1-1": {
+                    "name": "Willow",
+                    "description": "Willow"
+                },
+                "2-2": {
+                    "name": "Benny",
+                    "description": "Benny"
+                },
+                "3-3": {
+                    "name": "Annie",
+                    "description": "Annie"
+                },
+                "4-4": {
+                    "name": "Tucker",
+                    "description": "Tucker"
+                },
+                "5-5": {
+                    "name": "Marie",
+                    "description": "Marie"
+                },
+                "6-6": {
+                    "name": "Hobb",
+                    "description": "Hobb"
+                },
+                "7-7": {
+                    "name": "Cora",
+                    "description": "Cora"
+                },
+                "8-8": {
+                    "name": "Gordie",
+                    "description": "Gordie"
+                },
+                "9-9": {
+                    "name": "Rose",
+                    "description": "Rose"
+                },
+                "10-10": {
+                    "name": "Ardo",
+                    "description": "Ardo"
+                },
+                "11-11": {
+                    "name": "Alma",
+                    "description": "Alma"
+                },
+                "12-12": {
+                    "name": "Norbert",
+                    "description": "Norbert"
+                },
+                "13-13": {
+                    "name": "Jennie",
+                    "description": "Jennie"
+                },
+                "14-14": {
+                    "name": "Barvin",
+                    "description": "Barvin"
+                },
+                "15-15": {
+                    "name": "Tilly",
+                    "description": "Tilly"
+                },
+                "16-16": {
+                    "name": "Pike",
+                    "description": "Pike"
+                },
+                "17-17": {
+                    "name": "Lydia",
+                    "description": "Lydia"
+                },
+                "18-18": {
+                    "name": "Marlow",
+                    "description": "Marlow"
+                },
+                "19-19": {
+                    "name": "Astrid",
+                    "description": "Astrid"
+                },
+                "20-20": {
+                    "name": "Jasper",
+                    "description": "Jasper"
+                }
+            }
         },
         "Character Names: Human": {
-            "name": "Character Names: Human"
+            "name": "Character Names: Human",
+            "results": {
+                "1-1": {
+                    "name": "Zali",
+                    "description": "Zali"
+                },
+                "2-2": {
+                    "name": "Bram",
+                    "description": "Bram"
+                },
+                "3-3": {
+                    "name": "Clara",
+                    "description": "Clara"
+                },
+                "4-4": {
+                    "name": "Nattias",
+                    "description": "Nattias"
+                },
+                "5-5": {
+                    "name": "Rina",
+                    "description": "Rina"
+                },
+                "6-6": {
+                    "name": "Denton",
+                    "description": "Denton"
+                },
+                "7-7": {
+                    "name": "Mirena",
+                    "description": "Mirena"
+                },
+                "8-8": {
+                    "name": "Aran",
+                    "description": "Aran"
+                },
+                "9-9": {
+                    "name": "Morgan",
+                    "description": "Morgan"
+                },
+                "10-10": {
+                    "name": "Giralt",
+                    "description": "Giralt"
+                },
+                "11-11": {
+                    "name": "Tamra",
+                    "description": "Tamra"
+                },
+                "12-12": {
+                    "name": "Oscar",
+                    "description": "Oscar"
+                },
+                "13-13": {
+                    "name": "Ishana",
+                    "description": "Ishana"
+                },
+                "14-14": {
+                    "name": "Rogar",
+                    "description": "Rogar"
+                },
+                "15-15": {
+                    "name": "Jasmin",
+                    "description": "Jasmin"
+                },
+                "16-16": {
+                    "name": "Tarin",
+                    "description": "Tarin"
+                },
+                "17-17": {
+                    "name": "Yuri",
+                    "description": "Yuri"
+                },
+                "18-18": {
+                    "name": "Malchor",
+                    "description": "Malchor"
+                },
+                "19-19": {
+                    "name": "Lienna",
+                    "description": "Lienna"
+                },
+                "20-20": {
+                    "name": "Godfrey",
+                    "description": "Godfrey"
+                }
+            }
         },
         "Character Names: Kobold": {
-            "name": "Character Names: Kobold"
+            "name": "Character Names: Kobold",
+            "results": {
+                "1-1": {
+                    "name": "Yolopo",
+                    "description": "Yolopo"
+                },
+                "2-2": {
+                    "name": "Klobnar",
+                    "description": "Klobnar"
+                },
+                "3-3": {
+                    "name": "Yuktuk",
+                    "description": "Yuktuk"
+                },
+                "4-4": {
+                    "name": "Roka",
+                    "description": "Roka"
+                },
+                "5-5": {
+                    "name": "Grexal",
+                    "description": "Grexal"
+                },
+                "6-6": {
+                    "name": "Trepa",
+                    "description": "Trepa"
+                },
+                "7-7": {
+                    "name": "Binx",
+                    "description": "Binx"
+                },
+                "8-8": {
+                    "name": "Koops",
+                    "description": "Koops"
+                },
+                "9-9": {
+                    "name": "Mosh",
+                    "description": "Mosh"
+                },
+                "10-10": {
+                    "name": "Tiri",
+                    "description": "Tiri"
+                },
+                "11-11": {
+                    "name": "Nork",
+                    "description": "Nork"
+                },
+                "12-12": {
+                    "name": "Peecko",
+                    "description": "Peecko"
+                },
+                "13-13": {
+                    "name": "Fizzle",
+                    "description": "Fizzle"
+                },
+                "14-14": {
+                    "name": "Chezlaz",
+                    "description": "Chezlaz"
+                },
+                "15-15": {
+                    "name": "Hrakavesh",
+                    "description": "Hrakavesh"
+                },
+                "16-16": {
+                    "name": "Giblet",
+                    "description": "Giblet"
+                },
+                "17-17": {
+                    "name": "Leptik",
+                    "description": "Leptik"
+                },
+                "18-18": {
+                    "name": "Bodok",
+                    "description": "Bodok"
+                },
+                "19-19": {
+                    "name": "Pico",
+                    "description": "Pico"
+                },
+                "20-20": {
+                    "name": "Deenka",
+                    "description": "Deenka"
+                }
+            }
         },
         "Class Talents: Bard": {
-            "name": "Class Talents: Bard"
+            "name": "Class Talents: Bard",
+            "results": {
+                "1oXUUUCUtRA69ych": {
+                    "description": "+2 to Intelligence"
+                },
+                "2-2": {
+                    "name": "Find a Random Priest or Wizard Wand"
+                },
+                "3-6": {
+                    "description": "Choose 1"
+                },
+                "4YPLoRHOy1h63JSm": {
+                    "name": "+1 to Strength"
+                },
+                "5eCdL2a7RXKeTskU": {
+                    "name": "+1 to Melee and Ranged Attacks"
+                },
+                "7-9": {
+                    "description": "+2 points to distribute to any stats"
+                },
+                "7gMw68b5NFPKBl5V": {
+                    "name": "+1 to Magical Dabbler Rolls"
+                },
+                "10-11": {
+                    "name": "Improved Presence DC"
+                },
+                "12-12": {
+                    "description": "Choose 1"
+                },
+                "836Oph1CKtt4hFlF": {
+                    "description": "Or (can only be taken once)"
+                },
+                "a9W19GBj955g0jgO": {
+                    "description": "+2 to Dexterity"
+                },
+                "AH7gNZ6Dbl3auHm5": {
+                    "description": "Or +2 points to distribute to any stats"
+                },
+                "bCFeX9DGivYxibzu": {
+                    "name": "+1 to Intelligence"
+                },
+                "CfOKDs4Nr4HwevXj": {
+                    "name": "Distribute to Stats"
+                },
+                "dEcKCeDpQuau6m2s": {
+                    "name": "+1 to Charisma"
+                },
+                "DGu5CRC1Eo1lEoYG": {
+                    "description": "+1 to Strength"
+                },
+                "dSjjsi3vgVid9vIO": {
+                    "name": "+2 to Intelligence"
+                },
+                "gooim64jojyJ2W8r": {
+                    "name": "+2 to Constitution"
+                },
+                "gzNttULkkWVoop4t": {
+                    "description": "+1 to Melee and Ranged Attacks"
+                },
+                "hczFItDAlSJ3XhNo": {
+                    "name": "+1 to Magical Dabbler Rolls"
+                },
+                "hvcXSaYRjUrJEGXK": {
+                    "name": "+2 to Wisdom"
+                },
+                "JhUoNT5GxYxJnkBW": {
+                    "name": "+2 to Charisma"
+                },
+                "jTMjiZbObhTSedzK": {
+                    "description": "+1 to Dexterity"
+                },
+                "KzEyX2UGR5QvBzYJ": {
+                    "description": "Find a Random Priest or Wizard Wand"
+                },
+                "LHD20XEsmPJ0hRqs": {
+                    "description": "+1 to Intelligence"
+                },
+                "miZAM6GO8r1iKHZN": {
+                    "description": "+1 to Wisdom"
+                },
+                "nE2mTxQzkTFvEFZk": {
+                    "description": "+2 to Constitution"
+                },
+                "NqX6TsqFZOD536NY": {
+                    "description": "+1 to Constitution"
+                },
+                "nXvgtdussP6BTJSX": {
+                    "description": "+2 to Charisma"
+                },
+                "P4U9xBHYWX7t3Pqc": {
+                    "name": "Improved Presence DC"
+                },
+                "PqOhoOBBzmnmpKBX": {
+                    "name": "+1 to Melee and Ranged Attacks"
+                },
+                "qdMD3TflCa7aEokQ": {
+                    "name": "+1 to Dexterity"
+                },
+                "QPx7FSI1elTogwMF": {
+                    "name": "+1 to Wisdom"
+                },
+                "r8sOqyMEfJAzoj8l": {
+                    "description": "Reroll if already taken"
+                },
+                "sEoxLO4ToWmPYl3J": {
+                    "name": "+2 to Strength"
+                },
+                "szjvdgiVEu0cuMzr": {
+                    "name": "Find a Random Priest or Wizard Wand"
+                },
+                "TeZ2bqDqyjGQm4rA": {
+                    "description": "Improved Presence DC"
+                },
+                "Tg3G6ufaanPKjcto": {
+                    "name": "+2 to Dexterity"
+                },
+                "tvMZYuFH7v1hSUu5": {
+                    "name": "+1 to Constitution"
+                },
+                "XahsLOINT9EDd58d": {
+                    "description": "+1 to Charisma"
+                },
+                "xsko07paPq1LzUIz": {
+                    "description": "+2 to Strength"
+                },
+                "ZYCqY25sc6kshsSA": {
+                    "description": "+1 to Magical Dabbler Rolls"
+                }
+            }
         },
         "Class Talents: Basilisk Warrior": {
-            "name": "Class Talents: Basilisk Warrior"
+            "name": "Class Talents: Basilisk Warrior",
+            "results": {
+                "2-2": {
+                    "name": "Basilisk Egg"
+                },
+                "3-6": {
+                    "name": "+1 to Weapon Attacks and Damage"
+                },
+                "7-9": {
+                    "description": "Choose 1"
+                },
+                "10-11": {
+                    "name": "+1 use per day of Petrifying Gaze"
+                },
+                "12-12": {
+                    "description": "Choose 1"
+                },
+                "AVlxOHvARFVkl0xO": {
+                    "name": "Basilisk Egg"
+                },
+                "ChsE9hNqm0Ygz9Uf": {
+                    "name": "+2 to Dexterity"
+                },
+                "cIXJOUVBkDCB3qKW": {
+                    "name": "+2 to Dexterity"
+                },
+                "g27db7DK5oReedOu": {
+                    "name": "+2 to Constitution"
+                },
+                "I2VZj9sIeqfeBRpO": {
+                    "name": "+2 to Constitution"
+                },
+                "oerOdfXXWmQkImYI": {
+                    "name": "+2 to Strength"
+                },
+                "qAj6GETuknSIWdxw": {
+                    "name": "+1 to Weapon Attacks and Damage"
+                },
+                "U7KzRcUvfqUGQx5H": {
+                    "name": "Distribute to Stats"
+                },
+                "VQ7bgxlXSxchYS49": {
+                    "name": "+2 to Strength"
+                },
+                "Z8V7PxqsBbXK0vYM": {
+                    "name": "+1 use per day of Petrifying Gaze"
+                }
+            }
         },
         "Class Talents: Desert Rider": {
             "description": "<p>2 duplicate = reroll</p>",
-            "name": "Class Talents: Desert Rider"
+            "name": "Class Talents: Desert Rider",
+            "results": {
+                "2-2": {
+                    "name": "Ride any Creature"
+                },
+                "3-6": {
+                    "name": "+1 to Melee and Ranged Attacks"
+                },
+                "5rbD846DsFBpYefR": {
+                    "description": "Distribute to Stats"
+                },
+                "7-9": {
+                    "description": "Choose 1"
+                },
+                "8YhOPdAEUXy9Xcjx": {
+                    "name": "Ride any Creature"
+                },
+                "10-11": {
+                    "name": "Additional Use of Charge"
+                },
+                "12-12": {
+                    "description": "Choose 1"
+                },
+                "34A67VkneCSvDgJA": {
+                    "name": "Additional Use of Charge"
+                },
+                "Aj2zH8HXTxmIZ35h": {
+                    "description": "+2 to Dexterity"
+                },
+                "APRrMRkyzqs3o05P": {
+                    "description": "+2 to Intelligence"
+                },
+                "blV38C2bmFfkYdpm": {
+                    "name": "+2 to Strength"
+                },
+                "D6F6q4AocMqPBxmX": {
+                    "description": "or"
+                },
+                "DqhJSHFKJi0jlZcy": {
+                    "description": "+1 to Strength"
+                },
+                "EsjS3q1pCZEN4G2D": {
+                    "name": "+1 to Damage"
+                },
+                "GuqyNk2hzyoY8aSB": {
+                    "description": "+1 to Constitution"
+                },
+                "jjdejPcw3N2j4b0V": {
+                    "name": "+1 to Melee Attacks"
+                },
+                "MlrTeuQz1Z0lUWPh": {
+                    "description": "+1 to Wisdom"
+                },
+                "nUcmRzRVfq2f7yfi": {
+                    "description": "+2 to Charisma"
+                },
+                "PbUIhOIaxDbQXeWQ": {
+                    "name": "Distribute to Stats"
+                },
+                "PZ5LKt9UUZIIRsHd": {
+                    "description": "+1 to Intelligence"
+                },
+                "qbbuIiBnCU0cFWbH": {
+                    "description": "+2 to Strength"
+                },
+                "rv9yEf4MdpJtEH1s": {
+                    "description": "+2 to Constitution"
+                },
+                "seEKNHVPKCCSlbE7": {
+                    "description": "+2 to Wisdom"
+                },
+                "sl2sZkOfAMaEbjq8": {
+                    "name": "+1 to Melee Attacks"
+                },
+                "VJNIPBZFp4FzxDnk": {
+                    "name": "+1 to Melee and Ranged Attacks"
+                },
+                "wud2AMiwYri3wpw9": {
+                    "description": "+1 to Dexterity"
+                },
+                "Wz5drbq2Jh8fTE1v": {
+                    "name": "+2 to Dexterity"
+                },
+                "XwW8a9obdxna3skH": {
+                    "description": "Or +2 points to distribute to stats"
+                },
+                "YR1lZPhiDTvH6IGQ": {
+                    "description": "+1 to Charisma"
+                },
+                "Z3Q2TlfoHPfAjuHK": {
+                    "name": "+1 to Damage"
+                }
+            }
         },
         "Class Talents: Fighter": {
-            "name": "Class Talents: Fighter"
+            "name": "Class Talents: Fighter",
+            "results": {
+                "2-2": {
+                    "name": "Weapon Mastery"
+                },
+                "3-6": {
+                    "name": "+1 to Melee and Ranged Attacks"
+                },
+                "4GZNG0SHARmikiQb": {
+                    "name": "Weapon Mastery"
+                },
+                "7-9": {
+                    "description": "Choose 1"
+                },
+                "8LSdfwW21HQg1w6J": {
+                    "description": "+1 to Wisdom"
+                },
+                "9IlrJvS6QKcRIMNA": {
+                    "description": "+1 to Dexterity"
+                },
+                "10-11": {
+                    "name": "Armor Mastery"
+                },
+                "12-12": {
+                    "description": "Choose 1"
+                },
+                "aPklVk1LTYxCECxr": {
+                    "name": "+1 to Melee Attacks and Damage"
+                },
+                "asqi1OvG924Gu5C5": {
+                    "name": "+2 to Constitution"
+                },
+                "c0TkEVs5l6dGu5zB": {
+                    "description": "+1 to Intelligence"
+                },
+                "dQNNsseviKkN9qmx": {
+                    "description": "+2 to Dexterity"
+                },
+                "ighj4SmqJEHOJpWz": {
+                    "description": "Weapon Mastery"
+                },
+                "mvLwWNxdl4mehomN": {
+                    "description": "+2 to Wisdom"
+                },
+                "oB7EljreQF5o8xGj": {
+                    "name": "Distribute to Stats"
+                },
+                "oyZa7BdWVE57dt52": {
+                    "name": "Armor Mastery"
+                },
+                "Pz3scmVvkfGW86Qt": {
+                    "name": "+2 to Strength"
+                },
+                "R8FNyUaia3vVOhLw": {
+                    "description": "+2 to Charisma"
+                },
+                "SaEpyAES4PV4EJ4j": {
+                    "description": "+1 to Charisma"
+                },
+                "ShfsugAB4FBHqExq": {
+                    "name": "+2 to Dexterity"
+                },
+                "syFxHTa5qvdL3org": {
+                    "description": "+1 to Strength"
+                },
+                "T9mZMjD9D4bUaYN5": {
+                    "description": "+1 to Melee and Ranged Attacks"
+                },
+                "tKX9Q8iZw0bKeeE1": {
+                    "description": "Armor Mastery"
+                },
+                "ULEzJDfOLH0kCCUF": {
+                    "description": "+2 to Strength"
+                },
+                "XHZbe1aL3P5G5cDr": {
+                    "description": "+2 to Intelligence"
+                },
+                "zPulQ1FoqzVpMOrb": {
+                    "description": "+2 to Constitution"
+                }
+            }
         },
         "Class Talents: Knight of St. Ydris": {
-            "name": "Class Talents: Knight of St. Ydris"
+            "name": "Class Talents: Knight of St. Ydris",
+            "results": {
+                "2-2": {
+                    "name": "Demonic Possession Bonus"
+                },
+                "3-6": {
+                    "description": "Choose 1"
+                },
+                "4g12hhScQd1QEkQg": {
+                    "name": "+2 to Dexterity"
+                },
+                "7-9": {
+                    "description": "Choose 1"
+                },
+                "10-11": {
+                    "description": "Choose 1"
+                },
+                "12-12": {
+                    "description": "Choose 1"
+                },
+                "F9x3Mklc87ztqgQQ": {
+                    "name": "+2 to Strength"
+                },
+                "FVBTenJF0H7TlO1C": {
+                    "name": "+2 to Charisma"
+                },
+                "IBnTy2o2WlNO8diH": {
+                    "name": "+2 to Constitution"
+                },
+                "ieja2ee6ZqoThqUq": {
+                    "name": "+1 on Spellcasting Checks"
+                },
+                "m7k9rkxtEZOZvvq8": {
+                    "name": "+1 to Melee Attacks"
+                },
+                "n7uJpmqV4AiaEhCX": {
+                    "name": "+1 to Ranged Attacks"
+                },
+                "OWd1FngettRNnVVU": {
+                    "name": "+1 to Melee Attacks"
+                },
+                "rcdVTLVHEuwECIh7": {
+                    "name": "+1 on Spellcasting Checks"
+                },
+                "RSNLKHRnuAW3szkJ": {
+                    "name": "+1 to Ranged Attacks"
+                },
+                "uAUyk0eZaIY3ny6b": {
+                    "name": "Distribute to Stats"
+                },
+                "Ynl8eGAB1Ygpie7n": {
+                    "name": "Demonic Possession Bonus"
+                }
+            }
         },
         "Class Talents: Pit Fighter": {
-            "name": "Class Talents: Pit Fighter"
+            "name": "Class Talents: Pit Fighter",
+            "results": {
+                "1hRt1E9m3PhzvnTa": {
+                    "description": "+1 to Intelligence"
+                },
+                "2-2": {
+                    "name": "Ignore All Damage"
+                },
+                "3-6": {
+                    "name": "+1 to Melee Damage"
+                },
+                "3fC6UOcruuxPv22V": {
+                    "description": "+2 to Constitution"
+                },
+                "4ykXnJvmU4FCBVn9": {
+                    "name": "+1 to Melee Attacks"
+                },
+                "6Fb8tyC63hJMArDU": {
+                    "description": "+2 to Wisdom"
+                },
+                "7-9": {
+                    "description": "Choose 1"
+                },
+                "10-11": {
+                    "name": "Increased Flourish Heal"
+                },
+                "12-12": {
+                    "description": "Choose 1"
+                },
+                "BKkOjRDEZvO2uhcY": {
+                    "description": "+1 to Charisma"
+                },
+                "c5EfVLh62DaEj0qZ": {
+                    "name": "+1 to Melee Attacks"
+                },
+                "efOHroUKN8eHOSZt": {
+                    "description": "+2 to Intelligence"
+                },
+                "eGx16lzfXof8yKwd": {
+                    "name": "+2 to Constitution"
+                },
+                "eneJ7c3K7CbHSiSH": {
+                    "name": "Increased Flourish Heal"
+                },
+                "F38ywgpVwKx4Owuj": {
+                    "description": "+2 to Dexterity"
+                },
+                "H2w1h5Ghz1jsN4nA": {
+                    "description": "+1 to Melee Attacks"
+                },
+                "I3x7nI5rOQULCyOu": {
+                    "name": "Distribute to Stats"
+                },
+                "KAtMauxEQAd7hU4B": {
+                    "description": "+1 to Wisdom"
+                },
+                "KB9FB7mT9sSTfQFI": {
+                    "description": "+1 to Dexterity"
+                },
+                "kuWuSjzaPliAeUPh": {
+                    "name": "Ignore All Damage"
+                },
+                "pCL5VFTTPzPBfZBw": {
+                    "description": "+2 to Charisma"
+                },
+                "R2F838Z5v7fORmaP": {
+                    "description": "Or +2 points to distribute to stats"
+                },
+                "RpOW91KjuP7h5Ysu": {
+                    "description": "+2 to Strength"
+                },
+                "SBZOdBtSsmgfYcRx": {
+                    "description": "+1 to Strength"
+                },
+                "URnN0s5T6KkCUOkc": {
+                    "name": "+1 to Melee Damage"
+                },
+                "vklY5SecLY8aio0k": {
+                    "name": "+2 to Strength"
+                },
+                "VUPVqk3P5Qe8Mtc8": {
+                    "description": "+1 to Constitution"
+                }
+            }
         },
         "Class Talents: Priest": {
-            "name": "Class Talents: Priest"
+            "name": "Class Talents: Priest",
+            "results": {
+                "0vpizsGSXpeRk7jy": {
+                    "description": "+2 to Constitution"
+                },
+                "1f4XwVZFTX8HGFeu": {
+                    "name": "Distribute to Stats"
+                },
+                "2-2": {
+                    "name": "Spellcasting Advantage"
+                },
+                "3-6": {
+                    "description": "Choose 1"
+                },
+                "4SjsZkzAomGZmXMB": {
+                    "description": "+1 on Spellcasting Checks"
+                },
+                "7-9": {
+                    "name": "+1 on Spellcasting Checks"
+                },
+                "10-11": {
+                    "description": "Choose 1"
+                },
+                "12-12": {
+                    "description": "Choose 1"
+                },
+                "AzBAZN2Hsuuxc0lV": {
+                    "description": "+2 to Wisdom"
+                },
+                "dvCwO7Qfb0plPt7R": {
+                    "description": "+2 to Charisma"
+                },
+                "edJtGmodoQVoyT9E": {
+                    "name": "+2 to Strength"
+                },
+                "EvZuhlC0saCf3nPi": {
+                    "description": "+1 to Ranged Attacks"
+                },
+                "f0Lp4XTZRQ2vqEqD": {
+                    "name": "+1 to Ranged Attacks"
+                },
+                "FRKlezzFZWilBVgh": {
+                    "name": "+1 to Melee Attacks"
+                },
+                "MniNmDBnBxeB0MNw": {
+                    "description": "+2 to Strength"
+                },
+                "MtIRHWvg7wOWr3Qa": {
+                    "description": "+1 to Intelligence"
+                },
+                "OdrkbjNHdQ6pGtfz": {
+                    "description": "+1 to Charisma"
+                },
+                "oYZ2KMpJI2ms7U2M": {
+                    "name": "+1 on Spellcasting Checks"
+                },
+                "raSEcK1nQbbnn3Zi": {
+                    "name": "Spellcasting Advantage"
+                },
+                "RpVYAgogMjBvcPRp": {
+                    "description": "+2 to Intelligence"
+                },
+                "TzEk7T5B85c0fm3C": {
+                    "name": "+2 to Wisdom"
+                },
+                "uW6sYsZJAt33Tveq": {
+                    "name": "+1 to Melee Attacks"
+                },
+                "uWMnDA1RC07jO52V": {
+                    "name": "+1 to Ranged Attacks"
+                },
+                "vJpSapdoKgCt37za": {
+                    "description": "+1 to Constitution"
+                },
+                "VZKHSjRoCmVAYChI": {
+                    "description": "+1 to Wisdom"
+                },
+                "wuQ1aCzvSjVhdRc3": {
+                    "description": "+2 to Dexterity"
+                },
+                "XOCjiG8SzQjPHfsO": {
+                    "description": "+1 to Dexterity"
+                },
+                "yrVmDCaus8VH22zE": {
+                    "description": "+1 to Strength"
+                }
+            }
         },
         "Class Talents: Ranger": {
-            "name": "Class Talents: Ranger"
+            "name": "Class Talents: Ranger",
+            "results": {
+                "0YodW7OxmfP9Ehq1": {
+                    "description": "+2 to Dexterity"
+                },
+                "2-2": {
+                    "name": "Increased Weapon Damage Die"
+                },
+                "3-6": {
+                    "description": "Choose 1"
+                },
+                "4MWmFIvfkjHzXCxZ": {
+                    "description": "+1 to Charisma"
+                },
+                "5xQWKV5ac03PC7bT": {
+                    "name": "Increased Weapon Damage Die"
+                },
+                "7-9": {
+                    "description": "Choose 1"
+                },
+                "10-11": {
+                    "name": "Herbalism Check Advantage"
+                },
+                "11p32X5y8Oe7kQ4y": {
+                    "description": "+1 to Strength"
+                },
+                "12-12": {
+                    "description": "Choose 1"
+                },
+                "39aLYnrm2lZiUn2W": {
+                    "description": "+1 to Constitution"
+                },
+                "ac9IHgnh8ZWYjH5N": {
+                    "name": "Distribute to Stats"
+                },
+                "aMDZVlvIcQ3luxfk": {
+                    "description": "+1 to Intelligence"
+                },
+                "CmGCHzjY15gr49q1": {
+                    "description": "+2 to Dexterity"
+                },
+                "fEmS53UsCeWZxjgW": {
+                    "name": "Herbalism Check Advantage"
+                },
+                "HTzq4FrfzIrG7BoQ": {
+                    "name": "+2 to Intelligence"
+                },
+                "it1KXZxh17RKYsG2": {
+                    "name": "+2 to Dexterity"
+                },
+                "KrHtmdHezfFxbknt": {
+                    "description": "Increased Weapon Damage Die"
+                },
+                "mtVNlphACCKudpVh": {
+                    "name": "+1 to Melee Attacks and Damage"
+                },
+                "NSYbJZJDZbckDQzi": {
+                    "description": "+1 to Dexterity"
+                },
+                "ouO9igdo4GShlpzb": {
+                    "name": "+1 to Melee Attacks and Damage"
+                },
+                "qaxtytgC14dTLeaE": {
+                    "name": "+1 to Ranged Attacks and Damage"
+                },
+                "QKG6Assa6z7ClJC1": {
+                    "description": "+1 to Wisdom"
+                },
+                "u2rNcoHFKXGOogXr": {
+                    "description": "Herbalism Check Advantage"
+                },
+                "udQwJeodk1RM2yyr": {
+                    "name": "+2 to Strength"
+                },
+                "UnScpUE1PeLpYzOY": {
+                    "description": "+2 to Intelligence"
+                },
+                "vuMoP92p2ieXSIBM": {
+                    "description": "+1 to Melee Attacks and Damage"
+                },
+                "xuDytbHPirYoFumS": {
+                    "description": "+2 to Strength"
+                },
+                "xzpDP9BdOX2DEDF4": {
+                    "description": "+1 to Ranged Attacks and Damage"
+                },
+                "yyt3RfpUl8h1Ps0n": {
+                    "name": "+1 to Ranged Attacks and Damage"
+                }
+            }
         },
         "Class Talents: Ras-Godai": {
-            "name": "Class Talents: Ras-Godai"
+            "name": "Class Talents: Ras-Godai",
+            "results": {
+                "1iFMPpa8xr3ebFkl": {
+                    "description": "Or +2 points to distribute to stats"
+                },
+                "1JKIhJ6E7NkRNuvE": {
+                    "description": "+2 to Charisma"
+                },
+                "2-2": {
+                    "name": "Poisons Training"
+                },
+                "3-6": {
+                    "name": "Additional Black Lotus Talent"
+                },
+                "3MSrJR1fxcX5idC6": {
+                    "description": "+2 to Constitution"
+                },
+                "7-9": {
+                    "description": "Choose 1"
+                },
+                "10-11": {
+                    "name": "Additional Use of Smoke Step"
+                },
+                "12-12": {
+                    "description": "Choose 1"
+                },
+                "54S1gnsw5nhBvNyC": {
+                    "description": "+1 to Strength"
+                },
+                "CEPQgt75hA8dzFsB": {
+                    "description": "+1 to Constitution"
+                },
+                "i52wskZIuvLXS2XG": {
+                    "description": "Poisons Training"
+                },
+                "j0zaAW1vY7lVA4Vy": {
+                    "name": "Distribute to Stats"
+                },
+                "KC2csh2be1TzEcwq": {
+                    "name": "Additional Use of Smoke Step"
+                },
+                "L1isl3xWKRfSU4Rb": {
+                    "description": "+2 to Strength"
+                },
+                "mlVX53nFi8lxJqqh": {
+                    "description": "+2 to Wisdom"
+                },
+                "Ok9QceTSSYP7XgSq": {
+                    "name": "+1 to Melee Attacks"
+                },
+                "PaRSmTRors92vNHj": {
+                    "name": "+2 to Dexterity"
+                },
+                "Rl2aTG5TiglSI0Az": {
+                    "description": "+1 to Melee Attacks"
+                },
+                "RPesdhBtzQyC2KTy": {
+                    "name": "+1 to Melee Attacks"
+                },
+                "RX3hqCehCxrwsYbe": {
+                    "name": "+2 to Strength"
+                },
+                "SbUdJF3u4NQv5URw": {
+                    "description": "+2 to Dexterity"
+                },
+                "sg3GuqbPb1feUQFU": {
+                    "description": "+1 to Dexterity"
+                },
+                "shqNCiMBC6GcNDt4": {
+                    "description": "Additional Black Lotus Talent"
+                },
+                "Tj1GTOdRLclo5krc": {
+                    "description": "+1 to Wisdom"
+                },
+                "TTKzmcpfzqCFofN8": {
+                    "name": "Additional Black Lotus Talent"
+                },
+                "U6dngSSFFxKUNeKU": {
+                    "name": "Poisons Training"
+                },
+                "vGE543pPgsAKhc7u": {
+                    "description": "+1 to Charisma"
+                },
+                "xStlcDrIqRNrHhRH": {
+                    "description": "Additional Use of Smoke Step"
+                },
+                "yMobqVfBmiOkiw2V": {
+                    "description": "+2 to Intelligence"
+                },
+                "zTr6D6d3T58jcr5L": {
+                    "description": "+1 to Intelligence"
+                }
+            }
         },
         "Class Talents: Sea Wolf": {
-            "name": "Class Talents: Sea Wolf"
+            "name": "Class Talents: Sea Wolf",
+            "results": {
+                "2-2": {
+                    "name": "Go Berserk"
+                },
+                "3-6": {
+                    "name": "+1 to Damage"
+                },
+                "7-9": {
+                    "description": "Choose 1"
+                },
+                "7BChaxkrNLxtppxY": {
+                    "description": "+1 to Damage"
+                },
+                "10-11": {
+                    "name": "Duality"
+                },
+                "12-12": {
+                    "description": "Choose 1"
+                },
+                "Afe9cjdUJroPDLU7": {
+                    "name": "+1 to Damage"
+                },
+                "bcoQHsMuFXlCWCzB": {
+                    "description": "Go Berserk"
+                },
+                "CcQKT4cCH14EwWwl": {
+                    "description": "+1 to Melee and Ranged Attacks"
+                },
+                "Dc2IljgTDaMDKhCi": {
+                    "name": "Go Berserk"
+                },
+                "f2ChFkhF5dmTNqdo": {
+                    "name": "Duality"
+                },
+                "FLge4r1MAbu3to9p": {
+                    "name": "+2 to Strength"
+                },
+                "hkxPw16K2sOTKC3S": {
+                    "description": "+2 to Constitution"
+                },
+                "kUGQVhomlc6KngXV": {
+                    "name": "Distribute to Stats"
+                },
+                "ltUdGEgZq18rCsce": {
+                    "description": "+2 to Dexterity"
+                },
+                "M2eQyyt0eSP4yAG7": {
+                    "name": "+1 to Melee and Ranged Attacks"
+                },
+                "pBkS6NvUCG0Nx0X8": {
+                    "name": "+1 to Melee and Ranged Attacks"
+                },
+                "qJAr4xJXj18x27oe": {
+                    "description": "+2 to Charisma"
+                },
+                "QS74FxQxoKBZ3sce": {
+                    "description": "+2 to Intelligence"
+                },
+                "ShfsugAB4FBHqExq": {
+                    "name": "+2 to Constitution"
+                },
+                "tA4lGEWDqZX8ujF0": {
+                    "description": "+2 to Wisdom"
+                },
+                "uuZGp587Ul243hGh": {
+                    "description": "Duality"
+                },
+                "Yihi2OJgVq2VUskf": {
+                    "description": "+2 to Strength"
+                }
+            }
         },
         "Class Talents: Seer": {
-            "name": "Class Talents: Seer"
+            "name": "Class Talents: Seer",
+            "results": {
+                "0YTkk05EoXeCb1pW": {
+                    "name": "Additional Omen Use"
+                },
+                "2-2": {
+                    "name": "Learn Seer Spell"
+                },
+                "2Mjgqad6n43bRS3k": {
+                    "name": "+1 on Spellcasting Checks"
+                },
+                "3-6": {
+                    "name": "Additional Omen Use"
+                },
+                "3MXPUsrmEQc6Dp1D": {
+                    "description": "+2 to Dexterity"
+                },
+                "7-9": {
+                    "description": "Choose 1"
+                },
+                "9IXhThbhoB6xYT5w": {
+                    "description": "+2 to Strength"
+                },
+                "10-11": {
+                    "name": "Upgrade Destined Die"
+                },
+                "12-12": {
+                    "description": "Choose 1"
+                },
+                "EjYvrIKiECa8nlyr": {
+                    "name": "+2 to Charisma"
+                },
+                "F60d0n152Jo4Tb6T": {
+                    "name": "Learn Seer Spell"
+                },
+                "Fs4vSCkaLrEDmE5w": {
+                    "description": "+1 to Constitution"
+                },
+                "hBfULiC7gVHM8sj5": {
+                    "name": "+1 on Spellcasting Checks"
+                },
+                "LeTmqA7koPVQqMrK": {
+                    "description": "+2 to Charisma"
+                },
+                "liA8g4eM7qXQeJHh": {
+                    "name": "Upgrade Destined Die"
+                },
+                "LuLNbGFi5zopC12V": {
+                    "description": "+2 to Constitution"
+                },
+                "NzaAfWy6nUkEyEZM": {
+                    "description": "+1 to Charisma"
+                },
+                "OkJfYdOvb1e596rf": {
+                    "description": "+1 to Wisdom"
+                },
+                "PZbDvZp31uP4BnTf": {
+                    "description": "+2 to Wisdom"
+                },
+                "qbhpLxSgZe4lAuXa": {
+                    "description": "or"
+                },
+                "T2U2TkW80PM9IpLs": {
+                    "description": "+1 to Intelligence"
+                },
+                "vDR6Efx8U7O6bJjC": {
+                    "description": "+2 to Intelligence"
+                },
+                "W9lj1pQjFF3kPj1E": {
+                    "description": "+1 to Dexterity"
+                },
+                "wpSH7Rg7Mf4aZBXP": {
+                    "description": "+1 to Strength"
+                },
+                "xflr6PDNg3i9tmBw": {
+                    "name": "Distribute to Stats"
+                },
+                "zBk7BK9ePnEJBcwV": {
+                    "name": "+2 to Wisdom"
+                }
+            }
         },
         "Class Talents: Thief": {
-            "name": "Class Talents: Thief"
+            "name": "Class Talents: Thief",
+            "results": {
+                "2-2": {
+                    "name": "Initiative Advantage"
+                },
+                "2YPAg4HFXR5bTA3d": {
+                    "description": "+2 to Charisma"
+                },
+                "3-5": {
+                    "name": "Backstab +1 Damage Dice"
+                },
+                "6-9": {
+                    "description": "Choose 1"
+                },
+                "9KRMhcAwch5yIcGf": {
+                    "name": "+2 to Charisma"
+                },
+                "10-11": {
+                    "name": "+1 to Melee and Ranged Attacks"
+                },
+                "12-12": {
+                    "description": "Choose 1"
+                },
+                "68IbwXh2ZkIU7M9C": {
+                    "name": "Backstab +1 Damage Dice"
+                },
+                "aHF2lXpCP89uVetJ": {
+                    "description": "+2 to Strength"
+                },
+                "bB6o7PS1LMq6dXUl": {
+                    "description": "+2 to Wisdom"
+                },
+                "davCRJhzxzz0zgdR": {
+                    "description": "+1 to Dexterity"
+                },
+                "DrOU62qVXJX3yvvW": {
+                    "name": "Initiative Advantage"
+                },
+                "FoCv7nnhi7zlJGSA": {
+                    "description": "+2 to Constitution"
+                },
+                "FZjERZWvdzkXh0pm": {
+                    "description": "+1 to Melee and Ranged Attacks"
+                },
+                "gQYerjsfjNR6h9bt": {
+                    "description": "+1 to Intelligence"
+                },
+                "iGBveH7iL4XVlJpL": {
+                    "description": "+1 to Charisma"
+                },
+                "mjB4wtgSleT8KVT0": {
+                    "name": "+2 to Dexterity"
+                },
+                "Mwc6UI2IlLA6HFc6": {
+                    "description": "+2 to Dexterity"
+                },
+                "pMCmooKHJh2qb3kD": {
+                    "name": "+2 to Strength"
+                },
+                "u3h72S63lDUmibhb": {
+                    "description": "+1 to Strength"
+                },
+                "VwxBuVQhig3L2ZIX": {
+                    "name": "+1 to Melee and Ranged Attacks"
+                },
+                "wz4n6yUzBW6RVZsw": {
+                    "name": "Distribute to Stats"
+                },
+                "XmXlyHev31GRRtzl": {
+                    "description": "+1 to Wisdom"
+                },
+                "xWNE8wxDJTVlu8FJ": {
+                    "description": "+1 to Constitution"
+                },
+                "zpgd0MHPECig6w8d": {
+                    "description": "+2 to Intelligence"
+                }
+            }
         },
         "Class Talents: Warlock": {
-            "name": "Class Talents: Warlock"
+            "name": "Class Talents: Warlock",
+            "results": {
+                "0sch8KZYnpLbEJkz": {
+                    "description": "Roll a Patron Boon from any patron; an unexplained gift"
+                },
+                "1VVIO26M5JokyqN4": {
+                    "name": "+1 to Charisma"
+                },
+                "2-2": {
+                    "description": "Roll a Patron Boon from any patron; an unexplained gift"
+                },
+                "3-6": {
+                    "description": "Add +1 point to two stats (they must be different)"
+                },
+                "6kAlgHT0aplp5chB": {
+                    "name": "+1 to Ranged Attacks"
+                },
+                "7-9": {
+                    "description": "Choose 1"
+                },
+                "10-11": {
+                    "description": "Roll two Patron Boons and choose one to keep"
+                },
+                "12-12": {
+                    "description": "Choose 1"
+                },
+                "dlu32ysGh6A5e5KX": {
+                    "name": "Distribute to Stats"
+                },
+                "Dqfqj9XZfpn9GZFY": {
+                    "name": "+1 to Dexterity"
+                },
+                "GlXjwH3o7hLDfKop": {
+                    "name": "+1 to Intelligence"
+                },
+                "gsnPF50fNRzNYiFF": {
+                    "name": "+1 to Melee Attacks"
+                },
+                "iscFlZ02gcViCG5D": {
+                    "description": "Roll two Patron Boons and choose one to keep"
+                },
+                "Q6QwoMmrZS0lISoJ": {
+                    "name": "+1 to Strength"
+                },
+                "rwTxaepcJmcFYxsM": {
+                    "name": "+1 to Wisdom"
+                },
+                "sSgkHTzo6o72VNNT": {
+                    "name": "+1 to Melee Attacks"
+                },
+                "vyFEkrkXDRvOobul": {
+                    "name": "+1 to Constitution"
+                },
+                "XZzKQOrQXRN7Qou3": {
+                    "name": "+1 to Ranged Attacks"
+                }
+            }
         },
         "Class Talents: Witch": {
-            "name": "Class Talents: Witch"
+            "name": "Class Talents: Witch",
+            "results": {
+                "2-2": {
+                    "name": "Teleport to Familiar"
+                },
+                "3-7": {
+                    "description": "Choose 1"
+                },
+                "8-9": {
+                    "name": "Spellcasting Advantage"
+                },
+                "10-11": {
+                    "name": "Learn Witch Spell"
+                },
+                "12-12": {
+                    "description": "Choose 1"
+                },
+                "AipGfTboairKszSh": {
+                    "name": "+2 to Charisma"
+                },
+                "b50PEac019YpvOhS": {
+                    "name": "+1 on Spellcasting Checks"
+                },
+                "FrNDXcvWB0zOoEGe": {
+                    "name": "Spellcasting Advantage"
+                },
+                "GMo8T9XHQnGAEu02": {
+                    "name": "+1 on Spellcasting Checks"
+                },
+                "hDzWbaWnguLypaXC": {
+                    "name": "Teleport to Familiar"
+                },
+                "yGcnNJyu8y2fJT7o": {
+                    "name": "Distribute to Stats"
+                },
+                "z4acXCaOMGvZa9I6": {
+                    "name": "Learn Witch Spell"
+                }
+            }
         },
         "Class Talents: Wizard": {
             "name": "Class Talents: Wizard",
             "results": {
-                "12-12": "Learn an additional wizard spell of any tier you know",
-                "dxhv5UKKsR1RCiG4": "Make on random magic item"
+                "0KkfuxQC2lKy3qye": {
+                    "name": "+1 on Spellcasting Checks"
+                },
+                "0U8Cm0adaqdF9KIn": {
+                    "name": "Spellcasting Advantage"
+                },
+                "1d6RtQGNQJy3PXvg": {
+                    "name": "Distribute to Stats"
+                },
+                "2-2": {
+                    "name": "Make a Random Magic Item"
+                },
+                "3-7": {
+                    "description": "Choose 1"
+                },
+                "3MXPUsrmEQc6Dp1D": {
+                    "description": "+2 to Intelligence"
+                },
+                "8-9": {
+                    "name": "Spellcasting Advantage"
+                },
+                "8M33cR9uZSyou0YF": {
+                    "description": "+1 to Strength"
+                },
+                "9IXhThbhoB6xYT5w": {
+                    "description": "+2 to Constitution"
+                },
+                "10-11": {
+                    "name": "Learn Wizard Spell"
+                },
+                "12-12": {
+                    "description": "Choose 1"
+                },
+                "aCn3z0dz2nzMestr": {
+                    "description": "Learn an additional wizard spell of any tier you know"
+                },
+                "cnb8t7HmymR7uFWg": {
+                    "name": "+1 on Spellcasting Checks"
+                },
+                "dxhv5UKKsR1RCiG4": {
+                    "description": "Make on random magic item"
+                },
+                "EOfjgLxSA5crYgp7": {
+                    "description": "+1 to Constitution"
+                },
+                "Fs4vSCkaLrEDmE5w": {
+                    "description": "+2 to Strength"
+                },
+                "Jkr5VQ905FqvNPL7": {
+                    "description": "+1 to Intelligence"
+                },
+                "Lnb4CN0ULKs0IFoa": {
+                    "name": "Make a Random Magic Item"
+                },
+                "NgyUoixPpwppTn4b": {
+                    "description": "+1 to Wisdom"
+                },
+                "ONCiXKMdDVi7Z63Q": {
+                    "name": "+2 to Intelligence"
+                },
+                "TlVUTCMj9MkYslL5": {
+                    "description": "+1 to Charisma"
+                },
+                "vCbCPGgWoc5Zw4G6": {
+                    "name": "Learn Wizard Spell"
+                },
+                "W9lj1pQjFF3kPj1E": {
+                    "description": "+2 to Dexterity"
+                },
+                "wFIoS5Px2qND848U": {
+                    "description": "+1 to Dexterity"
+                },
+                "wpSH7Rg7Mf4aZBXP": {
+                    "description": "+2 to Charisma"
+                },
+                "xS3zEeT4N0fEkEns": {
+                    "description": "+1 on Spellcasting Checks"
+                },
+                "yubg29cdBWLPZ4kj": {
+                    "description": "Spellcasting Advantage"
+                }
             }
         },
         "Distribute to Stats": {
-            "name": "Distribute to Stats"
+            "name": "Distribute to Stats",
+            "results": {
+                "1-1": {
+                    "description": "or +2 points to distribute to stats"
+                },
+                "5CBf8sLkJz7DCAw0": {
+                    "name": "+1 to Strength"
+                },
+                "fLazNranC5IjxzHG": {
+                    "name": "+2 to Strength"
+                },
+                "hCBhdV1ScYd8rHXi": {
+                    "name": "+1 to Wisdom"
+                },
+                "heTmtgDVQyGfwFVs": {
+                    "name": "+1 to Dexterity"
+                },
+                "mRaoKNJIcM65e5P9": {
+                    "name": "+2 to Charisma"
+                },
+                "oMqbimLdQIY4YUTj": {
+                    "name": "+1 to Charisma"
+                },
+                "P8SIXjAyU8uDdmww": {
+                    "name": "+1 to Constitution"
+                },
+                "pULgtvU9fVoD9p9G": {
+                    "name": "+2 to Wisdom"
+                },
+                "RUc1j8LPlIBS61Cs": {
+                    "name": "+2 to Dexterity"
+                },
+                "V0MKHlUbzH5CU66T": {
+                    "name": "+2 to Constitution"
+                },
+                "v2axkaQH8Sjmwbvx": {
+                    "name": "+2 to Intelligence"
+                },
+                "ZETK7JBywljD9EFz": {
+                    "name": "+1 to Intelligence"
+                }
+            }
         },
         "Dungeon Names: Name 1": {
-            "name": "Dungeon Names: Name 1"
+            "name": "Dungeon Names: Name 1",
+            "results": {
+                "1-1": {
+                    "description": "Citadel"
+                },
+                "2-3": {
+                    "description": "Wreck"
+                },
+                "4-5": {
+                    "description": "Ruins"
+                },
+                "6-7": {
+                    "description": "Chapel"
+                },
+                "8-9": {
+                    "description": "Library"
+                },
+                "10-11": {
+                    "description": "Grave"
+                },
+                "12-13": {
+                    "description": "Fortress"
+                },
+                "14-15": {
+                    "description": "Laboratory"
+                },
+                "16-17": {
+                    "description": "Abbey"
+                },
+                "18-19": {
+                    "description": "Prison"
+                },
+                "20-21": {
+                    "description": "Tomb"
+                },
+                "22-23": {
+                    "description": "Forge"
+                },
+                "24-25": {
+                    "description": "Ravine"
+                },
+                "26-27": {
+                    "description": "Monastery"
+                },
+                "28-29": {
+                    "description": "Spire"
+                },
+                "30-31": {
+                    "description": "Hideout"
+                },
+                "32-33": {
+                    "description": "Castle"
+                },
+                "34-35": {
+                    "description": "Tunnels"
+                },
+                "36-37": {
+                    "description": "Halls"
+                },
+                "38-39": {
+                    "description": "Tower"
+                },
+                "40-41": {
+                    "description": "Steading"
+                },
+                "42-43": {
+                    "description": "Undercity"
+                },
+                "44-45": {
+                    "description": "Aerie"
+                },
+                "46-47": {
+                    "description": "Vaults"
+                },
+                "48-49": {
+                    "description": "Observatory"
+                },
+                "50-53": {
+                    "description": "Asylum"
+                },
+                "54-55": {
+                    "description": "Sepulcher"
+                },
+                "56-57": {
+                    "description": "Barrow"
+                },
+                "58-59": {
+                    "description": "Palace"
+                },
+                "60-61": {
+                    "description": "Keep"
+                },
+                "62-63": {
+                    "description": "Caverns"
+                },
+                "64-65": {
+                    "description": "Fane"
+                },
+                "66-67": {
+                    "description": "Garden"
+                },
+                "68-69": {
+                    "description": "Temple"
+                },
+                "70-71": {
+                    "description": "Maze"
+                },
+                "72-73": {
+                    "description": "Redoubt"
+                },
+                "74-75": {
+                    "description": "Pyramid"
+                },
+                "76-77": {
+                    "description": "Sanctum"
+                },
+                "78-79": {
+                    "description": "Mines"
+                },
+                "80-81": {
+                    "description": "Lair"
+                },
+                "82-83": {
+                    "description": "Den"
+                },
+                "84-85": {
+                    "description": "Pits"
+                },
+                "86-87": {
+                    "description": "Grotto"
+                },
+                "88-89": {
+                    "description": "Depths"
+                },
+                "90-91": {
+                    "description": "Stronghold"
+                },
+                "92-93": {
+                    "description": "Manse"
+                },
+                "94-95": {
+                    "description": "Warrens"
+                },
+                "96-97": {
+                    "description": "Monolith"
+                },
+                "98-99": {
+                    "description": "Crypts"
+                },
+                "100-100": {
+                    "description": "Dungeon"
+                }
+            }
         },
         "Dungeon Names: Name 2": {
-            "name": "Dungeon Names: Name 2"
+            "name": "Dungeon Names: Name 2",
+            "results": {
+                "1-1": {
+                    "description": "of the Haunted"
+                },
+                "2-3": {
+                    "description": "of the Forgotten"
+                },
+                "4-5": {
+                    "description": "of the Disgraced"
+                },
+                "6-7": {
+                    "description": "of the Barbaric"
+                },
+                "8-9": {
+                    "description": "of the Monstrous"
+                },
+                "10-11": {
+                    "description": "of the Fallen"
+                },
+                "12-13": {
+                    "description": "of the Cursed"
+                },
+                "14-15": {
+                    "description": "of the Bound"
+                },
+                "16-17": {
+                    "description": "of the Poisonous"
+                },
+                "18-19": {
+                    "description": "of the Cyclopean"
+                },
+                "20-21": {
+                    "description": "of the Sky"
+                },
+                "22-23": {
+                    "description": "of the Frozen"
+                },
+                "24-25": {
+                    "description": "of the Burning"
+                },
+                "26-27": {
+                    "description": "of the Thieving"
+                },
+                "28-29": {
+                    "description": "of the Crystalline"
+                },
+                "30-31": {
+                    "description": "of the Otherworldly"
+                },
+                "32-33": {
+                    "description": "of the Blighted"
+                },
+                "34-35": {
+                    "description": "of the Celestial"
+                },
+                "36-37": {
+                    "description": "of the Draconic"
+                },
+                "38-39": {
+                    "description": "of the Ethereal"
+                },
+                "40-41": {
+                    "description": "of the Desecrated"
+                },
+                "42-43": {
+                    "description": "of the Reptilian"
+                },
+                "44-45": {
+                    "description": "of the Metallic"
+                },
+                "46-47": {
+                    "description": "of the Insectoid"
+                },
+                "48-49": {
+                    "description": "of the Elemental"
+                },
+                "50-53": {
+                    "description": "of the Arachnid"
+                },
+                "54-55": {
+                    "description": "of the Demonic"
+                },
+                "56-57": {
+                    "description": "of the Fungal"
+                },
+                "58-59": {
+                    "description": "of the Golden"
+                },
+                "60-61": {
+                    "description": "of the Fey"
+                },
+                "62-63": {
+                    "description": "of the Lightning"
+                },
+                "64-65": {
+                    "description": "of the Piscine"
+                },
+                "66-67": {
+                    "description": "of the Corrupt"
+                },
+                "68-69": {
+                    "description": "of the Righteous"
+                },
+                "70-71": {
+                    "description": "of the Mud"
+                },
+                "72-73": {
+                    "description": "of the Night"
+                },
+                "74-75": {
+                    "description": "of the Hidden"
+                },
+                "76-77": {
+                    "description": "of the Forbidden"
+                },
+                "78-79": {
+                    "description": "of the Shimmering"
+                },
+                "80-81": {
+                    "description": "of the Glass"
+                },
+                "82-83": {
+                    "description": "of the Radiant"
+                },
+                "84-85": {
+                    "description": "of the Mad"
+                },
+                "86-87": {
+                    "description": "of the Wild"
+                },
+                "88-89": {
+                    "description": "of the Lost"
+                },
+                "90-91": {
+                    "description": "of the Majestic"
+                },
+                "92-93": {
+                    "description": "of the Antediluvian"
+                },
+                "94-95": {
+                    "description": "of the Prophesied"
+                },
+                "96-97": {
+                    "description": "of the Shrouded"
+                },
+                "98-99": {
+                    "description": "of the Cosmic"
+                },
+                "100-100": {
+                    "description": "of the Legendary"
+                }
+            }
         },
         "Dungeon Names: Name 3": {
-            "name": "Dungeon Names: Name 3"
+            "name": "Dungeon Names: Name 3",
+            "results": {
+                "1-1": {
+                    "description": "Idol"
+                },
+                "2-3": {
+                    "description": "Betrayer"
+                },
+                "4-5": {
+                    "description": "King"
+                },
+                "6-7": {
+                    "description": "Elephant"
+                },
+                "8-9": {
+                    "description": "God"
+                },
+                "10-11": {
+                    "description": "Cult"
+                },
+                "12-13": {
+                    "description": "Knight"
+                },
+                "14-15": {
+                    "description": "Hero"
+                },
+                "16-17": {
+                    "description": "Pirates"
+                },
+                "18-19": {
+                    "description": "Spirit"
+                },
+                "20-21": {
+                    "description": "Sisters"
+                },
+                "22-23": {
+                    "description": "Sword"
+                },
+                "24-25": {
+                    "description": "Beast"
+                },
+                "26-27": {
+                    "description": "Ancients"
+                },
+                "28-29": {
+                    "description": "Lost"
+                },
+                "30-31": {
+                    "description": "Outcasts"
+                },
+                "32-33": {
+                    "description": "Sailor"
+                },
+                "34-35": {
+                    "description": "Undead"
+                },
+                "36-37": {
+                    "description": "Mage"
+                },
+                "38-39": {
+                    "description": "Hoard"
+                },
+                "40-41": {
+                    "description": "Mummy"
+                },
+                "42-43": {
+                    "description": "Usurper"
+                },
+                "44-45": {
+                    "description": "Saint"
+                },
+                "46-47": {
+                    "description": "Mechanism"
+                },
+                "48-49": {
+                    "description": "Brothers"
+                },
+                "50-53": {
+                    "description": "Lord"
+                },
+                "54-55": {
+                    "description": "Descendant"
+                },
+                "56-57": {
+                    "description": "Abomination"
+                },
+                "58-59": {
+                    "description": "Hermit"
+                },
+                "60-61": {
+                    "description": "Warlord"
+                },
+                "62-63": {
+                    "description": "Hunter"
+                },
+                "64-65": {
+                    "description": "Guild"
+                },
+                "66-67": {
+                    "description": "Vampire"
+                },
+                "68-69": {
+                    "description": "Philosopher"
+                },
+                "70-71": {
+                    "description": "Warriors"
+                },
+                "72-73": {
+                    "description": "Queen"
+                },
+                "74-75": {
+                    "description": "Gem"
+                },
+                "76-77": {
+                    "description": "Secret"
+                },
+                "78-79": {
+                    "description": "Emperor"
+                },
+                "80-81": {
+                    "description": "Weapon"
+                },
+                "82-83": {
+                    "description": "Sorcerer"
+                },
+                "84-85": {
+                    "description": "Crown"
+                },
+                "86-87": {
+                    "description": "Ancestor"
+                },
+                "88-89": {
+                    "description": "Runes"
+                },
+                "90-91": {
+                    "description": "Tree"
+                },
+                "92-93": {
+                    "description": "Assassin"
+                },
+                "94-95": {
+                    "description": "Relic"
+                },
+                "96-97": {
+                    "description": "Blessing"
+                },
+                "98-99": {
+                    "description": "Ritual"
+                },
+                "100-100": {
+                    "description": "Overlord"
+                }
+            }
         },
         "Hazard: Damage": {
-            "name": "Hazard: Damage"
+            "name": "Hazard: Damage",
+            "results": {
+                "1-1": {
+                    "description": "Acid pools"
+                },
+                "2-2": {
+                    "description": "Exploding rocks"
+                },
+                "3-3": {
+                    "description": "Icy water"
+                },
+                "4-4": {
+                    "description": "Lava"
+                },
+                "5-5": {
+                    "description": "Pummeling hail"
+                },
+                "6-6": {
+                    "description": "Steam vents"
+                },
+                "7-7": {
+                    "description": "Toxic mold"
+                },
+                "8-8": {
+                    "description": "Falling debris"
+                },
+                "9-9": {
+                    "description": "Acid rain"
+                },
+                "10-10": {
+                    "description": "Curtain of fire"
+                },
+                "11-11": {
+                    "description": "Electrified field"
+                },
+                "12-12": {
+                    "description": "Gravity flux"
+                }
+            }
         },
         "Hazard: Movement": {
-            "name": "Hazard: Movement"
+            "name": "Hazard: Movement",
+            "results": {
+                "1-1": {
+                    "description": "Quicksand"
+                },
+                "2-2": {
+                    "description": "Caltrops"
+                },
+                "3-3": {
+                    "description": "Loose debris"
+                },
+                "4-4": {
+                    "description": "Tar field"
+                },
+                "5-5": {
+                    "description": "Grasping vines"
+                },
+                "6-6": {
+                    "description": "Steep incline"
+                },
+                "7-7": {
+                    "description": "Slippery ice"
+                },
+                "8-8": {
+                    "description": "Rushing water"
+                },
+                "9-9": {
+                    "description": "Sticky webs"
+                },
+                "10-10": {
+                    "description": "Gale force wind"
+                },
+                "11-11": {
+                    "description": "Greased floor"
+                },
+                "12-12": {
+                    "description": "Illusory terrain"
+                }
+            }
         },
         "Hazard: Weaken": {
-            "name": "Hazard: Weaken"
+            "name": "Hazard: Weaken",
+            "results": {
+                "1-1": {
+                    "description": "Blinding smoke"
+                },
+                "2-2": {
+                    "description": "Magnetic field"
+                },
+                "3-3": {
+                    "description": "Exhausting runes"
+                },
+                "4-4": {
+                    "description": "Antimagic zone"
+                },
+                "5-5": {
+                    "description": "Snuffs light sources"
+                },
+                "6-6": {
+                    "description": "Disorienting sound"
+                },
+                "7-7": {
+                    "description": "Magic silence"
+                },
+                "8-8": {
+                    "description": "Numbing cold"
+                },
+                "9-9": {
+                    "description": "Sickening smell"
+                },
+                "10-10": {
+                    "description": "Sleep-inducing spores"
+                },
+                "11-11": {
+                    "description": "Confusing reflections"
+                },
+                "12-12": {
+                    "description": "Memory-stealing"
+                }
+            }
         },
         "Magic Item: Name 1": {
-            "name": "Magic Item: Name 1"
+            "name": "Magic Item: Name 1",
+            "results": {
+                "1-1": {
+                    "description": "The Crimson"
+                },
+                "2-2": {
+                    "description": "The Ashen"
+                },
+                "3-3": {
+                    "description": "Ortival's"
+                },
+                "4-4": {
+                    "description": "The Doom"
+                },
+                "5-5": {
+                    "description": "The Twilight"
+                },
+                "6-6": {
+                    "description": "The Astral"
+                },
+                "7-7": {
+                    "description": "Krull's"
+                },
+                "8-8": {
+                    "description": "The Vicious"
+                },
+                "9-9": {
+                    "description": "Memnon's"
+                },
+                "10-10": {
+                    "description": "The Blessed"
+                },
+                "11-11": {
+                    "description": "The Infernal"
+                },
+                "12-12": {
+                    "description": "Madeera's"
+                },
+                "13-13": {
+                    "description": "The Whispering"
+                },
+                "14-14": {
+                    "description": "The Unholy"
+                },
+                "15-15": {
+                    "description": "Shune's"
+                },
+                "16-16": {
+                    "description": "The Lost"
+                },
+                "17-17": {
+                    "description": "Ord's"
+                },
+                "18-18": {
+                    "description": "The Righteous"
+                },
+                "19-19": {
+                    "description": "The Demonic"
+                },
+                "20-20": {
+                    "description": "The Primordial"
+                }
+            }
         },
         "Magic Item: Name 2": {
-            "name": "Magic Item: Name 2"
+            "name": "Magic Item: Name 2",
+            "results": {
+                "1-1": {
+                    "description": "Blade"
+                },
+                "2-2": {
+                    "description": "Poultice"
+                },
+                "3-3": {
+                    "description": "Rite"
+                },
+                "4-4": {
+                    "description": "Axe"
+                },
+                "5-5": {
+                    "description": "Hammer"
+                },
+                "6-6": {
+                    "description": "Wand"
+                },
+                "7-7": {
+                    "description": "Cape"
+                },
+                "8-8": {
+                    "description": "Tome"
+                },
+                "9-9": {
+                    "description": "Litany"
+                },
+                "10-10": {
+                    "description": "Staff"
+                },
+                "11-11": {
+                    "description": "Scroll"
+                },
+                "12-12": {
+                    "description": "Skull"
+                },
+                "13-13": {
+                    "description": "Bow"
+                },
+                "14-14": {
+                    "description": "Sword"
+                },
+                "15-15": {
+                    "description": "Shield"
+                },
+                "16-16": {
+                    "description": "Dagger"
+                },
+                "17-17": {
+                    "description": "Armor"
+                },
+                "18-18": {
+                    "description": "Orb"
+                },
+                "19-19": {
+                    "description": "Eye"
+                },
+                "20-20": {
+                    "description": "Elixir"
+                }
+            }
         },
         "Magic Item: Name 3": {
-            "name": "Magic Item: Name 3"
+            "name": "Magic Item: Name 3",
+            "results": {
+                "1-1": {
+                    "description": "of Thundering Death"
+                },
+                "2-2": {
+                    "description": "of Ages"
+                },
+                "3-3": {
+                    "description": "of the Archmage"
+                },
+                "4-4": {
+                    "description": "of Destruction"
+                },
+                "5-5": {
+                    "description": "of Brak"
+                },
+                "6-6": {
+                    "description": "of Power"
+                },
+                "7-7": {
+                    "description": "of the Covenant"
+                },
+                "8-8": {
+                    "description": "of the Wilds"
+                },
+                "9-9": {
+                    "description": "of the Horde"
+                },
+                "10-10": {
+                    "description": "of Blood"
+                },
+                "11-11": {
+                    "description": "of Time"
+                },
+                "12-12": {
+                    "description": "of the Lich Queen"
+                },
+                "13-13": {
+                    "description": "of the Elders"
+                },
+                "14-14": {
+                    "description": "of Madness"
+                },
+                "15-15": {
+                    "description": "of Withering"
+                },
+                "16-16": {
+                    "description": "of Annihilation"
+                },
+                "17-17": {
+                    "description": "of the Dragon"
+                },
+                "18-18": {
+                    "description": "of the Risen"
+                },
+                "19-19": {
+                    "description": "of Elemental Fury"
+                },
+                "20-20": {
+                    "description": "of the Spirits"
+                }
+            }
         },
         "Oracle": {
-            "name": "Oracle"
+            "name": "Oracle",
+            "results": {
+                "1-9": {
+                    "description": "No"
+                },
+                "10-10": {
+                    "description": "Twist"
+                },
+                "11-20": {
+                    "description": "Yes"
+                }
+            }
         },
         "Patron Boons: Almazzat": {
-            "name": "Patron Boons: Almazzat"
+            "name": "Patron Boons: Almazzat",
+            "results": {
+                "1ahzLslWnLCuC8n5": {
+                    "name": "Learn Melee Weapon"
+                },
+                "2-2": {
+                    "name": "Advantage on Melee Attacks"
+                },
+                "3-7": {
+                    "description": "Choose 1"
+                },
+                "3MByfBYtzZzMRwyX": {
+                    "name": "+1 to Melee Attacks"
+                },
+                "3mgb4htWQ8Lyc8ks": {
+                    "name": "+1 to Melee Damage"
+                },
+                "3PJRotooaESSqjnl": {
+                    "name": "Distribute to Stats"
+                },
+                "8-9": {
+                    "description": "Choose 1"
+                },
+                "9cSiZiY5rzMZdT8S": {
+                    "name": "Learn Melee Weapon"
+                },
+                "10-11": {
+                    "name": "Initiative Advantage"
+                },
+                "12-12": {
+                    "description": "Choose 1"
+                },
+                "AQPGmxwBqUuQjKWg": {
+                    "name": "Advantage on Melee Attacks"
+                },
+                "DcJLusNhfvUcAQLl": {
+                    "name": "+2 to Constitution"
+                },
+                "oGH2I1rhY4Xi2YQj": {
+                    "name": "+1 to Melee Damage"
+                },
+                "vrQrsASJK5RmsmZA": {
+                    "name": "+2 to Strength"
+                },
+                "W5LGUFV5FrY2yqQX": {
+                    "name": "+1 to Melee Attacks"
+                },
+                "yePwQIk9PROkQknC": {
+                    "name": "Initiative Advantage"
+                }
+            }
         },
         "Patron Boons: Kytheros": {
-            "name": "Patron Boons: Kytheros"
+            "name": "Patron Boons: Kytheros",
+            "results": {
+                "2-2": {
+                    "name": "Force GM Reroll"
+                },
+                "3-7": {
+                    "name": "+1 to AC"
+                },
+                "8-9": {
+                    "description": "Choose 1"
+                },
+                "10-11": {
+                    "name": "Add Wisdom to Roll"
+                },
+                "12-12": {
+                    "description": "Choose 1"
+                },
+                "a0TxSPzLzNnlyzX2": {
+                    "name": "+1 to AC"
+                },
+                "bnv5azUa7bkvU2Qn": {
+                    "name": "+2 to Wisdom"
+                },
+                "C4k5rtaLhMKmMbsi": {
+                    "name": "+2 to Strength"
+                },
+                "dpeuP5ftKBP86aP1": {
+                    "name": "Distribute to Stats"
+                },
+                "GkV534oHvG2idNp6": {
+                    "name": "Add Wisdom to Roll"
+                },
+                "hx2GN61yJZvW4nor": {
+                    "name": "+2 to Dexterity"
+                },
+                "z3JsdSA3yTfGlv56": {
+                    "name": "Force GM Reroll"
+                }
+            }
         },
         "Patron Boons: Mugdulblub": {
-            "name": "Patron Boons: Mugdulblub"
+            "name": "Patron Boons: Mugdulblub",
+            "results": {
+                "1jUduG2tw1T3GDmS": {
+                    "name": "Immunity to Acid"
+                },
+                "2-2": {
+                    "name": "Slime Form"
+                },
+                "3-7": {
+                    "name": "Max 2 HP Rolls"
+                },
+                "7Cv53DjIjA10IvPD": {
+                    "name": "Immunity to Cold"
+                },
+                "8-9": {
+                    "description": "Choose 1"
+                },
+                "10-11": {
+                    "description": "Choose 1"
+                },
+                "12-12": {
+                    "description": "Choose 1"
+                },
+                "cnBphjA6fwkKiUq8": {
+                    "name": "Immunity to Poison"
+                },
+                "D8sBmPHiSjR9PZ7K": {
+                    "name": "Distribute to Stats"
+                },
+                "FMPnW7JNBIoW2pGi": {
+                    "name": "Immunity to Poison"
+                },
+                "iakzDPNnfN3TnLVc": {
+                    "name": "Slime Form"
+                },
+                "oeelo59UjQgIYUEy": {
+                    "name": "Immunity to Cold"
+                },
+                "oMz5DCwOgHErsMo7": {
+                    "name": "+2 to Constitution"
+                },
+                "qvP1Dwr8kCNhQOeY": {
+                    "name": "Immunity to Acid"
+                },
+                "Xx3nkXAuSTGquTWk": {
+                    "name": "+2 to Dexterity"
+                }
+            }
         },
         "Patron Boons: Shune the Vile": {
-            "name": "Patron Boons: Shune the Vile"
+            "name": "Patron Boons: Shune the Vile",
+            "results": {
+                "2-2": {
+                    "name": "Read Mind of Creature"
+                },
+                "3-7": {
+                    "name": "Learn a Wizard Spell"
+                },
+                "8-9": {
+                    "description": "Choose 1"
+                },
+                "10-11": {
+                    "name": "+1 XP for Secrets"
+                },
+                "12-12": {
+                    "description": "Choose 1"
+                },
+                "cP5A9kBl3bonbYDt": {
+                    "name": "+2 to Dexterity"
+                },
+                "CYltJxlhj4697eoE": {
+                    "name": "+1 XP for Secrets"
+                },
+                "g66FwWpV9CNiEgSL": {
+                    "name": "Distribute to Stats"
+                },
+                "GdBfoWNz5leRfsRQ": {
+                    "name": "+2 to Intelligence"
+                },
+                "J5BrOWEBfnGz6TOl": {
+                    "name": "Learn a Wizard Spell"
+                },
+                "sUBmDCtzTCoAeRGi": {
+                    "name": "Read Mind of Creature"
+                }
+            }
         },
         "Patron Boons: The Willowman": {
-            "name": "Patron Boons: The Willowman"
+            "name": "Patron Boons: The Willowman",
+            "results": {
+                "2-2": {
+                    "name": "Teleport"
+                },
+                "3-7": {
+                    "description": "Choose 1"
+                },
+                "5oJDFWhBzrbLd6ve": {
+                    "name": "+2 to Dexterity"
+                },
+                "8-9": {
+                    "description": "Choose 1"
+                },
+                "10-11": {
+                    "name": "Force Morale Check"
+                },
+                "12-12": {
+                    "description": "Choose 1"
+                },
+                "39dfIuez9HPaTZ9w": {
+                    "name": "+1 to Melee Attacks"
+                },
+                "091l4CxS6HBrbOky": {
+                    "name": "+1 to Ranged Attacks"
+                },
+                "epGQM54jf64rTnjS": {
+                    "name": "Teleport"
+                },
+                "GzXlTtJ6u0TMVIJx": {
+                    "name": "+1 to Ranged Attacks"
+                },
+                "jd6V7fRcXbNS8cLk": {
+                    "name": "Force Morale Check"
+                },
+                "P4APwE3PjmK0zZS9": {
+                    "name": "+1 to Melee Attacks"
+                },
+                "PGpSTzWj5JhUZoNo": {
+                    "name": "Distribute to Stats"
+                },
+                "PTFJSiDTH7423FGk": {
+                    "name": "+2 to Strength"
+                }
+            }
         },
         "Patron Boons: Titania": {
-            "name": "Patron Boons: Titania"
+            "name": "Patron Boons: Titania",
+            "results": {
+                "2-2": {
+                    "name": "Hypnotize"
+                },
+                "3-7": {
+                    "description": "Choose 1"
+                },
+                "3ycSx39Jmtbw3PAx": {
+                    "name": "+1 to Ranged Attacks"
+                },
+                "8-9": {
+                    "description": "Choose 1"
+                },
+                "9v8u3oIKb1N0rdRM": {
+                    "name": "+2 to Dexterity"
+                },
+                "10-11": {
+                    "name": "Magic Resistance"
+                },
+                "12-12": {
+                    "description": "Choose 1"
+                },
+                "99VfvZ0es75tMHRJ": {
+                    "name": "Distribute to Stats"
+                },
+                "EIESJe7TYSrPR7Lf": {
+                    "name": "Learn to Wield a Longbow"
+                },
+                "iyUzjgnbOlfguGtd": {
+                    "name": "+1 to Ranged Attacks"
+                },
+                "maQT0ylt6hkVAygR": {
+                    "name": "Learn to Wield a Longbow"
+                },
+                "OjESzhXmkRXRptqc": {
+                    "name": "Hypnotize"
+                },
+                "RrzLf4WgWJQB21WQ": {
+                    "name": "Magic Resistance"
+                },
+                "zWYEp2vfd4hL0tzf": {
+                    "name": "+2 to Charisma"
+                }
+            }
         },
         "Prompts: Noun": {
-            "name": "Prompts: Noun"
+            "name": "Prompts: Noun",
+            "results": {
+                "1-1": {
+                    "description": "Fault"
+                },
+                "2-2": {
+                    "description": "Life"
+                },
+                "3-3": {
+                    "description": "Battle"
+                },
+                "4-4": {
+                    "description": "Lie"
+                },
+                "5-5": {
+                    "description": "Vice"
+                },
+                "6-6": {
+                    "description": "Memory"
+                },
+                "7-7": {
+                    "description": "Burden"
+                },
+                "8-8": {
+                    "description": "Treachery"
+                },
+                "9-9": {
+                    "description": "Trial"
+                },
+                "10-10": {
+                    "description": "Risk"
+                },
+                "11-11": {
+                    "description": "Prosperity"
+                },
+                "12-12": {
+                    "description": "Time"
+                },
+                "13-13": {
+                    "description": "Conflict"
+                },
+                "14-14": {
+                    "description": "Light"
+                },
+                "15-15": {
+                    "description": "Unnatural"
+                },
+                "16-16": {
+                    "description": "Information"
+                },
+                "17-17": {
+                    "description": "Hope"
+                },
+                "18-18": {
+                    "description": "Journey"
+                },
+                "19-19": {
+                    "description": "Mundane"
+                },
+                "20-20": {
+                    "description": "Hazard"
+                },
+                "21-21": {
+                    "description": "Family"
+                },
+                "22-22": {
+                    "description": "Obstacle"
+                },
+                "23-23": {
+                    "description": "Doubt"
+                },
+                "24-24": {
+                    "description": "Freedom"
+                },
+                "25-25": {
+                    "description": "Weakness"
+                },
+                "26-26": {
+                    "description": "Unknown"
+                },
+                "27-27": {
+                    "description": "Glory"
+                },
+                "28-28": {
+                    "description": "Friend"
+                },
+                "29-29": {
+                    "description": "Discovery"
+                },
+                "30-30": {
+                    "description": "Lead"
+                },
+                "31-31": {
+                    "description": "Storm"
+                },
+                "32-32": {
+                    "description": "Enemy"
+                },
+                "33-33": {
+                    "description": "Integrity"
+                },
+                "34-34": {
+                    "description": "Science"
+                },
+                "35-35": {
+                    "description": "Asset"
+                },
+                "36-36": {
+                    "description": "Crime"
+                },
+                "37-37": {
+                    "description": "Wisdom"
+                },
+                "38-38": {
+                    "description": "Justice"
+                },
+                "39-39": {
+                    "description": "Strife"
+                },
+                "40-40": {
+                    "description": "Disgust"
+                },
+                "41-41": {
+                    "description": "Danger"
+                },
+                "42-42": {
+                    "description": "Balance"
+                },
+                "43-43": {
+                    "description": "Nature"
+                },
+                "44-44": {
+                    "description": "Chaos"
+                },
+                "45-45": {
+                    "description": "Ambush"
+                },
+                "46-46": {
+                    "description": "Wealth"
+                },
+                "47-47": {
+                    "description": "Thought"
+                },
+                "48-48": {
+                    "description": "Dark"
+                },
+                "49-49": {
+                    "description": "Connection"
+                },
+                "50-50": {
+                    "description": "Door"
+                },
+                "51-51": {
+                    "description": "Fear"
+                },
+                "52-52": {
+                    "description": "Sorcery"
+                },
+                "53-53": {
+                    "description": "Honor"
+                },
+                "54-54": {
+                    "description": "Spirit"
+                },
+                "55-55": {
+                    "description": "Trust"
+                },
+                "56-56": {
+                    "description": "Loss"
+                },
+                "57-57": {
+                    "description": "Failure"
+                },
+                "58-58": {
+                    "description": "Peril"
+                },
+                "59-59": {
+                    "description": "Plan"
+                },
+                "60-60": {
+                    "description": "Trick"
+                },
+                "61-61": {
+                    "description": "Mind"
+                },
+                "62-62": {
+                    "description": "Pain"
+                },
+                "63-63": {
+                    "description": "Victory"
+                },
+                "64-64": {
+                    "description": "Death"
+                },
+                "65-65": {
+                    "description": "Control"
+                },
+                "66-66": {
+                    "description": "Knowledge"
+                },
+                "67-67": {
+                    "description": "Secret"
+                },
+                "68-68": {
+                    "description": "Kindness"
+                },
+                "69-69": {
+                    "description": "Exploration"
+                },
+                "70-70": {
+                    "description": "Surprise"
+                },
+                "71-71": {
+                    "description": "Magic"
+                },
+                "72-72": {
+                    "description": "Animal"
+                },
+                "73-73": {
+                    "description": "Way"
+                },
+                "74-74": {
+                    "description": "Essence"
+                },
+                "75-75": {
+                    "description": "Dream"
+                },
+                "76-76": {
+                    "description": "Anger"
+                },
+                "77-77": {
+                    "description": "Vision"
+                },
+                "78-78": {
+                    "description": "Safety"
+                },
+                "79-79": {
+                    "description": "Result"
+                },
+                "80-80": {
+                    "description": "Place"
+                },
+                "81-81": {
+                    "description": "Path"
+                },
+                "82-82": {
+                    "description": "Nourishme"
+                },
+                "83-83": {
+                    "description": "Theft"
+                },
+                "84-84": {
+                    "description": "Decay"
+                },
+                "85-85": {
+                    "description": "Truth"
+                },
+                "86-86": {
+                    "description": "People"
+                },
+                "87-87": {
+                    "description": "Help"
+                },
+                "88-88": {
+                    "description": "Gear"
+                },
+                "89-89": {
+                    "description": "Idea"
+                },
+                "90-90": {
+                    "description": "Order"
+                },
+                "91-91": {
+                    "description": "Success"
+                },
+                "92-92": {
+                    "description": "Barrier"
+                },
+                "93-93": {
+                    "description": "Goal"
+                },
+                "94-94": {
+                    "description": "Luck"
+                },
+                "95-95": {
+                    "description": "Identity"
+                },
+                "96-96": {
+                    "description": "Harm"
+                },
+                "97-97": {
+                    "description": "Wilderness"
+                },
+                "98-98": {
+                    "description": "Motive"
+                },
+                "99-99": {
+                    "description": "Shelter"
+                },
+                "100-100": {
+                    "description": "Power"
+                }
+            }
         },
         "Prompts: Verb": {
-            "name": "Prompts: Verb"
+            "name": "Prompts: Verb",
+            "results": {
+                "1-1": {
+                    "description": "Stop"
+                },
+                "2-2": {
+                    "description": "Tell"
+                },
+                "3-3": {
+                    "description": "Trust"
+                },
+                "4-4": {
+                    "description": "Prevent"
+                },
+                "5-5": {
+                    "description": "Deliver"
+                },
+                "6-6": {
+                    "description": "Dismantle"
+                },
+                "7-7": {
+                    "description": "Create"
+                },
+                "8-8": {
+                    "description": "Resist"
+                },
+                "9-9": {
+                    "description": "Imbue"
+                },
+                "10-10": {
+                    "description": "Befriend"
+                },
+                "11-11": {
+                    "description": "Sneak"
+                },
+                "12-12": {
+                    "description": "Disagree"
+                },
+                "13-13": {
+                    "description": "Illuminate"
+                },
+                "14-14": {
+                    "description": "Assemble"
+                },
+                "15-15": {
+                    "description": "Free"
+                },
+                "16-16": {
+                    "description": "Combine"
+                },
+                "17-17": {
+                    "description": "Disrupt"
+                },
+                "18-18": {
+                    "description": "Demand"
+                },
+                "19-19": {
+                    "description": "Obstruct"
+                },
+                "20-20": {
+                    "description": "Push"
+                },
+                "21-21": {
+                    "description": "Arrive"
+                },
+                "22-22": {
+                    "description": "Slow"
+                },
+                "23-23": {
+                    "description": "Overcome"
+                },
+                "24-24": {
+                    "description": "Block"
+                },
+                "25-25": {
+                    "description": "Consume"
+                },
+                "26-26": {
+                    "description": "Pursue"
+                },
+                "27-27": {
+                    "description": "Reward"
+                },
+                "28-28": {
+                    "description": "Expand"
+                },
+                "29-29": {
+                    "description": "Waste"
+                },
+                "30-30": {
+                    "description": "Capture"
+                },
+                "31-31": {
+                    "description": "Weaken"
+                },
+                "32-32": {
+                    "description": "Reveal"
+                },
+                "33-33": {
+                    "description": "Investigate"
+                },
+                "34-34": {
+                    "description": "Forbid"
+                },
+                "35-35": {
+                    "description": "Start"
+                },
+                "36-36": {
+                    "description": "Surprise"
+                },
+                "37-37": {
+                    "description": "Endure"
+                },
+                "38-38": {
+                    "description": "Pull"
+                },
+                "39-39": {
+                    "description": "Unleash"
+                },
+                "40-40": {
+                    "description": "Avoid"
+                },
+                "41-41": {
+                    "description": "Advance"
+                },
+                "42-42": {
+                    "description": "Agree"
+                },
+                "43-43": {
+                    "description": "Deliver"
+                },
+                "44-44": {
+                    "description": "Link"
+                },
+                "45-45": {
+                    "description": "Hinder"
+                },
+                "46-46": {
+                    "description": "Withhold"
+                },
+                "47-47": {
+                    "description": "Lose"
+                },
+                "48-48": {
+                    "description": "Evolve"
+                },
+                "49-49": {
+                    "description": "Fortify"
+                },
+                "50-50": {
+                    "description": "Punish"
+                },
+                "51-51": {
+                    "description": "Ignite"
+                },
+                "52-52": {
+                    "description": "Awaken"
+                },
+                "53-53": {
+                    "description": "Defy"
+                },
+                "54-54": {
+                    "description": "Conceal"
+                },
+                "55-55": {
+                    "description": "Invite"
+                },
+                "56-56": {
+                    "description": "Break"
+                },
+                "57-57": {
+                    "description": "Allow"
+                },
+                "58-58": {
+                    "description": "Open"
+                },
+                "59-59": {
+                    "description": "Repel"
+                },
+                "60-60": {
+                    "description": "Activate"
+                },
+                "61-61": {
+                    "description": "Gather"
+                },
+                "62-62": {
+                    "description": "Give"
+                },
+                "63-63": {
+                    "description": "Reverse"
+                },
+                "64-64": {
+                    "description": "Warn"
+                },
+                "65-65": {
+                    "description": "Confront"
+                },
+                "66-66": {
+                    "description": "Betray"
+                },
+                "67-67": {
+                    "description": "Secure"
+                },
+                "68-68": {
+                    "description": "Darken"
+                },
+                "69-69": {
+                    "description": "Flee"
+                },
+                "70-70": {
+                    "description": "Win"
+                },
+                "71-71": {
+                    "description": "Scatter"
+                },
+                "72-72": {
+                    "description": "Contain"
+                },
+                "73-73": {
+                    "description": "Assist"
+                },
+                "74-74": {
+                    "description": "Take"
+                },
+                "75-75": {
+                    "description": "Question"
+                },
+                "76-76": {
+                    "description": "Drop"
+                },
+                "77-77": {
+                    "description": "Accept"
+                },
+                "78-78": {
+                    "description": "Sacrifice"
+                },
+                "79-79": {
+                    "description": "Drain"
+                },
+                "80-80": {
+                    "description": "Hint"
+                },
+                "81-81": {
+                    "description": "Fumble"
+                },
+                "82-82": {
+                    "description": "Fall"
+                },
+                "83-83": {
+                    "description": "Ascend"
+                },
+                "84-84": {
+                    "description": "Protect"
+                },
+                "85-85": {
+                    "description": "Escape"
+                },
+                "86-86": {
+                    "description": "Defeat"
+                },
+                "87-87": {
+                    "description": "Mend"
+                },
+                "88-88": {
+                    "description": "Acquire"
+                },
+                "89-89": {
+                    "description": "Guide"
+                },
+                "90-90": {
+                    "description": "Mislead"
+                },
+                "91-91": {
+                    "description": "Banish"
+                },
+                "92-92": {
+                    "description": "Uphold"
+                },
+                "93-93": {
+                    "description": "Build"
+                },
+                "94-94": {
+                    "description": "Change"
+                },
+                "95-95": {
+                    "description": "Revoke"
+                },
+                "96-96": {
+                    "description": "Seek"
+                },
+                "97-97": {
+                    "description": "Destroy"
+                },
+                "98-98": {
+                    "description": "Uncover"
+                },
+                "99-99": {
+                    "description": "Rest"
+                },
+                "100-100": {
+                    "description": "Release"
+                }
+            }
         },
         "Random Alignment": {
-            "name": "Random Alignment"
+            "name": "Random Alignment",
+            "results": {
+                "1-3": {
+                    "description": "Lawful"
+                },
+                "4-5": {
+                    "description": "Neutral"
+                },
+                "6-6": {
+                    "description": "Chaotic"
+                }
+            }
         },
         "Random Ancestry": {
-            "name": "Random Ancestry"
+            "name": "Random Ancestry",
+            "results": {
+                "1-4": {
+                    "name": "Human"
+                },
+                "5-6": {
+                    "name": "Elf"
+                },
+                "7-8": {
+                    "name": "Dwarf"
+                },
+                "9-10": {
+                    "name": "Halfling"
+                },
+                "11-11": {
+                    "name": "Half-Orc"
+                },
+                "12-12": {
+                    "name": "Goblin"
+                }
+            }
         },
         "Random Class": {
-            "name": "Random Class"
+            "name": "Random Class",
+            "results": {
+                "1-1": {
+                    "name": "Fighter"
+                },
+                "2-2": {
+                    "name": "Priest"
+                },
+                "3-3": {
+                    "name": "Thief"
+                },
+                "4-4": {
+                    "name": "Wizard"
+                },
+                "5-5": {
+                    "name": "Bard"
+                },
+                "6-6": {
+                    "name": "Ranger"
+                }
+            }
         },
         "Random Encounter: Activity": {
-            "name": "Random Encounter: Activity"
+            "name": "Random Encounter: Activity",
+            "results": {
+                "2-4": {
+                    "description": "Hunting"
+                },
+                "5-6": {
+                    "description": "Eating"
+                },
+                "7-8": {
+                    "description": "Building/nesting"
+                },
+                "9-10": {
+                    "description": "Socializing/playing"
+                },
+                "11-11": {
+                    "description": "Guarding"
+                },
+                "12-12": {
+                    "description": "Sleeping"
+                }
+            }
         },
         "Random Encounter: Distance": {
-            "name": "Random Encounter: Distance"
+            "name": "Random Encounter: Distance",
+            "results": {
+                "1-1": {
+                    "description": "Close"
+                },
+                "2-4": {
+                    "description": "Near"
+                },
+                "5-6": {
+                    "description": "Far"
+                }
+            }
         },
         "Random Encounter: Reaction": {
-            "name": "Random Encounter: Reaction"
+            "name": "Random Encounter: Reaction",
+            "results": {
+                "0-6": {
+                    "description": "Hostile"
+                },
+                "7-8": {
+                    "description": "Suspicious"
+                },
+                "9-9": {
+                    "description": "Neutral"
+                },
+                "10-11": {
+                    "description": "Curious"
+                },
+                "12-100": {
+                    "description": "Friendly"
+                }
+            }
         },
         "Random Gear": {
-            "name": "Random Gear"
+            "name": "Random Gear",
+            "results": {
+                "1-1": {
+                    "name": "Torch"
+                },
+                "2-2": {
+                    "name": "Dagger"
+                },
+                "3-3": {
+                    "name": "Pole"
+                },
+                "4-4": {
+                    "name": "Rations"
+                },
+                "5-5": {
+                    "name": "Rope, 60'"
+                },
+                "6-6": {
+                    "name": "Oil, Flask"
+                },
+                "7-7": {
+                    "name": "Crowbar"
+                },
+                "8-8": {
+                    "name": "Iron Spikes"
+                },
+                "9-9": {
+                    "name": "Flint and Steel"
+                },
+                "10-10": {
+                    "name": "Grappling Hook"
+                },
+                "11-11": {
+                    "name": "Club"
+                },
+                "12-12": {
+                    "name": "Caltrops"
+                }
+            }
         },
         "Random Gear Rolls": {
-            "name": "Random Gear Rolls"
+            "name": "Random Gear Rolls",
+            "results": {
+                "1-6": {
+                    "name": "Random Gear"
+                },
+                "2-6": {
+                    "name": "Random Gear"
+                },
+                "3-6": {
+                    "name": "Random Gear"
+                },
+                "4-6": {
+                    "name": "Random Gear"
+                },
+                "5-6": {
+                    "name": "Random Gear"
+                },
+                "6-6": {
+                    "name": "Random Gear"
+                }
+            }
         },
         "Roll Random Character": {
             "description": "<p>- Pick one Weapon (See Weapons compendium) - Pick Leather Armor if you can wear it (See Armor compendium)</p>",
-            "name": "Roll Random Character"
+            "name": "Roll Random Character",
+            "results": {
+                "1-1": {
+                    "name": "Random Alignment"
+                },
+                "bTx7SDbteDwOT0wj": {
+                    "name": "Random Gear Rolls"
+                },
+                "EJSTyXp75GftHgdd": {
+                    "name": "Random Ancestry"
+                },
+                "fWby9eYWxd1XneDg": {
+                    "name": "Random Class"
+                }
+            }
         },
         "Ruin Encounters": {
-            "name": "Ruin Encounters"
+            "name": "Ruin Encounters",
+            "results": {
+                "1-1": {
+                    "description": "A mutated @UUID[Compendium.shadowdark.monsters.nhKDBbnOnXXTzfBr]{Cave Brute} explodes through a crumbling wall"
+                },
+                "2-3": {
+                    "description": "A silent @UUID[Compendium.shadowdark.monsters.udRspLiTyURGmLav]{Gelatinous Cube} sweeps up a corridor"
+                },
+                "4-5": {
+                    "description": "A roving @UUID[Compendium.shadowdark.monsters.RG84tprafQTDEFCa]{Brown Bear} scavenges for dead bodies to eat"
+                },
+                "6-7": {
+                    "description": "Rival crawlers confront the PCs; they were \"here first\""
+                },
+                "8-9": {
+                    "description": "[[/r 1d6]] @UUID[Compendium.shadowdark.monsters.qISCrzLvHr4uQ9Q8]{Rust Monsters} swarm a crack bubbling with mercury"
+                },
+                "10-11": {
+                    "description": "A legless suit of @UUID[Compendium.shadowdark.monsters.qSeHWgP59WltutCz]{Animated Armor} pulls itself along the floor"
+                },
+                "12-13": {
+                    "description": "A groaning wall collapses at the slightest touch"
+                },
+                "14-15": {
+                    "description": "A chalk note on the wall: \"Karov, we'll be at the Loyal Hog\""
+                },
+                "16-17": {
+                    "description": "Mort the goblin is digging in cracks for grubs and beetles"
+                },
+                "18-19": {
+                    "description": "The floor collapses into a pit [[/r 1d6*10]] feet deep"
+                },
+                "20-21": {
+                    "description": "A raiding team of [[/r 2d4]] @UUID[Compendium.shadowdark.monsters.uqHIz56KiBwTnbTJ]{Hobgoblins} moves in tight formation"
+                },
+                "22-23": {
+                    "description": "[[/r 2d4]] web-covered @UUID[Compendium.shadowdark.monsters.cWzG0yEVgIk8ijk6]{Skeletons} form from scattered bones"
+                },
+                "24-25": {
+                    "description": "[[/r 1d4]] @UUID[Compendium.shadowdark.monsters.99s2guSyYKPWp1oy]{Giant Dung Beetles} roll huge balls of dried excrement"
+                },
+                "26-27": {
+                    "description": "An @UUID[Compendium.shadowdark.monsters.QErMaMVIbddgk9MX]{Ochre Jelly} hides inside a pond or sinkhole"
+                },
+                "28-29": {
+                    "description": "A single, perfect rose grows up between the flagstones"
+                },
+                "30-31": {
+                    "description": "[[/r 2d4]] @UUID[Compendium.shadowdark.monsters.AMSI3MCLvpcZpJPO]{Bandits} shutter lanterns and set up a hasty ambush"
+                },
+                "32-33": {
+                    "description": "Three @UUID[Compendium.shadowdark.monsters.I7CMFbyFmFHVwE5U]{Goblins} toughen each other's skulls with frying pans"
+                },
+                "34-35": {
+                    "description": "[[/r 2d6]] @UUID[Compendium.shadowdark.monsters.k8tAgECWIzPIStGU]{Beastmen} pummel a giant centipede with rocks"
+                },
+                "36-37": {
+                    "description": "A gas leak causes all light sources to explode and go out"
+                },
+                "38-39": {
+                    "description": "A @UUID[Compendium.shadowdark.monsters.udRspLiTyURGmLav]{Gelatinous Cube} full of handy items is stuck inside a pit"
+                },
+                "40-41": {
+                    "description": "A swarm of clattering, @UUID[Compendium.shadowdark.monsters.U9moCUg8DnL6C0Sq]{Gold Scarab Beetles} flies into sight"
+                },
+                "42-43": {
+                    "description": "A wounded NPC staggers up to the PCs and begs for help"
+                },
+                "44-45": {
+                    "description": "A rusty portcullis slams down, separating the PCs"
+                },
+                "46-47": {
+                    "description": "A @UUID[Compendium.shadowdark.monsters.p9PayU4K9nBZ8JRl]{Giant Spider} hides above an old, rotten backpack"
+                },
+                "48-49": {
+                    "description": "A weeping @UUID[Compendium.shadowdark.monsters.LV2ZWlK1qUQz5J4K]{Ghost} floats by, distracted by its own ranting"
+                },
+                "50-53": {
+                    "description": "[[/r 2d4]] @UUID[Compendium.shadowdark.monsters.BxilUr9Ac6zgekYU]{Kobolds} sneak up behind the PCs for a surprise attack"
+                },
+                "54-55": {
+                    "description": "Ancient clay pots vibrate with hypnotizing resonance"
+                },
+                "56-57": {
+                    "description": "[[/r 1d6]] @UUID[Compendium.shadowdark.monsters.Jn5JjEPCUT86txAg]{Gricks} shred dead giant rats and use the fur for nesting"
+                },
+                "58-59": {
+                    "description": "Rival crawlers escort a frail noble tourist on an \"adventure\""
+                },
+                "60-61": {
+                    "description": "[[/r 3d4]] @UUID[Compendium.shadowdark.monsters.I7CMFbyFmFHVwE5U]{Goblin} scavengers barter and trade for odd trinkets"
+                },
+                "62-63": {
+                    "description": "[[/r 2d4]] dwarven miners (@UUID[Compendium.shadowdark.monsters.Kw5KEyZVy5ugaTTy]{Soldiers}) shore up a collapsing wall"
+                },
+                "64-65": {
+                    "description": "[[/r 2d4]] @UUID[Compendium.shadowdark.monsters.K9M3BA8PlvYWFADe]{Giant Wasps} build a huge, papery nest on the ceiling"
+                },
+                "66-67": {
+                    "description": "A dense cloud of sulfuric mist rises from a floor crack"
+                },
+                "68-69": {
+                    "description": "A @UUID[Compendium.shadowdark.monsters.rwE58nsTLAG7pW1u]{Swarm of Spiders} surges out of a gauzy egg sack"
+                },
+                "70-71": {
+                    "description": "An @UUID[Compendium.shadowdark.monsters.VrYTiPjDOH1LIEBr]{Ogre} named Lud scratches rude words into the wall"
+                },
+                "72-73": {
+                    "description": "[[/r 1d6]] @UUID[Compendium.shadowdark.monsters.I7CMFbyFmFHVwE5U]{Goblins} brawl with [[/r 2d4]] @UUID[Compendium.shadowdark.monsters.BxilUr9Ac6zgekYU]{Kobolds} over a @UUID[Compendium.shadowdark.monsters.Jn5JjEPCUT86txAg]{Grick} carcass"
+                },
+                "74-75": {
+                    "description": "[[/r 2d4]]@UUID[Compendium.shadowdark.monsters.EJ94w4A9mb9ETSGA]{Giant Bats} roost on the ceiling; light disturbs them"
+                },
+                "76-77": {
+                    "description": "An @UUID[Compendium.shadowdark.monsters.fcgq7uwsJEMMdRNx]{Ettercap} spins web cocoons around its still-living prey"
+                },
+                "78-79": {
+                    "description": "[[/r 1d6]] @UUID[Compendium.shadowdark.monsters.CpHttsoemSoZRiDe]{Cultists} hunt for humanoid bones for a nefarious ritual"
+                },
+                "80-81": {
+                    "description": "A @UUID[Compendium.shadowdark.monsters.vXaqgfDykZPdXnIm]{Dryad} searches for her tree that bugbears chopped up"
+                },
+                "82-83": {
+                    "description": "A @UUID[Compendium.shadowdark.monsters.WMw4J1wECaLGf3Am]{Deep Gnome} plays haunting music on humming fungi"
+                },
+                "84-85": {
+                    "description": "[[/r 2d6]] @UUID[Compendium.shadowdark.monsters.BxilUr9Ac6zgekYU]{Kobolds} work in a makeshift, volatile alchemy lab"
+                },
+                "86-87": {
+                    "description": "A @UUID[Compendium.shadowdark.monsters.zLDg6vIYEj4wB0lQ]{Stone Golem} endlessly stacks the same rocks into piles"
+                },
+                "88-89": {
+                    "description": "Two @UUID[Compendium.shadowdark.monsters.0JAEN5FsKjaXXZaA]{Darkmantles} circle each other in a duel of intimidation"
+                },
+                "90-91": {
+                    "description": "[[/r 2d6]] @UUID[Compendium.shadowdark.monsters.I7CMFbyFmFHVwE5U]{Goblins} carry their bugbear king on a rickety litter"
+                },
+                "92-93": {
+                    "description": "[[/r 2d4]] @UUID[Compendium.shadowdark.monsters.j7sQ6Km2jSx5twCC]{Cave Creepers} swarm up the hallway"
+                },
+                "94-95": {
+                    "description": "A recent campfire still burns with glowing cinders"
+                },
+                "96-97": {
+                    "description": "A @UUID[Compendium.shadowdark.monsters.c3Nvj86e0Layz3NG]{Minotaur} guides a mysterious merchant along a path"
+                },
+                "98-99": {
+                    "description": "Roll two encounters and combine the results (reroll 98-99)"
+                },
+                "100-100": {
+                    "description": "The body of a dead crawler holds a random magic item"
+                },
+                "bzOTVXRwSmc4TBit": {
+                    "name": "Ruin Encounters"
+                }
+            }
         },
         "Rumors": {
-            "name": "Rumors"
+            "name": "Rumors",
+            "results": {
+                "1-1": {
+                    "description": "An armored beast the size of a ship is rampaging nearby"
+                },
+                "2-3": {
+                    "description": "A team of assassins is on its way to kill your group"
+                },
+                "4-5": {
+                    "description": "The local ruler has placed a 2,000 gp bounty on your heads"
+                },
+                "6-7": {
+                    "description": "The cult of Shune is planning a fiery coup at midnight"
+                },
+                "8-9": {
+                    "description": "An ancient, stone door has been found in the castle cellar"
+                },
+                "10-11": {
+                    "description": "Lizardfolk have been raiding caravans near the swamp"
+                },
+                "12-13": {
+                    "description": "Armored skeletons are roaming the misty graveyard"
+                },
+                "14-15": {
+                    "description": "An earthquake uncovered a ruin inside a deep rift"
+                },
+                "16-17": {
+                    "description": "A warband of orcs has taken over an abandoned keep"
+                },
+                "18-19": {
+                    "description": "There is a hall of golden statues underneath the well"
+                },
+                "20-21": {
+                    "description": "Those who survive the Trial of the Lotus gain a strange gift"
+                },
+                "22-23": {
+                    "description": "A Captain of the Guard has been taken hostage by thugs"
+                },
+                "24-25": {
+                    "description": "The Crystal Caves are home to a cult of psychic sorcerers"
+                },
+                "26-27": {
+                    "description": "A crocodile dragged a richly-laden mule into the sewers"
+                },
+                "28-29": {
+                    "description": "A fortune-telling witch speaks true omens and portents"
+                },
+                "30-31": {
+                    "description": "Every full moon, the Prancing Unicorn's larder is robbed"
+                },
+                "32-33": {
+                    "description": "A famous group of crawlers hasn't returned from a delve"
+                },
+                "34-35": {
+                    "description": "A glowing meteor crashed deep inside the marshlands"
+                },
+                "36-37": {
+                    "description": "Fire will not light or burn within sight of the Lion Fountain"
+                },
+                "38-39": {
+                    "description": "The lost <i>Jewel of Barbalt</i> is hidden in the Howling Caves"
+                },
+                "40-41": {
+                    "description": "A dwarven mining team has uncovered a tentacled statue"
+                },
+                "42-43": {
+                    "description": "The Red Owl tavern has a trapdoor to the Shadowdark"
+                },
+                "44-45": {
+                    "description": "Viperian warriors guard a shrine to a medusa in the jungle"
+                },
+                "46-47": {
+                    "description": "Three thieves just pulled off a gemstone heist nearby"
+                },
+                "48-49": {
+                    "description": "Harpies keep watch from the cliffs around Diridia's Tomb"
+                },
+                "50-53": {
+                    "description": "A gorgon stalks the ruins of the Underhill Halls"
+                },
+                "54-55": {
+                    "description": "Beneath the Red Abbey is the forgotten Barrow of Ur-Din"
+                },
+                "56-57": {
+                    "description": "A dying sage is calling for a mighty group of heroes"
+                },
+                "58-59": {
+                    "description": "A wizard accidentally let his trio of cockatrices escape"
+                },
+                "60-61": {
+                    "description": "A local lord has somehow been stranded atop a high roof"
+                },
+                "62-63": {
+                    "description": "Bartomeu the Pirate Prince will be hanged at noon"
+                },
+                "64-65": {
+                    "description": "Goblin spelunkers found an underground cathedral"
+                },
+                "66-67": {
+                    "description": "A <i>Kytherian Cog</i> was lost in the sea near Myrkhos"
+                },
+                "68-69": {
+                    "description": "Rare and valuable mushrooms grow inside an old crypt"
+                },
+                "70-71": {
+                    "description": "The Church of St. Terragnis will pay for the return of a relic"
+                },
+                "72-73": {
+                    "description": "A volcanic eruption revealed tunnels in the caldera's walls"
+                },
+                "74-75": {
+                    "description": "The cyclopean ruins of Tal-Yool lie deep within the forest"
+                },
+                "76-77": {
+                    "description": "A famous gambler will bet a ruby on a Wizard Thief game"
+                },
+                "78-79": {
+                    "description": "The Moon Druids will bless a sword used to slay a werewolf"
+                },
+                "80-81": {
+                    "description": "Gravediggers found a chained coffin in an unmarked plot"
+                },
+                "82-83": {
+                    "description": "An abandoned wizard's tower is full of clockwork creatures"
+                },
+                "84-85": {
+                    "description": "The Thieves' Guild is about to attack a rival merchant lord"
+                },
+                "86-87": {
+                    "description": "Windstorms uncovered a stone monolith in the desert"
+                },
+                "88-89": {
+                    "description": "A rival group of crawlers found the map to Jiraal's Hoard"
+                },
+                "90-91": {
+                    "description": "A monstrosity called The Oracle lurks below the university"
+                },
+                "92-93": {
+                    "description": "The <i>Ophidian Armor</i> is in Ekmara's Keep in the wasteland"
+                },
+                "94-95": {
+                    "description": "The princess has been kidnapped by a group of sorcerers"
+                },
+                "96-97": {
+                    "description": "A Chaos Knight's tomb has been found beneath a temple"
+                },
+                "98-99": {
+                    "description": "The fabled Library of Gehemna appeared outside the city"
+                },
+                "100-100": {
+                    "description": "The dragon Ixamir has awoken from her 200-year slumber"
+                }
+            }
         },
         "Something Happens!": {
-            "name": "Something Happens!"
+            "name": "Something Happens!",
+            "results": {
+                "1-1": {
+                    "description": "The ground shakes violently and a massive fissure opens"
+                },
+                "2-3": {
+                    "description": "An unseen foe leaps out of hiding at close range"
+                },
+                "4-5": {
+                    "description": "A horrible buzzing fills the air, growing louder and louder"
+                },
+                "6-7": {
+                    "description": "You catch the acrid smell of smoke and flame"
+                },
+                "8-9": {
+                    "description": "A bright star appears in the sky, visible even at midday"
+                },
+                "10-11": {
+                    "description": "You spot a half-open bag with gold coins glinting inside"
+                },
+                "12-13": {
+                    "description": "A man slips a note and an odd potion into your hand"
+                },
+                "14-15": {
+                    "description": "Someone observing you from afar steps out of sight"
+                },
+                "16-17": {
+                    "description": "A dwarf in a red hat hands you a rose, bows, and leaves"
+                },
+                "18-19": {
+                    "description": "A cowled stranger in a black cloak approaches you"
+                },
+                "20-21": {
+                    "description": "Someone tries to pick your pocket"
+                },
+                "22-23": {
+                    "description": "A strange ticking sound comes from inside your bag"
+                },
+                "24-25": {
+                    "description": "A frothing, frantic horse with a saddle but no rider appears"
+                },
+                "26-27": {
+                    "description": "A mound in the earth quickly burrows toward you"
+                },
+                "28-29": {
+                    "description": "You sense you are being magically scryed upon"
+                },
+                "30-31": {
+                    "description": "Someone tries to plant an object on your person"
+                },
+                "32-33": {
+                    "description": "You are filled with a strong sense of dread and danger"
+                },
+                "34-35": {
+                    "description": "A woman hands you a black cat and then runs away"
+                },
+                "36-37": {
+                    "description": "A small, woodland creature jumps out of a backpack"
+                },
+                "38-39": {
+                    "description": "You smell lilacs and hear faint, ghostly laughter"
+                },
+                "40-41": {
+                    "description": "A note wrapped around a thin dagger lands next to you"
+                },
+                "42-43": {
+                    "description": "A green-glowing meteor streaks through the sky"
+                },
+                "44-45": {
+                    "description": "Someone nearby is staring at you and mouthing words"
+                },
+                "46-47": {
+                    "description": "A pair of yellow eyes watches you from the darkness"
+                },
+                "48-49": {
+                    "description": "An orc with an arrow in her back crashes through a door"
+                },
+                "50-53": {
+                    "description": "You hear a beast cry out in pain just up ahead"
+                },
+                "54-55": {
+                    "description": "A huge swarm of bats crashes over you and swirls away"
+                },
+                "56-57": {
+                    "description": "A frail beggar whispers that he has a secret to tell you"
+                },
+                "58-59": {
+                    "description": "An object falls from above and barely misses your head"
+                },
+                "60-61": {
+                    "description": "A seagull lands on your head and coughs up an odd bottle"
+                },
+                "62-63": {
+                    "description": "The smell of ozone rises and electricity crackles in the air"
+                },
+                "64-65": {
+                    "description": "You spot a trail of tiny silver coins leading around a bend"
+                },
+                "66-67": {
+                    "description": "A wild-eyed man approaches with a holy book held high"
+                },
+                "68-69": {
+                    "description": "Every light source suddenly extinguishes"
+                },
+                "70-71": {
+                    "description": "A stampede of wild animals bursts into view"
+                },
+                "72-73": {
+                    "description": "An old woman points at you and yells, \"There they are!\""
+                },
+                "74-75": {
+                    "description": "A passing stranger presses an ancient coin into your hand"
+                },
+                "76-77": {
+                    "description": "A chorus of howls echo in the distance"
+                },
+                "78-79": {
+                    "description": "Two pinching and slapping goblins tumble into sight"
+                },
+                "80-81": {
+                    "description": "You realize you are not alone; something is behind you"
+                },
+                "82-83": {
+                    "description": "The sudden sound of rushing water crashes toward you"
+                },
+                "84-85": {
+                    "description": "You hear an ear-splitting scream that nobody else hears"
+                },
+                "86-87": {
+                    "description": "A man slaps you with a glove and throws it at your feet"
+                },
+                "88-89": {
+                    "description": "A violent, windy storm kicks up without warning"
+                },
+                "90-91": {
+                    "description": "Lightning strikes close and leaves a glowing object behind"
+                },
+                "92-93": {
+                    "description": "A multicolored orb drifts up to you and then zips away"
+                },
+                "94-95": {
+                    "description": "A runaway wagon crashes toward you"
+                },
+                "96-97": {
+                    "description": "An NPC throws off their disguise, revealing an enemy"
+                },
+                "98-99": {
+                    "description": "A demon appears to you and presents a tempting offer"
+                },
+                "100-100": {
+                    "description": "A radiant being appears to you with a message of warning"
+                }
+            }
         },
         "Starting Gear (Level 0)": {
-            "name": "Starting Gear (Level 0)"
+            "name": "Starting Gear (Level 0)",
+            "results": {
+                "1-1": {
+                    "name": "Torch"
+                },
+                "2-2": {
+                    "name": "Dagger"
+                },
+                "3-3": {
+                    "name": "Pole"
+                },
+                "4-4": {
+                    "name": "Shortbow"
+                },
+                "5-5": {
+                    "name": "Rope, 60'"
+                },
+                "6-6": {
+                    "name": "Oil, Flask"
+                },
+                "7-7": {
+                    "name": "Crowbar"
+                },
+                "8-8": {
+                    "name": "Iron Spikes"
+                },
+                "9-9": {
+                    "name": "Flint and Steel"
+                },
+                "10-10": {
+                    "name": "Grappling Hook"
+                },
+                "11-11": {
+                    "name": "Club"
+                },
+                "12-12": {
+                    "name": "Caltrops"
+                },
+                "LAZiIX2IRAjnNrlc": {
+                    "name": "Arrows"
+                }
+            }
         },
         "Starting Gear (Level 0) Rolls": {
-            "name": "Starting Gear (Level 0) Rolls"
+            "name": "Starting Gear (Level 0) Rolls",
+            "results": {
+                "1-4": {
+                    "name": "Starting Gear (Level 0)"
+                },
+                "2-4": {
+                    "name": "Starting Gear (Level 0)"
+                },
+                "3-4": {
+                    "name": "Starting Gear (Level 0)"
+                },
+                "4-4": {
+                    "name": "Starting Gear (Level 0)"
+                }
+            }
         },
         "Trap: Damage or Effect": {
-            "name": "Trap: Damage or Effect"
+            "name": "Trap: Damage or Effect",
+            "results": {
+                "1-1": {
+                    "description": "[[/r 1d6]]"
+                },
+                "2-2": {
+                    "description": "[[/r 1d6]] / @UUID[Compendium.shadowdark.spell-effects.FrFilluk4S5VaWut]{Sleep}"
+                },
+                "3-3": {
+                    "description": "[[/r 1d6]] / @UUID[Compendium.shadowdark.spell-effects.SN9lU9LUViWo1Plm]{Paralyze}"
+                },
+                "4-4": {
+                    "description": "[[/r 1d6]] / @UUID[Compendium.shadowdark.spell-effects.SOkcvkzrGMGQKhmk]{Blind}"
+                },
+                "5-5": {
+                    "description": "[[/r 2d8]]"
+                },
+                "6-6": {
+                    "description": "[[/r 2d8]] / @UUID[Compendium.shadowdark.spell-effects.FrFilluk4S5VaWut]{Sleep}"
+                },
+                "7-7": {
+                    "description": "[[/r 2d8]] / @UUID[Compendium.shadowdark.spell-effects.SN9lU9LUViWo1Plm]{Paralyze}"
+                },
+                "8-8": {
+                    "description": "[[/r 2d8]] / confuse"
+                },
+                "9-9": {
+                    "description": "[[/r 3d10]]"
+                },
+                "10-10": {
+                    "description": "[[/r 3d10]] / @UUID[Compendium.shadowdark.spell-effects.SN9lU9LUViWo1Plm]{Paralyze}"
+                },
+                "11-11": {
+                    "description": "[[/r 3d10]] / unconscious"
+                },
+                "12-12": {
+                    "description": "[[/r 3d10]] / petrify"
+                }
+            }
         },
         "Trap: Trap": {
-            "name": "Trap: Trap"
+            "name": "Trap: Trap",
+            "results": {
+                "1-1": {
+                    "description": "Crossbow"
+                },
+                "2-2": {
+                    "description": "Hail of needles"
+                },
+                "3-3": {
+                    "description": "Toxic gas"
+                },
+                "4-4": {
+                    "description": "Barbed net"
+                },
+                "5-5": {
+                    "description": "Rolling boulder"
+                },
+                "6-6": {
+                    "description": "Slicing blade"
+                },
+                "7-7": {
+                    "description": "Spiked pit"
+                },
+                "8-8": {
+                    "description": "Javelin"
+                },
+                "9-9": {
+                    "description": "Magical glyph"
+                },
+                "10-10": {
+                    "description": "Blast of fire"
+                },
+                "11-11": {
+                    "description": "Falling block"
+                },
+                "12-12": {
+                    "description": "Cursed statue"
+                }
+            }
         },
         "Trap: Trigger": {
-            "name": "Trap: Trigger"
+            "name": "Trap: Trigger",
+            "results": {
+                "1-1": {
+                    "description": "a Tripwire"
+                },
+                "2-2": {
+                    "description": "a Pressure plate"
+                },
+                "3-3": {
+                    "description": "Opening a door"
+                },
+                "4-4": {
+                    "description": "Switch or button"
+                },
+                "5-5": {
+                    "description": "a False step on stairs"
+                },
+                "6-6": {
+                    "description": "Closing a door"
+                },
+                "7-7": {
+                    "description": "Breaking a light beam"
+                },
+                "8-8": {
+                    "description": "Pulling a lever"
+                },
+                "9-9": {
+                    "description": "A word is spoken"
+                },
+                "10-10": {
+                    "description": "a Hook on a thread"
+                },
+                "11-11": {
+                    "description": "Removing an object"
+                },
+                "12-12": {
+                    "description": "Casting a spell"
+                }
+            }
         },
         "Treasure 0-3": {
-            "name": "Treasure 0-3"
+            "name": "Treasure 0-3",
+            "results": {
+                "1-1": {
+                    "description": "Bent, tin fork (1 cp)"
+                },
+                "2-3": {
+                    "description": "Muddy torch (2 cp)"
+                },
+                "4-5": {
+                    "description": "Bag of smooth pebbles (2 cp)"
+                },
+                "6-7": {
+                    "description": "10 cp in a greasy pouch"
+                },
+                "8-9": {
+                    "description": "Rusty lantern with shattered glass (1 gp)"
+                },
+                "10-11": {
+                    "description": "Silver tooth (1 gp)"
+                },
+                "12-13": {
+                    "description": "Dull dagger (1 gp)"
+                },
+                "14-15": {
+                    "description": "Two empty, glass vials (6 gp)"
+                },
+                "16-17": {
+                    "description": "60 sp in a rotten boot"
+                },
+                "18-19": {
+                    "description": "Cracked, handheld mirror (8 gp)"
+                },
+                "20-21": {
+                    "description": "Chipped greataxe (9 gp)"
+                },
+                "22-23": {
+                    "description": "10 gp in a moldy, wood box"
+                },
+                "24-25": {
+                    "description": "Chip of an emerald (10 gp)"
+                },
+                "26-27": {
+                    "description": "Longbow and bundle of 40 arrows (10 gp)"
+                },
+                "28-29": {
+                    "description": "Dusty, leather armor dyed black (10 gp)"
+                },
+                "30-31": {
+                    "description": "Scuffed, heavy shield (10 gp)"
+                },
+                "32-33": {
+                    "description": "Simple, well-made bastard sword (10 gp)"
+                },
+                "34-35": {
+                    "description": "12 gp in the pocket of a ripped cloak"
+                },
+                "36-37": {
+                    "description": "Wavy-bladed greatsword (12 gp)"
+                },
+                "38-39": {
+                    "description": "Pair of elf-forged shortswords (14 gp)"
+                },
+                "40-41": {
+                    "description": "Golden bowl (15 gp)"
+                },
+                "42-43": {
+                    "description": "Obsidian statuette of Shune the Vile (15 gp)"
+                },
+                "44-45": {
+                    "description": "Undersized pearl (20 gp)"
+                },
+                "46-47": {
+                    "description": "Jade-and-gold scarab pin (20 gp)"
+                },
+                "48-49": {
+                    "description": "Bag of 10 silver spikes (2 gp each)"
+                },
+                "50-53": {
+                    "description": "Mithral locket with a painting of a halfling (20 gp)"
+                },
+                "54-55": {
+                    "description": "Two finely forged dwarven shields (20 gp)"
+                },
+                "56-57": {
+                    "description": "Pair of silvered daggers (10 gp each)"
+                },
+                "58-59": {
+                    "description": "Copper-and-gold mead tankard (20 gp)"
+                },
+                "60-61": {
+                    "description": "Bundle of five red dragon scales (5 gp each)"
+                },
+                "62-63": {
+                    "description": "Light, warm cloak woven of spidersilk (25 gp)"
+                },
+                "64-65": {
+                    "description": "Fine set of ivory game pieces (25 gp)"
+                },
+                "66-67": {
+                    "description": "Half-finished suit of chainmail (30 gp)"
+                },
+                "68-69": {
+                    "description": "Matched trio of warhammers (10 gp each)"
+                },
+                "70-71": {
+                    "description": "Fragment of a sapphire (30 gp)"
+                },
+                "72-73": {
+                    "description": "Set of silk slippers and a robe (35 gp)"
+                },
+                "74-75": {
+                    "description": "Silver-and-gold circlet (40 gp)"
+                },
+                "76-77": {
+                    "description": "Radiant, polished pearl (40 gp)"
+                },
+                "78-79": {
+                    "description": "Mithral shield etched with soaring dragons (40 gp)"
+                },
+                "80-81": {
+                    "description": "Gold monkey idol with a ruby gripped in its teeth (60 gp)"
+                },
+                "82-83": {
+                    "description": "Fine suit of chainmail (60 gp)"
+                },
+                "84-85": {
+                    "description": "Cracked emerald (60 gp)"
+                },
+                "86-87": {
+                    "description": "Two lustrous pearls (40 gp each)"
+                },
+                "88-89": {
+                    "description": "1st-tier spell scroll (80 gp)"
+                },
+                "90-91": {
+                    "name": "Potion of Invisibility"
+                },
+                "92-93": {
+                    "description": "Magic wand, 2nd-tier spell (100 gp)"
+                },
+                "94-95": {
+                    "description": "Egg of The Cockatrice (100 gp)"
+                },
+                "94ieXNNg3I6n8KwY": {
+                    "name": "Bag of Holding"
+                },
+                "96-97": {
+                    "description": "+1 armor (benefit, curse) (150 gp)"
+                },
+                "98-99": {
+                    "description": "Bag of Holding (virtue, flaw) (150 gp)"
+                },
+                "100-100": {
+                    "description": "+1 magic weapon (benefit) (200 gp)"
+                }
+            }
         },
         "Wizard Mishap Tier 1-2": {
-            "name": "Wizard Mishap Tier 1-2"
+            "name": "Wizard Mishap Tier 1-2",
+            "results": {
+                "1-1": {
+                    "description": "<b>Devastation!</b> Roll twice and combine both effects (reroll any further 1s)."
+                },
+                "2-2": {
+                    "description": "<b>Explosion!</b> You take [[/r 1d8]] damage"
+                },
+                "3-3": {
+                    "description": "<b>Refraction!</b> You target yourself with the spell"
+                },
+                "4-4": {
+                    "description": "<b>Your hand slipped!</b> You target a random ally with the spell"
+                },
+                "5-5": {
+                    "description": "<b>Mind wound!</b> You can't cast this spell again for a week"
+                },
+                "6-6": {
+                    "description": "<b>Discorporation!</b> One random piece of your gear disappears forever"
+                },
+                "7-7": {
+                    "description": "<b>Spell worm!</b> You lose the ability to cast a random spell on each of your turns until you pass a [[check 12 con]] check. You regain the ability to cast those spells after completing a rest"
+                },
+                "8-8": {
+                    "description": "<b>Harmonic failure!</b> You lose the ability to cast a random spell until you complete a rest"
+                },
+                "9-9": {
+                    "description": "<b>Poof!</b> You suppress all light within a near distance from you, including sunlight and magical light, for 10 rounds"
+                },
+                "10-10": {
+                    "description": "<b>The horror!</b> You scream uncontrollably for 3 rounds in Primordial, drawing lots of attention"
+                },
+                "11-11": {
+                    "description": "<b>Energy surge!</b> You glow bright purple for 10 rounds, granting enemies advantage on attacks against you"
+                },
+                "12-12": {
+                    "description": "<b>Unstable conduit!</b> You have disadvantage on casting spells of the same tier for 10 rounds"
+                },
+                "nJ0VC8CPWGRjVnGf": {
+                    "name": "Wizard Mishap Tier 1-2"
+                },
+                "y1lafduW3hINmggm": {
+                    "name": "Wizard Mishap Tier 1-2"
+                }
+            }
         },
         "Wizard Mishap Tier 3-4": {
-            "name": "Wizard Mishap Tier 3-4"
+            "name": "Wizard Mishap Tier 3-4",
+            "results": {
+                "1-1": {
+                    "description": "<b>Devastation!</b> Roll twice and combine both effects (Ignore if rolled more than once more)."
+                },
+                "2-2": {
+                    "description": "<b>Blast radius!</b> You and all near creatures take [[/r 2d6]] damage"
+                },
+                "3-3": {
+                    "description": "<b>Duplicate refraction!</b> You target yourself and the nearest ally with two identical copies of the spell"
+                },
+                "4-4": {
+                    "description": "<b>You flubbed the incantation!</b> You cast a random spell from your known spells at the same targets, even if it would not normally be possible"
+                },
+                "5-5": {
+                    "description": "<b>Ethereal bandersnatch!</b> Two random pieces of your gear disappear forever"
+                },
+                "6-6": {
+                    "description": "<b>Arcano-mutagenesis!</b> You must pass a [[check 12 con]] check or a random stat drops to 3 (-4) until you successfully complete a rest"
+                },
+                "7-7": {
+                    "description": "<b>Boom!</b> You open a 30-foot deep sinkhole in the ground with you at the center. You and all near creatures must pass a [[check 15 dex]] check or fall in"
+                },
+                "8-8": {
+                    "description": "<b>Petrification!</b> [[/r 1d4]] of your limbs petrify for the next 24 hours"
+                },
+                "9-9": {
+                    "description": "<b>Stupefaction!</b> You lose the ability to cast all spells of the same tier until you complete a rest"
+                },
+                "10-10": {
+                    "description": "<b>It cannot be unseen!</b> You must pass a [[check 12 wis]] check or descend into mad raving for [[/r 1d10]] rounds"
+                },
+                "11-11": {
+                    "description": "<b>Radioactive energies!</b>You whirl with repulsive energies, drawing the hostility and attacks of all enemies who can see you for the next [[/r 1d4]] rounds"
+                },
+                "12-12": {
+                    "description": "<b>Uncontained channeling!</b> You have disadvantage on casting spells of the same tier and lower for 10 rounds"
+                },
+                "uOhW3dzdLm2mgFYA": {
+                    "name": "Wizard Mishap Tier 3-4"
+                },
+                "y1lafduW3hINmggm": {
+                    "name": "Wizard Mishap Tier 3-4"
+                }
+            }
         },
         "Wizard Mishap Tier 5": {
-            "name": "Wizard Mishap Tier 5"
+            "name": "Wizard Mishap Tier 5",
+            "results": {
+                "1-1": {
+                    "description": "<b>Devastation!</b> Roll twice and combine both effects (reroll any further 1s)."
+                },
+                "2-2": {
+                    "description": "<b>Pyroclastic extrusion!</b> You deal [[/r 3d8]] damage to yourself and all creatures within near"
+                },
+                "3-3": {
+                    "description": "<b>Astral incision!</b> An otherworldly blade cuts into your memory. You permanently forget one random spell"
+                },
+                "4-4": {
+                    "description": "<b>The grimlow!</b> You accidentally summon a hostile grimlow in a space near to you. It persists for 2d4 rounds before disappearing whence it came"
+                },
+                "5-5": {
+                    "description": "<b>Dark plasma aura!</b> Attacks against you pass through a vile aura, dealing double damage for the next [[/r 2d6]] rounds"
+                },
+                "6-6": {
+                    "description": "<b>Gate!</b> You open a magic portal to another location, whether on this plane or another. Something dreadful will come through in [[/r 1d4]] rounds unless you close it with a [[check 18 int]] check on your turn"
+                },
+                "7-7": {
+                    "description": "<b>Runaway arcana loop!</b> Your spell targets a random creature you can see, even if it would not normally be possible. Each subsequent turn, you must pass a spellcasting check for that spell or you cast it on another random creature in the same way (effect ends on success)"
+                },
+                "8-8": {
+                    "description": "<b>Arcane obstruction!</b> You lose the ability to cast all spells of a random tier until you complete a rest"
+                },
+                "9-9": {
+                    "description": "<b>What lurks beyond the veil!</b> You must pass a [[check 15 wis]] check or fall into mad raving for [[/r 1d4]] hours"
+                },
+                "10-10": {
+                    "description": "<b>Ord's balance!</b> You must either permanently sacrifice a magic item or the ability to cast a tier 3+ spell you know"
+                },
+                "11-11": {
+                    "description": "<b>Unmitigated chain reaction!</b> You have disadvantage on casting all spells for the next 10 rounds"
+                },
+                "12-12": {
+                    "description": "<b>Shred!</b> You tear a large hole in the fabric of the universe close to you; the lightless tear grows larger every round"
+                },
+                "nJ0VC8CPWGRjVnGf": {
+                    "name": "Wizard Mishap Tier 5"
+                },
+                "y1lafduW3hINmggm": {
+                    "name": "Wizard Mishap Tier 5"
+                }
+            }
         }
     },
     "folders": {

@@ -76,7 +76,28 @@
                 "name": "name",
                 "results": {
                     "path": "results",
-                    "converter": "tableResults"
+                    "converter": "document",
+                    "documentType": "TableResult",
+                    "cardinality": "many",
+                    "mapping": {
+                        "_identity": {
+                            "export": [
+                                "range",
+                                "_id"
+                            ],
+                            "match": [
+                                "_id",
+                                "range"
+                            ]
+                        },
+                        "name": {
+                            "path": "name",
+                            "converter": "referencedDocumentField",
+                            "uuidPath": "documentUuid",
+                            "referencedField": "name"
+                        },
+                        "description": "description"
+                    }
                 }
             }
         },
@@ -786,31 +807,277 @@
             },
             "tables": {
                 "The Lost Citadel: Ettercap Behaviors": {
-                    "name": "The Lost Citadel: Ettercap Behaviors"
+                    "name": "The Lost Citadel: Ettercap Behaviors",
+                    "results": {
+                        "1-1": {
+                            "description": "Preening / Being Haughty"
+                        },
+                        "2-2": {
+                            "description": "Twitching / Cowering"
+                        },
+                        "3-3": {
+                            "description": "Being Bossy / Being Skeptical"
+                        },
+                        "4-4": {
+                            "description": "Being Delicate / Being Squeamish"
+                        },
+                        "5-5": {
+                            "description": "Being Hasty / Being an Alarmist"
+                        },
+                        "6-6": {
+                            "description": "Being Distracted / Muttering"
+                        },
+                        "7-7": {
+                            "description": "Clicking claws / Hissing"
+                        },
+                        "8-8": {
+                            "description": "Being Nosy / Gossiping"
+                        },
+                        "9-9": {
+                            "description": "Being Critical / Being Sarcastic"
+                        },
+                        "10-10": {
+                            "description": "Being Rude / Being Surly"
+                        }
+                    }
                 },
                 "The Lost Citadel: Random Encounters": {
-                    "name": "The Lost Citadel: Random Encounters"
+                    "name": "The Lost Citadel: Random Encounters",
+                    "results": {
+                        "1-1": {
+                            "description": "<b>@UUID[Actor.XPNU79kJyse04pL3]{The Scarlet Minotaur}</b> (Area 18) stalks into sight, bellowing challenges and pawing the stone"
+                        },
+                        "2-2": {
+                            "description": "[[/r 1d4]] @UUID[Compendium.shadowdark.monsters.Actor.fcgq7uwsJEMMdRNx]{Ettercaps} and [[/r 1d8]] @UUID[Compendium.shadowdark.monsters.Actor.k8tAgECWIzPIStGU]{Beastmen} clash in a bloody melee"
+                        },
+                        "3-3": {
+                            "description": "A dry gust of wind extinguishes all torches and lamps"
+                        },
+                        "4-4": {
+                            "description": "[[/r 1d6]] @UUID[Compendium.shadowdark.monsters.Actor.fcgq7uwsJEMMdRNx]{Ettercaps} creep along, searching for gold and gems"
+                        },
+                        "5-5": {
+                            "description": "The @UUID[Compendium.shadowdark.monsters.Actor.cWzG0yEVgIk8ijk6]{Skeletons} of [[/r 1d6]] dead adventurers or warrior-mages stagger into sight"
+                        },
+                        "6-6": {
+                            "description": "[[/r 2d4]] @UUID[Compendium.shadowdark.monsters.Actor.k8tAgECWIzPIStGU]{Beastmen} argue in hushed whispers over who gets to eat the centipedes they just trapped in a bag"
+                        },
+                        "7-7": {
+                            "description": "[[/r 1d4]] @UUID[Compendium.shadowdark.monsters.Actor.0JAEN5FsKjaXXZaA]{Darkmantles} swoop out, bobbing and spinning in a territorial warning dance"
+                        },
+                        "8-8": {
+                            "description": "A @UUID[Compendium.shadowdark.monsters.Actor.j7sQ6Km2jSx5twCC]{Cave Creeper} rushes along the ceiling toward light"
+                        }
+                    }
                 },
                 "The Lost Citadel: Ettercap Appearances": {
-                    "name": "The Lost Citadel: Ettercap Appearances"
+                    "name": "The Lost Citadel: Ettercap Appearances",
+                    "results": {
+                        "1-1": {
+                            "description": "Groomed / Rotund"
+                        },
+                        "2-2": {
+                            "description": "Singed fur / Gangly"
+                        },
+                        "3-3": {
+                            "description": "Blue eyes / Spotted"
+                        },
+                        "4-4": {
+                            "description": "Pained / Hunched"
+                        },
+                        "5-5": {
+                            "description": "Springy / Withered"
+                        },
+                        "6-6": {
+                            "description": "Sickly / Molting"
+                        },
+                        "7-7": {
+                            "description": "Limb missing / Tall"
+                        },
+                        "8-8": {
+                            "description": "Scarred / Lumpish"
+                        },
+                        "9-9": {
+                            "description": "Filthy / Hulking"
+                        },
+                        "10-10": {
+                            "description": "Jewelry / Clothing wearing"
+                        }
+                    }
                 },
                 "The Lost Citadel: Beastmen Behaviors": {
-                    "name": "The Lost Citadel: Beastmen Behaviors"
+                    "name": "The Lost Citadel: Beastmen Behaviors",
+                    "results": {
+                        "1-1": {
+                            "description": "Glaring / Lurking"
+                        },
+                        "2-2": {
+                            "description": "Whispering / Burping"
+                        },
+                        "3-3": {
+                            "description": "Scratching / Snorting"
+                        },
+                        "4-4": {
+                            "description": "Nose-picking / Growling"
+                        },
+                        "5-5": {
+                            "description": "Creeping / Rushing"
+                        },
+                        "6-6": {
+                            "description": "Yawning / Drooling"
+                        },
+                        "7-7": {
+                            "description": "Limping / Sulking"
+                        },
+                        "8-8": {
+                            "description": "Paing / Nail-chewing"
+                        },
+                        "9-9": {
+                            "description": "Being Polite / Complaining"
+                        },
+                        "10-10": {
+                            "description": "Cursing / Being Silent"
+                        }
+                    }
                 },
                 "The Lost Citadel: Beastmen Names": {
-                    "name": "The Lost Citadel: Beastmen Names"
+                    "name": "The Lost Citadel: Beastmen Names",
+                    "results": {
+                        "1-1": {
+                            "description": "Rat / Gobbo"
+                        },
+                        "2-2": {
+                            "description": "Barto / Hule"
+                        },
+                        "3-3": {
+                            "description": "Egor / Ralk"
+                        },
+                        "4-4": {
+                            "description": "Dent / Borvin"
+                        },
+                        "5-5": {
+                            "description": "Nila / Bugg"
+                        },
+                        "6-6": {
+                            "description": "Tail / Ludo"
+                        },
+                        "7-7": {
+                            "description": "Skred / Billo"
+                        },
+                        "8-8": {
+                            "description": "Halda / Yarv"
+                        },
+                        "9-9": {
+                            "description": "Crag / Dorel"
+                        },
+                        "10-10": {
+                            "description": "Lorga / Mouse"
+                        }
+                    }
                 },
                 "The Lost Citadel: Rumors": {
-                    "name": "The Lost Citadel: Rumors"
+                    "name": "The Lost Citadel: Rumors",
+                    "results": {
+                        "1-1": {
+                            "description": "Ancient kings who dwelt in the citadel possessed magical weapons that were feared far and wide."
+                        },
+                        "2-2": {
+                            "description": "A savage minotaur drenched in blood stalks the citadel's halls."
+                        },
+                        "3-3": {
+                            "description": "Piles of gems and gold lie about as if totally forgotten."
+                        },
+                        "4-4": {
+                            "description": "Beware when touching the body of a dead citadel dweller."
+                        },
+                        "5-5": {
+                            "description": "Opportunistic, grey-furred beastmen haunt the shadows."
+                        },
+                        "6-6": {
+                            "description": "The citadel is rife with secret rooms and passageways."
+                        }
+                    }
                 },
                 "The Lost Citadel: Beastmen Appearances": {
-                    "name": "The Lost Citadel: Beastmen Appearances"
+                    "name": "The Lost Citadel: Beastmen Appearances",
+                    "results": {
+                        "1-1": {
+                            "description": "Patchy / Sickly"
+                        },
+                        "2-2": {
+                            "description": "Scarred / Fat"
+                        },
+                        "3-3": {
+                            "description": "Jaw or Nose Broken"
+                        },
+                        "4-4": {
+                            "description": "Stooped / Short"
+                        },
+                        "5-5": {
+                            "description": "Elderly / Stout"
+                        },
+                        "6-6": {
+                            "description": "Ear or Tooth Missing"
+                        },
+                        "7-7": {
+                            "description": "Hair-braided / Bald"
+                        },
+                        "8-8": {
+                            "description": "White furred / Skinny"
+                        },
+                        "9-9": {
+                            "description": "Clean / Blank staring"
+                        },
+                        "10-10": {
+                            "description": "Wild eyed / Lanky"
+                        }
+                    }
                 },
                 "The Lost Citadel: Random Encounter Check": {
-                    "name": "The Lost Citadel: Random Encounter Check"
+                    "name": "The Lost Citadel: Random Encounter Check",
+                    "results": {
+                        "1-1": {
+                            "name": "The Lost Citadel: Random Encounters"
+                        },
+                        "2-6": {
+                            "description": "No encounter"
+                        }
+                    }
                 },
                 "The Lost Citadel: Ettercap Names": {
-                    "name": "The Lost Citadel: Ettercap Names"
+                    "name": "The Lost Citadel: Ettercap Names",
+                    "results": {
+                        "1-1": {
+                            "description": "Skalt / Trisk"
+                        },
+                        "2-2": {
+                            "description": "Kreel / Bisky"
+                        },
+                        "3-3": {
+                            "description": "Slivin / Slaask"
+                        },
+                        "4-4": {
+                            "description": "Tiri / Vilis"
+                        },
+                        "5-5": {
+                            "description": "Chiska / Liss"
+                        },
+                        "6-6": {
+                            "description": "Jarla / Miri"
+                        },
+                        "7-7": {
+                            "description": "Char / Squill"
+                        },
+                        "8-8": {
+                            "description": "Fisk / Yeek"
+                        },
+                        "9-9": {
+                            "description": "Chirr / Vim"
+                        },
+                        "10-10": {
+                            "description": "Rask / Miska"
+                        }
+                    }
                 }
             },
             "scenes": {
