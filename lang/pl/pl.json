@@ -760,7 +760,7 @@
   "SHADOWDARK.settings.use_clockwise_initiative.name": "Użyj inicjatywy zgodnie z ruchem wskazówek zegara",
   "SHADOWDARK.settings.use_momentum_mode.hint": "Kostki obrażeń eksplodują",
   "SHADOWDARK.settings.use_momentum_mode.name": "Włącz tryb przyspieszenia",
-  "SHADOWDARK.settings.use_pulp_mode.hint": "Wyświetla znaczniki szczęścia jako wartości liczbowe zamiast pól wyboru",
+  "SHADOWDARK.settings.use_pulp_mode.hint": "Wyświetla tokeny szczęścia jako wartości liczbowe zamiast pól wyboru",
   "SHADOWDARK.settings.use_pulp_mode.name": "Włącz tryb miazgi",
   "SHADOWDARK.sheet.abilities.label": "Zdolności",
   "SHADOWDARK.sheet.abilities.modifiers": "Modyfikatory",
