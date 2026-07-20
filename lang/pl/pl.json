@@ -621,7 +621,7 @@
   "SHADOWDARK.language.thanian": "Thanian",
   "SHADOWDARK.language.who_speaks_it": "Kto mówi",
   "SHADOWDARK.light_source.lantern": "Latarnia",
-  "SHADOWDARK.light_source.light_spell.double_near": "Zaklęcie światła (podwójne bliskie)",
+  "SHADOWDARK.light_source.light_spell.double_near": "Zaklęcie światła (Średni)",
   "SHADOWDARK.light_source.light_spell.near": "Zaklęcie światła (bliskie)",
   "SHADOWDARK.light_source.torch": "Pochodnia",
   "SHADOWDARK.light-source.dropped": "Upuszczono {name}",
