@@ -108,7 +108,7 @@
             "name": "Żelazne kolce"
         },
         "Lantern": {
-            "description": "<p>Rzuca światło na odległość odpowiadającą podwójnej odległości bliskiej (patrz „Światło”, str. 46). Wymaga oleju. Posiada przesłonę umożliwiającą zasłonięcie światła.</p>",
+            "description": "<p>Rzuca światło na odległość odpowiadającą średniej odległości (patrz „Światło”, str. 46). Wymaga oleju. Posiada przesłonę umożliwiającą zasłonięcie światła.</p>",
             "name": "Latarnia"
         },
         "Leather Armor": {
