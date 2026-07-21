@@ -1,0 +1,800 @@
+{
+    "label": "Gotowe postacie – szybki start",
+    "mapping": {
+        "items": {
+            "path": "items",
+            "converter": "document",
+            "documentType": "Item",
+            "cardinality": "many",
+            "mapping": {
+                "description": "system.description",
+                "effects": {
+                    "path": "effects",
+                    "converter": "document",
+                    "documentType": "ActiveEffect",
+                    "cardinality": "many",
+                    "mapping": {
+                        "name": "name",
+                        "description": "description"
+                    }
+                },
+                "name": "name"
+            }
+        },
+        "name": "name",
+        "tokenName": {
+            "path": "prototypeToken.name",
+            "converter": "name"
+        }
+    },
+    "entries": {
+        "Creeg Greythorn": {
+            "name": "Creeg Greythorn",
+            "tokenName": "Creeg Greythorn",
+            "items": {
+                "Backpack": {
+                    "description": "<p>Pomieści cały sprzęt, jaki jesteś w stanie unieść. Nie zgub go.</p>",
+                    "name": "Plecak"
+                },
+                "Oil, Flask": {
+                    "description": "<p>Zasila latarnię przez jedną godzinę czasu rzeczywistego. Jedna kolba wystarcza na oświetlenie niewielkiego obszaru i pali się przez 4 rundy, zadając 1k4 punktów obrażeń w każdej rundzie.</p>",
+                    "name": "Olej, kolba"
+                },
+                "Flint and Steel": {
+                    "description": "<p>Mała rozpałka. Dzięki niemu rutynowe próby rozpalania ognia zawsze kończą się sukcesem.</p>",
+                    "name": "Krzesiwo"
+                },
+                "Torch": {
+                    "description": "<p>Oświetla najbliższe otoczenie (patrz „Źródła światła”, str. 46). Działa przez jedną godzinę czasu rzeczywistego.</p>",
+                    "name": "Pochodnia"
+                },
+                "Rations": {
+                    "description": "<p>Zapas żywności i wody na jeden dzień dla jednej osoby.</p>",
+                    "name": "Racje żywnościowe"
+                },
+                "Caltrops": {
+                    "description": "<p>Malutkie, trójkątne żelazne kolce. Istoty, które nadepną na kolczastki, otrzymują 1 punkt obrażeń i przez 10 rund mogą poruszać się tylko z połową prędkości.</p>",
+                    "name": "Kolczatki"
+                },
+                "Rope, 60'": {
+                    "description": "<p>Konopna, długość 60’.</p>",
+                    "name": "Lina, 60'"
+                },
+                "Grappling Hook": {
+                    "description": "<p>Kotwica linowa z trzema zakrzywionymi zębami.</p>",
+                    "name": "Kotwiczka"
+                },
+                "Mirror": {
+                    "description": "<p>Małe, wypolerowane lusterko.</p>",
+                    "name": "Lustro"
+                },
+                "Staff": {
+                    "name": "Kostur"
+                },
+                "Dagger": {
+                    "name": "Sztylet"
+                },
+                "Mage Armor": {
+                    "description": "<p>Niewidzialna warstwa magicznej mocy chroni twoje najważniejsze organy. Twoja klasa pancerza wynosi 14 (18 przy krytycznym wyniku testu rzucania zaklęcia) przez cały czas trwania zaklęcia.</p><p>@UUID[Compendium.shadowdark.spell-effects.h9MTxzrrPmyhEmRL]</p><p>@UUID[Compendium.shadowdark.spell-effects.Gyol5I0ZdApO8MPe]</p>",
+                    "name": "Zbroja maga"
+                },
+                "Detect Magic": {
+                    "description": "<p>Przez cały czas trwania zaklęcia możesz wyczuwać obecność magii w bliskim zasięgu. Jeśli skoncentrujesz się przez dwie rundy, zdołasz rozpoznać jej ogólne właściwości. Pełne bariery blokują działanie tego zaklęcia.</p><p>@UUID[Compendium.shadowdark.spell-effects.74WjFjHmUmLAiNGC]</p>",
+                    "name": "Wykrywanie magii"
+                },
+                "Magic Missile": {
+                    "description": "<p>Masz ułatwienie przy rzucie na rzucenie tego zaklęcia.</p><p>Z twojej otwartej dłoni wystrzeliwuje świecąca błyskawica mocy, zadając [[/r 1d4]] punktów obrażeń jednemu celowi.</p>",
+                    "name": "Magiczny pocisk"
+                },
+                "Sleep": {
+                    "description": "<p>Zaklęcie to wypełnia sześcian w bliskim zasięgu, rozciągający się od ciebie. Wybierz liczbę żywych stworzeń w tym obszarze, nieprzekraczającą twojego poziomu. Stworzenia te zapadają w głęboki sen, jeśli mają poziom 2 lub niższy. Obudzą je obrażenia lub energiczne potrząśnięcie.</p><p>@UUID[Compendium.shadowdark.spell-effects.FrFilluk4S5VaWut]</p>",
+                    "name": "Uśpienie"
+                },
+                "Learn Spell (Mage Armor)": {
+                    "description": "<p>Naucz się jednego dodatkowego zaklęcia Czarodzieja z dowolnego poziomu, które znasz.</p>",
+                    "name": "Nauka zaklęcia (Zbroja maga)"
+                },
+                "Ambitious": {
+                    "description": "<p>Na 1. poziomie zyskujesz jeden dodatkowy rzut na talent.</p>",
+                    "name": "Ambitny"
+                },
+                "+2 to Intelligence": {
+                    "name": "+2 do Inteligencji",
+                    "effects": {
+                        "Ability Score Improvement (Int)": {
+                            "name": "Podwyższenie wartości cech (Int)"
+                        }
+                    }
+                },
+                "Magic Missile Advantage": {
+                    "description": "<p>Czarodzieje zawsze mają ułatwienie podczas rzucania zaklęcia Magiczny pocisk.</p>",
+                    "name": "Ułatwienie Magicznego pocisku",
+                    "effects": {
+                        "Spellcasting Advantage on Spell": {
+                            "name": "Ułatwienie w rzucaniu zaklęć"
+                        }
+                    }
+                },
+                "Spellcasting (Wizard)": {
+                    "description": "<p><strong>Rzucanie zaklęć.</strong> Możesz rzucać znane ci zaklęcia czarodzieja.</p><p>Znasz trzy dowolne zaklęcia poziomu 1 z listy zaklęć czarodzieja (patrz str. 57).</p><p>Za każdym razem, gdy awansujesz o jeden poziom, wybierasz nowe zaklęcia czarodzieja do nauki zgodnie z tabelą „Znane zaklęcia czarodzieja”.</p><p>Informacje na temat rzucania zaklęć czarodzieja znajdziesz w sekcji „Rzucanie zaklęć” na str. 52.</p>",
+                    "name": "Rzucanie zaklęć (Czarodziej)",
+                    "effects": {
+                        "Spell Class": {
+                            "name": "Zaklęcia klasy"
+                        }
+                    }
+                }
+            }
+        },
+        "Elbin Grizzlegut": {
+            "name": "Elbin Grizzlegut",
+            "tokenName": "Elbin Grizzlegut",
+            "items": {
+                "Chainmail": {
+                    "name": "Kolczuga"
+                },
+                "Shield": {
+                    "name": "Tarcza"
+                },
+                "Crossbow Bolts": {
+                    "description": "<p>Amunicja do kusz.</p>",
+                    "name": "Bełty do kuszy"
+                },
+                "Flint and Steel": {
+                    "description": "<p>Mała rozpałka. Dzięki niemu rutynowe próby rozpalania ognia zawsze kończą się sukcesem.</p>",
+                    "name": "Krzesiwo"
+                },
+                "Iron Spikes": {
+                    "description": "<p>Mocne kolce. Każdy z nich ma otwór do przewleczenia</p><p>liny. Można je wbijać młotkiem, używając broni lub innych żelaznych kolców.</p>",
+                    "name": "Żelazne kolce"
+                },
+                "Grappling Hook": {
+                    "description": "<p>Kotwica linowa z trzema zakrzywionymi zębami.</p>",
+                    "name": "Kotwiczka"
+                },
+                "Rope, 60'": {
+                    "description": "<p>Konopna, długość 60’.</p>",
+                    "name": "Lina, 60'"
+                },
+                "Backpack": {
+                    "description": "<p>Pomieści cały sprzęt, jaki jesteś w stanie unieść. Nie zgub go.</p>",
+                    "name": "Plecak"
+                },
+                "Holy Symbol": {
+                    "name": "Święty symbol"
+                },
+                "Rations": {
+                    "description": "<p>Zapas żywności i wody na jeden dzień dla jednej osoby.</p>",
+                    "name": "Racje żywnościowe"
+                },
+                "Mace": {
+                    "name": "Buława"
+                },
+                "Crossbow": {
+                    "name": "Kusza"
+                },
+                "Shield of Faith": {
+                    "description": "<p>Otacza cię ochronna siła wynikająca z twojego świętego przekonania. Przez cały czas trwania zaklęcia otrzymujesz premię +2 do klasy pancerza.</p><p>@UUID[Compendium.shadowdark.spell-effects.4dCcpPeyRKWt9XkC]</p>",
+                    "name": "Tarcza wiary"
+                },
+                "Turn Undead": {
+                    "description": "<p>Odpędzasz nieumarłe stworzenia, zmuszając je do ucieczki. Aby rzucić to zaklęcie, musisz pokazać święty symbol.</p><p>Nieumarłe stworzenia znajdujące się w bliskim zasięgu muszą wykonać test CHA, którego wynikiem jest twoja wartość rzucania zaklęć. Jeśli stworzenie nie zda testu o 10 lub więcej punktów i ma poziom równy lub niższy od twojego, zostaje zniszczone. W przeciwnym razie, w przypadku niepowodzenia, ucieka przed tobą na 5 rund.</p>",
+                    "name": "Odpędzanie nieumarłych"
+                },
+                "Cure Wounds": {
+                    "description": "<p>Twój dotyk przywraca słabnące życie.</p><p>Rzuć liczbą kości k6 równą [[/roll (1 + (floor(@level.value/2)))d6]]{1 + połowa twojego poziomu (zaokrąglona w dół)}.</p><p>Jeden z celów, którego dotkniesz, odzyskuje tyle Punktów Wytrzymałości.</p>",
+                    "name": "Leczenie ran"
+                },
+                "vidlqyrxrKYxHAdm": {
+                    "description": "<p>Znasz zaklęcie „Odpędzanie nieumarłych”. Nie wlicza się ono do liczby znanych ci zaklęć.</p>",
+                    "name": "Odpędzanie nieumarłych"
+                },
+                "Deity": {
+                    "description": "<p>Wybierz boga, któremu chcesz służyć, a który odpowiada twojemu charakterowi (zobacz „Bóstwa”, str. 30). Posiadasz święty symbol swojego boga (nie zajmuje on żadnego miejsca w ekwipunku).</p>",
+                    "name": "Bóstwo"
+                },
+                "Spellcasting (Priest)": {
+                    "description": "<p><strong>Rzucanie zaklęć.</strong> Możesz rzucać znane ci zaklęcia kapłańskie.</p><p>Znasz dwa dowolne zaklęcia poziomu 1 z listy zaklęć kapłańskich na str. 57.</p><p>Za każdym razem, gdy osiągasz kolejny poziom, wybierasz nowe zaklęcia kapłańskie do nauki zgodnie z tabelą „Znane zaklęcia kapłańskie”.</p><p>Informacje na temat rzucania zaklęć kapłańskich znajdziesz w sekcji „Rzucanie zaklęć” na str. 52.</p>",
+                    "name": "Rzucanie zaklęć (Kapłan)",
+                    "effects": {
+                        "Spell Class": {
+                            "name": "Zaklęcia klasy"
+                        }
+                    }
+                },
+                "+1 on Spellcasting Checks": {
+                    "name": "+1 do testów rzucania zaklęć",
+                    "effects": {
+                        "Spellcasting Check Bonus": {
+                            "name": "Premia do testu rzucania zaklęć"
+                        }
+                    }
+                },
+                "Stout": {
+                    "description": "<p>Zaczynasz z +2 do PW. Rzuć kostką, aby ustalić punkty wytrzymałości, korzystając z ułatwienia.</p>",
+                    "name": "Hardy",
+                    "effects": {
+                        "Extra HP Max": {
+                            "name": "Dodatkowe maksymalne PW"
+                        },
+                        "HP Roll Advantage": {
+                            "name": "Ułatwienie rzutu na PW"
+                        }
+                    }
+                }
+            }
+        },
+        "Iraga Draguul": {
+            "name": "Iraga Draguul",
+            "tokenName": "Iraga Draguul",
+            "items": {
+                "Chainmail": {
+                    "name": "Kolczuga"
+                },
+                "Shield": {
+                    "name": "Tarcza"
+                },
+                "Backpack": {
+                    "description": "<p>Pomieści cały sprzęt, jaki jesteś w stanie unieść. Nie zgub go.</p>",
+                    "name": "Plecak"
+                },
+                "Holy Symbol": {
+                    "name": "Święty symbol"
+                },
+                "Crossbow Bolts": {
+                    "description": "<p>Amunicja do kusz.</p>",
+                    "name": "Bełty do kuszy"
+                },
+                "Rations": {
+                    "description": "<p>Zapas żywności i wody na jeden dzień dla jednej osoby.</p>",
+                    "name": "Racje żywnościowe"
+                },
+                "Iron Spikes": {
+                    "description": "<p>Mocne kolce. Każdy z nich ma otwór do przewleczenia</p><p>liny. Można je wbijać młotkiem, używając broni lub innych żelaznych kolców.</p>",
+                    "name": "Żelazne kolce"
+                },
+                "Grappling Hook": {
+                    "description": "<p>Kotwica linowa z trzema zakrzywionymi zębami.</p>",
+                    "name": "Kotwiczka"
+                },
+                "Rope, 60'": {
+                    "description": "<p>Konopna, długość 60’.</p>",
+                    "name": "Lina, 60'"
+                },
+                "Flint and Steel": {
+                    "description": "<p>Mała rozpałka. Dzięki niemu rutynowe próby rozpalania ognia zawsze kończą się sukcesem.</p>",
+                    "name": "Krzesiwo"
+                },
+                "Torch": {
+                    "description": "<p>Oświetla najbliższe otoczenie (patrz „Źródła światła”, str. 46). Działa przez jedną godzinę czasu rzeczywistego.</p>",
+                    "name": "Pochodnia"
+                },
+                "Longsword": {
+                    "name": "Długi miecz"
+                },
+                "Crossbow": {
+                    "name": "Kusza"
+                },
+                "Cure Wounds": {
+                    "description": "<p>Twój dotyk przywraca słabnące życie.</p><p>Rzuć liczbą kości k6 równą [[/roll (1 + (floor(@level.value/2)))d6]]{1 + połowa twojego poziomu (zaokrąglona w dół)}.</p><p>Jeden z celów, którego dotkniesz, odzyskuje tyle Punktów Wytrzymałości.</p>",
+                    "name": "Leczenie ran"
+                },
+                "Holy Weapon": {
+                    "description": "<p>Każda broń, której dotkniesz, zostaje obdarzona świętym błogosławieństwem.</p><p>Broń ta staje się magiczna i przez cały czas trwania efektu otrzymuje premię +1 do rzutów na atak i obrażenia.</p><p>@UUID[Compendium.shadowdark.spell-effects.r2JNgS2474vuq9oy]</p>",
+                    "name": "Święta broń"
+                },
+                "Turn Undead": {
+                    "description": "<p>Odpędzasz nieumarłe stworzenia, zmuszając je do ucieczki. Aby rzucić to zaklęcie, musisz pokazać święty symbol.</p><p>Nieumarłe stworzenia znajdujące się w bliskim zasięgu muszą wykonać test CHA, którego wynikiem jest twoja wartość rzucania zaklęć. Jeśli stworzenie nie zda testu o 10 lub więcej punktów i ma poziom równy lub niższy od twojego, zostaje zniszczone. W przeciwnym razie, w przypadku niepowodzenia, ucieka przed tobą na 5 rund.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.T4LUCIffieQPMGsN]</p>",
+                    "name": "Odpędzanie nieumarłych"
+                },
+                "HrBISy7YSm5fCE8g": {
+                    "description": "<p>Znasz zaklęcie „Odpędzanie nieumarłych”. Nie wlicza się ono do liczby znanych ci zaklęć.</p>",
+                    "name": "Odpędzanie nieumarłych"
+                },
+                "Deity": {
+                    "description": "<p>Wybierz boga, któremu chcesz służyć, a który odpowiada twojemu charakterowi (zobacz „Bóstwa”, str. 30). Posiadasz święty symbol swojego boga (nie zajmuje on żadnego miejsca w ekwipunku).</p>",
+                    "name": "Bóstwo"
+                },
+                "Mighty": {
+                    "description": "<p>Otrzymujesz premię +1 do rzutów na atak i obrażenia przy użyciu broni białej.</p>",
+                    "name": "Potężny",
+                    "effects": {
+                        "Mighty": {
+                            "name": "Potężny",
+                            "description": "<p>Otrzymujesz premię +1 do rzutów na atak i obrażenia przy użyciu broni białej.</p>"
+                        }
+                    }
+                },
+                "+1 on Spellcasting Checks": {
+                    "name": "+1 do testów rzucania zaklęć",
+                    "effects": {
+                        "Spellcasting Check Bonus": {
+                            "name": "Premia do testu rzucania zaklęć"
+                        }
+                    }
+                },
+                "Spellcasting (Priest)": {
+                    "description": "<p><strong>Rzucanie zaklęć.</strong> Możesz rzucać znane ci zaklęcia kapłańskie.</p><p>Znasz dwa dowolne zaklęcia poziomu 1 z listy zaklęć kapłańskich na str. 57.</p><p>Za każdym razem, gdy osiągasz kolejny poziom, wybierasz nowe zaklęcia kapłańskie do nauki zgodnie z tabelą „Znane zaklęcia kapłańskie”.</p><p>Informacje na temat rzucania zaklęć kapłańskich znajdziesz w sekcji „Rzucanie zaklęć” na str. 52.</p>",
+                    "name": "Rzucanie zaklęć (Kapłan)",
+                    "effects": {
+                        "Spell Class": {
+                            "name": "Zaklęcia klasy"
+                        }
+                    }
+                }
+            }
+        },
+        "Jorbin Ironhelm": {
+            "name": "Jorbin Ironhelm",
+            "tokenName": "Jorbin Ironhelm",
+            "items": {
+                "Chainmail": {
+                    "name": "Kolczuga"
+                },
+                "Shield": {
+                    "name": "Tarcza"
+                },
+                "Backpack": {
+                    "description": "<p>Pomieści cały sprzęt, jaki jesteś w stanie unieść. Nie zgub go.</p>",
+                    "name": "Plecak"
+                },
+                "Iron Spikes": {
+                    "description": "<p>Mocne kolce. Każdy z nich ma otwór do przewleczenia</p><p>liny. Można je wbijać młotkiem, używając broni lub innych żelaznych kolców.</p>",
+                    "name": "Żelazne kolce"
+                },
+                "Grappling Hook": {
+                    "description": "<p>Kotwica linowa z trzema zakrzywionymi zębami.</p>",
+                    "name": "Kotwiczka"
+                },
+                "Rope, 60'": {
+                    "description": "<p>Konopna, długość 60’.</p>",
+                    "name": "Lina, 60'"
+                },
+                "Flint and Steel": {
+                    "description": "<p>Mała rozpałka. Dzięki niemu rutynowe próby rozpalania ognia zawsze kończą się sukcesem.</p>",
+                    "name": "Krzesiwo"
+                },
+                "Torch": {
+                    "description": "<p>Oświetla najbliższe otoczenie (patrz „Źródła światła”, str. 46). Działa przez jedną godzinę czasu rzeczywistego.</p>",
+                    "name": "Pochodnia"
+                },
+                "nIlTwpCCTFzsBYGR": {
+                    "description": "<p>Oświetla najbliższe otoczenie (patrz „Źródła światła”, str. 46). Działa przez jedną godzinę czasu rzeczywistego.</p>",
+                    "name": "Pochodnia"
+                },
+                "Pole": {
+                    "description": "<p>Drewniana, o długości 10'.</p>",
+                    "name": "Tyczka"
+                },
+                "Rations": {
+                    "description": "<p>Zapas żywności i wody na jeden dzień dla jednej osoby.</p>",
+                    "name": "Racje żywnościowe"
+                },
+                "Greataxe": {
+                    "name": "Wielki topór"
+                },
+                "Spear": {
+                    "name": "Włócznia"
+                },
+                "Weapon Mastery (Greataxe)": {
+                    "description": "<p>Wybierz jeden rodzaj broni, na przykład miecze długie. Otrzymujesz +1 do ataku i obrażeń zadawanych tym rodzajem broni. Dodatkowo do tych rzutów dodaj połowę swojego poziomu (zaokrąglając w dół).</p>",
+                    "name": "Mistrzostwo w broni (Wielki topór)",
+                    "effects": {
+                        "Weapon Mastery": {
+                            "name": "Mistrzostwo w broni"
+                        }
+                    }
+                },
+                "JHVaQhNjxYJMNH78": {
+                    "name": "Włócznia"
+                },
+                "Stout": {
+                    "description": "<p>Zaczynasz z +2 do PW. Rzuć kostką, aby ustalić punkty wytrzymałości, korzystając z ułatwienia.</p>",
+                    "name": "Hardy",
+                    "effects": {
+                        "Extra HP Max": {
+                            "name": "Dodatkowe maksymalne PW"
+                        },
+                        "HP Roll Advantage": {
+                            "name": "Ułatwienie rzutu na PW"
+                        }
+                    }
+                },
+                "Hauler": {
+                    "description": "<p>Dodaj swój modyfikator Kondycji, jeśli jest dodatni, do swoich miejsc na wyposażenie.</p>",
+                    "name": "Tragarz",
+                    "effects": {
+                        "Hauler": {
+                            "name": "Tragarz"
+                        }
+                    }
+                },
+                "+2 to Strength": {
+                    "name": "+2 do Siły",
+                    "effects": {
+                        "Ability Score Improvement (Str)": {
+                            "name": "Podwyższenie wartości cech (Sił)"
+                        }
+                    }
+                },
+                "Grit (Strength)": {
+                    "description": "<p>Wybierz Siłę lub Zręczność. Masz ułatwienie przy testach tego typu, mających na celu pokonanie przeszkody, np. wyważenie zablokowanych drzwi kopnięciem (Siła) lub uwolnienie się z zardzewiałych łańcuchów (Zręczność).</p>",
+                    "name": "Charakterny (Siła)",
+                    "effects": {
+                        "Advantage Against Opposing Force": {
+                            "name": "Ułatwienie przeciwko przeciwnym siłom",
+                            "description": "<p>Masz ułatwienie w testach Siły mających na celu pokonanie przeszkody, np. wyważenie zablokowanych drzwi itp.</p>"
+                        }
+                    }
+                }
+            }
+        },
+        "Martin Rast": {
+            "name": "Martin Rast",
+            "tokenName": "Martin Rast",
+            "items": {
+                "Leather Armor": {
+                    "name": "Skórznia"
+                },
+                "Backpack": {
+                    "description": "<p>Pomieści cały sprzęt, jaki jesteś w stanie unieść. Nie zgub go.</p>",
+                    "name": "Plecak"
+                },
+                "Thieves' Tools": {
+                    "description": "<p>Ułatwienia przy testach na wspinaczkę, skradanie się, ukrywanie się, przebieranie, wykrywanie i rozbrajanie pułapek oraz wykonywanie delikatnych zadań.</p>",
+                    "name": "Narzędzia złodziejskie"
+                },
+                "Flint and Steel": {
+                    "description": "<p>Mała rozpałka. Dzięki niemu rutynowe próby rozpalania ognia zawsze kończą się sukcesem.</p>",
+                    "name": "Krzesiwo"
+                },
+                "Torch": {
+                    "description": "<p>Oświetla najbliższe otoczenie (patrz „Źródła światła”, str. 46). Działa przez jedną godzinę czasu rzeczywistego.</p>",
+                    "name": "Pochodnia"
+                },
+                "Rations": {
+                    "description": "<p>Zapas żywności i wody na jeden dzień dla jednej osoby.</p>",
+                    "name": "Racje żywnościowe"
+                },
+                "Iron Spikes": {
+                    "description": "<p>Mocne kolce. Każdy z nich ma otwór do przewleczenia</p><p>liny. Można je wbijać młotkiem, używając broni lub innych żelaznych kolców.</p>",
+                    "name": "Żelazne kolce"
+                },
+                "Rope, 60'": {
+                    "description": "<p>Konopna, długość 60’.</p>",
+                    "name": "Lina, 60'"
+                },
+                "Grappling Hook": {
+                    "description": "<p>Kotwica linowa z trzema zakrzywionymi zębami.</p>",
+                    "name": "Kotwiczka"
+                },
+                "Dagger": {
+                    "name": "Sztylet"
+                },
+                "15j8vdCGXCjRSxFw": {
+                    "name": "Sztylet"
+                },
+                "Ambitious": {
+                    "description": "<p>Na 1. poziomie zyskujesz jeden dodatkowy rzut na talent.</p>",
+                    "name": "Ambitny"
+                },
+                "+2 to Dexterity": {
+                    "name": "+2 do Zręczności",
+                    "effects": {
+                        "Ability Score Improvement (Dex)": {
+                            "name": "Podwyższenie wartości cech (Zrc)"
+                        }
+                    }
+                },
+                "Thievery": {
+                    "description": "<p>Posiadasz biegłość w sztuce kradzieży i masz przy sobie niezbędne narzędzia rzemiosła (nie zajmują one żadnych miejsc w ekwipunku).</p><p>Jesteś wytrenowany w wykonywaniu następujących czynności i masz ułatwienie przy wszystkich związanych z nimi testach:</p><ul><li><p>Wspinaczka</p></li><li><p>Skradanie się i ukrywanie</p></li><li><p>Stosowanie przebrań</p></li><li><p>Wykrywanie i rozbrajanie pułapek</p></li><li><p>Delikatne czynności, takie jak kradzież kieszonkowa i otwieranie zamków</p></li></ul>",
+                    "name": "Złodziejstwo",
+                    "effects": {
+                        "Thievery": {
+                            "name": "Złodziejstwo",
+                            "description": "<p>Zostałeś wytrenowany w zakresie następujących zadań i masz ułatwienie przy wykonywaniu wszelkich związanych z nimi testów: wspinaczka, skradanie się i ukrywanie, stosowanie przebrań, wykrywanie i unieszkodliwianie pułapek oraz delikatne czynności, takie jak kradzież kieszonkowa i otwieranie zamków.</p>"
+                        }
+                    }
+                },
+                "Backstab": {
+                    "description": "<p>Jeśli trafisz stworzenie, które nie jest świadome twojego ataku, zadajesz dodatkową kostkę obrażeń broni. Dodaj dodatkowe kostki obrażeń broni równe połowie twojego poziomu (zaokrąglone w dół).</p>",
+                    "name": "Podstępny atak",
+                    "effects": {
+                        "Backstab": {
+                            "name": "Podstępny atak",
+                            "description": "<p>Jeśli trafisz stworzenie, które nie jest świadome twojego ataku, zadajesz dodatkową kostkę obrażeń broni. Dodaj dodatkowe kostki obrażeń broni równe połowie twojego poziomu (zaokrąglone w dół).</p>"
+                        }
+                    }
+                },
+                "Backstab +1 Damage Dice": {
+                    "description": "<p>Twój Podstępny atak zadaje +1 kość obrażeń.</p>",
+                    "name": "Podstępny atak +1 kość obrażeń",
+                    "effects": {
+                        "Additional Backstab Die": {
+                            "name": "Dodatkowa kostka do podstępnego ataku",
+                            "description": "<p>Twój Podstępny atak zadaje +1 kość obrażeń.</p>"
+                        }
+                    }
+                }
+            }
+        },
+        "Ralina Biggins": {
+            "name": "Ralina Biggins",
+            "tokenName": "Ralina Biggins",
+            "items": {
+                "Leather Armor": {
+                    "name": "Skórznia"
+                },
+                "Crossbow Bolts": {
+                    "description": "<p>Amunicja do kusz.</p>",
+                    "name": "Bełty do kuszy"
+                },
+                "Flint and Steel": {
+                    "description": "<p>Mała rozpałka. Dzięki niemu rutynowe próby rozpalania ognia zawsze kończą się sukcesem.</p>",
+                    "name": "Krzesiwo"
+                },
+                "Backpack": {
+                    "description": "<p>Pomieści cały sprzęt, jaki jesteś w stanie unieść. Nie zgub go.</p>",
+                    "name": "Plecak"
+                },
+                "Thieves' Tools": {
+                    "description": "<p>Ułatwienia przy testach na wspinaczkę, skradanie się, ukrywanie się, przebieranie, wykrywanie i rozbrajanie pułapek oraz wykonywanie delikatnych zadań.</p>",
+                    "name": "Narzędzia złodziejskie"
+                },
+                "Torch": {
+                    "description": "<p>Oświetla najbliższe otoczenie (patrz „Źródła światła”, str. 46). Działa przez jedną godzinę czasu rzeczywistego.</p>",
+                    "name": "Pochodnia"
+                },
+                "Rations": {
+                    "description": "<p>Zapas żywności i wody na jeden dzień dla jednej osoby.</p>",
+                    "name": "Racje żywnościowe"
+                },
+                "Iron Spikes": {
+                    "description": "<p>Mocne kolce. Każdy z nich ma otwór do przewleczenia</p><p>liny. Można je wbijać młotkiem, używając broni lub innych żelaznych kolców.</p>",
+                    "name": "Żelazne kolce"
+                },
+                "Grappling Hook": {
+                    "description": "<p>Kotwica linowa z trzema zakrzywionymi zębami.</p>",
+                    "name": "Kotwiczka"
+                },
+                "Rope, 60'": {
+                    "description": "<p>Konopna, długość 60’.</p>",
+                    "name": "Lina, 60'"
+                },
+                "Dagger": {
+                    "name": "Sztylet"
+                },
+                "Crossbow": {
+                    "name": "Kusza"
+                },
+                "Stealthy": {
+                    "description": "<p>Raz na dzień możesz stać się niewidzialny na 3 rundy.</p><p>@UUID[Compendium.shadowdark.conditions.Item.piycdXLudXTFLG0k]</p>",
+                    "name": "Niezauważalny"
+                },
+                "Initiative Advantage": {
+                    "description": "<p>Zyskaj ułatwienie przy rzutach na inicjatywę (w razie duplikatu powtórz rzut)</p>",
+                    "name": "Ułatwienie rzutu na inicjatywę",
+                    "effects": {
+                        "Initiative Advantage": {
+                            "name": "Ułatwienie rzutu na inicjatywę"
+                        }
+                    }
+                },
+                "Thievery": {
+                    "description": "<p>Posiadasz biegłość w sztuce kradzieży i masz przy sobie niezbędne narzędzia rzemiosła (nie zajmują one żadnych miejsc w ekwipunku).</p><p>Jesteś wytrenowany w wykonywaniu następujących czynności i masz ułatwienie przy wszystkich związanych z nimi testach:</p><ul><li><p>Wspinaczka</p></li><li><p>Skradanie się i ukrywanie</p></li><li><p>Stosowanie przebrań</p></li><li><p>Wykrywanie i rozbrajanie pułapek</p></li><li><p>Delikatne czynności, takie jak kradzież kieszonkowa i otwieranie zamków</p></li></ul>",
+                    "name": "Złodziejstwo",
+                    "effects": {
+                        "Thievery": {
+                            "name": "Złodziejstwo",
+                            "description": "<p>Zostałeś wytrenowany w zakresie następujących zadań i masz ułatwienie przy wykonywaniu wszelkich związanych z nimi testów: wspinaczka, skradanie się i ukrywanie, stosowanie przebrań, wykrywanie i unieszkodliwianie pułapek oraz delikatne czynności, takie jak kradzież kieszonkowa i otwieranie zamków.</p>"
+                        }
+                    }
+                },
+                "Backstab": {
+                    "description": "<p>Jeśli trafisz stworzenie, które nie jest świadome twojego ataku, zadajesz dodatkową kostkę obrażeń broni. Dodaj dodatkowe kostki obrażeń broni równe połowie twojego poziomu (zaokrąglone w dół).</p>",
+                    "name": "Podstępny atak",
+                    "effects": {
+                        "Backstab": {
+                            "name": "Podstępny atak",
+                            "description": "<p>Jeśli trafisz stworzenie, które nie jest świadome twojego ataku, zadajesz dodatkową kostkę obrażeń broni. Dodaj dodatkowe kostki obrażeń broni równe połowie twojego poziomu (zaokrąglone w dół).</p>"
+                        }
+                    }
+                }
+            }
+        },
+        "Yriel Lirandar": {
+            "name": "Yriel Lirandar",
+            "tokenName": "Yriel Lirandar",
+            "items": {
+                "Chainmail": {
+                    "name": "Kolczuga"
+                },
+                "Shield": {
+                    "name": "Tarcza"
+                },
+                "Backpack": {
+                    "description": "<p>Pomieści cały sprzęt, jaki jesteś w stanie unieść. Nie zgub go.</p>",
+                    "name": "Plecak"
+                },
+                "Arrows": {
+                    "description": "<p>Amunicja do łuków krótkich lub długich.</p>",
+                    "name": "Strzały"
+                },
+                "Iron Spikes": {
+                    "description": "<p>Mocne kolce. Każdy z nich ma otwór do przewleczenia</p><p>liny. Można je wbijać młotkiem, używając broni lub innych żelaznych kolców.</p>",
+                    "name": "Żelazne kolce"
+                },
+                "Grappling Hook": {
+                    "description": "<p>Kotwica linowa z trzema zakrzywionymi zębami.</p>",
+                    "name": "Kotwiczka"
+                },
+                "Rope, 60'": {
+                    "description": "<p>Konopna, długość 60’.</p>",
+                    "name": "Lina, 60'"
+                },
+                "Rations": {
+                    "description": "<p>Zapas żywności i wody na jeden dzień dla jednej osoby.</p>",
+                    "name": "Racje żywnościowe"
+                },
+                "Flint and Steel": {
+                    "description": "<p>Mała rozpałka. Dzięki niemu rutynowe próby rozpalania ognia zawsze kończą się sukcesem.</p>",
+                    "name": "Krzesiwo"
+                },
+                "Torch": {
+                    "description": "<p>Oświetla najbliższe otoczenie (patrz „Źródła światła”, str. 46). Działa przez jedną godzinę czasu rzeczywistego.</p>",
+                    "name": "Pochodnia"
+                },
+                "w43og0dpp1JlvYzm": {
+                    "description": "<p>Oświetla najbliższe otoczenie (patrz „Źródła światła”, str. 46). Działa przez jedną godzinę czasu rzeczywistego.</p>",
+                    "name": "Pochodnia"
+                },
+                "Pole": {
+                    "description": "<p>Drewniana, o długości 10'.</p>",
+                    "name": "Tyczka"
+                },
+                "Bastard Sword": {
+                    "name": "Miecz półtoraręczny"
+                },
+                "Longbow": {
+                    "name": "Długi łuk"
+                },
+                "Weapon Mastery (Bastard Sword)": {
+                    "description": "<p>Wybierz jeden rodzaj broni, na przykład miecze długie. Otrzymujesz +1 do ataku i obrażeń zadawanych tym rodzajem broni. Dodatkowo do tych rzutów dodaj połowę swojego poziomu (zaokrąglając w dół).</p>",
+                    "name": "Mistrzostwo w broni (Miecz półtoraręczny)",
+                    "effects": {
+                        "Weapon Mastery": {
+                            "name": "Mistrzostwo w broni"
+                        }
+                    }
+                },
+                "Farsight (Ranged)": {
+                    "description": "<p>Otrzymujesz premię +1 do rzutów na atak bronią dystansową <strong>lub</strong> premię +1 do testów rzucania zaklęć.</p>",
+                    "name": "Dalekowzroczność (Dystansowe)",
+                    "effects": {
+                        "Ranged Attack Roll Bonus": {
+                            "name": "Premia do rzutu na atak z dystansu"
+                        }
+                    }
+                },
+                "Grit (Strength)": {
+                    "description": "<p>Wybierz Siłę lub Zręczność. Masz ułatwienie przy testach tego typu, mających na celu pokonanie przeszkody, np. wyważenie zablokowanych drzwi kopnięciem (Siła) lub uwolnienie się z zardzewiałych łańcuchów (Zręczność).</p>",
+                    "name": "Charakterny (Siła)",
+                    "effects": {
+                        "Advantage Against Opposing Force": {
+                            "name": "Ułatwienie przeciwko przeciwnym siłom",
+                            "description": "<p>Masz ułatwienie w testach Siły mających na celu pokonanie przeszkody, np. wyważenie zablokowanych drzwi itp.</p>"
+                        }
+                    }
+                },
+                "Hauler": {
+                    "description": "<p>Dodaj swój modyfikator Kondycji, jeśli jest dodatni, do swoich miejsc na wyposażenie.</p>",
+                    "name": "Tragarz",
+                    "effects": {
+                        "Hauler": {
+                            "name": "Tragarz"
+                        }
+                    }
+                },
+                "+2 to Strength": {
+                    "name": "+2 do Siły",
+                    "effects": {
+                        "Ability Score Improvement (Str)": {
+                            "name": "Podwyższenie wartości cech (Sił)"
+                        }
+                    }
+                }
+            }
+        },
+        "Zaldini the Red": {
+            "name": "Zaldini the Red",
+            "tokenName": "Zaldini the Red",
+            "items": {
+                "Glass Bottle": {
+                    "description": "<p>Szklane naczynia, w których mieści się jeden łyk płynu.</p>",
+                    "name": "Szklana butelka"
+                },
+                "Pole": {
+                    "description": "<p>Drewniana, o długości 10'.</p>",
+                    "name": "Tyczka"
+                },
+                "Flint and Steel": {
+                    "description": "<p>Mała rozpałka. Dzięki niemu rutynowe próby rozpalania ognia zawsze kończą się sukcesem.</p>",
+                    "name": "Krzesiwo"
+                },
+                "Torch": {
+                    "description": "<p>Oświetla najbliższe otoczenie (patrz „Źródła światła”, str. 46). Działa przez jedną godzinę czasu rzeczywistego.</p>",
+                    "name": "Pochodnia"
+                },
+                "Rations": {
+                    "description": "<p>Zapas żywności i wody na jeden dzień dla jednej osoby.</p>",
+                    "name": "Racje żywnościowe"
+                },
+                "Oil, Flask": {
+                    "description": "<p>Zasila latarnię przez jedną godzinę czasu rzeczywistego. Jedna kolba wystarcza na oświetlenie niewielkiego obszaru i pali się przez 4 rundy, zadając 1k4 punktów obrażeń w każdej rundzie.</p>",
+                    "name": "Olej, kolba"
+                },
+                "2Gzbipgoj6Z7tV0d": {
+                    "description": "<p>Zasila latarnię przez jedną godzinę czasu rzeczywistego. Jedna kolba wystarcza na oświetlenie niewielkiego obszaru i pali się przez 4 rundy, zadając 1k4 punktów obrażeń w każdej rundzie.</p>",
+                    "name": "Olej, kolba"
+                },
+                "Grappling Hook": {
+                    "description": "<p>Kotwica linowa z trzema zakrzywionymi zębami.</p>",
+                    "name": "Kotwiczka"
+                },
+                "Rope, 60'": {
+                    "description": "<p>Konopna, długość 60’.</p>",
+                    "name": "Lina, 60'"
+                },
+                "Backpack": {
+                    "description": "<p>Pomieści cały sprzęt, jaki jesteś w stanie unieść. Nie zgub go.</p>",
+                    "name": "Plecak"
+                },
+                "Dagger": {
+                    "name": "Sztylet"
+                },
+                "Burning Hands": {
+                    "description": "<p>Rozstawiasz palce, tak by kciuki się stykały, wyzwalając krąg ognia, który wypełnia obszar w pobliżu miejsca, w którym stoisz.</p><p>Stworzenia znajdujące się w obszarze działania zaklęcia otrzymują [[/r 1d6]] punktów obrażeń.</p><p>Zostawione bez nadzoru łatwopalne przedmioty ulegają zapaleniu.</p>",
+                    "name": "Płonące dłonie"
+                },
+                "Charm Person": {
+                    "description": "<p>Oczarowujesz magicznie jedną istotę humanoidalną o poziomie 2 lub niższym znajdującą się w bliskim zasięgu, która przez cały czas trwania zaklęcia traktuje cię jak przyjaciela.</p><p>Zaklęcie kończy się, jeśli ty lub twoi sojusznicy wyrządzicie celowi jakąkolwiek krzywdę.</p><p>Po zakończeniu działania zaklęcia cel zdaje sobie sprawę, że został magicznie oczarowany.</p><p>Uczyń rzut [[/r 1d8]], aby określić liczbę dni, przez które zaklęcie będzie skuteczne</p><p>@UUID[Compendium.shadowdark.spell-effects.Z0YwWUGs3WYC6OGn]</p>",
+                    "name": "Zauroczenie osoby"
+                },
+                "Magic Missile": {
+                    "description": "<p>Masz ułatwienie przy rzucie na rzucenie tego zaklęcia.</p><p>Z twojej otwartej dłoni wystrzeliwuje świecąca błyskawica mocy, zadając [[/r 1d4]] punktów obrażeń jednemu celowi.</p>",
+                    "name": "Magiczny pocisk"
+                },
+                "Keen Senses": {
+                    "description": "<p>Nie możesz być zaskoczony.</p>",
+                    "name": "Wyostrzone zmysły"
+                },
+                "Spellcasting (Wizard)": {
+                    "description": "<p><strong>Rzucanie zaklęć.</strong> Możesz rzucać znane ci zaklęcia czarodzieja.</p><p>Znasz trzy dowolne zaklęcia poziomu 1 z listy zaklęć czarodzieja (patrz str. 57).</p><p>Za każdym razem, gdy awansujesz o jeden poziom, wybierasz nowe zaklęcia czarodzieja do nauki zgodnie z tabelą „Znane zaklęcia czarodzieja”.</p><p>Informacje na temat rzucania zaklęć czarodzieja znajdziesz w sekcji „Rzucanie zaklęć” na str. 52.</p>",
+                    "name": "Rzucanie zaklęć (Czarodziej)",
+                    "effects": {
+                        "Spell Class": {
+                            "name": "Zaklęcia klasy"
+                        }
+                    }
+                },
+                "+1 on Spellcasting Checks": {
+                    "name": "+1 do testów rzucania zaklęć",
+                    "effects": {
+                        "Spellcasting Check Bonus": {
+                            "name": "Premia do testu rzucania zaklęć"
+                        }
+                    }
+                },
+                "Magic Missile Advantage": {
+                    "description": "<p>Czarodzieje zawsze mają ułatwienie podczas rzucania zaklęcia Magiczny pocisk.</p>",
+                    "name": "Ułatwienie Magicznego pocisku",
+                    "effects": {
+                        "Spellcasting Advantage on Spell": {
+                            "name": "Ułatwienie w rzucaniu zaklęć"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
