@@ -1,0 +1,644 @@
+{
+    "label": "Zaklęcia",
+    "mapping": {
+        "description": "system.description",
+        "name": "name"
+    },
+    "entries": {
+        "0Gp5pSzPcelJVp3T": {
+            "description": "<p>Możesz przemieszczać i kształtować wodę. Możesz sprawić, że obszar wody o szerokości i głębokości do 100 stóp zmieni kształt, przeciwstawi się grawitacji lub zacznie płynąć w innym kierunku.</p>",
+            "name": "Kontrola wody"
+        },
+        "0VCMisYBNpLkx28M": {
+            "description": "<p>Oczarowujesz magicznie jedną istotę humanoidalną o poziomie 2 lub niższym znajdującą się w bliskim zasięgu, która przez cały czas trwania zaklęcia traktuje cię jak przyjaciela.</p><p>Zaklęcie kończy się, jeśli ty lub twoi sojusznicy wyrządzicie celowi jakąkolwiek krzywdę.</p><p>Po zakończeniu działania zaklęcia cel zdaje sobie sprawę, że został magicznie oczarowany.</p><p>Uczyń rzut [[/r 1d8]], aby określić liczbę dni, przez które zaklęcie będzie skuteczne</p><p>@UUID[Compendium.shadowdark.spell-effects.Z0YwWUGs3WYC6OGn]</p>",
+            "name": "Zauroczenie osoby"
+        },
+        "1dQg691JnfczSzIe": {
+            "description": "<p>Rzucasz kości wróżebne lub wpatrujesz się w czerń między gwiazdami, szukając znaku.</p><p>Możesz zadać MG jedno pytanie, na które można odpowiedzieć „tak” lub „nie”. MG odpowiada zgodnie z prawdą „tak” lub „nie”. </p><p>Jeśli rzucisz to zaklęcie więcej niż raz w ciągu 24 godzin, nieudany test rzucania zaklęcia traktuj jako krytyczną porażkę.</p>",
+            "name": "Wieszczenie"
+        },
+        "1ZAZQsFvPBEZPkVP": {
+            "description": "<p>Przekształcasz dotkniętą przez ciebie istotę w inne wybraną przez ciebie naturalne stworzenie o takim samym lub mniejszym rozmiarze. Wszelki ekwipunek, jaki posiada cel, wtapia się w jego nową postać.</p><p>Cel zyskuje fizyczne parametry tego stworzenia, ale zachowuje swoje parametry niefizyczne.</p><p>Jeśli liczba punktów Wytrzymałości celu spadnie do 0, powraca on do swojej prawdziwej postaci z połową poprzedniej liczby punktów Wytrzymałości.</p><p>Za pomocą tego zaklęcia możesz wybrać jako cel dowolne chętne stworzenie lub niechętne stworzenie, którego poziom jest mniejszy lub równy połowie twojego poziomu, zaokrąglonej w dół (minimum 1).</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.Hc3xUBBlZLxWNKYV]</p>",
+            "name": "Polimorfia"
+        },
+        "3U4gQZLbhYtkEcej": {
+            "description": "<p>Ciało zmarłego, którego dotkniesz, odpowiada na twoje pytania odległym, świszczącym głosem.</p><p>Możesz zadać zmarłemu maksymalnie trzy pytania, na które można odpowiedzieć „tak” lub „nie” (po jednym na raz). MG odpowiada na każde z nich zgodnie z prawdą: „tak” lub „nie”.</p><p>Jeśli rzucisz to zaklęcie więcej niż raz w ciągu 24 godzin, nieudany test rzucania zaklęcia należy traktować jako krytyczną porażkę.</p>",
+            "name": "Rozmawianie z umarłymi"
+        },
+        "3yI7Ejl7UrYMMdTe": {
+            "description": "<p>Odczytujesz znaczenie nadprzyrodzonych znaków i wróżb. Możesz zadać MG jedno pytanie dotyczące konkretnego sposobu postępowania. MG określa, czy dane działanie doprowadzi do „powodzenia”, czy do „niepowodzenia”.</p>",
+            "name": "Wróżba"
+        },
+        "524WqghzcYDMxaPo": {
+            "description": "<p>Przemieniasz siebie i cały ekwipunek, który nosisz, w inne naturalne stworzenie, które widziałeś, o poziomie 10 lub niższym. Przyjmujesz parametry fizyczne tego stworzenia, ale zachowujesz swoje parametry niefizyczne (takie jak INT, MDR i CHA).</p><p>Jeśli podczas działania tego zaklęcia twoje PW spadną do 0, powracasz do swojej prawdziwej postaci z 1 PW.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.F89CJeindj8k8oiC]</p>",
+            "name": "Zmiennokształtny"
+        },
+        "9MlXio0rabdfEgIr": {
+            "description": "<p>Oczarowujesz magicznie jedną istotę humanoidalną o poziomie 2 lub niższym znajdującą się w bliskim zasięgu, która przez cały czas trwania zaklęcia traktuje cię jak przyjaciela.</p><p>Zaklęcie kończy się, jeśli ty lub twoi sojusznicy wyrządzicie celowi jakąkolwiek krzywdę.</p><p>Po zakończeniu działania zaklęcia cel zdaje sobie sprawę, że został magicznie oczarowany.</p><p>Uczyń rzut [[/r 1d8]], aby określić liczbę dni, przez które zaklęcie będzie skuteczne</p><p>@UUID[Compendium.shadowdark.spell-effects.Z0YwWUGs3WYC6OGn]</p>",
+            "name": "Zauroczenie osoby"
+        },
+        "aAtNTK2HLJ77HB3z": {
+            "description": "<p>Odczytujesz znaczenie nadprzyrodzonych znaków i wróżb. Możesz zadać MG jedno pytanie dotyczące konkretnego sposobu postępowania. MG określa, czy dane działanie doprowadzi do „powodzenia”, czy do „niepowodzenia”.</p>",
+            "name": "Wróżba"
+        },
+        "Acid Arrow": {
+            "description": "<p>Wyczarowujesz żrącą strzałę, która trafia jednego wroga, zadając [[/r 1d6]] punktów obrażeń w każdej rundzie. Strzała pozostaje w celu tak długo, jak długo się koncentrujesz.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.NXZlCiZI9X3AJc4m]</p>",
+            "name": "Kwasowa strzała"
+        },
+        "Alarm": {
+            "description": "<p>Dotykasz jakiegoś przedmiotu, na przykład progu drzwi, uruchamiając na nim magiczny alarm.</p><p>Jeśli jakakolwiek istota, której nie wskazałeś podczas rzucania zaklęcia, dotknie tego przedmiotu lub przejdzie obok niego, w twojej głowie rozlegnie się dźwięk magicznego dzwonka.</p>",
+            "name": "Alarm"
+        },
+        "Anathema": {
+            "description": "<p>Wszyscy sojusznicy potępiają i porzucają stworzenie, którego dotkniesz, na 1 dzień.</p><p>Za każdym razem, gdy ty lub twoi sojusznicy zadacie obrażenia celowi, jego byli sojusznicy mogą wykonać test [[check 15 wis]], aby zakończyć działanie zaklęcia. </p><p>@UUID[Compendium.shadowdark.spell-effects.Item.vApjjHkL9nghvbQT]</p>",
+            "name": "Anatema"
+        },
+        "Animate Dead": {
+            "description": "<p>Dotykasz szczątków jednej humanoidalnej istoty, a ta powstaje jako zombie lub szkielet pod twoją kontrolą.</p><p>Szczątki muszą mieć co najmniej trzy kończyny, a głowa musi być nienaruszona. Nieumarłe stworzenie działa w twojej turze. Po upływie 1 dnia stworzenie rozpada się w proch.</p>",
+            "name": "Ożywianie zmarłych"
+        },
+        "Antimagic Shell": {
+            "description": "<p>Wokół ciebie pojawia się niewidzialna, niemal niewidoczna kostka pozbawiona magii.</p><p>Wewnątrz kostki nie można rzucać zaklęć. Magiczne przedmioty i zaklęcia nie działają w tej strefie, a magia nie może do niej przeniknąć.</p><p>Kostka porusza się wraz z tobą. Zaklęcia takie jak „rozproszenie magii” nie mają na nią wpływu. </p><p>Kolejna powłoka antymagiczna nie wpływa na tę kostkę.</p>",
+            "name": "Powłoka antymagiczna"
+        },
+        "Arcane Eye": {
+            "description": "<p>Tworzysz niewidzialne oko wielkości winogrona w zasięgu.</p><p>Możesz widzieć przez to oko. Widzi ono w ciemności na odległość bliskiego zasięgu, może latać na odległość bliską w twojej turze i przeciskać się przez otwory tak wąskie jak dziurka od klucza.</p>",
+            "name": "Magiczne oko"
+        },
+        "b1ZHAbGQRFPqgLMv": {
+            "description": "<p>Przekształcasz dotkniętą przez ciebie istotę w inne wybraną przez ciebie naturalne stworzenie o takim samym lub mniejszym rozmiarze. Wszelki ekwipunek, jaki posiada cel, wtapia się w jego nową postać.</p><p>Cel zyskuje fizyczne parametry tego stworzenia, ale zachowuje swoje parametry niefizyczne.</p><p>Jeśli liczba punktów Wytrzymałości celu spadnie do 0, powraca on do swojej prawdziwej postaci z połową poprzedniej liczby punktów Wytrzymałości.</p><p>Za pomocą tego zaklęcia możesz wybrać jako cel dowolne chętne stworzenie lub niechętne stworzenie, którego poziom jest mniejszy lub równy połowie twojego poziomu, zaokrąglonej w dół (minimum 1).</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.Hc3xUBBlZLxWNKYV]</p>",
+            "name": "Polimorfia"
+        },
+        "Beguile": {
+            "description": "<p>Tworzysz przekonującą iluzję, widoczną i słyszalną, w zasięgu zaklęcia.</p><p>Stworzenia, które dostrzegają iluzję, reagują na nią tak, jakby była prawdziwa, choć nie może ona wyrządzić rzeczywistej krzywdy.</p><p>Dotknięcie iluzji natychmiast ujawnia jej fałszywy charakter.</p><p>Możesz zmusić stworzenie, które wchodzi w interakcję z iluzją, do wykonania testu [[check 15 wis]]. Jeśli stworzenie nie zda testu, zostaje oczarowane iluzją na czas trwania zaklęcia i stara się ją chronić.</p>",
+            "name": "Oczarowanie"
+        },
+        "Bless": {
+            "description": "<p>Jedno stworzenie, którego dotkniesz, otrzymuje token szczęścia.</p>",
+            "name": "Błogosławieństwo"
+        },
+        "Blind/Deafen": {
+            "description": "<p>Wypowiadasz boską klątwę, która oślepia lub ogłusza jedno widoczne dla ciebie stworzenie znajdujące się w zasięgu. Stworzenie to ma utrudnienie przy wykonywaniu czynności wymagających tego zmysłu.</p><p>@UUID[Compendium.shadowdark.spell-effects.SOkcvkzrGMGQKhmk]</p><p>@UUID[Compendium.shadowdark.spell-effects.aAdqy5QwVJrT8JWE]</p>",
+            "name": "Oślepienie / Ogłuchnięcie"
+        },
+        "Bogboil": {
+            "description": "<p>Zamieniasz kostkę ziemi o rozmiarze zbliżonym do zasięgu zaklęcia w błotniste, wrzące bagno z ruchomymi piaskami. </p><p>Stworzenie, które utknęło w bagnie, nie może się poruszać i musi wykonać udany test Zręczności przeciwko twojemu testowi rzucania zaklęć, aby się uwolnić.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.VOx6yLlQ23XwVvuG]</p>",
+            "name": "Wrzące bagna"
+        },
+        "Broomstick": {
+            "description": "<p>W dłoni pojawia się latająca miotła.</p><p>Osoba siedząca na miotle może w każdej rundzie przelecieć na bliską odległość oraz zawisnąć w miejscu.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.23KrUIOKwPNwVSCh]</p>",
+            "name": "Latająca miotła"
+        },
+        "Burning Hands": {
+            "description": "<p>Rozstawiasz palce, tak by kciuki się stykały, wyzwalając krąg ognia, który wypełnia obszar w pobliżu miejsca, w którym stoisz.</p><p>Stworzenia znajdujące się w obszarze działania zaklęcia otrzymują [[/r 1d6]] punktów obrażeń.</p><p>Zostawione bez nadzoru łatwopalne przedmioty ulegają zapaleniu.</p>",
+            "name": "Płonące dłonie"
+        },
+        "Cacklerot": {
+            "description": "<p>Jeden z dotkniętych przez ciebie celów o poziomie 4 lub niższym upada bezradnie, wybuchając niepokojącym, pełnym bólu śmiechem przez cały czas trwania zaklęcia.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.9E4RVp3xfAK1uxrl]</p>",
+            "name": "Chichot"
+        },
+        "Cast Out": {
+            "description": "<p>Odsuwasz stworzenie na bok, wyrzucając je z pola widzenia.</p><p>Wybierz stworzenie, które widzisz. Przez czas trwania zaklęcia stworzenie to nie może zbliżyć się do ciebie na odległość bliską. Nadal może cię atakować spoza tej odległości.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.8vSJhm0X9PRdKTyX]</p>",
+            "name": "Wypędzenie"
+        },
+        "Cat's Eye": {
+            "description": "<p>Twoje tęczówki rozszerzają się, wypełniając całe oczy, a źrenice zamieniają się w czarne, pionowe szczeliny. Przez czas trwania zaklęcia możesz dostrzegać niewidzialne stworzenia i tajne drzwi.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.jKkFbA7VzDfOKvN5]</p>",
+            "name": "Kocie oko"
+        },
+        "Cauldron": {
+            "description": "<p>Tworzysz obok siebie bulgoczący kocioł. Może on wywołać jeden z następujących efektów: </p><p>• Każdy uszkodzony przedmiot zwyczajny umieszczony w kotle zostaje naprawiony. </p><p>• Z kotła wyskakuje gruba, rechocząca ropucha, która przez kolejne 3 rundy wykonuje twoje polecenia. </p><p>• Możesz umieścić w kotle przedmioty zajmujące maksymalnie 3 miejsca. Kocioł wyrzuca te przedmioty przy następnym rzuceniu tego zaklęcia (wyrzucenie przedmiotów liczy się jako pojedynczy efekt kotła).</p>",
+            "name": "Kocioł"
+        },
+        "CH5fnXxghhGQlr7h": {
+            "description": "<p>Przez cały czas trwania zaklęcia istoty chaotyczne mają utrudnienie przy rzutach na atak i testach rzucania wrogich zaklęć przeciwko celowi. Istoty te nie mogą również opętać, zmusić ani omamić tego celu.</p><p>Gdy zaklęcie zostanie rzucone na cel, który jest już opętany, opętująca istota wykonuje test CHA w porównaniu z wynikiem ostatniego testu rzucania zaklęć. W przypadku porażki istota zostaje wypędzona.</p><p>@UUID[Compendium.shadowdark.spell-effects.H7v5Izebo8O45DXB]</p>",
+            "name": "Ochrona przed złem"
+        },
+        "Chant": {
+            "description": "<p>Zaczynasz intonować nieziemski śpiew, który wykracza poza zwykłe ograniczenia twojego widzenia.</p><p>Przez czas trwania zaklęcia widzisz wszystkie niewidzialne i ukryte rzeczy tak, jakby były wyraźnie widoczne. Zaklęcie to nie pozwala ci widzieć w sposób, który normalnie byłby niemożliwy, na przykład w ciemności lub przez ściany. </p><p>@UUID[Compendium.shadowdark.spell-effects.Item.ZLO5oq3gTJ762o3F]</p>",
+            "name": "Intonacja"
+        },
+        "Cleansing Weapon": {
+            "description": "<p>Jedna z broni, której dotkniesz, otacza się oczyszczającymi płomieniami. Przez cały czas trwania efektu zadaje ona dodatkowe [[/r 1d4]] obrażenia ([[/r 1d6]] przeciwko nieumarłym).</p><p>@UUID[Compendium.shadowdark.spell-effects.7hKYL9hdnsvCUM9c]</p>",
+            "name": "Oczyszczająca broń"
+        },
+        "Cloak of Night": {
+            "description": "<p>Otulasz się wirującym płaszczem cieni. Przez czas trwania zaklęcia twoja klasa pancerza wynosi 17 (20 przy krytycznym wyniku testu rzucania zaklęć).</p><p>Przez czas trwania zaklęcia masz ułatwienie przy testach Zręczności związanych z skradaniem się i ukrywaniem.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.3viSgI4JpKsXdaFd]</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.vP9UrCnOXOe2ViZU]</p>",
+            "name": "Płaszcz nocy"
+        },
+        "Cloud Kill": {
+            "description": "<p>Cuchnąca chmura żółtej trucizny wypełnia sześcian o rozmiarze zbliżonym do zasięgu. Rozprzestrzenia się za rogiem. </p><p>Stworzenia znajdujące się w chmurze są oślepione i na początku swojej tury otrzymują [[/r 2d6]] punktów obrażeń. </p><p>Stworzenie o poziomie 9 lub niższym, które zakończy swoją turę znajdując się całkowicie w chmurze, ginie.</p>",
+            "name": "Zabójcza chmura"
+        },
+        "Command": {
+            "description": "<p>Wydajesz ustne polecenie jednemu stworzeniu znajdującej się w zasięgu, które cię rozumie. Polecenie musi składać się z jednego słowa, na przykład „uklęknij”. Cel wykonuje polecenie tak długo, jak długo utrzymujesz koncentrację. </p><p>Jeśli twoje polecenie w jakikolwiek sposób bezpośrednio szkodzi stworzeniu, może ono wykonać test Charyzmy przeciwko twojemu ostatniemu wynikowi testu rzucania zaklęć. W przypadku sukcesu zaklęcie kończy się.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.y7UlIRecQ47S8qCy]</p>",
+            "name": "Rozkaz"
+        },
+        "Commune": {
+            "description": "<p>Zwracasz się do swojego boga po radę. Możesz zadać MG maksymalnie trzy pytania, na które można odpowiedzieć „tak” lub „nie”. MG odpowiada na każde z nich zgodnie z prawdą, używając słów „tak” lub „nie”. </p><p>Jeśli rzucisz to zaklęcie więcej niż raz w ciągu 24 godzin, nieudany test rzucania zaklęcia należy potraktować jako krytyczną porażkę.</p>",
+            "name": "Kontakt z bóstwem"
+        },
+        "Confusion": {
+            "description": "<p>Hipnotyzujesz jedno widoczne dla ciebie stworzenie znajdujące się w zasięgu. Cel nie może wykonywać akcji, a w swojej turze porusza się w losowym kierunku. Jeśli stworzenie ma poziom 9 lub wyższy, może na początku swojej tury wykonać test MDR w porównaniu z twoim ostatnim wynikiem testu rzucania zaklęć, aby przerwać działanie zaklęcia.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.T0Lrknq9zQry0wwR]</p>",
+            "name": "Zamęt"
+        },
+        "Coven": {
+            "description": "<p>Wzywasz magię, którą dzielisz ze swoimi wiedźmami. </p><p>Odzyskujesz możliwość użycia jednego zaklęcia poziomu 3 lub niższego, którego nie mogłaś już rzucić tego dnia. </p><p>Po pomyślnym rzuceniu tego zaklęcia nie możesz tego zrobić ponownie, dopóki nie zakończysz odpoczynku.</p>",
+            "name": "Sabat"
+        },
+        "Create Undead": {
+            "description": "<p>Przywołujesz mściwe nieumarłe stworzenie, które będzie wykonywać twoje polecenia. </p><p>Kiedy rzucasz to zaklęcie, wybierasz, czy przywołasz zjawę, czy upiora. Stworzenie to pojawia się obok ciebie i znajduje się pod twoją kontrolą. </p><p>Nieumarłe stworzenie działa w twojej turze. Po upływie 1 dnia rozpływa się w dymie.</p>",
+            "name": "Stworzenie nieumarłego"
+        },
+        "Cure Wounds": {
+            "description": "<p>Twój dotyk przywraca słabnące życie.</p><p>Rzuć liczbą kości k6 równą [[/roll (1 + (floor(@level.value/2)))d6]]{1 + połowa twojego poziomu (zaokrąglona w dół)}.</p><p>Jeden z celów, którego dotkniesz, odzyskuje tyle Punktów Wytrzymałości.</p>",
+            "name": "Leczenie ran"
+        },
+        "Curse": {
+            "description": "<p>Stworzenie, którego dotkniesz, zostaje dotknięte jedną z poniższych klątw: </p><p>• Ohydne wrzody i brodawki </p><p>• Wszystkie potrawy smakują jak popiół </p><p>• Głos staje się piskliwy </p><p>• Niepokojące koszmary </p><p>• Zawsze przegrywasz w grach hazardowych </p><p>• Sojusznik zamienia się w wroga </p><p>• Strach przed czymś zwyczajnym </p>",
+            "name": "Przeklęty"
+        },
+        "Detect Magic": {
+            "description": "<p>Przez cały czas trwania zaklęcia możesz wyczuwać obecność magii w bliskim zasięgu. Jeśli skoncentrujesz się przez dwie rundy, zdołasz rozpoznać jej ogólne właściwości. Pełne bariery blokują działanie tego zaklęcia.</p><p>@UUID[Compendium.shadowdark.spell-effects.74WjFjHmUmLAiNGC]</p>",
+            "name": "Wykrywanie magii"
+        },
+        "Detect Thoughts": {
+            "description": "<p>Wglądasz w umysł jednej istoty, którą widzisz w zasięgu zaklęcia.</p><p>W każdej rundzie poznajesz bieżące myśli celu.</p><p>W swojej turze cel wykonuje test Mądrości, którego wynikiem jest porównanie z twoim ostatnim testem rzucania zaklęć. Jeśli cel zda test, zauważa twoją obecność w swoim umyśle, a zaklęcie wygasa.</p>",
+            "name": "Wykrycie myśli"
+        },
+        "Disintegrate": {
+            "description": "<p>Z twojego palca wystrzeliwuje zielony promień, który zamienia stworzenie lub przedmiot w popiół. </p><p>Wybrane stworzenie o poziomie 5 lub niższym natychmiast ginie. Jeśli ma poziom 6 lub wyższy, otrzymuje zamiast tego 3k8 punktów obrażeń. </p><p>Niemagiczny przedmiot o rozmiarach nieprzekraczających wielkości dużego drzewa zostaje zniszczony.</p>",
+            "name": "Dezintegracja"
+        },
+        "Dispel Magic": {
+            "description": "<p>Zakończ jedno zaklęcie, które oddziałuje na jeden widoczny cel znajdujący się w zasięgu.</p>",
+            "name": "Rozproszenie magii"
+        },
+        "Divine Vengeance": {
+            "description": "<p>Stajesz się boskim awatarem gniewu swojego boga, otoczony świętymi płomieniami lub czarną aurą tlącej się zgnilizny. </p><p>Przez czas trwania zaklęcia możesz latać na niewielką odległość, twoje bronie stają się magiczne, a do ataków bronią i zadawanych obrażeń otrzymujesz premię +4.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.o74l0TnCb0E2fAKp]</p>",
+            "name": "Boska zemsta"
+        },
+        "Dominion": {
+            "description": "<p>Potężne istoty przychodzą ci z pomocą. </p><p>Łączny poziom tych istot nie może przekraczać 16. Postacie o charakterze chaotycznym przywołują demony/diabły, a postacie o charakterze praworządnym lub neutralnym – anioły. </p><p>Istoty te działają z własnej woli, pomagając ci w twojej turze. Po upływie 10 rund powracają do swoich światów. </p><p>Nie możesz ponownie rzucić tego zaklęcia, dopóki nie wypełnisz pokuty.</p>",
+            "name": "Dominium"
+        },
+        "Dreamwalk": {
+            "description": "<p>Ty oraz dowolne chętne istoty, z którym jesteś w zwarciu, wkraczacie do snu śpiącej istoty, którą wskażesz, znajdującej się na tej samej płaszczyźnie co ty. </p><p>Ty i wszyscy podróżujący z tobą możecie wyjść z tej istoty, pojawiając się obok niej tak, jakbyście się tam teleportowali.</p>",
+            "name": "Wtargnięcie do snu"
+        },
+        "ed4uEm53IRBonnxY": {
+            "description": "<p>Zaginasz czasoprzestrzeń, przenosząc siebie oraz wszystkie chętne istoty znajdujące się w bezpośrednim sąsiedztwie do wybranego przez ciebie miejsca na innej płaszczyźnie. </p><p>O ile nie byłeś wcześniej w wybranym miejscu, pojawiasz się w losowym miejscu na płaszczyźnie docelowej.</p>",
+            "name": "Sferalny przeskok"
+        },
+        "eKnWZ0LDw93oEqFt": {
+            "description": "<p>Istota, której dotkniesz, staje się niewidzialna na czas trwania zaklęcia.</p><p>Zaklęcie kończy się, jeśli cel zaatakuje lub rzuci zaklęcie.</p><p>@UUID[Compendium.shadowdark.spell-effects.SMXbMbXcj5hLvTjY]</p>",
+            "name": "Niewidzialność"
+        },
+        "Enfeeble": {
+            "description": "<p>U stworzenia, którego dotkniesz, jedna losowa cecha zostanie obniżona do 3 (-4) na tydzień. Rzuć kostką [[/r d6]] aby określić, która to cecha:</p><p>1. Siła, 2. Zręczność, 3. Kondycja, 4. Inteligencja, 5. Mądrość, 6. Charyzma.</p><p>Jeśli nie uda ci się wykonać testu rzucania zaklęcia, zamiast tego jedna z twoich cech zostanie losowo obniżona do 3 na tydzień.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.Ya5tD4kFDne19zZO]</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.1PzBYve4rd4MH6K2]</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.Eojo6v3WsiHEDcKm]</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.0DDkeYKSrNj6JG1l]</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.Jlv9MzbDrXu92djm]</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.OTHSzCFY9zLlwzFF]</p>",
+            "name": "Osłabienie"
+        },
+        "Evoke Rage": {
+            "description": "<p>Wywołujesz szaleńczą furię ukrytą w czyjejś duszy.</p><p>Jeden chętny humanoid, którego dotkniesz, wpada w stan szału. Cel jest odporny na testy morale, otrzymuje ułatwienie do testów SIŁ i ataków wręcz oraz zadaje +1k4 obrażeń przez cały czas trwania zaklęcia.</p><p>Jeśli cel nie zaatakuje innego stworzenia w swojej turze, zaklęcie wygasa. </p><p>@UUID[Compendium.shadowdark.spell-effects.Item.79D3CwKRi78k9BM7]</p>",
+            "name": "Wywołanie szału"
+        },
+        "Eyebite": {
+            "description": "<p>Jedna wybrana przez ciebie istota otrzymuje 1k4 obrażeń i nie może cię dostrzec do końca swojej następnej tury.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.0RrksUfAZkp4LpGe]</p>",
+            "name": "Kąśliwy wzrok"
+        },
+        "Fabricate": {
+            "description": "<p>To zaklęcie nie może być skierowane na stworzenia. </p><p>Przekształcasz surowce wielkości drzewa w gotowe dzieło. Na przykład zamieniasz stos cegieł lub kamieni w most. Gotowe dzieło ponownie zamienia się w surowce po zakończeniu działania zaklęcia.</p>",
+            "name": "Produkcja"
+        },
+        "Fate": {
+            "description": "<p>Boleśnie splatasz złote nici losu jakiejś istoty. Jedna wybrana przez ciebie istota w zasięgu otrzymuje [[/r 1d10]] punktów obrażeń i traci wszystkie posiadane tokeny szczęścia.</p>",
+            "name": "Los"
+        },
+        "Feather Fall": {
+            "description": "<p>Możesz spróbować rzucić to zaklęcie, gdy spadasz. </p><p>Twoje tempo opadania zwalnia, dzięki czemu lądujesz bezpiecznie na nogach. </p>",
+            "name": "Piórkospadanie"
+        },
+        "Finger of Death": {
+            "description": "<p>Jedna istota o poziomie 9 lub niższym, której dotkniesz, ginie. </p><p>Nieudany test rzucania tego zaklęcia traktuj jako krytyczną porażkę i rzuć kostką na wpadkę z utrudnieniem.</p>",
+            "name": "Palec śmierci"
+        },
+        "Fireball": {
+            "description": "<p>Strzelasz małym płomieniem, który przeradza się w ognisty wybuch. Wszystkie istoty znajdujące się w sześcianie o boku równym odległości od miejsca uderzenia płomienia otrzymują [[/r 4d6]] punktów obrażeń.</p>",
+            "name": "Kula ognia"
+        },
+        "Fixed Object": {
+            "description": "<p>Przedmiot, którego dotkniesz, a który waży nie więcej niż 5 funtów, zostaje unieruchomiony w obecnym położeniu. Przez czas trwania zaklęcia może on utrzymać obciążenie o masie do 5 000 funtów.</p>",
+            "name": "Zakotwiczony obiekt"
+        },
+        "Flame Strike": {
+            "description": "<p>Wzywasz świętą kolumnę ognia, która spala na popiół jedną widoczną dla ciebie istotę znajdującą się w zasięgu. Cel otrzymuje 2k6 punktów obrażeń.</p>",
+            "name": "Słup ognia"
+        },
+        "Floating Disk": {
+            "description": "<p>Tworzysz unoszący się w powietrzu okrągły dysk energii z wklęsłym środkiem. Może pomieścić do 20 miejsc na wyposażenie. Unosi się na wysokości pasa i automatycznie pozostaje w pobliżu ciebie. Nie może przekraczać urwisk ani dołów wyższych niż wzrost człowieka. </p><p>@UUID[Compendium.shadowdark.spell-effects.VMkeCfccn7zp2up7]</p>",
+            "name": "Wędrujący dysk"
+        },
+        "Fly": {
+            "description": "<p>Twoje stopy odrywają się od ziemi i unosisz się w powietrze niczym koliber. Przez czas trwania zaklęcia możesz latać blisko ziemi i zawisnąć w miejscu.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.IzCONbtholryomxC]</p>",
+            "name": "Lot"
+        },
+        "Fog": {
+            "description": "<p>Wokół ciebie unosi się gęsta mgła, która utrudnia dostrzeżenie twojej postaci. Mgła przemieszcza się wraz z tobą. Ataki wymierzone w stworzenia znajdujące się w mgle mają utrudnienie.</p>",
+            "name": "Mgła"
+        },
+        "FrdLzy8cWPcVS2Mz": {
+            "description": "<p>Wpatrujesz się w kryształową kulę lub lustrzany basen, wywołując obrazy odległego miejsca. </p><p>Przez czas trwania zaklęcia możesz widzieć i słyszeć wybraną przez siebie istotę lub miejsce znajdujące się na tej samej płaszczyźnie. </p><p>Rzucenie tego zaklęcia wymaga wykonania rzutu z ST 18, jeśli próbujesz przeprowadzić wróżbę dotyczącą istoty lub miejsca, które nie są ci znane. </p><p>W każdej rundzie obserwowane przez ciebie istoty mogą wykonać test Mądrości w porównaniu z twoim ostatnim wynikiem testu rzucania zaklęć. W przypadku sukcesu zdają sobie sprawę z twojej magicznej obserwacji.</p>",
+            "name": "Wizja"
+        },
+        "Freya's Omen": {
+            "description": "<p>Przez cały czas trwania zaklęcia nie tracisz możliwości rzucenia zaklęcia, nawet jeśli nie uda ci się wykonać testu rzucania zaklęcia.</p><p>Jeśli test rzucania zaklęcia zakończy się krytyczną porażką, możesz powtórzyć rzut tylko raz. Musisz zastosować nowy wynik. </p><p>@UUID[Compendium.shadowdark.spell-effects.Item.HBIVwYRcojImlOOx]</p>",
+            "name": "Znak Freyi"
+        },
+        "Frog Rain": {
+            "description": "<p>Deszcz rozgniewanych żab uderza w sześcian o rozmiarze zbliżonym do tego, który widzisz w zasięgu wzroku. </p><p>Wszystkie stworzenia znajdujące się w zasięgu deszczu żab otrzymują 1k6 punktów obrażeń. Żaby, które przeżyły, odskakują i znikają.</p>",
+            "name": "Deszcz żab"
+        },
+        "Gaseous Form": {
+            "description": "<p>Na czas trwania zaklęcia ty i twój ekwipunek zamieniacie się w chmurę dymu.</p><p>Możesz latać i przechodzić przez każdą szczelinę, przez którą mógłby przejść dym. Wyczuwasz ukształtowanie terenu oraz wszelkie ruchy wokół ciebie w bliskiej odległości. </p><p>W tej postaci nie możesz rzucać zaklęć.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.u6apLIMU1w4EIW06]</p>",
+            "name": "Forma gazowa"
+        },
+        "Glassbones": {
+            "description": "<p>Stworzenie, którego dotkniesz, staje się kruche. Przez cały czas trwania zaklęcia otrzymuje podwójne obrażenia.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.qNd9stCSD6ZJyoOj]</p>",
+            "name": "Kruche kości"
+        },
+        "gxSxaMo8eh8mLYYH": {
+            "description": "<p>Teleportujesz siebie i maksymalnie jedną inną chętną istotę w pobliże dowolnego punktu, który widzisz.</p>",
+            "name": "Drzwi przez wymiary"
+        },
+        "Hallucinate": {
+            "description": "<p>Jedna wybrana przez ciebie istota w pobliżu, której poziom jest mniejszy lub równy twojemu, zostaje ogarnięta wizjami tego, co może się jeszcze wydarzyć. </p><p>Przez czas trwania zaklęcia cel nie może wykonać żadnej akcji w swojej turze, chyba że zda test Mądrości równy twojemu ostatniemu testowi rzucania zaklęć.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.PLPiCgwZaEetlx5O]</p>",
+            "name": "Halucynacje"
+        },
+        "Heal": {
+            "description": "<p>Jedna z istot, której dotkniesz, odzyskuje pełną liczbę punktów wytrzymałości. </p><p>Nie możesz ponownie rzucić tego zaklęcia, dopóki nie zakończysz odpoczynku.</p>",
+            "name": "Leczenie"
+        },
+        "Hold Monster": {
+            "description": "<p>Paraliżujesz jedną widoczną dla ciebie istotę znajdującą się w zasięgu. Jeśli cel ma poziom 9 lub wyższy, może na początku swojej tury wykonać test Siły przeciwko twojemu ostatniemu wynikowi testu rzucania zaklęć, aby przerwać działanie zaklęcia.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.PUFCnXLjvBQSM2YO]</p>",
+            "name": "Unieruchomienie potwora"
+        },
+        "Hold Person": {
+            "description": "<p>W magiczny sposób paraliżujesz jedną humanoidalną istotę o poziomie 4 lub niższym, którą widzisz w zasięgu.</p><p>@UUID[Compendium.shadowdark.spell-effects.SN9lU9LUViWo1Plm]</p>",
+            "name": "Unieruchomienie osoby"
+        },
+        "Hold Portal": {
+            "description": "<p>Przez cały czas trwania zaklęcia w magiczny sposób utrzymujesz portal w stanie zamkniętym. Aby otworzyć portal, istota musi wykonać udany test Siły przeciwko twojemu testowi rzucania zaklęć.</p><p>Zaklęcie „Kołatka” przerywa działanie tego zaklęcia.</p><p>@UUID[Compendium.shadowdark.spell-effects.q109XEqMceJBEX7m]</p>",
+            "name": "Unieruchomienie portalu"
+        },
+        "Holy Weapon": {
+            "description": "<p>Każda broń, której dotkniesz, zostaje obdarzona świętym błogosławieństwem.</p><p>Broń ta staje się magiczna i przez cały czas trwania efektu otrzymuje premię +1 do rzutów na atak i obrażenia.</p><p>@UUID[Compendium.shadowdark.spell-effects.r2JNgS2474vuq9oy]</p>",
+            "name": "Święta broń"
+        },
+        "Howl": {
+            "description": "<p>Wszyscy przeciwnicy znajdujący się w bliskim zasięgu muszą natychmiast wykonać test morale. Zaklęcie to nie działa na istoty odporne na testy morale.</p>",
+            "name": "Ryk"
+        },
+        "Hypnotize": {
+            "description": "<p>Jedna istota o poziomie 3 lub niższym, która cię widzi, zostaje ogłupiona. </p><p>Przerwanie linii wzroku tej istoty w twoim kierunku pozwala jej wykonać test [[check 15 cha]]. W przypadku sukcesu zaklęcie kończy się.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.6wfBZBYV85NQTcJz]</p>",
+            "name": "Hipnoza"
+        },
+        "Illusion": {
+            "description": "<p>Tworzysz przekonującą iluzję wizualną i dźwiękową, która wypełnia przestrzeń o wymiarach zbliżonych do sześcianu znajdującego się w zasięgu. </p><p>Iluzja nie może wyrządzić krzywdy, ale istoty, które wierzą, że jest prawdziwa, reagują na nią tak, jakby była. </p><p>Istota, która przygląda się iluzji z daleka, musi zdać test Mądrości w porównaniu z twoim ostatnim wynikiem testu rzucania zaklęć, aby dostrzec fałszywy charakter iluzji. </p><p>Dotknięcie iluzji również ujawnia jej fałszywy charakter.</p>",
+            "name": "Iluzja"
+        },
+        "Judgment": {
+            "description": "<p>Natychmiast przepędzasz stworzenie, którego dotkniesz, wysyłając je wraz ze wszystkimi posiadanymi przez nie przedmiotami, by stanęło przed sądem twojego boga. </p><p>Możesz przepędzić inteligentne stworzenie o poziomie 10 lub niższym. </p><p>Gdy istota powróci po 5 rundach, zostanie wyleczona do pełnej liczby punktów wytrzymałości, jeśli jej czyny zadowoliły twojego boga. Zostanie zredukowana do 1 punktu wytrzymałości, jeśli jej czyny rozgniewały twojego boga. Jeśli twój bóg nie może osądzić jej czynów, pozostaje ona bez zmian.</p>",
+            "name": "Osąd"
+        },
+        "Knock": {
+            "description": "<p>Drzwi, okno, brama, skrzynia lub przejście, które widzisz w zasięgu, natychmiast się otwierają, pokonując wszelkie zwykłe zamki i bariery.</p><p>Zaklęcie to powoduje głośne pukanie, słyszalne dla wszystkich w zasięgu słuchu.</p>",
+            "name": "Kołatka"
+        },
+        "Lay to Rest": {
+            "description": "<p>Natychmiast wysyłasz nieumarłą istotę, której dotkniesz, do jej ostatecznego życia pozagrobowego, całkowicie ją niszcząc. </p><p>Możesz wybrać jako cel nieumarłą istotę o poziomie 9 lub niższym</p>",
+            "name": "Spoczywaj w pokoju"
+        },
+        "Levitate": {
+            "description": "<p>W swojej turze możesz unosić się w pionie na niewielką odległość w każdej rundzie.</p><p>Możesz również odepchnąć się od twardych obiektów, aby poruszać się w poziomie.</p><p>@UUID[Compendium.shadowdark.spell-effects.sLb9GOXx9F6XCb2o]</p>",
+            "name": "Lewitacja"
+        },
+        "Lightning Bolt": {
+            "description": "<p>Z dłoni wystrzeliwujesz niebiesko-białą błyskawicę, która uderza we wszystkie stworzenia znajdujące się na prostej linii aż do dalekiej odległości. </p><p>Stworzenia trafione błyskawicą otrzymują [[/r 3d6]] punktów obrażeń.</p>",
+            "name": "Piorun"
+        },
+        "Loki's Trickery": {
+            "description": "<p>Jesteś przepełniony hipnotyczną przebiegłością Lokiego. Istoty, które usłyszą twoje słowa, zmienią swoje przekonania i wspomnienia tak, by odpowiadały twojej sugestii. </p><p>Wybierz jedną istotę w zasięgu, która może cię usłyszeć i zrozumieć. Wypowiadasz jedno wiarygodne stwierdzenie, prawdziwe lub nie. </p><p>Cel musi wykonać test Mądrości przeciwko twojemu testowi rzucania zaklęć. Jeśli test zakończy się niepowodzeniem, istota ta zacznie wierzyć w to, co powiedziałeś, jakby było to faktem, niezależnie od tego, co wie.</p>",
+            "name": "Podstęp Lokiego"
+        },
+        "Mage Armor": {
+            "description": "<p>Niewidzialna warstwa magicznej mocy chroni twoje najważniejsze organy. Twoja klasa pancerza wynosi 14 (18 przy krytycznym wyniku testu rzucania zaklęcia) przez cały czas trwania zaklęcia.</p><p>@UUID[Compendium.shadowdark.spell-effects.h9MTxzrrPmyhEmRL]</p><p>@UUID[Compendium.shadowdark.spell-effects.Gyol5I0ZdApO8MPe]</p>",
+            "name": "Zbroja maga"
+        },
+        "Magic Circle": {
+            "description": "<p>Tworzysz krąg run o wymiarach zbliżonych do sześcianu, którego środek znajduje się w miejscu, w którym stoisz, i wskazujesz rodzaj stworzeń (na przykład demony). </p><p>Przez cały czas trwania zaklęcia stworzenia wybranego rodzaju nie mogą atakować ani rzucać wrogich zaklęć na nikogo znajdującego się wewnątrz kręgu. Wybrane stworzenia nie mogą również opętywać, zmuszać ani zwodzić nikogo znajdującego się wewnątrz kręgu.</p>",
+            "name": "Krąg magii"
+        },
+        "Magic Missile": {
+            "description": "<p>Masz ułatwienie przy rzucie na rzucenie tego zaklęcia.</p><p>Z twojej otwartej dłoni wystrzeliwuje świecąca błyskawica mocy, zadając [[/r 1d4]] punktów obrażeń jednemu celowi.</p>",
+            "name": "Magiczny pocisk"
+        },
+        "Mass Cure": {
+            "description": "<p>Wszyscy sojusznicy znajdujący się w bliskim zasięgu od ciebie odzyskują 2k6 punktów wytrzymałości.</p>",
+            "name": "Masowe leczenie ran"
+        },
+        "Mirror Image": {
+            "description": "<p>Tworzysz tyle iluzorycznych kopii siebie, ile wynosi połowa twojego poziomu zaokrąglona w dół (minimum 1). Kopie otaczają cię i naśladują twoje zachowanie.</p><p>Za każdym razem, gdy istota cię atakuje, atak ten chybia i powoduje, że jedna z kopii znika.</p><p>Jeśli wszystkie iluzje znikną, zaklęcie kończy się. </p><p>@UUID[Compendium.shadowdark.spell-effects.vI70AaskCqH9tKJ7]</p>",
+            "name": "Lustrzane odbicia"
+        },
+        "Mistletoe": {
+            "description": "<p>Dwa stworzenia, które widzisz w swoim pobliżu, zostają oczarowane sobą nawzajem na 1k8 dni.</p><p>Za każdym razem, gdy jedno z dotkniętych zaklęciem stworzeń otrzyma obrażenia, może wykonać test [[check 15 cha]]. W przypadku sukcesu zaklęcie wygasa. </p><p>@UUID[Compendium.shadowdark.spell-effects.Item.CFnP5fuBHsNZzrkY]</p>",
+            "name": "Jemioła"
+        },
+        "Misty Step": {
+            "description": "<p>W obłoku dymu teleportujesz się na niewielką odległość do miejsca, które widzisz.</p>",
+            "name": "Krok przez mgłę"
+        },
+        "Moonbeam": {
+            "description": "<p>Falujący promień srebrzystego światła księżyca pada na jedną z istot w oddali. Otrzymuje ona 3k6 punktów obrażeń.</p>",
+            "name": "Księżycowy promień"
+        },
+        "Mother of Night": {
+            "description": "<p>Błagasz Matkę Nocy, by obdarzyła cię mocą. </p><p>Wyraź jedno życzenie, formułując je jak najdokładniej. Twoje życzenie się spełnia zgodnie z interpretacją prowadzącego. </p><p>Jeśli nie uda ci się test rzucania zaklęcia, Matka Nocy wciągnie cię do Krainy Zmierzchu, by cię osądzić. Nie możesz ponownie rzucić tego zaklęcia, dopóki nie spełnisz jej żądań.</p>",
+            "name": "Matka Nocy"
+        },
+        "mSj7rWHDvhIIBsAm": {
+            "description": "<p>Ciało zmarłego, którego dotkniesz, odpowiada na twoje pytania odległym, świszczącym głosem.</p><p>Możesz zadać zmarłemu maksymalnie trzy pytania, na które można odpowiedzieć „tak” lub „nie” (po jednym na raz). MG odpowiada na każde z nich zgodnie z prawdą: „tak” lub „nie”.</p><p>Jeśli rzucisz to zaklęcie więcej niż raz w ciągu 24 godzin, nieudany test rzucania zaklęcia należy traktować jako krytyczną porażkę.</p>",
+            "name": "Rozmawianie z umarłymi"
+        },
+        "N4v17mtxJlVBbgpn": {
+            "description": "<p>Jeden z przedmiotów, którego dotkniesz, rozbłyska jasnym, niegenerującym ciepła światłem, oświetlając najbliższe otoczenie przez 1 godzinę czasu rzeczywistego.</p><p>@UUID[Compendium.shadowdark.gear.Item.PkQXG3AaHNMVwGTc]</p><p>@UUID[Compendium.shadowdark.gear.Item.BBDG7QpHOFXG6sKe]</p><p>@UUID[Compendium.shadowdark.gear.Item.rjNBToTJCYLLdVcT]</p>",
+            "name": "Światło"
+        },
+        "Nightmare": {
+            "description": "<p>Wkraczasz do snów śpiącej istoty, zsyłając jej mrożące krew w żyłach koszmary. </p><p>Możesz wybrać jako cel istotę, której poziom jest mniejszy lub równy połowie twojego poziomu, zaokrąglonej w dół (minimum 1). Cel musi spać, a ty musisz go wcześniej widzieć na własne oczy. </p><p>Jeśli uda ci się skupić na tym zaklęciu przez 3 rundy z rzędu, istota umiera ze strachu.</p>",
+            "name": "Koszmar"
+        },
+        "Oak, Ash, Thorn": {
+            "description": "<p>Przez cały czas trwania zaklęcia wróżki, demony i diabły nie mogą cię zaatakować. Istoty te nie mogą również opętać cię, zmusić do czegoś ani omamić.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.88nOOPKvH7t6mhVu]</p>",
+            "name": "Dąb, jesion, cierń"
+        },
+        "Odin's Wisdom": {
+            "description": "<p>Przez cały czas trwania zaklęcia dodaj swoją poziom jako dodatkową premię do testów Mądrości i testów rzucania zaklęć.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.1zAGVkhuWYmSaxgy]</p>",
+            "name": "Mądrość Odyna"
+        },
+        "ojJm3ByDjjHefy2u": {
+            "description": "<p>W magiczny sposób zmieniasz swoją postać fizyczną, zyskując jedną cechę, która modyfikuje twoją dotychczasową budowę anatomiczna.</p><p>Możesz na przykład wyhodować sobie na szyi funkcjonalne skrzela lub pazury niedźwiedzia na palcach. Zaklęcie to nie pozwala na wyhodowanie skrzydeł ani kończyn. </p><p>@UUID[Compendium.shadowdark.spell-effects.f2RsbovyTLEZvxuF]</p>",
+            "name": "Zmiana siebie"
+        },
+        "Passwall": {
+            "description": "<p>W barierze, której dotkniesz, otwiera się tunel o wysokości równej twojej, który utrzymuje się przez cały czas trwania zaklęcia.</p><p>Długość przejścia może wynosić maksymalnie bliską odległość i musi przebiegać w linii prostej.</p>",
+            "name": "Przejście w murze"
+        },
+        "Pc1xrhY9eutcralv": {
+            "description": "<p>Wpatrujesz się w kryształową kulę lub lustrzany basen, wywołując obrazy odległego miejsca. </p><p>Przez czas trwania zaklęcia możesz widzieć i słyszeć wybraną przez siebie istotę lub miejsce znajdujące się na tej samej płaszczyźnie. </p><p>Rzucenie tego zaklęcia wymaga wykonania rzutu z ST 18, jeśli próbujesz przeprowadzić wróżbę dotyczącą istoty lub miejsca, które nie są ci znane. </p><p>W każdej rundzie obserwowane przez ciebie istoty mogą wykonać test Mądrości w porównaniu z twoim ostatnim wynikiem testu rzucania zaklęć. W przypadku sukcesu zdają sobie sprawę z twojej magicznej obserwacji.</p>",
+            "name": "Wizja"
+        },
+        "Pillar of Salt": {
+            "description": "<p>Wybrana przez ciebie istota zamienia się w posąg z utwardzonej soli.</p><p>Możesz wybrać widoczną dla ciebie istotę o poziomie 5 lub niższym.</p><p>Jeśli uda ci się skupić na tym zaklęciu przez 3 rundy z rzędu, przemiana stanie się trwała. </p><p>@UUID[Compendium.shadowdark.spell-effects.Item.6yYj2FkmYppGAl9N]</p>",
+            "name": "Słup soli"
+        },
+        "Pin Doll": {
+            "description": "<p>Przypinasz kosmyk włosów lub kawałek ciała pobrany od jednej istoty do małej lalki z juty, którą wyczarowuje to zaklęcie.</p><p>W swojej turze, skupiając się na tym zaklęciu, możesz wbić szpilkę w lalkę. Za każdym razem, gdy to zrobisz, istota, do której należały włosy lub kawałek ciała, otrzymuje 2k6 punktów obrażeń. Po zakończeniu działania tego zaklęcia kosmyk włosów lub kawałek ciała spala się na popiół. </p><p>@UUID[Compendium.shadowdark.spell-effects.Item.zjm48oHhbVG4XeoB]</p>",
+            "name": "Lalka ze szpilką"
+        },
+        "Poison": {
+            "description": "<p>Jeden z noszonych lub przy sobie przedmiotów, którego dotkniesz, staje się toksyczny na czas trwania zaklęcia. Każda istota, która na początku swojej tury ma kontakt z tym przedmiotem, otrzymuje 1k6 punktów obrażeń.</p>",
+            "name": "Trucizna"
+        },
+        "Potion": {
+            "description": "<p>Aby rzucić to zaklęcie, musisz pobłogosławić pojedynczy łyk dowolnego płynu. </p><p>Płyn zyskuje właściwości lecznicze na 1 dzień. Stworzenie, które go wypije, może zniwelować działanie jednej trucizny lub natychmiast zapobiec śmierci (stworzenie pozostaje przy 0 PW).</p>",
+            "name": "Eliksir"
+        },
+        "Power Word Kill": {
+            "description": "<p>Wypowiadasz Słowo Zagłady. Jedno wybrane przez ciebie stworzenie o poziomie 9 lub niższym ginie, jeśli cię usłyszy. </p><p>Nieudany test rzucania zaklęcia dla tego zaklęcia traktuj jako krytyczną porażkę i wykonaj rzut na wpadkę z utrudnieniem.</p>",
+            "name": "Słowo mocy: Giń"
+        },
+        "Prismatic Orb": {
+            "description": "<p>Wysyłasz migoczącą kulę energii, która pędzi w kierunku celu znajdującego się w zasięgu. </p><p>Wybierz rodzaj energii spośród ognia, zimna lub elektryczności. Kula zadaje 3k8 punktów obrażeń i wywołuje wstrząsową falę wybranego rodzaju energii. </p><p>Jeśli rodzaj energii jest sprzeczny z naturą celu (na przykład energia zimna przeciwko żywiołakowi ognia), kula zadaje mu podwójne obrażenia.</p>",
+            "name": "Pryzmatyczna kula"
+        },
+        "Prophecy": {
+            "description": "<p>Nawiązujesz bezpośredni kontakt ze swoim bogiem, prosząc go o wskazówki. </p><p>Zadaj MG jedno pytanie. MG odpowiada na nie zgodnie z prawdą, korzystając z wiedzy, jaką posiada twój bóg. Bóstwa są potężne, ale nie są wszechwiedzące. </p><p>Nie możesz ponownie rzucić tego zaklęcia, dopóki nie odpokutujesz.</p>",
+            "name": "Proroctwo"
+        },
+        "Protection from Energy": {
+            "description": "<p>Jedno stworzenie, którego dotkniesz, staje się niewrażliwe na dziką furię żywiołów.</p><p>Wybierz ogień, zimno lub elektryczność. Przez czas trwania zaklęcia cel jest niewrażliwy na obrażenia spowodowane energią wybranego typu.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.KXfv6edqcRQdnc7m]</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.8mFFTIDKLulz3Yp6]</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.HxMd3lV8CPpvL3my]</p>",
+            "name": "Ochrona przed energią"
+        },
+        "Puppet": {
+            "description": "<p>Jedno humanoidalne stworzenie o poziomie 2 lub niższym, którego dotkniesz, zostaje uwikłane w twoje ruchy. W swojej turze stworzenie to naśladuje wszystkie twoje ruchy.</p><p>Jeśli naśladowanie ciebie spowodowałoby, że stworzenie to wyrządziłoby bezpośrednią krzywdę sobie lub sojusznikowi, może ono wykonać test [[check 15 cha]]. W przypadku sukcesu stworzenie to opiera się naśladowaniu ciebie. </p><p>@UUID[Compendium.shadowdark.spell-effects.Item.Cu3dona3PiHxO1lK]</p>",
+            "name": "Marionetka"
+        },
+        "PZ0qPp6lG9SVMoAr": {
+            "description": "<p>Istota, której dotkniesz, staje się niewidzialna na czas trwania zaklęcia.</p><p>Zaklęcie kończy się, jeśli cel zaatakuje lub rzuci zaklęcie.</p><p>@UUID[Compendium.shadowdark.spell-effects.SMXbMbXcj5hLvTjY]</p>",
+            "name": "Niewidzialność"
+        },
+        "qz6bKMyDaGyifklx": {
+            "description": "<p>Przemieniasz siebie i cały ekwipunek, który nosisz, w inne naturalne stworzenie, które widziałeś, o poziomie 10 lub niższym. Przyjmujesz parametry fizyczne tego stworzenia, ale zachowujesz swoje parametry niefizyczne (takie jak INT, MDR i CHA).</p><p>Jeśli podczas działania tego zaklęcia twoje PW spadną do 0, powracasz do swojej prawdziwej postaci z 1 PW.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.F89CJeindj8k8oiC]</p>",
+            "name": "Zmiennokształtny"
+        },
+        "Ragnarok": {
+            "description": "<p>Wpatrujesz się głęboko w sploty losu, poznając ostateczny los jednej duszy po bitwie Ragnaroku. Czy przeżyje, czy zginie? </p><p>Wybierz jedno stworzenie w zasięgu. Tą zaklęciem możesz wybrać to samo stworzenie tylko raz. </p><p>Stworzenie to musi zdać test Kondycji równy twojemu testowi rzucania zaklęć, albo natychmiast zginie.</p>",
+            "name": "Ragnarok"
+        },
+        "Raven": {
+            "description": "<p>Szepczesz wiadomość do kruków samego Odyna, a one przenoszą ją przez wszystkie światy do adresata. </p><p>Wypowiedz krótkie zdanie oraz imię adresata – żywego lub zmarłego. Stworzenie to usłyszy twoje słowa, szepnięte w jego umyśle.</p>",
+            "name": "Kruk"
+        },
+        "Read the Runes": {
+            "description": "<p>Zadajesz bogom pytanie, rzucasz kamienie runiczne i interpretujesz znaczenie wyników. </p><p>Zadaj mistrzowi gry jedno pytanie, na które można odpowiedzieć „tak” lub „nie”. Mistrz gry odpowiada zgodnie z prawdą „tak” lub „nie”.</p>",
+            "name": "Czytanie z run"
+        },
+        "Rebuke Unholy": {
+            "description": "<p>Odpędzasz stworzenia sprzeciwiające się twojemu charakterowi, zmuszając je do ucieczki. Aby rzucić to zaklęcie, musisz pokazać święty symbol.</p><p>Jeśli jesteś postacią praworządną lub neutralną, zaklęcie to działa na demony, diabły i istoty z innego wymiaru. Jeśli jesteś postacią chaotyczną, zaklęcie to działa na anioły i dzikie stworzenia.</p><p>Stworzenia w bliskim zasięgu od ciebie muszą wykonać test CHA przeciwko twojemu testowi rzucania zaklęć. Jeśli stworzenie nie zda testu o 10 lub więcej punktów i ma poziom równy lub niższy od twojego, zostaje zniszczone. W przeciwnym razie, w przypadku niepowodzenia, ucieka przed tobą na 5 rund.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.aQfBagCGogkjgCS8]</p>",
+            "name": "Potępienie nieświętych"
+        },
+        "Regenerate": {
+            "description": "<p>Stworzenie, którego dotkniesz, odzyskuje 1k4 punktów Wytrzymałości w twojej turze przez cały czas trwania zaklęcia. Zaklęcie to pozwala również na odrodzenie utraconych części ciała.</p>",
+            "name": "Regeneracja"
+        },
+        "Resilient Sphere": {
+            "description": "<p>Tworzysz wokół siebie nieważką, szklistą kulę, która rozciąga się na najbliższy obszar. </p><p>Przez cały czas trwania zaklęcia nic nie może przejść przez tę kulę ani jej zniszczyć. </p><p>W swojej turze możesz wykonać rzut kulą na niewielką odległość.</p>",
+            "name": "Sprężysta sfera"
+        },
+        "Restoration": {
+            "description": "<p>Jednym dotknięciem rąk usuwasz klątwy i choroby. Jedna wybrana przez ciebie klątwa, choroba lub dolegliwość dotykająca wybrane stworzenie ustaje</p>",
+            "name": "Przywrócenie"
+        },
+        "Sacrifice": {
+            "description": "<p>Aby rzucić to zaklęcie, musisz rytualnie złożyć w ofierze żywe stworzenie o poziomie 2 lub wyższym. </p><p>Cel, którego dotkniesz, otrzymuje premię do następnego testu lub rzutu ataku równą poziomowi ofiarowanego stworzenia.</p>",
+            "name": "Złożony w ofierze"
+        },
+        "Sending": {
+            "description": "<p>Wysyłasz krótką, telepatyczną wiadomość do dowolnego stworzenia, które znasz i które znajduje się na tej samej płaszczyźnie.</p>",
+            "name": "Nadanie wiadomości"
+        },
+        "Shadowdance": {
+            "description": "<p>Tworzysz z materii cienia przekonującą iluzję widzialną i słyszalną w punkcie znajdującym się w bliskim zasięgu. </p><p>Iluzja może być wielkości człowieka i może poruszać się w bliskim zasięgu od miejsca, w którym się pojawiła. </p><p>Iluzja nie może oddziaływać na przedmioty fizyczne. Dotknięcie iluzji ujawnia jej fałszywy charakter.</p>",
+            "name": "Taniec cieni"
+        },
+        "Shield of Faith": {
+            "description": "<p>Otacza cię ochronna siła wynikająca z twojego świętego przekonania. Przez cały czas trwania zaklęcia otrzymujesz premię +2 do klasy pancerza.</p><p>@UUID[Compendium.shadowdark.spell-effects.4dCcpPeyRKWt9XkC]</p>",
+            "name": "Tarcza wiary"
+        },
+        "Silence": {
+            "description": "<p>W magiczny sposób wyciszasz dźwięk w sześcianie znajdującym się w zasięgu zaklęcia. Stworzenia znajdujące się w tym obszarze stają się ogłuszone, a żadne dźwięki, które wydają, nie są słyszalne.</p><p>@UUID[Compendium.shadowdark.spell-effects.aAdqy5QwVJrT8JWE]</p>",
+            "name": "Cisza"
+        },
+        "Sleep": {
+            "description": "<p>Rzucasz zaklęcie usypiające, które wypełnia sześcian w pobliżu ciebie. Stworzenia żywe znajdujące się w obszarze działania zaklęcia zapadają w głęboki sen, jeśli mają poziom 2 lub niższy.</p><p>Obudzą je obrażenia lub energiczne potrząsanie.</p><p>@UUID[Compendium.shadowdark.spell-effects.FrFilluk4S5VaWut]</p>",
+            "name": "Uśpienie"
+        },
+        "Smite": {
+            "description": "<p>Zwołujesz niszczycielski ogień na widoczne stworzenie znajdujące się w zasięgu. Otrzymuje ono [[/r 1d6]] punktów obrażeń.</p>",
+            "name": "Ugodzenie"
+        },
+        "Soul Jar": {
+            "description": "<p>Przenosisz duszę jednego z dotkniętych przez ciebie stworzeń o poziomie 9 lub niższym do naczynia, np. słoika. Ciało tego stworzenia zapada w śpiączkę, ale nie umiera. </p><p>Jeśli naczynie się otworzy lub pęknie, dusza stworzenia powraca do jej ciała. </p><p>Możesz opętać puste ciało własnym duchem, przejmując nad nim kontrolę. W tym czasie twoje ciało zapada w śpiączkę. Jeśli ciało umrze, gdy je opanowujesz, twoja dusza powraca do twojego ciała.</p>",
+            "name": "Słój duszy"
+        },
+        "Soulbind": {
+            "description": "<p>Zapieczętowujesz duszę żywego stworzenia, uniemożliwiając magii przenikanie do niej.</p><p>Jedno stworzenie, którego dotkniesz, staje się niemal całkowicie odporne na wszelką magię. Przez czas trwania zaklęcia rzucenie wszystkich innych zaklęć skierowanych na to stworzenie (szkodliwych lub pomocnych) wymaga uzyskania wyniku 18 w rzucie na trudność (ST 18).</p><p>Zaklęcie to kończy się, gdy tylko cel zostanie objęty działaniem innego zaklęcia. </p><p>@UUID[Compendium.shadowdark.spell-effects.Item.z7X1jRQHFTnSXpds]</p>",
+            "name": "Więź duszy"
+        },
+        "Spidersilk": {
+            "description": "<p>Lepka pajęcza sieć pokrywa twoje dłonie i stopy.</p><p>Przez czas trwania zaklęcia możesz poruszać się po pionowych powierzchniach tak łatwo, jakby były płaskim podłożem.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.4UAVHmqFCt47sh7D]</p>",
+            "name": "Pajęczy jedwab"
+        },
+        "Stoneskin": {
+            "description": "<p>Twoja skóra staje się twarda jak granit. Przez czas trwania zaklęcia twoja klasa pancerza wynosi 17 (20 przy krytycznym wyniku testu rzucania zaklęć).</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.deNtIVyGoXaDPrmJ]</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.5rK6guXTllcryhLv]</p>",
+            "name": "Kamienna skóra"
+        },
+        "Summon Extraplanar": {
+            "description": "<p>Sięgasz do zewnętrznych płaszczyzn, przywołując stworzenie. </p><p>Przywołujesz żywiołaka lub istotę z innego świata o poziomie 7 lub niższym. Stworzenie to znajduje się pod twoją kontrolą i działa w twojej turze. </p><p>Jeśli stracisz koncentrację na tym zaklęciu, tracisz kontrolę nad stworzeniem, a ono staje się wrogie wobec ciebie i twoich sojuszników. </p><p>Musisz zdać test rzucania zaklęć w swojej turze, aby odesłać stworzenie do zewnętrznych płaszczyzn.</p>",
+            "name": "Przywołanie istoty pozaplanarnej"
+        },
+        "Swarm": {
+            "description": "<p>W sześcianie o niewielkich rozmiarach, otaczającym punkt widoczny w zasięgu, pojawia się gęsty rój gryzących nietoperzy, szczurów lub szarańczy. </p><p>Wszystkie stworzenia, które rozpoczynają swoją turę w obrębie roju, otrzymują 2k6 obrażeń i zostają oślepione.</p>",
+            "name": "Rój"
+        },
+        "Telekinesis": {
+            "description": "<p>Podnosisz stworzenie lub przedmiot siłą umysłu. Wybierz cel o masie nieprzekraczającej 450 kg. Możesz przenieść go na niewielką odległość w dowolnym kierunku i utrzymać w miejscu.</p>",
+            "name": "Telekineza"
+        },
+        "Teleport": {
+            "description": "<p>Ty oraz dowolne chętne stworzenia, które wybierzesz w bliskim zasięgu, teleportujecie się do wskazanego przez ciebie miejsca na tej samej płaszczyźnie. </p><p>Możesz udać się do znanego symbolu teleportacyjnego lub do miejsca, w którym już kiedyś byłeś. W przeciwnym razie istnieje 50% szansy, że dotrzesz w miejsce inne niż docelowe.</p>",
+            "name": "Teleportacja"
+        },
+        "Thor's Thunder": {
+            "description": "<p>Thor rzuca błyskawicę, która wykonuje atak na jeden cel. Cel otrzymuje [[/r 3d6]] punktów obrażeń.</p>",
+            "name": "Grzmot Thora"
+        },
+        "TKDuwFu1hP2lX549": {
+            "description": "<p>Możesz przemieszczać i kształtować wodę. Możesz sprawić, że obszar wody o szerokości i głębokości do 100 stóp zmieni kształt, przeciwstawi się grawitacji lub zacznie płynąć w innym kierunku.</p>",
+            "name": "Kontrola wody"
+        },
+        "Toadstool": {
+            "description": "<p>W dłoni pojawia się pulchny, cętkowany grzyb. Znika on pod koniec twojej następnej tury. </p><p>Stworzenie, które zje ten grzyb, odzyskuje 1k6 punktów wytrzymałości.</p>",
+            "name": "Podgrzybek"
+        },
+        "Trance": {
+            "description": "<p>Wchodzisz w trans, dostrzegając przelotne przebłyski losu jakiegoś stworzenia. Jedno z humanoidalnych stworzeń, którego dotkniesz (nie możesz wybrać siebie), otrzymuje token szczęścia. Stworzenie to nie może posiadać więcej niż jednego tokenu szczęścia jednocześnie.</p>",
+            "name": "Trans"
+        },
+        "Turn Undead": {
+            "description": "<p>Odpędzasz nieumarłe stworzenia, zmuszając je do ucieczki. Aby rzucić to zaklęcie, musisz pokazać święty symbol.</p><p>Nieumarłe stworzenia znajdujące się w bliskim zasięgu muszą wykonać test CHA, którego wynikiem jest twoja wartość rzucania zaklęć. Jeśli stworzenie nie zda testu o 10 lub więcej punktów i ma poziom równy lub niższy od twojego, zostaje zniszczone. W przeciwnym razie, w przypadku niepowodzenia, ucieka przed tobą na 5 rund.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.T4LUCIffieQPMGsN]</p>",
+            "name": "Odpędzanie nieumarłych"
+        },
+        "u5L1U39xj8Jfdl8A": {
+            "description": "<p>Ciało zmarłego, którego dotkniesz, odpowiada na twoje pytania odległym, świszczącym głosem.</p><p>Możesz zadać zmarłemu maksymalnie trzy pytania, na które można odpowiedzieć „tak” lub „nie” (po jednym na raz). MG odpowiada na każde z nich zgodnie z prawdą: „tak” lub „nie”.</p><p>Jeśli rzucisz to zaklęcie więcej niż raz w ciągu 24 godzin, nieudany test rzucania zaklęcia należy traktować jako krytyczną porażkę.</p>",
+            "name": "Rozmawianie z umarłymi"
+        },
+        "UWGzL8qsentdrvar": {
+            "description": "<p>Teleportujesz siebie i maksymalnie jedną inną chętną istotę w pobliże dowolnego punktu, który widzisz.</p>",
+            "name": "Drzwi przez wymiary"
+        },
+        "Valkyrie": {
+            "description": "<p>Przywołujesz na wsparcie walkirię. Pojawia się ona w pobliskim miejscu i z własnej woli pomaga ci. Po zakończeniu działania zaklęcia powraca do Walhalli. </p><p>Nie możesz ponownie rzucić tego zaklęcia, dopóki nie wypełnisz pokuty.</p>",
+            "name": "Walkiria"
+        },
+        "vJpDgIOWYiUYX5jv": {
+            "description": "<p>Rzucasz kości wróżebne lub wpatrujesz się w czerń między gwiazdami, szukając znaku.</p><p>Możesz zadać MG jedno pytanie, na które można odpowiedzieć „tak” lub „nie”. MG odpowiada zgodnie z prawdą „tak” lub „nie”. </p><p>Jeśli rzucisz to zaklęcie więcej niż raz w ciągu 24 godzin, nieudany test rzucania zaklęcia traktuj jako krytyczną porażkę.</p>",
+            "name": "Wieszczenie"
+        },
+        "Void Stare": {
+            "description": "<p>Gdy spoglądasz w ciemność między gwiazdami, twoje oczy stają się czarne.</p><p>Jedno widoczne dla ciebie stworzenie o poziomie 6 lub niższym przechodzi pod twoją kontrolę. To ty decydujesz o jego działaniach podczas jego tury.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.nctlTXcIkACzb0yd]</p>",
+            "name": "Puste spojrzenie"
+        },
+        "Wall of Force": {
+            "description": "<p>Podnosisz ręce, tworząc przezroczystą ścianę mocy. </p><p>Ta cienka ściana musi być ciągła i może zajmować obszar o szerokości i długości zbliżonej do rozmiarów postaci. Ty wybierasz jej kształt. </p><p>Żadna rzecz znajdująca się w tej samej płaszczyźnie nie może fizycznie przejść przez tę ścianę.</p>",
+            "name": "Ściana mocy"
+        },
+        "WCWsRH7oi6ARjE6F": {
+            "description": "<p>Jeden z przedmiotów, którego dotkniesz, rozbłyska jasnym, niegenerującym ciepła światłem, oświetlając najbliższe otoczenie przez 1 godzinę czasu rzeczywistego.</p><p>@UUID[Compendium.shadowdark.gear.Item.PkQXG3AaHNMVwGTc]</p><p>@UUID[Compendium.shadowdark.gear.Item.BBDG7QpHOFXG6sKe]</p><p>@UUID[Compendium.shadowdark.gear.Item.rjNBToTJCYLLdVcT]</p>",
+            "name": "Światło"
+        },
+        "Web": {
+            "description": "<p>W zasięgu zaklęcia tworzysz sześcian o rozmiarach zbliżonych do twoich, wypełniony lepką, gęstą pajęczyną. Stworzenie uwięzione w pajęczynie nie może się poruszać i musi wykonać test Siły, w którym jako przeciwnik występuje twój test rzucania zaklęć, aby się uwolnić.</p><p>@UUID[Compendium.shadowdark.spell-effects.28PPFz1MYTsfPwzh]</p>",
+            "name": "Pajęczyna"
+        },
+        "Whisper": {
+            "description": "<p>Szepczesz do ucha innego stworzenia, wszczepiając mu fałszywe wspomnienie.</p><p>Opisujesz jedno krótkie, fałszywe wspomnienie, które cel od tej pory będzie uważał za prawdziwe.</p><p>Jeśli nie uda ci się ten test rzucania zaklęcia, to zamiast tego MG wybiera krótkie, fałszywe wspomnienie, które wszczepi w twoim umyśle.</p>",
+            "name": "Szept"
+        },
+        "Willowman": {
+            "description": "<p>Wzywasz Strzygę, by pojawił się w umyśle jednego stworzenia, napełniając go nadprzyrodzonym przerażeniem.</p><p>Wybierz jedno stworzenie o poziomie 2 lub niższym znajdujące się w zasięgu. Stworzenie to musi natychmiast wykonać test morale.</p><p>Nawet stworzenia, które zazwyczaj nie podlegają testom morale (takie jak nieumarli), muszą go wykonać. </p><p><strong>Strzyga.</strong> </p><p>Blady, bez twarzy mężczyzna o wydłużonych kończynach i zakrzywionych szponach, którymi drapie ziemię. Porusza się szybkimi, gwałtownymi ruchami w każdym mrugnięciu oka.</p>",
+            "name": "Strzyga"
+        },
+        "Wish": {
+            "description": "<p>To potężne zaklęcie zmienia rzeczywistość. </p><p>Wyraź jedno życzenie, formułując je jak najdokładniej. Twoje życzenie się spełnia zgodnie z interpretacją MG. </p><p>Nieudany test rzucania tego zaklęcia traktuj jako krytyczną porażkę i wykonaj rzut na wpadkę z utrudnieniem.</p>",
+            "name": "Życzenie"
+        },
+        "Witchlight": {
+            "description": "<p>Przywołujesz unoszące się w powietrzu bagienne światło, które kołysze się i oświetla niewielki obszar wokół siebie. </p><p>Światło może zmieniać kolory i przybierać nieokreślone kształty. W swojej turze możesz je przesunąć na niewielką odległość.</p>",
+            "name": "Bagienny ognik"
+        },
+        "WlnajkFi0WquohS1": {
+            "description": "<p>Zaginasz czasoprzestrzeń, przenosząc siebie oraz wszystkie chętne istoty znajdujące się w bezpośrednim sąsiedztwie do wybranego przez ciebie miejsca na innej płaszczyźnie. </p><p>O ile nie byłeś wcześniej w wybranym miejscu, pojawiasz się w losowym miejscu na płaszczyźnie docelowej.</p>",
+            "name": "Sferalny przeskok"
+        },
+        "Wolfshape": {
+            "description": "<p>Na czas trwania zaklęcia ty i twój ekwipunek przemienicie się w wilka. Przyjmujesz SIŁ, ZRC, KON, PW, KP, szybkość, ataki i cechy fizyczne wilka, zachowując jednak INT, MDR i CHA.</p><p>W tej postaci możesz rzucać zaklęcia. Jeśli twoje punkty wytrzymałości spadną do 0, powracasz do swojej prawdziwej postaci przy 0 PW.</p><p>Jeśli masz poziom 5 lub wyższy, możesz zamiast tego przemienić się w wilkora lub zimowego wilka.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.B9ChlhtUjECrLlre]</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.3vCyl2kqfz31N1yP]</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.cC4hF54uctVhvvCo]</p>",
+            "name": "Postać wilka"
+        },
+        "World Serpent": {
+            "description": "<p>Z broni stworzenia, którego dotkniesz, wycieka męcząca trucizna Węża Świata. </p><p>Przez cały czas trwania zaklęcia cel zadaje x2 obrażenia przy każdym ataku (x4 w przypadku trafienia krytycznego).</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.sZ6msFePi3R6DUju]</p>",
+            "name": "Wąż Świata"
+        },
+        "World Tree": {
+            "description": "<p>Korzenie życiodajnego Drzewa Świata oplatają duszę stworzenia, które dotkniesz.</p><p>Przez cały czas trwania zaklęcia zdrowie celu nie może spaść poniżej 1 PW.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.FDyJAnR0Fk9cZZEf]</p>",
+            "name": "Drzewo Świata"
+        },
+        "Wrath": {
+            "description": "<p>Twoja broń zyskuje właściwości magiczne +2 i zadaje dodatkowe obrażenia w wysokości k8 przez cały czas trwania zaklęcia.</p><p>@UUID[Compendium.shadowdark.spell-effects.Item.pKu2XsypNq65vkbV]</p>",
+            "name": "Gniew"
+        },
+        "XqmdS3rvMT9LlznC": {
+            "description": "<p>W magiczny sposób zmieniasz swoją postać fizyczną, zyskując jedną cechę, która modyfikuje twoją dotychczasową budowę anatomiczna.</p><p>Możesz na przykład wyhodować sobie na szyi funkcjonalne skrzela lub pazury niedźwiedzia na palcach. Zaklęcie to nie pozwala na wyhodowanie skrzydeł ani kończyn. </p><p>@UUID[Compendium.shadowdark.spell-effects.f2RsbovyTLEZvxuF]</p>",
+            "name": "Zmiana siebie"
+        },
+        "ZNBBGiXdR7bEpE79": {
+            "description": "<p>Przez cały czas trwania zaklęcia istoty chaotyczne mają utrudnienie przy rzutach na atak i testach rzucania wrogich zaklęć przeciwko celowi. Istoty te nie mogą również opętać, zmusić ani omamić tego celu.</p><p>Gdy zaklęcie zostanie rzucone na cel, który jest już opętany, opętująca istota wykonuje test CHA w porównaniu z wynikiem ostatniego testu rzucania zaklęć. W przypadku porażki istota zostaje wypędzona.</p><p>@UUID[Compendium.shadowdark.spell-effects.H7v5Izebo8O45DXB]</p>",
+            "name": "Ochrona przed złem"
+        },
+        "Zone of Truth": {
+            "description": "<p>Zmuszasz widoczne dla ciebie stworzenie do mówienia prawdy. Nie może ono celowo kłamać, gdy znajduje się w zasięgu zaklęcia.</p><p>@UUID[Compendium.shadowdark.spell-effects.cL5aPfXcad9FtHoK]</p>",
+            "name": "Strefa prawdy"
+        }
+    },
+    "folders": {
+        "Priest": "Kapłan",
+        "Seer": "Widzący",
+        "Tier 1": "Stopień 1",
+        "Tier 2": "Stopień 2",
+        "Tier 3": "Stopień 3",
+        "Tier 4": "Stopień 4",
+        "Tier 5": "Stopień 5",
+        "Witch": "Wiedźma",
+        "Wizard": "Czarodziej"
+    }
+}
