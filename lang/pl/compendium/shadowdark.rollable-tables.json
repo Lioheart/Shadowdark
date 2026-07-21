@@ -5,218 +5,5012 @@
         "name": "name",
         "results": {
             "path": "results",
-            "converter": "tableResults"
+            "converter": "document",
+            "documentType": "TableResult",
+            "cardinality": "many",
+            "mapping": {
+                "_identity": {
+                    "export": [
+                        "range",
+                        "_id"
+                    ],
+                    "match": [
+                        "_id",
+                        "range"
+                    ]
+                },
+                "name": {
+                    "path": "name",
+                    "converter": "referencedDocumentField",
+                    "uuidPath": "documentUuid",
+                    "referencedField": "name"
+                },
+                "description": "description"
+            }
         }
     },
     "entries": {
         "Adventuring Site Name: Name 1": {
-            "name": "Nazwa miejsca przygody: Nazwa 1"
+            "name": "Nazwa miejsca przygody: Nazwa 1",
+            "results": {
+                "1-1": {
+                    "description": "Kopalnie"
+                },
+                "2-2": {
+                    "description": "Opactwo"
+                },
+                "3-3": {
+                    "description": "Wieża"
+                },
+                "4-4": {
+                    "description": "Jaskinie"
+                },
+                "5-5": {
+                    "description": "Kurhan"
+                },
+                "6-6": {
+                    "description": "Labirynt"
+                },
+                "7-7": {
+                    "description": "Krypta"
+                },
+                "8-8": {
+                    "description": "Klasztor"
+                },
+                "9-9": {
+                    "description": "Ruiny"
+                },
+                "10-10": {
+                    "description": "Tunele"
+                },
+                "11-11": {
+                    "description": "Cytadela"
+                },
+                "12-12": {
+                    "description": "Grobowiec"
+                },
+                "13-13": {
+                    "description": "Zamek"
+                },
+                "14-14": {
+                    "description": "Świątynia"
+                },
+                "15-15": {
+                    "description": "Twierdza"
+                },
+                "16-16": {
+                    "description": "Wyspa"
+                },
+                "17-17": {
+                    "description": "Skarbiec"
+                },
+                "18-18": {
+                    "description": "Loch"
+                },
+                "19-19": {
+                    "description": "Nekropolia"
+                },
+                "20-20": {
+                    "description": "Kapliczka"
+                }
+            }
         },
         "Adventuring Site Name: Name 2": {
-            "name": "Nazwa miejsca przygody: Nazwa 2"
+            "name": "Nazwa miejsca przygody: Nazwa 2",
+            "results": {
+                "1-1": {
+                    "description": "Przeklętości"
+                },
+                "2-2": {
+                    "description": "Szeptania"
+                },
+                "3-3": {
+                    "description": "Krwawienia"
+                },
+                "4-4": {
+                    "description": "Zasłonięcia"
+                },
+                "5-5": {
+                    "description": "Stracenia"
+                },
+                "6-6": {
+                    "description": "Śmierci"
+                },
+                "7-7": {
+                    "description": "Głębokiego lasu"
+                },
+                "8-8": {
+                    "description": "Upadania"
+                },
+                "9-9": {
+                    "description": "Powracania"
+                },
+                "10-10": {
+                    "description": "Zamarzania"
+                },
+                "11-11": {
+                    "description": "Lśnienia"
+                },
+                "12-12": {
+                    "description": "Chaosu"
+                },
+                "13-13": {
+                    "description": "Porzucenia"
+                },
+                "14-14": {
+                    "description": "Zniszczenia"
+                },
+                "15-15": {
+                    "description": "Zapomnienia"
+                },
+                "16-16": {
+                    "description": "Snu"
+                },
+                "17-17": {
+                    "description": "Okrutności"
+                },
+                "18-18": {
+                    "description": "Nieświętości"
+                },
+                "19-19": {
+                    "description": "Zaczarowania"
+                },
+                "20-20": {
+                    "description": "Nieśmiertelności"
+                }
+            }
         },
         "Adventuring Site Name: Name 3": {
-            "name": "Nazwa miejsca przygody: Nazwa 3"
+            "name": "Nazwa miejsca przygody: Nazwa 3",
+            "results": {
+                "1-1": {
+                    "description": "Płomienia"
+                },
+                "2-2": {
+                    "description": "Ducha"
+                },
+                "3-3": {
+                    "description": "Ciemności"
+                },
+                "4-4": {
+                    "description": "Szczytu"
+                },
+                "5-5": {
+                    "description": "Pogranicza"
+                },
+                "6-6": {
+                    "description": "Króla"
+                },
+                "7-7": {
+                    "description": "Zmierzchu"
+                },
+                "8-8": {
+                    "description": "Głębin"
+                },
+                "9-9": {
+                    "description": "Klejnotu"
+                },
+                "10-10": {
+                    "description": "Boga"
+                },
+                "11-11": {
+                    "description": "Ziem"
+                },
+                "12-12": {
+                    "description": "Burzy"
+                },
+                "13-13": {
+                    "description": "Bagna"
+                },
+                "14-14": {
+                    "description": "Wąwozu"
+                },
+                "15-15": {
+                    "description": "Doliny"
+                },
+                "16-16": {
+                    "description": "Hordy"
+                },
+                "17-17": {
+                    "description": "Czaszki"
+                },
+                "18-18": {
+                    "description": "Królowej"
+                },
+                "19-19": {
+                    "description": "Pustkowi"
+                },
+                "20-20": {
+                    "description": "Bohatera"
+                }
+            }
         },
         "Background": {
             "description": "<p>Twoja wiedza i umiejętności wynikające z przeszłości mogą okazać się przydatne podczas twoich przygód.</p><p>Uzgodnij z MG, czy twoja przeszłość daje ci ułatwienie w danej sytuacji.</p>",
-            "name": "Przeszłość"
+            "name": "Przeszłość",
+            "results": {
+                "1-1": {
+                    "name": "Łobuz"
+                },
+                "2-2": {
+                    "name": "Poszukiwany"
+                },
+                "3-3": {
+                    "name": "Wtajemniczony w kult"
+                },
+                "4-4": {
+                    "name": "Gildia Złodziei"
+                },
+                "5-5": {
+                    "name": "Wygnany"
+                },
+                "6-6": {
+                    "name": "Osierocony"
+                },
+                "7-7": {
+                    "name": "Uczeń czarodzieja"
+                },
+                "8-8": {
+                    "name": "Jubiler"
+                },
+                "9-9": {
+                    "name": "Zielarz"
+                },
+                "10-10": {
+                    "name": "Barbarzyńca"
+                },
+                "11-11": {
+                    "name": "Najemnik"
+                },
+                "12-12": {
+                    "name": "Marynarz"
+                },
+                "13-13": {
+                    "name": "Akolita"
+                },
+                "14-14": {
+                    "name": "Żołnierz"
+                },
+                "15-15": {
+                    "name": "Łowca"
+                },
+                "16-16": {
+                    "name": "Zwiadowca"
+                },
+                "17-17": {
+                    "name": "Minstrel"
+                },
+                "18-18": {
+                    "name": "Uczony"
+                },
+                "19-19": {
+                    "name": "Szlachta"
+                },
+                "20-20": {
+                    "name": "Chirurg"
+                }
+            }
         },
         "Black Lotus Talents": {
             "description": "<p>Możesz zatrzymać duplikaty lub je ponownie wygenerować</p>",
-            "name": "Talenty Czarnego Lotosu"
+            "name": "Talenty Czarnego Lotosu",
+            "results": {
+                "1-1": {
+                    "description": "Zyskujesz dwa talenty Czarnego Lotosu"
+                },
+                "2-2": {
+                    "name": "Paraliżowanie celu"
+                },
+                "3-3": {
+                    "name": "Unikanie uwięzienia / urazów"
+                },
+                "4-4": {
+                    "name": "+1 do KP przy walce dwoma broniami"
+                },
+                "5-5": {
+                    "name": "Dodatkowe PW"
+                },
+                "6-6": {
+                    "name": "Potrójne obrażenia zabójcy"
+                },
+                "7-7": {
+                    "name": "Testy morale przy ST 18"
+                },
+                "8-8": {
+                    "name": "Chodzenie po wodzie"
+                },
+                "9-9": {
+                    "name": "Usypianie stworzenia"
+                },
+                "10-10": {
+                    "name": "Chodzenie po stromych powierzchniach"
+                },
+                "11-11": {
+                    "name": "+1 do obrażeń zadawanych w walce wręcz"
+                },
+                "12-12": {
+                    "name": "Ukrycie przed stworzeniem"
+                },
+                "ObIfXvSHGcmkhgzX": {
+                    "name": "Talenty Czarnego Lotosu"
+                },
+                "PedzlngrlmGSd2AU": {
+                    "name": "Talenty Czarnego Lotosu"
+                }
+            }
         },
         "Character Names: Dwarf": {
-            "name": "Imiona postaci: Krasnolud"
+            "name": "Imiona postaci: Krasnolud",
+            "results": {
+                "1-1": {
+                    "name": "Hilde",
+                    "description": "Hilde"
+                },
+                "2-2": {
+                    "name": "Torbin",
+                    "description": "Torbin"
+                },
+                "3-3": {
+                    "name": "Marga",
+                    "description": "Marga"
+                },
+                "4-4": {
+                    "name": "Bruno",
+                    "description": "Bruno"
+                },
+                "5-5": {
+                    "name": "Karina",
+                    "description": "Karina"
+                },
+                "6-6": {
+                    "name": "Naugrim",
+                    "description": "Naugrim"
+                },
+                "7-7": {
+                    "name": "Brenna",
+                    "description": "Brenna"
+                },
+                "8-8": {
+                    "name": "Darvin",
+                    "description": "Darvin"
+                },
+                "9-9": {
+                    "name": "Elga",
+                    "description": "Elga"
+                },
+                "10-10": {
+                    "name": "Alric",
+                    "description": "Alric"
+                },
+                "11-11": {
+                    "name": "Isolde",
+                    "description": "Isolde"
+                },
+                "12-12": {
+                    "name": "Gendry",
+                    "description": "Gendry"
+                },
+                "13-13": {
+                    "name": "Bruga",
+                    "description": "Bruga"
+                },
+                "14-14": {
+                    "name": "Junnor",
+                    "description": "Junnor"
+                },
+                "15-15": {
+                    "name": "Vidrid",
+                    "description": "Vidrid"
+                },
+                "16-16": {
+                    "name": "Torson",
+                    "description": "Torson"
+                },
+                "17-17": {
+                    "name": "Brielle",
+                    "description": "Brielle"
+                },
+                "18-18": {
+                    "name": "Ulfgar",
+                    "description": "Ulfgar"
+                },
+                "19-19": {
+                    "name": "Sarna",
+                    "description": "Sarna"
+                },
+                "20-20": {
+                    "name": "Grimm",
+                    "description": "Grimm"
+                }
+            }
         },
         "Character Names: Elf": {
-            "name": "Imiona postaci: Elf"
+            "name": "Imiona postaci: Elf",
+            "results": {
+                "1-1": {
+                    "name": "Eliara",
+                    "description": "Eliara"
+                },
+                "2-2": {
+                    "name": "Ryarn",
+                    "description": "Ryarn"
+                },
+                "3-3": {
+                    "name": "Sariel",
+                    "description": "Sariel"
+                },
+                "4-4": {
+                    "name": "Tirolas",
+                    "description": "Tirolas"
+                },
+                "5-5": {
+                    "name": "Galira",
+                    "description": "Galira"
+                },
+                "6-6": {
+                    "name": "Varos",
+                    "description": "Varos"
+                },
+                "7-7": {
+                    "name": "Daeniel",
+                    "description": "Daeniel"
+                },
+                "8-8": {
+                    "name": "Axidor",
+                    "description": "Axidor"
+                },
+                "9-9": {
+                    "name": "Hiralia",
+                    "description": "Hiralia"
+                },
+                "10-10": {
+                    "name": "Cyrwin",
+                    "description": "Cyrwin"
+                },
+                "11-11": {
+                    "name": "Lothiel",
+                    "description": "Lothiel"
+                },
+                "12-12": {
+                    "name": "Zaphiel",
+                    "description": "Zaphiel"
+                },
+                "13-13": {
+                    "name": "Nayra",
+                    "description": "Nayra"
+                },
+                "14-14": {
+                    "name": "Ithior",
+                    "description": "Ithior"
+                },
+                "15-15": {
+                    "name": "Amriel",
+                    "description": "Amriel"
+                },
+                "16-16": {
+                    "name": "Elyon",
+                    "description": "Elyon"
+                },
+                "17-17": {
+                    "name": "Jirwyn",
+                    "description": "Jirwyn"
+                },
+                "18-18": {
+                    "name": "Natinel",
+                    "description": "Natinel"
+                },
+                "19-19": {
+                    "name": "Fiora",
+                    "description": "Fiora"
+                },
+                "20-20": {
+                    "name": "Ruhiel",
+                    "description": "Ruhiel"
+                }
+            }
         },
         "Character Names: Goblin": {
-            "name": "Imiona postaci: Goblin"
+            "name": "Imiona postaci: Goblin",
+            "results": {
+                "1-1": {
+                    "name": "Iggs",
+                    "description": "Iggs"
+                },
+                "2-2": {
+                    "name": "Tark",
+                    "description": "Tark"
+                },
+                "3-3": {
+                    "name": "Nix",
+                    "description": "Nix"
+                },
+                "4-4": {
+                    "name": "Lenk",
+                    "description": "Lenk"
+                },
+                "5-5": {
+                    "name": "Roke",
+                    "description": "Roke"
+                },
+                "6-6": {
+                    "name": "Fitz",
+                    "description": "Fitz"
+                },
+                "7-7": {
+                    "name": "Tila",
+                    "description": "Tila"
+                },
+                "8-8": {
+                    "name": "Riggs",
+                    "description": "Riggs"
+                },
+                "9-9": {
+                    "name": "Prim",
+                    "description": "Prim"
+                },
+                "10-10": {
+                    "name": "Zeb",
+                    "description": "Zeb"
+                },
+                "11-11": {
+                    "name": "Finn",
+                    "description": "Finn"
+                },
+                "12-12": {
+                    "name": "Borg",
+                    "description": "Borg"
+                },
+                "13-13": {
+                    "name": "Yark",
+                    "description": "Yark"
+                },
+                "14-14": {
+                    "name": "Deeg",
+                    "description": "Deeg"
+                },
+                "15-15": {
+                    "name": "Nibs",
+                    "description": "Nibs"
+                },
+                "16-16": {
+                    "name": "Brak",
+                    "description": "Brak"
+                },
+                "17-17": {
+                    "name": "Fink",
+                    "description": "Fink"
+                },
+                "18-18": {
+                    "name": "Rizzo",
+                    "description": "Rizzo"
+                },
+                "19-19": {
+                    "name": "Squib",
+                    "description": "Squib"
+                },
+                "20-20": {
+                    "name": "Grix",
+                    "description": "Grix"
+                }
+            }
         },
         "Character Names: Half-Orc": {
-            "name": "Imiona postaci: Półork"
+            "name": "Imiona postaci: Półork",
+            "results": {
+                "1-1": {
+                    "name": "Vara",
+                    "description": "Vara"
+                },
+                "2-2": {
+                    "name": "Gralk",
+                    "description": "Gralk"
+                },
+                "3-3": {
+                    "name": "Ranna",
+                    "description": "Ranna"
+                },
+                "4-4": {
+                    "name": "Korv",
+                    "description": "Korv"
+                },
+                "5-5": {
+                    "name": "Zasha",
+                    "description": "Zasha"
+                },
+                "6-6": {
+                    "name": "Hrogar",
+                    "description": "Hrogar"
+                },
+                "7-7": {
+                    "name": "Klara",
+                    "description": "Klara"
+                },
+                "8-8": {
+                    "name": "Tragan",
+                    "description": "Tragan"
+                },
+                "9-9": {
+                    "name": "Brolga",
+                    "description": "Brolga"
+                },
+                "10-10": {
+                    "name": "Drago",
+                    "description": "Drago"
+                },
+                "11-11": {
+                    "name": "Yelena",
+                    "description": "Yelena"
+                },
+                "12-12": {
+                    "name": "Krull",
+                    "description": "Krull"
+                },
+                "13-13": {
+                    "name": "Ulara",
+                    "description": "Ulara"
+                },
+                "14-14": {
+                    "name": "Tulk",
+                    "description": "Tulk"
+                },
+                "15-15": {
+                    "name": "Shiraal",
+                    "description": "Shiraal"
+                },
+                "16-16": {
+                    "name": "Wulf",
+                    "description": "Wulf"
+                },
+                "17-17": {
+                    "name": "Ivara",
+                    "description": "Ivara"
+                },
+                "18-18": {
+                    "name": "Hirok",
+                    "description": "Hirok"
+                },
+                "19-19": {
+                    "name": "Aja",
+                    "description": "Aja"
+                },
+                "20-20": {
+                    "name": "Zoraan",
+                    "description": "Zoraan"
+                }
+            }
         },
         "Character Names: Halfling": {
-            "name": "Imiona postaci: Niziołek"
+            "name": "Imiona postaci: Niziołek",
+            "results": {
+                "1-1": {
+                    "name": "Willow",
+                    "description": "Willow"
+                },
+                "2-2": {
+                    "name": "Benny",
+                    "description": "Benny"
+                },
+                "3-3": {
+                    "name": "Annie",
+                    "description": "Annie"
+                },
+                "4-4": {
+                    "name": "Tucker",
+                    "description": "Tucker"
+                },
+                "5-5": {
+                    "name": "Marie",
+                    "description": "Marie"
+                },
+                "6-6": {
+                    "name": "Hobb",
+                    "description": "Hobb"
+                },
+                "7-7": {
+                    "name": "Cora",
+                    "description": "Cora"
+                },
+                "8-8": {
+                    "name": "Gordie",
+                    "description": "Gordie"
+                },
+                "9-9": {
+                    "name": "Rose",
+                    "description": "Rose"
+                },
+                "10-10": {
+                    "name": "Ardo",
+                    "description": "Ardo"
+                },
+                "11-11": {
+                    "name": "Alma",
+                    "description": "Alma"
+                },
+                "12-12": {
+                    "name": "Norbert",
+                    "description": "Norbert"
+                },
+                "13-13": {
+                    "name": "Jennie",
+                    "description": "Jennie"
+                },
+                "14-14": {
+                    "name": "Barvin",
+                    "description": "Barvin"
+                },
+                "15-15": {
+                    "name": "Tilly",
+                    "description": "Tilly"
+                },
+                "16-16": {
+                    "name": "Pike",
+                    "description": "Pike"
+                },
+                "17-17": {
+                    "name": "Lydia",
+                    "description": "Lydia"
+                },
+                "18-18": {
+                    "name": "Marlow",
+                    "description": "Marlow"
+                },
+                "19-19": {
+                    "name": "Astrid",
+                    "description": "Astrid"
+                },
+                "20-20": {
+                    "name": "Jasper",
+                    "description": "Jasper"
+                }
+            }
         },
         "Character Names: Human": {
-            "name": "Imiona postaci: Człowiek"
+            "name": "Imiona postaci: Człowiek",
+            "results": {
+                "1-1": {
+                    "name": "Zali",
+                    "description": "Zali"
+                },
+                "2-2": {
+                    "name": "Bram",
+                    "description": "Bram"
+                },
+                "3-3": {
+                    "name": "Clara",
+                    "description": "Clara"
+                },
+                "4-4": {
+                    "name": "Nattias",
+                    "description": "Nattias"
+                },
+                "5-5": {
+                    "name": "Rina",
+                    "description": "Rina"
+                },
+                "6-6": {
+                    "name": "Denton",
+                    "description": "Denton"
+                },
+                "7-7": {
+                    "name": "Mirena",
+                    "description": "Mirena"
+                },
+                "8-8": {
+                    "name": "Aran",
+                    "description": "Aran"
+                },
+                "9-9": {
+                    "name": "Morgan",
+                    "description": "Morgan"
+                },
+                "10-10": {
+                    "name": "Giralt",
+                    "description": "Giralt"
+                },
+                "11-11": {
+                    "name": "Tamra",
+                    "description": "Tamra"
+                },
+                "12-12": {
+                    "name": "Oskar",
+                    "description": "Oskar"
+                },
+                "13-13": {
+                    "name": "Ishana",
+                    "description": "Ishana"
+                },
+                "14-14": {
+                    "name": "Rogar",
+                    "description": "Rogar"
+                },
+                "15-15": {
+                    "name": "Jasmin",
+                    "description": "Jasmin"
+                },
+                "16-16": {
+                    "name": "Tarin",
+                    "description": "Tarin"
+                },
+                "17-17": {
+                    "name": "Yuri",
+                    "description": "Yuri"
+                },
+                "18-18": {
+                    "name": "Malchor",
+                    "description": "Malchor"
+                },
+                "19-19": {
+                    "name": "Lienna",
+                    "description": "Lienna"
+                },
+                "20-20": {
+                    "name": "Godfrey",
+                    "description": "Godfrey"
+                }
+            }
         },
         "Character Names: Kobold": {
-            "name": "Imiona postaci: Kobold"
+            "name": "Imiona postaci: Kobold",
+            "results": {
+                "1-1": {
+                    "name": "Yolopo",
+                    "description": "Yolopo"
+                },
+                "2-2": {
+                    "name": "Klobnar",
+                    "description": "Klobnar"
+                },
+                "3-3": {
+                    "name": "Yuktuk",
+                    "description": "Yuktuk"
+                },
+                "4-4": {
+                    "name": "Roka",
+                    "description": "Roka"
+                },
+                "5-5": {
+                    "name": "Grexal",
+                    "description": "Grexal"
+                },
+                "6-6": {
+                    "name": "Trepa",
+                    "description": "Trepa"
+                },
+                "7-7": {
+                    "name": "Binx",
+                    "description": "Binx"
+                },
+                "8-8": {
+                    "name": "Koops",
+                    "description": "Koops"
+                },
+                "9-9": {
+                    "name": "Mosh",
+                    "description": "Mosh"
+                },
+                "10-10": {
+                    "name": "Tiri",
+                    "description": "Tiri"
+                },
+                "11-11": {
+                    "name": "Nork",
+                    "description": "Nork"
+                },
+                "12-12": {
+                    "name": "Peecko",
+                    "description": "Peecko"
+                },
+                "13-13": {
+                    "name": "Fizzle",
+                    "description": "Fizzle"
+                },
+                "14-14": {
+                    "name": "Chezlaz",
+                    "description": "Chezlaz"
+                },
+                "15-15": {
+                    "name": "Hrakavesh",
+                    "description": "Hrakavesh"
+                },
+                "16-16": {
+                    "name": "Giblet",
+                    "description": "Giblet"
+                },
+                "17-17": {
+                    "name": "Leptik",
+                    "description": "Leptik"
+                },
+                "18-18": {
+                    "name": "Bodok",
+                    "description": "Bodok"
+                },
+                "19-19": {
+                    "name": "Pico",
+                    "description": "Pico"
+                },
+                "20-20": {
+                    "name": "Deenka",
+                    "description": "Deenka"
+                }
+            }
         },
         "Class Talents: Bard": {
-            "name": "Talenty klas: Bard"
+            "name": "Talenty klas: Bard",
+            "results": {
+                "1oXUUUCUtRA69ych": {
+                    "description": "+2 do Inteligencji"
+                },
+                "2-2": {
+                    "name": "Znajdujesz losową różdżkę kapłana lub czarodzieja"
+                },
+                "3-6": {
+                    "description": "Wybierz 1"
+                },
+                "4YPLoRHOy1h63JSm": {
+                    "name": "+1 do Siły"
+                },
+                "5eCdL2a7RXKeTskU": {
+                    "name": "+1 do ataków wręcz i na odległość"
+                },
+                "7-9": {
+                    "description": "+2 punkty do rozdzielenia na dowolne cechy"
+                },
+                "7gMw68b5NFPKBl5V": {
+                    "name": "+1 do rzutów na Amatora magii"
+                },
+                "10-11": {
+                    "name": "Ulepszona ST Prezencji"
+                },
+                "12-12": {
+                    "description": "Wybierz 1"
+                },
+                "836Oph1CKtt4hFlF": {
+                    "description": "Lub (można wybrać tylko jedną opcję)"
+                },
+                "a9W19GBj955g0jgO": {
+                    "description": "+2 do Zręczności"
+                },
+                "AH7gNZ6Dbl3auHm5": {
+                    "description": "Lub +2 punkty do rozdzielenia na dowolne cechy"
+                },
+                "bCFeX9DGivYxibzu": {
+                    "name": "+1 do Inteligencji"
+                },
+                "CfOKDs4Nr4HwevXj": {
+                    "name": "Rozdziel statystyki"
+                },
+                "dEcKCeDpQuau6m2s": {
+                    "name": "+1 do Charyzmy"
+                },
+                "DGu5CRC1Eo1lEoYG": {
+                    "description": "+1 do Siły"
+                },
+                "dSjjsi3vgVid9vIO": {
+                    "name": "+2 do Inteligencji"
+                },
+                "gooim64jojyJ2W8r": {
+                    "name": "+2 do Kondycji"
+                },
+                "gzNttULkkWVoop4t": {
+                    "description": "+1 do ataków wręcz i na odległość"
+                },
+                "hczFItDAlSJ3XhNo": {
+                    "name": "+1 do rzutów na Amatora magii"
+                },
+                "hvcXSaYRjUrJEGXK": {
+                    "name": "+2 do Mądrości"
+                },
+                "JhUoNT5GxYxJnkBW": {
+                    "name": "+2 do Charyzmy"
+                },
+                "jTMjiZbObhTSedzK": {
+                    "description": "+1 do Zręczności"
+                },
+                "KzEyX2UGR5QvBzYJ": {
+                    "description": "Znajdujesz losową różdżkę kapłana lub czarodzieja"
+                },
+                "LHD20XEsmPJ0hRqs": {
+                    "description": "+1 do Inteligencji"
+                },
+                "miZAM6GO8r1iKHZN": {
+                    "description": "+1 do Mądrości"
+                },
+                "nE2mTxQzkTFvEFZk": {
+                    "description": "+2 do Kondycji"
+                },
+                "NqX6TsqFZOD536NY": {
+                    "description": "+1 do Kondycji"
+                },
+                "nXvgtdussP6BTJSX": {
+                    "description": "+2 do Charyzmy"
+                },
+                "P4U9xBHYWX7t3Pqc": {
+                    "name": "Ulepszona ST Prezencji"
+                },
+                "PqOhoOBBzmnmpKBX": {
+                    "name": "+1 do ataków wręcz i na odległość"
+                },
+                "qdMD3TflCa7aEokQ": {
+                    "name": "+1 do Zręczności"
+                },
+                "QPx7FSI1elTogwMF": {
+                    "name": "+1 do Mądrości"
+                },
+                "r8sOqyMEfJAzoj8l": {
+                    "description": "Powtórz rzut, jeśli ta opcja została już wybrana"
+                },
+                "sEoxLO4ToWmPYl3J": {
+                    "name": "+2 do Siły"
+                },
+                "szjvdgiVEu0cuMzr": {
+                    "name": "Znajdujesz losową różdżkę kapłana lub czarodzieja"
+                },
+                "TeZ2bqDqyjGQm4rA": {
+                    "description": "Ulepszona ST Prezencji"
+                },
+                "Tg3G6ufaanPKjcto": {
+                    "name": "+2 do Zręczności"
+                },
+                "tvMZYuFH7v1hSUu5": {
+                    "name": "+1 do Kondycji"
+                },
+                "XahsLOINT9EDd58d": {
+                    "description": "+1 do Charyzmy"
+                },
+                "xsko07paPq1LzUIz": {
+                    "description": "+2 do Siły"
+                },
+                "ZYCqY25sc6kshsSA": {
+                    "description": "+1 do rzutów na Amatora magii"
+                }
+            }
         },
         "Class Talents: Basilisk Warrior": {
-            "name": "Talenty klas: Wojownik bazyliszek"
+            "name": "Talenty klas: Wojownik bazyliszek",
+            "results": {
+                "2-2": {
+                    "name": "Jajo bazyliszka"
+                },
+                "3-6": {
+                    "name": "+1 do ataków bronią i zadawanych obrażeń"
+                },
+                "7-9": {
+                    "description": "Wybierz 1"
+                },
+                "10-11": {
+                    "name": "+1 do dziennego użycia Petryfikującego spojrzenia"
+                },
+                "12-12": {
+                    "description": "Wybierz 1"
+                },
+                "AVlxOHvARFVkl0xO": {
+                    "name": "Jajo bazyliszka"
+                },
+                "ChsE9hNqm0Ygz9Uf": {
+                    "name": "+2 do Zręczności"
+                },
+                "cIXJOUVBkDCB3qKW": {
+                    "name": "+2 do Zręczności"
+                },
+                "g27db7DK5oReedOu": {
+                    "name": "+2 do Kondycji"
+                },
+                "I2VZj9sIeqfeBRpO": {
+                    "name": "+2 do Kondycji"
+                },
+                "oerOdfXXWmQkImYI": {
+                    "name": "+2 do Siły"
+                },
+                "qAj6GETuknSIWdxw": {
+                    "name": "+1 do ataków bronią i zadawanych obrażeń"
+                },
+                "U7KzRcUvfqUGQx5H": {
+                    "name": "Rozdziel statystyki"
+                },
+                "VQ7bgxlXSxchYS49": {
+                    "name": "+2 do Siły"
+                },
+                "Z8V7PxqsBbXK0vYM": {
+                    "name": "+1 do dziennego użycia Petryfikującego spojrzenia"
+                }
+            }
         },
         "Class Talents: Desert Rider": {
             "description": "<p>2 duplikaty = ponowny rzut</p>",
-            "name": "Talenty klas: Jeździec pustyni"
+            "name": "Talenty klas: Jeździec pustyni",
+            "results": {
+                "2-2": {
+                    "name": "Jazda na dowolnym stworzeniu"
+                },
+                "3-6": {
+                    "name": "+1 do ataków wręcz i na odległość"
+                },
+                "5rbD846DsFBpYefR": {
+                    "description": "Rozdziel statystyki"
+                },
+                "7-9": {
+                    "description": "Wybierz 1"
+                },
+                "8YhOPdAEUXy9Xcjx": {
+                    "name": "Jazda na dowolnym stworzeniu"
+                },
+                "10-11": {
+                    "name": "Dodatkowe użycie Szarży"
+                },
+                "12-12": {
+                    "description": "Wybierz 1"
+                },
+                "34A67VkneCSvDgJA": {
+                    "name": "Dodatkowe użycie Szarży"
+                },
+                "Aj2zH8HXTxmIZ35h": {
+                    "description": "+2 do Zręczności"
+                },
+                "APRrMRkyzqs3o05P": {
+                    "description": "+2 do Inteligencji"
+                },
+                "blV38C2bmFfkYdpm": {
+                    "name": "+2 do Siły"
+                },
+                "D6F6q4AocMqPBxmX": {
+                    "description": "lub"
+                },
+                "DqhJSHFKJi0jlZcy": {
+                    "description": "+1 do Siły"
+                },
+                "EsjS3q1pCZEN4G2D": {
+                    "name": "+1 do obrażeń"
+                },
+                "GuqyNk2hzyoY8aSB": {
+                    "description": "+1 do Kondycji"
+                },
+                "jjdejPcw3N2j4b0V": {
+                    "name": "+1 do ataków wręcz"
+                },
+                "MlrTeuQz1Z0lUWPh": {
+                    "description": "+1 do Mądrości"
+                },
+                "nUcmRzRVfq2f7yfi": {
+                    "description": "+2 do Charyzmy"
+                },
+                "PbUIhOIaxDbQXeWQ": {
+                    "name": "Rozdziel statystyki"
+                },
+                "PZ5LKt9UUZIIRsHd": {
+                    "description": "+1 do Inteligencji"
+                },
+                "qbbuIiBnCU0cFWbH": {
+                    "description": "+2 do Siły"
+                },
+                "rv9yEf4MdpJtEH1s": {
+                    "description": "+2 do Kondycji"
+                },
+                "seEKNHVPKCCSlbE7": {
+                    "description": "+2 do Mądrości"
+                },
+                "sl2sZkOfAMaEbjq8": {
+                    "name": "+1 do ataków wręcz"
+                },
+                "VJNIPBZFp4FzxDnk": {
+                    "name": "+1 do ataków wręcz i na odległość"
+                },
+                "wud2AMiwYri3wpw9": {
+                    "description": "+1 do Zręczności"
+                },
+                "Wz5drbq2Jh8fTE1v": {
+                    "name": "+2 do Zręczności"
+                },
+                "XwW8a9obdxna3skH": {
+                    "description": "Lub +2 punkty do rozdzielenia na dowolne cechy"
+                },
+                "YR1lZPhiDTvH6IGQ": {
+                    "description": "+1 do Charyzmy"
+                },
+                "Z3Q2TlfoHPfAjuHK": {
+                    "name": "+1 do obrażeń"
+                }
+            }
         },
         "Class Talents: Fighter": {
-            "name": "Talenty klas: Wojownik"
+            "name": "Talenty klas: Wojownik",
+            "results": {
+                "2-2": {
+                    "name": "Mistrzostwo w broni"
+                },
+                "3-6": {
+                    "name": "+1 do ataków wręcz i na odległość"
+                },
+                "4GZNG0SHARmikiQb": {
+                    "name": "Mistrzostwo w broni"
+                },
+                "7-9": {
+                    "description": "Wybierz 1"
+                },
+                "8LSdfwW21HQg1w6J": {
+                    "description": "+1 do Mądrości"
+                },
+                "9IlrJvS6QKcRIMNA": {
+                    "description": "+1 do Zręczności"
+                },
+                "10-11": {
+                    "name": "Mistrzostwo w pancerzu"
+                },
+                "12-12": {
+                    "description": "Wybierz 1"
+                },
+                "aPklVk1LTYxCECxr": {
+                    "name": "+1 do ataków wręcz i zadawanych obrażeń"
+                },
+                "asqi1OvG924Gu5C5": {
+                    "name": "+2 do Kondycji"
+                },
+                "c0TkEVs5l6dGu5zB": {
+                    "description": "+1 do Inteligencji"
+                },
+                "dQNNsseviKkN9qmx": {
+                    "description": "+2 do Zręczności"
+                },
+                "ighj4SmqJEHOJpWz": {
+                    "description": "Mistrzostwo w broni"
+                },
+                "mvLwWNxdl4mehomN": {
+                    "description": "+2 do Mądrości"
+                },
+                "oB7EljreQF5o8xGj": {
+                    "name": "Rozdziel statystyki"
+                },
+                "oyZa7BdWVE57dt52": {
+                    "name": "Mistrzostwo w pancerzu"
+                },
+                "Pz3scmVvkfGW86Qt": {
+                    "name": "+2 do Siły"
+                },
+                "R8FNyUaia3vVOhLw": {
+                    "description": "+2 do Charyzmy"
+                },
+                "SaEpyAES4PV4EJ4j": {
+                    "description": "+1 do Charyzmy"
+                },
+                "ShfsugAB4FBHqExq": {
+                    "name": "+2 do Zręczności"
+                },
+                "syFxHTa5qvdL3org": {
+                    "description": "+1 do Siły"
+                },
+                "T9mZMjD9D4bUaYN5": {
+                    "description": "+1 do ataków wręcz i na odległość"
+                },
+                "tKX9Q8iZw0bKeeE1": {
+                    "description": "Mistrzostwo w pancerzu"
+                },
+                "ULEzJDfOLH0kCCUF": {
+                    "description": "+2 do Siły"
+                },
+                "XHZbe1aL3P5G5cDr": {
+                    "description": "+2 do Inteligencji"
+                },
+                "zPulQ1FoqzVpMOrb": {
+                    "description": "+2 do Kondycji"
+                }
+            }
         },
         "Class Talents: Knight of St. Ydris": {
-            "name": "Talenty klas: Rycerz św. Ydrisa"
+            "name": "Talenty klas: Rycerz św. Ydrisa",
+            "results": {
+                "2-2": {
+                    "name": "Premia do Opętania przez demona"
+                },
+                "3-6": {
+                    "description": "Wybierz 1"
+                },
+                "4g12hhScQd1QEkQg": {
+                    "name": "+2 do Zręczności"
+                },
+                "7-9": {
+                    "description": "Wybierz 1"
+                },
+                "10-11": {
+                    "description": "Wybierz 1"
+                },
+                "12-12": {
+                    "description": "Wybierz 1"
+                },
+                "F9x3Mklc87ztqgQQ": {
+                    "name": "+2 do Siły"
+                },
+                "FVBTenJF0H7TlO1C": {
+                    "name": "+2 do Charyzmy"
+                },
+                "IBnTy2o2WlNO8diH": {
+                    "name": "+2 do Kondycji"
+                },
+                "ieja2ee6ZqoThqUq": {
+                    "name": "+1 do testów rzucania zaklęć"
+                },
+                "m7k9rkxtEZOZvvq8": {
+                    "name": "+1 do ataków wręcz"
+                },
+                "n7uJpmqV4AiaEhCX": {
+                    "name": "+1 do ataków z dystansu"
+                },
+                "OWd1FngettRNnVVU": {
+                    "name": "+1 do ataków wręcz"
+                },
+                "rcdVTLVHEuwECIh7": {
+                    "name": "+1 do testów rzucania zaklęć"
+                },
+                "RSNLKHRnuAW3szkJ": {
+                    "name": "+1 do ataków z dystansu"
+                },
+                "uAUyk0eZaIY3ny6b": {
+                    "name": "Rozdziel statystyki"
+                },
+                "Ynl8eGAB1Ygpie7n": {
+                    "name": "Premia do Opętania przez demona"
+                }
+            }
         },
         "Class Talents: Pit Fighter": {
-            "name": "Talenty klas: Zawodnik w klatce"
+            "name": "Talenty klas: Zawodnik w klatce",
+            "results": {
+                "1hRt1E9m3PhzvnTa": {
+                    "description": "+1 do Inteligencji"
+                },
+                "2-2": {
+                    "name": "Ignorowanie wszystkich obrażeń"
+                },
+                "3-6": {
+                    "name": "+1 do obrażeń zadawanych w walce wręcz"
+                },
+                "3fC6UOcruuxPv22V": {
+                    "description": "+2 do Kondycji"
+                },
+                "4ykXnJvmU4FCBVn9": {
+                    "name": "+1 do ataków wręcz"
+                },
+                "6Fb8tyC63hJMArDU": {
+                    "description": "+2 do Mądrości"
+                },
+                "7-9": {
+                    "description": "Wybierz 1"
+                },
+                "10-11": {
+                    "name": "Zwiększone leczenie Rozmachu"
+                },
+                "12-12": {
+                    "description": "Wybierz 1"
+                },
+                "BKkOjRDEZvO2uhcY": {
+                    "description": "+1 do Charyzmy"
+                },
+                "c5EfVLh62DaEj0qZ": {
+                    "name": "+1 do ataków wręcz"
+                },
+                "efOHroUKN8eHOSZt": {
+                    "description": "+2 do Inteligencji"
+                },
+                "eGx16lzfXof8yKwd": {
+                    "name": "+2 do Kondycji"
+                },
+                "eneJ7c3K7CbHSiSH": {
+                    "name": "Zwiększone leczenie Rozmachu"
+                },
+                "F38ywgpVwKx4Owuj": {
+                    "description": "+2 do Zręczności"
+                },
+                "H2w1h5Ghz1jsN4nA": {
+                    "description": "+1 do ataków wręcz"
+                },
+                "I3x7nI5rOQULCyOu": {
+                    "name": "Rozdziel statystyki"
+                },
+                "KAtMauxEQAd7hU4B": {
+                    "description": "+1 do Mądrości"
+                },
+                "KB9FB7mT9sSTfQFI": {
+                    "description": "+1 do Zręczności"
+                },
+                "kuWuSjzaPliAeUPh": {
+                    "name": "Ignorowanie wszystkich obrażeń"
+                },
+                "pCL5VFTTPzPBfZBw": {
+                    "description": "+2 do Charyzmy"
+                },
+                "R2F838Z5v7fORmaP": {
+                    "description": "Lub +2 punkty do rozdzielenia na dowolne cechy"
+                },
+                "RpOW91KjuP7h5Ysu": {
+                    "description": "+2 do Siły"
+                },
+                "SBZOdBtSsmgfYcRx": {
+                    "description": "+1 do Siły"
+                },
+                "URnN0s5T6KkCUOkc": {
+                    "name": "+1 do obrażeń zadawanych w walce wręcz"
+                },
+                "vklY5SecLY8aio0k": {
+                    "name": "+2 do Siły"
+                },
+                "VUPVqk3P5Qe8Mtc8": {
+                    "description": "+1 do Kondycji"
+                }
+            }
         },
         "Class Talents: Priest": {
-            "name": "Talenty klas: Kapłan"
+            "name": "Talenty klas: Kapłan",
+            "results": {
+                "0vpizsGSXpeRk7jy": {
+                    "description": "+2 do Kondycji"
+                },
+                "1f4XwVZFTX8HGFeu": {
+                    "name": "Rozdziel statystyki"
+                },
+                "2-2": {
+                    "name": "Ułatwienie w rzucaniu zaklęć"
+                },
+                "3-6": {
+                    "description": "Wybierz 1"
+                },
+                "4SjsZkzAomGZmXMB": {
+                    "description": "+1 do testów rzucania zaklęć"
+                },
+                "7-9": {
+                    "name": "+1 do testów rzucania zaklęć"
+                },
+                "10-11": {
+                    "description": "Wybierz 1"
+                },
+                "12-12": {
+                    "description": "Wybierz 1"
+                },
+                "AzBAZN2Hsuuxc0lV": {
+                    "description": "+2 do Mądrości"
+                },
+                "dvCwO7Qfb0plPt7R": {
+                    "description": "+2 do Charyzmy"
+                },
+                "edJtGmodoQVoyT9E": {
+                    "name": "+2 do Siły"
+                },
+                "EvZuhlC0saCf3nPi": {
+                    "description": "+1 do ataków z dystansu"
+                },
+                "f0Lp4XTZRQ2vqEqD": {
+                    "name": "+1 do ataków z dystansu"
+                },
+                "FRKlezzFZWilBVgh": {
+                    "name": "+1 do ataków wręcz"
+                },
+                "MniNmDBnBxeB0MNw": {
+                    "description": "+2 do Siły"
+                },
+                "MtIRHWvg7wOWr3Qa": {
+                    "description": "+1 do Inteligencji"
+                },
+                "OdrkbjNHdQ6pGtfz": {
+                    "description": "+1 do Charyzmy"
+                },
+                "oYZ2KMpJI2ms7U2M": {
+                    "name": "+1 do testów rzucania zaklęć"
+                },
+                "raSEcK1nQbbnn3Zi": {
+                    "name": "Ułatwienie w rzucaniu zaklęć"
+                },
+                "RpVYAgogMjBvcPRp": {
+                    "description": "+2 do Inteligencji"
+                },
+                "TzEk7T5B85c0fm3C": {
+                    "name": "+2 do Mądrości"
+                },
+                "uW6sYsZJAt33Tveq": {
+                    "name": "+1 do ataków wręcz"
+                },
+                "uWMnDA1RC07jO52V": {
+                    "name": "+1 do ataków z dystansu"
+                },
+                "vJpSapdoKgCt37za": {
+                    "description": "+1 do Kondycji"
+                },
+                "VZKHSjRoCmVAYChI": {
+                    "description": "+1 do Mądrości"
+                },
+                "wuQ1aCzvSjVhdRc3": {
+                    "description": "+2 do Zręczności"
+                },
+                "XOCjiG8SzQjPHfsO": {
+                    "description": "+1 do Zręczności"
+                },
+                "yrVmDCaus8VH22zE": {
+                    "description": "+1 do Siły"
+                }
+            }
         },
         "Class Talents: Ranger": {
-            "name": "Talenty klas: Łowca"
+            "name": "Talenty klas: Łowca",
+            "results": {
+                "0YodW7OxmfP9Ehq1": {
+                    "description": "+2 do Zręczności"
+                },
+                "2-2": {
+                    "name": "Zwiększona kostka obrażeń broni"
+                },
+                "3-6": {
+                    "description": "Wybierz 1"
+                },
+                "4MWmFIvfkjHzXCxZ": {
+                    "description": "+1 do Charyzmy"
+                },
+                "5xQWKV5ac03PC7bT": {
+                    "name": "Zwiększona kostka obrażeń broni"
+                },
+                "7-9": {
+                    "description": "Wybierz 1"
+                },
+                "10-11": {
+                    "name": "Ułatwienie testu Ziołolecznictwa"
+                },
+                "11p32X5y8Oe7kQ4y": {
+                    "description": "+1 do Siły"
+                },
+                "12-12": {
+                    "description": "Wybierz 1"
+                },
+                "39aLYnrm2lZiUn2W": {
+                    "description": "+1 do Kondycji"
+                },
+                "ac9IHgnh8ZWYjH5N": {
+                    "name": "Rozdziel statystyki"
+                },
+                "aMDZVlvIcQ3luxfk": {
+                    "description": "+1 do Inteligencji"
+                },
+                "CmGCHzjY15gr49q1": {
+                    "description": "+2 do Zręczności"
+                },
+                "fEmS53UsCeWZxjgW": {
+                    "name": "Ułatwienie testu Ziołolecznictwa"
+                },
+                "HTzq4FrfzIrG7BoQ": {
+                    "name": "+2 do Inteligencji"
+                },
+                "it1KXZxh17RKYsG2": {
+                    "name": "+2 do Zręczności"
+                },
+                "KrHtmdHezfFxbknt": {
+                    "description": "Zwiększona kostka obrażeń broni"
+                },
+                "mtVNlphACCKudpVh": {
+                    "name": "+1 do ataków wręcz i zadawanych obrażeń"
+                },
+                "NSYbJZJDZbckDQzi": {
+                    "description": "+1 do Zręczności"
+                },
+                "ouO9igdo4GShlpzb": {
+                    "name": "+1 do ataków wręcz i zadawanych obrażeń"
+                },
+                "qaxtytgC14dTLeaE": {
+                    "name": "+1 do ataków z dystansu i zadawanych obrażeń"
+                },
+                "QKG6Assa6z7ClJC1": {
+                    "description": "+1 do Mądrości"
+                },
+                "u2rNcoHFKXGOogXr": {
+                    "description": "Ułatwienie testu Ziołolecznictwa"
+                },
+                "udQwJeodk1RM2yyr": {
+                    "name": "+2 do Siły"
+                },
+                "UnScpUE1PeLpYzOY": {
+                    "description": "+2 do Inteligencji"
+                },
+                "vuMoP92p2ieXSIBM": {
+                    "description": "+1 do ataków wręcz i zadawanych obrażeń"
+                },
+                "xuDytbHPirYoFumS": {
+                    "description": "+2 do Siły"
+                },
+                "xzpDP9BdOX2DEDF4": {
+                    "description": "+1 do ataków z dystansu i zadawanych obrażeń"
+                },
+                "yyt3RfpUl8h1Ps0n": {
+                    "name": "+1 do ataków z dystansu i zadawanych obrażeń"
+                }
+            }
         },
         "Class Talents: Ras-Godai": {
-            "name": "Talenty klas: Ras-Godai"
+            "name": "Talenty klas: Ras-Godai",
+            "results": {
+                "1iFMPpa8xr3ebFkl": {
+                    "description": "Lub +2 punkty do rozdzielenia na dowolne cechy"
+                },
+                "1JKIhJ6E7NkRNuvE": {
+                    "description": "+2 do Charyzmy"
+                },
+                "2-2": {
+                    "name": "Szkolenie w użyciu trucizn"
+                },
+                "3-6": {
+                    "name": "Dodatkowy talent Czarnego Lotosu"
+                },
+                "3MSrJR1fxcX5idC6": {
+                    "description": "+2 do Kondycji"
+                },
+                "7-9": {
+                    "description": "Wybierz 1"
+                },
+                "10-11": {
+                    "name": "Dodatkowe użycie Dymnego kroku"
+                },
+                "12-12": {
+                    "description": "Wybierz 1"
+                },
+                "54S1gnsw5nhBvNyC": {
+                    "description": "+1 do Siły"
+                },
+                "CEPQgt75hA8dzFsB": {
+                    "description": "+1 do Kondycji"
+                },
+                "i52wskZIuvLXS2XG": {
+                    "description": "Szkolenie w użyciu trucizn"
+                },
+                "j0zaAW1vY7lVA4Vy": {
+                    "name": "Rozdziel statystyki"
+                },
+                "KC2csh2be1TzEcwq": {
+                    "name": "Dodatkowe użycie Dymnego kroku"
+                },
+                "L1isl3xWKRfSU4Rb": {
+                    "description": "+2 do Siły"
+                },
+                "mlVX53nFi8lxJqqh": {
+                    "description": "+2 do Mądrości"
+                },
+                "Ok9QceTSSYP7XgSq": {
+                    "name": "+1 do ataków wręcz"
+                },
+                "PaRSmTRors92vNHj": {
+                    "name": "+2 do Zręczności"
+                },
+                "Rl2aTG5TiglSI0Az": {
+                    "description": "+1 do ataków wręcz"
+                },
+                "RPesdhBtzQyC2KTy": {
+                    "name": "+1 do ataków wręcz"
+                },
+                "RX3hqCehCxrwsYbe": {
+                    "name": "+2 do Siły"
+                },
+                "SbUdJF3u4NQv5URw": {
+                    "description": "+2 do Zręczności"
+                },
+                "sg3GuqbPb1feUQFU": {
+                    "description": "+1 do Zręczności"
+                },
+                "shqNCiMBC6GcNDt4": {
+                    "description": "Dodatkowy talent Czarnego Lotosu"
+                },
+                "Tj1GTOdRLclo5krc": {
+                    "description": "+1 do Mądrości"
+                },
+                "TTKzmcpfzqCFofN8": {
+                    "name": "Dodatkowy talent Czarnego Lotosu"
+                },
+                "U6dngSSFFxKUNeKU": {
+                    "name": "Szkolenie w użyciu trucizn"
+                },
+                "vGE543pPgsAKhc7u": {
+                    "description": "+1 do Charyzmy"
+                },
+                "xStlcDrIqRNrHhRH": {
+                    "description": "Dodatkowe użycie Dymnego kroku"
+                },
+                "yMobqVfBmiOkiw2V": {
+                    "description": "+2 do Inteligencji"
+                },
+                "zTr6D6d3T58jcr5L": {
+                    "description": "+1 do Inteligencji"
+                }
+            }
         },
         "Class Talents: Sea Wolf": {
-            "name": "Talenty klas: Wilk morski"
+            "name": "Talenty klas: Wilk morski",
+            "results": {
+                "2-2": {
+                    "name": "Wpadnięcie w Szał"
+                },
+                "3-6": {
+                    "name": "+1 do obrażeń"
+                },
+                "7-9": {
+                    "description": "Wybierz 1"
+                },
+                "7BChaxkrNLxtppxY": {
+                    "description": "+1 do obrażeń"
+                },
+                "10-11": {
+                    "name": "Dwoistość"
+                },
+                "12-12": {
+                    "description": "Wybierz 1"
+                },
+                "Afe9cjdUJroPDLU7": {
+                    "name": "+1 do obrażeń"
+                },
+                "bcoQHsMuFXlCWCzB": {
+                    "description": "Wpadnięcie w Szał"
+                },
+                "CcQKT4cCH14EwWwl": {
+                    "description": "+1 do ataków wręcz i na odległość"
+                },
+                "Dc2IljgTDaMDKhCi": {
+                    "name": "Wpadnięcie w Szał"
+                },
+                "f2ChFkhF5dmTNqdo": {
+                    "name": "Dwoistość"
+                },
+                "FLge4r1MAbu3to9p": {
+                    "name": "+2 do Siły"
+                },
+                "hkxPw16K2sOTKC3S": {
+                    "description": "+2 do Kondycji"
+                },
+                "kUGQVhomlc6KngXV": {
+                    "name": "Rozdziel statystyki"
+                },
+                "ltUdGEgZq18rCsce": {
+                    "description": "+2 do Zręczności"
+                },
+                "M2eQyyt0eSP4yAG7": {
+                    "name": "+1 do ataków wręcz i na odległość"
+                },
+                "pBkS6NvUCG0Nx0X8": {
+                    "name": "+1 do ataków wręcz i na odległość"
+                },
+                "qJAr4xJXj18x27oe": {
+                    "description": "+2 do Charyzmy"
+                },
+                "QS74FxQxoKBZ3sce": {
+                    "description": "+2 do Inteligencji"
+                },
+                "ShfsugAB4FBHqExq": {
+                    "name": "+2 do Kondycji"
+                },
+                "tA4lGEWDqZX8ujF0": {
+                    "description": "+2 do Mądrości"
+                },
+                "uuZGp587Ul243hGh": {
+                    "description": "Dwoistość"
+                },
+                "Yihi2OJgVq2VUskf": {
+                    "description": "+2 do Siły"
+                }
+            }
         },
         "Class Talents: Seer": {
-            "name": "Talenty klas: Widzący"
+            "name": "Talenty klas: Widzący",
+            "results": {
+                "0YTkk05EoXeCb1pW": {
+                    "name": "Dodatkowe użycie Omenu"
+                },
+                "2-2": {
+                    "name": "Nauka zaklęcia Widzącego"
+                },
+                "2Mjgqad6n43bRS3k": {
+                    "name": "+1 do testów rzucania zaklęć"
+                },
+                "3-6": {
+                    "name": "Dodatkowe użycie Omenu"
+                },
+                "3MXPUsrmEQc6Dp1D": {
+                    "description": "+2 do Zręczności"
+                },
+                "7-9": {
+                    "description": "Wybierz 1"
+                },
+                "9IXhThbhoB6xYT5w": {
+                    "description": "+2 do Siły"
+                },
+                "10-11": {
+                    "name": "Ulepszenie kostki przeznaczenia"
+                },
+                "12-12": {
+                    "description": "Wybierz 1"
+                },
+                "EjYvrIKiECa8nlyr": {
+                    "name": "+2 do Charyzmy"
+                },
+                "F60d0n152Jo4Tb6T": {
+                    "name": "Nauka zaklęcia Widzącego"
+                },
+                "Fs4vSCkaLrEDmE5w": {
+                    "description": "+1 do Kondycji"
+                },
+                "hBfULiC7gVHM8sj5": {
+                    "name": "+1 do testów rzucania zaklęć"
+                },
+                "LeTmqA7koPVQqMrK": {
+                    "description": "+2 do Charyzmy"
+                },
+                "liA8g4eM7qXQeJHh": {
+                    "name": "Ulepszenie kostki przeznaczenia"
+                },
+                "LuLNbGFi5zopC12V": {
+                    "description": "+2 do Kondycji"
+                },
+                "NzaAfWy6nUkEyEZM": {
+                    "description": "+1 do Charyzmy"
+                },
+                "OkJfYdOvb1e596rf": {
+                    "description": "+1 do Mądrości"
+                },
+                "PZbDvZp31uP4BnTf": {
+                    "description": "+2 do Mądrości"
+                },
+                "qbhpLxSgZe4lAuXa": {
+                    "description": "lub"
+                },
+                "T2U2TkW80PM9IpLs": {
+                    "description": "+1 do Inteligencji"
+                },
+                "vDR6Efx8U7O6bJjC": {
+                    "description": "+2 do Inteligencji"
+                },
+                "W9lj1pQjFF3kPj1E": {
+                    "description": "+1 do Zręczności"
+                },
+                "wpSH7Rg7Mf4aZBXP": {
+                    "description": "+1 do Siły"
+                },
+                "xflr6PDNg3i9tmBw": {
+                    "name": "Rozdziel statystyki"
+                },
+                "zBk7BK9ePnEJBcwV": {
+                    "name": "+2 do Mądrości"
+                }
+            }
         },
         "Class Talents: Thief": {
-            "name": "Talenty klas: Złodziej"
+            "name": "Talenty klas: Złodziej",
+            "results": {
+                "2-2": {
+                    "name": "Ułatwienie rzutu na inicjatywę"
+                },
+                "2YPAg4HFXR5bTA3d": {
+                    "description": "+2 do Charyzmy"
+                },
+                "3-5": {
+                    "name": "Podstępny atak +1 kość obrażeń"
+                },
+                "6-9": {
+                    "description": "Wybierz 1"
+                },
+                "9KRMhcAwch5yIcGf": {
+                    "name": "+2 do Charyzmy"
+                },
+                "10-11": {
+                    "name": "+1 do ataków wręcz i na odległość"
+                },
+                "12-12": {
+                    "description": "Wybierz 1"
+                },
+                "68IbwXh2ZkIU7M9C": {
+                    "name": "Podstępny atak +1 kość obrażeń"
+                },
+                "aHF2lXpCP89uVetJ": {
+                    "description": "+2 do Siły"
+                },
+                "bB6o7PS1LMq6dXUl": {
+                    "description": "+2 do Mądrości"
+                },
+                "davCRJhzxzz0zgdR": {
+                    "description": "+1 do Zręczności"
+                },
+                "DrOU62qVXJX3yvvW": {
+                    "name": "Ułatwienie rzutu na inicjatywę"
+                },
+                "FoCv7nnhi7zlJGSA": {
+                    "description": "+2 do Kondycji"
+                },
+                "FZjERZWvdzkXh0pm": {
+                    "description": "+1 do ataków wręcz i na odległość"
+                },
+                "gQYerjsfjNR6h9bt": {
+                    "description": "+1 do Inteligencji"
+                },
+                "iGBveH7iL4XVlJpL": {
+                    "description": "+1 do Charyzmy"
+                },
+                "mjB4wtgSleT8KVT0": {
+                    "name": "+2 do Zręczności"
+                },
+                "Mwc6UI2IlLA6HFc6": {
+                    "description": "+2 do Zręczności"
+                },
+                "pMCmooKHJh2qb3kD": {
+                    "name": "+2 do Siły"
+                },
+                "u3h72S63lDUmibhb": {
+                    "description": "+1 do Siły"
+                },
+                "VwxBuVQhig3L2ZIX": {
+                    "name": "+1 do ataków wręcz i na odległość"
+                },
+                "wz4n6yUzBW6RVZsw": {
+                    "name": "Rozdziel statystyki"
+                },
+                "XmXlyHev31GRRtzl": {
+                    "description": "+1 do Mądrości"
+                },
+                "xWNE8wxDJTVlu8FJ": {
+                    "description": "+1 do Kondycji"
+                },
+                "zpgd0MHPECig6w8d": {
+                    "description": "+2 do Inteligencji"
+                }
+            }
         },
         "Class Talents: Warlock": {
-            "name": "Talenty klas: Czarnoksiężnik"
+            "name": "Talenty klas: Czarnoksiężnik",
+            "results": {
+                "0sch8KZYnpLbEJkz": {
+                    "description": "Rzuć kostką na Korzyść od dowolnego patrona; niewyjaśniony prezent"
+                },
+                "1VVIO26M5JokyqN4": {
+                    "name": "+1 do Charyzmy"
+                },
+                "2-2": {
+                    "description": "Rzuć kostką na Korzyść od dowolnego patrona; niewyjaśniony prezent"
+                },
+                "3-6": {
+                    "description": "Dodaj +1 punkt do dwóch cech (muszą to być różne cechy)"
+                },
+                "6kAlgHT0aplp5chB": {
+                    "name": "+1 do ataków z dystansu"
+                },
+                "7-9": {
+                    "description": "Wybierz 1"
+                },
+                "10-11": {
+                    "description": "Rzuć dwa razy kostką na Korzyść patrona i wybierz jeden z nich"
+                },
+                "12-12": {
+                    "description": "Wybierz 1"
+                },
+                "dlu32ysGh6A5e5KX": {
+                    "name": "Rozdziel statystyki"
+                },
+                "Dqfqj9XZfpn9GZFY": {
+                    "name": "+1 do Zręczności"
+                },
+                "GlXjwH3o7hLDfKop": {
+                    "name": "+1 do Inteligencji"
+                },
+                "gsnPF50fNRzNYiFF": {
+                    "name": "+1 do ataków wręcz"
+                },
+                "iscFlZ02gcViCG5D": {
+                    "description": "Rzuć dwa razy kostką na Korzyść patrona i wybierz jeden z nich"
+                },
+                "Q6QwoMmrZS0lISoJ": {
+                    "name": "+1 do Siły"
+                },
+                "rwTxaepcJmcFYxsM": {
+                    "name": "+1 do Mądrości"
+                },
+                "sSgkHTzo6o72VNNT": {
+                    "name": "+1 do ataków wręcz"
+                },
+                "vyFEkrkXDRvOobul": {
+                    "name": "+1 do Kondycji"
+                },
+                "XZzKQOrQXRN7Qou3": {
+                    "name": "+1 do ataków z dystansu"
+                }
+            }
         },
         "Class Talents: Witch": {
-            "name": "Talenty klas: Wiedźma"
+            "name": "Talenty klas: Wiedźma",
+            "results": {
+                "2-2": {
+                    "name": "Teleportacja do chowańca"
+                },
+                "3-7": {
+                    "description": "Wybierz 1"
+                },
+                "8-9": {
+                    "name": "Ułatwienie w rzucaniu zaklęć"
+                },
+                "10-11": {
+                    "name": "Nauka zaklęcia Wiedźmy"
+                },
+                "12-12": {
+                    "description": "Wybierz 1"
+                },
+                "AipGfTboairKszSh": {
+                    "name": "+2 do Charyzmy"
+                },
+                "b50PEac019YpvOhS": {
+                    "name": "+1 do testów rzucania zaklęć"
+                },
+                "FrNDXcvWB0zOoEGe": {
+                    "name": "Ułatwienie w rzucaniu zaklęć"
+                },
+                "GMo8T9XHQnGAEu02": {
+                    "name": "+1 do testów rzucania zaklęć"
+                },
+                "hDzWbaWnguLypaXC": {
+                    "name": "Teleportacja do chowańca"
+                },
+                "yGcnNJyu8y2fJT7o": {
+                    "name": "Rozdziel statystyki"
+                },
+                "z4acXCaOMGvZa9I6": {
+                    "name": "Nauka zaklęcia Wiedźmy"
+                }
+            }
         },
         "Class Talents: Wizard": {
             "name": "Talenty klas: Czarodziej",
             "results": {
-                "12-12": "Naucz się dodatkowego zaklęcia czarodzieja dowolnego poziomu, które znasz",
-                "dxhv5UKKsR1RCiG4": "Stwórz losowy magiczny przedmiot"
+                "0KkfuxQC2lKy3qye": {
+                    "name": "+1 do testów rzucania zaklęć"
+                },
+                "0U8Cm0adaqdF9KIn": {
+                    "name": "Ułatwienie w rzucaniu zaklęć"
+                },
+                "1d6RtQGNQJy3PXvg": {
+                    "name": "Rozdziel statystyki"
+                },
+                "2-2": {
+                    "name": "Stwórz losowy magiczny przedmiot"
+                },
+                "3-7": {
+                    "description": "Wybierz 1"
+                },
+                "3MXPUsrmEQc6Dp1D": {
+                    "description": "+2 do Inteligencji"
+                },
+                "8-9": {
+                    "name": "Ułatwienie w rzucaniu zaklęć"
+                },
+                "8M33cR9uZSyou0YF": {
+                    "description": "+1 do Siły"
+                },
+                "9IXhThbhoB6xYT5w": {
+                    "description": "+2 do Kondycji"
+                },
+                "10-11": {
+                    "name": "Nauka zaklęcia Czarodzieja"
+                },
+                "12-12": {
+                    "description": "Wybierz 1"
+                },
+                "aCn3z0dz2nzMestr": {
+                    "description": "Naucz się dodatkowego zaklęcia czarodzieja dowolnego poziomu, które znasz"
+                },
+                "cnb8t7HmymR7uFWg": {
+                    "name": "+1 do testów rzucania zaklęć"
+                },
+                "dxhv5UKKsR1RCiG4": {
+                    "description": "Stwórz losowy magiczny przedmiot"
+                },
+                "EOfjgLxSA5crYgp7": {
+                    "description": "+1 do Kondycji"
+                },
+                "Fs4vSCkaLrEDmE5w": {
+                    "description": "+2 do Siły"
+                },
+                "Jkr5VQ905FqvNPL7": {
+                    "description": "+1 do Inteligencji"
+                },
+                "Lnb4CN0ULKs0IFoa": {
+                    "name": "Stwórz losowy magiczny przedmiot"
+                },
+                "NgyUoixPpwppTn4b": {
+                    "description": "+1 do Mądrości"
+                },
+                "ONCiXKMdDVi7Z63Q": {
+                    "name": "+2 do Inteligencji"
+                },
+                "TlVUTCMj9MkYslL5": {
+                    "description": "+1 do Charyzmy"
+                },
+                "vCbCPGgWoc5Zw4G6": {
+                    "name": "Nauka zaklęcia Czarodzieja"
+                },
+                "W9lj1pQjFF3kPj1E": {
+                    "description": "+2 do Zręczności"
+                },
+                "wFIoS5Px2qND848U": {
+                    "description": "+1 do Zręczności"
+                },
+                "wpSH7Rg7Mf4aZBXP": {
+                    "description": "+2 do Charyzmy"
+                },
+                "xS3zEeT4N0fEkEns": {
+                    "description": "+1 do testów rzucania zaklęć"
+                },
+                "yubg29cdBWLPZ4kj": {
+                    "description": "Ułatwienie w rzucaniu zaklęć"
+                }
             }
         },
         "Distribute to Stats": {
-            "name": "Rozdziel statystyki"
+            "name": "Rozdziel statystyki",
+            "results": {
+                "1-1": {
+                    "description": "lub +2 punkty do rozdzielenia na dowolne cechy"
+                },
+                "5CBf8sLkJz7DCAw0": {
+                    "name": "+1 do Siły"
+                },
+                "fLazNranC5IjxzHG": {
+                    "name": "+2 do Siły"
+                },
+                "hCBhdV1ScYd8rHXi": {
+                    "name": "+1 do Mądrości"
+                },
+                "heTmtgDVQyGfwFVs": {
+                    "name": "+1 do Zręczności"
+                },
+                "mRaoKNJIcM65e5P9": {
+                    "name": "+2 do Charyzmy"
+                },
+                "oMqbimLdQIY4YUTj": {
+                    "name": "+1 do Charyzmy"
+                },
+                "P8SIXjAyU8uDdmww": {
+                    "name": "+1 do Kondycji"
+                },
+                "pULgtvU9fVoD9p9G": {
+                    "name": "+2 do Mądrości"
+                },
+                "RUc1j8LPlIBS61Cs": {
+                    "name": "+2 do Zręczności"
+                },
+                "V0MKHlUbzH5CU66T": {
+                    "name": "+2 do Kondycji"
+                },
+                "v2axkaQH8Sjmwbvx": {
+                    "name": "+2 do Inteligencji"
+                },
+                "ZETK7JBywljD9EFz": {
+                    "name": "+1 do Inteligencji"
+                }
+            }
         },
         "Dungeon Names: Name 1": {
-            "name": "Nazwy lochów: Nazwa 1"
+            "name": "Nazwy lochów: Nazwa 1",
+            "results": {
+                "1-1": {
+                    "description": "Cytadela"
+                },
+                "2-3": {
+                    "description": "Wrak"
+                },
+                "4-5": {
+                    "description": "Ruiny"
+                },
+                "6-7": {
+                    "description": "Kaplica"
+                },
+                "8-9": {
+                    "description": "Biblioteka"
+                },
+                "10-11": {
+                    "description": "Mogiła"
+                },
+                "12-13": {
+                    "description": "Twierdza"
+                },
+                "14-15": {
+                    "description": "Laboratorium"
+                },
+                "16-17": {
+                    "description": "Opactwo"
+                },
+                "18-19": {
+                    "description": "Więzienie"
+                },
+                "20-21": {
+                    "description": "Grobowiec"
+                },
+                "22-23": {
+                    "description": "Kuźnia"
+                },
+                "24-25": {
+                    "description": "Wąwóz"
+                },
+                "26-27": {
+                    "description": "Klasztor"
+                },
+                "28-29": {
+                    "description": "Iglica"
+                },
+                "30-31": {
+                    "description": "Kryjówka"
+                },
+                "32-33": {
+                    "description": "Zamek"
+                },
+                "34-35": {
+                    "description": "Tunele"
+                },
+                "36-37": {
+                    "description": "Sale"
+                },
+                "38-39": {
+                    "description": "Wieża"
+                },
+                "40-41": {
+                    "description": "Farma"
+                },
+                "42-43": {
+                    "description": "Podmiasto"
+                },
+                "44-45": {
+                    "description": "Apartament"
+                },
+                "46-47": {
+                    "description": "Krypty"
+                },
+                "48-49": {
+                    "description": "Obserwatorium"
+                },
+                "50-53": {
+                    "description": "Azyl"
+                },
+                "54-55": {
+                    "description": "Grobowiec"
+                },
+                "56-57": {
+                    "description": "Kurhan"
+                },
+                "58-59": {
+                    "description": "Pałac"
+                },
+                "60-61": {
+                    "description": "Twierdza"
+                },
+                "62-63": {
+                    "description": "Jaskinie"
+                },
+                "64-65": {
+                    "description": "Świątynia"
+                },
+                "66-67": {
+                    "description": "Ogród"
+                },
+                "68-69": {
+                    "description": "Świątynia"
+                },
+                "70-71": {
+                    "description": "Labirynt"
+                },
+                "72-73": {
+                    "description": "Reduta"
+                },
+                "74-75": {
+                    "description": "Piramida"
+                },
+                "76-77": {
+                    "description": "Sanktuarium"
+                },
+                "78-79": {
+                    "description": "Kopalnie"
+                },
+                "80-81": {
+                    "description": "Leże"
+                },
+                "82-83": {
+                    "description": "Legowisko"
+                },
+                "84-85": {
+                    "description": "Jama"
+                },
+                "86-87": {
+                    "description": "Grota"
+                },
+                "88-89": {
+                    "description": "Głębiny"
+                },
+                "90-91": {
+                    "description": "Warownia"
+                },
+                "92-93": {
+                    "description": "Posiadłość"
+                },
+                "94-95": {
+                    "description": "Labirynt"
+                },
+                "96-97": {
+                    "description": "Monolit"
+                },
+                "98-99": {
+                    "description": "Krypty"
+                },
+                "100-100": {
+                    "description": "Loch"
+                }
+            }
         },
         "Dungeon Names: Name 2": {
-            "name": "Nazwy lochów: Nazwa 2"
+            "name": "Nazwy lochów: Nazwa 2",
+            "results": {
+                "1-1": {
+                    "description": "Nawiedzonego"
+                },
+                "2-3": {
+                    "description": "Zapomnianego"
+                },
+                "4-5": {
+                    "description": "Zhańbionego"
+                },
+                "6-7": {
+                    "description": "Barbarzyńskiego"
+                },
+                "8-9": {
+                    "description": "Monstrualnego"
+                },
+                "10-11": {
+                    "description": "Upadłego"
+                },
+                "12-13": {
+                    "description": "Przeklętego"
+                },
+                "14-15": {
+                    "description": "Związanego"
+                },
+                "16-17": {
+                    "description": "Trującego"
+                },
+                "18-19": {
+                    "description": "Jednookiego"
+                },
+                "20-21": {
+                    "description": "Niebiańskiego"
+                },
+                "22-23": {
+                    "description": "Zamrożonego"
+                },
+                "24-25": {
+                    "description": "Płonącego"
+                },
+                "26-27": {
+                    "description": "Złodziejskiego"
+                },
+                "28-29": {
+                    "description": "Krystalicznego"
+                },
+                "30-31": {
+                    "description": "Nieziemskiego"
+                },
+                "32-33": {
+                    "description": "Wyschniętego"
+                },
+                "34-35": {
+                    "description": "Niebiańskiego"
+                },
+                "36-37": {
+                    "description": "Smoczego"
+                },
+                "38-39": {
+                    "description": "Eterycznego"
+                },
+                "40-41": {
+                    "description": "Zbezczeszczonego"
+                },
+                "42-43": {
+                    "description": "Gadziego"
+                },
+                "44-45": {
+                    "description": "Metalicznego"
+                },
+                "46-47": {
+                    "description": "Owadziego"
+                },
+                "48-49": {
+                    "description": "Żywiołowego"
+                },
+                "50-53": {
+                    "description": "Pajęczego"
+                },
+                "54-55": {
+                    "description": "Demonicznego"
+                },
+                "56-57": {
+                    "description": "Grzybowego"
+                },
+                "58-59": {
+                    "description": "Złotego"
+                },
+                "60-61": {
+                    "description": "Wróżkowego"
+                },
+                "62-63": {
+                    "description": "Piorunującego"
+                },
+                "64-65": {
+                    "description": "Rybiego"
+                },
+                "66-67": {
+                    "description": "Skażonego"
+                },
+                "68-69": {
+                    "description": "Sprawiedliwego"
+                },
+                "70-71": {
+                    "description": "Błotnistego"
+                },
+                "72-73": {
+                    "description": "Nocnego"
+                },
+                "74-75": {
+                    "description": "Ukrytego"
+                },
+                "76-77": {
+                    "description": "Zabronionego"
+                },
+                "78-79": {
+                    "description": "Lśniącego"
+                },
+                "80-81": {
+                    "description": "Szklanego"
+                },
+                "82-83": {
+                    "description": "Promiennego"
+                },
+                "84-85": {
+                    "description": "Szalonego"
+                },
+                "86-87": {
+                    "description": "Dzikiego"
+                },
+                "88-89": {
+                    "description": "Zagubionego"
+                },
+                "90-91": {
+                    "description": "Majestatycznego"
+                },
+                "92-93": {
+                    "description": "Antycznego"
+                },
+                "94-95": {
+                    "description": "Przepowiedzianego"
+                },
+                "96-97": {
+                    "description": "Zasłoniętego"
+                },
+                "98-99": {
+                    "description": "Kosmicznego"
+                },
+                "100-100": {
+                    "description": "Legendarnego"
+                }
+            }
         },
         "Dungeon Names: Name 3": {
-            "name": "Nazwy lochów: Nazwa 3"
+            "name": "Nazwy lochów: Nazwa 3",
+            "results": {
+                "1-1": {
+                    "description": "Idola"
+                },
+                "2-3": {
+                    "description": "Zdrajcy"
+                },
+                "4-5": {
+                    "description": "Króla"
+                },
+                "6-7": {
+                    "description": "Słonia"
+                },
+                "8-9": {
+                    "description": "Boga"
+                },
+                "10-11": {
+                    "description": "Kultu"
+                },
+                "12-13": {
+                    "description": "Rycerza"
+                },
+                "14-15": {
+                    "description": "Bohatera"
+                },
+                "16-17": {
+                    "description": "Pirata"
+                },
+                "18-19": {
+                    "description": "Ducha"
+                },
+                "20-21": {
+                    "description": "Siostry"
+                },
+                "22-23": {
+                    "description": "Miecza"
+                },
+                "24-25": {
+                    "description": "Bestii"
+                },
+                "26-27": {
+                    "description": "Starożytnego"
+                },
+                "28-29": {
+                    "description": "Straconego"
+                },
+                "30-31": {
+                    "description": "Wyrzutka"
+                },
+                "32-33": {
+                    "description": "Marynarza"
+                },
+                "34-35": {
+                    "description": "Nieumarłego"
+                },
+                "36-37": {
+                    "description": "Maga"
+                },
+                "38-39": {
+                    "description": "Hordy"
+                },
+                "40-41": {
+                    "description": "Mumii"
+                },
+                "42-43": {
+                    "description": "Uzurpatora"
+                },
+                "44-45": {
+                    "description": "Świętego"
+                },
+                "46-47": {
+                    "description": "Mechanizmu"
+                },
+                "48-49": {
+                    "description": "Brata"
+                },
+                "50-53": {
+                    "description": "Władcy"
+                },
+                "54-55": {
+                    "description": "Potomka"
+                },
+                "56-57": {
+                    "description": "Abominacji"
+                },
+                "58-59": {
+                    "description": "Pustelnika"
+                },
+                "60-61": {
+                    "description": "Watażki"
+                },
+                "62-63": {
+                    "description": "Myśliwego"
+                },
+                "64-65": {
+                    "description": "Gildii"
+                },
+                "66-67": {
+                    "description": "Wampira"
+                },
+                "68-69": {
+                    "description": "Filozofa"
+                },
+                "70-71": {
+                    "description": "Wojownika"
+                },
+                "72-73": {
+                    "description": "Królowej"
+                },
+                "74-75": {
+                    "description": "Klejnotu"
+                },
+                "76-77": {
+                    "description": "Sekretu"
+                },
+                "78-79": {
+                    "description": "Cesarza"
+                },
+                "80-81": {
+                    "description": "Broni"
+                },
+                "82-83": {
+                    "description": "Czarownika"
+                },
+                "84-85": {
+                    "description": "Korony"
+                },
+                "86-87": {
+                    "description": "Przodka"
+                },
+                "88-89": {
+                    "description": "Runy"
+                },
+                "90-91": {
+                    "description": "Drzewa"
+                },
+                "92-93": {
+                    "description": "Zabójcy"
+                },
+                "94-95": {
+                    "description": "Reliktu"
+                },
+                "96-97": {
+                    "description": "Błogosławieństwa"
+                },
+                "98-99": {
+                    "description": "Rytuału"
+                },
+                "100-100": {
+                    "description": "Suwerena"
+                }
+            }
         },
         "Hazard: Damage": {
-            "name": "Zagrożenia: Obrażenia"
+            "name": "Zagrożenia: Obrażenia",
+            "results": {
+                "1-1": {
+                    "description": "Kałuże kwasu"
+                },
+                "2-2": {
+                    "description": "Wybuchające skały"
+                },
+                "3-3": {
+                    "description": "Lodowata woda"
+                },
+                "4-4": {
+                    "description": "Lawa"
+                },
+                "5-5": {
+                    "description": "Gradobicie"
+                },
+                "6-6": {
+                    "description": "Odpowietrzniki parowe"
+                },
+                "7-7": {
+                    "description": "Toksyczna pleśń"
+                },
+                "8-8": {
+                    "description": "Spadające odłamki"
+                },
+                "9-9": {
+                    "description": "Kwasowy deszcz"
+                },
+                "10-10": {
+                    "description": "Kurtyna ognia"
+                },
+                "11-11": {
+                    "description": "Pole elektryczne"
+                },
+                "12-12": {
+                    "description": "Strumień grawitacyjny"
+                }
+            }
         },
         "Hazard: Movement": {
-            "name": "Zagrożenia: Ruch"
+            "name": "Zagrożenia: Ruch",
+            "results": {
+                "1-1": {
+                    "description": "Ruchome piaski"
+                },
+                "2-2": {
+                    "description": "Kolczatki"
+                },
+                "3-3": {
+                    "description": "Sypkie odpady"
+                },
+                "4-4": {
+                    "description": "Pole smoły"
+                },
+                "5-5": {
+                    "description": "Chwytające pnącza"
+                },
+                "6-6": {
+                    "description": "Strome zbocze"
+                },
+                "7-7": {
+                    "description": "Śliski lód"
+                },
+                "8-8": {
+                    "description": "Rwąca woda"
+                },
+                "9-9": {
+                    "description": "Lepka pajęczyna"
+                },
+                "10-10": {
+                    "description": "Wiatr o mocy huraganu"
+                },
+                "11-11": {
+                    "description": "Tłusta podłoga"
+                },
+                "12-12": {
+                    "description": "Złudny teren"
+                }
+            }
         },
         "Hazard: Weaken": {
-            "name": "Zagrożenia: Osłabienia"
+            "name": "Zagrożenia: Osłabienia",
+            "results": {
+                "1-1": {
+                    "description": "Oślepiający dym"
+                },
+                "2-2": {
+                    "description": "Pole magnetyczne"
+                },
+                "3-3": {
+                    "description": "Wyczerpujące runy"
+                },
+                "4-4": {
+                    "description": "Strefa antymagiczna"
+                },
+                "5-5": {
+                    "description": "Gaszenie źródeł światła"
+                },
+                "6-6": {
+                    "description": "Dezorientujący dźwięk"
+                },
+                "7-7": {
+                    "description": "Magiczna cisza"
+                },
+                "8-8": {
+                    "description": "Przeszywający chłód"
+                },
+                "9-9": {
+                    "description": "Obrzydliwy zapach"
+                },
+                "10-10": {
+                    "description": "Zarodniki wywołujące sen"
+                },
+                "11-11": {
+                    "description": "Mylące odbicia"
+                },
+                "12-12": {
+                    "description": "Kradzież pamięci"
+                }
+            }
         },
         "Magic Item: Name 1": {
-            "name": "Przedmiot magiczny: Nazwa 1"
+            "name": "Przedmiot magiczny: Nazwa 1",
+            "results": {
+                "1-1": {
+                    "description": "Karmazynowy"
+                },
+                "2-2": {
+                    "description": "Popielaty"
+                },
+                "3-3": {
+                    "description": "Ortywalny"
+                },
+                "4-4": {
+                    "description": "Zagłady"
+                },
+                "5-5": {
+                    "description": "Zmierzchu"
+                },
+                "6-6": {
+                    "description": "Astralny"
+                },
+                "7-7": {
+                    "description": "Krull'a"
+                },
+                "8-8": {
+                    "description": "Okrutny"
+                },
+                "9-9": {
+                    "description": "Memnon'a"
+                },
+                "10-10": {
+                    "description": "Błogosławiony"
+                },
+                "11-11": {
+                    "description": "Piekielny"
+                },
+                "12-12": {
+                    "description": "Madeera'a"
+                },
+                "13-13": {
+                    "description": "Szepczący"
+                },
+                "14-14": {
+                    "description": "Nieświęty"
+                },
+                "15-15": {
+                    "description": "Shune'a"
+                },
+                "16-16": {
+                    "description": "Zapomniany"
+                },
+                "17-17": {
+                    "description": "Ord'a"
+                },
+                "18-18": {
+                    "description": "Sprawiedliwy"
+                },
+                "19-19": {
+                    "description": "Demoniczny"
+                },
+                "20-20": {
+                    "description": "Pierwotny"
+                }
+            }
         },
         "Magic Item: Name 2": {
-            "name": "Przedmiot magiczny: Nazwa 2"
+            "name": "Przedmiot magiczny: Nazwa 2",
+            "results": {
+                "1-1": {
+                    "description": "Ostrze"
+                },
+                "2-2": {
+                    "description": "Okład"
+                },
+                "3-3": {
+                    "description": "Rytuał"
+                },
+                "4-4": {
+                    "description": "Topór"
+                },
+                "5-5": {
+                    "description": "Młot"
+                },
+                "6-6": {
+                    "description": "Różdżka"
+                },
+                "7-7": {
+                    "description": "Peleryna"
+                },
+                "8-8": {
+                    "description": "Tom"
+                },
+                "9-9": {
+                    "description": "Litania"
+                },
+                "10-10": {
+                    "description": "Kostur"
+                },
+                "11-11": {
+                    "description": "Zwój"
+                },
+                "12-12": {
+                    "description": "Czaszki"
+                },
+                "13-13": {
+                    "description": "Łuk"
+                },
+                "14-14": {
+                    "description": "Miecz"
+                },
+                "15-15": {
+                    "description": "Tarcza"
+                },
+                "16-16": {
+                    "description": "Sztylet"
+                },
+                "17-17": {
+                    "description": "Pancerz"
+                },
+                "18-18": {
+                    "description": "Sfera"
+                },
+                "19-19": {
+                    "description": "Oko"
+                },
+                "20-20": {
+                    "description": "Eliksir"
+                }
+            }
         },
         "Magic Item: Name 3": {
-            "name": "Przedmiot magiczny: Nazwa 3"
+            "name": "Przedmiot magiczny: Nazwa 3",
+            "results": {
+                "1-1": {
+                    "description": "Grzmiącej śmierci"
+                },
+                "2-2": {
+                    "description": "Wieków"
+                },
+                "3-3": {
+                    "description": "Arcymaga"
+                },
+                "4-4": {
+                    "description": "Zniszczenia"
+                },
+                "5-5": {
+                    "description": "Braka"
+                },
+                "6-6": {
+                    "description": "Mocy"
+                },
+                "7-7": {
+                    "description": "Sabatu"
+                },
+                "8-8": {
+                    "description": "Dzikości"
+                },
+                "9-9": {
+                    "description": "Hordy"
+                },
+                "10-10": {
+                    "description": "Krwi"
+                },
+                "11-11": {
+                    "description": "Czasu"
+                },
+                "12-12": {
+                    "description": "Królowej Lichów"
+                },
+                "13-13": {
+                    "description": "Starszyzny"
+                },
+                "14-14": {
+                    "description": "Szaleństwa"
+                },
+                "15-15": {
+                    "description": "Wysychania"
+                },
+                "16-16": {
+                    "description": "Anihilacji"
+                },
+                "17-17": {
+                    "description": "Smoka"
+                },
+                "18-18": {
+                    "description": "Zmartwychwstania"
+                },
+                "19-19": {
+                    "description": "Furii żywiołów"
+                },
+                "20-20": {
+                    "description": "Duchów"
+                }
+            }
         },
         "Oracle": {
-            "name": "Wyrocznia"
+            "name": "Wyrocznia",
+            "results": {
+                "1-9": {
+                    "description": "Nie"
+                },
+                "10-10": {
+                    "description": "Być może"
+                },
+                "11-20": {
+                    "description": "Tak"
+                }
+            }
         },
         "Patron Boons: Almazzat": {
-            "name": "Korzyść patrona: Almazzat"
+            "name": "Korzyść patrona: Almazzat",
+            "results": {
+                "1ahzLslWnLCuC8n5": {
+                    "name": "Nauka broni białej"
+                },
+                "2-2": {
+                    "name": "Ułatwienie w atakach wręcz"
+                },
+                "3-7": {
+                    "description": "Wybierz 1"
+                },
+                "3MByfBYtzZzMRwyX": {
+                    "name": "+1 do ataków wręcz"
+                },
+                "3mgb4htWQ8Lyc8ks": {
+                    "name": "+1 do obrażeń zadawanych w walce wręcz"
+                },
+                "3PJRotooaESSqjnl": {
+                    "name": "Rozdziel statystyki"
+                },
+                "8-9": {
+                    "description": "Wybierz 1"
+                },
+                "9cSiZiY5rzMZdT8S": {
+                    "name": "Nauka broni białej"
+                },
+                "10-11": {
+                    "name": "Ułatwienie rzutu na inicjatywę"
+                },
+                "12-12": {
+                    "description": "Wybierz 1"
+                },
+                "AQPGmxwBqUuQjKWg": {
+                    "name": "Ułatwienie w atakach wręcz"
+                },
+                "DcJLusNhfvUcAQLl": {
+                    "name": "+2 do Kondycji"
+                },
+                "oGH2I1rhY4Xi2YQj": {
+                    "name": "+1 do obrażeń zadawanych w walce wręcz"
+                },
+                "vrQrsASJK5RmsmZA": {
+                    "name": "+2 do Siły"
+                },
+                "W5LGUFV5FrY2yqQX": {
+                    "name": "+1 do ataków wręcz"
+                },
+                "yePwQIk9PROkQknC": {
+                    "name": "Ułatwienie rzutu na inicjatywę"
+                }
+            }
         },
         "Patron Boons: Kytheros": {
-            "name": "Korzyść patrona: Kytheros"
+            "name": "Korzyść patrona: Kytheros",
+            "results": {
+                "2-2": {
+                    "name": "Wymuś rzut MG"
+                },
+                "3-7": {
+                    "name": "+1 do KP"
+                },
+                "8-9": {
+                    "description": "Wybierz 1"
+                },
+                "10-11": {
+                    "name": "Dodaj Mądrość do rzutu"
+                },
+                "12-12": {
+                    "description": "Wybierz 1"
+                },
+                "a0TxSPzLzNnlyzX2": {
+                    "name": "+1 do KP"
+                },
+                "bnv5azUa7bkvU2Qn": {
+                    "name": "+2 do Mądrości"
+                },
+                "C4k5rtaLhMKmMbsi": {
+                    "name": "+2 do Siły"
+                },
+                "dpeuP5ftKBP86aP1": {
+                    "name": "Rozdziel statystyki"
+                },
+                "GkV534oHvG2idNp6": {
+                    "name": "Dodaj Mądrość do rzutu"
+                },
+                "hx2GN61yJZvW4nor": {
+                    "name": "+2 do Zręczności"
+                },
+                "z3JsdSA3yTfGlv56": {
+                    "name": "Wymuś rzut MG"
+                }
+            }
         },
         "Patron Boons: Mugdulblub": {
-            "name": "Korzyść patrona: Mugdulblub"
+            "name": "Korzyść patrona: Mugdulblub",
+            "results": {
+                "1jUduG2tw1T3GDmS": {
+                    "name": "Niewrażliwość na kwas"
+                },
+                "2-2": {
+                    "name": "Postać śluzu"
+                },
+                "3-7": {
+                    "name": "Maksymalnie 2 rzuty na PW"
+                },
+                "7Cv53DjIjA10IvPD": {
+                    "name": "Niewrażliwość na zimno"
+                },
+                "8-9": {
+                    "description": "Wybierz 1"
+                },
+                "10-11": {
+                    "description": "Wybierz 1"
+                },
+                "12-12": {
+                    "description": "Wybierz 1"
+                },
+                "cnBphjA6fwkKiUq8": {
+                    "name": "Niewrażliwość na truciznę"
+                },
+                "D8sBmPHiSjR9PZ7K": {
+                    "name": "Rozdziel statystyki"
+                },
+                "FMPnW7JNBIoW2pGi": {
+                    "name": "Niewrażliwość na truciznę"
+                },
+                "iakzDPNnfN3TnLVc": {
+                    "name": "Postać śluzu"
+                },
+                "oeelo59UjQgIYUEy": {
+                    "name": "Niewrażliwość na zimno"
+                },
+                "oMz5DCwOgHErsMo7": {
+                    "name": "+2 do Kondycji"
+                },
+                "qvP1Dwr8kCNhQOeY": {
+                    "name": "Niewrażliwość na kwas"
+                },
+                "Xx3nkXAuSTGquTWk": {
+                    "name": "+2 do Zręczności"
+                }
+            }
         },
         "Patron Boons: Shune the Vile": {
-            "name": "Korzyść patrona: Shune, Nikczemny"
+            "name": "Korzyść patrona: Shune, Nikczemny",
+            "results": {
+                "2-2": {
+                    "name": "Czytanie umysłu stworzenia"
+                },
+                "3-7": {
+                    "name": "Nauka zaklęcia Czarodzieja"
+                },
+                "8-9": {
+                    "description": "Wybierz 1"
+                },
+                "10-11": {
+                    "name": "+1 PD do sekretów"
+                },
+                "12-12": {
+                    "description": "Wybierz 1"
+                },
+                "cP5A9kBl3bonbYDt": {
+                    "name": "+2 do Zręczności"
+                },
+                "CYltJxlhj4697eoE": {
+                    "name": "+1 PD do sekretów"
+                },
+                "g66FwWpV9CNiEgSL": {
+                    "name": "Rozdziel statystyki"
+                },
+                "GdBfoWNz5leRfsRQ": {
+                    "name": "+2 do Inteligencji"
+                },
+                "J5BrOWEBfnGz6TOl": {
+                    "name": "Nauka zaklęcia Czarodzieja"
+                },
+                "sUBmDCtzTCoAeRGi": {
+                    "name": "Czytanie umysłu stworzenia"
+                }
+            }
         },
         "Patron Boons: The Willowman": {
-            "name": "Korzyść patrona: Strzyga"
+            "name": "Korzyść patrona: Strzyga",
+            "results": {
+                "2-2": {
+                    "name": "Teleportacja"
+                },
+                "3-7": {
+                    "description": "Wybierz 1"
+                },
+                "5oJDFWhBzrbLd6ve": {
+                    "name": "+2 do Zręczności"
+                },
+                "8-9": {
+                    "description": "Wybierz 1"
+                },
+                "10-11": {
+                    "name": "Wymuszenie testu morale"
+                },
+                "12-12": {
+                    "description": "Wybierz 1"
+                },
+                "39dfIuez9HPaTZ9w": {
+                    "name": "+1 do ataków wręcz"
+                },
+                "091l4CxS6HBrbOky": {
+                    "name": "+1 do ataków z dystansu"
+                },
+                "epGQM54jf64rTnjS": {
+                    "name": "Teleportacja"
+                },
+                "GzXlTtJ6u0TMVIJx": {
+                    "name": "+1 do ataków z dystansu"
+                },
+                "jd6V7fRcXbNS8cLk": {
+                    "name": "Wymuszenie testu morale"
+                },
+                "P4APwE3PjmK0zZS9": {
+                    "name": "+1 do ataków wręcz"
+                },
+                "PGpSTzWj5JhUZoNo": {
+                    "name": "Rozdziel statystyki"
+                },
+                "PTFJSiDTH7423FGk": {
+                    "name": "+2 do Siły"
+                }
+            }
         },
         "Patron Boons: Titania": {
-            "name": "Korzyść patrona: Titania"
+            "name": "Korzyść patrona: Titania",
+            "results": {
+                "2-2": {
+                    "name": "Hipnoza"
+                },
+                "3-7": {
+                    "description": "Wybierz 1"
+                },
+                "3ycSx39Jmtbw3PAx": {
+                    "name": "+1 do ataków z dystansu"
+                },
+                "8-9": {
+                    "description": "Wybierz 1"
+                },
+                "9v8u3oIKb1N0rdRM": {
+                    "name": "+2 do Zręczności"
+                },
+                "10-11": {
+                    "name": "Odporność na magię"
+                },
+                "12-12": {
+                    "description": "Wybierz 1"
+                },
+                "99VfvZ0es75tMHRJ": {
+                    "name": "Rozdziel statystyki"
+                },
+                "EIESJe7TYSrPR7Lf": {
+                    "name": "Nauka posługiwania się długim łukiem"
+                },
+                "iyUzjgnbOlfguGtd": {
+                    "name": "+1 do ataków z dystansu"
+                },
+                "maQT0ylt6hkVAygR": {
+                    "name": "Nauka posługiwania się długim łukiem"
+                },
+                "OjESzhXmkRXRptqc": {
+                    "name": "Hipnoza"
+                },
+                "RrzLf4WgWJQB21WQ": {
+                    "name": "Odporność na magię"
+                },
+                "zWYEp2vfd4hL0tzf": {
+                    "name": "+2 do Charyzmy"
+                }
+            }
         },
         "Prompts: Noun": {
-            "name": "Podpowiedzi: Rzeczownik"
+            "name": "Podpowiedzi: Rzeczownik",
+            "results": {
+                "1-1": {
+                    "description": "Błąd"
+                },
+                "2-2": {
+                    "description": "Życie"
+                },
+                "3-3": {
+                    "description": "Bitwa"
+                },
+                "4-4": {
+                    "description": "Kłamstwo"
+                },
+                "5-5": {
+                    "description": "Występek"
+                },
+                "6-6": {
+                    "description": "Pamięć"
+                },
+                "7-7": {
+                    "description": "Ciężar"
+                },
+                "8-8": {
+                    "description": "Zdrada"
+                },
+                "9-9": {
+                    "description": "Proces"
+                },
+                "10-10": {
+                    "description": "Ryzyko"
+                },
+                "11-11": {
+                    "description": "Dobrobyt"
+                },
+                "12-12": {
+                    "description": "Czas"
+                },
+                "13-13": {
+                    "description": "Konflikt"
+                },
+                "14-14": {
+                    "description": "Światło"
+                },
+                "15-15": {
+                    "description": "Nienaturalny"
+                },
+                "16-16": {
+                    "description": "Informacja"
+                },
+                "17-17": {
+                    "description": "Nadzieja"
+                },
+                "18-18": {
+                    "description": "Podróż"
+                },
+                "19-19": {
+                    "description": "Zwykły"
+                },
+                "20-20": {
+                    "description": "Zagrożenie"
+                },
+                "21-21": {
+                    "description": "Rodzina"
+                },
+                "22-22": {
+                    "description": "Przeszkoda"
+                },
+                "23-23": {
+                    "description": "Wątpliwość"
+                },
+                "24-24": {
+                    "description": "Wolność"
+                },
+                "25-25": {
+                    "description": "Słabość"
+                },
+                "26-26": {
+                    "description": "Nieznany"
+                },
+                "27-27": {
+                    "description": "Chwała"
+                },
+                "28-28": {
+                    "description": "Przyjaciel"
+                },
+                "29-29": {
+                    "description": "Odkrycie"
+                },
+                "30-30": {
+                    "description": "Przewodzenie"
+                },
+                "31-31": {
+                    "description": "Burza"
+                },
+                "32-32": {
+                    "description": "Wróg"
+                },
+                "33-33": {
+                    "description": "Uczciwość"
+                },
+                "34-34": {
+                    "description": "Nauka"
+                },
+                "35-35": {
+                    "description": "Majątek"
+                },
+                "36-36": {
+                    "description": "Zbrodnia"
+                },
+                "37-37": {
+                    "description": "Mądrość"
+                },
+                "38-38": {
+                    "description": "Sprawiedliwość"
+                },
+                "39-39": {
+                    "description": "Konflikt"
+                },
+                "40-40": {
+                    "description": "Obrzydzenie"
+                },
+                "41-41": {
+                    "description": "Niebezpieczeństwo"
+                },
+                "42-42": {
+                    "description": "Równowaga"
+                },
+                "43-43": {
+                    "description": "Natura"
+                },
+                "44-44": {
+                    "description": "Chaos"
+                },
+                "45-45": {
+                    "description": "Zasadzka"
+                },
+                "46-46": {
+                    "description": "Bogactwo"
+                },
+                "47-47": {
+                    "description": "Myśl"
+                },
+                "48-48": {
+                    "description": "Ciemność"
+                },
+                "49-49": {
+                    "description": "Połączenie"
+                },
+                "50-50": {
+                    "description": "Drzwi"
+                },
+                "51-51": {
+                    "description": "Strach"
+                },
+                "52-52": {
+                    "description": "Magia"
+                },
+                "53-53": {
+                    "description": "Honor"
+                },
+                "54-54": {
+                    "description": "Duch"
+                },
+                "55-55": {
+                    "description": "Zaufanie"
+                },
+                "56-56": {
+                    "description": "Strata"
+                },
+                "57-57": {
+                    "description": "Porażka"
+                },
+                "58-58": {
+                    "description": "Niebezpieczeństwo"
+                },
+                "59-59": {
+                    "description": "Plan"
+                },
+                "60-60": {
+                    "description": "Sztuczka"
+                },
+                "61-61": {
+                    "description": "Umysł"
+                },
+                "62-62": {
+                    "description": "Ból"
+                },
+                "63-63": {
+                    "description": "Zwycięstwo"
+                },
+                "64-64": {
+                    "description": "Śmierć"
+                },
+                "65-65": {
+                    "description": "Kontrola"
+                },
+                "66-66": {
+                    "description": "Wiedza"
+                },
+                "67-67": {
+                    "description": "Sekret"
+                },
+                "68-68": {
+                    "description": "Życzliwość"
+                },
+                "69-69": {
+                    "description": "Eksploracja"
+                },
+                "70-70": {
+                    "description": "Niespodzianka"
+                },
+                "71-71": {
+                    "description": "Magia"
+                },
+                "72-72": {
+                    "description": "Zwierzę"
+                },
+                "73-73": {
+                    "description": "Droga"
+                },
+                "74-74": {
+                    "description": "Esencja"
+                },
+                "75-75": {
+                    "description": "Sen"
+                },
+                "76-76": {
+                    "description": "Gniew"
+                },
+                "77-77": {
+                    "description": "Wizja"
+                },
+                "78-78": {
+                    "description": "Bezpieczeństwo"
+                },
+                "79-79": {
+                    "description": "Wynik"
+                },
+                "80-80": {
+                    "description": "Miejsce"
+                },
+                "81-81": {
+                    "description": "Ścieżka"
+                },
+                "82-82": {
+                    "description": "Odżywianie"
+                },
+                "83-83": {
+                    "description": "Kradzież"
+                },
+                "84-84": {
+                    "description": "Rozkład"
+                },
+                "85-85": {
+                    "description": "Prawda"
+                },
+                "86-86": {
+                    "description": "Ludzie"
+                },
+                "87-87": {
+                    "description": "Pomoc"
+                },
+                "88-88": {
+                    "description": "Sprzęt"
+                },
+                "89-89": {
+                    "description": "Idea"
+                },
+                "90-90": {
+                    "description": "Porządek"
+                },
+                "91-91": {
+                    "description": "Sukces"
+                },
+                "92-92": {
+                    "description": "Bariera"
+                },
+                "93-93": {
+                    "description": "Cel"
+                },
+                "94-94": {
+                    "description": "Szczęście"
+                },
+                "95-95": {
+                    "description": "Tożsamość"
+                },
+                "96-96": {
+                    "description": "Szkoda"
+                },
+                "97-97": {
+                    "description": "Pustkowie"
+                },
+                "98-98": {
+                    "description": "Motyw"
+                },
+                "99-99": {
+                    "description": "Schron"
+                },
+                "100-100": {
+                    "description": "Moc"
+                }
+            }
         },
         "Prompts: Verb": {
-            "name": "Podpowiedzi: Czasownik"
+            "name": "Podpowiedzi: Czasownik",
+            "results": {
+                "1-1": {
+                    "description": "Zatrzymywać"
+                },
+                "2-2": {
+                    "description": "Mówić"
+                },
+                "3-3": {
+                    "description": "Zaufać"
+                },
+                "4-4": {
+                    "description": "Przewidzieć"
+                },
+                "5-5": {
+                    "description": "Dostarczyć"
+                },
+                "6-6": {
+                    "description": "Zdemontować"
+                },
+                "7-7": {
+                    "description": "Utworzyć"
+                },
+                "8-8": {
+                    "description": "Oprzeć"
+                },
+                "9-9": {
+                    "description": "Napełnić"
+                },
+                "10-10": {
+                    "description": "Zaprzyjaźnić"
+                },
+                "11-11": {
+                    "description": "Skradać"
+                },
+                "12-12": {
+                    "description": "Nie zgodzić się"
+                },
+                "13-13": {
+                    "description": "Oświetlić"
+                },
+                "14-14": {
+                    "description": "Zmontować"
+                },
+                "15-15": {
+                    "description": "Uwalniać"
+                },
+                "16-16": {
+                    "description": "Scalać"
+                },
+                "17-17": {
+                    "description": "Zakłócić"
+                },
+                "18-18": {
+                    "description": "Żądać"
+                },
+                "19-19": {
+                    "description": "Utrudniać"
+                },
+                "20-20": {
+                    "description": "Pchać"
+                },
+                "21-21": {
+                    "description": "Przybywać"
+                },
+                "22-22": {
+                    "description": "Spowolnić"
+                },
+                "23-23": {
+                    "description": "Pokonać"
+                },
+                "24-24": {
+                    "description": "Blokować"
+                },
+                "25-25": {
+                    "description": "Spożywać"
+                },
+                "26-26": {
+                    "description": "Wykonywać"
+                },
+                "27-27": {
+                    "description": "Nagrodzić"
+                },
+                "28-28": {
+                    "description": "Rozwijać"
+                },
+                "29-29": {
+                    "description": "Marnować"
+                },
+                "30-30": {
+                    "description": "Przechwyć"
+                },
+                "31-31": {
+                    "description": "Osłabić"
+                },
+                "32-32": {
+                    "description": "Ujawniać"
+                },
+                "33-33": {
+                    "description": "Zbadać"
+                },
+                "34-34": {
+                    "description": "Zakazać"
+                },
+                "35-35": {
+                    "description": "Zaczynać"
+                },
+                "36-36": {
+                    "description": "Zaskakiwać"
+                },
+                "37-37": {
+                    "description": "Wytrwać"
+                },
+                "38-38": {
+                    "description": "Ciągnąć"
+                },
+                "39-39": {
+                    "description": "Uwolnić"
+                },
+                "40-40": {
+                    "description": "Unikać"
+                },
+                "41-41": {
+                    "description": "Rozwijać"
+                },
+                "42-42": {
+                    "description": "Zgadzać"
+                },
+                "43-43": {
+                    "description": "Dostarczyć"
+                },
+                "44-44": {
+                    "description": "Łączyć"
+                },
+                "45-45": {
+                    "description": "Utrudniać"
+                },
+                "46-46": {
+                    "description": "Wstrzymać"
+                },
+                "47-47": {
+                    "description": "Przegrać"
+                },
+                "48-48": {
+                    "description": "Ewoluować"
+                },
+                "49-49": {
+                    "description": "Wzmocnić"
+                },
+                "50-50": {
+                    "description": "Ukarać"
+                },
+                "51-51": {
+                    "description": "Zapalać"
+                },
+                "52-52": {
+                    "description": "Przebudzić"
+                },
+                "53-53": {
+                    "description": "Przeciwstawiać"
+                },
+                "54-54": {
+                    "description": "Ukryć"
+                },
+                "55-55": {
+                    "description": "Zapraszać"
+                },
+                "56-56": {
+                    "description": "Przełamać"
+                },
+                "57-57": {
+                    "description": "Zezwalać"
+                },
+                "58-58": {
+                    "description": "Otwierać"
+                },
+                "59-59": {
+                    "description": "Odstraszać"
+                },
+                "60-60": {
+                    "description": "Aktywować"
+                },
+                "61-61": {
+                    "description": "Zebrać"
+                },
+                "62-62": {
+                    "description": "Podać"
+                },
+                "63-63": {
+                    "description": "Odwracać"
+                },
+                "64-64": {
+                    "description": "Ostrzegać"
+                },
+                "65-65": {
+                    "description": "Skonfrontować"
+                },
+                "66-66": {
+                    "description": "Zdradzić"
+                },
+                "67-67": {
+                    "description": "Zabezpieczyć"
+                },
+                "68-68": {
+                    "description": "Przyciemniać"
+                },
+                "69-69": {
+                    "description": "Uciekać"
+                },
+                "70-70": {
+                    "description": "Zwyciężyć"
+                },
+                "71-71": {
+                    "description": "Rozproszyć"
+                },
+                "72-72": {
+                    "description": "Zawierać"
+                },
+                "73-73": {
+                    "description": "Wspierać"
+                },
+                "74-74": {
+                    "description": "Wziąć"
+                },
+                "75-75": {
+                    "description": "Pytać"
+                },
+                "76-76": {
+                    "description": "Upuść"
+                },
+                "77-77": {
+                    "description": "Akceptować"
+                },
+                "78-78": {
+                    "description": "Poświęcić"
+                },
+                "79-79": {
+                    "description": "Osuszyć"
+                },
+                "80-80": {
+                    "description": "Robić aluzję"
+                },
+                "81-81": {
+                    "description": "Grzebać"
+                },
+                "82-82": {
+                    "description": "Zawodzić"
+                },
+                "83-83": {
+                    "description": "Wspinać"
+                },
+                "84-84": {
+                    "description": "Chronić"
+                },
+                "85-85": {
+                    "description": "Zbiec"
+                },
+                "86-86": {
+                    "description": "Pokonać"
+                },
+                "87-87": {
+                    "description": "Naprawiać"
+                },
+                "88-88": {
+                    "description": "Nabywać"
+                },
+                "89-89": {
+                    "description": "Przewodzić"
+                },
+                "90-90": {
+                    "description": "Zwodzić"
+                },
+                "91-91": {
+                    "description": "Wygnać"
+                },
+                "92-92": {
+                    "description": "Przestrzegać"
+                },
+                "93-93": {
+                    "description": "Budować"
+                },
+                "94-94": {
+                    "description": "Zmieniać"
+                },
+                "95-95": {
+                    "description": "Cofnąć"
+                },
+                "96-96": {
+                    "description": "Szukać"
+                },
+                "97-97": {
+                    "description": "Niszczyć"
+                },
+                "98-98": {
+                    "description": "Odkryć"
+                },
+                "99-99": {
+                    "description": "Odpocząć"
+                },
+                "100-100": {
+                    "description": "Zwolnić"
+                }
+            }
         },
         "Random Alignment": {
-            "name": "Losowy charakter"
+            "name": "Losowy charakter",
+            "results": {
+                "1-3": {
+                    "description": "Praworządny"
+                },
+                "4-5": {
+                    "description": "Neutralny"
+                },
+                "6-6": {
+                    "description": "Chaotyczny"
+                }
+            }
         },
         "Random Ancestry": {
-            "name": "Losowe pochodzenie"
+            "name": "Losowe pochodzenie",
+            "results": {
+                "1-4": {
+                    "name": "Człowiek"
+                },
+                "5-6": {
+                    "name": "Elf"
+                },
+                "7-8": {
+                    "name": "Krasnolud"
+                },
+                "9-10": {
+                    "name": "Niziołek"
+                },
+                "11-11": {
+                    "name": "Półork"
+                },
+                "12-12": {
+                    "name": "Goblin"
+                }
+            }
         },
         "Random Class": {
-            "name": "Losowa klasa"
+            "name": "Losowa klasa",
+            "results": {
+                "1-1": {
+                    "name": "Wojownik"
+                },
+                "2-2": {
+                    "name": "Kapłan"
+                },
+                "3-3": {
+                    "name": "Złodziej"
+                },
+                "4-4": {
+                    "name": "Czarodziej"
+                },
+                "5-5": {
+                    "name": "Bard"
+                },
+                "6-6": {
+                    "name": "Łowca"
+                }
+            }
         },
         "Random Encounter: Activity": {
-            "name": "Losowe spotkanie: Aktywność"
+            "name": "Losowe spotkanie: Aktywność",
+            "results": {
+                "2-4": {
+                    "description": "Poluje"
+                },
+                "5-6": {
+                    "description": "Zjada"
+                },
+                "7-8": {
+                    "description": "Buduje / Zagnieżdża"
+                },
+                "9-10": {
+                    "description": "Socjalizuje / Zabawia"
+                },
+                "11-11": {
+                    "description": "Strzeże"
+                },
+                "12-12": {
+                    "description": "Śpi"
+                }
+            }
         },
         "Random Encounter: Distance": {
-            "name": "Losowe spotkanie: Dystans"
+            "name": "Losowe spotkanie: Dystans",
+            "results": {
+                "1-1": {
+                    "description": "Zwarcie"
+                },
+                "2-4": {
+                    "description": "Bliski"
+                },
+                "5-6": {
+                    "description": "Daleki"
+                }
+            }
         },
         "Random Encounter: Reaction": {
-            "name": "Losowe spotkanie: Reakcja"
+            "name": "Losowe spotkanie: Reakcja",
+            "results": {
+                "0-6": {
+                    "description": "Wrogi"
+                },
+                "7-8": {
+                    "description": "Podejrzliwy"
+                },
+                "9-9": {
+                    "description": "Neutralny"
+                },
+                "10-11": {
+                    "description": "Ciekawy"
+                },
+                "12-100": {
+                    "description": "Przyjazny"
+                }
+            }
         },
         "Random Gear": {
-            "name": "Losowy sprzęt"
+            "name": "Losowy sprzęt",
+            "results": {
+                "1-1": {
+                    "name": "Pochodnia"
+                },
+                "2-2": {
+                    "name": "Sztylet"
+                },
+                "3-3": {
+                    "name": "Tyczka"
+                },
+                "4-4": {
+                    "name": "Racje żywnościowe"
+                },
+                "5-5": {
+                    "name": "Lina, 60'"
+                },
+                "6-6": {
+                    "name": "Olej, kolba"
+                },
+                "7-7": {
+                    "name": "Łom"
+                },
+                "8-8": {
+                    "name": "Żelazne kolce"
+                },
+                "9-9": {
+                    "name": "Krzesiwo"
+                },
+                "10-10": {
+                    "name": "Kotwiczka"
+                },
+                "11-11": {
+                    "name": "Maczuga"
+                },
+                "12-12": {
+                    "name": "Kolczatki"
+                }
+            }
         },
         "Random Gear Rolls": {
-            "name": "Rzuty na losowy sprzęt"
+            "name": "Rzuty na losowy sprzęt",
+            "results": {
+                "1-6": {
+                    "name": "Losowy sprzęt"
+                },
+                "2-6": {
+                    "name": "Losowy sprzęt"
+                },
+                "3-6": {
+                    "name": "Losowy sprzęt"
+                },
+                "4-6": {
+                    "name": "Losowy sprzęt"
+                },
+                "5-6": {
+                    "name": "Losowy sprzęt"
+                },
+                "6-6": {
+                    "name": "Losowy sprzęt"
+                }
+            }
         },
         "Roll Random Character": {
             "description": "<p> – Wybierz jedną broń (zobacz kompendium broni) – Wybierz skórznię, jeśli możesz ją nosić (zobacz kompendium zbroi)</p>",
-            "name": "Rzut na losowy charakter"
+            "name": "Rzut na losowy charakter",
+            "results": {
+                "1-1": {
+                    "name": "Losowy charakter"
+                },
+                "bTx7SDbteDwOT0wj": {
+                    "name": "Rzuty na losowy sprzęt"
+                },
+                "EJSTyXp75GftHgdd": {
+                    "name": "Losowe pochodzenie"
+                },
+                "fWby9eYWxd1XneDg": {
+                    "name": "Losowa klasa"
+                }
+            }
         },
         "Ruin Encounters": {
-            "name": "Spotkania w ruinach"
+            "name": "Spotkania w ruinach",
+            "results": {
+                "1-1": {
+                    "description": "Zmutowany @UUID[Compendium.shadowdark.monsters.nhKDBbnOnXXTzfBr] przebija się przez rozpadającą się ścianę"
+                },
+                "2-3": {
+                    "description": "Cicha @UUID[Compendium.shadowdark.monsters.udRspLiTyURGmLav] przemierza korytarz"
+                },
+                "4-5": {
+                    "description": "Wędrujący @UUID[Compendium.shadowdark.monsters.RG84tprafQTDEFCa] szuka martwych zwierząt, aby się nimi pożywić"
+                },
+                "6-7": {
+                    "description": "Wrodzy pełzacze stają twarzą w twarz z bohaterami; to oni „byli tu pierwsi”"
+                },
+                "8-9": {
+                    "description": "[[/r 1d6]] @UUID[Compendium.shadowdark.monsters.qISCrzLvHr4uQ9Q8]{Rdzawe potwory} zalewają szczelinę, z której wydobywa się rtęć"
+                },
+                "10-11": {
+                    "description": "Beznogi zbrojny @UUID[Compendium.shadowdark.monsters.qSeHWgP59WltutCz] czołga się po podłodze"
+                },
+                "12-13": {
+                    "description": "Skrzypiąca ściana zawala się przy najmniejszym dotknięciu"
+                },
+                "14-15": {
+                    "description": "Notatka kredą na ścianie: „Karov, spotkamy się w Loyal Hog”"
+                },
+                "16-17": {
+                    "description": "Goblin Mort szuka w szczelinach larw i chrząszczy"
+                },
+                "18-19": {
+                    "description": "Podłoga zapada się, tworząc jamę o głębokości [[/r 1d6*10]] stóp"
+                },
+                "20-21": {
+                    "description": "Oddział zwiadowczy złożony z [[/r 2d4]] @UUID[Compendium.shadowdark.monsters.uqHIz56KiBwTnbTJ]{Hobgoblinów} porusza się w zwartej formacji"
+                },
+                "22-23": {
+                    "description": "[[/r 2d4]] pokryte pajęczyną @UUID[Compendium.shadowdark.monsters.cWzG0yEVgIk8ijk6]{Szkielety} powstają z rozrzuconych kości"
+                },
+                "24-25": {
+                    "description": "[[/r 1d4]] @UUID[Compendium.shadowdark.monsters.99s2guSyYKPWp1oy]{Olbrzymie chrząszcze gnojowe} toczą ogromne kule z wysuszonych odchodów"
+                },
+                "26-27": {
+                    "description": "@UUID[Compendium.shadowdark.monsters.QErMaMVIbddgk9MX] ukrywa się w sadzawce lub zbiorniku wodnym"
+                },
+                "28-29": {
+                    "description": "Pomiędzy płytami chodnikowymi wyrasta pojedyncza, idealna róża"
+                },
+                "30-31": {
+                    "description": "[[/r 2d4]] @UUID[Compendium.shadowdark.monsters.AMSI3MCLvpcZpJPO]{Bandyci} gaszą latarnie i organizują pospieszną zasadzkę"
+                },
+                "32-33": {
+                    "description": "Trzy @UUID[Compendium.shadowdark.monsters.I7CMFbyFmFHVwE5U]{Gobliny} wzmacniają sobie nawzajem czaszki za pomocą patelni"
+                },
+                "34-35": {
+                    "description": "[[/r 2d6]] @UUID[Compendium.shadowdark.monsters.k8tAgECWIzPIStGU]{Ludzie-bestie} obrzucają kamieniami gigantyczną stonogę"
+                },
+                "36-37": {
+                    "description": "Wyciek gazu powoduje, że wszystkie źródła światła wybuchają i gasną"
+                },
+                "38-39": {
+                    "description": "@UUID[Compendium.shadowdark.monsters.udRspLiTyURGmLav], pełna przydatnych przedmiotów, utknęła w jamie"
+                },
+                "40-41": {
+                    "description": "W polu widzenia pojawia się rój brzęczących @UUID[Compendium.shadowdark.monsters.U9moCUg8DnL6C0Sq]{złotych skarabeuszy}"
+                },
+                "42-43": {
+                    "description": "Ranny BN podchodzi chwiejnym krokiem do bohaterów i błaga o pomoc"
+                },
+                "44-45": {
+                    "description": "Zardzewiała brama opada z hukiem, oddzielając bohaterów"
+                },
+                "46-47": {
+                    "description": "@UUID[Compendium.shadowdark.monsters.p9PayU4K9nBZ8JRl] czai się nad starym, zgniłym plecakiem"
+                },
+                "48-49": {
+                    "description": "Obok przelatuje płaczący @UUID[Compendium.shadowdark.monsters.LV2ZWlK1qUQz5J4K], pochłonięty własnymi przemyśleniami"
+                },
+                "50-53": {
+                    "description": "[[/r 2d4]] @UUID[Compendium.shadowdark.monsters.BxilUr9Ac6zgekYU]{Koboldy} podkradają się do bohaterów od tyłu, by przeprowadzić atak z zaskoczenia"
+                },
+                "54-55": {
+                    "description": "Starożytne gliniane naczynia wibrują, wydając hipnotyzujący dźwięk"
+                },
+                "56-57": {
+                    "description": "[[/r 1d6]] @UUID[Compendium.shadowdark.monsters.Jn5JjEPCUT86txAg]{Griki} rozszarpują martwe olbrzymie szczury i wykorzystują ich futro do budowy gniazd"
+                },
+                "58-59": {
+                    "description": "Wrogie pełzacze towarzyszą wątłej szlachciance-turystce w jej „przygodzie”"
+                },
+                "60-61": {
+                    "description": "[[/r 3d4]] @UUID[Compendium.shadowdark.monsters.I7CMFbyFmFHVwE5U]{Gobliny} – padlinożercy, którzy wymieniają się i handlują dziwnymi bibelotami"
+                },
+                "62-63": {
+                    "description": "[[/r 2d4]] krasnoludzcy górnicy (@UUID[Compendium.shadowdark.monsters.Kw5KEyZVy5ugaTTy]{Żołnierze}) wzmacniają zapadającą się ścianę"
+                },
+                "64-65": {
+                    "description": "[[/r 2d4]] @UUID[Compendium.shadowdark.monsters.K9M3BA8PlvYWFADe]{Olbrzymie osy} budują ogromne, papierowe gniazdo na suficie"
+                },
+                "66-67": {
+                    "description": "Z pęknięcia w podłodze unosi się gęsta chmura siarkowej mgły"
+                },
+                "68-69": {
+                    "description": "@UUID[Compendium.shadowdark.monsters.rwE58nsTLAG7pW1u]{Rój pająków} wyrywa się z przezroczystego woreczka jajowego"
+                },
+                "70-71": {
+                    "description": "@UUID[Compendium.shadowdark.monsters.VrYTiPjDOH1LIEBr] o nazwie Lud wyrywa nieprzyzwoite słowa na ścianie"
+                },
+                "72-73": {
+                    "description": "[[/r 1d6]] @UUID[Compendium.shadowdark.monsters.I7CMFbyFmFHVwE5U]{Gobliny} walczą z [[/r 2d4]] @UUID[Compendium.shadowdark.monsters.BxilUr9Ac6zgekYU]{koboldami} o zwłoki @UUID[Compendium.shadowdark.monsters.Jn5JjEPCUT86txAg]{grika}"
+                },
+                "74-75": {
+                    "description": "[[/r 2d4]]@UUID[Compendium.shadowdark.monsters.EJ94w4A9mb9ETSGA]{Olbrzymie nietoperze} odpoczywają na suficie; światło je niepokoi"
+                },
+                "76-77": {
+                    "description": "@UUID[Compendium.shadowdark.monsters.fcgq7uwsJEMMdRNx]{Pajęczarz} owija swoją wciąż żywą ofiarę pajęczymi kokonami"
+                },
+                "78-79": {
+                    "description": "[[/r 1d6]] @UUID[Compendium.shadowdark.monsters.CpHttsoemSoZRiDe]{Kultyści} poszukują kości humanoidów do przeprowadzenia nikczemnego rytuału"
+                },
+                "80-81": {
+                    "description": "@UUID[Compendium.shadowdark.monsters.vXaqgfDykZPdXnIm]{Driada} szuka swojego drzewa, które posiekali strachuny"
+                },
+                "82-83": {
+                    "description": "@UUID[Compendium.shadowdark.monsters.WMw4J1wECaLGf3Am] gra nastrojową muzykę na buczących grzybach"
+                },
+                "84-85": {
+                    "description": "[[/r 2d6]] @UUID[Compendium.shadowdark.monsters.BxilUr9Ac6zgekYU]{Koboldy} pracują w prowizorycznym, niebezpiecznym laboratorium alchemicznym"
+                },
+                "86-87": {
+                    "description": "@UUID[Compendium.shadowdark.monsters.zLDg6vIYEj4wB0lQ] bez końca układa te same kamienie w stosy"
+                },
+                "88-89": {
+                    "description": "Dwie @UUID[Compendium.shadowdark.monsters.0JAEN5FsKjaXXZaA]{Mroczne płaszczki} krążą wokół siebie, tocząc pojedynek na zastraszanie"
+                },
+                "90-91": {
+                    "description": "[[/r 2d6]] @UUID[Compendium.shadowdark.monsters.I7CMFbyFmFHVwE5U]{Gobliny} niosą swojego króla strachuna na rozklekotanej lektyce"
+                },
+                "92-93": {
+                    "description": "[[/r 2d4]] @UUID[Compendium.shadowdark.monsters.j7sQ6Km2jSx5twCC]{Jaskiniowe pełzacze} zalewają korytarz"
+                },
+                "94-95": {
+                    "description": "Niedawno rozpalone ognisko wciąż tli się żarzącymi się węglami"
+                },
+                "96-97": {
+                    "description": "@UUID[Compendium.shadowdark.monsters.c3Nvj86e0Layz3NG] prowadzi tajemniczego kupca wzdłuż ścieżki"
+                },
+                "98-99": {
+                    "description": "Rzuć dwoma kośćmi na spotkanie i zsumuj wyniki (w przypadku wyniku 98–99 rzuć ponownie)"
+                },
+                "100-100": {
+                    "description": "Ciało martwego pełzacza zawiera losowy przedmiot magiczny"
+                },
+                "bzOTVXRwSmc4TBit": {
+                    "name": "Spotkania w ruinach"
+                }
+            }
         },
         "Rumors": {
-            "name": "Plotki"
+            "name": "Plotki",
+            "results": {
+                "1-1": {
+                    "description": "W pobliżu szaleje opancerzona bestia wielkości statku"
+                },
+                "2-3": {
+                    "description": "Grupa zabójców jest w drodze, by zabić waszą grupę"
+                },
+                "4-5": {
+                    "description": "Lokalny władca wyznaczył nagrodę w wysokości 2 000 sztuk złota za wasze głowy"
+                },
+                "6-7": {
+                    "description": "Kult Shune’a planuje o północy przeprowadzić gwałtowny zamach stanu"
+                },
+                "8-9": {
+                    "description": "W piwnicy zamku odkryto starożytne, kamienne drzwi"
+                },
+                "10-11": {
+                    "description": "Jaszczuroludzie napadają na karawany w pobliżu bagien"
+                },
+                "12-13": {
+                    "description": "Po zamglonym cmentarzu krążą opancerzone szkielety"
+                },
+                "14-15": {
+                    "description": "Trzęsienie ziemi odsłoniło ruiny znajdujące się w głębokiej szczelinie"
+                },
+                "16-17": {
+                    "description": "Oddział orków opanował opuszczoną twierdzę"
+                },
+                "18-19": {
+                    "description": "Pod studnią znajduje się sala ze złotymi posągami"
+                },
+                "20-21": {
+                    "description": "Ci, którzy przetrwają Próbę Lotosu, otrzymują niezwykły dar"
+                },
+                "22-23": {
+                    "description": "Kapitan straży został wzięty jako zakładnik przez bandytów"
+                },
+                "24-25": {
+                    "description": "W Kryształowych Jaskiniach działa sekta czarowników obdarzonych zdolnościami parapsychicznymi"
+                },
+                "26-27": {
+                    "description": "Krokodyl wciągnął do kanałów muła obładowanego wartościowymi towarami"
+                },
+                "28-29": {
+                    "description": "Wróżka przepowiada prawdziwe znaki i wróżby"
+                },
+                "30-31": {
+                    "description": "Podczas każdej pełni księżyca dochodzi do włamania do spiżarni Tańczącego Jednorożca"
+                },
+                "32-33": {
+                    "description": "Znana grupa poszukiwaczy nie wróciła z wyprawy"
+                },
+                "34-35": {
+                    "description": "Świecąca meteoryt rozbił się głęboko w sercu terenów bagiennych"
+                },
+                "36-37": {
+                    "description": "W zasięgu wzroku od Fontanny Lwa nie wolno rozpalać ognia ani utrzymywać go"
+                },
+                "38-39": {
+                    "description": "Zaginiony <i>Klejnot Barbaltu</i> jest ukryty w Wrzeszczących Jaskiniach"
+                },
+                "40-41": {
+                    "description": "Ekipa górnicza krasnoludów odkryła posąg z mackami"
+                },
+                "42-43": {
+                    "description": "W tawernie „Czerwona Sowa” znajduje się zapadnia prowadząca do Shadowdark"
+                },
+                "44-45": {
+                    "description": "W dżungli wojownicy z Viperii strzegą świątyni poświęconej meduzie"
+                },
+                "46-47": {
+                    "description": "Trzech złodziei właśnie dokonało kradzieży klejnotów w tej okolicy"
+                },
+                "48-49": {
+                    "description": "Harpie czuwają ze skał otaczających Grobowiec Diridii"
+                },
+                "50-53": {
+                    "description": "Gorgona grasuje w ruinach Podgórskich Sal"
+                },
+                "54-55": {
+                    "description": "Pod Czerwonym Opactwem znajduje się zapomniany kurhan Ur-Dina"
+                },
+                "56-57": {
+                    "description": "Umierający mędrzec wzywa potężną grupę bohaterów"
+                },
+                "58-59": {
+                    "description": "Czarodziej przypadkowo pozwolił uciec swojej trójce bazyliszków"
+                },
+                "60-61": {
+                    "description": "Jakiś lokalny szlachcic w jakiś sposób utknął na szczycie wysokiego dachu"
+                },
+                "62-63": {
+                    "description": "Bartomeu, Książę Piratów, zostanie powieszony w południe"
+                },
+                "64-65": {
+                    "description": "Goblinowie-speleolodzy odkryli podziemną katedrę"
+                },
+                "66-67": {
+                    "description": "<i>Koga Kytherian</i> zaginął na morzu w pobliżu Myrkhos"
+                },
+                "68-69": {
+                    "description": "W starej krypcie rosną rzadkie i cenne grzyby"
+                },
+                "70-71": {
+                    "description": "Kościół św. Terragnisa pokryje koszty zwrotu relikwii"
+                },
+                "72-73": {
+                    "description": "Erupcja wulkanu odsłoniła tunele w ścianach kaldery"
+                },
+                "74-75": {
+                    "description": "Cyklopowe ruiny Tal-Yool leżą głęboko w sercu lasu"
+                },
+                "76-77": {
+                    "description": "Znany hazardzista postawi rubin w grze Złodziej Czarodziej"
+                },
+                "78-79": {
+                    "description": "Druidzi Księżyca pobłogosławią miecz, którym zabito wilkołaka"
+                },
+                "80-81": {
+                    "description": "Grabarzowie znaleźli przykutą łańcuchami trumnę na nieoznakowanej działce"
+                },
+                "82-83": {
+                    "description": "Opuszczona wieża czarodzieja jest pełna mechanicznych stworzeń"
+                },
+                "84-85": {
+                    "description": "Gildia Złodziei zamierza zaatakować konkurencyjnego magnata handlowego"
+                },
+                "86-87": {
+                    "description": "Burze piaskowe odsłoniły kamienny monolit na pustyni"
+                },
+                "88-89": {
+                    "description": "Rywalizująca grupa poszukiwaczy skarbów odnalazła mapę prowadzącą do skarbu Jiraala"
+                },
+                "90-91": {
+                    "description": "Pod uniwersytetem czai się potworność zwana Wyrocznią"
+                },
+                "92-93": {
+                    "description": "<i>Wężowy pancerz</i> znajduje się w Twierdzy Ekmary na pustkowiach"
+                },
+                "94-95": {
+                    "description": "Księżniczka została porwana przez grupę czarowników"
+                },
+                "96-97": {
+                    "description": "Pod świątynią odkryto grobowiec Rycerza Chaosu"
+                },
+                "98-99": {
+                    "description": "Legendarna Biblioteka Gehemny pojawiła się poza miastem"
+                },
+                "100-100": {
+                    "description": "Smoczyca Ixamir obudziła się ze swojego 200-letniego snu"
+                }
+            }
         },
         "Something Happens!": {
-            "name": "Coś niezwykłego!"
+            "name": "Coś niezwykłego!",
+            "results": {
+                "1-1": {
+                    "description": "Ziemia gwałtownie się trzęsie i otwiera się ogromna szczelina"
+                },
+                "2-3": {
+                    "description": "Niewidzialny przeciwnik wyskakuje z ukrycia z bliskiej odległości"
+                },
+                "4-5": {
+                    "description": "W powietrzu rozlega się okropny szum, który staje się coraz głośniejszy"
+                },
+                "6-7": {
+                    "description": "Wyczuwasz gryzący zapach dymu i ognia"
+                },
+                "8-9": {
+                    "description": "Na niebie pojawia się jasna gwiazda, widoczna nawet w południe"
+                },
+                "10-11": {
+                    "description": "Zauważasz półotwartą torbę, w której błyszczą złote monety"
+                },
+                "12-13": {
+                    "description": "Mężczyzna wsuwa ci do dłoni kartkę i dziwną miksturę"
+                },
+                "14-15": {
+                    "description": "Ktoś, kto obserwuje cię z daleka, znika z pola widzenia"
+                },
+                "16-17": {
+                    "description": "Krasnolud w czerwonej czapce wręcza ci różę, kłania się i odchodzi"
+                },
+                "18-19": {
+                    "description": "Zbliża się do ciebie zakapturzony nieznajomy w czarnym płaszczu"
+                },
+                "20-21": {
+                    "description": "Ktoś próbuje cię okraść"
+                },
+                "22-23": {
+                    "description": "Z wnętrza torby dochodzi dziwny, tykający dźwięk"
+                },
+                "24-25": {
+                    "description": "Pojawia się spieniony, rozbrykany koń z siodłem, ale bez jeźdźca"
+                },
+                "26-27": {
+                    "description": "Kopiec ziemi szybko zbliża się do ciebie"
+                },
+                "28-29": {
+                    "description": "Masz wrażenie, że ktoś w magiczny sposób cię obserwuje"
+                },
+                "30-31": {
+                    "description": "Ktoś próbuje podłożyć ci jakiś przedmiot"
+                },
+                "32-33": {
+                    "description": "Ogarnia cię silne poczucie strachu i zagrożenia"
+                },
+                "34-35": {
+                    "description": "Kobieta podaje ci czarnego kota, a potem ucieka"
+                },
+                "36-37": {
+                    "description": "Małe leśne stworzenie wyskakuje z plecaka"
+                },
+                "38-39": {
+                    "description": "Czujesz zapach bzu i słyszysz cichy, upiorny śmiech"
+                },
+                "40-41": {
+                    "description": "Notatka owinięta wokół cienkiego sztyletu ląduje tuż obok ciebie"
+                },
+                "42-43": {
+                    "description": "Po niebie przelatuje zielono świecąca meteoryt"
+                },
+                "44-45": {
+                    "description": "Ktoś w pobliżu wpatruje się w ciebie i porusza ustami, jakby coś mówił"
+                },
+                "46-47": {
+                    "description": "Z ciemności spogląda na ciebie para żółtych oczu"
+                },
+                "48-49": {
+                    "description": "Ork z strzałą w plecach włamuje się przez drzwi"
+                },
+                "50-53": {
+                    "description": "Tuż przed sobą słyszysz, jak bestia krzyczy z bólu"
+                },
+                "54-55": {
+                    "description": "Ogromny rój nietoperzy przelatuje nad tobą i odlatuje, wirując"
+                },
+                "56-57": {
+                    "description": "Słaby żebrak szepcze, że ma ci do wyjawienia pewną tajemnicę"
+                },
+                "58-59": {
+                    "description": "Przedmiot spada z góry i o włos mija twoją głowę"
+                },
+                "60-61": {
+                    "description": "Mewa siada ci na głowie i wypluwa dziwną butelkę"
+                },
+                "62-63": {
+                    "description": "W powietrzu unosi się zapach ozonu, a prąd iskrzy się w powietrzu"
+                },
+                "64-65": {
+                    "description": "Dostrzegasz ślad złożony z maleńkich srebrnych monet, prowadzący za zakrętem"
+                },
+                "66-67": {
+                    "description": "Zbliża się mężczyzna o dzikim spojrzeniu, trzymając wysoko w górze świętą księgę"
+                },
+                "68-69": {
+                    "description": "Wszystkie źródła światła nagle gasną"
+                },
+                "70-71": {
+                    "description": "W polu widzenia pojawia się pędząca stada dzikich zwierząt"
+                },
+                "72-73": {
+                    "description": "Starsza kobieta wskazuje na was i krzyczy: „O, tam są!”"
+                },
+                "74-75": {
+                    "description": "Przechodzący obcy wkłada ci do dłoni starodawną monetę"
+                },
+                "76-77": {
+                    "description": "W oddali słychać odgłosy wycia"
+                },
+                "78-79": {
+                    "description": "W polu widzenia pojawiają się dwa szczypiące i policzkujące się gobliny"
+                },
+                "80-81": {
+                    "description": "Zdajesz sobie sprawę, że nie jesteś sam; coś jest za tobą"
+                },
+                "82-83": {
+                    "description": "Nagle rozlega się odgłos rwącej wody, która pędzi w twoim kierunku"
+                },
+                "84-85": {
+                    "description": "Słyszysz ogłuszający krzyk, którego nikt inny nie słyszy"
+                },
+                "86-87": {
+                    "description": "Mężczyzna uderza cię rękawicą i rzuca ją ci pod nogi"
+                },
+                "88-89": {
+                    "description": "Bez ostrzeżenia nadciąga gwałtowna, wietrzna burza"
+                },
+                "90-91": {
+                    "description": "Piorun atakuje niedaleko i pozostawia po sobie świecący obiekt"
+                },
+                "92-93": {
+                    "description": "Wielobarwna kula dryfuje w twoim kierunku, a potem znika w mgnieniu oka"
+                },
+                "94-95": {
+                    "description": "Pędzący wóz pędzi prosto na ciebie"
+                },
+                "96-97": {
+                    "description": "BN zrzuca przebranie, ujawniając wroga"
+                },
+                "98-99": {
+                    "description": "Pojawia się przed tobą demon i przedstawia kuszącą ofertę"
+                },
+                "100-100": {
+                    "description": "Pojawia się przed tobą promienna istota z ostrzeżeniem"
+                }
+            }
         },
         "Starting Gear (Level 0)": {
-            "name": "Sprzęt początkowy (Poziom 0)"
+            "name": "Sprzęt początkowy (Poziom 0)",
+            "results": {
+                "1-1": {
+                    "name": "Pochodnia"
+                },
+                "2-2": {
+                    "name": "Sztylet"
+                },
+                "3-3": {
+                    "name": "Tyczka"
+                },
+                "4-4": {
+                    "name": "Krótki łuk"
+                },
+                "5-5": {
+                    "name": "Lina, 60'"
+                },
+                "6-6": {
+                    "name": "Olej, kolba"
+                },
+                "7-7": {
+                    "name": "Łom"
+                },
+                "8-8": {
+                    "name": "Żelazne kolce"
+                },
+                "9-9": {
+                    "name": "Krzesiwo"
+                },
+                "10-10": {
+                    "name": "Kotwiczka"
+                },
+                "11-11": {
+                    "name": "Maczuga"
+                },
+                "12-12": {
+                    "name": "Kolczatki"
+                },
+                "LAZiIX2IRAjnNrlc": {
+                    "name": "Strzały"
+                }
+            }
         },
         "Starting Gear (Level 0) Rolls": {
-            "name": "Rzuty na sprzęt początkowy (Poziom 0)"
+            "name": "Rzuty na sprzęt początkowy (Poziom 0)",
+            "results": {
+                "1-4": {
+                    "name": "Sprzęt początkowy (Poziom 0)"
+                },
+                "2-4": {
+                    "name": "Sprzęt początkowy (Poziom 0)"
+                },
+                "3-4": {
+                    "name": "Sprzęt początkowy (Poziom 0)"
+                },
+                "4-4": {
+                    "name": "Sprzęt początkowy (Poziom 0)"
+                }
+            }
         },
         "Trap: Damage or Effect": {
-            "name": "Pułapka: Obrażenia lub efekt"
+            "name": "Pułapka: Obrażenia lub efekt",
+            "results": {
+                "1-1": {
+                    "description": "[[/r 1d6]]"
+                },
+                "2-2": {
+                    "description": "[[/r 1d6]] / @UUID[Compendium.shadowdark.spell-effects.FrFilluk4S5VaWut]"
+                },
+                "3-3": {
+                    "description": "[[/r 1d6]] / @UUID[Compendium.shadowdark.spell-effects.SN9lU9LUViWo1Plm]"
+                },
+                "4-4": {
+                    "description": "[[/r 1d6]] / @UUID[Compendium.shadowdark.spell-effects.SOkcvkzrGMGQKhmk]"
+                },
+                "5-5": {
+                    "description": "[[/r 2d8]]"
+                },
+                "6-6": {
+                    "description": "[[/r 2d8]] / @UUID[Compendium.shadowdark.spell-effects.FrFilluk4S5VaWut]"
+                },
+                "7-7": {
+                    "description": "[[/r 2d8]] / @UUID[Compendium.shadowdark.spell-effects.SN9lU9LUViWo1Plm]"
+                },
+                "8-8": {
+                    "description": "[[/r 2d8]] / zdezorientowany"
+                },
+                "9-9": {
+                    "description": "[[/r 3d10]]"
+                },
+                "10-10": {
+                    "description": "[[/r 3d10]] / @UUID[Compendium.shadowdark.spell-effects.SN9lU9LUViWo1Plm]"
+                },
+                "11-11": {
+                    "description": "[[/r 3d10]] / nieprzytomny"
+                },
+                "12-12": {
+                    "description": "[[/r 3d10]] / spetryfikowany"
+                }
+            }
         },
         "Trap: Trap": {
-            "name": "Pułapka: Pułapka"
+            "name": "Pułapka: Pułapka",
+            "results": {
+                "1-1": {
+                    "description": "Kusza"
+                },
+                "2-2": {
+                    "description": "Grad igieł"
+                },
+                "3-3": {
+                    "description": "Toksyczny gaz"
+                },
+                "4-4": {
+                    "description": "Kolczasta sieć"
+                },
+                "5-5": {
+                    "description": "Toczący się głaz"
+                },
+                "6-6": {
+                    "description": "Tnące ostrze"
+                },
+                "7-7": {
+                    "description": "Dół z kolcami"
+                },
+                "8-8": {
+                    "description": "Oszczep"
+                },
+                "9-9": {
+                    "description": "Magiczny glif"
+                },
+                "10-10": {
+                    "description": "Wybuch ognia"
+                },
+                "11-11": {
+                    "description": "Spadający blok"
+                },
+                "12-12": {
+                    "description": "Przeklęta statua"
+                }
+            }
         },
         "Trap: Trigger": {
-            "name": "Pułapka: Wyzwalacz"
+            "name": "Pułapka: Wyzwalacz",
+            "results": {
+                "1-1": {
+                    "description": "potykacz"
+                },
+                "2-2": {
+                    "description": "płytę naciskową"
+                },
+                "3-3": {
+                    "description": "otwarcie drzwi"
+                },
+                "4-4": {
+                    "description": "przycisk"
+                },
+                "5-5": {
+                    "description": "fałszywy stopień na schodach"
+                },
+                "6-6": {
+                    "description": "zamknięcie drzwi"
+                },
+                "7-7": {
+                    "description": "przerwanie wiązki światła"
+                },
+                "8-8": {
+                    "description": "pociągnięcie za dźwignię"
+                },
+                "9-9": {
+                    "description": "wypowiedzenie słowa"
+                },
+                "10-10": {
+                    "description": "uchwyt na nitce"
+                },
+                "11-11": {
+                    "description": "usunięcie obiektu"
+                },
+                "12-12": {
+                    "description": "rzucenie zaklęcia"
+                }
+            }
         },
         "Treasure 0-3": {
-            "name": "Skarb 0-3"
+            "name": "Skarb 0-3",
+            "results": {
+                "1-1": {
+                    "description": "Wygięty, blaszany widelec (1 sm)"
+                },
+                "2-3": {
+                    "description": "Błotnista pochodnia (2 sm)"
+                },
+                "4-5": {
+                    "description": "Worek gładkich kamyków (2 sm)"
+                },
+                "6-7": {
+                    "description": "10 sztuk miedzi w tłustej torebce"
+                },
+                "8-9": {
+                    "description": "Zardzewiała latarnia z rozbitym szkłem (1 sz)"
+                },
+                "10-11": {
+                    "description": "Srebrny ząb (1 sz)"
+                },
+                "12-13": {
+                    "description": "Tępy sztylet (1 sz)"
+                },
+                "14-15": {
+                    "description": "Dwie puste szklane fiolki (6 sz)"
+                },
+                "16-17": {
+                    "description": "60 ss w zgniłym bucie"
+                },
+                "18-19": {
+                    "description": "Pęknięte lusterko ręczne (8 sz)"
+                },
+                "20-21": {
+                    "description": "Wyszczerbiony wielki topór (9 sz)"
+                },
+                "22-23": {
+                    "description": "10 sz w spleśniałym, drewnianym pudełku"
+                },
+                "24-25": {
+                    "description": "Odłamek szmaragdu (10 sz)"
+                },
+                "26-27": {
+                    "description": "Łuk długi i wiązka 40 strzał (10 sz)"
+                },
+                "28-29": {
+                    "description": "Zakurzona, czarna skórzana zbroja (10 sz)"
+                },
+                "30-31": {
+                    "description": "Porysowana, ciężka tarcza (10 sz)"
+                },
+                "32-33": {
+                    "description": "Prosty, solidnie wykonany miecz półtoraręczny (10 sz)"
+                },
+                "34-35": {
+                    "description": "12 sz w kieszeni podartego płaszcza"
+                },
+                "36-37": {
+                    "description": "Wielki miecz z falistym ostrzem (12 sz)"
+                },
+                "38-39": {
+                    "description": "Para krótkich mieczy wykutych przez elfy (14 sz)"
+                },
+                "40-41": {
+                    "description": "Złota miska (15 sz)"
+                },
+                "42-43": {
+                    "description": "Obsydianowa figurka Shune’a Nikczemnego (15 sz)"
+                },
+                "44-45": {
+                    "description": "Mała perła (20 sz)"
+                },
+                "46-47": {
+                    "description": "Szpilka w kształcie skarabeusza z jadeitu i złota (20 sz)"
+                },
+                "48-49": {
+                    "description": "Worek zawierający 10 srebrnych kolców (po 2 sz każdy)"
+                },
+                "50-53": {
+                    "description": "Mithralowy medalion z wizerunkiem niziołka (20 sz)"
+                },
+                "54-55": {
+                    "description": "Dwie misternie wykute tarcze krasnoludów (20 sz)"
+                },
+                "56-57": {
+                    "description": "Para posrebrzanych sztyletów (po 10 sz każdy)"
+                },
+                "58-59": {
+                    "description": "Miedziano-złoty kufel do miodu pitnego (20 sz)"
+                },
+                "60-61": {
+                    "description": "Zestaw pięciu czerwonych łusek smoka (po 5 sz każda)"
+                },
+                "62-63": {
+                    "description": "Lekki, ciepły płaszcz utkany z pajęczego jedwabiu (25 sz)"
+                },
+                "64-65": {
+                    "description": "Piękny zestaw pionków do gry z kości słoniowej (25 sz)"
+                },
+                "66-67": {
+                    "description": "Niedokończony zestaw kolczugi (30 sz)"
+                },
+                "68-69": {
+                    "description": "Zestaw trzech młotów bojowych (po 10 sz każdy)"
+                },
+                "70-71": {
+                    "description": "Fragment szafiru (30 sz)"
+                },
+                "72-73": {
+                    "description": "Zestaw jedwabnych kapci i szlafroka (35 sz)"
+                },
+                "74-75": {
+                    "description": "Srebrno-złota opaska na głowę (40 sz)"
+                },
+                "76-77": {
+                    "description": "Promienna, wypolerowana perła (40 sz)"
+                },
+                "78-79": {
+                    "description": "Tarcza z mithralu z wygrawerowanymi wzbijającymi się smokami (40 sz)"
+                },
+                "80-81": {
+                    "description": "Złota figurka małpy trzymająca w zębach rubin (60 sz)"
+                },
+                "82-83": {
+                    "description": "Wysokiej jakości kolczuga (60 sz)"
+                },
+                "84-85": {
+                    "description": "Pęknięty szmaragd (60 sz)"
+                },
+                "86-87": {
+                    "description": "Dwie lśniące perły (po 40 sz każda)"
+                },
+                "88-89": {
+                    "description": "Zwój zaklęcia 1. stopnia (80 sz)"
+                },
+                "90-91": {
+                    "name": "Eliksir niewidzialności"
+                },
+                "92-93": {
+                    "description": "Magiczna różdżka, Zwój zaklęcia 2. stopnia (100 sz)"
+                },
+                "94-95": {
+                    "description": "Jajo bazyliszka (100 sz)"
+                },
+                "94ieXNNg3I6n8KwY": {
+                    "name": "Torba przechowywania"
+                },
+                "96-97": {
+                    "description": "+1 pancerz (korzyść, klątwa) (150 sz)"
+                },
+                "98-99": {
+                    "description": "Torba przechowywania (zaleta, wada) (150 sz)"
+                },
+                "100-100": {
+                    "description": "+1 magiczna broń (korzyść) (200 sz)"
+                }
+            }
         },
         "Wizard Mishap Tier 1-2": {
-            "name": "Wpadka czarodzieja Stopień 1-2"
+            "name": "Wpadka czarodzieja Stopień 1-2",
+            "results": {
+                "1-1": {
+                    "description": "<b>Zniszczenie!</b> Wykonaj dwa rzuty i połącz oba efekty (w razie potrzeby wykonaj ponownie rzut, jeśli wypadną kolejne jedynki)."
+                },
+                "2-2": {
+                    "description": "<b>Wybuch!</b> Otrzymujesz [[/r 1d8]] punktów obrażeń"
+                },
+                "3-3": {
+                    "description": "<b>Odbicie!</b> Rzucasz to zaklęcie na siebie"
+                },
+                "4-4": {
+                    "description": "<b>Ręka ci się ześlizgnęła!</b> Wybierasz losowego sojusznika jako cel zaklęcia"
+                },
+                "5-5": {
+                    "description": "<b>Rana psychiczna!</b> Przez tydzień nie możesz ponownie rzucić tego zaklęcia"
+                },
+                "6-6": {
+                    "description": "<b>Zniknięcie przedmiotu!</b> Jeden losowo wybrany element twojego ekwipunku znika na zawsze"
+                },
+                "7-7": {
+                    "description": "<b>Czarodziejski robak!</b> W każdej swojej turze tracisz możliwość rzucenia losowego zaklęcia, dopóki nie zdasz testu [[check 12 con]]. Odzyskujesz możliwość rzucania tych zaklęć po zakończeniu odpoczynku"
+                },
+                "8-8": {
+                    "description": "<b>Porażka harmoniczna!</b> Tracisz możliwość rzucenia losowego zaklęcia do czasu zakończenia odpoczynku"
+                },
+                "9-9": {
+                    "description": "<b>Puf!</b> Na 10 rund blokujesz całe światło w bliskim otoczeniu, w tym światło słoneczne i magiczne"
+                },
+                "10-10": {
+                    "description": "<b>Co za horror!</b> Przez 3 rundy krzyczysz w Pierwotnym języku w niekontrolowany sposób, przyciągając uwagę wielu osób"
+                },
+                "11-11": {
+                    "description": "<b>Wybuch energii!</b> Przez 10 rund świecisz jasnofioletowym światłem, co daje przeciwnikom ułatwienie podczas ataków na ciebie"
+                },
+                "12-12": {
+                    "description": "<b>Niestabilny kanał!</b> Przez 10 rund masz utrudnienie przy rzucaniu zaklęć tej samej rangi"
+                },
+                "nJ0VC8CPWGRjVnGf": {
+                    "name": "Wpadka czarodzieja Stopień 1-2"
+                },
+                "y1lafduW3hINmggm": {
+                    "name": "Wpadka czarodzieja Stopień 1-2"
+                }
+            }
         },
         "Wizard Mishap Tier 3-4": {
-            "name": "Wpadka czarodzieja Stopień 3-4"
+            "name": "Wpadka czarodzieja Stopień 3-4",
+            "results": {
+                "1-1": {
+                    "description": "<b>Zniszczenie!</b> Wykonaj dwa rzuty i połącz oba efekty (zignoruj, jeśli wykonasz więcej rzutów niż jeszcze raz)."
+                },
+                "2-2": {
+                    "description": "<b>Promień wybuchu!</b> Ty i wszystkie pobliskie stworzenia otrzymujecie [[/r 2d6]] obrażeń"
+                },
+                "3-3": {
+                    "description": "<b>Podwójne odbicie!</b> Wybierasz siebie i najbliższego sojusznika jako cele dla dwóch identycznych kopii zaklęcia"
+                },
+                "4-4": {
+                    "description": "<b>Nie udało ci się poprawnie wypowiedzieć zaklęcia!</b> Rzucasz losowe zaklęcie spośród tych, które znasz, na te same cele, nawet jeśli w normalnych okolicznościach nie byłoby to możliwe"
+                },
+                "5-5": {
+                    "description": "<b>Niebiański bandersnatch!</b> Dwa losowe elementy twojego ekwipunku znikają na zawsze"
+                },
+                "6-6": {
+                    "description": "<b>Mutageneza arkaniczna!</b> Musisz zdać test [[check 12 con]]; w przeciwnym razie jedna z twoich cech zostanie losowo obniżona do wartości 3 (-4) do czasu pomyślnego zakończenia odpoczynku"
+                },
+                "7-7": {
+                    "description": "<b>Bum!</b> Tworzysz w ziemi lejek o głębokości 30 stóp, w którego środku się znajdujesz. Ty i wszystkie pobliskie stworzenia musicie zdać test [[check 15 dex]] albo wpaść do środka"
+                },
+                "8-8": {
+                    "description": "<b>Skamienienie!</b> [[/r 1d4]] twoich kończyn zostanie spetryfikowane na najbliższe 24 godziny"
+                },
+                "9-9": {
+                    "description": "<b>Oszołomienie!</b> Tracisz możliwość rzucania wszystkich zaklęć tej samej rangi, dopóki nie zakończysz odpoczynku"
+                },
+                "10-10": {
+                    "description": "<b>Nie da się tego zapomnieć!</b> Musisz zdać test [[check 12 wis]] albo popaść w szaleństwo na [[/r 1d10]] rund"
+                },
+                "11-11": {
+                    "description": "<b>Energie radioaktywne!</b>Wirujesz, emitując energie odpychające, co przyciąga wrogość i ataki wszystkich wrogów, którzy cię widzą, przez następne [[/r 1d4]] rundy"
+                },
+                "12-12": {
+                    "description": "<b>Niekontrolowane kanałowanie!</b> Przez 10 rund masz utrudnienie przy rzucaniu zaklęć tego samego poziomu i niższych"
+                },
+                "uOhW3dzdLm2mgFYA": {
+                    "name": "Wpadka czarodzieja Stopień 3-4"
+                },
+                "y1lafduW3hINmggm": {
+                    "name": "Wpadka czarodzieja Stopień 3-4"
+                }
+            }
         },
         "Wizard Mishap Tier 5": {
-            "name": "Wpadka czarodzieja Stopień 5"
+            "name": "Wpadka czarodzieja Stopień 5",
+            "results": {
+                "1-1": {
+                    "description": "<b>Zniszczenie!</b> Wykonaj dwa rzuty i połącz oba efekty (w razie potrzeby wykonaj ponownie rzut, jeśli wypadną kolejne jedynki)."
+                },
+                "2-2": {
+                    "description": "<b>Wyrzut pyroklastyczny!</b> Zadajesz [[/r 3d8]] obrażeń sobie oraz wszystkim stworzeniom obok ciebie"
+                },
+                "3-3": {
+                    "description": "<b>Nacięcie astralne!</b> Nadprzyrodzone ostrze wbija się w twoją pamięć. Na zawsze zapominasz jedno losowe zaklęcie"
+                },
+                "4-4": {
+                    "description": "<b>Grimlow!</b> Przypadkowo przywołałeś wrogiego grimlowa w przestrzeni blisko ciebie. Pozostaje on tam przez 2k4 rundy, po czym znika tam, skąd przyszedł"
+                },
+                "5-5": {
+                    "description": "<b>Aura ciemnej plazmy!</b> Ataki skierowane przeciwko tobie przechodzą przez nikczemną aurę, zadając podwójne obrażenia przez następne [[/r 2d6]] rund"
+                },
+                "6-6": {
+                    "description": "<b>Brama!</b> Otwierasz magiczny portal do innego miejsca – zarówno w tej, jak i w innej płaszczyźnie. Jeśli nie zamkniesz go w swojej turze, wykonując test [[check 18 int]], po upływie [[/r 1d4]] rund pojawi się przez niego coś strasznego."
+                },
+                "7-7": {
+                    "description": "<b>Niekontrolowana pętla tajemnej magii!</b> Twoje zaklęcie wybiera jako cel losowe stworzenie, które widzisz, nawet jeśli w normalnych okolicznościach nie byłoby to możliwe. W każdej kolejnej turze musisz zdać test rzucania zaklęć dla tego zaklęcia; w przeciwnym razie rzucasz je na inne losowe stworzenie w ten sam sposób (efekt kończy się w przypadku sukcesu)"
+                },
+                "8-8": {
+                    "description": "<b>Magiczna przeszkoda!</b> Tracisz możliwość rzucania wszystkich zaklęć z losowego stopnia, dopóki nie zakończysz odpoczynku"
+                },
+                "9-9": {
+                    "description": "<b>Co czai się za zasłoną!</b> Musisz zdać test [[check 15 wis]] albo popaść w szaleństwo na [[/r 1d4]] godzin"
+                },
+                "10-10": {
+                    "description": "<b>Równowaga Orda!</b> Musisz na stałe poświęcić magiczny przedmiot albo możliwość rzucania znanego ci zaklęcia poziomu 3 lub wyższego"
+                },
+                "11-11": {
+                    "description": "<b>Niepowstrzymana reakcja łańcuchowa!</b> Przez następne 10 rund masz utrudnienie przy rzucaniu wszystkich zaklęć"
+                },
+                "12-12": {
+                    "description": "<b>Rozdarcie!</b> Wytwarzasz w pobliżu siebie wielką dziurę w tkaninie wszechświata; ta pozbawiona światła szczelina powiększa się z każdą rundą"
+                },
+                "nJ0VC8CPWGRjVnGf": {
+                    "name": "Wpadka czarodzieja Stopień 5"
+                },
+                "y1lafduW3hINmggm": {
+                    "name": "Wpadka czarodzieja Stopień 5"
+                }
+            }
         }
     },
     "folders": {

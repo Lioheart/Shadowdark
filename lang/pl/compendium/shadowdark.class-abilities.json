@@ -10,7 +10,7 @@
             "name": "Szał"
         },
         "Charge": {
-            "description": "<p>3 razy dziennie możesz rzucić się do walki, zbliżając się przynajmniej na odległość „blisko” przed atakiem. Za każdym razem, gdy to zrobisz, twoje ataki wręcz zadają w tej rundzie podwójne obrażenia.</p>",
+            "description": "<p>3 razy dziennie możesz rzucić się do walki, zbliżając się przynajmniej na bliską odległość przed atakiem. Za każdym razem, gdy to zrobisz, twoje ataki wręcz zadają w tej rundzie podwójne obrażenia.</p>",
             "name": "Szarża"
         },
         "Curative": {
