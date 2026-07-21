@@ -1,0 +1,989 @@
+{
+    "label": "Efekty zaklęć",
+    "mapping": {
+        "description": "system.description",
+        "effects": {
+            "path": "effects",
+            "converter": "document",
+            "documentType": "ActiveEffect",
+            "cardinality": "many",
+            "mapping": {
+                "name": "name",
+                "description": "description"
+            }
+        },
+        "name": "name"
+    },
+    "entries": {
+        "441BBv90QacBfojj": {
+            "name": "Płaszcz nocy"
+        },
+        "6sDtwzG4ddaew8SZ": {
+            "name": "Sparaliżowany"
+        },
+        "AC Bonus": {
+            "name": "Premia KP"
+        },
+        "Acid Arrow": {
+            "name": "Kwasowa strzała"
+        },
+        "Alter Self": {
+            "name": "Zmiana siebie"
+        },
+        "Anima": {
+            "name": "Anima"
+        },
+        "Asleep": {
+            "name": "Uśpiony"
+        },
+        "Barkskin": {
+            "name": "Korowa skóra"
+        },
+        "Barkskin (Critical)": {
+            "name": "Korowa skóra (Krytyk)"
+        },
+        "Berserk": {
+            "name": "Szał"
+        },
+        "Blind": {
+            "name": "Ślepota"
+        },
+        "Breath": {
+            "name": "Oddech"
+        },
+        "Broomstick": {
+            "name": "Latająca miotła"
+        },
+        "Cast Out": {
+            "name": "Wypędzenie"
+        },
+        "Cat's Eye": {
+            "name": "Kocie oko"
+        },
+        "Chanting": {
+            "name": "Śpiewanie"
+        },
+        "Charmed": {
+            "name": "Oczarowanie"
+        },
+        "Cleansing Weapon": {
+            "name": "Oczyszczająca broń"
+        },
+        "Commanded": {
+            "name": "Rozkazywanie"
+        },
+        "Confused": {
+            "name": "Zdezorientowany"
+        },
+        "Controlled": {
+            "name": "Kontrolowany"
+        },
+        "Deaf": {
+            "name": "Ogłuchły"
+        },
+        "Detecting Magic": {
+            "name": "Wykrywanie magii"
+        },
+        "Dire Wolf": {
+            "name": "Wilkor"
+        },
+        "Divine Vengeance": {
+            "name": "Boska zemsta"
+        },
+        "Enchanted": {
+            "name": "Oczarowanie"
+        },
+        "Envenomed": {
+            "name": "Zatruty"
+        },
+        "Eyebit": {
+            "name": "Cel kąśliwego wzroku"
+        },
+        "Feeble (CHA)": {
+            "name": "Osłabienie (CHA)"
+        },
+        "Feeble (CON)": {
+            "name": "Osłabienie (KON)"
+        },
+        "Feeble (DEX)": {
+            "name": "Osłabienie (ZRC)"
+        },
+        "Feeble (INT)": {
+            "name": "Osłabienie (INT)"
+        },
+        "Feeble (STR)": {
+            "name": "Osłabienie (SIŁ)"
+        },
+        "Feeble (WIS)": {
+            "name": "Osłabienie (MDR)"
+        },
+        "Floating": {
+            "name": "Unoszenie się"
+        },
+        "Floating disk": {
+            "name": "Wędrujący dysk"
+        },
+        "Flying": {
+            "name": "Latanie"
+        },
+        "Fragile": {
+            "name": "Kruchy"
+        },
+        "Freya's Omen": {
+            "name": "Znak Freyi"
+        },
+        "Gaseous": {
+            "name": "W postaci gazowej"
+        },
+        "gyGa1ckOLwWnF86M": {
+            "name": "Zbroja maga"
+        },
+        "Hallucinating": {
+            "name": "Halucynacje"
+        },
+        "Holding Portal": {
+            "name": "Podtrzymywanie portalu"
+        },
+        "Holy Weapon": {
+            "name": "Święta broń"
+        },
+        "Hypnotized": {
+            "name": "Zahipnotyzowany"
+        },
+        "Instill": {
+            "name": "Wzbudzenie"
+        },
+        "Invisible": {
+            "name": "Niewidzialny"
+        },
+        "JiT09XfIkqCuIOiD": {
+            "name": "Kamienna skóra"
+        },
+        "Laughing": {
+            "name": "Śmiech"
+        },
+        "Locusts": {
+            "name": "Szarańcze"
+        },
+        "LTmspz6ojZ8MtHnL": {
+            "name": "Płaszcz nocy"
+        },
+        "Magnetize": {
+            "name": "Magnetyzacja"
+        },
+        "Mirror Image": {
+            "name": "Lustrzane odbicia"
+        },
+        "Oak, Ash, Thorn": {
+            "name": "Dąb, jesion, cierń"
+        },
+        "Odin's Wisdom": {
+            "name": "Mądrość Odyna"
+        },
+        "Pin Doll": {
+            "name": "Lalka ze szpilką"
+        },
+        "Polymorphed": {
+            "name": "Przemieniony"
+        },
+        "Protection from Cold": {
+            "name": "Ochrona przed zimnem"
+        },
+        "Protection from Electricity": {
+            "name": "Ochrona przed elektrycznością"
+        },
+        "Protection From Evil": {
+            "name": "Ochrona przed złem"
+        },
+        "Protection from Fire": {
+            "name": "Ochrona przed ogniem"
+        },
+        "pTKFUJ3czAqssXCu": {
+            "name": "Odpędzony"
+        },
+        "Puppeted": {
+            "name": "Sterowany"
+        },
+        "QXmMqpV6wqoS6fd5": {
+            "name": "Sparaliżowany"
+        },
+        "Raging": {
+            "name": "Szał"
+        },
+        "Reviled": {
+            "name": "Napiętnowany"
+        },
+        "Shapechanged": {
+            "name": "Zmiana kształtu"
+        },
+        "Soulbound": {
+            "name": "Związany duszą"
+        },
+        "Spell Effect: Acid Arrow": {
+            "description": "<p>Zadaje [[/r 1d6]] obrażenia w rundzie. Strzała pozostaje w celu tak długo, jak długo się koncentrujesz.</p>",
+            "name": "Efekt zaklęcia: Kwasowa strzała",
+            "effects": {
+                "Acid Arrow": {
+                    "name": "Kwasowa strzała"
+                }
+            }
+        },
+        "Spell Effect: Alter Self": {
+            "name": "Efekt zaklęcia: Zmiana siebie",
+            "effects": {
+                "Alter Self": {
+                    "name": "Zmiana siebie"
+                }
+            }
+        },
+        "Spell Effect: Anathema": {
+            "description": "<p>Zauroczony innym stworzeniem.</p><p>Za każdym razem, gdy jedno z dotkniętych tym efektem stworzeń otrzyma obrażenia, może wykonać test [[check 15 cha]]. W przypadku sukcesu zaklęcie wygasa.</p>",
+            "name": "Efekt zaklęcia: Anatema",
+            "effects": {
+                "Reviled": {
+                    "name": "Napiętnowany"
+                }
+            }
+        },
+        "Spell Effect: Anima": {
+            "name": "Efekt zaklęcia: Anima",
+            "effects": {
+                "Anima": {
+                    "name": "Anima"
+                }
+            }
+        },
+        "Spell Effect: Barkskin": {
+            "description": "<p>Twoja skóra twardnieje, przybierając postać twardej kory drzewnej. Twoja KP wynosi 14 (18 przy krytycznym wyniku testu rzucania zaklęcia) przez cały czas trwania zaklęcia.</p><p>Pod wpływem działania zaklęcia otrzymujesz podwójne obrażenia od ognia.</p>",
+            "name": "Efekt zaklęcia: Korowa skóra",
+            "effects": {
+                "Barkskin": {
+                    "name": "Korowa skóra"
+                }
+            }
+        },
+        "Spell Effect: Barkskin (Critical)": {
+            "description": "<p>Twoja skóra twardnieje, przybierając postać twardej kory drzewnej. Twoja KP wynosi 14 (18 przy krytycznym wyniku testu rzucania zaklęcia) przez cały czas trwania zaklęcia.</p><p>Pod wpływem działania zaklęcia otrzymujesz podwójne obrażenia od ognia.</p>",
+            "name": "Efekt zaklęcia: Korowa skóra (Krytyk)",
+            "effects": {
+                "Barkskin (Critical)": {
+                    "name": "Korowa skóra (Krytyk)"
+                }
+            }
+        },
+        "Spell Effect: Befriend": {
+            "name": "Efekt zaklęcia: Zaprzyjaźnienie"
+        },
+        "Spell Effect: Berserk": {
+            "description": "<p>Niewrażliwość na obrażenia przez 3 rundy</p>",
+            "name": "Efekt zaklęcia: Szał",
+            "effects": {
+                "Berserk": {
+                    "name": "Szał"
+                }
+            }
+        },
+        "Spell Effect: Blind": {
+            "description": "<p>Stworzenie to jest oślepione i ma utrudnienie podczas wykonywania czynności wymagających wzroku.</p>",
+            "name": "Efekt zaklęcia: Ślepota",
+            "effects": {
+                "Blind": {
+                    "name": "Ślepota"
+                }
+            }
+        },
+        "Spell Effect: Bogboil": {
+            "description": "<p>Stworzenie uwięzione w sieci nie może się poruszać i aby się uwolnić, musi wykonać pomyślny test Siły przeciwko testowi rzucania zaklęć rzucającego.</p>",
+            "name": "Efekt zaklęcia: Wrzące bagna",
+            "effects": {
+                "Stuck": {
+                    "name": "Utknięcie"
+                }
+            }
+        },
+        "Spell Effect: Breath": {
+            "description": "<p>Możesz wstrzymać oddech przez cały czas trwania zaklęcia.</p>",
+            "name": "Efekt zaklęcia: Oddech",
+            "effects": {
+                "Breath": {
+                    "name": "Oddech"
+                }
+            }
+        },
+        "Spell Effect: Broomstick": {
+            "description": "<p>Latający na miotle może w każdej rundzie przelecieć niewielką odległość i zawisnąć w miejscu.</p>",
+            "name": "Efekt zaklęcia: Latająca miotła",
+            "effects": {
+                "Broomstick": {
+                    "name": "Latająca miotła"
+                }
+            }
+        },
+        "Spell Effect: Cacklerot": {
+            "description": "<p>Przez cały czas trwania zaklęcia osunął się bezradnie, wydając niepokojący, pełen bólu śmiech.</p>",
+            "name": "Efekt zaklęcia: Chichot",
+            "effects": {
+                "Laughing": {
+                    "name": "Śmiech"
+                }
+            }
+        },
+        "Spell Effect: Cast Out": {
+            "description": "<p>Przez cały czas trwania zaklęcia to stworzenie nie może zbliżyć się do ciebie na bliski dystans. Nadal może jednak atakować cię spoza bliskiego dystansu.</p>",
+            "name": "Efekt zaklęcia: Wypędzenie",
+            "effects": {
+                "Cast Out": {
+                    "name": "Wypędzenie"
+                }
+            }
+        },
+        "Spell Effect: Cat's Eye": {
+            "description": "<p>Przez cały czas trwania zaklęcia możesz dostrzegać niewidzialne stworzenia i tajne drzwi.</p>",
+            "name": "Efekt zaklęcia: Kocie oko",
+            "effects": {
+                "Cat's Eye": {
+                    "name": "Kocie oko"
+                }
+            }
+        },
+        "Spell Effect: Chant": {
+            "description": "<p>Przez czas trwania zaklęcia widzisz wszystkie niewidzialne i ukryte rzeczy tak, jakby były wyraźnie widoczne. Zaklęcie to nie pozwala ci widzieć w sposób, który normalnie byłby niemożliwy, na przykład w ciemności lub przez ściany. </p>",
+            "name": "Efekt zaklęcia: Intonacja",
+            "effects": {
+                "Chanting": {
+                    "name": "Śpiewanie"
+                }
+            }
+        },
+        "Spell Effect: Charm Person": {
+            "description": "<p>Przez cały czas trwania efektu humanoid traktuje rzucającego zaklęcie jak przyjaciela.<br class=\"Apple-interchange-newline\">Efekt wygasa, jeśli ty lub twoi sojusznicy wyrządzicie celowi jakąkolwiek krzywdę.</p>",
+            "name": "Efekt zaklęcia: Zauroczenie osoby",
+            "effects": {
+                "Charmed": {
+                    "name": "Oczarowanie"
+                }
+            }
+        },
+        "Spell Effect: Cleansing Weapon": {
+            "description": "<p>Jedna z broni, której dotkniesz, otacza się oczyszczającymi płomieniami. Przez cały czas trwania efektu zadaje ona dodatkowe [[/r 1d4]] obrażenia ([[/r 1d6]] przeciwko nieumarłym).</p>",
+            "name": "Efekt zaklęcia: Oczyszczająca broń",
+            "effects": {
+                "Cleansing Weapon": {
+                    "name": "Oczyszczająca broń"
+                }
+            }
+        },
+        "Spell Effect: Cloak of Night": {
+            "description": "<p>Przez czas trwania zaklęcia twoja klasa pancerza wynosi 17 (20 w przypadku krytycznego wyniku testu rzucania zaklęć).</p><p>Przez czas trwania zaklęcia masz ułatwienie w testach Zręczności związanych z skradaniem się i ukrywaniem.</p>",
+            "name": "Efekt zaklęcia: Płaszcz nocy",
+            "effects": {
+                "Cloak of Night": {
+                    "name": "Płaszcz nocy"
+                }
+            }
+        },
+        "Spell Effect: Cloak of Night (Critical)": {
+            "description": "<p>Przez czas trwania zaklęcia twoja klasa pancerza wynosi 17 (20 w przypadku krytycznego wyniku testu rzucania zaklęć).</p><p>Przez czas trwania zaklęcia masz ułatwienie w testach Zręczności związanych z skradaniem się i ukrywaniem.</p>",
+            "name": "Efekt zaklęcia: Płaszcz nocy (Krytyk)",
+            "effects": {
+                "Cloak of Night": {
+                    "name": "Płaszcz nocy"
+                }
+            }
+        },
+        "Spell Effect: Command": {
+            "description": "<p>Cel wykonuje polecenie tak długo, jak długo utrzymujesz koncentrację. </p><p>Jeśli twoje polecenie w jakikolwiek sposób bezpośrednio szkodzi stworzeniu, może ono wykonać test Charyzmy przeciwko twojemu ostatniemu wynikowi testu rzucania zaklęć. W przypadku sukcesu zaklęcie kończy się.</p>",
+            "name": "Efekt zaklęcia: Rozkaz",
+            "effects": {
+                "Commanded": {
+                    "name": "Rozkazywanie"
+                }
+            }
+        },
+        "Spell Effect: Confusion": {
+            "description": "<p>Cel nie może wykonywać akcji, a w swojej turze porusza się w losowym kierunku. Jeśli stworzenie ma poziom 9 lub wyższy, może na początku swojej tury wykonać test MDR w porównaniu z twoim ostatnim wynikiem testu rzucania zaklęć, aby przerwać działanie zaklęcia.</p>",
+            "name": "Efekt zaklęcia: Zamęt",
+            "effects": {
+                "Confused": {
+                    "name": "Zdezorientowany"
+                }
+            }
+        },
+        "Spell Effect: Deaf": {
+            "name": "Efekt zaklęcia: Ogłuchły",
+            "effects": {
+                "Deaf": {
+                    "name": "Ogłuchły"
+                }
+            }
+        },
+        "Spell Effect: Detect Magic": {
+            "description": "<p>Przez cały czas trwania zaklęcia możesz wyczuwać obecność magii w bliskim zasięgu. Jeśli skoncentrujesz się przez dwie rundy, zdołasz rozpoznać jej ogólne właściwości. Pełne bariery blokują działanie tego zaklęcia.</p><",
+            "name": "Efekt zaklęcia: Wykrywanie magii",
+            "effects": {
+                "Detecting Magic": {
+                    "name": "Wykrywanie magii"
+                }
+            }
+        },
+        "Spell Effect: Divine Vengeance": {
+            "description": "<p>Przez czas trwania zaklęcia możesz latać na bliską odległość, twoja broń jest magiczna, a do ataków bronią i zadawanych obrażeń otrzymujesz premię +4.</p>",
+            "name": "Efekt zaklęcia: Boska zemsta",
+            "effects": {
+                "Divine Vengeance": {
+                    "name": "Boska zemsta"
+                }
+            }
+        },
+        "Spell Effect: Enfeeble (CHA)": {
+            "name": "Efekt zaklęcia: Osłabienie (CHA)",
+            "effects": {
+                "Feeble (CHA)": {
+                    "name": "Osłabienie (CHA)"
+                }
+            }
+        },
+        "Spell Effect: Enfeeble (CON)": {
+            "name": "Efekt zaklęcia: Osłabienie (KON)",
+            "effects": {
+                "Feeble (CON)": {
+                    "name": "Osłabienie (KON)"
+                }
+            }
+        },
+        "Spell Effect: Enfeeble (DEX)": {
+            "name": "Efekt zaklęcia: Osłabienie (ZRC)",
+            "effects": {
+                "Feeble (DEX)": {
+                    "name": "Osłabienie (ZRC)"
+                }
+            }
+        },
+        "Spell Effect: Enfeeble (INT)": {
+            "name": "Efekt zaklęcia: Osłabienie (INT)",
+            "effects": {
+                "Feeble (INT)": {
+                    "name": "Osłabienie (INT)"
+                }
+            }
+        },
+        "Spell Effect: Enfeeble (STR)": {
+            "name": "Efekt zaklęcia: Osłabienie (SIŁ)",
+            "effects": {
+                "Feeble (STR)": {
+                    "name": "Osłabienie (SIŁ)"
+                }
+            }
+        },
+        "Spell Effect: Enfeeble (WIS)": {
+            "name": "Efekt zaklęcia: Osłabienie (MDR)",
+            "effects": {
+                "Feeble (WIS)": {
+                    "name": "Osłabienie (MDR)"
+                }
+            }
+        },
+        "Spell Effect: Evoke Rage": {
+            "description": "<p>Cel jest odporny na testy morale, otrzymuje ułatwienie do testów SIŁ i ataków wręcz oraz zadaje +1k4 obrażeń przez cały czas trwania zaklęcia.</p><p>Jeśli cel nie zaatakuje innego stworzenia w swojej turze, zaklęcie wygasa.</p>",
+            "name": "Efekt zaklęcia: Wywołanie szału",
+            "effects": {
+                "Raging": {
+                    "name": "Szał"
+                }
+            }
+        },
+        "Spell Effect: Eyebite": {
+            "description": "<p>Cel nie widzi cię aż do końca swojej następnej tury.</p>",
+            "name": "Efekt zaklęcia: Kąśliwy wzrok",
+            "effects": {
+                "Eyebit": {
+                    "name": "Cel kąśliwego wzroku"
+                }
+            }
+        },
+        "Spell Effect: Floating Disk": {
+            "name": "Efekt zaklęcia: Wędrujący dysk",
+            "effects": {
+                "Floating disk": {
+                    "name": "Wędrujący dysk"
+                }
+            }
+        },
+        "Spell Effect: Fly": {
+            "description": "<p>Przez cały czas trwania zaklęcia możesz latać w pobliżu i zawisnąć w miejscu.</p>",
+            "name": "Efekt zaklęcia: Lot",
+            "effects": {
+                "Flying": {
+                    "name": "Latanie"
+                }
+            }
+        },
+        "Spell Effect: Freya's Omen": {
+            "description": "<p>Przez cały czas trwania zaklęcia nie tracisz możliwości rzucenia zaklęcia, nawet jeśli nie uda ci się wykonać testu rzucania zaklęcia.</p><p>Jeśli test rzucania zaklęcia zakończy się krytyczną porażką, możesz powtórzyć rzut tylko raz. Musisz zastosować nowy wynik. </p>",
+            "name": "Efekt zaklęcia: Znak Freyi",
+            "effects": {
+                "Freya's Omen": {
+                    "name": "Znak Freyi"
+                }
+            }
+        },
+        "Spell Effect: Gaseous Form": {
+            "description": "<p>Na czas trwania zaklęcia ty i twój ekwipunek zamieniacie się w chmurę dymu.</p><p>Możesz latać i przechodzić przez każdą szczelinę, przez którą mógłby przejść dym. Wyczuwasz ukształtowanie terenu oraz wszelkie ruchy wokół ciebie w bliskiej odległości. </p><p>W tej postaci nie możesz rzucać zaklęć.</p>",
+            "name": "Efekt zaklęcia: Forma gazowa",
+            "effects": {
+                "Gaseous": {
+                    "name": "W postaci gazowej"
+                }
+            }
+        },
+        "Spell Effect: Glassbones": {
+            "description": "<p>Przez cały czas trwania zaklęcia otrzymuje podwójne obrażenia.</p>",
+            "name": "Efekt zaklęcia: Kruche kości",
+            "effects": {
+                "Fragile": {
+                    "name": "Kruchy"
+                }
+            }
+        },
+        "Spell Effect: Hallucinate": {
+            "description": "<p>Przez cały czas trwania zaklęcia cel nie może wykonać żadnej akcji w swojej turze, chyba że zda test Mądrości na poziomie równym twojemu ostatniemu testowi rzucania zaklęć.</p>",
+            "name": "Efekt zaklęcia: Halucynacje",
+            "effects": {
+                "Hallucinating": {
+                    "name": "Halucynacje"
+                }
+            }
+        },
+        "Spell Effect: Hold Monster": {
+            "description": "<p>Jeśli cel ma poziom 9 lub wyższy, może na początku swojej tury wykonać test SIŁ w porównaniu z twoim ostatnim testem rzucania zaklęć, aby przerwać działanie zaklęcia.</p>",
+            "name": "Efekt zaklęcia: Unieruchomienie potwora",
+            "effects": {
+                "Paralyzed": {
+                    "name": "Sparaliżowany"
+                }
+            }
+        },
+        "Spell Effect: Hold Person": {
+            "name": "Efekt zaklęcia: Unieruchomienie osoby",
+            "effects": {
+                "Paralyzed": {
+                    "name": "Sparaliżowany"
+                }
+            }
+        },
+        "Spell Effect: Hold Portal": {
+            "name": "Efekt zaklęcia: Podtrzymywanie portalu",
+            "effects": {
+                "Holding Portal": {
+                    "name": "Podtrzymywanie portalu"
+                }
+            }
+        },
+        "Spell Effect: Holy Weapon": {
+            "name": "Efekt zaklęcia: Święta broń",
+            "effects": {
+                "Holy Weapon": {
+                    "name": "Święta broń",
+                    "description": "<p>Broń staje się magiczna i przez cały czas trwania efektu otrzymuje premię +1 do rzutów na trafienie i obrażenia.</p>"
+                },
+                "Weapon Attack Damage Bonus": {
+                    "name": "Premia do obrażeń zadawanych bronią"
+                },
+                "Weapon Attack Roll Bonus": {
+                    "name": "Premia do rzutu na atak bronią"
+                }
+            }
+        },
+        "Spell Effect: Hypnotize": {
+            "description": "<p>Cel nie może wykonywać akcji, a w swojej turze porusza się w losowym kierunku. Jeśli stworzenie ma poziom 9 lub wyższy, może na początku swojej tury wykonać test MDR w porównaniu z twoim ostatnim wynikiem testu rzucania zaklęć, aby przerwać działanie zaklęcia.</p>",
+            "name": "Efekt zaklęcia: Hipnoza",
+            "effects": {
+                "Hypnotized": {
+                    "name": "Zahipnotyzowany"
+                }
+            }
+        },
+        "Spell Effect: Instill": {
+            "description": "<p>Jedna z broni, którą posiadasz, zostaje nasycona siłą witalną. Na czas trwania zaklęcia staje się bronią +1.</p><p>Jeśli bronią tą jest kostur, zadaje ona obrażenia k6 zamiast k4.</p>",
+            "name": "Efekt zaklęcia: Wzbudzenie",
+            "effects": {
+                "Instill": {
+                    "name": "Wzbudzenie"
+                }
+            }
+        },
+        "Spell Effect: Invisibility": {
+            "name": "Efekt zaklęcia: Niewidzialność",
+            "effects": {
+                "Invisible": {
+                    "name": "Niewidzialny"
+                }
+            }
+        },
+        "Spell Effect: Levitate": {
+            "name": "Efekt zaklęcia: Lewitacja",
+            "effects": {
+                "Floating": {
+                    "name": "Unoszenie się"
+                }
+            }
+        },
+        "Spell Effect: Locusts": {
+            "description": "<p>Otaczający cię obszar wypełnia dezorientująca chmura wściekłych, gryzący szarańczy, rozciągająca się niemal do samego nieba.</p><p>Chmura porusza się wraz z tobą. Nie ma na ciebie żadnego wpływu. </p><p>Stworzenia znajdujące się w obszarze działania otrzymują [[/r 1d10]] punktów obrażeń na rundę na początku swojej tury. Muszą zdać test na SIŁ równy twojemu ostatniemu testowi rzucania zaklęć, w przeciwnym razie nie będą mogły się poruszać w swojej turze.</p>",
+            "name": "Efekt zaklęcia: Szarańcze",
+            "effects": {
+                "Locusts": {
+                    "name": "Szarańcze"
+                }
+            }
+        },
+        "Spell Effect: Mage Armor": {
+            "name": "Efekt zaklęcia: Zbroja maga",
+            "effects": {
+                "Mage Armor": {
+                    "name": "Zbroja maga"
+                }
+            }
+        },
+        "Spell Effect: Mage Armor (Critical)": {
+            "name": "Efekt zaklęcia: Zbroja maga (Krytyk)",
+            "effects": {
+                "Mage Armor": {
+                    "name": "Zbroja maga"
+                }
+            }
+        },
+        "Spell Effect: Magnetize": {
+            "description": "<p>Jeden przedmiot, którego dotkniesz, powiększa się do rozmiarów konia i zostaje silnie namagnesowany.</p><p>Przyciąga on wszystkie mniejsze obiekty magnetyczne znajdujące się w pobliżu.</p><p>Jeśli obiekt ten może się poruszać, zostaje przyciągnięty w kierunku większych obiektów magnetycznych znajdujących się w pobliżu. Metalowa istota musi zdać test SIŁ równy twojemu testowi rzucania zaklęć, aby się temu oprzeć.</p>",
+            "name": "Efekt zaklęcia: Magnetyzacja",
+            "effects": {
+                "Magnetize": {
+                    "name": "Magnetyzacja"
+                }
+            }
+        },
+        "Spell Effect: Mirror Image": {
+            "name": "Efekt zaklęcia: Lustrzane odbicia",
+            "effects": {
+                "Mirror Image": {
+                    "name": "Lustrzane odbicia"
+                }
+            }
+        },
+        "Spell Effect: Mistletoe": {
+            "description": "<p>Zauroczony innym stworzeniem.</p><p>Za każdym razem, gdy jedno z dotkniętych tym efektem stworzeń otrzyma obrażenia, może wykonać test [[check 15 cha]]. W przypadku sukcesu zaklęcie wygasa.</p>",
+            "name": "Efekt zaklęcia: Jemioła",
+            "effects": {
+                "Enchanted": {
+                    "name": "Oczarowanie"
+                }
+            }
+        },
+        "Spell Effect: Oak, Ash, Thorn": {
+            "description": "<p>Przez cały czas trwania zaklęcia wróżki, demony i diabły nie mogą cię zaatakować. Istoty te nie mogą również opętać cię, zmusić do czegoś ani omamić.</p>",
+            "name": "Efekt zaklęcia: Dąb, jesion, cierń",
+            "effects": {
+                "Oak, Ash, Thorn": {
+                    "name": "Dąb, jesion, cierń"
+                }
+            }
+        },
+        "Spell Effect: Odin's Wisdom": {
+            "description": "<p>Przez cały czas trwania zaklęcia dodaj swoją poziom jako dodatkową premię do testów Mądrości i testów rzucania zaklęć.</p>",
+            "name": "Efekt zaklęcia: Mądrość Odyna",
+            "effects": {
+                "Odin's Wisdom": {
+                    "name": "Mądrość Odyna"
+                }
+            }
+        },
+        "Spell Effect: Pillar of Salt": {
+            "description": "<p>Jeśli uda ci się skupić na tym zaklęciu przez 3 rundy z rzędu, przemiana stanie się trwała.</p>",
+            "name": "Efekt zaklęcia: Słup soli",
+            "effects": {
+                "Turned to Salt": {
+                    "name": "Przemieniony w sól"
+                }
+            }
+        },
+        "Spell Effect: Pin Doll": {
+            "description": "<p>W swojej turze, skupiając się na tym zaklęciu, możesz wbić szpilkę w lalkę. Za każdym razem, gdy to zrobisz, istota, do której należały włosy lub ciało, otrzymuje [[/r 2d6]] punktów obrażeń.</p>",
+            "name": "Efekt zaklęcia: Lalka ze szpilką",
+            "effects": {
+                "Pin Doll": {
+                    "name": "Lalka ze szpilką"
+                }
+            }
+        },
+        "Spell Effect: Polymorph": {
+            "description": "<p>Cel przemienia się w inne wybrane przez ciebie stworzenie naturalne o takich samych lub mniejszych rozmiarach. Wszelki ekwipunek, jaki posiada cel, wtapia się w jego nową postać.</p><p>Cel zyskuje parametry fizyczne tego stworzenia, ale zachowuje swoje parametry niefizyczne.</p><p>Jeśli liczba punktów wytrzymałości celu spadnie do 0, powraca on do swojej prawdziwej postaci, mając połowę poprzedniej liczby punktów wytrzymałości.</p>",
+            "name": "Efekt zaklęcia: Polimorfia",
+            "effects": {
+                "Polymorphed": {
+                    "name": "Przemieniony"
+                }
+            }
+        },
+        "Spell Effect: Protection from Energy (Cold)": {
+            "description": "<p>Przez cały czas trwania zaklęcia cel jest niewrażliwy na obrażenia od zimna.</p>",
+            "name": "Efekt zaklęcia: Ochrona przed energią (zimno)",
+            "effects": {
+                "Protection from Cold": {
+                    "name": "Ochrona przed zimnem"
+                }
+            }
+        },
+        "Spell Effect: Protection from Energy (Electricity)": {
+            "description": "<p>Przez cały czas trwania zaklęcia cel jest niewrażliwy na obrażenia od elektryczności.</p>",
+            "name": "Efekt zaklęcia: Ochrona przed energią (elektryczność)",
+            "effects": {
+                "Protection from Electricity": {
+                    "name": "Ochrona przed elektrycznością"
+                }
+            }
+        },
+        "Spell Effect: Protection from Energy (Fire)": {
+            "description": "<p>Przez cały czas trwania zaklęcia cel jest niewrażliwy na obrażenia od ognia.</p>",
+            "name": "Efekt zaklęcia: Ochrona przed energią (ogień)",
+            "effects": {
+                "Protection from Fire": {
+                    "name": "Ochrona przed ogniem"
+                }
+            }
+        },
+        "Spell Effect: Protection From Evil": {
+            "description": "<p>Istoty chaotyczne mają utrudnienie przy rzutach na atak i testach rzucania wrogich zaklęć przeciwko tej postaci. Istoty te nie mogą jej również opętać, zmusić ani omamić.</p>",
+            "name": "Efekt zaklęcia: Ochrona przed złem",
+            "effects": {
+                "Protection From Evil": {
+                    "name": "Ochrona przed złem"
+                }
+            }
+        },
+        "Spell Effect: Puppet": {
+            "description": "<p>W swojej turze stworzenie to naśladuje wszystkie twoje ruchy.</p><p>Jeśli naśladowanie ciebie spowodowałoby, że stworzenie to wyrządziłoby bezpośrednią krzywdę sobie lub sojusznikowi, może ono wykonać test [[check 15 cha]]. W przypadku sukcesu stworzenie to opiera się naśladowaniu ciebie. </p>",
+            "name": "Efekt zaklęcia: Marionetka",
+            "effects": {
+                "Puppeted": {
+                    "name": "Sterowany"
+                }
+            }
+        },
+        "Spell Effect: Rebuke Unholy": {
+            "description": "<p>Stworzenie ucieka przed tobą przez 5 rund.</p>",
+            "name": "Efekt zaklęcia: Potępienie nieświętych",
+            "effects": {
+                "Turned": {
+                    "name": "Odpędzony"
+                }
+            }
+        },
+        "Spell Effect: Shapechanger": {
+            "description": "<p>Przemieniasz siebie i cały ekwipunek, który nosisz, w inne naturalne stworzenie, które widziałeś, o poziomie 10 lub niższym. Przyjmujesz parametry fizyczne tego stworzenia, ale zachowujesz swoje parametry niefizyczne (takie jak INT, MDR i CHA).</p><p>Jeśli podczas działania tego zaklęcia twoje PW spadną do 0, powracasz do swojej prawdziwej postaci z 1 PW.</p>",
+            "name": "Efekt zaklęcia: Zmiennokształtny",
+            "effects": {
+                "Shapechanged": {
+                    "name": "Zmiana kształtu"
+                }
+            }
+        },
+        "Spell Effect: Shield of Faith": {
+            "name": "Efekt zaklęcia: Tarcza wiary",
+            "effects": {
+                "AC Bonus": {
+                    "name": "Premia KP"
+                }
+            }
+        },
+        "Spell Effect: Sleep": {
+            "description": "<p>Uraz lub energiczne potrząsanie budzi to stworzenie.</p>",
+            "name": "Efekt zaklęcia: Uśpienie",
+            "effects": {
+                "Asleep": {
+                    "name": "Uśpiony"
+                }
+            }
+        },
+        "Spell Effect: Soulbind": {
+            "description": "<p>Przez cały czas trwania zaklęcia rzucenie wszelkich innych zaklęć skierowanych przeciwko stworzeniu (zarówno szkodliwych, jak i pomocnych) wymaga zaliczenia rzutu na ST 18.</p><p>Zaklęcie to kończy się, gdy tylko cel zostanie objęty działaniem innego zaklęcia.</p>",
+            "name": "Efekt zaklęcia: Więź duszy",
+            "effects": {
+                "Soulbound": {
+                    "name": "Związany duszą"
+                }
+            }
+        },
+        "Spell Effect: Spidersilk": {
+            "description": "<p>Przez cały czas trwania zaklęcia możesz poruszać się po pionowych powierzchniach tak samo swobodnie, jak po płaskim podłożu.</p>",
+            "name": "Efekt zaklęcia: Pajęczy jedwab",
+            "effects": {
+                "Spidersilk": {
+                    "name": "Pajęczy jedwab"
+                }
+            }
+        },
+        "Spell Effect: Stoneskin": {
+            "name": "Efekt zaklęcia: Kamienna skóra",
+            "effects": {
+                "Stoneskin": {
+                    "name": "Kamienna skóra"
+                }
+            }
+        },
+        "Spell Effect: Stoneskin (Critical)": {
+            "name": "Efekt zaklęcia: Kamienna skóra (Krytyk)",
+            "effects": {
+                "Stoneskin": {
+                    "name": "Kamienna skóra"
+                }
+            }
+        },
+        "Spell Effect: Summon Storm": {
+            "description": "<p>Wywołujesz gwałtowną burzę, która przez cały czas trwania zaklęcia obejmuje obszar wokół ciebie w promieniu jednej mili.</p><p>Burza powoduje zaciemnienie nieba, silny wiatr i ulewny deszcz. </p><p>Przez cały czas trwania zaklęcia możesz rzucać zaklęcie „Kontrola wody” (Shadowdark RPG, str. 57), nawet jeśli nie znasz tego zaklęcia.</p><p>Przez cały czas trwania zaklęcia możesz rzucać zaklęcie „Piorun” (Shadowdark RPG, str. 64), nawet jeśli nie znasz tego zaklęcia.</p><p>@UUID[Compendium.shadowdark.spells.Item.TKDuwFu1hP2lX549]</p><p>@UUID[Compendium.shadowdark.spells.Item.7uTblEDfklCO1et7]</p>",
+            "name": "Efekt zaklęcia: Przywołanie burzy",
+            "effects": {
+                "Summon Storm": {
+                    "name": "Przywołanie burzy"
+                }
+            }
+        },
+        "Spell Effect: Treeshape": {
+            "description": "<p>Ty i twój ekwipunek zamieniacie się w drzewca o poniższych statystykach na czas trwania zaklęcia.</p><p>Nie posiadasz talentu „Ożywienie drzewa” charakterystycznego dla drzewca. </p><p>Nie możesz rzucać zaklęć pod wpływem tego zaklęcia.</p><p>Zachowujesz swoje statystyki INT, MDR i CHA.</p><p><strong>KP</strong> 14, <strong>PW</strong> 38, <strong>ATK</strong> 2 uderzenia +8 (1k12) lub 1 kamień (daleki) +8 (2k6), <strong>RUCH</strong> blisko, <strong>Sił</strong> +4, <strong>Zrc</strong> -1, <strong>Kon</strong> +2, <strong>Int</strong> *, <strong>Mdr</strong> *, <strong>Cha</strong> *, <strong>CHAR</strong> N, <strong>POZ</strong> 8</p>",
+            "name": "Efekt zaklęcia: Kształt drzewa",
+            "effects": {
+                "Treeshape": {
+                    "name": "Kształt drzewa"
+                }
+            }
+        },
+        "Spell Effect: Turn Undead": {
+            "description": "<p>Stworzenie ucieka przed tobą przez 5 rund.</p>",
+            "name": "Efekt zaklęcia: Odpędzanie nieumarłych",
+            "effects": {
+                "Turned": {
+                    "name": "Odpędzony"
+                }
+            }
+        },
+        "Spell Effect: Void Stare": {
+            "description": "<p>Pod twoją kontrolą. To ty decydujesz o jego działaniach w jego turze.</p>",
+            "name": "Efekt zaklęcia: Puste spojrzenie",
+            "effects": {
+                "Controlled": {
+                    "name": "Kontrolowany"
+                }
+            }
+        },
+        "Spell Effect: Web": {
+            "description": "<p>Stworzenie uwięzione w sieci nie może się poruszać i aby się uwolnić, musi wykonać pomyślny test Siły przeciwko testowi rzucania zaklęć rzucającego.</p>",
+            "name": "Efekt zaklęcia: Pajęczyna",
+            "effects": {
+                "Stuck": {
+                    "name": "Utknięcie"
+                }
+            }
+        },
+        "Spell Effect: Wolfshape (Dire Wolf)": {
+            "description": "<p><strong>Wilkor</strong></p><p><strong>KP</strong> 12, <strong>PW</strong> 19, <strong>ATK</strong> 2 ugryzienia [[/r 1d20+4]] ([[/r 1d8]]), <strong>RUCH</strong> średni, <strong>Sił</strong> +3, <strong>Zrc</strong> +2, <strong>Kon</strong> +1</p><p><strong>Łowca w stadzie.</strong> Zadaje +1 obrażenia, gdy sojusznik znajduje się obok. </p><p>Przyjmujesz SIŁ, ZRC, KON PW, KP, szybkość, ataki i cechy fizyczne wilka, ale zachowujesz INT, MDR i CHA.</p><p>W tej postaci możesz rzucać zaklęcia. Jeśli twoje PW spadną do 0, powracasz do swojej prawdziwej postaci przy 0 PW.</p>",
+            "name": "Efekt zaklęcia: Postać wilka (Wilkor)",
+            "effects": {
+                "Dire Wolf": {
+                    "name": "Wilkor"
+                }
+            }
+        },
+        "Spell Effect: Wolfshape (Winter Wolf)": {
+            "description": "<p><strong>Zimowy wilk</strong></p><p><strong>KP</strong> 12, <strong>PW</strong> 23, <strong>ATK</strong> 2 ugryzienia [[/r 1d20+4]] ([[/r 1d6]]) lub 1 mroźny oddech, <strong>RUCH</strong> średni, <strong>Sił</strong> +3, <strong>Zrc</strong> +2, <strong>Kon</strong> +1</p><p><strong>Odporny.</strong> Niewrażliwość na zimno. </p><p><strong>Mroźny oddech.</strong> Wypełnia sześcian w pobliżu, rozciągający się od zimowego wilka. [[check 15 dex]] lub [[/r 3d8]] obrażeń. Nie można użyć ponownie przez [[/r 1d4]] rund. </p><p>Przyjmujesz SIŁ, ZRC, KON, PW, KP, szybkość, ataki i cechy fizyczne wilka, ale zachowujesz swoją INT, MDR i CHA.</p><p>W tej postaci możesz rzucać zaklęcia. Jeśli twoje PW spadną do 0, powracasz do swojej prawdziwej postaci przy 0 PW.</p>",
+            "name": "Efekt zaklęcia: Postać wilka (Zimowy wilk)",
+            "effects": {
+                "Winter Wolf": {
+                    "name": "Zimowy wilk"
+                }
+            }
+        },
+        "Spell Effect: Wolfshape (Wolf)": {
+            "description": "<p><strong>Wilk</strong></p><p><strong>KP</strong> 12, <strong>PW</strong> 10, <strong>ATK</strong> 1 ugryzienie [[/r 1d20+2]] ([[/r 1d6]]), <strong>RUCH</strong> średni, <strong>Sił</strong> +2, <strong>Zrc</strong> +2, <strong>Kon</strong> +1</p><p><strong>Łowca w stadzie.</strong> Zadaje +1 obrażenia, gdy sojusznik znajduje się obok. </p><p>Przyjmujesz SIŁ, ZRC, KON PW, KP, szybkość, ataki i cechy fizyczne wilka, ale zachowujesz INT, MDR i CHA.</p><p>W tej postaci możesz rzucać zaklęcia. Jeśli twoje PW spadną do 0, powracasz do swojej prawdziwej postaci przy 0 PW.</p>",
+            "name": "Efekt zaklęcia: Postać wilka (Wilk)",
+            "effects": {
+                "Wolf": {
+                    "name": "Wilk"
+                }
+            }
+        },
+        "Spell Effect: World Serpent": {
+            "description": "<p>Przez cały czas trwania zaklęcia cel otrzymuje podwójne obrażenia przy każdym ataku (czterokrotne w przypadku trafienia krytycznego).</p>",
+            "name": "Efekt zaklęcia: Wąż Świata",
+            "effects": {
+                "Envenomed": {
+                    "name": "Zatruty"
+                }
+            }
+        },
+        "Spell Effect: World Tree": {
+            "description": "<p>Przez cały czas trwania zaklęcia nie można sprawić, by liczba PW celu spadła poniżej 1.</p>",
+            "name": "Efekt zaklęcia: Drzewo Świata",
+            "effects": {
+                "World Tree": {
+                    "name": "Drzewo Świata"
+                }
+            }
+        },
+        "Spell Effect: Wrath": {
+            "description": "<p>Twoja broń zyskuje właściwości magiczne +2 i zadaje dodatkowe obrażenia w wysokości k8 przez cały czas trwania zaklęcia.</p>",
+            "name": "Efekt zaklęcia: Gniew",
+            "effects": {
+                "Wrath": {
+                    "name": "Gniew"
+                }
+            }
+        },
+        "Spell Effect: Zone of Truth": {
+            "description": "<p>Nie można wypowiedzieć celowego kłamstwa, gdy znajduje się w zasięgu źródła.</p>",
+            "name": "Efekt zaklęcia: Strefa prawdy",
+            "effects": {
+                "Truthful": {
+                    "name": "Prawdomówny"
+                }
+            }
+        },
+        "Spidersilk": {
+            "name": "Pajęczy jedwab"
+        },
+        "Summon Storm": {
+            "name": "Przywołanie burzy"
+        },
+        "Treeshape": {
+            "name": "Kształt drzewa"
+        },
+        "Truthful": {
+            "name": "Prawdomówny"
+        },
+        "Turned to Salt": {
+            "name": "Przemieniony w sól"
+        },
+        "VHYrzR2yKp3dWr5N": {
+            "name": "Utknięcie"
+        },
+        "Weapon Attack Damage Bonus": {
+            "name": "Premia do obrażeń zadawanych bronią"
+        },
+        "Weapon Attack Roll Bonus": {
+            "name": "Premia do rzutu na atak bronią"
+        },
+        "Winter Wolf": {
+            "name": "Zimowy wilk"
+        },
+        "Wolf": {
+            "name": "Wilk"
+        },
+        "World Tree": {
+            "name": "Drzewo Świata"
+        },
+        "Wrath": {
+            "name": "Gniew"
+        },
+        "Z8y5ZzvVyfE2irPi": {
+            "name": "Odpędzony"
+        }
+    }
+}
