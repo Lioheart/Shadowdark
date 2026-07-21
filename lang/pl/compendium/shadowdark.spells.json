@@ -287,7 +287,7 @@
         },
         "Hold Portal": {
             "description": "<p>Przez cały czas trwania zaklęcia w magiczny sposób utrzymujesz portal w stanie zamkniętym. Aby otworzyć portal, istota musi wykonać udany test Siły przeciwko twojemu testowi rzucania zaklęć.</p><p>Zaklęcie „Kołatka” przerywa działanie tego zaklęcia.</p><p>@UUID[Compendium.shadowdark.spell-effects.q109XEqMceJBEX7m]</p>",
-            "name": "Unieruchomienie portalu"
+            "name": "Podtrzymywanie portalu"
         },
         "Holy Weapon": {
             "description": "<p>Każda broń, której dotkniesz, zostaje obdarzona świętym błogosławieństwem.</p><p>Broń ta staje się magiczna i przez cały czas trwania efektu otrzymuje premię +1 do rzutów na atak i obrażenia.</p><p>@UUID[Compendium.shadowdark.spell-effects.r2JNgS2474vuq9oy]</p>",
