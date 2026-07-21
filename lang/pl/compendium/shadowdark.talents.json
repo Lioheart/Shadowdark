@@ -1,0 +1,988 @@
+{
+    "label": "Talenty",
+    "mapping": {
+        "description": "system.description",
+        "effects": {
+            "path": "effects",
+            "converter": "document",
+            "documentType": "ActiveEffect",
+            "cardinality": "many",
+            "mapping": {
+                "name": "name",
+                "description": "description"
+            }
+        },
+        "name": "name"
+    },
+    "entries": {
+        "+1 on Spellcasting Checks": {
+            "name": "+1 do testów rzucania zaklęć",
+            "effects": {
+                "Spellcasting Check Bonus": {
+                    "name": "Premia do testu rzucania zaklęć"
+                }
+            }
+        },
+        "+1 to AC": {
+            "description": "<p>Przyznaje +1 do KP dzięki nadprzyrodzonej zdolności przewidywania</p>",
+            "name": "+1 do KP"
+        },
+        "+1 to Charisma": {
+            "name": "+1 do Charyzmy",
+            "effects": {
+                "Ability Score Improvement (Cha)": {
+                    "name": "Podwyższenie wartości cech (Cha)"
+                }
+            }
+        },
+        "+1 to Constitution": {
+            "name": "+1 do Kondycji",
+            "effects": {
+                "Ability Score Improvement (Con)": {
+                    "name": "Podwyższenie wartości cech (Kon)"
+                }
+            }
+        },
+        "+1 to Damage": {
+            "name": "+1 do obrażeń",
+            "effects": {
+                "Melee Damage Bonus": {
+                    "name": "Premia do obrażeń w walce wręcz"
+                },
+                "Ranged Damage Bonus": {
+                    "name": "Premia do obrażeń z dystansu"
+                }
+            }
+        },
+        "+1 to Dexterity": {
+            "name": "+1 do Zręczności",
+            "effects": {
+                "abilityImprovement": {
+                    "name": "Wzmocnienie cechy"
+                }
+            }
+        },
+        "+1 to Intelligence": {
+            "name": "+1 do Inteligencji",
+            "effects": {
+                "Ability Score Improvement (Int)": {
+                    "name": "Podwyższenie wartości cech (Int)"
+                }
+            }
+        },
+        "+1 to Magical Dabbler Rolls": {
+            "name": "+1 do rzutów na Amatora magii",
+            "effects": {
+                "Magical Dabbler Bonus": {
+                    "name": "Premia amatora magii"
+                }
+            }
+        },
+        "+1 to Melee and Ranged Attacks": {
+            "name": "+1 do ataków wręcz i na odległość",
+            "effects": {
+                "Melee Attack Roll Bonus": {
+                    "name": "Premia do rzutu na atak wręcz"
+                },
+                "Ranged Attack Roll Bonus": {
+                    "name": "Premia do rzutu na atak z dystansu"
+                }
+            }
+        },
+        "+1 to Melee Attacks": {
+            "name": "+1 do ataków wręcz",
+            "effects": {
+                "Melee Attack Roll Bonus": {
+                    "name": "Premia do rzutu na atak wręcz"
+                }
+            }
+        },
+        "+1 to Melee Attacks and Damage": {
+            "name": "+1 do ataków wręcz i zadawanych obrażeń",
+            "effects": {
+                "Melee Damage Bonus": {
+                    "name": "Premia do obrażeń w walce wręcz"
+                },
+                "Melee Attack Roll Bonus": {
+                    "name": "Premia do rzutu na atak wręcz"
+                }
+            }
+        },
+        "+1 to Melee Damage": {
+            "name": "+1 do obrażeń zadawanych w walce wręcz",
+            "effects": {
+                "Melee Damage Bonus": {
+                    "name": "Premia do obrażeń w walce wręcz"
+                }
+            }
+        },
+        "+1 to Ranged Attacks": {
+            "name": "+1 do ataków z dystansu",
+            "effects": {
+                "Ranged Attack Roll Bonus": {
+                    "name": "Premia do rzutu na atak z dystansu"
+                }
+            }
+        },
+        "+1 to Ranged Attacks and Damage": {
+            "name": "+1 do ataków z dystansu i zadawanych obrażeń",
+            "effects": {
+                "Ranged Damage Bonus": {
+                    "name": "Premia do obrażeń z dystansu"
+                },
+                "Ranged Attack Roll Bonus": {
+                    "name": "Premia do rzutu na atak z dystansu"
+                }
+            }
+        },
+        "+1 to Strength": {
+            "name": "+1 do Siły",
+            "effects": {
+                "Ability Score Improvement (Str)": {
+                    "name": "Podwyższenie wartości cech (Sił)"
+                }
+            }
+        },
+        "+1 to Weapon Attacks and Damage": {
+            "name": "+1 do ataków bronią i zadawanych obrażeń",
+            "effects": {
+                "Weapon Attack Roll Bonus": {
+                    "name": "Premia do rzutu na atak bronią"
+                },
+                "Weapon Attack Damage Bonus": {
+                    "name": "Premia do obrażeń zadawanych bronią"
+                }
+            }
+        },
+        "+1 to Wisdom": {
+            "name": "+1 do Mądrości",
+            "effects": {
+                "Ability Score Improvement (Wis)": {
+                    "name": "Podwyższenie wartości cech (Mdr)"
+                }
+            }
+        },
+        "+1 use per day of Petrifying Gaze": {
+            "name": "+1 do dziennego użycia Petryfikującego spojrzenia"
+        },
+        "+1 XP for Secrets": {
+            "description": "<p>+1 PD za każdym razem, gdy poznasz cenną lub istotną tajemnicę (powtórz rzut w przypadku powtórzeń)</p>",
+            "name": "+1 PD do sekretów"
+        },
+        "+2 to Charisma": {
+            "name": "+2 do Charyzmy",
+            "effects": {
+                "Ability Score Improvement (Cha)": {
+                    "name": "Podwyższenie wartości cech (Cha)"
+                }
+            }
+        },
+        "+2 to Constitution": {
+            "name": "+2 do Kondycji",
+            "effects": {
+                "Ability Score Improvement (Con)": {
+                    "name": "Podwyższenie wartości cech (Kon)"
+                }
+            }
+        },
+        "+2 to Dexterity": {
+            "name": "+2 do Zręczności",
+            "effects": {
+                "Ability Score Improvement (Dex)": {
+                    "name": "Podwyższenie wartości cech (Zrc)"
+                }
+            }
+        },
+        "+2 to Intelligence": {
+            "name": "+2 do Inteligencji",
+            "effects": {
+                "Ability Score Improvement (Int)": {
+                    "name": "Podwyższenie wartości cech (Int)"
+                }
+            }
+        },
+        "+2 to Strength": {
+            "name": "+2 do Siły",
+            "effects": {
+                "Ability Score Improvement (Str)": {
+                    "name": "Podwyższenie wartości cech (Sił)"
+                }
+            }
+        },
+        "+2 to Wisdom": {
+            "name": "+2 do Mądrości",
+            "effects": {
+                "Ability Score Improvement (Wis)": {
+                    "name": "Podwyższenie wartości cech (Mdr)"
+                }
+            }
+        },
+        "0g9MUhj9Tr3AWRXl": {
+            "name": "Mistrzostwo w pancerzu"
+        },
+        "5bpWuaT0KTNzuzCu": {
+            "description": "<p>Wybierz jeden rodzaj broni, na przykład miecze długie. Otrzymujesz +1 do ataku i obrażeń zadawanych tym rodzajem broni. Dodatkowo do tych rzutów dodaj połowę swojego poziomu (zaokrąglając w dół).</p>",
+            "name": "Mistrzostwo w broni",
+            "effects": {
+                "Weapon Mastery": {
+                    "name": "Mistrzostwo w broni"
+                }
+            }
+        },
+        "71GTV8nPjnyTdFjT": {
+            "name": "Ułatwienie rzutu na inicjatywę"
+        },
+        "7ADLFBANMORl70Nm": {
+            "name": "Podwyższenie wartości cech (Int)"
+        },
+        "7JTDRLtHc6FOrIEc": {
+            "description": "<p>Dodaj swój modyfikator Kondycji, jeśli jest dodatni, do swoich miejsc na wyposażenie.</p>",
+            "name": "Tragarz",
+            "effects": {
+                "Hauler": {
+                    "name": "Tragarz"
+                }
+            }
+        },
+        "7Rv0ynJ2wKOIJGnw": {
+            "name": "Zezwól na magiczne przedmioty"
+        },
+        "8BIQChg1O4MQJ9xV": {
+            "name": "Zaklęcia klasy"
+        },
+        "A9g8ZeATepsz2xvP": {
+            "name": "Potężny"
+        },
+        "Ability Score Improvement (Dex)": {
+            "name": "Podwyższenie wartości cech (Zrc)"
+        },
+        "abilityImprovement": {
+            "name": "Wzmocnienie cechy"
+        },
+        "Add Wisdom to Roll": {
+            "description": "<p>3 razy dziennie, dodaj swoją premię Mdr do dowolnego rzutu (powtórz rzut w przypadku powtórzeń)</p>",
+            "name": "Dodaj Mądrość do rzutu"
+        },
+        "Additional Backstab Die": {
+            "name": "Dodatkowa kostka do podstępnego ataku"
+        },
+        "Additional Black Lotus Talent": {
+            "description": "<p>Rzuć dodatkowy talent z tabeli @UUID[Compendium.shadowdark.rollable-tables.RollTable.pQAyZAcfrs9JrG0Q]{Talenty Czarnego Lotosu}.</p>",
+            "name": "Dodatkowy talent Czarnego Lotosu"
+        },
+        "Additional HP": {
+            "description": "<p>Zyskujesz dodatkową kostkę Punktów Wytrzymałości</p>",
+            "name": "Dodatkowe PW"
+        },
+        "Additional Omen Use": {
+            "description": "<p>Zyskaj możliwość użycia swojego talentu „Omen” dodatkowy raz dziennie.</p>",
+            "name": "Dodatkowe użycie Omenu"
+        },
+        "Additional Use of Charge": {
+            "description": "<p>Zyskaj możliwość użycia swojego talentu „Szarża” dodatkowy raz dziennie.</p>",
+            "name": "Dodatkowe użycie Szarży"
+        },
+        "Additional Use of Smoke Step": {
+            "description": "<p>Zyskaj możliwość dodatkowego użycia swojego talentu „Dymny krok”.</p>",
+            "name": "Dodatkowe użycie Dymnego kroku"
+        },
+        "Advantage on Melee Attacks": {
+            "description": "<p>1 raz dziennie, zyskujesz ułatwienie przy atakach wręcz przez 3 rundy. </p><p>duplikat = +1 użycie dziennie</p>",
+            "name": "Ułatwienie w atakach wręcz"
+        },
+        "aGa3IciSFPQKDtkc": {
+            "name": "Złodziejstwo"
+        },
+        "Ambitious": {
+            "description": "<p>Na 1. poziomie zyskujesz jeden dodatkowy rzut na talent.</p>",
+            "name": "Ambitny"
+        },
+        "Avoid Entrapment/Injury": {
+            "description": "<p>Masz ułatwienie przy testach Zręczności, aby uniknąć uwięzienia lub obrażeń</p>",
+            "name": "Unikanie uwięzienia / urazów"
+        },
+        "Az2fXCwgo5C3x2X7": {
+            "description": "<p>Za każdym razem, gdy używasz tokenu szczęścia, dodaj [[/roll 1d6]] do wyniku rzutu.</p>",
+            "name": "Przeznaczenie",
+            "effects": {
+                "Destined": {
+                    "name": "Przeznaczenie",
+                    "description": "<p>Za każdym razem, gdy używasz tokenu szczęścia, dodaj 1k6 do wyniku rzutu.</p>"
+                },
+                "Destined (Dmg)": {
+                    "name": "Przeznaczenie (Obrażenia)",
+                    "description": "<p>Za każdym razem, gdy użyjesz tokenu szczęścia, dodaj 1k6 do wyniku rzutu. Obrażenia.</p>"
+                },
+                "Destined Die": {
+                    "name": "Kostka przeznaczenia"
+                }
+            }
+        },
+        "Backstab +1 Damage Dice": {
+            "description": "<p>Twój Podstępny atak zadaje +1 kość obrażeń.</p>",
+            "name": "Podstępny atak +1 kość obrażeń",
+            "effects": {
+                "Additional Backstab Die": {
+                    "name": "Dodatkowa kostka do podstępnego ataku",
+                    "description": "<p>Twój Podstępny atak zadaje +1 kość obrażeń.</p>"
+                }
+            }
+        },
+        "Bardic Arts": {
+            "description": "<p>Posiadasz wytrenowanie w zakresie oratorstwa, sztuk scenicznych, wiedzy o świecie oraz dyplomacji. Masz ułatwienie przy wykonywaniu związanych z tymi dziedzinami testów.</p>",
+            "name": "Sztuka bardów"
+        },
+        "Basilisk Blood": {
+            "description": "<p>Otrzymujesz ułatwienie do testów KON, aby uniknąć szkodliwych dolegliwości, trucizn lub stanów chorobowych.</p>",
+            "name": "Krew bazyliszka"
+        },
+        "Basilisk Egg": {
+            "description": "<p>Znalazłeś @UUID[Compendium.shadowdark.gear.Item.zU6dopKBk3pKS9F9]{Jajo bazyliszka}; lojalne młode wykluje się za [[/r 1d4]] dni</p>",
+            "name": "Jajo bazyliszka"
+        },
+        "Beginner's Luck": {
+            "description": "<p>Postacie na poziomie 0 mogą posługiwać się całym ekwipunkiem aż do osiągnięcia 1. poziomu.</p>",
+            "name": "Szczęście początkującego",
+            "effects": {
+                "Allow Magic Items": {
+                    "name": "Zezwól na magiczne przedmioty"
+                }
+            }
+        },
+        "Black Lotus": {
+            "description": "<p>Zasłużyłeś sobie na prawo do zjedzenia płatka legendarnego czarnego lotosu i przetrwałeś jego magiczne działanie.</p><p>Rzuć jednym talentem w tabeli @UUID[Compendium.shadowdark.rollable-tables.RollTable.pQAyZAcfrs9JrG0Q]{Talenty Czarnego Lotosu}. Możesz powtórzyć rzut w przypadku powtórzeń lub je zachować.</p>",
+            "name": "Czarny Lotus"
+        },
+        "BsRPGhKXYwJBI9ex": {
+            "description": "<p>Wybierz jeden rodzaj pancerza. Otrzymasz +1 do KP dzięki temu pancerzowi</p>",
+            "name": "Mistrzostwo w pancerzu",
+            "effects": {
+                "Armor Mastery": {
+                    "name": "Mistrzostwo w pancerzu"
+                }
+            }
+        },
+        "c7CGt0FBJHv5BtpM": {
+            "name": "Premia do rzutu na atak wręcz"
+        },
+        "cefeWMKoAqHxuuU1": {
+            "name": "Premia do obrażeń w walce wręcz"
+        },
+        "cGGttIknipaR4UIo": {
+            "name": "+1 do KP przy walce dwoma broniami"
+        },
+        "Charge": {
+            "description": "<p>3 razy dziennie możesz użyć @UUID[Compendium.shadowdark.class-abilities.Item.Ecajh7eY7lBEHuMv]{szarży}, zbliżając się przynajmniej na bliską odległość przed atakiem. Za każdym razem, gdy to zrobisz, twoje ataki wręcz zadają w tej rundzie podwójne obrażenia.</p>",
+            "name": "Szarża"
+        },
+        "CUwCZOHDW1XRT1ce": {
+            "name": "Podwyższenie wartości cech (Kon)"
+        },
+        "D12 Weapon Damage Die": {
+            "name": "Kość obrażeń broni K12",
+            "effects": {
+                "Increased Weapon Damage Die": {
+                    "name": "Zwiększona kostka obrażeń broni"
+                }
+            }
+        },
+        "Deity": {
+            "description": "<p>Wybierz boga, któremu chcesz służyć, a który odpowiada twojemu charakterowi (zobacz „Bóstwa”, str. 30). Posiadasz święty symbol swojego boga (nie zajmuje on żadnego miejsca w ekwipunku).</p>",
+            "name": "Bóstwo"
+        },
+        "dejbAcycqE6ujmcJ": {
+            "name": "Zaklęcia klasy"
+        },
+        "Demonic Possession": {
+            "description": "<p>@UUID[Compendium.shadowdark.class-abilities.Item.dsFmHTTuERiQePky]</p><p>3 razy dziennie zyskujesz premię +1 do rzutów na obrażenia, która trwa 3 rundy. Ponadto do tej premii do obrażeń dodaj połowę swojego poziomu (zaokrąglając w dół).</p>",
+            "name": "Opętanie przez demona"
+        },
+        "Demonic Possession Bonus": {
+            "description": "<p>Twoja premia za „Opętanie przez demona” wzrasta o 1 punkt.</p>",
+            "name": "Premia do Opętania przez demona"
+        },
+        "Destine Die Upgrade": {
+            "name": "Zwiększenie kostki przeznaczenia"
+        },
+        "Destined (Dmg)": {
+            "name": "Przeznaczenie (Obrażenia)"
+        },
+        "Destined Die": {
+            "name": "Kostka przeznaczenia"
+        },
+        "Duality": {
+            "description": "<p>Wybierz codziennie dwa różne efekty @UUID[Compendium.shadowdark.talents.Item.A8Siwy6S27LwEkx5]{Starych Bogów}</p><p>duplikat = ponowne losowanie</p>",
+            "name": "Dwoistość"
+        },
+        "E7SwrOhzSAyMZ1Ec": {
+            "name": "Mistrzostwo w broni"
+        },
+        "etJKhGLqpcKvyloB": {
+            "name": "Premia do testu rzucania zaklęć"
+        },
+        "Extra HP Max": {
+            "name": "Dodatkowe maksymalne PW"
+        },
+        "Familiar": {
+            "description": "<p>Masz małe zwierzę, takie jak kruk, szczur lub żaba, które wiernie ci służy. Potrafi mówić we wspólnym.</p><p>Twój chowaniec może być źródłem rzucanych przez ciebie zaklęć. Przy ustalaniu zasięgu zaklęć traktuj go tak, jakby to byłeś ty.</p><p>Jeśli twój chowaniec zginie, możesz przywrócić go do życia, poświęcając na stałe 1k4 punktów wytrzymałości.</p>",
+            "name": "Chowaniec"
+        },
+        "Farsight (Ranged)": {
+            "description": "<p>Otrzymujesz premię +1 do rzutów na atak bronią dystansową <strong>lub</strong> premię +1 do testów rzucania zaklęć.</p>",
+            "name": "Dalekowzroczność (Dystansowe)",
+            "effects": {
+                "Ranged Attack Roll Bonus": {
+                    "name": "Premia do rzutu na atak z dystansu"
+                }
+            }
+        },
+        "Farsight (Spell)": {
+            "description": "<p>Otrzymujesz premię +1 do rzutów na atak bronią dystansową <strong>lub</strong> premię +1 do testów rzucania zaklęć.</p>",
+            "name": "Dalekowzroczność (Zaklęcie)",
+            "effects": {
+                "Spellcasting Check Bonus": {
+                    "name": "Premia do testu rzucania zaklęć"
+                }
+            }
+        },
+        "FEdSh6J89u9qZv2w": {
+            "name": "Przeznaczenie"
+        },
+        "Find a Random Priest or Wizard Wand": {
+            "description": "<p>Znajdujesz przypadkową różdżkę kapłana lub czarodzieja (do wyboru)</p>",
+            "name": "Znalezienie różdżki kapłana lub czarodzieja"
+        },
+        "Flourish": {
+            "description": "<p>3 razy dziennie odzyskujesz [[/r 1d6]] punktów wytrzymałości, gdy trafisz wroga atakiem wręcz.</p><p>@UUID[Compendium.shadowdark.class-abilities.Item.6snDwCm38HjvO1uv]</p>",
+            "name": "Rozmach"
+        },
+        "Force GM Reroll": {
+            "description": "<p>1 raz dziennie, MG musi ponownie wykonać jeden rzut</p><p>duplikat = +1 użycie dziennie</p>",
+            "name": "Wymuś rzut MG"
+        },
+        "Force Morale Check": {
+            "description": "<p>1 raz dziennie, wymusza na najbliższej istocie w zwarciu sprawdzenie morale, nawet jeśli jest ona na to odporna</p><p>duplikat = +1 użycie dziennie</p>",
+            "name": "Wymuszenie testu morale"
+        },
+        "fsh7dPOotCEuj2ic": {
+            "name": "Podstępny atak"
+        },
+        "Fzx8i0bzbmuK8IoZ": {
+            "name": "Zezwól na magiczne przedmioty"
+        },
+        "Go Berserk": {
+            "description": "<p>1 raz dziennie, użyj @UUID[Compendium.shadowdark.spell-effects.Item.sfeg7jRt0oW5qXO4]: odporność na obrażenia przez 3 rundy</p><p>duplikat = +1 użycie dziennie</p>",
+            "name": "Wpadnięcie w Szał"
+        },
+        "Grit (Dexterity)": {
+            "description": "<p>Wybierz Siłę lub Zręczność. Masz ułatwienie przy testach tego typu, mających na celu pokonanie przeszkody, np. wyważenie zablokowanych drzwi kopnięciem (Siła) lub uwolnienie się z zardzewiałych łańcuchów (Zręczność).</p>",
+            "name": "Charakterny (Zręczność)",
+            "effects": {
+                "Advantage Against Opposing Force": {
+                    "name": "Ułatwienie przeciwko przeciwnym siłom",
+                    "description": "<p>Masz ułatwienie w testach Zręczności, gdy próbujesz pokonać przeszkodę, np. uwolnić się z zardzewiałych łańcuchów itp.</p>"
+                }
+            }
+        },
+        "Grit (Strength)": {
+            "description": "<p>Wybierz Siłę lub Zręczność. Masz ułatwienie przy testach tego typu, mających na celu pokonanie przeszkody, np. wyważenie zablokowanych drzwi kopnięciem (Siła) lub uwolnienie się z zardzewiałych łańcuchów (Zręczność).</p>",
+            "name": "Charakterny (Siła)",
+            "effects": {
+                "Advantage Against Opposing Force": {
+                    "name": "Ułatwienie przeciwko przeciwnym siłom",
+                    "description": "<p>Masz ułatwienie w testach Siły mających na celu pokonanie przeszkody, np. wyważenie zablokowanych drzwi itp.</p>"
+                }
+            }
+        },
+        "GVAi0l6mfRillxwZ": {
+            "description": "<p>Otrzymujesz +1 do testów rzucania zaklęć.</p>",
+            "name": "Wprawa (Rzucanie zaklęć)",
+            "effects": {
+                "Knack (Spellcasting)": {
+                    "name": "Wprawa (Rzucanie zaklęć)"
+                }
+            }
+        },
+        "Herbalism": {
+            "description": "<p>Wykonaj test INT, aby przygotować wybrany przez siebie środek ziołowy. Jeśli test się nie powiedzie, nie będziesz mógł ponownie przygotować tego środka, dopóki nie wykonasz odpoczynku. Niewykorzystane środki tracą ważność po 3 rundach.</p><p><strong>ST | Efekt</strong></p><p>11 | @UUID[Compendium.shadowdark.class-abilities.Item.UzSmg3aLstFcNsUa]. Leczy 1 PW</p><p>12 | @UUID[Compendium.shadowdark.class-abilities.Item.EhaA5tBROfrws1Kx]. Nie możesz zostać zaskoczony przez 10 rund</p><p>13 | @UUID[Compendium.shadowdark.class-abilities.Item.i8PZF77jaVDkCE6n]. Otrzymujesz premię do ataku i zadawanych obrażeń przeciwko jednemu wybranemu przez ciebie typowi stworzeń przez [[/r 1d6]] rund</p><p>14 | @UUID[Compendium.shadowdark.class-abilities.Item.3fck7HFRfDywsjQk]. Usuwa jeden efekt trucizny lub choroby</p><p>15 | @UUID[Compendium.shadowdark.class-abilities.Item.Ussun0GbRMiJZ8vP]. Odpowiada @UUID[Compendium.shadowdark.magic-items.jucTGEjsqJ1znHdf]{Miksturze Leczącej}</p>",
+            "name": "Ziołolecznictwo"
+        },
+        "Herbalism Check Advantage": {
+            "description": "<p>Otrzymujesz ułatwienie do testów ziołolecznictwa dotyczących wybranego przez ciebie zioła</p>",
+            "name": "Ułatwienie testu Ziołolecznictwa"
+        },
+        "Hide from Creature": {
+            "description": "<p>1 raz dziennie wybierz widoczne dla ciebie stworzenie o poziomie 9 lub niższym; musi ono zdać test [[check 15 wis]], w przeciwnym razie nie będzie mogło cię widzieć ani słyszeć przez 1k4 rund.</p><p>@UUID[Compendium.shadowdark.class-abilities.Item.KfaSyGxX13IBVmKO]</p>",
+            "name": "Ukrycie przed stworzeniem"
+        },
+        "hkfq4SGF4mkDjQmt": {
+            "name": "Podwyższenie wartości cech (Cha)"
+        },
+        "HP Roll Advantage": {
+            "name": "Ułatwienie rzutu na PW"
+        },
+        "Hypnotize": {
+            "description": "<p>1 raz dziennie – zahipnotyzuj stworzenie o poziomie 5 lub niższym na 3 rundy</p><p>duplikat = +1 użycie dziennie</p>",
+            "name": "Hipnoza"
+        },
+        "Ignore All Damage": {
+            "description": "<p>1 raz dziennie – zignoruj wszystkie obrażenia i efekty wynikające z jednego ataku.</p><p>duplikat = dodatkowe dziennie użycie</p><p>@UUID[Compendium.shadowdark.class-abilities.Item.MbC7YucyY4D9dYre]</p>",
+            "name": "Ignorowanie wszystkich obrażeń"
+        },
+        "Immunity to Acid": {
+            "name": "Niewrażliwość na kwas"
+        },
+        "Immunity to Cold": {
+            "name": "Niewrażliwość na zimno"
+        },
+        "Immunity to Poison": {
+            "name": "Niewrażliwość na truciznę"
+        },
+        "Implacable": {
+            "description": "<p>Masz ułatwienie przy testach na Kondycję, aby oprzeć się truciznom lub wytrzymać ekstremalne warunki środowiskowe.</p>",
+            "name": "Nieugięty"
+        },
+        "Improved Presence DC": {
+            "description": "<p>Skutki prezencji wymagają teraz rzutu na ST 9, aby zadziałać</p><p>duplikat = ponowny rzut</p>",
+            "name": "Ulepszona ST Prezencji"
+        },
+        "Increased Flourish Heal": {
+            "description": "<p>Zwiększ liczbę PW, które zyskujesz dzięki talentowi „Rozmach”, o [[/r 1d6]]</p>",
+            "name": "Zwiększone leczenie Rozmachu"
+        },
+        "Increased Weapon Damage Die": {
+            "name": "Zwiększona kostka obrażeń broni"
+        },
+        "isMVMARzqqQVLmZ4": {
+            "name": "Podwyższenie wartości cech (Mdr)"
+        },
+        "JOP97BP4aJ0kjcgL": {
+            "name": "Premia do obrażeń w walce wręcz"
+        },
+        "jzxgJvPfazpI6udq": {
+            "name": "Podwyższenie wartości cech (Sił)"
+        },
+        "k9wVrL0gDKPn2rNt": {
+            "name": "Ułatwienie rzutu na inicjatywę"
+        },
+        "Keen Senses": {
+            "description": "<p>Nie możesz być zaskoczony.</p>",
+            "name": "Wyostrzone zmysły"
+        },
+        "KLDZKFY6SrqQKSva": {
+            "description": "<p>Jeśli trafisz stworzenie, które nie jest świadome twojego ataku, zadajesz dodatkową kostkę obrażeń broni. Dodaj dodatkowe kostki obrażeń broni równe połowie twojego poziomu (zaokrąglone w dół).</p>",
+            "name": "Podstępny atak",
+            "effects": {
+                "Backstab": {
+                    "name": "Podstępny atak",
+                    "description": "<p>Jeśli trafisz stworzenie, które nie jest świadome twojego ataku, zadajesz dodatkową kostkę obrażeń broni. Dodaj dodatkowe kostki obrażeń broni równe połowie twojego poziomu (zaokrąglone w dół).</p>"
+                }
+            }
+        },
+        "kLhJi9CIdP5waTkT": {
+            "name": "Ułatwienie przeciwko przeciwnym siłom"
+        },
+        "Knack (Luck)": {
+            "description": "<p>Każdą sesję rozpoczynasz z tokenem szczęścia.</p>",
+            "name": "Wprawa (Szczęście)"
+        },
+        "Last stand": {
+            "description": "<p>Wstajesz z martwych, mając 1 Punkt Wytrzymałości, jeśli rzut naturalną kostką k20 da wynik 18–20.</p>",
+            "name": "Ostatnie starcie"
+        },
+        "Learn a Wizard Spell": {
+            "description": "<p>Naucz się zaklęcia czarodzieja, którego poziom wynosi połowę twojego poziomu. Rzuć je, wykorzystując INT</p>",
+            "name": "Nauka zaklęcia Czarodzieja"
+        },
+        "Learn Extra Spell": {
+            "description": "<p>Naucz się jednego dodatkowego zaklęcia z dowolnego poziomu, które już znasz.</p>",
+            "name": "Nauka dodatkowego zaklęcia"
+        },
+        "Learn Melee Weapon": {
+            "description": "<p>Naucz się posługiwać 1 bronią białą</p>",
+            "name": "Nauka broni białej"
+        },
+        "Learn Seer Spell": {
+            "description": "<p>Naucz się jednego dodatkowego zaklęcia Widzącego z dowolnego poziomu, które znasz.</p>",
+            "name": "Nauka zaklęcia Widzącego"
+        },
+        "Learn to Wield a Longbow": {
+            "name": "Nauka posługiwania się długim łukiem"
+        },
+        "Learn Witch Spell": {
+            "description": "<p>Naucz się dodatkowego zaklęcia Wiedźmy dowolnego poziomu, które możesz rzucić</p>",
+            "name": "Nauka zaklęcia Wiedźmy"
+        },
+        "Learn Wizard Spell": {
+            "description": "<p>Naucz się jednego dodatkowego zaklęcia Czarodzieja z dowolnego poziomu, które znasz.</p>",
+            "name": "Nauka zaklęcia Czarodzieja"
+        },
+        "Learning Spells": {
+            "description": "<p><strong>Nauka zaklęć.</strong> Możesz na stałe nauczyć się zaklęcia czarodziejskiego z zwoju zaklęć, studiując go przez jeden dzień i uzyskując pozytywny wynik testu [[check 15 int]].</p><p>Niezależnie od tego, czy test się powiedzie, czy nie, zwój zaklęć ulega zużyciu.</p><p>Zaklęcia nauczone w ten sposób nie wliczają się do liczby znanych ci zaklęć.</p>",
+            "name": "Nauka zaklęć"
+        },
+        "lodEOfzuI5jDWc4h": {
+            "name": "Premia do obrażeń z dystansu"
+        },
+        "LR6h4lXVXwx7AFQ6": {
+            "description": "<p>Otrzymujesz premię +1 do rzutów na atak i obrażenia przy użyciu broni białej.</p>",
+            "name": "Potężny",
+            "effects": {
+                "Mighty": {
+                    "name": "Potężny",
+                    "description": "<p>Otrzymujesz premię +1 do rzutów na atak i obrażenia przy użyciu broni białej.</p>"
+                }
+            }
+        },
+        "lSaJHBE00pEuwfOx": {
+            "name": "Podwyższenie wartości cech (Int)"
+        },
+        "Magic Missile Advantage": {
+            "description": "<p>Czarodzieje zawsze mają ułatwienie podczas rzucania zaklęcia Magiczny pocisk.</p>",
+            "name": "Ułatwienie Magicznego pocisku",
+            "effects": {
+                "Spellcasting Advantage on Spell": {
+                    "name": "Ułatwienie w rzucaniu zaklęć"
+                }
+            }
+        },
+        "Magic Resistance": {
+            "description": "<p>Wrogie zaklęcia, których celem jesteś ty, zawsze trudno jest rzucić</p><p>duplikat = ponowne rzucenie kością</p>",
+            "name": "Odporność na magię"
+        },
+        "Magical Dabbler": {
+            "description": "<p>Zwoje zaklęcia i różdżki można aktywować, wykorzystując Charyzmę jako cechę decydującą o rzucaniu zaklęć. W przypadku krytycznej porażki należy zrobić rzut na „wpadkę czarodzieja”.</p>",
+            "name": "Amator magii",
+            "effects": {
+                "Allow Magic Items": {
+                    "name": "Zezwól na magiczne przedmioty"
+                }
+            }
+        },
+        "Magical Dabbler Bonus": {
+            "name": "Premia amatora magii"
+        },
+        "Make a Random Magic Item": {
+            "description": "<p>Stwórz jeden losowy przedmiot magiczny. Zobacz kompendium <em>Przedmioty magiczne</em>.</p>",
+            "name": "Stwórz losowy magiczny przedmiot"
+        },
+        "Max 2 HP Rolls": {
+            "description": "<p>Zmaksymalizuj 2 rzuty na punkty wytrzymałości (poprzednie lub przyszłe)</p>",
+            "name": "Maksymalizacja 2 rzutów na PW"
+        },
+        "Morale Checks at DC 18": {
+            "description": "<p>Gdy wrogowie, którzy cię widzą, wykonują test morale, ST wynosi 18 zamiast 15</p>",
+            "name": "Testy morale przy ST 18"
+        },
+        "Mount": {
+            "description": "<p>Posiadasz zwykłego wielbłąda lub konia o spokojnym lub łagodnym usposobieniu (zob. str. 29). Zwierzę przychodzi na zawołanie i nigdy się nie płoszy. W danym momencie możesz posiadać tylko jednego takiego wierzchowca. </p><p>Podczas jazdy na wierzchowcu oboje otrzymujecie premię do KP równą połowie twojego poziomu (zaokrąglonej w dół). Twój wierzchowiec ma dodatkowe poziomy równe połowie twojego poziomu (w zaokrągleniu w dół). Raz na rundę możesz swobodnie wskakiwać na wierzchowca lub z niego zeskakiwać.</p><p>Jeśli stracisz wierzchowca, możesz wykorzystać czas wolny na zdobycie i wytrenowanie kolejnego. Aby nowe stworzenie stało się twoim wierzchowcem, musisz zdać test [[check 15 cha]]. Przy każdej kolejnej próbie obniżaj ST o jeden stopień.</p>",
+            "name": "Wierzchowiec"
+        },
+        "njtjaSNJ4WQCV7n5": {
+            "name": "Premia do rzutu na atak z dystansu"
+        },
+        "ODBe0yE8vkVOD2qZ": {
+            "name": "Premia do rzutu na atak z dystansu"
+        },
+        "oEZ9BldTmIl6AS31": {
+            "name": "Ułatwienie w rzucaniu zaklęć"
+        },
+        "Old Gods": {
+            "description": "<p>Każdego dnia twój cel pokrywa się z jednym ze Starych Bogów. Po zakończeniu odpoczynku wybierz jedną z poniższych opcji; korzyści z niej płynące będziesz czerpać do momentu zakończenia kolejnego odpoczynku.</p><ul><li><p><strong>Odyn. </strong>Za każdym razem, gdy zabijesz wroga, odzyskujesz 1k4 PW. </p></li><li><p><strong>Freya.</strong> Otrzymujesz token szczęścia, jeśli jeszcze go nie masz. Za każdym razem, gdy użyjesz tokenu szczęścia, dodaj 1k6 do swojego rzutu.</p></li><li><p><strong>Loki.</strong>Masz ułatwienie w testach na kłamstwo, skradanie się i ukrywanie się.</p></li></ul>",
+            "name": "Starzy bogowie"
+        },
+        "Omen": {
+            "description": "<p>@UUID[Compendium.shadowdark.class-abilities.Item.pRO1kFMnFkkcYOgC]</p><p>3 razy dziennie możesz wykonać test [[check 9 wis]]. W przypadku sukcesu otrzymujesz token szczęścia (nie możesz posiadać więcej niż jednego tokenu szczęścia jednocześnie).</p>",
+            "name": "Omen"
+        },
+        "OQQ5fxWh3zBw8W5O": {
+            "name": "Premia do rzutu na atak z dystansu"
+        },
+        "OU9XGvWpbh2ADVNy": {
+            "name": "Wprawa (Rzucanie zaklęć)"
+        },
+        "p0eEwLNQh9oSEtEj": {
+            "name": "Premia do rzutu na atak z dystansu"
+        },
+        "Paralyze a Target": {
+            "description": "<p>1 raz dziennie – paraliżujesz cel o poziomie 9 lub niższym, któremu zadałeś obrażenia bronią, na 1k4 rund.</p><p>@UUID[Compendium.shadowdark.class-abilities.Item.vndvnruyp9aZ3f5l]</p>",
+            "name": "Paraliżowanie celu"
+        },
+        "Patron": {
+            "description": "<p>Wybierz patrona, któremu będziesz służyć (zob. str. 17). Twój patron jest źródłem twoich nadprzyrodzonych darów. Jeśli twój patron będzie z ciebie niezadowolony, może wstrzymać udzielanie ci darów. W tym czasie tracisz wszelkie talenty przyznane ci w ramach „Korzyści patrona”.</p>",
+            "name": "Patron"
+        },
+        "Patron Boon": {
+            "description": "<p>Na 1. poziomie otrzymujesz losowy talent „Korzyść patrona” (zob. str. 18) w zależności od wybranego patrona.</p><p>Za każdym razem, gdy masz okazję rzucić kośćmi w celu uzyskania nowego talentu, możesz zdecydować się na rzut zgodnie z tabelą „Korzyść patrona” zamiast tabelą „Talenty czarnoksiężnika”.</p>",
+            "name": "Korzyść patrona"
+        },
+        "pBT8eBhcaKSnzbcq": {
+            "name": "Podwyższenie wartości cech (Cha)"
+        },
+        "Pd70qHF14hMBGKoj": {
+            "name": "Zaklęcia klasy"
+        },
+        "peAz8xVvIeZ6SLHd": {
+            "name": "Podwyższenie wartości cech (Sił)"
+        },
+        "Petrifying Gaze": {
+            "description": "<p>@UUID[Compendium.shadowdark.class-abilities.Item.Jkl9j4RZ2WYy0Gmd]</p><p>Jedno stworzenie o poziomie równym lub niższym od twojego, które wejdzie w kontakt wzrokowy z tobą, musi zdać test Kondycji o ST 15 lub zostanie skamienione na 1k4 rund. Podczas petrifikacji nadal otrzymuje obrażenia jak zwykle.</p><p>Możesz użyć tego talentu tyle razy dziennie, ile wynosi twój modyfikator Kondycji (minimum 1).</p>",
+            "name": "Petryfikujące spojrzenie"
+        },
+        "Poisons Training": {
+            "description": "<p>Masz wytrenowanie w posługiwaniu się truciznami (zob. str. 27)</p><p>duplikat = ponowne rzucenie kością</p>",
+            "name": "Szkolenie w użyciu trucizn"
+        },
+        "Presence": {
+            "description": "<p>Wykonaj test [[check 12 cha]], aby wywołać jeden z poniższych efektów. Jeśli test się nie powiedzie (z wyjątkiem skupienia), nie możesz ponownie skorzystać z tego efektu, dopóki nie odpoczniesz.</p><ul><li><p>@UUID[Compendium.shadowdark.class-abilities.Item.jg2sUC3nIAI8sT18] ST 12. Jeden cel w bliskim zasięgu otrzymuje token szczęścia.</p></li><li><p>@UUID[Compendium.shadowdark.class-abilities.Item.oCNpE6bnZjPIdOO1] (Skupienie). Hipnotyzujesz wszystkie wybrane cele o poziomie 4 lub niższym w bliskim zasięgu</p></li></ul>",
+            "name": "Prezencja"
+        },
+        "Prolific": {
+            "description": "<p>Dodaj 1k6 do swoich rzutów na naukę. Grupy, w których znajduje się co najmniej jeden bard, dodają 1k6 do swoich rzutów.</p>",
+            "name": "Wyborowy"
+        },
+        "QBX0EGnKmDfPJ8gQ": {
+            "name": "Premia do testu rzucania zaklęć"
+        },
+        "quYUUqTTAX3QlAGa": {
+            "description": "<p>Kiedy trzymasz broń do walki wręcz w każdej ręce, otrzymujesz +1 do KP.</p><p><em><strong>Uwaga:</strong> Pamiętaj, aby w razie potrzeby włączać i wyłączać <strong>aktywny efekt „+1 do KP przy walce dwoma broniami”</strong> w zakładce „Efekty” na karcie postaci.</em></p>",
+            "name": "+1 do KP przy walce dwoma broniami",
+            "effects": {
+                "+1 AC Dual Wield": {
+                    "name": "+1 do KP przy walce dwoma broniami"
+                }
+            }
+        },
+        "R6opds1dM2LQdca1": {
+            "name": "Podwyższenie wartości cech (Kon)"
+        },
+        "Read Mind of Creature": {
+            "description": "<p>1 raz dziennie, możesz czytać w myślach stworzenia, którego dotkniesz, przez 3 rundy</p><p>duplikat = +1 użycie dziennie</p>",
+            "name": "Czytanie umysłu stworzenia"
+        },
+        "Relentless": {
+            "description": "<p>3 razy dziennie, gdy twoje PW spadną do 0, wykonaj test [[check 18 con]] (do tego rzutu ma zastosowanie talent Nieugięty). W przypadku sukcesu twoje PW spadną zamiast tego do 1.</p><p>@UUID[Compendium.shadowdark.class-abilities.Item.z5uKTDf4wtkipQ4s]</p>",
+            "name": "Nieustępliwy"
+        },
+        "rG2EB3u5Q4eUDash": {
+            "name": "Podwyższenie wartości cech (Mdr)"
+        },
+        "Ride any Creature": {
+            "description": "<p>Jako wierzchowca możesz wykorzystać dowolne stworzenie zdolne do jazdy.</p>",
+            "name": "Jazda na dowolnym stworzeniu"
+        },
+        "rqplFhIShnvmV0U4": {
+            "name": "Tragarz"
+        },
+        "Seafarer": {
+            "description": "<p>Masz ułatwienie w testach związanych z nawigacją i obsługą łodzi.</p>",
+            "name": "Marynarz"
+        },
+        "Shield Wall": {
+            "description": "<p>Jeśli posługujesz się tarczą, możesz wykorzystać swoją akcję, aby przyjąć postawę obronną. W tym czasie twoja KP wynosi 20.</p>",
+            "name": "Ściana z tarczy"
+        },
+        "Sleep a Creature": {
+            "description": "<p>1 raz dziennie, wybierz żywe stworzenie o poziomie 5 lub niższym, które widzisz w bliskim zasięgu; musi ono zdać test [[check 15 con]] albo zaśnie.</p><p>@UUID[Compendium.shadowdark.class-abilities.Item.i0IHFrEbhd0MOvkQ]</p>",
+            "name": "Usypianie stworzenia"
+        },
+        "Slime Form": {
+            "description": "<p>1/dzień, zamienia się w pełzającą kałużę szlamu na 3 rundy</p><p>duplikat = +1 użycie dziennie</p>",
+            "name": "Postać śluzu"
+        },
+        "Smoke Step": {
+            "description": "<p>3 razy dziennie – teleportuj się do miejsca, które widzisz blisko siebie. Nie zużywa to twojej akcji.</p><p>@UUID[Compendium.shadowdark.class-abilities.Item.yDByoMchtApfpKcS]</p>",
+            "name": "Dymny krok"
+        },
+        "Spellcasting (Knight of St. Ydris)": {
+            "description": "<p>Możesz rzucać znane ci zaklęcia wiedźmy.</p><p>Za każdym razem, gdy awansujesz o jeden poziom, wybierasz nowe zaklęcia wiedźmy do nauki zgodnie z tabelą „Znane zaklęcia wiedźmy”.</p><p>Do rzucania zaklęć wiedźmy wykorzystujesz swoją cechę Charyzmy. ST wynosi 10 + poziom zaklęcia.</p><p>Jeśli nie uda ci się test rzucania zaklęcia, nie możesz ponownie rzucić tego zaklęcia, dopóki nie zakończysz odpoczynku.</p><p>Jeśli wyrzucisz naturalną 1 podczas testu rzucania zaklęcia, musisz również przeprowadzić rzut zgodnie z odpowiednią tabelą „Diaboliczne wpadki” (patrz str. 22) dla poziomu zaklęcia</p>",
+            "name": "Rzucanie zaklęć (Rycerz św. Ydrisa)",
+            "effects": {
+                "Spell Class": {
+                    "name": "Zaklęcia klasy"
+                }
+            }
+        },
+        "Spellcasting (Priest)": {
+            "description": "<p><strong>Rzucanie zaklęć.</strong> Możesz rzucać znane ci zaklęcia kapłańskie.</p><p>Znasz dwa dowolne zaklęcia poziomu 1 z listy zaklęć kapłańskich na str. 57.</p><p>Za każdym razem, gdy osiągasz kolejny poziom, wybierasz nowe zaklęcia kapłańskie do nauki zgodnie z tabelą „Znane zaklęcia kapłańskie”.</p><p>Informacje na temat rzucania zaklęć kapłańskich znajdziesz w sekcji „Rzucanie zaklęć” na str. 52.</p>",
+            "name": "Rzucanie zaklęć (Kapłan)",
+            "effects": {
+                "Spell Class": {
+                    "name": "Zaklęcia klasy"
+                }
+            }
+        },
+        "Spellcasting (Seer)": {
+            "description": "<p>Możesz rzucać znane ci zaklęcia widzącego. Znasz jedno wybrane przez siebie zaklęcie poziomu 1 z listy zaklęć widzącego (patrz str. 30).</p><p>Za każdym razem, gdy osiągasz nowy poziom, wybierasz nowe zaklęcie widzącego do nauczenia się zgodnie z tabelą „Znane zaklęcia widzącego”. </p><p>Do rzucania zaklęć widzącego używasz swojej cechy Mądrości. ST wynosi 10 + poziom zaklęcia.</p><p>Jeśli nie uda ci się test rzucania zaklęć, nie możesz ponownie rzucić tego zaklęcia, dopóki nie zakończysz odpoczynku. Jeśli wykonasz rzut na naturalną 1 podczas testu rzucania zaklęć, nie możesz ponownie rzucić tego zaklęcia, dopóki nie wykonasz pokuty widzącego. </p><p><strong>Pokuta widzącego</strong></p><p>Poziom zaklęcia 1: Tymczasowo rezygnujesz z 1k4 PW (minimum pozostaje na poziomie 1 PW); PW powracają po tygodniu. </p><p>Poziom zaklęcia 2: Tymczasowo obniż swoją cechę Mądrości o 2 punkty; powraca ona po dwóch tygodniach.</p><p>Poziom zaklęcia 3: Poświęć 1 punkt Charyzmy; nigdy nie powraca.</p><p>Poziom zaklęcia 4: W rytualny sposób zatop w morzu płonącą łódź długą.</p><p>Poziom zaklęcia 5: W rytualny sposób poświęć 9 ludzkich istnień.</p>",
+            "name": "Rzucanie zaklęć (Widzący)",
+            "effects": {
+                "Spell Class": {
+                    "name": "Zaklęcia klasy"
+                }
+            }
+        },
+        "Spellcasting (Witch)": {
+            "description": "<p>Możesz rzucać znane ci zaklęcia wiedźmy.</p><p>Znasz trzy dowolne zaklęcia poziomu 1 z listy zaklęć wiedźmy (zob. str. 24). </p><p>Za każdym razem, gdy awansujesz o jeden poziom, wybierasz nowe zaklęcia wiedźmy do nauki zgodnie z tabelą „Znane zaklęcia wiedźmy”.</p><p>Do rzucania zaklęć wiedźmy wykorzystujesz swoją cechę Charyzmy. ST wynosi 10 + poziom zaklęcia.</p><p>Jeśli nie uda ci się test rzucania zaklęcia, nie możesz ponownie rzucić tego zaklęcia, dopóki nie zakończysz odpoczynku.</p><p>Jeśli wyrzucisz naturalną 1 podczas testu rzucania zaklęcia, musisz również przeprowadzić rzut zgodnie z odpowiednią tabelą „Diaboliczne wpadki” dla poziomu zaklęcia (patrz str. 22)</p>",
+            "name": "Rzucanie zaklęć (Wiedźma)",
+            "effects": {
+                "Spell Class": {
+                    "name": "Zaklęcia klasy"
+                }
+            }
+        },
+        "Spellcasting (Wizard)": {
+            "description": "<p><strong>Rzucanie zaklęć.</strong> Możesz rzucać znane ci zaklęcia czarodzieja.</p><p>Znasz trzy dowolne zaklęcia poziomu 1 z listy zaklęć czarodzieja (patrz str. 57).</p><p>Za każdym razem, gdy awansujesz o jeden poziom, wybierasz nowe zaklęcia czarodzieja do nauki zgodnie z tabelą „Znane zaklęcia czarodzieja”.</p><p>Informacje na temat rzucania zaklęć czarodzieja znajdziesz w sekcji „Rzucanie zaklęć” na str. 52.</p>",
+            "name": "Rzucanie zaklęć (Czarodziej)",
+            "effects": {
+                "Spell Class": {
+                    "name": "Zaklęcia klasy"
+                }
+            }
+        },
+        "Spellcasting Advantage": {
+            "description": "<p>Zyskaj ułatwienie przy rzucaniu jednego znanego ci zaklęcia.</p>",
+            "name": "Ułatwienie w rzucaniu zaklęć",
+            "effects": {
+                "Spellcasting Advantage on Spell": {
+                    "name": "Ułatwienie w rzucaniu zaklęć"
+                }
+            }
+        },
+        "Stealthy": {
+            "description": "<p>Raz na dzień możesz stać się niewidzialny na 3 rundy.</p><p>@UUID[Compendium.shadowdark.conditions.Item.piycdXLudXTFLG0k]</p>",
+            "name": "Niezauważalny"
+        },
+        "Stone Skin": {
+            "description": "<p>Jeśli nie nosisz zbroi, dodaj do swojej KP wartość równą 2 plus połowę twojego poziomu (zaokrągloną w dół).</p><p>Masz ułatwienie przy testach na ukrycie się w środowisku naturalnym.</p>",
+            "name": "Kamienna skóra",
+            "effects": {
+                "Stone Skin Talent": {
+                    "name": "Talent Kamienna Skóra"
+                },
+                "Stone Skin Advantage on Hide": {
+                    "name": "Ułatwienie w ukryciu z Kamiennej skóry",
+                    "description": "<p>Masz ułatwienie podczas testów na ukrycie się w środowisku naturalnym.</p>"
+                }
+            }
+        },
+        "Stone Skin Advantage on Hide": {
+            "name": "Ułatwienie w ukryciu z Kamiennej skóry"
+        },
+        "Stone Skin Talent": {
+            "name": "Talent Kamienna Skóra"
+        },
+        "Stout": {
+            "description": "<p>Zaczynasz z +2 do PW. Rzuć kostką, aby ustalić punkty wytrzymałości, korzystając z ułatwienia.</p>",
+            "name": "Hardy",
+            "effects": {
+                "Extra HP Max": {
+                    "name": "Dodatkowe maksymalne PW"
+                },
+                "HP Roll Advantage": {
+                    "name": "Ułatwienie rzutu na PW"
+                }
+            }
+        },
+        "Teleport": {
+            "description": "<p>1 raz dziennie, teleportacja do odległego miejsca, które widzisz podczas ruchu.</p><p>duplikacja = +1 użycie dziennie</p>",
+            "name": "Teleportacja"
+        },
+        "Teleport to Familiar": {
+            "description": "<p>1 raz dziennie, teleportacja do lokalizacji chowańca jako ruch</p><p>duplikacja = +1 użycie dziennie</p><p><strong>Zdolność klasy:</strong> @UUID[Compendium.shadowdark.class-abilities.Item.cXyvO6H22jfOxcz4]</p>",
+            "name": "Teleportacja do chowańca",
+            "effects": {
+                "Initiative Advantage": {
+                    "name": "Ułatwienie rzutu na inicjatywę"
+                }
+            }
+        },
+        "TiaXUSTLoJpjfyxD": {
+            "description": "<p>Posiadasz biegłość w sztuce kradzieży i masz przy sobie niezbędne narzędzia rzemiosła (nie zajmują one żadnych miejsc w ekwipunku).</p><p>Jesteś wytrenowany w wykonywaniu następujących czynności i masz ułatwienie przy wszystkich związanych z nimi testach:</p><ul><li><p>Wspinaczka</p></li><li><p>Skradanie się i ukrywanie</p></li><li><p>Stosowanie przebrań</p></li><li><p>Wykrywanie i rozbrajanie pułapek</p></li><li><p>Delikatne czynności, takie jak kradzież kieszonkowa i otwieranie zamków</p></li></ul>",
+            "name": "Złodziejstwo",
+            "effects": {
+                "Thievery": {
+                    "name": "Złodziejstwo",
+                    "description": "<p>Zostałeś wytrenowany w zakresie następujących zadań i masz ułatwienie przy wykonywaniu wszelkich związanych z nimi testów: wspinaczka, skradanie się i ukrywanie, stosowanie przebrań, wykrywanie i unieszkodliwianie pułapek oraz delikatne czynności, takie jak kradzież kieszonkowa i otwieranie zamków.</p>"
+                }
+            }
+        },
+        "Trained Assassin": {
+            "description": "<p>Masz ułatwienie podczas testów na skradanie się i ukrywanie. Twoje ataki zadają podwójne obrażenia celom, które nie są świadome twojej obecności.</p>",
+            "name": "Wytrenowany zabójca"
+        },
+        "Triple Damage Assassin": {
+            "description": "<p>Dzięki talentowi „Wytrenowany zabójca” zadajesz potrójne obrażenia.</p>",
+            "name": "Potrójne obrażenia zabójcy"
+        },
+        "Turn Undead": {
+            "description": "<p>Znasz zaklęcie „Odpędzanie nieumarłych”. Nie wlicza się ono do liczby znanych ci zaklęć.</p>",
+            "name": "Odpędzanie nieumarłych"
+        },
+        "uiRL8aHCDWjd3e8w": {
+            "name": "Ułatwienie przeciwko przeciwnym siłom"
+        },
+        "Upgrade Destined Die": {
+            "description": "<p>Podnieś o jeden poziom kategorię kości swojego talentu „Przeznaczenie”.</p>",
+            "name": "Ulepszenie kostki przeznaczenia",
+            "effects": {
+                "Destine Die Upgrade": {
+                    "name": "Zwiększenie kostki przeznaczenia"
+                }
+            }
+        },
+        "UVsf7VJCOrBm42Yz": {
+            "description": "<p>Zyskaj ułatwienie przy rzutach na inicjatywę (w razie duplikatu powtórz rzut)</p>",
+            "name": "Ułatwienie rzutu na inicjatywę",
+            "effects": {
+                "Initiative Advantage": {
+                    "name": "Ułatwienie rzutu na inicjatywę"
+                }
+            }
+        },
+        "V7hLOyXMBijj06wB": {
+            "name": "Premia do obrażeń z dystansu"
+        },
+        "Walk on Sheer Surfaces": {
+            "description": "<p>1 raz dziennie możesz poruszać się po pionowych powierzchniach, takich jak ściany, przez 1k4 rundy.</p><p>@UUID[Compendium.shadowdark.class-abilities.Item.1hc2HGy3pZ89jvGM]</p>",
+            "name": "Chodzenie po stromych powierzchniach"
+        },
+        "Walk on Water": {
+            "description": "<p>1 raz dziennie możesz chodzić po wodzie tak, jakby była stała, przez 1k4 rundy.</p><p>@UUID[Compendium.shadowdark.class-abilities.Item.xwE0DGzMTxMQWqRj]</p>",
+            "name": "Chodzenie po wodzie"
+        },
+        "Wayfinder": {
+            "description": "<p>Masz ułatwienie w testach związanych z:</p><ul><li><p>Nawigacja</p></li><li><p>Śledzenie</p></li><li><p>Umiejętności przetrwania w dziczy</p></li><li><p>Ukrycie</p></li><li><p>Dzikie zwierzęta</p></li></ul>",
+            "name": "Tropiciel"
+        },
+        "Weapon Attack Damage Bonus": {
+            "name": "Premia do obrażeń zadawanych bronią"
+        },
+        "Weapon Attack Roll Bonus": {
+            "name": "Premia do rzutu na atak bronią"
+        },
+        "wryUreqZgIx22crJ": {
+            "name": "Premia do obrażeń w walce wręcz"
+        },
+        "y00ihJhSPjoGVmKZ": {
+            "name": "Premia do rzutu na atak wręcz"
+        },
+        "z7bM0dO1y64K6091": {
+            "name": "Zaklęcia klasy"
+        },
+        "zi1nJjmtxnx0lJaZ": {
+            "name": "Zaklęcia klasy"
+        },
+        "ZjpQVS9L1baZZ2PF": {
+            "name": "Ułatwienie w rzucaniu zaklęć"
+        },
+        "ZTDD2HwlrjLbEIQp": {
+            "name": "Premia do rzutu na atak wręcz"
+        }
+    },
+    "folders": {
+        "Ancestry": "Pochodzenie",
+        "Class": "Klasa",
+        "Level": "Poziom",
+        "Patron Boon": "Korzyść patrona"
+    }
+}
