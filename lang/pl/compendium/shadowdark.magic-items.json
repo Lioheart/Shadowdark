@@ -1,0 +1,1326 @@
+{
+    "label": "Magiczne przedmioty",
+    "mapping": {
+        "description": "system.description",
+        "effects": {
+            "path": "effects",
+            "converter": "document",
+            "documentType": "ActiveEffect",
+            "cardinality": "many",
+            "mapping": {
+                "name": "name",
+                "description": "description"
+            }
+        },
+        "name": "name",
+        "system.identification.name": "system.identification.name"
+    },
+    "entries": {
+        "07RIJ800mgt95fNl": {
+            "name": "Stała cecha (Cha)"
+        },
+        "12wqYPS5nYdD0srs": {
+            "name": "Podwójne obrażenia przeciwko gigantom"
+        },
+        "1WtVBmSCkzVeEdL7": {
+            "name": "Premia do obrażeń zadawanych bronią"
+        },
+        "2iAdf3ZD4FdzPonT": {
+            "name": "Stała cecha (Zrc)"
+        },
+        "2O1rrQbpFSYKLiI8": {
+            "name": "Ułatwienie w rzucaniu zaklęć"
+        },
+        "2QCEx24N0mtaaRR7": {
+            "name": "Premia do obrażeń zadawanych bronią"
+        },
+        "3uu1cZFg4jJ9uOBU": {
+            "name": "Premia do rzutu na atak bronią"
+        },
+        "4JjKaawthhmI2NLb": {
+            "name": "Premia do rzutu na atak bronią"
+        },
+        "4QneUXW9pG2CMpKS": {
+            "name": "Premia do rzutu ataku"
+        },
+        "5k96o8ZHd5spUP9K": {
+            "name": "Premia do obrażeń zadawanych bronią"
+        },
+        "78SoFRRmEjEMdPIT": {
+            "name": "Premia do obrażeń ataku"
+        },
+        "8DPxbb4aUGGtrGlG": {
+            "name": "Premia do rzutu na atak bronią"
+        },
+        "94JaF8oYeiAAWASd": {
+            "name": "Stała cecha (Int)"
+        },
+        "97RtiQtpwhaO7qNb": {
+            "name": "Premia do obrażeń zadawanych bronią"
+        },
+        "9qMTrleWtCMKO3Xl": {
+            "name": "Premia do rzutu ataku"
+        },
+        "9ScRP2bW6K4ljUpQ": {
+            "name": "Premia do obrażeń zadawanych bronią"
+        },
+        "A3cEweAbyqxNxdzl": {
+            "name": "Premia do rzutu ataku"
+        },
+        "Additional Gear Slots": {
+            "name": "Dodatkowe miejsca na wyposażenie"
+        },
+        "Advantage on attacks vs Undead": {
+            "name": "Ułatwienie w atakach przeciwko nieumarłym"
+        },
+        "Advantage vs Poison": {
+            "name": "Ułatwienie przeciwko zatruciu"
+        },
+        "Advantage vs Unnatural Creatures & Outsiders": {
+            "name": "Ułatwienie przeciwko nienaturalnym stworzeniom i przybyszom"
+        },
+        "Alabaster Destrier": {
+            "description": "<p><em>Gładka, perłowa figurka przedstawiająca biegnącego konia.</em></p><p></p><p><strong>Korzyść. </strong> Raz na dzień posiadacz może wypowiedzieć słowo polecenia, aby przemienić statuetkę w @UUID[Compendium.shadowdark.monsters.Actor.5Tp7B3qOMEAdMkJ8]{pegaza}, który przyjmuje jeźdźców o charakterze neutralnym lub praworządnym. Statuetka pozostaje w tej postaci przez 1 godzinę.</p>",
+            "name": "Alabastrowy rumak"
+        },
+        "Amulet of Secrecy": {
+            "description": "<p><em>Ciężki, płaski wisiorek z wyrzeźbionym okiem z powieką.</em></p><p><strong>Korzyść.</strong> Nosząc ten amulet, nie możesz zostać wykryty przez magię wróżbiarską, taką jak zaklęcie wróżenia czy kryształowa kula.</p><p><strong>Klątwa.</strong> Nieustannie odczuwasz, że ktoś cię obserwuje.</p>",
+            "name": "Amulet tajemnicy"
+        },
+        "Amulet of Vitality": {
+            "description": "<p><em>Złoty amulet z czerwonym rubinem w kształcie łezki pośrodku.</em></p><p><strong>Korzyść.</strong> Podczas noszenia tego amuletu twoja wartość Kondycji wynosi 18 (+4).</p>",
+            "name": "Amulet witalności",
+            "effects": {
+                "Permanent Ability (Con)": {
+                    "name": "Stała cecha (Kon)",
+                    "description": "Stała cecha (Kon)"
+                }
+            }
+        },
+        "apF91F2anJCrmkSm": {
+            "name": "Premia do rzutu na atak bronią"
+        },
+        "Armor of Saint Terragnis": {
+            "description": "<p><em>Złota zbroja płytowa, od stóp do głów pokryta rzeźbami aniołów-wojowników.</em></p><p><strong>Premia. </strong> Zbroja płytowa +3. Tylko praworządny wyznawca świętej Terragnisa może nosić tę zbroję. </p><p><strong>Korzyść.</strong> Rzucanie wrogich zaklęć skierowanych przeciwko tobie wymaga uzyskania wyniku ST 18. Raz w miesiącu możesz przywołać Awatara Świętej Terragnisa (traktuj go jako @UUID[Compendium.shadowdark.monsters.Actor.GzjB5DsORxRuX2MV]{archanioł}), który będzie walczył u twojego boku przez 10 rund.</p>",
+            "name": "Pancerz świętej Terragnisa"
+        },
+        "Armor of the Oni": {
+            "description": "<p><em>Czarna zbroja płytowa z lakierowanych paneli z drewna żelaznego. Wizjer hełmu przedstawia twarz warczącego oni.</em></p><p><strong>Premia.</strong> Zbroja płytowa +1. </p><p><strong>Korzyść.</strong> Potrafisz mówić i rozumieć język Diaboliczny. Twoje ataki bronią białą zadają +1 do obrażeń.</p><p><strong>Klątwa.</strong> Masz utrudnienie przy atakach i rzutach na rzucanie zaklęć przeciwko demonom.</p>",
+            "name": "Pancerz Oni",
+            "effects": {
+                "Speak & Understand Diabolic": {
+                    "name": "Mówienie i rozumienie Diabolicznego",
+                    "description": "Mówienie i rozumienie Diabolicznego"
+                },
+                "Melee Damage Bonus": {
+                    "name": "Premia do obrażeń w walce wręcz",
+                    "description": "Premia do obrażeń w walce wręcz"
+                },
+                "Disadvantage on Attacks & Spellcasting vs Demons": {
+                    "name": "Utrudnienia w atakowaniu i rzucaniu zaklęć przeciwko demonom",
+                    "description": "Utrudnienia w atakowaniu i rzucaniu zaklęć przeciwko demonom"
+                },
+                "Melee Attack Roll Bonus": {
+                    "name": "Premia do rzutu na atak wręcz",
+                    "description": "Premia do rzutu na atak wręcz"
+                }
+            }
+        },
+        "Asterion": {
+            "description": "<p><strong>Korzyść</strong>. Żadne stworzenie nie może przesunąć osoby dzierżącej tę broń wbrew jej woli.</p>",
+            "name": "Asterion",
+            "effects": {
+                "Weapon Attack Roll Bonus": {
+                    "name": "Premia do rzutu na atak bronią",
+                    "description": "Premia do rzutu na atak bronią"
+                },
+                "Weapon Attack Damage Bonus": {
+                    "name": "Premia do obrażeń zadawanych bronią",
+                    "description": "Premia do obrażeń zadawanych bronią"
+                },
+                "Attack Damage Bonus": {
+                    "name": "Premia do obrażeń ataku",
+                    "description": "Premia do obrażeń ataku"
+                },
+                "Attack Roll Bonus": {
+                    "name": "Premia do rzutu ataku",
+                    "description": "Premia do rzutu ataku"
+                }
+            }
+        },
+        "Bag of Badgers": {
+            "description": "<p><em>Szary, postrzępiony worek pokryty białym, szorstkim futrem.</em></p><p><strong>Korzyść.</strong> Raz na dzień możesz sięgnąć do wnętrza worka i wyciągnąć rozgniewanego @UUID[Compendium.shadowdark.monsters.Actor.VM65vWCNjlx5tKTP]{borsuka}. Możesz rzucić borsuka na bliską odległość. Borsuk atakuje najbliższe stworzenie przez 3 rundy, po czym odchodzi kołysząc się.</p>",
+            "name": "Torba borsuków"
+        },
+        "Bag of Devouring": {
+            "description": "<p><em>Zniszczona, skórzana torba z ciasnymi sznurkami.</em></p><p><strong>Klątwa.</strong> Ta torba pochłania i niszczy wszystko, co zostanie do niej włożone, w ciągu 1k6 rund.</p>",
+            "name": "Torba pożeracza"
+        },
+        "Bag of Holding": {
+            "description": "<p><em>Zużyta, skórzana torba z ciasno zawiązanymi sznurkami.</em></p><p><strong>Korzyść</strong>. Torba ta posiada wewnątrz międzywymiarową przestrzeń, która może pomieścić do 10 miejsc na ekwipunek.</p><p><strong>Klątwa</strong>. Umieszczenie tego przedmiotu w innej <em>Torbie przechowywania</em> lub <em>Przenośnej dziurze</em> powoduje zniszczenie obu przedmiotów oraz wszystkiego, co się w nich znajduje. </p>",
+            "name": "Torba przechowywania",
+            "effects": {
+                "Additional Gear Slots": {
+                    "name": "Dodatkowe miejsca na wyposażenie",
+                    "description": "Dodatkowe miejsca na wyposażenie"
+                }
+            }
+        },
+        "Bead of Force": {
+            "description": "<p><em>Kulka z niebieskim pierścieniem światła, delikatnie świecącym w jej wnętrzu.</em></p><p><strong>Korzyść.</strong> Możesz rzucić tą kulką w jeden cel znajdujący się w bliskiej odległości. Jeśli trafisz, cel zostanie objęty działaniem zaklęcia @UUID[Compendium.shadowdark.spells.Item.B091clRxdPW3SQ4G] (str. 69).</p>",
+            "name": "Koralik mocy"
+        },
+        "Blade of Vengeance": {
+            "description": "<p><em>Szare ostrze z rubinem o szlifie diamentowym w głowicy. Przy każdym cięciu wydaje ostry świst.</em></p><p><strong>Premia. </strong> Miecz półtoraręczny +2. Nie mogą nim władać nieumarli. </p><p><strong>Korzyść.</strong> Używając tego miecza, masz ułatwienie w atakach na nieumarłe stworzenia. Możesz użyć miecza do rzucenia zaklęcia @UUID[Compendium.shadowdark.spells.Item.mByUvcHIVEPWscfH]{odpędzenie nieumarłych} raz na dzień (+4 premii). </p><p><strong>Osobowość.</strong> Praworządny. Ponury, podejrzliwy. Wykuty jako zabezpieczenie na wypadek, gdyby Władcy Czarów ulegli ciemności, co faktycznie miało miejsce. Domaga się ich zgładzenia.</p>",
+            "name": "Ostrze zemsty",
+            "effects": {
+                "Weapon Attack Roll Bonus": {
+                    "name": "Premia do rzutu na atak bronią",
+                    "description": "Premia do rzutu na atak bronią"
+                },
+                "Weapon Attack Damage Bonus": {
+                    "name": "Premia do obrażeń zadawanych bronią",
+                    "description": "Premia do obrażeń zadawanych bronią"
+                },
+                "Advantage on attacks vs Undead": {
+                    "name": "Ułatwienie w atakach przeciwko nieumarłym",
+                    "description": "Ułatwienie w atakach przeciwko nieumarłym"
+                },
+                "MosrS1dHHXThJ96N": {
+                    "name": "Premia do rzutu na atak bronią",
+                    "description": "Premia do rzutu na atak bronią"
+                }
+            }
+        },
+        "Bloodlust": {
+            "name": "Żądza krwi",
+            "effects": {
+                "Critical Multiplier": {
+                    "name": "Mnożnik krytyczny",
+                    "description": "Mnożnik krytyczny"
+                },
+                "Weapon Attack Roll Bonus": {
+                    "name": "Premia do rzutu na atak bronią",
+                    "description": "Premia do rzutu na atak bronią"
+                },
+                "Weapon Attack Damage Bonus": {
+                    "name": "Premia do obrażeń zadawanych bronią",
+                    "description": "Premia do obrażeń zadawanych bronią"
+                },
+                "Attack Roll Bonus": {
+                    "name": "Premia do rzutu ataku",
+                    "description": "Premia do rzutu ataku"
+                },
+                "Attack Damage Bonus": {
+                    "name": "Premia do obrażeń ataku",
+                    "description": "Premia do obrażeń ataku"
+                }
+            }
+        },
+        "Bonus to Control Water": {
+            "name": "Premia do kontroli wody"
+        },
+        "Boots of Dancing": {
+            "description": "<p><em>Eleganckie, miękkie buty z owczej skóry.</em></p><p><strong>Klątwa.</strong> Gdy tylko założysz te buty, zaczynasz niekontrolowanie podskakiwać i tańczyć. W każdej turze poruszasz się losowo i musisz zdać test [[request 15 dex]], aby zdjąć buty.</p>",
+            "name": "Buty tańca"
+        },
+        "Boots of Hovering": {
+            "description": "<p><em>Brązowe, solidne buty wypolerowane na wysoki połysk. Na obcasach widnieją małe, srebrne skrzydełka.</em></p><p><strong>Korzyść.</strong> Możesz poruszać się po niematerialnej powierzchni przez 1 turę. Jeśli zakończysz swoją turę na takiej powierzchni, spadniesz.</p>",
+            "name": "Buty unoszenia"
+        },
+        "Boots of the Cat": {
+            "description": "<p><em>Szare, zamszowe buty, cienkie i miękkie jak kapcie.</em></p><p><strong>Korzyść</strong>. Możesz skoczyć na bliską odległość z miejsca. Twoje próby cichego poruszania się są zawsze łatwe (ST 9).</p>",
+            "name": "Buty kota"
+        },
+        "BR7oklaQANiLMTwW": {
+            "name": "Ułatwienie w rzucaniu zaklęć"
+        },
+        "Bracers of Archery": {
+            "description": "<p><em>Skórzane karwasze z wytłoczonymi wizerunkami szybujących jastrzębi.</em></p><p><strong>Korzyść.</strong> Zadajesz o +1 więcej obrażeń bronią dystansową.</p>",
+            "name": "Karwasze łucznictwa",
+            "effects": {
+                "Ranged Damage Bonus": {
+                    "name": "Premia do obrażeń z dystansu",
+                    "description": "Premia do obrażeń z dystansu"
+                },
+                "yrS7j3rhCRynCLL6": {
+                    "name": "Premia do obrażeń z dystansu",
+                    "description": "Premia do obrażeń z dystansu"
+                }
+            }
+        },
+        "Bracers of Defense": {
+            "description": "<p><em>Stalowe karwasze pokryte krasnoludzkimi runami ochronnymi.</em></p><p><strong>Korzyść</strong>. Otrzymujesz premię +1 do klasy pancerza.</p>",
+            "name": "Karwasze obrony",
+            "effects": {
+                "AC Bonus": {
+                    "name": "Premia KP",
+                    "description": "Premia KP"
+                }
+            }
+        },
+        "Brak's Book of Misspells": {
+            "description": "<p><em>Tom oprawiony w skórę szczura, na którym widnieje postrzępiona, świecąca runa.</em></p><p><strong>Klątwa. </strong> Ta księga zaklęć zawiera po jednym zwoju każdego z następujących zaklęć: @UUID[Compendium.shadowdark.spells.Item.16XuBF2xjUnoepyp] (str. 54), @UUID[Compendium.shadowdark.spells.Item.j2gvzfnMGQwxqgGg] (str. 60) oraz @UUID[Compendium.shadowdark.spells.Item.n1I5OLR6M2e0jLbi] (str. 71). Gdy czarodziej próbuje rzucić lub nauczyć się zaklęcia z tych zwojów, w przypadku powodzenia zaklęcie trafia w rzucającego. </p>",
+            "name": "Księga Błędów Braka"
+        },
+        "Brak's Cube of Perfection": {
+            "description": "<p><em>Malutka kostka z obrazkami goblinów na każdej ściance, z których każdy przedstawia transcendencję w jakiejś cechie fizycznej lub umysłowej.</em></p><p><strong>Korzyść</strong>. Rzuć kostką, wykonując rzut [[/r d6]]. Odpowiednia cecha postaci trwale wzrasta do 18 (+4). </p><ol><li><p>@UUID[Compendium.world.magic-items.ZhykyK0shgnyC4Fh]{Siła}</p></li><li><p>@UUID[Compendium.world.magic-items.lUuyDaiDHJbDg82j]{Zręczność}</p></li><li><p>@UUID[Compendium.world.magic-items.7pECwim9a2CVzFLy]{Kondycja}</p></li><li><p> @UUID[Compendium.world.magic-items.K7PJLC0GUhtQ7aX2]{Inteligencja}</p></li><li><p>@UUID[Compendium.world.magic-items.wrtcUfAY6yXwSqLY]{Mądrość}</p></li><li>@UUID[Compendium.world.magic-items.0Ws5acsixawAITFi]{Charyzma}</li></ol><p>Po rzucie kostką <em>Kostka Doskonałości Braka</em> teleportuje się do losowej lokalizacji w wieloświecie. </p>",
+            "name": "Kostka Doskonałości Braka",
+            "effects": {
+                "Permanent Ability (Cha)": {
+                    "name": "Stała cecha (Cha)",
+                    "description": "Stała cecha (Cha)"
+                }
+            }
+        },
+        "Brak's Cube of Perfection (Cha)": {
+            "description": "<p><em>Malutka kostka z obrazkami goblinów na każdej ściance, z których każdy przedstawia transcendencję cechy fizycznej lub umysłowej.</em></p><p><strong>Korzyść</strong>. Wykonaj rzut kostką, wykonując rzut [[/r d6]]. Odpowiednia cecha postaci trwale wzrasta do 18 (+4). 1. Siła. 2. Zręczność. 3. Kondycja. 4. Inteligencja. 5. Mądrość. 6. Charyzma.</p><p>Po rzucie <em>Kostka Doskonałości Braka</em> teleportuje się do losowej lokalizacji w wieloświecie.</p>",
+            "name": "Kostka Doskonałości Braka (Cha)",
+            "effects": {
+                "permanentAbility": {
+                    "name": "Stała cecha",
+                    "description": "Stała cecha"
+                }
+            }
+        },
+        "Brak's Cube of Perfection (Con)": {
+            "description": "<p><em>Malutka kostka z obrazkami goblinów na każdej ściance, z których każdy przedstawia transcendencję cechy fizycznej lub umysłowej.</em></p><p><strong>Korzyść</strong>. Wykonaj rzut kostką, wykonując rzut [[/r d6]]. Odpowiednia cecha postaci trwale wzrasta do 18 (+4). 1. Siła. 2. Zręczność. 3. Kondycja. 4. Inteligencja. 5. Mądrość. 6. Charyzma.</p><p>Po rzucie <em>Kostka Doskonałości Braka</em> teleportuje się do losowej lokalizacji w wieloświecie.</p>",
+            "name": "Kostka Doskonałości Braka (Kon)",
+            "effects": {
+                "Permanent Ability (Con)": {
+                    "name": "Stała cecha (Kon)",
+                    "description": "Stała cecha (Kon)"
+                }
+            }
+        },
+        "Brak's Cube of Perfection (Dex)": {
+            "description": "<p><em>Malutka kostka z obrazkami goblinów na każdej ściance, z których każdy przedstawia transcendencję cechy fizycznej lub umysłowej.</em></p><p><strong>Korzyść</strong>. Wykonaj rzut kostką, wykonując rzut [[/r d6]]. Odpowiednia cecha postaci trwale wzrasta do 18 (+4). 1. Siła. 2. Zręczność. 3. Kondycja. 4. Inteligencja. 5. Mądrość. 6. Charyzma.</p><p>Po rzucie <em>Kostka Doskonałości Braka</em> teleportuje się do losowej lokalizacji w wieloświecie.</p>",
+            "name": "Kostka Doskonałości Braka (Zrc)",
+            "effects": {
+                "Permanent Ability (Dex)": {
+                    "name": "Stała cecha (Zrc)",
+                    "description": "Stała cecha (Zrc)"
+                }
+            }
+        },
+        "Brak's Cube of Perfection (Int)": {
+            "description": "<p><em>Malutka kostka z obrazkami goblinów na każdej ściance, z których każdy przedstawia transcendencję cechy fizycznej lub umysłowej.</em></p><p><strong>Korzyść</strong>. Wykonaj rzut kostką, wykonując rzut [[/r d6]]. Odpowiednia cecha postaci trwale wzrasta do 18 (+4). 1. Siła. 2. Zręczność. 3. Kondycja. 4. Inteligencja. 5. Mądrość. 6. Charyzma.</p><p>Po rzucie <em>Kostka Doskonałości Braka</em> teleportuje się do losowej lokalizacji w wieloświecie.</p>",
+            "name": "Kostka Doskonałości Braka (int)",
+            "effects": {
+                "Permanent Ability (Int)": {
+                    "name": "Stała cecha (Int)",
+                    "description": "Stała cecha (Int)"
+                }
+            }
+        },
+        "Brak's Cube of Perfection (Str)": {
+            "description": "<p><em>Malutka kostka z obrazkami goblinów na każdej ściance, z których każdy przedstawia transcendencję cechy fizycznej lub umysłowej.</em></p><p><strong>Korzyść</strong>. Wykonaj rzut kostką, wykonując rzut [[/r d6]]. Odpowiednia cecha postaci trwale wzrasta do 18 (+4). 1. Siła. 2. Zręczność. 3. Kondycja. 4. Inteligencja. 5. Mądrość. 6. Charyzma.</p><p>Po rzucie <em>Kostka Doskonałości Braka</em> teleportuje się do losowej lokalizacji w wieloświecie.</p>",
+            "name": "Kostka Doskonałości Braka (Sił)",
+            "effects": {
+                "Permanent Ability (Str)": {
+                    "name": "Stała cecha (Sił)",
+                    "description": "Stała cecha (Sił)"
+                }
+            }
+        },
+        "Brak's Cube of Perfection (Wis)": {
+            "description": "<p><em>Malutka kostka z obrazkami goblinów na każdej ściance, z których każdy przedstawia transcendencję cechy fizycznej lub umysłowej.</em></p><p><strong>Korzyść</strong>. Wykonaj rzut kostką, wykonując rzut [[/r d6]]. Odpowiednia cecha postaci trwale wzrasta do 18 (+4). 1. Siła. 2. Zręczność. 3. Kondycja. 4. Inteligencja. 5. Mądrość. 6. Charyzma.</p><p>Po rzucie <em>Kostka Doskonałości Braka</em> teleportuje się do losowej lokalizacji w wieloświecie.</p>",
+            "name": "Kostka Doskonałości Braka (Mdr)",
+            "effects": {
+                "Permanent Ability (Wis)": {
+                    "name": "Stała cecha (Mdr)",
+                    "description": "Stała cecha (Mdr)"
+                }
+            }
+        },
+        "CaRqa4l3vE2ZALbE": {
+            "name": "Premia do obrażeń zadawanych bronią"
+        },
+        "CFbdBIST0hT7qCyu": {
+            "name": "Premia do rzutu na atak bronią"
+        },
+        "Circlet of Wisdom": {
+            "description": "<p><em>Cienki, srebrny diadem z osadzoną w nim lśniącą, niebieską perłą.</em></p><p><strong>Korzyść.</strong> Podczas noszenia tego diademu twoja wartość Mądrości wzrasta do 18 (+4).</p>",
+            "name": "Diadem Mądrości",
+            "effects": {
+                "Permanent Ability (Wis)": {
+                    "name": "Stała cecha (Mdr)",
+                    "description": "Stała cecha (Mdr)"
+                },
+                "JGN2W0klkumjFNoV": {
+                    "name": "Stała cecha (Mdr)",
+                    "description": "Stała cecha (Mdr)"
+                }
+            }
+        },
+        "Cloak of Elvenkind": {
+            "description": "<p><em>Płaszcz z kapturem, powiewający na wietrze, który zmienia kolory, dostosowując się do otoczenia.</em></p><p><strong>Korzyść</strong>. Twoje próby ukrycia się są zawsze łatwe (ST 9). Raz na dzień możesz stać się niewidzialny na 5 rund. Niewidzialność kończy się, jeśli zaatakujesz lub rzucisz zaklęcie.</p>",
+            "name": "Płaszcz elfiego ludu"
+        },
+        "Cloak of the bat": {
+            "description": "<p><em>Skórzany, czarny płaszcz z postrzępionym brzegiem i kapturem z spiczastymi uszami.</em></p><p><strong>Korzyść.</strong> W obszarze zacienionym możesz latać na odległość równą twojej prędkości ruchu. </p><p><strong>Klątwa.</strong> Za każdym razem, gdy używasz płaszcza do lotu, wykonaj rzut kostką k20. W przypadku wyniku 1 ty i twój ekwipunek zamieniacie się w małego nietoperza na 3 rundy.</p>",
+            "name": "Płaszcz nietoperza"
+        },
+        "Critical Failure Threshold": {
+            "name": "Próg krytycznej porażki"
+        },
+        "Critical Multiplier": {
+            "name": "Mnożnik krytyczny"
+        },
+        "Critical Success Threshold": {
+            "name": "Próg krytycznego sukcesu"
+        },
+        "Crystal Ball": {
+            "description": "<p><em>Nieskazitelna szklana kula, w której wirują burzliwe obrazy.</em></p><p><strong>Korzyść.</strong> Tylko czarodzieje mogą korzystać z kryształowej kuli. Można jej użyć do rzucenia zaklęcia @UUID[Compendium.shadowdark.spells.Item.FrdLzy8cWPcVS2Mz] (str. 70). Jeśli nie uda ci się wykonać testu rzucania zaklęcia „Wizja”, kryształowa kula przestaje działać na jeden dzień.</p>",
+            "name": "Kryształowa kula"
+        },
+        "cUIGFlc2YR57pzXl": {
+            "name": "Stała cecha (Mdr)"
+        },
+        "Dagger of the Goblin Hero": {
+            "description": "<p><em>Zakrzywiony sztylet z półksiężycowym wycięciem u podstawy ostrza.</em></p><p><strong>Premia.</strong> Sztylet +1.</p><p><strong>Korzyść.</strong> Znasz język goblinów. Wszystkie stworzenia z rasy goblinów reagują na ciebie przyjaźnie.</p>",
+            "name": "Sztylet Gobliniego Bohatera",
+            "effects": {
+                "Speak Goblin": {
+                    "name": "Znajomość języka goblinów",
+                    "description": "Znajomość języka goblinów"
+                },
+                "Weapon Attack Roll Bonus": {
+                    "name": "Premia do rzutu na atak bronią",
+                    "description": "Premia do rzutu na atak bronią"
+                },
+                "Weapon Attack Damage Bonus": {
+                    "name": "Premia do obrażeń zadawanych bronią",
+                    "description": "Premia do obrażeń zadawanych bronią"
+                }
+            }
+        },
+        "dbXv9ddp6TR15AFk": {
+            "name": "Premia do obrażeń zadawanych bronią"
+        },
+        "Disadvantage on Attacks & Spellcasting vs Demons": {
+            "name": "Utrudnienia w atakowaniu i rzucaniu zaklęć przeciwko demonom"
+        },
+        "Disadvantage on Attacks & Spells vs Snakes": {
+            "name": "Utrudnienie w atakach i zaklęciach przeciwko wężom"
+        },
+        "doAgFd0Q4WixkRrC": {
+            "name": "Premia do obrażeń zadawanych bronią"
+        },
+        "Double Damage vs Demons, Devils &  Undead": {
+            "name": "Podwójne obrażenia przeciwko demonom, diabłom i nieumarłym"
+        },
+        "Double Damage vs Lycanthropes": {
+            "name": "Podwójne obrażenia przeciwko likantropom"
+        },
+        "dZkdrikRTlcELylW": {
+            "name": "Premia do obrażeń zadawanych bronią"
+        },
+        "E7DKiIaxjDrxq64c": {
+            "name": "Premia do obrażeń ataku"
+        },
+        "Egg of the Cockatrice": {
+            "description": "<p><em>Niebieskie, twarde jajo wielkości kokosa i ciężkie jak kamień.</em></p><p><strong>Korzyść.</strong> Raz w tygodniu możesz wypowiedzieć słowo polecenia, które sprawia, że @UUID[Compendium.shadowdark.monsters.Actor.xUxKG0CR6Elw1l7h] wykluwa się i wykonuje twoje polecenia przez 5 rund, po czym odlatuje. Jajo regeneruje się w ciągu tygodnia.</p>",
+            "name": "Jajo kuroliszka"
+        },
+        "ENAyqljvyYqIr8rK": {
+            "name": "Premia do rzutu na atak bronią"
+        },
+        "eXpmyWBLi6CfFuTt": {
+            "name": "Premia do rzutu na atak bronią"
+        },
+        "fEHEHVFcLflsUsCv": {
+            "name": "Stała cecha (Int)"
+        },
+        "FKzhrPnFt0njaDh8": {
+            "name": "Stała cecha (Mdr)"
+        },
+        "Flying Carpet": {
+            "description": "<p><em>Bogato tkany, czerwony dywan ze złotymi frędzlami.</em></p><p><strong>Korzyści. </strong> Dywan może pomieścić dwóch pasażerów (jeden z nich to kierowca). Podczas tury kierowcy może latać na średnią odległość.</p><p><strong>Osobowość. </strong> Neutralna. Żartobliwa, psotna. Lubi odwiedzać nowe miejsca i staje się niespokojna, jeśli nie zmienia często lokalizacji.</p>",
+            "name": "Latający dywan"
+        },
+        "FqtIDxjhOFDvkQFn": {
+            "name": "Premia do obrażeń ataku"
+        },
+        "Gauntlets of Might": {
+            "description": "<p><em>Ciężkie, brązowe rękawice z wygrawerowanymi wizerunkami herkulesowych gigantów.</em></p><p><strong>Korzyść</strong>. Podczas noszenia tych rękawic twoja wartość Siły wynosi 18 (+4).</p>",
+            "name": "Rękawice Mocy",
+            "effects": {
+                "Permanent Ability (Str)": {
+                    "name": "Stała cecha (Sił)",
+                    "description": "Stała cecha (Sił)"
+                }
+            }
+        },
+        "Genie Lamp": {
+            "description": "<p><em>Zmatowiała, mosiężna lampa olejowa.</em></p><p><strong>Korzyść.</strong> Pocieranie lampy powoduje pojawienie się zamieszkującego ją @UUID[Compendium.shadowdark.monsters.Actor.ytftI0motwEnF29v]{dżina} (50% szansy) lub ifryt (50% szansy). Dżin przed zniknięciem przyznaje swojemu przywoływaczowi jedno zaklęcie @UUID[Compendium.shadowdark.spells.Item.hMGQuETjBxuMwjsR]{życzenia} (str. 73). @UUID[Compendium.shadowdark.monsters.Actor.o1aBfxHFxYVHLTRn]{ifryt} postępuje tak samo, ale dopiero po pokonaniu go w walce.</p>",
+            "name": "Lampa Dżina",
+            "system.identification.name": "Nazwa zidentyfikowana"
+        },
+        "GH1P7tijaj5st9hm": {
+            "name": "Podwójne obrażenia przeciwko gigantom"
+        },
+        "Gloves of Agility": {
+            "description": "<p><em>Cienkie, skórzane rękawiczki, które wydają się wtapiać w dłonie osoby je noszącej.</em></p><p><strong>Korzyść.</strong> Podczas noszenia tych rękawiczek twoja wartość Zręczności wynosi 18 (+4).</p>",
+            "name": "Rękawice Zwinności",
+            "system.identification.name": "Nazwa zidentyfikowana",
+            "effects": {
+                "Permanent Ability (Dex)": {
+                    "name": "Stała cecha (Zrc)",
+                    "description": "Stała cecha (Zrc)"
+                }
+            }
+        },
+        "Goblin Bomb": {
+            "description": "<p><em>Zakonserwowany szczur wypełniony ładunkiem wybuchowym i lontem.</em></p><p><strong>Korzyść.</strong> Możesz zapalić lont bomby i rzucić ją na niewielką odległość. Wybucha ona po [[/r 1d4]] rundach, zadając [[/r 2d8]] punktów obrażeń wszystkim w bliskim zasięgu.</p>",
+            "name": "Bomba goblinów",
+            "system.identification.name": "Nazwa zidentyfikowana"
+        },
+        "Greataxe of the Horde": {
+            "description": "<p><em>Postrzępiony wielki topór wyrzeźbiony z ciężkiej smoczej kości.</em></p><p><strong>Premia.</strong> Wielki topór +2.</p><p><strong>Korzyść.</strong> Raz na dzień możesz zamienić zwykłe trafienie tą bronią w trafienie krytyczne. </p><p><strong>Klątwa.</strong> Za każdym razem, gdy twoje punkty Wytrzymałości spadną poniżej połowy, wykonaj test [[check 12 cha]]. W przypadku porażki wpadniesz w szał bojowy na [[/r 1d4]] rund i musisz zaatakować najbliższe stworzenie.</p>",
+            "name": "Wielki topór Hordy",
+            "system.identification.name": "Nazwa zidentyfikowana",
+            "effects": {
+                "Weapon Attack Roll Bonus": {
+                    "name": "Premia do rzutu na atak bronią",
+                    "description": "Premia do rzutu na atak bronią"
+                },
+                "Weapon Attack Damage Bonus": {
+                    "name": "Premia do obrażeń zadawanych bronią",
+                    "description": "Premia do obrażeń zadawanych bronią"
+                }
+            }
+        },
+        "Hat of Intellect": {
+            "description": "<p><em>Miękki, spiczasty kapelusz z szerokim rondem.</em></p><p><strong>Korzyść.</strong> Podczas noszenia tego kapelusza twoja cecha Inteligencji wynosi 18 (+4).</p>",
+            "name": "Kapelusz Intelektu",
+            "system.identification.name": "Nazwa zidentyfikowana",
+            "effects": {
+                "Permanent Ability (Int)": {
+                    "name": "Stała cecha (Int)",
+                    "description": "Stała cecha (Int)"
+                }
+            }
+        },
+        "Hat of the Hound": {
+            "description": "<p><em>Zaokrąglony, elegancki kapelusz melonowy.</em></p><p><strong>Korzyść.</strong> Każdego dnia możesz przemienić się w @UUID[Compendium.shadowdark.monsters.Actor.lJyH2RWm3t5MB5iG]{Mmastifa} – łącznie przez maksymalnie 10 rund. Twoje ubranie i przedmioty przemieniają się wraz z tobą.</p>",
+            "name": "Kapelusz Ogara",
+            "system.identification.name": "Nazwa zidentyfikowana"
+        },
+        "Helm of Mind Reading": {
+            "description": "<p><em>Hełm z wyrzeźbionymi bruzdami mózgowymi, ochraniacz szyi przypominający kręgosłup oraz macki przypominające ośmiornicę.</em></p><p><strong>Korzyść. </strong> Możesz rzucać zaklęcie @UUID[Compendium.shadowdark.spells.Item.XBt4wA37ypUiXkp6] (str. 58) trzy razy dziennie (+4 premia).</p>",
+            "name": "Hełm czytania w myślach",
+            "system.identification.name": "Nazwa zidentyfikowana",
+            "effects": {
+                "Spellcasting Check Bonus": {
+                    "name": "Premia do testu rzucania zaklęć",
+                    "description": "+4 do rzutów na wykrycie myśli (3 razy dziennie)"
+                }
+            }
+        },
+        "HhILvM8lD0Nby5gq": {
+            "name": "Premia do rzutu ataku"
+        },
+        "HIFDdRlLUKbLS5zK": {
+            "name": "Premia do rzutu na atak bronią"
+        },
+        "HOkTvzEf4v5RBLfx": {
+            "name": "Premia do rzutu na atak bronią"
+        },
+        "Holy Prayer AC Bonus": {
+            "name": "Premia KP za modlitwę"
+        },
+        "Horned Helm of Ramlaat": {
+            "description": "<p><em>Pokryty krwią hełm wykonany z czaszki barana.</em></p><p><strong>Korzyść.</strong> Ten hełm zapewnia ci premię +1 do klasy pancerza. Masz ułatwienie przy każdym rzucie mającym na celu przewrócenie stworzeń lub przedmiotów.</p><p><strong>Klątwa.</strong> Czujesz nieodpartą potrzebę uderzania głową w delikatne przedmioty.</p>",
+            "name": "Rogaty hełm Ramlaata",
+            "system.identification.name": "Nazwa zidentyfikowana"
+        },
+        "Hourglass of the Black Sands": {
+            "description": "<p><em>Starożytna klepsydra wypełniona obsydianowym piaskiem.</em></p><p><strong>Korzyść.</strong> Raz na dzień możesz odwrócić klepsydrę podczas rzucania zaklęcia. Efekty zaklęcia trwają o 1k4 rund dłużej.</p>",
+            "name": "Klepsydra Czarnych Piasków",
+            "system.identification.name": "Nazwa zidentyfikowana"
+        },
+        "I9RcaNvoUpSqiWUz": {
+            "name": "Stała cecha (Zrc)"
+        },
+        "Immovable Rod": {
+            "description": "<p><em>Krótkie, wysadzane klejnotami żelazne berło z przyciskiem na jednym końcu.</em></p><p><strong>Korzyść</strong>. Po kliknięciu przycisku berło unieruchamia się w przestrzeni. Ponowne kliknięcie przycisku kończy działanie efektu.</p>",
+            "name": "Berło nie do ruszenia"
+        },
+        "JAfTcoh8jcncSGJM": {
+            "name": "Premia do obrażeń ataku"
+        },
+        "JeLSOetsunFunEnm": {
+            "name": "Premia do obrażeń zadawanych bronią"
+        },
+        "Jewel of Barbalt": {
+            "description": "<p><em>Lśniący rubin wielkości kokosa, trzymany w złotych szczypcach.</em></p><p><strong>Korzyść</strong>. Wynik krytycznego sukcesu uzyskuje się przy rzucie 18–20.</p><p><strong>Klątwa</strong>. Wynik krytycznej porażki uzyskuje się przy rzucie 1–3.</p>",
+            "name": "Klejnot Barbaltu",
+            "effects": {
+                "Critical Failure Threshold": {
+                    "name": "Próg krytycznej porażki",
+                    "description": "Próg krytycznej porażki"
+                },
+                "Critical Success Threshold": {
+                    "name": "Próg krytycznego sukcesu",
+                    "description": "Próg krytycznego sukcesu"
+                }
+            }
+        },
+        "JGN2W0klkumjFNoV": {
+            "name": "Stała cecha (Mdr)"
+        },
+        "Kf2eneYOrzvxxnWU": {
+            "name": "Ułatwienie w rzucaniu zaklęć"
+        },
+        "kjwVuIlPksnF2hR1": {
+            "name": "Premia do rzutu na atak bronią"
+        },
+        "Kytherian Cog": {
+            "description": "<p>Koło zębate wielkości monety, wypolerowane do srebrzystego połysku.</p><p><strong>Korzyść</strong>. Każdą sesję rozpoczynasz z tokenem szczęścia.</p>",
+            "name": "Kytheriańskie koło zębate"
+        },
+        "l9MlejatmWj0EesQ": {
+            "name": "Premia do rzutu na atak bronią"
+        },
+        "Longbow of the Elven Kings": {
+            "description": "<p><em>Głęboko wygięty łuk długi, wzmocniony porożem jelenia.</em></p><p><strong>Premia.</strong> Łuk długi +1.</p><p><strong>Korzyść.</strong> Masz ułatwienie przy atakach tym łukiem przeciwko nienaturalnym stworzeniom i przybyszom. </p><p><strong>Osobowość.</strong> Neutralna. Dumna, ponadczasowa. Uważa, że ochrona naturalnego porządku jest najwyższym powołaniem. Domaga się, by wszystkie nienaturalne stworzenia zostały odnalezione i zabite.</p>",
+            "name": "Łuk długi elfich królów",
+            "system.identification.name": "Nazwa zidentyfikowana",
+            "effects": {
+                "Weapon Attack Roll Bonus": {
+                    "name": "Premia do rzutu na atak bronią",
+                    "description": "Premia do rzutu na atak bronią"
+                },
+                "Weapon Attack Damage Bonus": {
+                    "name": "Premia do obrażeń zadawanych bronią",
+                    "description": "Premia do obrażeń zadawanych bronią"
+                },
+                "Advantage vs Unnatural Creatures & Outsiders": {
+                    "name": "Ułatwienie przeciwko nienaturalnym stworzeniom i przybyszom",
+                    "description": "Ułatwienie w atakach przeciwko nienaturalnym stworzeniom i przybyszom"
+                }
+            }
+        },
+        "LryuYkHDYOAm4I0g": {
+            "name": "Premia do obrażeń zadawanych bronią"
+        },
+        "Magic Ink": {
+            "description": "<p><em>Słoiczek z błyszczącym, czarnym atramentem, który znika po wyschnięciu.</em></p><p><strong>Korzyść. </strong>Napisany tym atramentem tekst jest niewidoczny, gdy jest zimny, i można go dostrzec dopiero po ogrzaniu przez znajdujące się w pobliżu źródło silnego ciepła. Wystarcza na [[/r 1d4]] użyć.</p>",
+            "name": "Magiczny atrament",
+            "system.identification.name": "Nazwa zidentyfikowana"
+        },
+        "Melee Attack Roll Bonus": {
+            "name": "Premia do rzutu na atak wręcz"
+        },
+        "Melee Damage Bonus": {
+            "name": "Premia do obrażeń w walce wręcz"
+        },
+        "Memnon's Blazing Javelin": {
+            "description": "<p><em>Ten złoty oszczep od czasu do czasu miga i drga, na chwilę zamieniając się w błyskawicę.</em></p><p><strong>Premia.</strong> Oszczep +1. Może nim władać wyłącznie istota chaotyczna. Jeśli posiadasz również „Niezgodne Ostrze Memnona” oraz „Entropiczny Pancerz Memnona”, oszczep ten staje się oszczepem +3. </p><p><strong>Korzyść.</strong> Oszczep zawsze wraca do twojej ręki po rzucie. Raz na dzień, rzucając tym oszczepem, możesz zamienić go w błyskawicę zgodnie z zaklęciem @UUID[Compendium.shadowdark.spells.Item.7uTblEDfklCO1et7] (bez testu rzucania zaklęć).</p>",
+            "name": "Piorunujący Oszczep Memnona",
+            "system.identification.name": "Nazwa zidentyfikowana",
+            "effects": {
+                "Weapon Attack Damage Bonus": {
+                    "name": "Premia do obrażeń zadawanych bronią",
+                    "description": "Premia do obrażeń zadawanych bronią"
+                },
+                "Weapon Attack Roll Bonus": {
+                    "name": "Premia do rzutu na atak bronią",
+                    "description": "Premia do rzutu na atak bronią"
+                }
+            }
+        },
+        "Memnon's Blazing Javelin (Completed Set)": {
+            "description": "<p><em>Ten złoty oszczep od czasu do czasu miga i drga, na chwilę zamieniając się w błyskawicę.</em></p><p><strong>Premia.</strong> Oszczep +1. Może nim władać wyłącznie istota chaotyczna. Jeśli posiadasz również „Niezgodne Ostrze Memnona” oraz „Entropiczny Pancerz Memnona”, oszczep ten staje się oszczepem +3. </p><p><strong>Korzyść.</strong> Oszczep zawsze wraca do twojej ręki po rzucie. Raz na dzień, rzucając tym oszczepem, możesz zamienić go w błyskawicę zgodnie z zaklęciem @UUID[Compendium.shadowdark.spells.Item.7uTblEDfklCO1et7] (bez testu rzucania zaklęć).</p>",
+            "name": "Piorunujący Oszczep Memnona (Kompletny zestaw)",
+            "system.identification.name": "Nazwa zidentyfikowana",
+            "effects": {
+                "Weapon Attack Roll Bonus": {
+                    "name": "Premia do rzutu na atak bronią",
+                    "description": "Premia do rzutu na atak bronią"
+                },
+                "Weapon Attack Damage Bonus": {
+                    "name": "Premia do obrażeń zadawanych bronią",
+                    "description": "Premia do obrażeń zadawanych bronią"
+                }
+            }
+        },
+        "Memnon's Discordant Blade": {
+            "description": "<p><em>Czerwone ostrze tego wielkiego miecza z zadziorami pozostawia za sobą deszcz iskier, gdy zostanie zamachnięte w celu wykonania ataku.</em></p><p><strong>Premia.</strong> Wielki miecz +1. Może nim władać wyłącznie istota chaotyczna. Jeśli posiadasz również Entropiczny Pancerz Memnona oraz Piorunujący Oszczep Memnona, miecz ten staje się wielkim mieczem +3. </p><p><strong>Korzyść.</strong> Raz na dzień możesz całkowicie unicestwić jedno stworzenie o poziomie 9 lub niższym, którego zadałeś obrażenia tym mieczem. Stworzenie może wykonać test [[request 18 con]], aby zamiast tego otrzymać [[/r 3d8]] obrażeń. </p><p><strong>Klątwa.</strong> Nie możesz zrzec się własności tego miecza, chyba że zostanie ci odebrany przez stworzenie, które pokona cię w walce. Za każdy dzień, w którym nie zabijesz tą bronią stworzenia o poziomie 2 lub wyższym, tracisz [[/r 1d6]] punktów Wytrzymałości. Zostaną one przywrócone dopiero wtedy, gdy zabijesz tą bronią stworzenie o poziomie 2 lub wyższym.</p>",
+            "name": "Niezgodne Ostrze Memnona",
+            "system.identification.name": "Nazwa zidentyfikowana",
+            "effects": {
+                "Weapon Attack Damage Bonus": {
+                    "name": "Premia do obrażeń zadawanych bronią",
+                    "description": "Premia do obrażeń zadawanych bronią"
+                },
+                "Weapon Attack Roll Bonus": {
+                    "name": "Premia do rzutu na atak bronią",
+                    "description": "Premia do rzutu na atak bronią"
+                }
+            }
+        },
+        "Memnon's Discordant Blade (Completed Set)": {
+            "description": "<p><em>Czerwone ostrze tego wielkiego miecza z zadziorami pozostawia za sobą deszcz iskier, gdy zostanie zamachnięte w celu wykonania ataku.</em></p><p><strong>Premia.</strong> Wielki miecz +1. Może nim władać wyłącznie istota chaotyczna. Jeśli posiadasz również Entropiczny Pancerz Memnona oraz Piorunujący Oszczep Memnona, miecz ten staje się wielkim mieczem +3. </p><p><strong>Korzyść.</strong> Raz na dzień możesz całkowicie unicestwić jedno stworzenie o poziomie 9 lub niższym, którego zadałeś obrażenia tym mieczem. Stworzenie może wykonać test [[request 18 con]], aby zamiast tego otrzymać [[/r 3d8]] obrażeń. </p><p><strong>Klątwa.</strong> Nie możesz zrzec się własności tego miecza, chyba że zostanie ci odebrany przez stworzenie, które pokona cię w walce. Za każdy dzień, w którym nie zabijesz tą bronią stworzenia o poziomie 2 lub wyższym, tracisz [[/r 1d6]] punktów Wytrzymałości. Zostaną one przywrócone dopiero wtedy, gdy zabijesz tą bronią stworzenie o poziomie 2 lub wyższym.</p>",
+            "name": "Niezgodne Ostrze Memnona (Kompletny zestaw)",
+            "system.identification.name": "Nazwa zidentyfikowana",
+            "effects": {
+                "Weapon Attack Roll Bonus": {
+                    "name": "Premia do rzutu na atak bronią",
+                    "description": "Premia do rzutu na atak bronią"
+                },
+                "Weapon Attack Damage Bonus": {
+                    "name": "Premia do obrażeń zadawanych bronią",
+                    "description": "Premia do obrażeń zadawanych bronią"
+                }
+            }
+        },
+        "Memnon's Entropic Armor": {
+            "description": "<p><em>Głęboko niebieska zbroja płytowa, ozdobiona złotymi motywami błyskawic oraz czerwonymi klejnotami ułożonymi w kształcie płomieni.</em></p><p><strong>Premia.</strong> Zbroja płytowa +1. Może ją nosić wyłącznie istota chaotyczna. Jeśli posiadasz również „Niezgodne Ostrze Memnona” oraz „Piorunujący Oszczep Memnona”, zbroja staje się zbroją płytową +3. </p><p><strong>Korzyść.</strong> Raz na dzień możesz wypowiedzieć słowo rozkazujące zbroi. Do twojej następnej tury wszystkie niemagiczne bronie, które cię atakują, natychmiast ulegają zniszczeniu, rozpadając się w pył. Nie otrzymujesz od nich żadnych obrażeń.</p>",
+            "name": "Entropiczny Pancerz Memnona",
+            "system.identification.name": "Nazwa zidentyfikowana"
+        },
+        "Memnon's Entropic Armor (Completed Set)": {
+            "description": "<p><em>Głęboko niebieska zbroja płytowa, ozdobiona złotymi motywami błyskawic oraz czerwonymi klejnotami ułożonymi w kształcie płomieni.</em></p><p><strong>Premia.</strong> Zbroja płytowa +1. Może ją nosić wyłącznie istota chaotyczna. Jeśli posiadasz również „Niezgodne Ostrze Memnona” oraz „Piorunujący Oszczep Memnona”, zbroja staje się zbroją płytową +3. </p><p><strong>Korzyść.</strong> Raz na dzień możesz wypowiedzieć słowo rozkazujące zbroi. Do twojej następnej tury wszystkie niemagiczne bronie, które cię atakują, natychmiast ulegają zniszczeniu, rozpadając się w pył. Nie otrzymujesz od nich żadnych obrażeń.</p>",
+            "name": "Entropiczny Pancerz Memnona (Kompletny zestaw)",
+            "system.identification.name": "Nazwa zidentyfikowana"
+        },
+        "mEwSq29I1Sr8gG2t": {
+            "name": "Stała cecha (Sił)"
+        },
+        "Mirror of Mischief": {
+            "description": "<p><em>Pełnowymiarowe lustro wypolerowane do lśniącego połysku. Uśmiechające się, srebrne demony trzymają lustro, a ich pazury tworzą jego ramę.</em></p><p><strong>Klątwa.</strong> Gdy humanoidalne stworzenie po raz pierwszy spojrzy w to lustro, tworzy ono jego złowrogą i złośliwą postać. Duplikat może wyjść z lustra i jest dokładną kopią osoby, której dotyczy (z wyjątkiem magicznego ekwipunku, który wygląda identycznie, ale ma zwyczajny charakter). Zły duplikat może żyć bez końca poza lustrem. Próbuje on siać chaos w życiu stworzenia, którego jest kopią.</p>",
+            "name": "Zwierciadło psot",
+            "system.identification.name": "Nazwa zidentyfikowana"
+        },
+        "MN2vxYiGWgfQSbpi": {
+            "name": "Stała cecha (Cha)"
+        },
+        "Moonwrought Chainmail": {
+            "description": "<p><em>Lśniąca kolczuga, lekka jak jedwabna koszula.</em></p><p><strong>Premia.</strong> Kolczuga z mithralu +1.</p><p><strong>Korzyść.</strong> Raz na dzień możesz wypowiedzieć słowo polecenia tej zbroi. Otrzymujesz premię +1 do następnego testu rzucania zaklęcia lub ataku z dystansu.</p>",
+            "name": "Księżycowa kolczuga",
+            "system.identification.name": "Nazwa zidentyfikowana",
+            "effects": {
+                "Spellcasting Advantage on Spell": {
+                    "name": "Ułatwienie w rzucaniu zaklęć",
+                    "description": "+1 do następnego testu rzucania zaklęcia lub ataku z dystansu (1 raz dziennie)"
+                }
+            }
+        },
+        "MosrS1dHHXThJ96N": {
+            "name": "Premia do rzutu na atak bronią"
+        },
+        "MYoK22maOIV6Z0VE": {
+            "name": "Premia do obrażeń zadawanych bronią"
+        },
+        "N3a7CEwOlseizR4z": {
+            "name": "Stała cecha (Sił)"
+        },
+        "n94S9biW3s0ZHhoR": {
+            "name": "Premia do obrażeń zadawanych bronią"
+        },
+        "naxiMCPRWIxWceVj": {
+            "name": "Premia KP"
+        },
+        "Necklace of Charm": {
+            "description": "<p><em>Złoty łańcuszek w kształcie ości rybiej, mieniący się subtelnym blaskiem.</em></p><p><strong>Korzyść.</strong> Podczas noszenia tego naszyjnika twoja wartość Charyzmy wynosi 18 (+4).</p>",
+            "name": "Naszyjnik uroku",
+            "system.identification.name": "Nazwa zidentyfikowana",
+            "effects": {
+                "Permanent Ability (Cha)": {
+                    "name": "Stała cecha (Cha)",
+                    "description": "Stała cecha (Cha)"
+                }
+            }
+        },
+        "Necrotic Mace of Withering": {
+            "description": "<p><em>Buława z kutego żelaza zakończona ciężką, wrzeszczącą czaszką. Z oczu czaszki wypływa czarna żywicza ciecz, gdy buława jest używana do kierowania energią nekrotyczną.</em></p><p><strong>Premia.</strong> Buława +1. Może nią władać wyłącznie kapłan chaosu. </p><p><strong>Korzyść.</strong> Trzymając buławę, możesz przekształcić rzucane przez siebie zaklęcia @UUID[Compendium.shadowdark.spells.Item.N9NvonT0RL6PyiiV] w szkodliwą magię, która zamiast leczyć, zadaje taką samą ilość obrażeń, jaką wyleczyłaby. </p><p><strong>Klątwa.</strong> Jeśli użyjesz buławy do rzucenia odwróconego zaklęcia „leczenie ran”, tej nocy będą cię nawiedzać koszmary. Musisz zdać test [[check 12 wis]] podczas następnego odpoczynku, inaczej nie odniesiesz żadnych korzyści z odpoczynku.</p>",
+            "name": "Nekrotyczna buława usychania",
+            "system.identification.name": "Nazwa zidentyfikowana",
+            "effects": {
+                "Weapon Attack Roll Bonus": {
+                    "name": "Premia do rzutu na atak bronią",
+                    "description": "Premia do rzutu na atak bronią"
+                },
+                "Weapon Attack Damage Bonus": {
+                    "name": "Premia do obrażeń zadawanych bronią",
+                    "description": "Premia do obrażeń zadawanych bronią"
+                }
+            }
+        },
+        "Nightcloak Armor": {
+            "description": "<p><em>Matowa czarna skóra, która sprawia, że cienie stają się głębsze i ciemniejsze.</em></p><p><strong>Premia.</strong> Skórznia +1.</p><p><strong>Korzyść.</strong> Raz na dzień możesz zdecydować się na automatyczne zaliczenie testu Zręczności w celu ukrycia się.</p>",
+            "name": "Zbroja Nocnego Płaszcza",
+            "system.identification.name": "Nazwa zidentyfikowana"
+        },
+        "nv1kzlTwOcLqpi7w": {
+            "name": "Premia do rzutu na atak bronią"
+        },
+        "nYIEUngawHOWjKLV": {
+            "name": "Premia do rzutu na atak bronią"
+        },
+        "Obsidian Witchknife": {
+            "description": "<p><em>Lśniące, obsydianowe ostrze, z którego unosi się czarny dym w postaci cienkich kłębków.</em></p><p><strong>Premia.</strong> Sztylet +2. Nie może być używany przez istotę przestrzegającą prawa.</p><p><strong>Korzyść.</strong> Kiedy rzucasz zaklęcie, trzymając ten sztylet, możesz zranić się nim. Dodaj wartość otrzymanych obrażeń do swojego testu rzucania zaklęć. </p>",
+            "name": "Obsydianowy nóż wiedźmy",
+            "system.identification.name": "Nazwa zidentyfikowana",
+            "effects": {
+                "Weapon Attack Roll Bonus": {
+                    "name": "Premia do rzutu na atak bronią",
+                    "description": "Premia do rzutu na atak bronią"
+                },
+                "Weapon Attack Damage Bonus": {
+                    "name": "Premia do obrażeń zadawanych bronią",
+                    "description": "Premia do obrażeń zadawanych bronią"
+                }
+            }
+        },
+        "OJ3nY3HrPcGtdv4L": {
+            "name": "Ułatwienie w rzucaniu zaklęć"
+        },
+        "OlbaGSPCczzedFMQ": {
+            "name": "Premia do obrażeń zadawanych bronią"
+        },
+        "Onyx Destrier": {
+            "description": "<p><em>Wypolerowana, hebanowa statuetka przedstawiająca galopującego konia.</em></p><p><strong>Korzyść.</strong> Raz na dzień posiadacz może wypowiedzieć słowo polecenia, aby przemienić statuetkę w @UUID[Compendium.shadowdark.monsters.Actor.bxcbuzesUqGpEBxw]{koszmar}, który przyjmuje jeźdźców o nastawieniu neutralnym lub chaotycznym. Statuetka pozostaje w tej postaci przez 1 godzinę.</p>",
+            "name": "Onyksowy rumak",
+            "system.identification.name": "Nazwa zidentyfikowana"
+        },
+        "Ophidian Armor": {
+            "description": "<p><em>Lśniąca, gładka skórzana zbroja pokryta cętkowanymi szmaragdowymi łuskami.</em></p><p><strong>Premia</strong>. Skórznia +1.</p><p><strong>Korzyść</strong>. Masz ułatwienie przy testach na uniknięcie skutków trucizny.</p>",
+            "name": "Wężowy pancerz",
+            "effects": {
+                "Advantage vs Poison": {
+                    "name": "Ułatwienie przeciwko zatruciu",
+                    "description": "Ułatwienie przeciwko zatruciu"
+                }
+            }
+        },
+        "OZskI153kjpkFy09": {
+            "name": "Premia do obrażeń zadawanych bronią"
+        },
+        "Pearl of Power": {
+            "description": "<p><em>Gruba, opalizująca perła, promieniująca wewnętrznym blaskiem.</em></p><p><strong>Korzyść</strong>. Raz na dzień możesz odzyskać zdolność rzucania zaklęcia, którą utraciłeś. Nie można w ten sposób przywrócić zaklęcia utraconego w wyniku krytycznej porażki podczas rzucania zaklęcia.</p>",
+            "name": "Perła Mocy"
+        },
+        "permanentAbility": {
+            "name": "Stała cecha"
+        },
+        "Pipe of the Rolling Hills": {
+            "description": "<p><em>Długa, zakrzywiona fajka, pachnąca goździkami i żywicą.</em></p><p><strong>Korzyść.</strong> Paląc tę fajkę, odzyskujesz [[/r 1d4]] punktów Wytrzymałości maksymalnie trzy razy dziennie.</p>",
+            "name": "Fajka Łagodnych Wzgórz",
+            "system.identification.name": "Nazwa zidentyfikowana"
+        },
+        "Pipes of the Sewers": {
+            "description": "<p><em>Zestaw zmatowiałych, mosiężnych fletów panowych z siedmioma cylindrami.</em></p><p><strong>Korzyść.</strong> Raz na dzień możesz zagrać na tych fletach, aby przywołać [[/r 2d6]] @UUID[Compendium.shadowdark.monsters.Actor.OYtg4Ta4PIpvIZxq]{olbrzymie szczury}. Szczury będą ci posłuszne przez [[/r 1d6]] rund, po czym rozbiegną się i uciekną.</p><p><strong>Klątwa.</strong> Jeśli przestaniesz grać, gdy szczury są w pobliżu, zwrócą się przeciwko tobie i zaatakują.</p>",
+            "name": "Fletnia kanałów",
+            "system.identification.name": "Nazwa zidentyfikowana"
+        },
+        "pOdV4x1mBsF4ZJmg": {
+            "name": "Premia do rzutu na atak bronią"
+        },
+        "POfmKSqbE5nitw2s": {
+            "name": "Premia do obrażeń zadawanych bronią"
+        },
+        "Portable Hole": {
+            "description": "<p><em>Czarny, aksamitny kwadrat materiału, który po rozłożeniu tworzy szerokie koło.</em></p><p><strong>Korzyść.</strong> „Przenośna dziura” rozkłada się na płaskiej powierzchni, tworząc dziurę o szerokości 6 stóp i głębokości 6 stóp. Posiada 20 miejsc na sprzęt. Dziura zamyka się, gdy złoży się materiał w mały kwadrat. </p><p><strong>Klątwa.</strong> Umieszczenie tego przedmiotu w „Torbie przechowywania” lub innej „Przenośnej dziurze” niszczy oba przedmioty oraz wszystko, co się w nich znajduje.</p>",
+            "name": "Przenośna dziura",
+            "system.identification.name": "Nazwa zidentyfikowana"
+        },
+        "Potion of Extirpation": {
+            "description": "<p><em>Cierpka, smołowa substancja w żelaznej kolbie z ołowianym korkiem.</em></p><p><strong>Korzyść</strong>. Możesz wylać miksturę na jeden przedmiot lub stworzenie, wypełniając nią niewielką przestrzeń. Cel zostaje całkowicie wyrwany z rzeczywistości i nie można go przywrócić niczym innym poza zaklęciem <em>życzenie</em>. </p><p><strong>Osobowość</strong>. Chaotyczna. Głośno protestuje podczas użycia i nigdy nie zgadza się, że cel jest właściwym wyborem do unicestwienia.</p>",
+            "name": "Eliksir Wytępienia"
+        },
+        "Potion of Flying": {
+            "description": "<p><em>Jasna ciecz z bąbelkami, które migoczą i pękają niczym maleńkie gwiazdki.</em></p><p><strong>Korzyść.</strong> Po wypiciu tej mikstury możesz latać na niewielką odległość przez 10 rund.</p>",
+            "name": "Eliksir latania",
+            "system.identification.name": "Nazwa zidentyfikowana"
+        },
+        "Potion of Forgetfulness": {
+            "description": "<p><em>Różowy napój, w którym wiruje prąd przeciwny do ruchu wskazówek zegara.</em></p><p><strong>Korzyść. </strong>Jeśli podasz ten eliksir istocie rozumnej, a ta istota go wypije, osoba ta na zawsze zapomni jedno wybrane przez ciebie wspomnienie.</p>",
+            "name": "Eliksir zapomnienia",
+            "system.identification.name": "Nazwa zidentyfikowana"
+        },
+        "Potion of Giant Strength": {
+            "description": "<p><em>Gliniany dzban zawierający gęstą, zieloną, liściastą papkę.</em></p><p><strong>Korzyść.</strong> Twoja Siła wzrasta do 18 (+4) i zadajesz podwójne obrażenia w atakach wręcz przez 10 rund.</p>",
+            "name": "Eliksir olbrzymiej siły",
+            "system.identification.name": "Nazwa zidentyfikowana"
+        },
+        "Potion of Healing": {
+            "description": "<p><em>Szklana butelka zawierająca musujący płyn o smaku cytrynowo-waniliowym.</em></p><p><strong>Korzyść</strong>. Osoba wypijająca ten eliksir odzyskuje punkty Wytrzymałości w zależności od swojego poziomu.</p><p><strong>Poziomy 1-3</strong>: [[/r 1d6]] punktów Wytrzymałości. </p><p><strong>Poziomy 4-6</strong>: [[/r 2d8]] punktów wytrzymałości.</p><p><strong>Poziomy 7-9</strong>: [[/r 3d10]] punktów wytrzymałości.</p><p><strong>Poziom 10+</strong>: [[/r 4d12]] punktów wytrzymałości.</p>",
+            "name": "Eliksir leczenia"
+        },
+        "Potion of Invisibility": {
+            "description": "<p><em>Ta szklana fiolka wydaje się być pusta, ale w jej wnętrzu słychać plusk płynu.</em></p><p><strong>Korzyść</strong>. Po wypiciu tej mikstury stajesz się niewidzialny na 10 rund lub do momentu, aż zaatakujesz lub rzucisz zaklęcie. </p><p>@UUID[Compendium.shadowdark.spell-effects.SMXbMbXcj5hLvTjY]</p>",
+            "name": "Eliksir niewidzialności"
+        },
+        "Potion of Legendary Deeds": {
+            "description": "<p><em>Złoty eliksir, w którym rozbrzmiewa delikatny, anielski akord.</em></p><p><strong>Korzyść.</strong> Po wypiciu tego eliksiru awansujesz o jeden poziom, a twoja suma PD zostanie zresetowana do zera.</p>",
+            "name": "Eliksir legendarnych czynów",
+            "system.identification.name": "Nazwa zidentyfikowana"
+        },
+        "Potion of Polymorph": {
+            "description": "<p><em>W tej lawendowej kolbie z przezroczystym płynem unosi się zakonserwowana traszka.</em></p><p><strong>Korzyść. </strong> Po wypiciu tej mikstury rzuca na ciebie zaklęcie @UUID[Compendium.shadowdark.spells.Item.1ZAZQsFvPBEZPkVP] (str. 67) o czasie trwania 1 godziny zamiast 10 rund.</p>",
+            "name": "Eliksir Polimorfii",
+            "system.identification.name": "Nazwa zidentyfikowana"
+        },
+        "Potion of Vitality": {
+            "description": "<p><em>Szkarłatny eliksir, w którym delikatnie pulsuje rytm bicia serca.</em></p><p><strong>Korzyść.</strong> Po wypiciu tej mikstury wykonaj rzut kostką punktów wytrzymałości swojej klasy. Na stałe zyskujesz tyle punktów wytrzymałości. </p><p><strong>Klątwa.</strong> Jeśli w ciągu swojego życia wypijesz więcej niż jedną Miksturę Witalności, za każdym razem musisz zdać test [[check 18 con]] lub natychmiast zginiesz.</p>",
+            "name": "Mikstura witalności",
+            "system.identification.name": "Nazwa zidentyfikowana"
+        },
+        "pwG7d70XZD8JJL5p": {
+            "name": "Premia do obrażeń ataku"
+        },
+        "Qj2rqAj7XeIsjzzs": {
+            "name": "Premia do obrażeń ataku"
+        },
+        "qrgFpY2mTci173wM": {
+            "name": "Premia do rzutu ataku"
+        },
+        "Qt03jfl943CxPGeL": {
+            "name": "Premia do rzutu na atak bronią"
+        },
+        "qx4j9GoWPYmbbu9g": {
+            "name": "Premia do rzutu na atak bronią"
+        },
+        "Ring of Feather Falling": {
+            "description": "<p><em>Perłowy pierścień wyrzeźbiony na wzór pióra sowy.</em></p><p><strong>Korzyść.</strong> Raz na dzień pierścień może rzucić na ciebie zaklęcie @UUID[Compendium.shadowdark.spells.Item.0ejsM2UIZDHs5u2f] (str. 60), gdy spadniesz. </p><p><strong>Osobowość.</strong> Neutralna. Ma lęk wysokości. W myślach pohukuje głosem przypominającym sowę, aby trzymać się z dala od krawędzi klifów i przepaści.</p>",
+            "name": "Pierścień Piórkospadania",
+            "system.identification.name": "Nazwa zidentyfikowana"
+        },
+        "Ring of Fireballs": {
+            "description": "<p><em>Brązowa pętla z pazurami trzymająca czerwoną kulkę. Wewnątrz szklanej kulki wiruje ognista mgła.</em></p><p><strong>Korzyść. </strong> Możesz wyjąć szklaną kulkę z pierścienia i rzucić ją na dużą odległość, powodując, że w miejscu uderzenia pojawi się zaklęcie @UUID[Compendium.shadowdark.spells.Item.j2gvzfnMGQwxqgGg] (str. 60). Szklana kulka odradza się po pomyślnym zakończeniu odpoczynku.</p>",
+            "name": "Pierścień kul ognia",
+            "system.identification.name": "Nazwa zidentyfikowana"
+        },
+        "Ring of Invisibility": {
+            "description": "<p><em>Prosty, złoty pierścień wypolerowany do ciepłego połysku.</em></p><p><strong>Korzyść.</strong> Raz na dzień pierścień może rzucić na ciebie zaklęcie @UUID[Compendium.shadowdark.spells.Item.PZ0qPp6lG9SVMoAr]{niewidzialność} (str. 63). </p><p><strong>Klątwa.</strong> Za każdym razem, gdy odpoczywasz, istnieje kumulująca się szansa wynosząca 1%, że twój sen zostanie zakłócony przez apokaliptyczne koszmary i nie odniesiesz żadnych korzyści z odpoczynku. Szansa ta resetuje się do 1% za każdym razem, gdy efekt ten się uruchomi.</p>",
+            "name": "Pierścień Niewidzialności",
+            "system.identification.name": "Nazwa zidentyfikowana"
+        },
+        "Ring of Ramlaat": {
+            "description": "<p><em>Pierścień wyrzeźbiony z kości, z czaszką barana. Jego rogi są wygięte do przodu, a w oczodołach migoczą czerwone światła.</em></p><p><strong>Korzyść.</strong> Raz na dzień możesz wpaść w szał, w którym przez 5 rund zadajesz podwójne obrażenia. Podczas szału nie możesz rzucać zaklęć, a przeciwnicy mają ułatwienie przy atakach wręcz przeciwko tobie. </p><p><strong>Osobowość.</strong> Chaotyczna. Agresywna, zbyt pewna siebie. Stara się sprowokować ciebie i twoich wrogów do walki.</p>",
+            "name": "Pierścień Ramlaata",
+            "system.identification.name": "Nazwa zidentyfikowana"
+        },
+        "Robe of the Archmage": {
+            "description": "<p><em>Czerwona jedwabna szata z szerokim płaszczem obszytym złotem. Na rękawach widnieją złote oczy i księżyce.</em></p><p><strong>Korzyść.</strong> Tylko czarodziej posiadający tytuł Arcymag może nosić tę szatę. </p><p>Twoja KP bez zbroi wynosi 15 plus twój modyfikator Zręczności. </p><p>Wybierz trzy znane ci zaklęcia. Ich ST rzucania zaklęć wynosi zawsze 11. </p><p>Masz ułatwienie przy rzucaniu zaklęcia „Dezintegracja”.</p>",
+            "name": "Szata Arcymaga",
+            "system.identification.name": "Nazwa zidentyfikowana",
+            "effects": {
+                "Spellcasting Advantage on Spell": {
+                    "name": "Ułatwienie w rzucaniu zaklęć",
+                    "description": "Ułatwienie w rzucaniu zaklęć"
+                }
+            }
+        },
+        "Robe of the Druid": {
+            "description": "<p><em>Zielona aksamitna szata z głębokim kapturem oraz brzegami haftowanymi srebrnymi liśćmi i pnączami.</em></p><p><strong>Korzyść.</strong> Tylko czarodziej posiadający tytuł druida może nosić tę szatę.</p><p>Twoje KP bez zbroi wynoszą 15 plus twój modyfikator zręczności.</p><p>Dwa razy dziennie możesz odzyskać zdolność rzucania jednego utraconego zaklęcia. </p><p>Masz ułatwienie przy rzucaniu zaklęcia @UUID[Compendium.shadowdark.spells.Item.qz6bKMyDaGyifklx]. Kiedy je rzucasz, jego czas trwania wynosi 1 godzinę zamiast czasu skupienia.</p>",
+            "name": "Szata druida",
+            "system.identification.name": "Nazwa zidentyfikowana",
+            "effects": {
+                "Spellcasting Advantage on Spell": {
+                    "name": "Ułatwienie w rzucaniu zaklęć",
+                    "description": "Ułatwienie w rzucaniu zaklęć"
+                }
+            }
+        },
+        "Robe of the Sorcerer": {
+            "description": "<p><em>Czarna skórzana szata z zacienionym kapturem i zapięciami w kształcie pazurów, przymocowanymi do cienkich łańcuszków z mitralu.</em></p><p><strong>Korzyść.</strong> Tylko czarodziej posiadający tytuł „Czarownika” może nosić tę szatę.</p><p>Twoje KP bez zbroi wynoszą 15 plus twój modyfikator Zręczności. </p><p>Kiedy rzucasz zaklęcie zadające obrażenia, dodaj swój modyfikator Inteligencji do wyniku. Masz ułatwienie przy rzucaniu zaklęcia @UUID[Compendium.shadowdark.spells.Item.ttcu6Hcf7zUzxJmk].</p>",
+            "name": "Szata czarownika",
+            "system.identification.name": "Nazwa zidentyfikowana",
+            "effects": {
+                "Spellcasting Advantage on Spell": {
+                    "name": "Ułatwienie w rzucaniu zaklęć",
+                    "description": "Ułatwienie w rzucaniu zaklęć"
+                }
+            }
+        },
+        "Rzbo47LZEvpyHfqg": {
+            "name": "Premia do rzutu ataku"
+        },
+        "s6ifDUJHIkwx5wvx": {
+            "name": "Stała cecha (Kon)"
+        },
+        "Scarab of Protection": {
+            "description": "<p><em>Broszka wykonana z rogatego skarabeusza pokrytego złotem.</em></p><p><strong>Korzyść</strong>. Jeśli zginiesz, wykonaj test [[check 18 con]]. Jeśli test się powiedzie, zamiast zginąć, stracisz przytomność.</p>",
+            "name": "Skarabeusz ochrony"
+        },
+        "Scimitar of the Ash Moon": {
+            "description": "<p><em>To szerokie, zakrzywione ostrze ma na brązowym głowicy głowę warczącego ifryta.</em></p><p><strong>Premia.</strong> Miecz wielki +3.</p><p><strong>Korzyść.</strong> Jeśli wykonasz rzut krytyczny tą bronią, cel zostanie pozbawiony głowy. Ginie natychmiast, jeśli odcięcie głowy spowodowałoby jego śmierć.</p>",
+            "name": "Bułat Zmierzchowego Księżyca",
+            "system.identification.name": "Nazwa zidentyfikowana",
+            "effects": {
+                "Weapon Attack Damage Bonus": {
+                    "name": "Premia do obrażeń zadawanych bronią",
+                    "description": "Premia do obrażeń zadawanych bronią"
+                },
+                "Weapon Attack Roll Bonus": {
+                    "name": "Premia do rzutu na atak bronią",
+                    "description": "Premia do rzutu na atak bronią"
+                }
+            }
+        },
+        "Scroll of Burning Hands": {
+            "description": "<p>@UUID[Compendium.shadowdark.spells.ItN82uLU3PhJFLNm]</p>",
+            "name": "Zwój Płonących dłoni"
+        },
+        "Scroll of Hold Portal": {
+            "description": "<p>@UUID[Compendium.shadowdark.spells.q600IZtPTAgkz6vB]</p>",
+            "name": "Zwój Podtrzymywania portalu"
+        },
+        "Shield of the Crusader": {
+            "description": "<p><em>Masywna tarcza migdałowata, ozdobiona wyblakłym, szkarłatnym krzyżem.</em></p><p><strong>Premia. </strong> Tarcza +1. Może nią posługiwać się wyłącznie istota przestrzegająca prawa.</p><p><strong>Korzyść. </strong> Raz na dzień możesz wypowiedzieć modlitwę, by otoczyć tarczę świętym płomieniem, co zapewni ci +2 do KP na 3 rundy.</p>",
+            "name": "Tarcza krzyżowca",
+            "system.identification.name": "Nazwa zidentyfikowana",
+            "effects": {
+                "AC Bonus": {
+                    "name": "Premia KP",
+                    "description": "Premia KP"
+                },
+                "Holy Prayer AC Bonus": {
+                    "name": "Premia KP za modlitwę",
+                    "description": "+2 KP przez 3 rundy po wypowiedzeniu świętej modlitwy (1 raz dziennie)"
+                }
+            }
+        },
+        "Shield of the Lion": {
+            "description": "<p><em>Tarcza ta jest wyrzeźbiona w kształcie twarzy ryczącego lwa z powiewającą grzywą.</em></p><p><strong>Premia.</strong> Tarcza +1.</p><p><strong>Korzyść.</strong> Raz na dzień możesz rozkazać lwu ożyć i wydać potężny ryk. Wszystkie wrogie stworzenia znajdujące się w bliskim zasięgu muszą natychmiast wykonać test morale.</p>",
+            "name": "Tarcza Lwa",
+            "system.identification.name": "Nazwa zidentyfikowana",
+            "effects": {
+                "AC Bonus": {
+                    "name": "Premia KP",
+                    "description": "Premia KP"
+                }
+            }
+        },
+        "Shield of the Witch-King": {
+            "description": "<p><em>Postrzępiony trójkąt z czarnej stali, pokryty kolczastymi, opancerzonymi płytami.</em></p><p><strong>Premia. </strong> Tarcza +2. Może być używana wyłącznie przez istotę chaotyczną. </p><p><strong>Korzyść.</strong> Otrzymujesz o połowę mniej obrażeń od nieumarłych stworzeń.</p><p><strong>Klątwa.</strong> Jeśli twoje PW spadną do 0, duch Ix-Natheera próbuje przejąć twoje ciało. Blokuje on działanie magii leczniczej. Jeśli zginiesz, Ix-Natheer opęta cię. </p><p><strong>Osobowość.</strong> Chaotyczna. Tę tarczę ożywia duch Władcy Czarów Ix-Natheera. Wykorzystuje każdą okazję, by zdradzić swojego użytkownika, aby przejąć kontrolę nad jego ciałem i powrócić do nieżycia.</p>",
+            "name": "Tarcza Władcy Czarów",
+            "system.identification.name": "Nazwa zidentyfikowana",
+            "effects": {
+                "AC Bonus": {
+                    "name": "Premia KP",
+                    "description": "Premia KP"
+                }
+            }
+        },
+        "Shortsword of the Thief": {
+            "description": "<p><em>Krótkie, szare ostrze pokryte nacięciami i bliznami.</em></p><p><strong>Premia </strong>. Miecz krótki +1. +2, jeśli dzierży go niziołek lub złodziej.</p><p><strong>Korzyść </strong>. Raz na dzień odzyskujesz token szczęścia, który właśnie wykorzystałeś.</p>",
+            "name": "Krótki miecz złodzieja",
+            "effects": {
+                "Attack Roll Bonus": {
+                    "name": "Premia do rzutu ataku",
+                    "description": "Premia do rzutu ataku"
+                },
+                "Attack Damage Bonus": {
+                    "name": "Premia do obrażeń ataku",
+                    "description": "Premia do obrażeń ataku"
+                }
+            }
+        },
+        "Silver Mace of Wrath": {
+            "description": "<p><em>Zmatowiała, srebrna buława z siedmioma wypustkami w kształcie półksiężyców.</em></p><p><strong>Premia.</strong> Buława +1.</p><p><strong>Korzyść.</strong> Ta broń zadaje podwójne obrażenia stworzeniom dotkniętym likantropią.</p>",
+            "name": "Srebrna Buława Gniewu",
+            "system.identification.name": "Nazwa zidentyfikowana",
+            "effects": {
+                "Weapon Attack Roll Bonus": {
+                    "name": "Premia do rzutu na atak bronią",
+                    "description": "Premia do rzutu na atak bronią"
+                },
+                "Weapon Attack Damage Bonus": {
+                    "name": "Premia do obrażeń zadawanych bronią",
+                    "description": "Premia do obrażeń zadawanych bronią"
+                },
+                "Double Damage vs Lycanthropes": {
+                    "name": "Podwójne obrażenia przeciwko likantropom",
+                    "description": "Podwójne obrażenia przeciwko likantropom"
+                }
+            }
+        },
+        "Speak & Understand Diabolic": {
+            "name": "Mówienie i rozumienie Diabolicznego"
+        },
+        "Speak Goblin": {
+            "name": "Znajomość języka goblinów"
+        },
+        "Spellcasting Check Bonus": {
+            "name": "Premia do testu rzucania zaklęć"
+        },
+        "Sphere of Annihilation": {
+            "description": "<p><em>Kulista pustka o średnicy trzech stóp, wypełniona czystą ciemnością, unosząca się nad ziemią.</em></p><p><strong>Korzyść.</strong> Kula ta całkowicie niszczy każdą materię, z którą się styka.</p><p>Istoty inteligentne mogą przesunąć latającą kulę na bliską odległość, jeśli zaliczą test [[check 18 int]]. Jeśli o kontrolę nad kulą walczy kilka stworzeń, przeprowadza się zamiast tego test Inteligencji z rywalizacją. Czarodzieje mają ułatwienie w tym teście. Zwycięzca przemieszcza kulę na bliską odległość.</p><p>Jeśli kula wkroczy na pole zajmowane przez stworzenie, istota kontrolująca kulę wykonuje rzut ataku przeciwko temu stworzeniu z premią +7. W przypadku trafienia stworzenie zostaje unicestwione.</p>",
+            "name": "Sfera Zagłady",
+            "system.identification.name": "Nazwa zidentyfikowana"
+        },
+        "Spyglass of True Sight": {
+            "description": "<p><em>Mosiężna, teleskopowa soczewka z wyrytymi na niej magicznymi runami.</em></p><p><strong>Korzyść.</strong> Gdy spojrzysz przez lunetę, możesz dostrzec niewidzialne stworzenia i przedmioty.</p><p><strong>Klątwa.</strong> Użytkownik odczuwa nieodpartą potrzebę patrzenia na wszystko przez lunetę.</p>",
+            "name": "Luneta Prawdziwego Widzenia",
+            "system.identification.name": "Nazwa zidentyfikowana"
+        },
+        "SRuuhmxcNFfK8yUo": {
+            "name": "Premia KP"
+        },
+        "Staff of Healing": {
+            "description": "<p><em>Sękaty, dębowy kostur z grubym zgrubieniem na jednym końcu.</em></p><p><strong>Premia</strong>. Kostur +1.</p><p><strong>Korzyść </strong>. Raz na dzień możesz dotknąć kosturem stworzenia, aby wyleczyć je o [[/r 1d6]] punktów Wytrzymałości.</p>",
+            "name": "Kostur leczenia",
+            "effects": {
+                "Attack Roll Bonus": {
+                    "name": "Premia do rzutu ataku",
+                    "description": "Premia do rzutu ataku"
+                },
+                "Attack Damage Bonus": {
+                    "name": "Premia do obrażeń ataku",
+                    "description": "Premia do obrażeń ataku"
+                }
+            }
+        },
+        "Staff of Ord": {
+            "description": "<p><em>Stożkowy kostur z mithralu, w którym rezonuje tajemna moc. Na jego czubku widnieje oko skierowane ku górze, posiadające zdolność do otaczania kręgiem run.</em></p><p><strong>Premia.</strong> Kostur +3. Może nim posługiwać się wyłącznie czarodziej. </p><p><strong>Korzyść.</strong> Działa jak różdżka dla zaklęć: @UUID[Compendium.shadowdark.spells.Item.UWGzL8qsentdrvar] (str. 59), @UUID[Compendium.shadowdark.spells.Item.j2gvzfnMGQwxqgGg] (str. 60), @UUID[Compendium.shadowdark.spells.Item.AnJVapep2NJoicUP] (str. 70) oraz @UUID[Compendium.shadowdark.spells.Item.AZo6rYWOo0SHvpxZ] (str. 72). W przeciwieństwie do różdżki, kostur pozostaje nienaruszony, jeśli w rzucie na rzucanie zaklęć wypadnie 1. Zaklęcia wrogie skierowane przeciwko tobie mają trudność rzutu (ST) równą 18.</p>",
+            "name": "Kostur Orda",
+            "system.identification.name": "Nazwa zidentyfikowana",
+            "effects": {
+                "Weapon Attack Roll Bonus": {
+                    "name": "Premia do rzutu na atak bronią",
+                    "description": "Premia do rzutu na atak bronią"
+                },
+                "Weapon Attack Damage Bonus": {
+                    "name": "Premia do obrażeń zadawanych bronią",
+                    "description": "Premia do obrażeń zadawanych bronią"
+                }
+            }
+        },
+        "Staff of The Cobra": {
+            "description": "<p><em>Zakrzywione berło zakończone głową kobry z rubinowymi oczami i rozpostartymi wężowymi skrzydłami.</em></p><p><strong>Premia.</strong> Kostur +1.</p><p><strong>Korzyść.</strong> Wszystkie węże traktują cię przyjaźnie, o ile nie zrobisz nic, co mogłoby je zdenerwować. Raz na dzień możesz rzucić kostur na ziemię. Przez 5 rund zamienia się on w olbrzymiego węża, który wykonuje twoje polecenia mentalne. Jeśli PW olbrzymiego węża spadną do 0, powraca on do postaci kostura.</p><p><strong>Klątwa.</strong> Masz utrudnienie przy atakach i rzucaniu wrogich zaklęć skierowanych przeciwko wężom.</p>",
+            "name": "Kostur Kobry",
+            "system.identification.name": "Nazwa zidentyfikowana",
+            "effects": {
+                "Weapon Attack Damage Bonus": {
+                    "name": "Premia do obrażeń zadawanych bronią",
+                    "description": "Premia do obrażeń zadawanych bronią"
+                },
+                "Weapon Attack Roll Bonus": {
+                    "name": "Premia do rzutu na atak bronią",
+                    "description": "Premia do rzutu na atak bronią"
+                },
+                "Disadvantage on Attacks & Spells vs Snakes": {
+                    "name": "Utrudnienie w atakach i zaklęciach przeciwko wężom",
+                    "description": "Utrudnienie w atakach i wrogich zaklęciach wymierzonych w węże"
+                }
+            }
+        },
+        "Sword of the Ancients": {
+            "description": "<p><em>Pęknięte i zardzewiałe ostrze z naoliwioną skórzaną rękojeścią.</em></p><p><strong>Premia</strong>. Miecz długi +2.</p><p><strong>Korzyść</strong>. Miecz jest niezniszczalny i może przeciąć każdy materiał.</p><p>Właściciel może przywołać miecz do swojej ręki, jeśli znajduje się on na tej samej płaszczyźnie.</p>",
+            "name": "Miecz Przodków",
+            "effects": {
+                "Attack Roll Bonus": {
+                    "name": "Premia do rzutu ataku",
+                    "description": "Premia do rzutu ataku"
+                },
+                "Attack Damage Bonus": {
+                    "name": "Premia do obrażeń ataku",
+                    "description": "Premia do obrażeń ataku"
+                }
+            }
+        },
+        "The Kytherian Mechanism": {
+            "description": "<p><em>Wysoka, mosiężna platforma, na której zamontowano niezliczone koła zębate i przekładnie pokryte niebiesko-zieloną rdzą.</em></p><p><strong>Korzyść. </strong> Uchwyt obraca potężne koła Mechanizmu Kytheriańskiego, ale nie działa on, dopóki nie zostaną zastąpione siedem brakujących @UUID[Compendium.shadowdark.magic-items.Item.0c0G5Dnzq9Il8zZY]{Kytheriańskich kół zębatych}. </p><p>Po przywróceniu sprawności uruchomienie mechanizmu pozwala operatorowi cofnąć jedno wybrane przez siebie wydarzenie z historii. Następnie siedem kół zębatych z Kytherii w magiczny sposób rozprasza się w odległe zakątki świata.</p>",
+            "name": "Mechanizm Kytheriański",
+            "system.identification.name": "Nazwa zidentyfikowana"
+        },
+        "The Malediction Infernal": {
+            "description": "<p><em>Czarna, oprawiona w skórę księga z wytłoczoną na okładce uśmiechniętą twarzą demona.</em></p><p><strong>Korzyść.</strong> Istota chaotyczna, która przeczyta tę księgę, zyskuje jeden poziom i opanowuje język @UUID[Compendium.shadowdark.languages.Item.b5yBrLaRIl7ZEWKu]. </p><p>Istota niebędąca chaotyczna, która przeczyta tę księgę, musi zdać test [[check 18 wis]] lub straci jeden poziom.</p><p>Po przeczytaniu księga teleportuje się w odległe miejsce.</p>",
+            "name": "Piekielna klątwa",
+            "system.identification.name": "Nazwa zidentyfikowana"
+        },
+        "Thrice-Blessed Sword": {
+            "description": "<p><em>Lśniący miecz ze złotą rękojeścią, namaszczony błogosławionymi łzami, kadzidłem i modlitwami.</em></p><p><strong>Bonus.</strong> Miecz długi +3. Tylko kapłan przestrzegający prawa, który osiągnął tytuł templariusza lub wyższy, może władać tym mieczem. </p><p><strong>Korzyść.</strong> Zadajesz podwójne obrażenia demonom, diabłom i nieumarłym.</p><p><strong>Charakter.</strong> Praworządny. Cnotliwy, naiwny. Odmawia użycia przeciwko wyznawcom praworządnych bogów, zwłaszcza samozwańczym nawróconym. Wymaga, by każdy przeciwnik miał szansę nawrócić się przed śmiercią.</p>",
+            "name": "Trzykrotnie Błogosławiony Miecz",
+            "system.identification.name": "Nazwa zidentyfikowana",
+            "effects": {
+                "Weapon Attack Roll Bonus": {
+                    "name": "Premia do rzutu na atak bronią",
+                    "description": "Premia do rzutu na atak bronią"
+                },
+                "Weapon Attack Damage Bonus": {
+                    "name": "Premia do obrażeń zadawanych bronią",
+                    "description": "Premia do obrażeń zadawanych bronią"
+                },
+                "Double Damage vs Demons, Devils &  Undead": {
+                    "name": "Podwójne obrażenia przeciwko demonom, diabłom i nieumarłym",
+                    "description": "Podwójne obrażenia przeciwko demonom, diabłom i nieumarłym"
+                }
+            }
+        },
+        "tOLeg6MI1ii7c98V": {
+            "name": "Premia do obrażeń zadawanych bronią"
+        },
+        "Tome Mordanticus": {
+            "description": "<p><em>Ręcznie rysowany bestiariusz przedstawiający najciekawsze stworzenia i postacie z wieloświata. </em></p><p><strong>Korzyść. </strong> Czytając tę księgę, poznajesz trzy @UUID[Compendium.shadowdark.magic-items.Item.gNah418e2ykhDWDE]{Prawdziwe Imiona} (str. 319) trzech wybranych przez ciebie istot. Po przeczytaniu tomiska twoje Prawdziwe Imię również pojawia się w książce.</p><p><strong>Osobowość.</strong> Neutralna. Pedantyczna, wybredna. Książka nieustannie próbuje uciec swojemu właścicielowi i potrafi telepatycznie nawiązać kontakt z dowolnym stworzeniem znajdującym się w bliskiej odległości.</p>",
+            "name": "Księga Mordanticus",
+            "system.identification.name": "Nazwa zidentyfikowana"
+        },
+        "Tome of Gehemna": {
+            "description": "<p><em>Solidny, rdzawobrązowy tom spięty metalowymi klamrami. Okładkę zdobi złote oko w okręgu.</em></p><p><strong>Korzyść.</strong> Każdego dnia w tomie pojawia się losowy zwój zaklęcia czarodzieja, zastępujący zwój z poprzedniego dnia. </p><p><strong>Osobowość.</strong> Neutralna. Pouczająca, techniczna. Niezmiennie wygłasza tyrady na temat niejasnych aspektów rzucania zaklęć i ma opinię na temat techniki każdego czarodzieja.</p>",
+            "name": "Księga Gehemny",
+            "system.identification.name": "Nazwa zidentyfikowana"
+        },
+        "Tome of Hadebe": {
+            "description": "<p><em>Księga pokryta mosiądzem, której strony wykonano z wytrawionego liścia miedzianego.</em></p><p><strong>Korzyść. </strong> Tom zawiera po jednym egzemplarzu następujących zwojów: @UUID[Compendium.shadowdark.spells.Item.ItN82uLU3PhJFLNm] (str. 56), @UUID[Compendium.shadowdark.spells.Item.j2gvzfnMGQwxqgGg] (str. 60) oraz @UUID[Compendium.shadowdark.spells.Item.71VbHnopcTmRXz47] (str. 67).</p>",
+            "name": "Księga Hadebe",
+            "system.identification.name": "Nazwa zidentyfikowana"
+        },
+        "Trident of the Seas": {
+            "description": "<p><em>Trójzębny harpun z mithralu, wysadzany perłami.</em></p><p><strong>Premia.</strong> Włócznia +2. </p><p><strong>Korzyść.</strong> Możesz oddychać pod wodą, a także rozmawiać z dzikimi stworzeniami morskimi i rozumieć je. Raz na dzień możesz rzucić zaklęcie @UUID[Compendium.shadowdark.spells.Item.TKDuwFu1hP2lX549] (str. 57) z premią +4.</p>",
+            "name": "Trójząb Mórz",
+            "system.identification.name": "Nazwa zidentyfikowana",
+            "effects": {
+                "Weapon Attack Roll Bonus": {
+                    "name": "Premia do rzutu na atak bronią",
+                    "description": "Premia do rzutu na atak bronią"
+                },
+                "Weapon Attack Damage Bonus": {
+                    "name": "Premia do obrażeń zadawanych bronią",
+                    "description": "Premia do obrażeń zadawanych bronią"
+                },
+                "Bonus to Control Water": {
+                    "name": "Premia do kontroli wody",
+                    "description": "+4 do testów na rzucanie zaklęcia kontroli wody (1 raz dziennie)"
+                }
+            }
+        },
+        "True Name": {
+            "description": "<p><em>Tajne, niepowtarzalne imię, jakie nosi dane stworzenie i które zostało zapisane w Przymierzu. Niewiele stworzeń zna swoje Prawdziwe Imiona.</em></p><p><strong>Korzyść</strong>. Masz ułatwienie w rzutach ataku i testach rzucania zaklęć skierowanych przeciwko stworzeniu, którego Prawdziwe Imię wypowiadasz.</p>",
+            "name": "Prawdziwe Imie"
+        },
+        "U8i8NfAsHGKpezHN": {
+            "name": "Premia do rzutu na atak bronią"
+        },
+        "uBVpxbCrrpyNJxZS": {
+            "name": "Premia do obrażeń zadawanych bronią"
+        },
+        "UmHdci1cvynol7xU": {
+            "name": "Premia KP"
+        },
+        "un7hIgJAJuzdyLvo": {
+            "name": "Premia do rzutu na atak bronią"
+        },
+        "UTm25I1vjFzNqZKZ": {
+            "name": "Premia do obrażeń zadawanych bronią"
+        },
+        "Vigilant": {
+            "description": "<p><strong>Korzyść</strong>. Użytkownik nie może zostać zaskoczony.</p>",
+            "name": "Czujny",
+            "effects": {
+                "Weapon Attack Roll Bonus": {
+                    "name": "Premia do rzutu na atak bronią",
+                    "description": "Premia do rzutu na atak bronią"
+                },
+                "Weapon Attack Damage Bonus": {
+                    "name": "Premia do obrażeń zadawanych bronią",
+                    "description": "Premia do obrażeń zadawanych bronią"
+                },
+                "Attack Roll Bonus": {
+                    "name": "Premia do rzutu ataku",
+                    "description": "Premia do rzutu ataku"
+                },
+                "Attack Damage Bonus": {
+                    "name": "Premia do obrażeń ataku",
+                    "description": "Premia do obrażeń ataku"
+                }
+            }
+        },
+        "Vn1UKd6iBKvZh0tc": {
+            "name": "Premia do obrażeń zadawanych bronią"
+        },
+        "Wand of Blind/Deafen": {
+            "description": "<p>@UUID[Compendium.shadowdark.spells.ItoZZ0nli29N5d7G]</p><p>ST 12</p>",
+            "name": "Różdżka Oślepienia / Ogłuchnięcia"
+        },
+        "Wand of Unlife": {
+            "description": "<p><em>Guzowata kość palca bagiennego trolla nasączona gryząco pachnącym płynem balsamującym.</em></p><p><strong>Korzyść. </strong> Ta różdżka zawiera zaklęcia @UUID[Compendium.shadowdark.spells.Item.M702ErO4KOtMJzsK] (str. 54) oraz @UUID[Compendium.shadowdark.spells.Item.uNxbpd7fENzDUxfd] (str. 58). </p><p><strong>Klątwa.</strong> Za każdym razem, gdy użyjesz różdżki do rzucenia zaklęcia, otrzymujesz [[/r 1d4]] punktów obrażeń do Kondycji. Jeśli w wyniku tego efektu twoja Kondycja spadnie do 0, umierasz i zamieniasz się w zombie.</p>",
+            "name": "Różdżka Nieżycia",
+            "system.identification.name": "Nazwa zidentyfikowana"
+        },
+        "Wand of Warding": {
+            "description": "<p><em>Wąska, ciężka laska z ciemnego żelaza, pokryta spiralnymi runami.</em></p><p><strong>Korzyść. </strong> Ta różdżka zawiera zaklęcia @UUID[Compendium.shadowdark.spells.Item.6N33hyLWYZCRgkeX] (str. 59) oraz @UUID[Compendium.shadowdark.spells.Item.P9LFIH0PW4Zlx3RG] (str. 68). </p><p><strong>Klątwa.</strong> Za każdym razem, gdy nie uda ci się test rzucania zaklęć przy użyciu tej różdżki, tracisz również możliwość rzucania losowego zaklęcia, które znasz, aż do zakończenia odpoczynku.</p>",
+            "name": "Różdżka Ochronna",
+            "system.identification.name": "Nazwa zidentyfikowana"
+        },
+        "War Horn of the Angels": {
+            "description": "<p><em>Opalizujący róg bydlęcy zakończony złotym ustnikiem.</em></p><p><strong>Korzyść.</strong> Tylko istota przestrzegająca prawa może posługiwać się tym rogiem. Raz na dzień możesz zadąć w róg, aby rzucić zaklęcie @UUID[Compendium.shadowdark.spells.Item.hhCpwnqFy8ntO0jU] (str. 69) z premią +4.</p><p>Demon lub diabeł, który usłyszy dźwięk rogu, ma utrudnienie podczas testu Charyzmy przeciwko twojemu testowi rzucania zaklęcia „Potępienie nieświętych”.</p>",
+            "name": "Róg wojenny aniołów",
+            "system.identification.name": "Nazwa zidentyfikowana"
+        },
+        "Warhammer of the Dwarf Lords": {
+            "description": "<p><em>Młot o prostokątnym kształcie z solidną rączką i skórzanym paskiem do rzucania. Podczas obracania wydaje barytonowy dźwięk.</em></p><p><strong>Premia.</strong> Młot bojowy +1. +2, jeśli dzierży go krasnolud. </p><p><strong>Korzyść.</strong> Broń ta posiada właściwość rzucania (str. 37) na bliską odległość. Po rzuceniu zawsze wraca do twojej ręki.<br>Twoje ataki tą bronią zadają podwójne obrażenia olbrzymom.</p>",
+            "name": "Młot Władców Krasnoludów",
+            "system.identification.name": "Nazwa zidentyfikowana",
+            "effects": {
+                "Double Damage vs Giants": {
+                    "name": "Podwójne obrażenia przeciwko gigantom",
+                    "description": "Podwójne obrażenia przeciwko gigantom"
+                },
+                "Weapon Attack Roll Bonus": {
+                    "name": "Premia do rzutu na atak bronią",
+                    "description": "Premia do rzutu na atak bronią"
+                },
+                "Weapon Attack Damage Bonus": {
+                    "name": "Premia do obrażeń zadawanych bronią",
+                    "description": "Premia do obrażeń zadawanych bronią"
+                }
+            }
+        },
+        "Warhammer of the Dwarf Lords (Wielded by a Dwarf)": {
+            "description": "<p><em>Młot o prostokątnym kształcie z solidną rączką i skórzanym paskiem do rzucania. Podczas obracania wydaje barytonowy dźwięk.</em></p><p><strong>Premia.</strong> Młot bojowy +1. +2, jeśli dzierży go krasnolud. </p><p><strong>Korzyść.</strong> Broń ta posiada właściwość rzucania (str. 37) na bliską odległość. Po rzuceniu zawsze wraca do twojej ręki.<br>Twoje ataki tą bronią zadają podwójne obrażenia olbrzymom.</p>",
+            "name": "Młot Władców Krasnoludów (W rękach krasnoluda)",
+            "system.identification.name": "Nazwa zidentyfikowana",
+            "effects": {
+                "Weapon Attack Roll Bonus": {
+                    "name": "Premia do rzutu na atak bronią",
+                    "description": "Premia do rzutu na atak bronią"
+                },
+                "Weapon Attack Damage Bonus": {
+                    "name": "Premia do obrażeń zadawanych bronią",
+                    "description": "Premia do obrażeń zadawanych bronią"
+                },
+                "Double Damage vs Giants": {
+                    "name": "Podwójne obrażenia przeciwko gigantom",
+                    "description": "Podwójne obrażenia przeciwko gigantom"
+                }
+            }
+        },
+        "Well of Many Worlds": {
+            "description": "<p><em>Ciemny krąg z tkaniny, który wydaje się tworzyć tunel w powierzchni, na której leży.</em></p><p><strong>Efekt.</strong> Studnia Wielu Światów rozkłada się na płaskiej powierzchni, tworząc otwór o szerokości 6 stóp. Stworzenia mogą wskoczyć do otworu raz na dzień, by zostać przeniesione do losowej płaszczyzny egzystencji.</p>",
+            "name": "Studnia Wielu Światów",
+            "system.identification.name": "Nazwa zidentyfikowana"
+        },
+        "WhT5yrk9W2vCWs6X": {
+            "name": "Premia do rzutu na atak bronią"
+        },
+        "Wraith Chain": {
+            "description": "<p><em>Kolczuga z czarnych, mithralowych ogniw, z której zwisa długi płaszcz wijących się cieni.</em></p><p><strong>Premia. </strong> Kolczuga mithralowa +1. </p><p><strong>Korzyść. </strong> Raz na dzień możesz sprawić, że atak, który cię trafił, nie zadziała. </p>",
+            "name": "Kolczuga Upiorów",
+            "system.identification.name": "Nazwa zidentyfikowana"
+        },
+        "yMBdo0WUxtzRzji9": {
+            "name": "Premia do rzutu na atak bronią"
+        },
+        "yQZ0cvsfdvrSTM4o": {
+            "name": "Premia do obrażeń z dystansu"
+        },
+        "yrS7j3rhCRynCLL6": {
+            "name": "Premia do obrażeń z dystansu"
+        },
+        "Z4UACwRTky38K63x": {
+            "name": "Premia do rzutu na atak bronią"
+        },
+        "ZDqSlow0fxMp6JOf": {
+            "name": "Premia do obrażeń zadawanych bronią"
+        },
+        "zrPgEyvt0Qpp6rca": {
+            "name": "Stała cecha (Kon)"
+        }
+    }
+}
