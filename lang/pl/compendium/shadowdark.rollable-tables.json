@@ -4074,7 +4074,7 @@
                     "description": "Wędrujący @UUID[Compendium.shadowdark.monsters.RG84tprafQTDEFCa] szuka martwych zwierząt, aby się nimi pożywić"
                 },
                 "6-7": {
-                    "description": "Wrodzy pełzacze stają twarzą w twarz z bohaterami; to oni „byli tu pierwsi”"
+                    "description": "Wrodzy eksploratorzy stają twarzą w twarz z bohaterami; to oni „byli tu pierwsi”"
                 },
                 "8-9": {
                     "description": "[[/r 1d6]] @UUID[Compendium.shadowdark.monsters.qISCrzLvHr4uQ9Q8]{Rdzawe potwory} zalewają szczelinę, z której wydobywa się rtęć"
@@ -4149,7 +4149,7 @@
                     "description": "[[/r 1d6]] @UUID[Compendium.shadowdark.monsters.Jn5JjEPCUT86txAg]{Griki} rozszarpują martwe olbrzymie szczury i wykorzystują ich futro do budowy gniazd"
                 },
                 "58-59": {
-                    "description": "Wrogie pełzacze towarzyszą wątłej szlachciance-turystce w jej „przygodzie”"
+                    "description": "Wrogie eksploratorzy towarzyszą wątłej szlachciance-turystce w jej „przygodzie”"
                 },
                 "60-61": {
                     "description": "[[/r 3d4]] @UUID[Compendium.shadowdark.monsters.I7CMFbyFmFHVwE5U]{Gobliny} – padlinożercy, którzy wymieniają się i handlują dziwnymi bibelotami"
@@ -4212,7 +4212,7 @@
                     "description": "Rzuć dwoma kośćmi na spotkanie i zsumuj wyniki (w przypadku wyniku 98–99 rzuć ponownie)"
                 },
                 "100-100": {
-                    "description": "Ciało martwego pełzacza zawiera losowy przedmiot magiczny"
+                    "description": "Ciało martwego eksploratora zawiera losowy przedmiot magiczny"
                 },
                 "bzOTVXRwSmc4TBit": {
                     "name": "Spotkania w ruinach"
