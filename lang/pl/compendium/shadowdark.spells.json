@@ -323,7 +323,7 @@
         },
         "Lightning Bolt": {
             "description": "<p>Z dłoni wystrzeliwujesz niebiesko-białą błyskawicę, która uderza we wszystkie stworzenia znajdujące się na prostej linii aż do dalekiej odległości. </p><p>Stworzenia trafione błyskawicą otrzymują [[/r 3d6]] punktów obrażeń.</p>",
-            "name": "Piorun"
+            "name": "Błyskawica"
         },
         "Loki's Trickery": {
             "description": "<p>Jesteś przepełniony hipnotyczną przebiegłością Lokiego. Istoty, które usłyszą twoje słowa, zmienią swoje przekonania i wspomnienia tak, by odpowiadały twojej sugestii. </p><p>Wybierz jedną istotę w zasięgu, która może cię usłyszeć i zrozumieć. Wypowiadasz jedno wiarygodne stwierdzenie, prawdziwe lub nie. </p><p>Cel musi wykonać test Mądrości przeciwko twojemu testowi rzucania zaklęć. Jeśli test zakończy się niepowodzeniem, istota ta zacznie wierzyć w to, co powiedziałeś, jakby było to faktem, niezależnie od tego, co wie.</p>",
