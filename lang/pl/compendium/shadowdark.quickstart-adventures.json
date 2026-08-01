@@ -1,0 +1,1104 @@
+{
+    "label": "Przygody dla początkujących",
+    "mapping": {
+        "name": "name",
+        "description": "description",
+        "caption": "caption",
+        "folders": {
+            "path": "folders",
+            "converter": "nameCollection"
+        },
+        "journals": {
+            "path": "journal",
+            "converter": "document",
+            "documentType": "JournalEntry",
+            "cardinality": "many",
+            "mapping": {
+                "name": "name",
+                "pages": {
+                    "path": "pages",
+                    "converter": "document",
+                    "documentType": "JournalEntryPage",
+                    "cardinality": "many",
+                    "mapping": {
+                        "name": "name",
+                        "text": "text.content"
+                    }
+                }
+            }
+        },
+        "scenes": {
+            "path": "scenes",
+            "converter": "document",
+            "documentType": "Scene",
+            "cardinality": "many",
+            "mapping": {
+                "name": "name",
+                "navName": "navName"
+            }
+        },
+        "macros": {
+            "path": "macros",
+            "converter": "document",
+            "documentType": "Macro",
+            "cardinality": "many",
+            "mapping": {
+                "name": "name",
+                "command": "command"
+            }
+        },
+        "playlists": {
+            "path": "playlists",
+            "converter": "document",
+            "documentType": "Playlist",
+            "cardinality": "many",
+            "mapping": {
+                "name": "name",
+                "description": "description",
+                "sounds": {
+                    "path": "sounds",
+                    "converter": "document",
+                    "documentType": "PlaylistSound",
+                    "cardinality": "many",
+                    "mapping": {
+                        "name": "name",
+                        "description": "description"
+                    }
+                }
+            }
+        },
+        "tables": {
+            "path": "tables",
+            "converter": "document",
+            "documentType": "RollTable",
+            "cardinality": "many",
+            "mapping": {
+                "name": "name",
+                "results": {
+                    "path": "results",
+                    "converter": "document",
+                    "documentType": "TableResult",
+                    "cardinality": "many",
+                    "mapping": {
+                        "_identity": {
+                            "export": [
+                                "range",
+                                "_id"
+                            ],
+                            "match": [
+                                "_id",
+                                "range"
+                            ]
+                        },
+                        "name": {
+                            "path": "name",
+                            "converter": "referencedDocumentField",
+                            "uuidPath": "documentUuid",
+                            "referencedField": "name"
+                        },
+                        "description": "description"
+                    }
+                }
+            }
+        },
+        "items": {
+            "path": "items",
+            "converter": "document",
+            "documentType": "Item",
+            "cardinality": "many",
+            "mapping": {
+                "description": "system.description",
+                "effects": {
+                    "path": "effects",
+                    "converter": "document",
+                    "documentType": "ActiveEffect",
+                    "cardinality": "many",
+                    "mapping": {
+                        "name": "name",
+                        "description": "description"
+                    }
+                },
+                "name": "name"
+            }
+        },
+        "actors": {
+            "path": "actors",
+            "converter": "document",
+            "documentType": "Actor",
+            "cardinality": "many",
+            "mapping": {
+                "description": "system.notes",
+                "items": {
+                    "path": "items",
+                    "converter": "document",
+                    "documentType": "Item",
+                    "cardinality": "many",
+                    "mapping": {
+                        "description": "system.description",
+                        "name": "name"
+                    }
+                },
+                "name": "name",
+                "system.moveNote": "system.moveNote",
+                "tokenName": {
+                    "path": "prototypeToken.name",
+                    "converter": "name"
+                }
+            }
+        },
+        "cards": {
+            "path": "cards",
+            "converter": "document",
+            "documentType": "Cards",
+            "cardinality": "many",
+            "mapping": {
+                "name": "name",
+                "description": "description",
+                "cards": {
+                    "path": "cards",
+                    "converter": "document",
+                    "documentType": "Card",
+                    "cardinality": "many",
+                    "mapping": {
+                        "name": "name",
+                        "description": "description"
+                    }
+                }
+            }
+        }
+    },
+    "entries": {
+        "The Lost Citadel of the Scarlet Minotaur": {
+            "name": "Zaginiona Cytadela Szkarłatnego Minotaura",
+            "description": "<p>Dawno temu w Zaginionej Cytadeli mieszkała potężna grupa wojowników. Oddawali cześć bykom w coraz bardziej krwawych, pogańskich rytuałach, których kulminacją było przemienienie się ich przywódcy, Minorosa, w <strong>Szkarłatnego Minotaura</strong>. Ten nieśmiertelny awatar gniewu wymordował wojowników w ciągu jednej nocy pełnej chaosu. Jednak niektórzy z ich sług zdołali uciec przez ukryte korytarze, z których korzystali najniżsi rangą. Ci <strong>ludzie-bestie</strong> ukryli się w zrujnowanej cytadeli, uwięzieni przez przesądny strach przed światem zewnętrznym.</p>",
+            "caption": "Przygoda na poziomy 1–3 do gry RPG „Shadowdark”",
+            "folders": {
+                "The Lost Citadel": "Zaginiona Cytadela",
+                "NPCs": "Postacie niezależne",
+                "Named Ettercaps": "Nazwani Pajęczarze",
+                "Named Beastmen": "Nazwani Ludzie-bestie",
+                "Room 1: Mural Chamber": "Pomieszczenie 1: Komnata z malowidłem ściennym",
+                "Room 2: Blinding Cave": "Pomieszczenie 2: Jaskinia Oślepiająca",
+                "Room 3: Web-Choked Cave": "Pomieszczenie 3: Jaskinia pełna sieci",
+                "Room 4: Ettercap Nest": "Pomieszczenie 4: Gniazdo Pajęczarzy",
+                "Room 7: Bull Statue": "Pomieszczenie 7: Posąg byka",
+                "Room 9: Sorcerous Pillars": "Pomieszczenie 9: Magiczne filary",
+                "Room 10: Bull Statue": "Pomieszczenie 10: Posąg byka",
+                "Room 12: Armory": "Pomieszczenie 12: Zbrojownia",
+                "Room 15: Jar Storage": "Pomieszczenie 15: Magazyn słoików",
+                "Room 17: Broken Bull Statue": "Pomieszczenie 17: Zniszczony posąg byka",
+                "Room 18: Central Courtyard": "Pomieszczenie 18: Centralny dziedziniec",
+                "Room 19: Bas-Relief Hall": "Pomieszczenie 19: Sala płaskorzeźb",
+                "Treasure": "Skarb",
+                "Room 21: Throne Chamber": "Pomieszczenie 21: Sala Tronowa",
+                "Room 26: Hall of Kings": "Pomieszczenie 26: Sala Królów",
+                "Room 27: Sacrifice Cave": "Pomieszczenie 27: Jaskinia Ofiar"
+            },
+            "items": {
+                "Bloodlust": {
+                    "name": "Żądza krwi",
+                    "effects": {
+                        "Critical Multiplier": {
+                            "name": "Mnożnik krytyczny"
+                        },
+                        "Weapon Attack Roll Bonus": {
+                            "name": "Premia do rzutu na atak bronią"
+                        },
+                        "Weapon Attack Damage Bonus": {
+                            "name": "Premia do obrażeń zadawanych bronią"
+                        }
+                    }
+                },
+                "Silver-Inlaid Bull Horn": {
+                    "name": "Róg byka wysadzany srebrem"
+                },
+                "Pearl": {
+                    "name": "Perła"
+                },
+                "Scroll of Hold Portal": {
+                    "description": "<p>@UUID[Compendium.shadowdark.spells.q600IZtPTAgkz6vB]</p>",
+                    "name": "Zwój Podtrzymywania portalu"
+                },
+                "Alabaster Statuette of a Bull": {
+                    "name": "Alabastrowa statuetka byka"
+                },
+                "Jade Snake Bracelet": {
+                    "name": "Bransoletka z jadeitowym wężem"
+                },
+                "Necklace of Thick Gold Links": {
+                    "name": "Naszyjnik z grubych złotych ogniw"
+                },
+                "WKk0GVD1KHrI6fav": {
+                    "name": "Perła"
+                },
+                "Silver Incense Bowl": {
+                    "name": "Srebrna miseczka na kadzidło"
+                },
+                "Emerald": {
+                    "name": "Szmaragd"
+                },
+                "Emerald (Shattered)": {
+                    "name": "Szmaragd (Roztrzaskany)"
+                },
+                "Asterion": {
+                    "description": "<p><strong>Korzyść</strong>. Żadne stworzenie nie może przesunąć osoby dzierżącej tę broń wbrew jej woli.</p>",
+                    "name": "Asterion",
+                    "effects": {
+                        "Weapon Attack Roll Bonus": {
+                            "name": "Premia do rzutu na atak bronią"
+                        },
+                        "Weapon Attack Damage Bonus": {
+                            "name": "Premia do obrażeń zadawanych bronią"
+                        }
+                    }
+                },
+                "6NfZTinsbZBY5FVN": {
+                    "name": "Szmaragd"
+                },
+                "Xc1NkStj6yilbnSa": {
+                    "name": "Szmaragd (Roztrzaskany)"
+                },
+                "Scarab of Protection": {
+                    "description": "<p><em>Broszka wykonana z rogatego skarabeusza pokrytego złotem.</em></p><p><strong>Korzyść</strong>. Jeśli zginiesz, wykonaj test [[check 18 con]]. Jeśli test się powiedzie, zamiast zginąć, stracisz przytomność.</p>",
+                    "name": "Skarabeusz ochrony"
+                },
+                "Ivory Egg": {
+                    "description": "<p>Jajko w kolorze kości słoniowej z szarymi żyłkami w środku.</p>",
+                    "name": "Jajko z kości słoniowej"
+                },
+                "vykb09m5y4gCdVIS": {
+                    "name": "Szmaragd (Roztrzaskany)"
+                },
+                "Silver Locket": {
+                    "description": "<p>Srebrny medalion z wizerunkiem uśmiechniętej rudowłosej kobiety</p>",
+                    "name": "Srebrny medalion"
+                },
+                "Scroll of Burning Hands": {
+                    "description": "<p>Znajduje się w brązowej rurce ozdobionej jadeitowymi smokami.</p><p>@UUID[Compendium.shadowdark.spells.ItN82uLU3PhJFLNm]{Płonące dłonie}</p>",
+                    "name": "Zwój Płonących dłoni"
+                },
+                "Silvered Longsword": {
+                    "description": "<p>Posrebrzany miecz długi z głowicą w kształcie półksiężyca.</p>",
+                    "name": "Posrebrzany miecz długi"
+                },
+                "Scarred Mithral Shield": {
+                    "description": "<p>Zniszczona tarcza z mithralu z wyrzeźbionym wizerunkiem dzikiego tygrysa.</p>",
+                    "name": "Uszkodzona tarcza z mithralu"
+                },
+                "Silver, Horned Helm": {
+                    "name": "Srebrny hełm z rogami"
+                },
+                "Vigilant": {
+                    "description": "<p><strong>Korzyść</strong>. Użytkownik nie może zostać zaskoczony.</p>",
+                    "name": "Czujny",
+                    "effects": {
+                        "Weapon Attack Roll Bonus": {
+                            "name": "Premia do rzutu na atak bronią"
+                        },
+                        "Weapon Attack Damage Bonus": {
+                            "name": "Premia do obrażeń zadawanych bronią"
+                        }
+                    }
+                },
+                "Diadem": {
+                    "name": "Diadem"
+                },
+                "Boots of the Cat": {
+                    "description": "<p><em>Szare, zamszowe buty, cienkie i miękkie jak kapcie.</em></p><p><strong>Korzyść</strong>. Możesz skoczyć na bliską odległość z miejsca. Twoje próby cichego poruszania się są zawsze łatwe (ST 9).</p>",
+                    "name": "Buty kota"
+                },
+                "Wand of Blind/Deafen": {
+                    "description": "<p>@UUID[Compendium.shadowdark.spells.ItoZZ0nli29N5d7G]</p><p>ST 12</p>",
+                    "name": "Różdżka Oślepienia / Ogłuchnięcia"
+                },
+                "Onyx Bull Statuette": {
+                    "name": "Statuetka byka z onyksu"
+                },
+                "Tiny Bottle": {
+                    "name": "Malutka butelka"
+                }
+            },
+            "actors": {
+                "Giuseppe Baldini": {
+                    "description": "<p><em>Pospolity człowiek w znoszonym ubraniu.</em></p><p><strong>KP</strong> 10, <strong>PW</strong> 4, <strong>ATK</strong> 1 maczuga +0 (1k4), <strong>RUCH</strong> Bliski, <strong>Sił</strong> +0, <strong>Zrc</strong> +0, <strong>Kon</strong> +0, <strong>Int</strong> +0, <strong>Mdr</strong> +0, <strong>Cha</strong> +0, <strong>CHAR</strong> L, <strong>POZ</strong> 1</p>",
+                    "name": "Giuseppe Baldini",
+                    "tokenName": "Giuseppe Baldini",
+                    "items": {
+                        "Club": {
+                            "name": "Maczuga"
+                        }
+                    }
+                },
+                "The Scarlet Minotaur": {
+                    "description": "<p><em>Dzicy bykoludzie o kopytach i zakrzywionych rogach. Żyją w tunelach przypominających labirynty.</em></p><p><strong>KP</strong> 14 (kolczuga), <strong>PW</strong> 34, <strong>ATK</strong> 2 wielki topór +6 (1k10) i 1 atak rogami +6 (1k12), <strong>RUCH</strong> Bliski, <strong>Sił</strong> +4, <strong>Zrc</strong> +1, <strong>Kon</strong> +3, <strong>Int</strong> +1, <strong>Mdr</strong> +2, <strong>Cha</strong> +1, <strong>CHAR</strong> C, <strong>POZ</strong> 7</p><p><strong>Szarża.</strong> Zamiast ataków porusza się na dystans do Średniego w linii prostej i wykonuje 1 atak rogami. Przy trafieniu zadaje podwójne obrażenia.</p>",
+                    "name": "Szkarłatny Minotaur",
+                    "tokenName": "Szkarłatny Minotaur",
+                    "items": {
+                        "Charge": {
+                            "description": "<p>Zamiast ataków porusza się na dystans do Średniego w linii prostej i wykonuje 1 atak rogami. Przy trafieniu zadaje podwójne obrażenia.</p>",
+                            "name": "Szarża"
+                        },
+                        "Bloodlust": {
+                            "description": "<p>W przypadku trafienia krytycznego użytkownik zadaje ×4 obrażeń.</p>",
+                            "name": "Żądza krwi"
+                        },
+                        "Horns": {
+                            "name": "Rogi"
+                        }
+                    }
+                },
+                "Chee": {
+                    "description": "<p><em>Dwunożni, ośmioocy pajęczoludzie o cienkich nogach i purpurowym futrze.</em></p><p><strong>KP</strong> 12, <strong>PW</strong> 14, <strong>ATK</strong> 2 ugryzienie +2 (1k6) lub 1 zatruta pajęczyna (Bliski) +2, <strong>RUCH</strong> Bliski (wspinaczka), <strong>Sił</strong> +0, <strong>Zrc</strong> +2, <strong>Kon</strong> +1, <strong>Int</strong> +0, <strong>Mdr</strong> +0, <strong>Cha</strong> -1, <strong>CHAR</strong> C, <strong>POZ</strong> 3</p><p><strong>Zatruta pajęczyna.</strong> Jeden cel zostaje unieruchomiony i otrzymuje 1k4 obrażeń na rundę. W swojej turze może wykonać test [[check 12 dex]], aby się uwolnić.</p>",
+                    "name": "Chee",
+                    "system.moveNote": "Wspinanie",
+                    "tokenName": "Chee",
+                    "items": {
+                        "Poison Web": {
+                            "description": "<p>Jeden cel zostaje unieruchomiony i otrzymuje 1k4 obrażeń na rundę. W swojej turze może wykonać test [[check 12 dex]], aby się uwolnić.</p>",
+                            "name": "Zatruta pajęczyna"
+                        },
+                        "Bite": {
+                            "name": "Ugryzienie"
+                        },
+                        "xURhvz16GozH0j8f": {
+                            "name": "Zatruta pajęczyna"
+                        }
+                    }
+                },
+                "Eska": {
+                    "description": "<p><em>Dwunożni, ośmioocy pajęczoludzie o cienkich nogach i purpurowym futrze.</em></p><p><strong>KP</strong> 12, <strong>PW</strong> 14, <strong>ATK</strong> 2 ugryzienie +2 (1k6) lub 1 zatruta pajęczyna (Bliski) +2, <strong>RUCH</strong> Bliski (wspinaczka), <strong>Sił</strong> +0, <strong>Zrc</strong> +2, <strong>Kon</strong> +1, <strong>Int</strong> +0, <strong>Mdr</strong> +0, <strong>Cha</strong> -1, <strong>CHAR</strong> C, <strong>POZ</strong> 3</p><p><strong>Zatruta pajęczyna.</strong> Jeden cel zostaje unieruchomiony i otrzymuje 1k4 obrażeń na rundę. W swojej turze może wykonać test [[check 12 dex]], aby się uwolnić.</p>",
+                    "name": "Eska",
+                    "system.moveNote": "Wspinanie",
+                    "tokenName": "Eska",
+                    "items": {
+                        "Poison Web": {
+                            "description": "<p>Jeden cel zostaje unieruchomiony i otrzymuje 1k4 obrażeń na rundę. W swojej turze może wykonać test [[check 12 dex]], aby się uwolnić.</p>",
+                            "name": "Zatruta pajęczyna"
+                        },
+                        "Bite": {
+                            "name": "Ugryzienie"
+                        },
+                        "xURhvz16GozH0j8f": {
+                            "name": "Zatruta pajęczyna"
+                        }
+                    }
+                },
+                "Grisk": {
+                    "description": "<p><em>Dwunożni, ośmioocy pajęczoludzie o cienkich nogach i purpurowym futrze.</em></p><p><strong>KP</strong> 12, <strong>PW</strong> 14, <strong>ATK</strong> 2 ugryzienie +2 (1k6) lub 1 zatruta pajęczyna (Bliski) +2, <strong>RUCH</strong> Bliski (wspinaczka), <strong>Sił</strong> +0, <strong>Zrc</strong> +2, <strong>Kon</strong> +1, <strong>Int</strong> +0, <strong>Mdr</strong> +0, <strong>Cha</strong> -1, <strong>CHAR</strong> C, <strong>POZ</strong> 3</p><p><strong>Zatruta pajęczyna.</strong> Jeden cel zostaje unieruchomiony i otrzymuje 1k4 obrażeń na rundę. W swojej turze może wykonać test [[check 12 dex]], aby się uwolnić.</p>",
+                    "name": "Grisk",
+                    "system.moveNote": "Wspinanie",
+                    "tokenName": "Grisk",
+                    "items": {
+                        "Poison Web": {
+                            "description": "<p>Jeden cel zostaje unieruchomiony i otrzymuje 1k4 obrażeń na rundę. W swojej turze może wykonać test [[check 12 dex]], aby się uwolnić.</p>",
+                            "name": "Zatruta pajęczyna"
+                        },
+                        "Bite": {
+                            "name": "Ugryzienie"
+                        },
+                        "xURhvz16GozH0j8f": {
+                            "name": "Zatruta pajęczyna"
+                        }
+                    }
+                },
+                "Skir": {
+                    "description": "<p><em>Dwunożni, ośmioocy pajęczoludzie o cienkich nogach i purpurowym futrze.</em></p><p><strong>KP</strong> 12, <strong>PW</strong> 14, <strong>ATK</strong> 2 ugryzienie +2 (1k6) lub 1 zatruta pajęczyna (Bliski) +2, <strong>RUCH</strong> Bliski (wspinaczka), <strong>Sił</strong> +0, <strong>Zrc</strong> +2, <strong>Kon</strong> +1, <strong>Int</strong> +0, <strong>Mdr</strong> +0, <strong>Cha</strong> -1, <strong>CHAR</strong> C, <strong>POZ</strong> 3</p><p><strong>Zatruta pajęczyna.</strong> Jeden cel zostaje unieruchomiony i otrzymuje 1k4 obrażeń na rundę. W swojej turze może wykonać test [[check 12 dex]], aby się uwolnić.</p>",
+                    "name": "Skir",
+                    "system.moveNote": "Wspinanie",
+                    "tokenName": "Skir",
+                    "items": {
+                        "Poison Web": {
+                            "description": "<p>Jeden cel zostaje unieruchomiony i otrzymuje 1k4 obrażeń na rundę. W swojej turze może wykonać test [[check 12 dex]], aby się uwolnić.</p>",
+                            "name": "Zatruta pajęczyna"
+                        },
+                        "Bite": {
+                            "name": "Ugryzienie"
+                        },
+                        "xURhvz16GozH0j8f": {
+                            "name": "Zatruta pajęczyna"
+                        }
+                    }
+                },
+                "Uliss": {
+                    "description": "<p><em>Dwunożni, ośmioocy pajęczoludzie o cienkich nogach i purpurowym futrze.</em></p><p><strong>KP</strong> 12, <strong>PW</strong> 14, <strong>ATK</strong> 2 ugryzienie +2 (1k6) lub 1 zatruta pajęczyna (Bliski) +2, <strong>RUCH</strong> Bliski (wspinaczka), <strong>Sił</strong> +0, <strong>Zrc</strong> +2, <strong>Kon</strong> +1, <strong>Int</strong> +0, <strong>Mdr</strong> +0, <strong>Cha</strong> -1, <strong>CHAR</strong> C, <strong>POZ</strong> 3</p><p><strong>Zatruta pajęczyna.</strong> Jeden cel zostaje unieruchomiony i otrzymuje 1k4 obrażeń na rundę. W swojej turze może wykonać test [[check 12 dex]], aby się uwolnić.</p>",
+                    "name": "Uliss",
+                    "system.moveNote": "Wspinanie",
+                    "tokenName": "Uliss",
+                    "items": {
+                        "Poison Web": {
+                            "description": "<p>Jeden cel zostaje unieruchomiony i otrzymuje 1k4 obrażeń na rundę. W swojej turze może wykonać test [[check 12 dex]], aby się uwolnić.</p>",
+                            "name": "Zatruta pajęczyna"
+                        },
+                        "Bite": {
+                            "name": "Ugryzienie"
+                        },
+                        "xURhvz16GozH0j8f": {
+                            "name": "Zatruta pajęczyna"
+                        }
+                    }
+                },
+                "Yisha": {
+                    "description": "<p><em>Dwunożni, ośmioocy pajęczoludzie o cienkich nogach i purpurowym futrze.</em></p><p><strong>KP</strong> 12, <strong>PW</strong> 14, <strong>ATK</strong> 2 ugryzienie +2 (1k6) lub 1 zatruta pajęczyna (Bliski) +2, <strong>RUCH</strong> Bliski (wspinaczka), <strong>Sił</strong> +0, <strong>Zrc</strong> +2, <strong>Kon</strong> +1, <strong>Int</strong> +0, <strong>Mdr</strong> +0, <strong>Cha</strong> -1, <strong>CHAR</strong> C, <strong>POZ</strong> 3</p><p><strong>Zatruta pajęczyna.</strong> Jeden cel zostaje unieruchomiony i otrzymuje 1k4 obrażeń na rundę. W swojej turze może wykonać test [[check 12 dex]], aby się uwolnić.</p>",
+                    "name": "Yisha",
+                    "system.moveNote": "Wspinanie",
+                    "tokenName": "Yisha",
+                    "items": {
+                        "Poison Web": {
+                            "description": "<p>Jeden cel zostaje unieruchomiony i otrzymuje 1k4 obrażeń na rundę. W swojej turze może wykonać test [[check 12 dex]], aby się uwolnić.</p>",
+                            "name": "Zatruta pajęczyna"
+                        },
+                        "Bite": {
+                            "name": "Ugryzienie"
+                        },
+                        "xURhvz16GozH0j8f": {
+                            "name": "Zatruta pajęczyna"
+                        }
+                    }
+                },
+                "Haruut": {
+                    "description": "<p><em>Jaskiniowy człowiekowaty o zmierzwionym futrze i włóczni z kamiennym grotem.</em></p><p><strong>KP</strong> 12 (skórznia), <strong>PW </strong>5, <strong>ATK</strong> 1 włócznia (Zwarcie/Bliski) +2 (1k6 + 1), <strong>RUCH</strong> Bliski, <strong>Sił</strong> +2, <strong>Zrc</strong> +1, <strong>Kon</strong> +1, <strong>Int</strong> -2, <strong>Mdr</strong> +1, <strong>Cha</strong> -1, <strong>CHAR </strong>C,<strong> POZ </strong>1</p><p><strong>Brutalny</strong>. +1 do obrażeń bronią wręcz (uwzględniono).</p>",
+                    "name": "Haruut",
+                    "tokenName": "Haruut",
+                    "items": {
+                        "Spear": {
+                            "description": "<p>Zwarcie/Bliski</p>",
+                            "name": "Włócznia"
+                        },
+                        "Brutal": {
+                            "description": "<p>+1 do obrażeń zadawanych bronią do walki wręcz (uwzględniono).</p>",
+                            "name": "Brutalny"
+                        }
+                    }
+                },
+                "Grall": {
+                    "description": "<p><em>Jaskiniowy człowiekowaty o zmierzwionym futrze i włóczni z kamiennym grotem.</em></p><p><strong>KP</strong> 12 (skórznia), <strong>PW </strong>5, <strong>ATK</strong> 1 włócznia (Zwarcie/Bliski) +2 (1k6 + 1), <strong>RUCH</strong> Bliski, <strong>Sił</strong> +2, <strong>Zrc</strong> +1, <strong>Kon</strong> +1, <strong>Int</strong> -2, <strong>Mdr</strong> +1, <strong>Cha</strong> -1, <strong>CHAR </strong>C,<strong> POZ </strong>1</p><p><strong>Brutalny</strong>. +1 do obrażeń bronią wręcz (uwzględniono).</p>",
+                    "name": "Grall",
+                    "tokenName": "Grall",
+                    "items": {
+                        "Spear": {
+                            "description": "<p>Zwarcie/Bliski</p>",
+                            "name": "Włócznia"
+                        },
+                        "Brutal": {
+                            "description": "<p>+1 do obrażeń zadawanych bronią do walki wręcz (uwzględniono).</p>",
+                            "name": "Brutalny"
+                        }
+                    }
+                },
+                "Chops": {
+                    "description": "<p><em>Jaskiniowy człowiekowaty o zmierzwionym futrze i włóczni z kamiennym grotem.</em></p><p><strong>KP</strong> 12 (skórznia), <strong>PW </strong>5, <strong>ATK</strong> 1 włócznia (Zwarcie/Bliski) +2 (1k6 + 1), <strong>RUCH</strong> Bliski, <strong>Sił</strong> +2, <strong>Zrc</strong> +1, <strong>Kon</strong> +1, <strong>Int</strong> -2, <strong>Mdr</strong> +1, <strong>Cha</strong> -1, <strong>CHAR </strong>C,<strong> POZ </strong>1</p><p><strong>Brutalny</strong>. +1 do obrażeń bronią wręcz (uwzględniono).</p>",
+                    "name": "Chops",
+                    "tokenName": "Chops",
+                    "items": {
+                        "Spear": {
+                            "description": "<p>Zwarcie/Bliski</p>",
+                            "name": "Włócznia"
+                        },
+                        "Brutal": {
+                            "description": "<p>+1 do obrażeń zadawanych bronią do walki wręcz (uwzględniono).</p>",
+                            "name": "Brutalny"
+                        }
+                    }
+                },
+                "Brell": {
+                    "description": "<p><em>Jaskiniowy człowiekowaty o zmierzwionym futrze i włóczni z kamiennym grotem.</em></p><p><strong>KP</strong> 12 (skórznia), <strong>PW </strong>5, <strong>ATK</strong> 1 włócznia (Zwarcie/Bliski) +2 (1k6 + 1), <strong>RUCH</strong> Bliski, <strong>Sił</strong> +2, <strong>Zrc</strong> +1, <strong>Kon</strong> +1, <strong>Int</strong> -2, <strong>Mdr</strong> +1, <strong>Cha</strong> -1, <strong>CHAR </strong>C,<strong> POZ </strong>1</p><p><strong>Brutalny</strong>. +1 do obrażeń bronią wręcz (uwzględniono).</p>",
+                    "name": "Brell",
+                    "tokenName": "Brell",
+                    "items": {
+                        "Spear": {
+                            "description": "<p>Zwarcie/Bliski</p>",
+                            "name": "Włócznia"
+                        },
+                        "Brutal": {
+                            "description": "<p>+1 do obrażeń zadawanych bronią do walki wręcz (uwzględniono).</p>",
+                            "name": "Brutalny"
+                        }
+                    }
+                },
+                "Rogath": {
+                    "description": "<p><em>Jaskiniowy człowiekowaty o zmierzwionym futrze i włóczni z kamiennym grotem.</em></p><p><strong>KP</strong> 12 (skórznia), <strong>PW </strong>5, <strong>ATK</strong> 1 włócznia (Zwarcie/Bliski) +2 (1k6 + 1), <strong>RUCH</strong> Bliski, <strong>Sił</strong> +2, <strong>Zrc</strong> +1, <strong>Kon</strong> +1, <strong>Int</strong> -2, <strong>Mdr</strong> +1, <strong>Cha</strong> -1, <strong>CHAR </strong>C,<strong> POZ </strong>1</p><p><strong>Brutalny</strong>. +1 do obrażeń bronią wręcz (uwzględniono).</p>",
+                    "name": "Rogath",
+                    "tokenName": "Rogath",
+                    "items": {
+                        "Spear": {
+                            "description": "<p>Zwarcie/Bliski</p>",
+                            "name": "Włócznia"
+                        },
+                        "Brutal": {
+                            "description": "<p>+1 do obrażeń zadawanych bronią do walki wręcz (uwzględniono).</p>",
+                            "name": "Brutalny"
+                        }
+                    }
+                },
+                "Grenton": {
+                    "description": "<p><em>Jaskiniowy człowiekowaty o zmierzwionym futrze i włóczni z kamiennym grotem.</em></p><p><strong>KP</strong> 12 (skórznia), <strong>PW </strong>5, <strong>ATK</strong> 1 włócznia (Zwarcie/Bliski) +2 (1k6 + 1), <strong>RUCH</strong> Bliski, <strong>Sił</strong> +2, <strong>Zrc</strong> +1, <strong>Kon</strong> +1, <strong>Int</strong> -2, <strong>Mdr</strong> +1, <strong>Cha</strong> -1, <strong>CHAR </strong>C,<strong> POZ </strong>1</p><p><strong>Brutalny</strong>. +1 do obrażeń bronią wręcz (uwzględniono).</p>",
+                    "name": "Grenton",
+                    "tokenName": "Grenton",
+                    "items": {
+                        "Spear": {
+                            "description": "<p>Zwarcie/Bliski</p>",
+                            "name": "Włócznia"
+                        },
+                        "Brutal": {
+                            "description": "<p>+1 do obrażeń zadawanych bronią do walki wręcz (uwzględniono).</p>",
+                            "name": "Brutalny"
+                        }
+                    }
+                },
+                "Hargol": {
+                    "description": "<p><em>Jaskiniowy człowiekowaty o zmierzwionym futrze i włóczni z kamiennym grotem.</em></p><p><strong>KP</strong> 12 (skórznia), <strong>PW </strong>5, <strong>ATK</strong> 1 włócznia (Zwarcie/Bliski) +2 (1k6 + 1), <strong>RUCH</strong> Bliski, <strong>Sił</strong> +2, <strong>Zrc</strong> +1, <strong>Kon</strong> +1, <strong>Int</strong> -2, <strong>Mdr</strong> +1, <strong>Cha</strong> -1, <strong>CHAR </strong>C,<strong> POZ </strong>1</p><p><strong>Brutalny</strong>. +1 do obrażeń bronią wręcz (uwzględniono).</p>",
+                    "name": "Hargol",
+                    "tokenName": "Hargol",
+                    "items": {
+                        "Spear": {
+                            "description": "<p>Zwarcie/Bliski</p>",
+                            "name": "Włócznia"
+                        },
+                        "Brutal": {
+                            "description": "<p>+1 do obrażeń zadawanych bronią do walki wręcz (uwzględniono).</p>",
+                            "name": "Brutalny"
+                        }
+                    }
+                },
+                "Beetle": {
+                    "description": "<p><em>Jaskiniowy człowiekowaty o zmierzwionym futrze i włóczni z kamiennym grotem.</em></p><p><strong>KP</strong> 12 (skórznia), <strong>PW </strong>5, <strong>ATK</strong> 1 włócznia (Zwarcie/Bliski) +2 (1k6 + 1), <strong>RUCH</strong> Bliski, <strong>Sił</strong> +2, <strong>Zrc</strong> +1, <strong>Kon</strong> +1, <strong>Int</strong> -2, <strong>Mdr</strong> +1, <strong>Cha</strong> -1, <strong>CHAR </strong>C,<strong> POZ </strong>1</p><p><strong>Brutalny</strong>. +1 do obrażeń bronią wręcz (uwzględniono).</p>",
+                    "name": "Żuk",
+                    "tokenName": "Żuk",
+                    "items": {
+                        "Spear": {
+                            "description": "<p>Zwarcie/Bliski</p>",
+                            "name": "Włócznia"
+                        },
+                        "Brutal": {
+                            "description": "<p>+1 do obrażeń zadawanych bronią do walki wręcz (uwzględniono).</p>",
+                            "name": "Brutalny"
+                        }
+                    }
+                },
+                "Irvog": {
+                    "description": "<p><em>Jaskiniowy człowiekowaty o zmierzwionym futrze i włóczni z kamiennym grotem.</em></p><p><strong>KP</strong> 12 (skórznia), <strong>PW </strong>5, <strong>ATK</strong> 1 włócznia (Zwarcie/Bliski) +2 (1k6 + 1), <strong>RUCH</strong> Bliski, <strong>Sił</strong> +2, <strong>Zrc</strong> +1, <strong>Kon</strong> +1, <strong>Int</strong> -2, <strong>Mdr</strong> +1, <strong>Cha</strong> -1, <strong>CHAR </strong>C,<strong> POZ </strong>1</p><p><strong>Brutalny</strong>. +1 do obrażeń bronią wręcz (uwzględniono).</p>",
+                    "name": "Irvog",
+                    "tokenName": "Irvog",
+                    "items": {
+                        "Spear": {
+                            "description": "<p>Zwarcie/Bliski</p>",
+                            "name": "Włócznia"
+                        },
+                        "Brutal": {
+                            "description": "<p>+1 do obrażeń zadawanych bronią do walki wręcz (uwzględniono).</p>",
+                            "name": "Brutalny"
+                        }
+                    }
+                },
+                "Blort": {
+                    "description": "<p><em>Jaskiniowy człowiekowaty o zmierzwionym futrze i włóczni z kamiennym grotem.</em></p><p><strong>KP</strong> 12 (skórznia), <strong>PW </strong>5, <strong>ATK</strong> 1 włócznia (Zwarcie/Bliski) +2 (1k6 + 1), <strong>RUCH</strong> Bliski, <strong>Sił</strong> +2, <strong>Zrc</strong> +1, <strong>Kon</strong> +1, <strong>Int</strong> -2, <strong>Mdr</strong> +1, <strong>Cha</strong> -1, <strong>CHAR </strong>C,<strong> POZ </strong>1</p><p><strong>Brutalny</strong>. +1 do obrażeń bronią wręcz (uwzględniono).</p>",
+                    "name": "Blort",
+                    "tokenName": "Blort",
+                    "items": {
+                        "Spear": {
+                            "description": "<p>Zwarcie/Bliski</p>",
+                            "name": "Włócznia"
+                        },
+                        "Brutal": {
+                            "description": "<p>+1 do obrażeń zadawanych bronią do walki wręcz (uwzględniono).</p>",
+                            "name": "Brutalny"
+                        }
+                    }
+                },
+                "Scarab, Swarm": {
+                    "description": "<p><em>Brzęcząca chmura opalizujących chrząszczy o owalnych ciałach.</em></p><p><strong>KP</strong> 13, <strong>PW</strong> 14, <strong>ATK</strong> 2 ugryzienie +3 (1k6), <strong>RUCH</strong> Bliski (lot), <strong>Sił</strong> -1, <strong>Zrc</strong> +3, <strong>Kon</strong> +1, <strong>Int</strong> -3, <strong>Mdr</strong> +0, <strong>Cha</strong> -3, <strong>CHAR</strong> N, <strong>POZ</strong> 3</p>",
+                    "name": "Skarabeusz, rój",
+                    "system.moveNote": "Lot",
+                    "tokenName": "Skarabeusz, rój",
+                    "items": {
+                        "Bite": {
+                            "name": "Ugryzienie"
+                        }
+                    }
+                },
+                "Skeleton": {
+                    "description": "<p><em>Szkielet o wybielonych kościach, z czerwonymi punkcikami światła w oczodołach.</em></p><p><strong>KP</strong> 13 (kolczuga), <strong>PW</strong> 11, <strong>ATK</strong> 1 krótki miecz +1 (1k6) lub 1 krótki łuk (Daleki) +0 (1k4), <strong>RUCH</strong> Bliski, <strong>Sił</strong> +1, <strong>Zrc</strong> +0, <strong>Kon</strong> +2, <strong>Int</strong> -2, <strong>Mdr</strong> +0, <strong>Cha</strong> -1, <strong>CHAR</strong> C, <strong>POZ</strong> 2</p><p><strong>Nieumarły.</strong> Niewrażliwy na testy morale.</p>",
+                    "name": "Szkielet",
+                    "tokenName": "Szkielet",
+                    "items": {
+                        "Undead": {
+                            "description": "<p>Niewrażliwy na testy morale.</p>",
+                            "name": "Nieumarłego"
+                        },
+                        "Shortsword": {
+                            "name": "Krótki miecz"
+                        },
+                        "Shortbow": {
+                            "name": "Krótki łuk"
+                        }
+                    }
+                },
+                "Beastman": {
+                    "description": "<p><em>Jaskiniowy człowiekowaty o zmierzwionym futrze i włóczni z kamiennym grotem.</em></p><p><strong>KP</strong> 12 (skórznia), <strong>PW </strong>5, <strong>ATK</strong> 1 włócznia (Zwarcie/Bliski) +2 (1k6 + 1), <strong>RUCH</strong> Bliski, <strong>Sił</strong> +2, <strong>Zrc</strong> +1, <strong>Kon</strong> +1, <strong>Int</strong> -2, <strong>Mdr</strong> +1, <strong>Cha</strong> -1, <strong>CHAR </strong>C,<strong> POZ </strong>1</p><p><strong>Brutalny</strong>. +1 do obrażeń bronią wręcz (uwzględniono).</p>",
+                    "name": "Zwierzoludź",
+                    "tokenName": "Zwierzoludź",
+                    "items": {
+                        "Spear": {
+                            "description": "<p>Zwarcie/Bliski</p>",
+                            "name": "Włócznia"
+                        },
+                        "Brutal": {
+                            "description": "<p>+1 do obrażeń zadawanych bronią do walki wręcz (uwzględniono).</p>",
+                            "name": "Brutalny"
+                        }
+                    }
+                },
+                "Animated Armor": {
+                    "description": "<p><em>Stary pancerz magicznie ożywiony przez mściwego ducha.</em></p><p><strong>KP</strong> 15, <strong>PW</strong> 11, <strong>ATK</strong> 1 długi miecz +3 (1k8), <strong>RUCH</strong> Bliski, <strong>Sił</strong> +3, <strong>Zrc</strong> -1, <strong>Kon</strong> +2, <strong>Int</strong> -1, <strong>Mdr</strong> +1, <strong>Cha</strong> +0, <strong>CHAR</strong> C, <strong>POZ</strong> 2</p><p><strong>Posąg</strong>. Gdy pozostaje nieruchomy, wygląda dokładnie jak zwykły pancerz.</p>",
+                    "name": "Ożywiony pancerz",
+                    "tokenName": "Ożywiony pancerz",
+                    "items": {
+                        "Longsword": {
+                            "name": "Długi miecz"
+                        },
+                        "Statue": {
+                            "description": "<p>Gdy stoi w bezruchu, wygląda dokładnie jak zbroja.</p>",
+                            "name": "Posąg"
+                        }
+                    }
+                },
+                "Ochre Jelly": {
+                    "description": "<p><em>Pomarańczowa kałuża drżącego śluzu.</em></p><p><strong>KP</strong> 9, <strong>PW</strong> 20, <strong>ATK</strong> 2 macki +3 (1k6), <strong>RUCH</strong> Bliski (wspinaczka), <strong>Sił</strong> +2, <strong>Zrc</strong> -1, <strong>Kon</strong> +2, <strong>Int</strong> -4, <strong>Mdr</strong> -3, <strong>Cha</strong> -4, <strong>CHAR</strong> N, <strong>POZ</strong> 4</p><p><strong>Rozszczepienie.</strong> Jeśli zostanie przecięty lub porąbany, dzieli się na dwa mniejsze szlamy (podziel pozostałe PW między oba). Może rozdzielić się maksymalnie cztery razy.</p>",
+                    "name": "Żółta galareta",
+                    "system.moveNote": "Wspinanie",
+                    "tokenName": "Żółta galareta",
+                    "items": {
+                        "Split": {
+                            "description": "<p>Jeśli zostanie przecięty lub porąbany, dzieli się na dwa mniejsze szlamy (podziel pozostałe PW między oba). Może rozdzielić się maksymalnie cztery razy.</p>",
+                            "name": "Rozszczepienie"
+                        },
+                        "Tentacle": {
+                            "name": "Macka"
+                        }
+                    }
+                }
+            },
+            "journals": {
+                "The Lost Citadel": {
+                    "name": "Zaginiona Cytadela",
+                    "pages": {
+                        "Area 1-27": {
+                            "name": "Obszar 1-27",
+                            "text": "<p><strong>Poziom zagrożenia</strong>. Ryzykowny. Sprawdzaj wystąpienie spotkania co <strong>2</strong> rundy eksploracji lub gdy postacie graczy wywołają głośny hałas (1k6, 1 = spotkanie).</p><p><strong>Światło</strong>. Całkowita ciemność, o ile nie zaznaczono inaczej. Wszyscy mieszkańcy są przystosowani do ciemności.</p><p><strong>Drzwi</strong>. Kamienne. Szansa 1:6, że są zablokowane. Otwarte, o ile nie zaznaczono inaczej.</p><p><strong>NPC</strong>. Generatory NPC zwierzoludzi i ettercapów znajdują się na @UUID[.ji9paT4DbaYTmMPm]{str. 64}.</p><p><strong>Szkarłatny Minotaur</strong>. Za każdym razem, gdy po pierwszym rzucie wykonujesz kolejny rzut w tabeli Losowych spotkań, zastosuj do wyniku <strong>kumulatywne -2</strong> (wyniki poniżej 1 traktuj jako 1). Wyzeruj tę wartość za każdym razem, gdy dojdzie do spotkania ze Szkarłatnym Minotaurem.</p><p>@UUID[Macro.uQOjVmE0co1U8yws]{Zaginiona Cytadela: Test losowego spotkania}</p><table style=\"width:100%\"><caption>Plotki</caption><tbody><tr><td style=\"text-align:center\"><p>d8</p></td><td><p>Szczegóły</p></td></tr><tr><td style=\"text-align:center\"><p>1</p></td><td><p><strong>@UUID[Actor.XPNU79kJyse04pL3]{Szkarłatny Minotaur}</strong> (Obszar 18) pojawia się w zasięgu wzroku, rycząc wyzwania i grzebiąc kopytem w kamieniu</p></td></tr><tr><td style=\"text-align:center\"><p>2</p></td><td><p><strong>[[/r 1d4]] @UUID[Compendium.shadowdark.monsters.Actor.fcgq7uwsJEMMdRNx]{ettercapy}</strong> i <strong>[[/r 1d8]]</strong> <strong>@UUID[Compendium.shadowdark.monsters.Actor.k8tAgECWIzPIStGU]{zwierzoludzi}</strong> ścierają się w krwawej walce wręcz</p></td></tr><tr><td style=\"text-align:center\"><p>3</p></td><td><p>Suchy podmuch wiatru gasi wszystkie pochodnie i lampy</p></td></tr><tr><td style=\"text-align:center\"><p>4</p></td><td><p><strong>[[/r 1d6]]</strong> <strong>@UUID[Compendium.shadowdark.monsters.Actor.fcgq7uwsJEMMdRNx]{ettercapów}</strong> skrada się korytarzem w poszukiwaniu złota i klejnotów</p></td></tr><tr><td style=\"text-align:center\"><p>5</p></td><td><p><strong>@UUID[Compendium.shadowdark.monsters.Actor.cWzG0yEVgIk8ijk6]{Szkielety}</strong> <strong>[[/r 1d6]]</strong> martwych poszukiwaczy przygód lub wojowników-magów zataczają się w zasięg wzroku</p></td></tr><tr><td style=\"text-align:center\"><p>6</p></td><td><p><strong>[[/r 2d4]]</strong> <strong>@UUID[Compendium.shadowdark.monsters.Actor.k8tAgECWIzPIStGU]{zwierzoludzi}</strong> spiera się przyciszonymi głosami o to, kto zje pareczniki, które właśnie schwytali do worka</p></td></tr><tr><td style=\"text-align:center\"><p>7</p></td><td><p><strong>[[/r 1d4]]</strong> <strong>@UUID[Compendium.shadowdark.monsters.Actor.0JAEN5FsKjaXXZaA]{mroczne płaszczki}</strong> nadlatują, podskakując i wirując w ostrzegawczym tańcu terytorialnym</p></td></tr><tr><td style=\"text-align:center\"><p>8</p></td><td><p><strong>@UUID[Compendium.shadowdark.monsters.Actor.j7sQ6Km2jSx5twCC]{Jaskiniowy pełzacz}</strong> pędzi po suficie w stronę światła</p></td></tr></tbody></table>"
+                        },
+                        "Room 1: Mural Chamber": {
+                            "name": "Pomieszczenie 1: Komnata z malowidłem ściennym",
+                            "text": "<p><strong>Ściany</strong>: Malowidła od podłogi po sufit, utrzymane w żywych, klejnotowych barwach. <strong>Czerwone filary</strong>: Zwężające się, u góry i u dołu przepasane czarnym marmurem.</p><ul><li><p><strong>Malowidła</strong>. Ludzie w białych szatach klęczą w sali czerwonych filarów przed kolosalnym onyksowym bykiem o opuszczonych rogach.</p><ul><li><p><strong>Ukryta nisza</strong>. Za posągiem byka. @UUID[Item.r893z0hIf4LSdPs3]{Róg byka inkrustowany srebrem} (30 SZ).</p></li></ul></li><li><p><strong>NPC ettercapa. Eska</strong> (podstępna, nielojalna). Właśnie ukryła skradzioną perłę w Obszarze 2. Kryje się w północno-wschodnim rogu sufitu. Jeśli zostanie zaatakowana, wydaje alarmujący skrzek i ucieka w stronę Obszaru 4.</p><ul><li><p><strong>Ucieczka</strong>. Trzy ettercapy z Obszaru 4 przygotowują <strong>zasadzkę</strong> w Obszarze 2.</p></li></ul></li></ul>"
+                        },
+                        "Room 2: Blinding Cave": {
+                            "name": "Pomieszczenie 2: Jaskinia Oślepiająca",
+                            "text": "<p><strong>Ściany</strong>: Usiane niezliczonymi gładkimi odłamkami kwarcu. <strong>Białe pakunki</strong>: Wielkości człowieka, kilka wepchniętych w narożniki jaskini.</p><ul><li><p><strong>Zasadzka ettercapów.</strong> Jeśli Eska w Obszarze 1 podniosła alarm, trzy wrogie @UUID[Compendium.shadowdark.monsters.Actor.fcgq7uwsJEMMdRNx]{ettercapy} z Obszaru 4 czepiają się sufitu na wysokości 20 stóp.</p></li><li><p><strong>Ściany</strong>. Oślepiająco odblaskowe. [[request 12 dex]] przy wejściu z jasnym światłem albo oślepienie na [[/r 1d4]] rund (ettercapy są niewrażliwe).</p><ul><li><p><strong>Wydobycie</strong>. Ostrożnie wydobyty fragment ściany jaskini może służyć jako lustro.</p></li></ul></li><li><p><strong>Białe pakunki</strong>. Pięciu <strong>@UUID[Compendium.shadowdark.monsters.k8tAgECWIzPIStGU]{zwierzoludzi}</strong> owiniętych jedwabiem ettercapów. Szansa 1:6, że jeden z nich wciąż żyje. @UUID[Item.7unKOF9uy9ECqkEy]{Perła} (40 SZ) ukryta w ustach jednego z nich.</p></li></ul>"
+                        },
+                        "Room 3: Web-Choked Cave": {
+                            "name": "Pomieszczenie 3: Jaskinia pełna sieci",
+                            "text": "<p><strong>Ściany i podłoga</strong>: Pokryte grubymi, zwiewnymi płachtami pajęczyn.</p><ul><li><p><strong>Pajęczyny</strong>. Lepkie. [[request 12 str]], aby się uwolnić i poruszyć w każdej turze. Wysoce łatwopalne ([[/r 1d6]] obrażeń dla uwięzionych istot, płoną przez [[/r 1d4]] rund).</p><ul><li><p><strong>Zwinięty pergamin</strong>. Uwięziony w pajęczynach na wysokości 10 stóp.<em>@UUID[Item.Jo88wNZQdCtvuuuS]{Zwój zablokowania portalu}</em> .</p></li></ul></li><li><p><strong>Sekretny tunel</strong>. Ukryty za ścianą pajęczyn. Ettercapy ponownie go zasnuwają za każdym razem, gdy przez niego przechodzą.</p><ul><li><p><strong>Chrobotanie</strong>. Nasłuchujący słyszą z Obszaru 4 przenikliwe, chichotliwe szepty.</p></li></ul></li></ul>"
+                        },
+                        "Room 4: Ettercap Nest": {
+                            "name": "Pomieszczenie 4: Gniazdo Pajęczarzy",
+                            "text": "<p><strong>Istoty</strong>: Grupa brzuchatych humanoidów o purpurowym futrze i cienkich nogach. Warczą na siebie z powodu zaginionej perły. <strong>Jaskinia</strong>: Ciasna, wszędzie kępki pajęczyn. <strong>Podłoga</strong>: Równe stosiki złota i lśniących przedmiotów. <strong>Sufit</strong>: Niski (10 stóp), trzy wąskie szyby (1 stopa).</p><ul><li><p><strong>@UUID[Compendium.shadowdark.monsters.fcgq7uwsJEMMdRNx]{Ettercapy.}</strong> Pięć. Trzy udają się do Obszaru 2, jeśli <strong>@UUID[Actor.QvVJAySJZMTMnEZp]{Eska}</strong> (Obszar 1) podniesie alarm. Mogą podjąć pertraktacje, ale są zgubnie owładnięte obsesją na punkcie skarbów. Jeśli przeciwnicy okażą się zbyt silni, przeciskają się przez szyby w suficie, zabierając po garści łupów należących do pozostałych.</p><ul><li><p><strong>NPC</strong>. <strong>@UUID[Actor.1WXEDbF6gSa4fQUQ]{Skir}</strong> (żywiołowy, hałaśliwy), <strong>@UUID[Actor.rok3i6Gy0RjoBgrq]{Yisha}</strong> (drobna, złowroga), <strong>@UUID[Actor.82lFpkXeVpKnPWCQ]{Grisk}</strong> (stary, drażliwy), <strong>@UUID[Actor.eVuNGaceV93M5whd]{Uliss}</strong> (ociężały, tępy), <strong>@UUID[Actor.rh1ZgUTuHcwhlt4F]{Chee}</strong> (srebrzyste futro, elegancki).</p></li></ul></li><li><p><strong>Skarb</strong>. 12 stosików o jednakowej wartości (niektóre należą do wędrowców). <strong>Eska</strong> (Obszar 1) ukradła perłę z części <strong>Griska</strong> i ukryła ją w Obszarze 2.</p><p><strong>Szczegóły</strong>.</p><ul><li><p>200 SZ,</p></li><li><p>2 x @UUID[Item.WKk0GVD1KHrI6fav]{perły} (po 40 SZ)</p></li><li><p>@UUID[Item.TggK5foyVW9RXoHw]{alabastrowa statuetka byka} (20 SZ),</p></li><li><p>2 x @UUID[Item.BjWjRaMBbsv50AjU]{srebrne misy na kadzidło} (po 15 SZ),</p></li><li><p>@UUID[Item.U3dML6TSDUKJXBUh]{jadeitowa bransoleta w kształcie węża} (20 SZ),</p></li><li><p>@UUID[Item.iW6GTpg33QYMca8k]{naszyjnik z grubych złotych ogniw} (30 SZ).</p></li></ul></li></ul>"
+                        },
+                        "Room 5: Robing Chamber": {
+                            "name": "Pomieszczenie 5: Sala szatniowa",
+                            "text": "<p><strong>Szkielet</strong>: Przyszpilony do ściany. Dłonie zaciskają się na włóczni wystającej z klatki piersiowej.</p><p><strong>Ściany</strong>: Uszkodzona mozaika przedstawiająca figlujące delfiny. Białe szaty na kołkach.</p><ul><li><p><strong>Szkielet</strong>. Ma na sobie niszczejącą skórznię barwioną na karmazynowo. U pasa wisi krótki miecz z brązu.</p><ul><li><p><strong>Włócznia</strong>. Wbita głęboko w kamień z nieludzką siłą. Grot z brązu.</p></li></ul></li><li><p><strong>Szaty</strong>. Cztery. Zatęchłe i zmurszałe. W kieszeni jednej z nich znajduje się wykonany z brązu <strong>klucz</strong> do Obszaru 21.</p></li></ul>"
+                        },
+                        "Room 6: Bathhouse": {
+                            "name": "Pomieszczenie 6: Łaźnia",
+                            "text": "<p><strong>Posąg</strong>: Naturalnej wielkości kobieta o włosach z węży, z uniesionymi ramionami i ustami otwartymi w krzyku. <strong>Kamienne niecki</strong>: Gładkie, wielkości człowieka.</p><ul><li><p><strong>Posąg</strong>. Opuszczenie ruchomych ramion powoduje, że z ust tryska wrzątek ([[request 12 dex]], aby odskoczyć, albo [[/r 1d4]] obrażeń).</p></li><li><p><strong>Niecki</strong>. Sześć. Zdobione rzeźbieniami wijących się węży. Kamienne korki zaklinowane w odpływach.</p><ul><li><p><strong>Usuwanie korków.</strong> Kumulatywna szansa 1:6 na uwolnienie <strong>@UUID[Compendium.shadowdark.monsters.U9moCUg8DnL6C0Sq]{roju skarabeuszy}</strong>.</p></li></ul></li></ul>"
+                        },
+                        "Room 7: Bull Statue": {
+                            "name": "Pomieszczenie 7: Posąg byka",
+                            "text": "<p><strong>Posąg byka</strong>: Górujący (10 stóp), z brązu. Rogi opuszczone do szarży. <strong>Korytarz</strong>: Wysoki na 15 stóp. Pary głębokich otworów wybitych w ścianie naprzeciwko posągu.</p><ul><li><p><strong>Posąg</strong>. Aktywowany ruchem. Szansa 3:6 na rundę, że ożyje i zaszarżuje na koniec korytarza (ignoruje Szkarłatnego Minotaura). [[request 15 dex]] albo [[/r 2d6]] obrażeń i przewrócenie. Truchtem wraca na swoje miejsce i ponownie się ustawia.</p><ul><li><p><strong>@UUID[Item.ToSK7skdC9OPzmwZ]{Szmaragd.}</strong> (120 SZ), osadzony w czole posągu. Rozbicie go (KP 20, 1 PW) dezaktywuje posąg, ale zmniejsza wartość klejnotu do 20 SZ (@UUID[Item.hiVLFYBR666Zm29e]{Szmaragd (rozbity)}).</p></li></ul></li></ul>"
+                        },
+                        "Room 8: Blood Bowls": {
+                            "name": "Pomieszczenie 8: Misy krwi",
+                            "text": "<p><strong>Alkowy</strong>: Na kwadratowych, czarnych postumentach stoją proste terakotowe misy.</p><ul><li><p><strong>Misy</strong>. Sześć. Opatrzone pieczęcią przedstawiającą wojownika klęczącego w czarnym deszczu, z ramionami i ustami otwartymi ku niebu.</p><ul><li><p><strong>Krew</strong>. Napełnienie misy świeżą krwią nasyca ją magią leczniczą ([[/r 1d4]] PW, trzeba ją wypić). Po użyciu misa rozsypuje się.</p></li></ul></li></ul>"
+                        },
+                        "Room 9: Sorcerous Pillars": {
+                            "name": "Pomieszczenie 9: Magiczne filary",
+                            "text": "<p><strong>Filary</strong>: Cztery pary, pomalowane na nasycone klejnotowe barwy. Zwieńczone czarnym marmurem.</p><p><strong>Ciało</strong>: Purpurowy humanoid o cienkich kończynach leży twarzą do ziemi w połowie drogi przez salę.</p><p><strong>Wielki miecz</strong>: Z brązu, wypolerowany na wysoki połysk. Ostrze jest wbite w ołtarz z czarnego marmuru za filarami.</p><ul><li><p><strong>Filary</strong>. Przejście za każdą parę aktywuje jej efekt. Powrót za tę parę kończy efekt. W kolejności z północy na południe:</p><ul><li><p><strong>Czerwone</strong>. Wszystko, co masz przy sobie i jest łatwopalne, staje w płomieniach. [[/r 1d4]] obrażeń na rundę.</p></li><li><p><strong>Niebieskie</strong>. Morska woda wypełnia twoje płuca. Toniesz po [[/r 1d6]] rundach.</p></li><li><p><strong>Zielone</strong>. Zatrucie. W swojej turze wykonaj test [[request 12 con]] albo tracisz turę.</p></li><li><p><strong>Purpurowe</strong>. Tracisz wzrok i poruszasz się z połową szybkości.</p></li></ul></li><li><p><strong>Ciało</strong>. Ettercap. Osmalone futro. Pysk i pierś pokryte zaschniętą skorupą soli. Ślady pazurów wokół oczu.</p></li><li><p><strong>Wielki miecz</strong>. [[request 12 str]], aby wyciągnąć go z ołtarza. <em>Wielki miecz +1</em> zwany <em>@UUID[Item.JpRmSUeNd7qwnXZa]{Asterionem}</em>. Żadna istota nie może poruszyć dzierżącego go wbrew jego woli.</p></li></ul>"
+                        },
+                        "Room 10: Bull Statue": {
+                            "name": "Pomieszczenie 10: Posąg byka",
+                            "text": "<ul><li><p><strong>Posąg byka</strong>. Jak w Obszarze 7. Szkielet nadziany na rogi zasłania szmaragd.</p><ul><li><p><strong>@UUID[Item.ToSK7skdC9OPzmwZ]{Szmaragd.}</strong> (120 SZ), osadzony w czole posągu. Rozbicie go (KP 20, 1 PW) dezaktywuje posąg, ale zmniejsza wartość klejnotu do 20 SZ (@UUID[Item.hiVLFYBR666Zm29e]{Szmaragd (rozbity)}).</p></li></ul></li></ul>"
+                        },
+                        "Room 11: Prison": {
+                            "name": "Pomieszczenie 11: Więzienie",
+                            "text": "<p><strong>Drzwi</strong>: Masywna kamienna płyta z otworem na klucz. Zimna i wilgotna w dotyku.</p><ul><li><p><strong>Drzwi</strong>. Nie są zamknięte na klucz, ale zabarykadowano je od środka. [[request 18 str]], aby je wyważyć.</p><ul><li><p><strong>Nasłuchiwanie</strong>. Z drugiej strony dobiega słaby metaliczny brzęk.</p></li><li><p><strong>Otwór na klucz</strong>. Ciemność, w której kołysze się kilka punktów czerwonego światła.</p></li></ul></li><li><p><strong>Wewnątrz</strong>. Cztery <strong>@UUID[Compendium.shadowdark.monsters.cWzG0yEVgIk8ijk6]{szkielety}</strong> w podartych, czerwonych skórzniach szurają po pomieszczeniu, wpadając na kajdany przymocowane do podłogi. Cztery okute brązem <strong>włócznie</strong> zaklinowano w poprzek klamki (łamią się po otwarciu drzwi).</p><ul><li><p><strong>Ściany</strong>. Wydrapano na nich w starożytnym języku wspólnym: „Dni od pojawienia się Bestii”. Poniżej znajduje się około 40 kresek, stopniowo coraz bledszych.</p></li></ul></li></ul>"
+                        },
+                        "Room 12: Armory": {
+                            "name": "Pomieszczenie 12: Zbrojownia",
+                            "text": "<p><strong>Podłoga</strong>: Splątane stosy szkieletów o rozwartych szczękach. <strong>Ściany</strong>: Sztylet z brązu tkwi ostrzem w kamieniu. <strong>Alkowy</strong>: Roztrzaskane drewniane stojaki.</p><ul><li><p><strong>@UUID[Compendium.shadowdark.monsters.cWzG0yEVgIk8ijk6]{Szkielety}</strong>. Dwanaście. Kilka jest przeciętych na pół. Strzępy pancerzy barwionych na czerwono, roztrzaskane tarcze i krótkie miecze z brązu.</p><ul><li><p><strong>Po dotknięciu</strong>. Kumulatywna szansa 1:12, że jeden powstanie jako <strong>@UUID[Compendium.shadowdark.monsters.ZCbay6SPPzbbz2bJ]{upiór}</strong> (tylko raz). W przeciwnym razie szkielet niemal się podnosi, lecz rozsypuje się w pył.</p></li><li><p><strong>Skarb</strong>. Upiór nosi złoty <em>@UUID[Item.O98T6HjIZ9nrajO4]{Skarabeusz ochrony}</em>.</p></li></ul></li><li><p><strong>Stojaki</strong>. Czerwona tarcza z namalowanym czarnym bykiem, trzy włócznie.</p></li><li><p><strong>Ściany</strong>. Ślady osmolenia i zadrapania. Głębokie, zamaszyste bruzdy na wysokości klatki piersiowej i głowy.</p></li><li><p><strong>@UUID[Compendium.shadowdark.monsters.k8tAgECWIzPIStGU]{Zwierzoludzie}</strong>. Trzech nasłuchuje z Obszaru 14. Jeśli postacie graczy zachowują się głośno lub niszczą otoczenie, przesuń ich nastawienie o jeden stopień w kierunku <strong>wrogiego</strong>.</p></li><li></li></ul>"
+                        },
+                        "Room 13: Bull Statue": {
+                            "name": "Pomieszczenie 13: Posąg byka",
+                            "text": "<ul><li><p><strong>Posąg byka</strong>. Jak w Obszarze 7. U stóp posągu rozsypano 40 SZ.</p></li></ul>"
+                        },
+                        "Room 14: Hidden Hall": {
+                            "name": "Pomieszczenie 14: Ukryta sala",
+                            "text": "<p><strong>Korytarz</strong>: Cichy i wąski. Zastałe, martwe powietrze. <strong>Zapach</strong>: Mocz i odór ciał, aż szczypie w oczy. <strong>Podłoga</strong>: Usiana kośćmi szczurów i wylinkami pareczników.</p><ul><li><p><strong>@UUID[Compendium.shadowdark.monsters.k8tAgECWIzPIStGU]{Zwierzoludzie}</strong>. Trzech. Zmierzwione, szare futro. Każdy stoi przy jednych z drzwi i nasłuchuje. Jeśli postacie graczy wejdą, zbierają się w Obszarze 14. Jeśli postacie graczy zachowują się głośno, przesuń ich nastawienie o jeden stopień w kierunku <strong>wrogiego</strong>.</p><ul><li><p><strong>NPC</strong>. <strong>@UUID[Actor.mdRstp355OUOyY7r]{Haruut} </strong>(krępy, nieufny), <strong>@UUID[Actor.VIiW9qercPbgheGh]{Grall}</strong> (młody, bojaźliwy), <strong>@UUID[Actor.PZ6Pt3fz7LRaEWqU]{Chops}</strong> (obwisłe fafle, buńczuczny). Mówią szorstkimi szeptami i kulą się na dźwięk głośnych odgłosów.</p></li></ul></li><li><p><strong>Sekretne drzwi</strong>. Wszystkie są widoczne od tej strony.</p></li></ul>"
+                        },
+                        "Room 15: Jar Storage": {
+                            "name": "Pomieszczenie 15: Magazyn słoików",
+                            "text": "<p><strong>Terakotowe</strong> <strong>dzbany</strong>: Zgrupowane w narożnikach. Pękate i zaokrąglone, różnej wysokości. <strong>Powietrze</strong>: Woń siarki. <strong>Dźwięk</strong>: Od czasu do czasu słabe piski i syczenie. <strong>Południowe drzwi</strong>: W kamieniu wyżłobiono białe, postrzępione linie.</p><ul><li><p><strong>Dzbany</strong>. 20 dzbanów zamkniętych korkiem i zalakowanych woskiem. Opatrzone wizerunkami ludzi ścinających pszenicę sierpami. Wewnątrz lepka, czarna breja.</p><ul><li><p><strong>Wybuchowe</strong>. Potrząśnięcie dzbanem lub uderzenie go powoduje, że pęka wskutek nagromadzenia siarkowego gazu. [[request 12 dex]] albo 1k4 obrażeń. Możliwa reakcja łańcuchowa.</p></li><li><p><strong>Skarb</strong>. Kumulatywna szansa 1:20 na znalezienie w jednym z dzbanów <strong>@UUID[Item.R9rWEWg4biAMlj0U]{jaja z kości słoniowej}</strong> poprzecinanego szarymi żyłkami (40 SZ). W rzeczywistości jest to jajo kuroliszka.</p></li></ul></li><li><p><strong>Południowe drzwi</strong>. Napis w języku wspólnym: „Ś.P. Orwyn Młodszy”.</p></li></ul>"
+                        },
+                        "Room 16: Offering Bowls": {
+                            "name": "Pomieszczenie 16: Misy ofiarne",
+                            "text": "<p><strong>Korytarze</strong>: W każdym znajduje się masywna kamienna misa sięgająca klatki piersiowej. <strong>Malowidła</strong>: Rzędy chłopów wsypują dzbany złotych monet i pszenicę do ogromnych, szarych mis. Nadzorują ich władczy wojownicy w czerwonych pancerzach, uzbrojeni we włócznie z brązu.</p><ul><li><p><strong>Kamienne misy</strong>. Gładkie i wytarte. Umieszczenie w środku żywności lub złota przyznaje token szczęścia (raz na postać).</p></li><li><p><strong>Ludzki NPC</strong>. <strong>Giuseppe Baldini</strong>, zielarz N (zrzędliwy, w średnim wieku, ubogi). Pragnie skarbu. Ukrywa się za południowo-wschodnią misą.</p></li></ul>"
+                        },
+                        "Room 17: Broken Bull Statue": {
+                            "name": "Pomieszczenie 17: Zniszczony posąg byka",
+                            "text": "<p><strong>Posąg byka</strong>: Górujący (10 stóp), z brązu. Głowa i rogi wbiły się głęboko w popękaną ścianę. <strong>Ciało</strong>: Przygniecione między ścianą a głową byka.</p><ul><li><p><strong>Posąg</strong>. Już nie działa. @UUID[Item.vykb09m5y4gCdVIS]{Rozbity szmaragd} (20 SZ) osadzony w czole.</p></li><li><p><strong>Ciało</strong>. Młody mężczyzna w kolczudze i hełmie. Ma przy sobie @UUID[Compendium.shadowdark.gear.1T8oUkfkBtYTLNF3]{miecz półtoraręczny} i tarczę (roztrzaskaną). Ciemnozielony płaszcz.</p><ul><li><p><strong>Plecak</strong>. @UUID[Compendium.shadowdark.gear.z3xc7HGysC4ZCU8e]{Pochodnia}, @UUID[Compendium.shadowdark.gear.EPndk3DPOEOSvbga]{10 haków}, @UUID[Compendium.shadowdark.gear.6ZRwVHFlh5QiyZWC]{lina długości 60 stóp}, pomarszczone jabłko oraz @UUID[Item.VO8hdwr2ulhRwwW0]{srebrny medalion} z portretem uśmiechniętej rudowłosej kobiety (5 SZ).</p></li></ul></li></ul>"
+                        },
+                        "Room 18: Central Courtyard": {
+                            "name": "Pomieszczenie 18: Centralny dziedziniec",
+                            "text": "<p><strong>Posąg byka</strong>: Wysoki na 20 stóp, z czarnego onyksu, o falujących mięśniach. Rogi opuszczone i usiane białymi przedmiotami. <strong>Dziedziniec</strong>: Piaszczyste płyty posadzkowe, wypalone słońcem. Stosy wybielonych kości. <strong>Czerwone filary</strong>: Wolnostojące, niektóre roztrzaskane i kruszące się. Rzucają chłodne, ciemne cienie.</p><ul><li><p><strong>@UUID[Actor.XPNU79kJyse04pL3]{Szkarłatny Minotaur}</strong>. Szansa 3:6, że jest obecny. Jeśli go nie ma, kumulatywna szansa 1:6 na rundę, że powróci. <strong>@UUID[Compendium.shadowdark.monsters.c3Nvj86e0Layz3NG]{Minotaur}</strong>: Wysoki na 9 stóp, o winoczerwonym futrze. Szarżuje na cienie, uderza głową w filary, parska i ryczy. Włada wykonanym z brązu, dwuostrzowym <em>wielkim toporem +1</em> zwanym <em>@UUID[Item.gtfx2i7YimBMi2bo]{Żądzą Krwi}</em>; dzierżący zadaje poczwórne obrażenia przy trafieniu krytycznym.</p></li><li><p><strong>Posąg byka.</strong> Na rogi nabito 30 humanoidalnych czaszek w różnym stanie rozkładu, niczym paciorki naszyjnika. Na niektórych pozostały ślady szarego futra.</p><ul><li><p><strong>Rytualna ofiara</strong>. Nabicie świeżo odciętej humanoidalnej czaszki na róg zapewnia +1 punkt Siły. <strong>Za każdym kolejnym razem</strong>: kumulatywna szansa 1:4 na przemianę w zwierzoluda.</p></li></ul></li><li><p><strong>Kości</strong>. Stratowane i zmiażdżone. Bez czaszek. Stosy wgniecionych pancerzy i połamanych broni, zarówno stalowych, jak i wykonanych z brązu.</p></li><li><p><strong>Skarb</strong>. Każda runda spędzona na przeszukiwaniu odsłania jeden z poniższych przedmiotów:</p></li></ul><ol><li><p>@UUID[Item.yv6v0HqiSsnAGOHC]{Porysowana mithralowa tarcza} z wyrzeźbionym skradającym się tygrysem (40 SZ)</p></li><li><p>Worek zawierający <strong>60 SZ</strong>, wybity podobizną dawno zmarłego cesarza</p></li><li><p><em>@UUID[Item.qQfrScSGMEBGHCFZ]{Zwój płonących dłoni}</em> w tubie z brązu ozdobionej jadeitowymi smokami (80 SZ)</p></li><li><p>@UUID[Item.0HvhZP8EOXqyT3p2]{Posrebrzany długi miecz} z głowicą w kształcie półksiężyca (30 SZ).</p></li></ol>"
+                        },
+                        "Room 19: Bas-Relief Hall": {
+                            "name": "Pomieszczenie 19: Sala płaskorzeźb",
+                            "text": "<p><strong>Istota</strong>: Chudy humanoid o szarym futrze leży rozciągnięty twarzą do ziemi. Przy jego dłoni znajduje się wypchany jutowy worek. <strong>Ściany</strong>: Gęsto pokryte płaskorzeźbami przedstawiającymi ludzkie postacie i sceny.</p><ul><li><p><strong>@UUID[Compendium.shadowdark.monsters.k8tAgECWIzPIStGU]{NPC zwierzoluda}. @UUID[Actor.XbO8sDu1ToDVVoh9]{Brell}</strong> (wątły, panikarski). Upadł i rozbił sobie głowę, uciekając przed jakimś dźwiękiem. Budzi się po [[/r 1d4]] rundach.</p><ul><li><p><strong>Cechy</strong>. Pogardzany młodszy brat przywódcy zwierzoludzi, <strong>@UUID[Actor.bERcM50HvKw0ZY6o]{Rogatha}</strong> (Obszar 23). Naiwnie lojalny. Ma nadzieję zasłużyć na uczucie brata.</p></li><li><p><strong>Jutowy worek.</strong> Dwa martwe szczury ze skręconymi karkami. Prezent dla Rogatha.</p></li></ul></li><li><p><strong>Płaskorzeźby</strong>. Sceny akrobatów przeskakujących nad szarżującymi bykami oraz wojowników walczących w rytualnych pojedynkach.</p><ul><li><p><strong>Ukryta nisza</strong>. Za postacią przeskakującą nad bykiem. @UUID[Item.a69T3oP2oVH2yqMn]{Srebrny rogaty hełm} (15 SZ).</p></li></ul></li></ul>"
+                        },
+                        "Room 20: Mosaic Room": {
+                            "name": "Pomieszczenie 20: Pokój mozaikowy",
+                            "text": "<p><strong>Podłoga</strong>: Mozaika z płytek w nasyconych odcieniach pomarańczu, żółci i czerwieni, ułożonych w wirujący wzór.</p><ul><li><p><strong>Mozaika</strong>. Wzór maskuje nakrapianą <strong>@UUID[Compendium.shadowdark.monsters.QErMaMVIbddgk9MX]{ochrową galaretę}</strong>. Bez dokładnego zbadania istnieje szansa 3:6, że ktoś na nią nadepnie.</p></li></ul>"
+                        },
+                        "Room 21: Throne Chamber": {
+                            "name": "Pomieszczenie 21: Sala Tronowa",
+                            "text": "<p>Drzwi: Z brązu, ozdobione wizerunkiem słońca i rozchodzących się od niego promieni. Zamknięte na klucz.</p><ul><li><p><strong>Drzwi</strong>. Klucz znajduje się w Obszarze 5. Każda nieudana próba otwarcia bez klucza powoduje, że drzwi rozgrzewają się i zaczynają jarzyć. Kumulatywna szansa 1:6, że wystrzelą trzy promienie ognia w losowe cele ([[/r d20+4]]{atak +4}, każdy zadaje [[/r 2d6]] obrażeń).</p></li><li><p><strong>Wewnątrz</strong>. Tron z brązu ze szkieletem (nie jest nieumarłym) przebitym złotą włócznią. Czerwone <strong>filary</strong> pokryte inskrypcjami w starożytnym języku wspólnym.</p><ul><li><p><strong>Szkielet</strong>. Siedzi na tronie (50 SZ, dwa miejsca na sprzęt). Nosi złoty diadem z perłą (60 SZ). Dłonie zaciska na <em>włóczni +1</em> zwanej <em>@UUID[Item.cY0UIbpokdT448Pw]{Czujną}</em>. Dzierżącego ją nie można zaskoczyć.</p></li><li><p><strong>Filary</strong>. Spisy danin składanych Byczemu Bogu Orosowi przez Królów-Wojowników. <strong>Damanthus Odważny</strong> ofiarował złoto, <strong>Sarpen Mądry</strong> ofiarował pszenicę, a <strong>Minoros Okrutny</strong> ofiarował krew.</p></li></ul></li></ul>"
+                        },
+                        "Room 22: Labyrinth": {
+                            "name": "Pomieszczenie 22: Labirynt",
+                            "text": "<p><strong>Korytarze</strong>: Wąskie, wysokie na 20 stóp, u góry pogrążone w cieniu. Ciasne zakręty. Przemyka przez nie gorący wiatr. <strong>Podłoga</strong>: Smugi piasku nawiane z zewnątrz.</p><ul><li><p><strong>Piasek</strong>. Zacierające się ślady rozszczepionych kopyt. Każdy szeroki na dwie dłonie.</p><ul><li><p><strong>Ślepe zaułki</strong>. Skupiska terakotowych dzbanów wielkości tykwy. W różnych ziemistych barwach i kształtach. Większość jest rozbita.</p></li><li><p><strong>Całe dzbany</strong>. [[/r 1d6]] w każdym ślepym zaułku. Każdy zawiera [[/r 1d4]] SZ, garść popiołu i ludzką laleczkę wielkości małego palca, wykonaną z kolorowych nici. <strong>Zabranie czegokolwiek</strong>: szansa 1:20 na nawiedzenie przez ducha podczas następnej pełni księżyca.</p></li></ul></li></ul>"
+                        },
+                        "Room 23: Beastmen Lair": {
+                            "name": "Pomieszczenie 23: Legowisko ludzi-bestii",
+                            "text": "<p>Istoty: 15 zgarbionych humanoidów o szarym futrze, przeżuwających pareczniki i rozmawiających szorstkimi szeptami. Jeden wyleguje się na macie ze szczurzych skór, dłubiąc w zębach. <strong>Pomieszczenie</strong>: Brudne, ciasne, usiane kośćmi gryzoni. <strong>Zapach</strong>: Niemyte ciała, mocz.</p><ul><li><p><strong>@UUID[Compendium.shadowdark.monsters.k8tAgECWIzPIStGU]{Zwierzoludzie}</strong>. Wrogo nastawieni do hałasujących. Przesądnie boją się nieistniejących smoków, które rzekomo czekają przed cytadelą, aby ich pożreć.</p><ul><li><p><strong>NPC</strong>. <strong>@UUID[Actor.bERcM50HvKw0ZY6o]{Rogath}</strong> (potężnie zbudowany, leniwy, budzący postrach przywódca). <strong>Poplecznicy</strong>: <strong>@UUID[Actor.CDxRc2pIwG7SK73E]{Grenton}</strong> (żylasty, nieufny), <strong>@UUID[Actor.L91uEF4duAo8T5Eq]{Hargol}</strong> (oczy skierowane w różne strony, przytakuje wszystkiemu), <strong>@UUID[Actor.4Ou1RViS2GnqvRh9]{Beetle}</strong> (przemyka drobnymi krokami, układa zawiłe plany).</p></li><li><p><strong>Sojusz</strong>. Rogath chce śmierci Szkarłatnego Minotaura, aby móc zostać królem cytadeli. Z radością wysyła swojego znienawidzonego brata, <strong>@UUID[Actor.XbO8sDu1ToDVVoh9]{Brella}</strong> (Obszar 19), oraz zwierzoludzi niebędących jego poplecznikami w niebezpieczne miejsca, aby doprowadzić ten plan do skutku.</p></li></ul></li><li><p><strong>Sekretne drzwi</strong>. Wszystkie są widoczne od tej strony. Każdych pilnuje jeden zwierzolud.</p></li></ul>"
+                        },
+                        "Room 24: Lookout Room": {
+                            "name": "Pomieszczenie 24: Punkt obserwacyjny",
+                            "text": "<p><strong>Istoty</strong>: Dwóch kudłatych, zgarbionych humanoidów posępnie nasłuchuje przy drzwiach. <strong>Pomieszczenie</strong>: Brudne, z niskim sufitem. <strong>Fetor</strong>: Mokra sierść i odchody.</p><ul><li><p><strong>NPC</strong>. <strong>@UUID[Actor.hoL50RSbMvRNrrcY]{Irvog}</strong> (młody, szczery), <strong>@UUID[Actor.Fg9DEqSk8eACtwOw]{Blort}</strong> (pokryta bliznami twarz, zdyscyplinowany). Jeśli postacie graczy zachowują się głośno, przesuń ich nastawienie o jeden stopień w kierunku <strong>wrogiego</strong>.</p></li><li><p><strong>Sekretne drzwi</strong>. Wszystkie są widoczne od tej strony.</p></li></ul>"
+                        },
+                        "Room 25: Training Chamber": {
+                            "name": "Pomieszczenie 25: Sala treningowa",
+                            "text": "<p><strong>Stojaki na pancerze</strong>: Pięć skórzanych pancerzy barwionych na czerwono, wzmocnionych ćwiekami z brązu. <strong>Stojak na broń</strong>: Broń z brązu pokryta warstwą kurzu. <strong>Ściany</strong>: Niezliczone wyszczerbienia i nacięcia.</p><ul><li><p><strong>Pancerze</strong>. Dotknięcie pancerza lub zdjęcie broni ze stojaka sprawia, że trzy pancerze ożywają (@UUID[Compendium.shadowdark.monsters.qSeHWgP59WltutCz]{ożywione pancerze}) i atakują przez [[/r 1d4]] rund.</p></li><li><p><strong>Stojak na broń</strong>. Pięć @UUID[Compendium.shadowdark.gear.KQTWQwznjK80gVEU]{krótkich mieczy}, @UUID[Compendium.shadowdark.gear.ZPUhNMmwXXrtbCXi]{długich mieczy}, @UUID[Compendium.shadowdark.gear.UWp4WkkiaBMSXYPE]{tarcz} i @UUID[Compendium.shadowdark.gear.brIFMH0sOVmqX02N]{włóczni}.</p></li></ul>"
+                        },
+                        "Room 26: Hall of Kings": {
+                            "name": "Pomieszczenie 26: Sala Królów",
+                            "text": "<p><strong>Alkowy</strong>: W każdej znajduje się naturalnej wielkości posąg mężczyzny z brązu, stojący na podwyższonym postumencie.</p><ul><li><p><strong>Posągi</strong>. Atletyczne, dumne, o podobnych rysach twarzy. Okryte szatami, noszą @UUID[Item.xTOy6PVB5iu1asFa]{diademy} z perłami (po 40 SZ). Każdy dzierży broń.</p></li><li><p><strong>Inskrypcje</strong>. W starożytnym języku wspólnym. <strong>Damanthus</strong>, syn Astera ([[/r 1d12]]{wielki miecz}), <strong>Sarpen</strong>, syn Damanthusa ([[/r 1d6]]{włócznia}), <strong>Minoros</strong>, syn Sarpena ([[/r 1d10]]{wielki topór}).</p></li><li><p><strong>Diademy</strong>. Pułapka. Dotknięcie perły powoduje, że posąg wykonuje zamach swoją bronią ([[/r 1d20+5]]{atak +5}).</p></li></ul>"
+                        },
+                        "Room 27: Sacrifice Cave": {
+                            "name": "Pomieszczenie 27: Jaskinia Ofiar",
+                            "text": "<p><strong>Jaskinia</strong>: Chłodna i wilgotna, z wysokim sufitem (30 stóp). Kapiące stalaktyty. <strong>Sadzawka</strong>: Karmazynowa woda, mętna i nieruchoma. <strong>Zapach</strong>: Miedziany, metaliczny posmak.</p><ul><li><p><strong>Duchy</strong>. Dziesiątki dymnych, człekokształtnych cieni migoczą na skraju ciemności. Jeśli <strong>światło</strong> kiedykolwiek zgaśnie, opadają z upiornymi wrzaskami, zadając każdej postaci [[/r 1d8]] obrażeń na rundę.</p></li><li><p><strong>Sadzawka</strong>. Głęboka na 20 stóp. Przeklęta woda zmącona krwią. [[request 12 con]] za każdą rundę kontaktu albo tymczasowa utrata 1 punktu Mądrości (odzyskiwanego po odpoczynku). Przy 0 Mądrości postać na stałe zapada w katatonię.</p><ul><li><p><strong>Na dnie</strong>. Cmentarzysko dziesiątek ludzkich i byczych szkieletów. Wśród nich znajduje się 200 SZ, <em>@UUID[Item.i3gSIEVGxXhlUkdn]{Różdżka oślepienia/ogłuszenia}</em>, trzy @UUID[Item.cFi2Wtbwz3qkiJMx]{onyksowe statuetki byka} (po 15 SZ), <em>@UUID[Item.ip1i9MpeJeyf7ayu]{Buty kota}</em> oraz maleńka butelka skrywająca duszę potężnego czarownika imieniem <strong>Malfune</strong>.</p></li></ul></li></ul>"
+                        },
+                        "Overview": {
+                            "name": "Przegląd",
+                            "text": "<h2>Klucz do pomieszczeń</h2><p>Rozpoczynające opis każdego miejsca <strong>opisy opatrzone słowami kluczowymi</strong> można bezpiecznie udostępnić graczom. Znajdujące się pod nimi <strong>szczegóły w punktach</strong> są przeznaczone dla MG.</p><h2>Tło</h2><p>Dawno temu wewnątrz Zaginionej Cytadeli żyła potężna społeczność wojowników. Czcili byki w coraz bardziej krwawych, sekciarskich rytuałach, których kulminacją była przemiana ich przywódcy, Minorosa, w <strong>Szkarłatnego Minotaura</strong>. Ten nieśmiertelny awatar furii wymordował wojowników podczas jednej nocy rzezi. Niektórym sługom udało się jednak uciec niewidocznymi korytarzami przeznaczonymi dla pospólstwa. Ci <strong>zwierzoludzie</strong> ukryli się w upadłej cytadeli, uwięzieni przez zabobonny lęk przed światem zewnętrznym.</p><h2>Frakcje</h2><p><strong>Zwierzoludzie</strong>. Te zdziczałe istoty o szarym futrze od pokoleń unikają Szkarłatnego Minotaura. Zamieszkują Obszar 23, wierząc, że na zewnątrz czekają smoki, które pożrą każdego, kto opuści cytadelę. Nieustanny strach uczynił ich okrutnymi i tchórzliwymi. Ich przywódca, Rogath, rządzi siłą swoich pazurów.</p><p><strong>Ettercapy</strong>. Niedawno grupa ettercapów zakradła się do Obszaru 4 z jaskiń pod cytadelą. Przemykają korytarzami nawiedzanymi przez minotaura, kuszone zapomnianymi klejnotami i złotem. Zamierzają odejść „gdy tylko zbiorą dość łupów”, lecz ta chwila nigdy nie nadchodzi. Nie mają przywódcy i wszystkie są równie chciwe.</p><p><strong>Szkarłatny Minotaur</strong>. Górujący nad innymi, krwistoczerwony, parskający i toczący pianę z pyska. Przemierza labiryntowe korytarze Zaginionej Cytadeli w poszukiwaniu istot do zabicia. Między patrolami minotaur wraca do Obszaru 18.</p><p>@UUID[RollTable.iFdrtN3kJk5yth9S]{Zaginiona Cytadela: Plotki}</p><table style=\"width:100%\"><caption>Plotki</caption><tbody><tr style=\"font-weight:normal\"><td style=\"font-weight:bold;text-align:center\"><p><strong>1</strong></p></td><td><p>Starożytni królowie zamieszkujący cytadelę posiadali magiczne bronie, których obawiano się w całej krainie.</p></td></tr><tr><td style=\"font-weight:bold;text-align:center\"><p><strong>2</strong></p></td><td><p>Dziki minotaur skąpany we krwi przemierza korytarze cytadeli.</p></td></tr><tr><td style=\"font-weight:bold;text-align:center\"><p><strong>3</strong></p></td><td><p>Stosy klejnotów i złota leżą porzucone, jakby całkowicie o nich zapomniano.</p></td></tr><tr><td style=\"font-weight:bold;text-align:center\"><p><strong>4</strong></p></td><td><p>Strzeż się, dotykając ciała zmarłego mieszkańca cytadeli.</p></td></tr><tr><td style=\"font-weight:bold;text-align:center\"><p><strong>5</strong></p></td><td><p>Oportunistyczni zwierzoludzie o szarym futrze czają się w cieniach.</p></td></tr><tr><td style=\"font-weight:bold;text-align:center\"><p><strong>6</strong></p></td><td><p>Cytadela pełna jest sekretnych pomieszczeń i przejść.</p></td></tr></tbody></table><h2>Otoczenie i wejścia do Zaginionej Cytadeli</h2><p><strong>Cytadela</strong>. Cykady brzęczą wśród suchej roślinności porastającej okolice cytadeli. Masywne bloki piaskowca i koralowoczerwone kolumny podtrzymują jej tarasowe dachy (wysokie na 30–40 stóp, płaskie). Zamknięte wnętrze jest chłodnym, mrocznym labiryntem sklepionych komnat i korytarzy prowadzących na centralny dziedziniec.</p><ul><li><p><strong>Południowo-wschodnie drzwi.</strong> Prowadzą do Obszaru 1. Wyrzeźbiono na nich wierzgające byki uchwycone w skoku.</p></li><li><p><strong>Północno-wschodni korytarz.</strong> Roztrzaskane drzwi leżą przed schodami prowadzącymi do Obszaru 10.</p></li><li><p><strong>Południowo-zachodni korytarz.</strong> Otwarty tunel prowadzący do labiryntu, Obszaru 22.</p></li><li><p><strong>Dziedziniec.</strong> Obszar 18, pod gołym niebem. Można się do niego dostać, wspinając się po dachach.</p></li></ul><h2>Taktyka walki</h2><p><strong>Zwierzoludzie</strong>. Wycofują się w stronę Obszaru 14 lub Obszaru 23, unikając Obszaru 18. Znają położenie wszystkich sekretnych drzwi. Wprowadzają przeciwników w pułapki z posągami byków. Nie opuszczają kryjówek, aby pomagać innym. Są przerażeni możliwością wywołania hałasu.</p><p><strong>Ettercapy</strong>. Skradają się po suficie, unikając posągów byków. Nie wiedzą o sekretnych drzwiach. Wycofują się w stronę Obszaru 4 i zbierają się, aby wspierać sojuszników. Łatwo rozprasza je skarb. Niechętnie wchodzą do Obszaru 18.</p><p><strong>Szkarłatny Minotaur</strong>. Ściga swoją ofiarę i nigdy się nie wycofuje. Nie wie o sekretnych drzwiach. Po 1k6 rundach zapomina o przeciwnikach, których nie widzi. Wraca do Obszaru 18 co najmniej raz na godzinę.</p>"
+                        },
+                        "NPCs": {
+                            "name": "Postacie niezależne",
+                            "text": "<p>@UUID[Macro.b4peWtS82m3su5q1]{Wylosuj NPC zwierzoluda}</p><table style=\"width:100%\"><caption>NPC zwierzoludzi</caption><tbody><tr><td style=\"text-align:center\"><p>d10</p></td><td><p>Imiona</p></td><td><p>Wygląd</p></td><td><p>Zachowanie</p></td></tr><tr><td style=\"text-align:center\"><p>1</p></td><td><p>Rat / Gobbo</p></td><td><p>Przerzedzone futro / Chorowity</p></td><td><p>Patrzy spode łba / Czai się</p></td></tr><tr><td style=\"text-align:center\"><p>2</p></td><td><p>Barto / Hule</p></td><td><p>Pokryty bliznami / Gruby</p></td><td><p>Szepcze / Odbija mu się</p></td></tr><tr><td style=\"text-align:center\"><p>3</p></td><td><p>Egor / Ralk</p></td><td><p>Złamana szczęka lub nos</p></td><td><p>Drapie się / Parska</p></td></tr><tr><td style=\"text-align:center\"><p>4</p></td><td><p>Dent / Borvin</p></td><td><p>Zgarbiony / Niski</p></td><td><p>Dłubie w nosie / Warczy</p></td></tr><tr><td style=\"text-align:center\"><p>5</p></td><td><p>Nila / Bugg</p></td><td><p>Stary / Krępy</p></td><td><p>Skrada się / Pędzi</p></td></tr><tr><td style=\"text-align:center\"><p>6</p></td><td><p>Tail / Ludo</p></td><td><p>Brak ucha lub zęba</p></td><td><p>Ziewa / Ślini się</p></td></tr><tr><td style=\"text-align:center\"><p>7</p></td><td><p>Skred / Billo</p></td><td><p>Zaplecione włosy / Łysy</p></td><td><p>Kuleje / Dąsa się</p></td></tr><tr><td style=\"text-align:center\"><p>8</p></td><td><p>Halda / Yarv</p></td><td><p>Białe futro / Chudy</p></td><td><p>Krąży w kółko / Obgryza paznokcie</p></td></tr><tr><td style=\"text-align:center\"><p>9</p></td><td><p>Crag / Dorel</p></td><td><p>Czysty / Puste spojrzenie</p></td><td><p>Uprzejmy / Narzeka</p></td></tr><tr><td style=\"text-align:center\"><p>10</p></td><td><p>Lorga / Mouse</p></td><td><p>Dzikie spojrzenie / Tyczkowaty</p></td><td><p>Przeklina / Milczy</p></td></tr></tbody></table><p>@UUID[Macro.oYUJG4g7naduZNeb]{Wylosuj NPC ettercapa}</p><table style=\"width:100%\"><caption>NPC ettercapów</caption><tbody><tr><td style=\"text-align:center\"><p>d10</p></td><td><p>Imiona</p></td><td><p>Wygląd</p></td><td><p>Zachowanie</p></td></tr><tr><td style=\"text-align:center\"><p>1</p></td><td><p>Skalt / Trisk</p></td><td><p>Zadbany / Okrągły</p></td><td><p>Stroi się / Wyniosły</p></td></tr><tr><td style=\"text-align:center\"><p>2</p></td><td><p>Kreel / Bisky</p></td><td><p>Osmalone futro / Tyczkowaty</p></td><td><p>Drga nerwowo / Kuli się</p></td></tr><tr><td style=\"text-align:center\"><p>3</p></td><td><p>Slivin / Slaask</p></td><td><p>Niebieskie oczy / Cętkowany</p></td><td><p>Apodyktyczny / Sceptyczny</p></td></tr><tr><td style=\"text-align:center\"><p>4</p></td><td><p>Tiri / Vilis</p></td><td><p>Umęczony / Zgarbiony</p></td><td><p>Delikatny / Brzydliwy</p></td></tr><tr><td style=\"text-align:center\"><p>5</p></td><td><p>Chiska / Liss</p></td><td><p>Sprężysty / Uschnięty</p></td><td><p>Porywczy / Panikarz</p></td></tr><tr><td style=\"text-align:center\"><p>6</p></td><td><p>Jarla / Miri</p></td><td><p>Chorowity / Liniejący</p></td><td><p>Roztargniony / Mamrocze</p></td></tr><tr><td style=\"text-align:center\"><p>7</p></td><td><p>Char / Squill</p></td><td><p>Brak kończyny / Wysoki</p></td><td><p>Kłapie pazurami / Syczy</p></td></tr><tr><td style=\"text-align:center\"><p>8</p></td><td><p>Fisk / Yeek</p></td><td><p>Pokryty bliznami / Grudkowaty</p></td><td><p>Wścibski / Plotkuje</p></td></tr><tr><td style=\"text-align:center\"><p>9</p></td><td><p>Chirr / Vim</p></td><td><p>Brudny / Potężnie zbudowany</p></td><td><p>Krytykancki / Sarkastyczny</p></td></tr><tr><td style=\"text-align:center\"><p>10</p></td><td><p>Rask / Miska</p></td><td><p>Biżuteria / Ubranie</p></td><td><p>Niegrzeczny / Opryskliwy</p></td></tr></tbody></table>"
+                        }
+                    }
+                }
+            },
+            "tables": {
+                "The Lost Citadel: Ettercap Behaviors": {
+                    "name": "Zaginiona Cytadela: Zachowania Pajęczarzy",
+                    "results": {
+                        "1-1": {
+                            "description": "Pyszność / Wyniosłość"
+                        },
+                        "2-2": {
+                            "description": "Drżenie / Wzdryganie się"
+                        },
+                        "3-3": {
+                            "description": "Bycie apodyktycznym / Bycie sceptycznym"
+                        },
+                        "4-4": {
+                            "description": "Bycie delikatnym / Bycie wrażliwym"
+                        },
+                        "5-5": {
+                            "description": "Pośpiech / Panika"
+                        },
+                        "6-6": {
+                            "description": "Rozproszenie uwagi / Mruczenie pod nosem"
+                        },
+                        "7-7": {
+                            "description": "Zgrzytanie pazurami / Syczenie"
+                        },
+                        "8-8": {
+                            "description": "Wścibstwo / Plotkowanie"
+                        },
+                        "9-9": {
+                            "description": "Krytyczne podejście / Sarkazm"
+                        },
+                        "10-10": {
+                            "description": "Bycie niegrzecznym / Bycie gburowatym"
+                        }
+                    }
+                },
+                "The Lost Citadel: Random Encounters": {
+                    "name": "Zaginiona Cytadela: Przypadkowe spotkania",
+                    "results": {
+                        "1-1": {
+                            "description": "<b>@UUID[Actor.XPNU79kJyse04pL3]{Szkarłatny Minotaur}</b> (Obszar 18) pojawia się w polu widzenia, rycząc wyzywająco i drapiąc kamień"
+                        },
+                        "2-2": {
+                            "description": "[[/r 1d4]] @UUID[Compendium.shadowdark.monsters.Actor.fcgq7uwsJEMMdRNx]{Pajęczarze} i [[/r 1d8]] @UUID[Compendium.shadowdark.monsters.Actor.k8tAgECWIzPIStGU]{Ludzie-bestie} staczają krwawą walkę wręcz"
+                        },
+                        "3-3": {
+                            "description": "Suchy podmuch wiatru gasi wszystkie pochodnie i lampy"
+                        },
+                        "4-4": {
+                            "description": "[[/r 1d6]] @UUID[Compendium.shadowdark.monsters.Actor.fcgq7uwsJEMMdRNx]{Pajęczarze} pełzają, szukając złota i klejnotów"
+                        },
+                        "5-5": {
+                            "description": "@UUID[Compendium.shadowdark.monsters.Actor.cWzG0yEVgIk8ijk6]{Szkielety} [[/r 1d6]] poległych poszukiwaczy przygód lub wojowników-magów pojawiają się przed wami, zataczając się"
+                        },
+                        "6-6": {
+                            "description": "[[/r 2d4]] @UUID[Compendium.shadowdark.monsters.Actor.k8tAgECWIzPIStGU]{Ludzie-bestie} spierają się szeptem o to, kto zje stonogi, które właśnie złapali do worka"
+                        },
+                        "7-7": {
+                            "description": "[[/r 1d4]] @UUID[Compendium.shadowdark.monsters.Actor.0JAEN5FsKjaXXZaA]{Mroczne płaszczki} wyłaniają się z powietrza, podskakując i wirując w tańcu ostrzegawczym, którym zaznaczają swoje terytorium"
+                        },
+                        "8-8": {
+                            "description": "@UUID[Compendium.shadowdark.monsters.Actor.j7sQ6Km2jSx5twCC]{Jaskiniowy pełzacz} pędzi po suficie w kierunku światła"
+                        }
+                    }
+                },
+                "The Lost Citadel: Ettercap Appearances": {
+                    "name": "Zaginiona Cytadela: Wygląd Pajęczarzy",
+                    "results": {
+                        "1-1": {
+                            "description": "Zadbany / Okrągły"
+                        },
+                        "2-2": {
+                            "description": "Spalone futro / Chudy"
+                        },
+                        "3-3": {
+                            "description": "Niebieskie oczy / Cętkowany"
+                        },
+                        "4-4": {
+                            "description": "Zgarbiony / Skulony"
+                        },
+                        "5-5": {
+                            "description": "Elastyczny / Wyschnięty"
+                        },
+                        "6-6": {
+                            "description": "W chorobie / W okresie linienia"
+                        },
+                        "7-7": {
+                            "description": "Brak kończyny / Wysoki"
+                        },
+                        "8-8": {
+                            "description": "Bliznowaty / Niezgrabny"
+                        },
+                        "9-9": {
+                            "description": "Obrzydliwy / Potężny"
+                        },
+                        "10-10": {
+                            "description": "Noszenie biżuterii / odzieży"
+                        }
+                    }
+                },
+                "The Lost Citadel: Beastmen Behaviors": {
+                    "name": "Zaginiona Cytadela: Zachowania Ludzi-bestii",
+                    "results": {
+                        "1-1": {
+                            "description": "Przyglądanie się / Podglądanie"
+                        },
+                        "2-2": {
+                            "description": "Szeptanie / Bekanie"
+                        },
+                        "3-3": {
+                            "description": "Drapanie / Prychanie"
+                        },
+                        "4-4": {
+                            "description": "Dłubanie w nosie / Warczenie"
+                        },
+                        "5-5": {
+                            "description": "Pełzanie / Pędzenie"
+                        },
+                        "6-6": {
+                            "description": "Ziewanie / Ślinienie się"
+                        },
+                        "7-7": {
+                            "description": "Kuśtyganie / Dąsanie się"
+                        },
+                        "8-8": {
+                            "description": "Ból / Obgryzanie paznokci"
+                        },
+                        "9-9": {
+                            "description": "Uprzejmość / Narzekanie"
+                        },
+                        "10-10": {
+                            "description": "Przeklinanie / Milczenie"
+                        }
+                    }
+                },
+                "The Lost Citadel: Beastmen Names": {
+                    "name": "Zaginiona Cytadela: Imiona Ludzi-bestii",
+                    "results": {
+                        "1-1": {
+                            "description": "Szczur / Gobbo"
+                        },
+                        "2-2": {
+                            "description": "Barto / Hule"
+                        },
+                        "3-3": {
+                            "description": "Egor / Ralk"
+                        },
+                        "4-4": {
+                            "description": "Dent / Borvin"
+                        },
+                        "5-5": {
+                            "description": "Nila / Bugg"
+                        },
+                        "6-6": {
+                            "description": "Tail / Ludo"
+                        },
+                        "7-7": {
+                            "description": "Skred / Billo"
+                        },
+                        "8-8": {
+                            "description": "Halda / Yarv"
+                        },
+                        "9-9": {
+                            "description": "Crag / Dorel"
+                        },
+                        "10-10": {
+                            "description": "Lorga / Mysz"
+                        }
+                    }
+                },
+                "The Lost Citadel: Rumors": {
+                    "name": "Zaginiona Cytadela: Plotki",
+                    "results": {
+                        "1-1": {
+                            "description": "Starożytni królowie, którzy mieszkali w cytadeli, posiadali magiczną broń, budzącą strach w całym regionie."
+                        },
+                        "2-2": {
+                            "description": "Dziki minotaur, ociekający krwią, krąży po korytarzach cytadeli."
+                        },
+                        "3-3": {
+                            "description": "Wszędzie leżą stosy klejnotów i złota, jakby ktoś o nich zupełnie zapomniał."
+                        },
+                        "4-4": {
+                            "description": "Należy zachować ostrożność podczas dotykania zwłok mieszkańca cytadeli."
+                        },
+                        "5-5": {
+                            "description": "W cieniu czają się oportunistyczne bestie o szarym futrze."
+                        },
+                        "6-6": {
+                            "description": "W cytadeli jest mnóstwo tajnych pomieszczeń i przejść."
+                        }
+                    }
+                },
+                "The Lost Citadel: Beastmen Appearances": {
+                    "name": "Zaginiona Cytadela: Wygląd Ludzi-bestii",
+                    "results": {
+                        "1-1": {
+                            "description": "Nieregularny / Słaby"
+                        },
+                        "2-2": {
+                            "description": "Blizny / Otyłość"
+                        },
+                        "3-3": {
+                            "description": "Złamana szczęka lub nos"
+                        },
+                        "4-4": {
+                            "description": "Zgarbiony / Niski"
+                        },
+                        "5-5": {
+                            "description": "Podstarzały / Krępy"
+                        },
+                        "6-6": {
+                            "description": "Brak ucha lub zęba"
+                        },
+                        "7-7": {
+                            "description": "Z plecionymi włosami / Łysy"
+                        },
+                        "8-8": {
+                            "description": "Z białym futrem / Chudy"
+                        },
+                        "9-9": {
+                            "description": "Czysty / Puste spojrzenie"
+                        },
+                        "10-10": {
+                            "description": "Z dzikim spojrzeniem / Chudy"
+                        }
+                    }
+                },
+                "The Lost Citadel: Random Encounter Check": {
+                    "name": "Zaginiona Cytadela: Testy na przypadkowe spotkania",
+                    "results": {
+                        "1-1": {
+                            "name": "Zaginiona Cytadela: Przypadkowe spotkania"
+                        },
+                        "2-6": {
+                            "description": "Brak spotkania"
+                        }
+                    }
+                },
+                "The Lost Citadel: Ettercap Names": {
+                    "name": "Zaginiona Cytadela: Imiona Pajęczarzy",
+                    "results": {
+                        "1-1": {
+                            "description": "Skalt / Trisk"
+                        },
+                        "2-2": {
+                            "description": "Kreel / Bisky"
+                        },
+                        "3-3": {
+                            "description": "Slivin / Slaask"
+                        },
+                        "4-4": {
+                            "description": "Tiri / Vilis"
+                        },
+                        "5-5": {
+                            "description": "Chiska / Liss"
+                        },
+                        "6-6": {
+                            "description": "Jarla / Miri"
+                        },
+                        "7-7": {
+                            "description": "Char / Squill"
+                        },
+                        "8-8": {
+                            "description": "Fisk / Yeek"
+                        },
+                        "9-9": {
+                            "description": "Chirr / Vim"
+                        },
+                        "10-10": {
+                            "description": "Rask / Miska"
+                        }
+                    }
+                }
+            },
+            "scenes": {
+                "The Lost Citadel": {
+                    "name": "Zaginiona Cytadela"
+                }
+            },
+            "macros": {
+                "Roll Random Beastmen NPC": {
+                    "name": "Wykonaj rzut na losową postać BN z rasy ludzi-bestii",
+                    "command": "// Macro to create a random NPC, being sent in a whisper to GMs on the server.\n\nconst namesTableID = game.tables.find(o => o.name === \"Zaginiona Cytadela: Imiona Ludzi-bestii\")._id;\nconst namesTable = await game.tables.get(namesTableID);\nconst namesResult = await namesTable.draw({displayChat: false});\nconst names = await namesResult.results.pop().getHTML();\n\nconst appearanceTableID = game.tables.find(o => o.name === \"Zaginiona Cytadela: Wygląd Ludzi-bestii\")._id;\nconst appearanceTable = await game.tables.get(appearanceTableID);\nconst appearanceResult = await appearanceTable.draw({displayChat: false});\nconst appearance = await appearanceResult.results.pop().getHTML();\n\nconst behaviorTableID = game.tables.find(o => o.name === \"Zaginiona Cytadela: Zachowania Ludzi-bestii\")._id;\nconst behaviorTable = await game.tables.get(behaviorTableID);\nconst behaviorResult = await behaviorTable.draw({displayChat: false});\nconst behavior = await behaviorResult.results.pop().getHTML();\n\nconst message = `<p> @UUID[Compendium.shadowdark.monsters.Actor.k8tAgECWIzPIStGU]{Człowiek-bestia} o wyglądzie <b>${appearance}</b>, nazywający się <b>${names}</b> \njest <b>${behavior}</b>.</p>`;\n\nconst chatData = {\nuser: game.user._id,\nspeaker: ChatMessage.getSpeaker(),\ncontent: message,\nwhisper: game.users.filter(u => u.isGM).map(u => u._id),\n};\n\nChatMessage.create(chatData, {});"
+                },
+                "Roll Random Ettercap NPC": {
+                    "name": "Wykonaj rzut na losową postać BN z rasy pajęczarzy",
+                    "command": "// Macro to create a random NPC, being sent in a whisper to GMs on the server.\n\nconst namesTableID = game.tables.find(o => o.name === \"Zaginiona Cytadela: Imiona Pajęczarzy\")._id;\nconst namesTable = await game.tables.get(namesTableID);\nconst namesResult = await namesTable.draw({displayChat: false});\nconst names = await namesResult.results.pop().getHTML();\n\nconst appearanceTableID = game.tables.find(o => o.name === \"Zaginiona Cytadela: Wygląd Pajęczarzy\")._id;\nconst appearanceTable = await game.tables.get(appearanceTableID);\nconsole.log(appearanceTableID);\nconst appearanceResult = await appearanceTable.draw({displayChat: false});\nconst appearance = await appearanceResult.results.pop().getHTML();\n\nconst behaviorTableID = game.tables.find(o => o.name === \"Zaginiona Cytadela: Zachowania Pajęczarzy\")._id;\nconst behaviorTable = await game.tables.get(behaviorTableID);\nconst behaviorResult = await behaviorTable.draw({displayChat: false});\nconst behavior = await behaviorResult.results.pop().getHTML();\n\nconst message = `<p> @UUID[Compendium.shadowdark.monsters.Actor.fcgq7uwsJEMMdRNx]{Pajęczarz} o wyglądzie <b>${appearance}</b>, nazywający się <b>${names}</b> \njest <b>${behavior}</b>.</p>`;\n\nconst chatData = {\nuser: game.user._id,\nspeaker: ChatMessage.getSpeaker(),\ncontent: message,\nwhisper: game.users.filter(u => u.isGM).map(u => u._id),\n};\n\nChatMessage.create(chatData, {});"
+                },
+                "The Lost Citadel: Random Encounter Check": {
+                    "name": "Zaginiona Cytadela: Testy na przypadkowe spotkania",
+                    "command": "// Macro to draw for encounter in The Lost Citadel and only show it to the GM.;\n\nconst tableID = game.tables.find(o => o.name === \"Zaginiona Cytadela: Testy na przypadkowe spotkania\")._id;\nconst table = await game.tables.get(tableID);\nawait table.draw({ rollMode: CONST.DICE_ROLL_MODES.PRIVATE});"
+                }
+            }
+        }
+    }
+}
