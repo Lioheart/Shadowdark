@@ -1,0 +1,77 @@
+{
+    "label": "Tabele losowe",
+    "mapping": {
+        "name": "name",
+        "results": {
+            "path": "results",
+            "converter": "document",
+            "documentType": "TableResult",
+            "cardinality": "many",
+            "mapping": {
+                "_identity": {
+                    "export": [
+                        "range",
+                        "_id"
+                    ],
+                    "match": [
+                        "_id",
+                        "range"
+                    ]
+                },
+                "name": {
+                    "path": "name",
+                    "converter": "referencedDocumentField",
+                    "uuidPath": "documentUuid",
+                    "referencedField": "name"
+                },
+                "description": "description"
+            }
+        }
+    },
+    "entries": {
+        "Class Talents: Explorer": {
+            "name": "Talenty klas: Odkrywca",
+            "results": {
+                "2-2": {
+                    "description": "Ulepszona umiejętność odkrywania"
+                },
+                "3-6": {
+                    "description": "+1 do ataków biczem"
+                },
+                "7-9": {
+                    "description": "Wybierz 1"
+                },
+                "10-11": {
+                    "description": "Nauka dodatkowego języka"
+                },
+                "12-12": {
+                    "description": "Wybierz 1"
+                },
+                "D0pWTgHcjErhI8Qr": {
+                    "description": "Rozdziel statystyki"
+                },
+                "DlL6GcS19czIbWqL": {
+                    "description": "+1 do ataków biczem"
+                },
+                "H5PZg9ZB32FChMPD": {
+                    "description": "Ulepszona umiejętność odkrywania"
+                },
+                "qqucFyrl2V8I0lzo": {
+                    "description": "+2 do Inteligencji"
+                },
+                "sydihrWs6NMZPYD9": {
+                    "description": "+2 do Zręczności"
+                },
+                "y8yHrbwqqJd07zeR": {
+                    "description": "Nauka dodatkowego języka"
+                },
+                "YK7PWTSa3DrjBoWp": {
+                    "description": "+2 do Kondycji"
+                }
+            }
+        }
+    },
+    "folders": {
+        "Class Talents": "Talenty klas"
+    }
+}
