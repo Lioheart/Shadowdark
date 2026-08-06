@@ -1,0 +1,68 @@
+{
+    "label": "Przedmioty",
+    "mapping": {
+        "description": "system.description",
+        "effects": {
+            "path": "effects",
+            "converter": "document",
+            "documentType": "ActiveEffect",
+            "cardinality": "many",
+            "mapping": {
+                "name": "name",
+                "description": "description"
+            }
+        },
+        "name": "name",
+        "titles": {
+            "path": "system.titles",
+            "converter": "structured",
+            "cardinality": "many",
+            "key": "from",
+            "mapping": {
+                "chaotic": "chaotic",
+                "lawful": "lawful",
+                "neutral": "neutral"
+            }
+        }
+    },
+    "entries": {
+        "+1 to whip attacks": {
+            "description": "<p>+1 do ataków biczem</p>",
+            "name": "+1 do ataków biczem"
+        },
+        "6TuygVLPHsfSpfBb": {
+            "name": "Mistrzostwo w posługiwaniu się biczem"
+        },
+        "B6T1BqHLqVeGpwE8": {
+            "description": "<p>Otrzymujesz +1 do ataku i obrażeń zadawanych biczem. Ponadto zasięg ataku biczem zwiększa się do bliskiego. Możesz również używać biczu jako haka, a także do przewracania lub rozbrajania stworzeń nie większych od ciebie.</p>",
+            "name": "Mistrzostwo w posługiwaniu się biczem",
+            "effects": {
+                "Whip Mastery": {
+                    "name": "Mistrzostwo w posługiwaniu się biczem"
+                }
+            }
+        },
+        "Delver's Skills": {
+            "description": "<p>Przez lata, dzięki nauce i praktyce, doskonaliłeś swoje umiejętności poruszania się po ziemi. </p><p>Dodaj premię równą połowie twojego poziomu (zaokrągloną w dół) do dowolnego z poniższych testów:</p><ul><li><p>Wspinaczka</p></li><li><p>Wykrywanie i rozbrajanie pułapek</p></li><li><p>Rozszyfrowywanie starożytnych języków</p></li><li><p>Znajomość historii</p></li><li><p>Wiedza o artefaktach</p></li></ul>",
+            "name": "Umiejętności odkrywcy"
+        },
+        "Explorer": {
+            "description": "<p>Z zawodu uczeni i poszukiwacze przygód, mistrzowie wiedzy spragnieni akcji lub pionierscy mól książkowy, którzy wykorzystują swoją ogromną wiedzę, łącząc ją z doświadczeniem w eksploracji podziemi i niezawodnym biczem.</p>",
+            "name": "Odkrywca"
+        },
+        "Improved Delver Skill": {
+            "description": "<p>Zdobądź ułatwienie w jednej ze swoich umiejętności odkrywania</p>",
+            "name": "Ulepszona umiejętność odkrywania"
+        },
+        "Learn Extra Languages": {
+            "description": "<p>Naucz się dwóch dodatkowych popularnych języków lub jednego rzadkiego języka.</p>",
+            "name": "Nauka dodatkowego języka"
+        }
+    },
+    "folders": {
+        "Class": "Klasa",
+        "Classes": "Klasy",
+        "Level": "Poziom",
+        "Talents": "Talenty"
+    }
+}
