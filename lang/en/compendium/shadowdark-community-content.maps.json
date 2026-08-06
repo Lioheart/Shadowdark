@@ -1,0 +1,123 @@
+{
+    "label": "Maps",
+    "mapping": {
+        "name": "name",
+        "navName": "navName"
+    },
+    "entries": {
+        "1Xg1aZ5Ze3dgfbje": {
+            "name": "Slime Eater"
+        },
+        "8NoD3SAbrtHLU766": {
+            "name": "Slime Eater"
+        },
+        "9UxD8jsOKS1iJvza": {
+            "name": "Jellied Skeleton"
+        },
+        "Adjust Darkness Level": {
+            "name": "Adjust Darkness Level"
+        },
+        "Doom in the Red Waste - Map by Prototype": {
+            "name": "Doom in the Red Waste - Map by Prototype",
+            "navName": "Doom in the Red Waste"
+        },
+        "Dropped Torch": {
+            "name": "Dropped Torch"
+        },
+        "Eroding Isle of the Executioner - Map by Prototype": {
+            "name": "Eroding Isle of the Executioner - Map by Prototype",
+            "navName": "Eroding Isle of the Executioner"
+        },
+        "Hoard of the Sea Wolf King - Map by Prototype": {
+            "name": "Hoard of the Sea Wolf King - Map by Prototype",
+            "navName": "Hoard of the Sea Wolf King"
+        },
+        "Hoard of the Sea Wolf King - Map by Silentcatfart": {
+            "name": "Hoard of the Sea Wolf King - Map by Silentcatfart",
+            "navName": "Hoard of the Sea Wolf King"
+        },
+        "i9dUR78pjDh3RT8k": {
+            "name": "Jellied Skeleton"
+        },
+        "Isles of Andrik (No POI) - Map by Silentcatfart": {
+            "name": "Isles of Andrik (No POI) - Map by Silentcatfart",
+            "navName": "Isles of Andrik"
+        },
+        "Isles of Andrik (POI) - Map by Silentcatfart": {
+            "name": "Isles of Andrik (POI) - Map by Silentcatfart",
+            "navName": "Isles of Andrik"
+        },
+        "k0L8ekjojKDvGynk": {
+            "name": "Jellied Skeleton"
+        },
+        "Region": {
+            "name": "Region"
+        },
+        "Ruins of Bittermold Keep - Map by Prototype": {
+            "name": "Ruins of Bittermold Keep - Map by Prototype",
+            "navName": "Ruins of Bittermold Keep"
+        },
+        "Suppress Weather": {
+            "name": "Suppress Weather"
+        },
+        "The Concealed Abbey of the Dragonfly Horde  - Map by Silentcatfart": {
+            "name": "The Concealed Abbey of the Dragonfly Horde  - Map by Silentcatfart",
+            "navName": "The Concealed Abbey"
+        },
+        "The Concealed Abbey of the Dragonfly Horde - Map by Prototype": {
+            "name": "The Concealed Abbey of the Dragonfly Horde - Map by Prototype",
+            "navName": "The Concealed Abbey of the Dragonfly Horde"
+        },
+        "The Djurum - Map by Risky_biscuits": {
+            "name": "The Djurum - Map by Risky_biscuits",
+            "navName": "The Djurum"
+        },
+        "The Gloaming (No POI) - Map by Silentcatfart": {
+            "name": "The Gloaming (No POI) - Map by Silentcatfart"
+        },
+        "The Gloaming (POI) - Map by Silentcatfart": {
+            "name": "The Gloaming (POI) - Map by Silentcatfart",
+            "navName": "The Gloaming"
+        },
+        "The Gloaming - Map by Risky_biscuits": {
+            "name": "The Gloaming - Map by Risky_biscuits",
+            "navName": "The Gloaming"
+        },
+        "The Lost Citadel of the Scarlet Minotaur - Map by Prototype": {
+            "name": "The Lost Citadel of the Scarlet Minotaur - Map by Prototype",
+            "navName": "The Lost Citadel of the Scarlet Minotaur"
+        },
+        "The Lost Citadel of the Scarlet Minotaur - Map by Silentcatfart": {
+            "name": "The Lost Citadel of the Scarlet Minotaur - Map by Silentcatfart",
+            "navName": "The Lost Citadel of the Scarlet Minotaur"
+        },
+        "The Wavestone Monolith - Map by Prototype": {
+            "name": "The Wavestone Monolith - Map by Prototype",
+            "navName": "The Wavestone Monolith"
+        },
+        "Trail of the Slime Lord - Map by Zandelar": {
+            "name": "Trail of the Slime Lord - Map by Zandelar",
+            "navName": "Trail of the Slime Lord"
+        },
+        "Translucent Ooze": {
+            "name": "Translucent Ooze"
+        },
+        "vwZ1kRJm6dgPCyZ8": {
+            "name": "Jellied Skeleton"
+        },
+        "Wortwick Monastery - Map by Prototype": {
+            "name": "Wortwick Monastery - Map by Prototype",
+            "navName": "Wortwick Monastery"
+        },
+        "Wortwick Monastery - Map by Silentcatfart": {
+            "name": "Wortwick Monastery - Map by Silentcatfart",
+            "navName": "Wortwick Monastery"
+        }
+    },
+    "folders": {
+        "Maps by Prototype": "Maps by Prototype",
+        "Maps by Risky_biscuits": "Maps by Risky_biscuits",
+        "Maps by Silentcatfart": "Maps by Silentcatfart",
+        "Maps by Zandelar": "Maps by Zandelar"
+    }
+}

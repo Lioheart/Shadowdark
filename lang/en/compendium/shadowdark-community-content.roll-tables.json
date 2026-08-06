@@ -1,0 +1,77 @@
+{
+    "label": "Roll Tables",
+    "mapping": {
+        "name": "name",
+        "results": {
+            "path": "results",
+            "converter": "document",
+            "documentType": "TableResult",
+            "cardinality": "many",
+            "mapping": {
+                "_identity": {
+                    "export": [
+                        "range",
+                        "_id"
+                    ],
+                    "match": [
+                        "_id",
+                        "range"
+                    ]
+                },
+                "name": {
+                    "path": "name",
+                    "converter": "referencedDocumentField",
+                    "uuidPath": "documentUuid",
+                    "referencedField": "name"
+                },
+                "description": "description"
+            }
+        }
+    },
+    "entries": {
+        "Class Talents: Explorer": {
+            "name": "Class Talents: Explorer",
+            "results": {
+                "2-2": {
+                    "description": "Improved Delver Skill"
+                },
+                "3-6": {
+                    "description": "+1 to whip attacks"
+                },
+                "7-9": {
+                    "description": "Choose 1"
+                },
+                "10-11": {
+                    "description": "Learn Extra Languages"
+                },
+                "12-12": {
+                    "description": "Choose 1"
+                },
+                "D0pWTgHcjErhI8Qr": {
+                    "description": "Distribute to Stats"
+                },
+                "DlL6GcS19czIbWqL": {
+                    "description": "+1 to whip attacks"
+                },
+                "H5PZg9ZB32FChMPD": {
+                    "description": "Improved Delver Skill"
+                },
+                "qqucFyrl2V8I0lzo": {
+                    "description": "+2 to Intelligence"
+                },
+                "sydihrWs6NMZPYD9": {
+                    "description": "+2 to Dexterity"
+                },
+                "y8yHrbwqqJd07zeR": {
+                    "description": "Learn Extra Languages"
+                },
+                "YK7PWTSa3DrjBoWp": {
+                    "description": "+2 to Constitution"
+                }
+            }
+        }
+    },
+    "folders": {
+        "Class Talents": "Class Talents"
+    }
+}

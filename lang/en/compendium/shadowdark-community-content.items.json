@@ -1,0 +1,68 @@
+{
+    "label": "Items",
+    "mapping": {
+        "description": "system.description",
+        "effects": {
+            "path": "effects",
+            "converter": "document",
+            "documentType": "ActiveEffect",
+            "cardinality": "many",
+            "mapping": {
+                "name": "name",
+                "description": "description"
+            }
+        },
+        "name": "name",
+        "titles": {
+            "path": "system.titles",
+            "converter": "structured",
+            "cardinality": "many",
+            "key": "from",
+            "mapping": {
+                "chaotic": "chaotic",
+                "lawful": "lawful",
+                "neutral": "neutral"
+            }
+        }
+    },
+    "entries": {
+        "+1 to whip attacks": {
+            "description": "<p>+1 to attacks with a whip</p>",
+            "name": "+1 to whip attacks"
+        },
+        "6TuygVLPHsfSpfBb": {
+            "name": "Whip Mastery"
+        },
+        "B6T1BqHLqVeGpwE8": {
+            "description": "<p>You gain +1 to attack and damage with a whip. In addition, increase your whip attack range to near. You can also use your whip as a grappling hook, and to trip or disarm creatures no bigger than yourself.</p>",
+            "name": "Whip Mastery",
+            "effects": {
+                "Whip Mastery": {
+                    "name": "Whip Mastery"
+                }
+            }
+        },
+        "Delver's Skills": {
+            "description": "<p>You have perfected your crawling trade over the years through study and practice.</p><p>Add a bonus equal to half your level (round down) to any of the associated checks:</p><ul><li><p>Climbing</p></li><li><p>Finding and disabling traps</p></li><li><p>Deciphering ancient languages</p></li><li><p>Knowledge of history</p></li><li><p>Artifact lore</p></li></ul>",
+            "name": "Delver's Skills"
+        },
+        "Explorer": {
+            "description": "<p>Scholars and adventurers by trade, loremasters itching for action, or trailblazing bookworms who exploit their vast knowledge and combine it with delving expertise and a trusty whip.</p>",
+            "name": "Explorer"
+        },
+        "Improved Delver Skill": {
+            "description": "<p>Gain advantage on one of your delver skills</p>",
+            "name": "Improved Delver Skill"
+        },
+        "Learn Extra Languages": {
+            "description": "<p>Learn two additional common languages or one rare language.</p>",
+            "name": "Learn Extra Languages"
+        }
+    },
+    "folders": {
+        "Class": "Class",
+        "Classes": "Classes",
+        "Level": "Level",
+        "Talents": "Talents"
+    }
+}
